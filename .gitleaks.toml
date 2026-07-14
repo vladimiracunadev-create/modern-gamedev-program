@@ -1,0 +1,18 @@
+# Configuración de gitleaks para el Programa de Desarrollo de Videojuegos Moderno.
+#
+# Se usan las reglas por defecto de gitleaks sobre TODO el repositorio (scripts,
+# workflows, ficheros de configuración). El contenido de las clases es material
+# didáctico (código de ejemplo, claves de API ficticias en tutoriales de
+# integración, etc.); si en el futuro alguna clase incluye un token de EJEMPLO
+# se excluye aquí. Nunca son secretos reales.
+
+title = "gitleaks — Desarrollo de Videojuegos Moderno"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Contenido didáctico de las clases (código y valores de ejemplo, nunca reales)"
+paths = [
+  '''^classes/.*\.md$''',
+]

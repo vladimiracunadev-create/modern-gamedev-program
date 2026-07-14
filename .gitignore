@@ -1,0 +1,67 @@
+# === Entornos y dependencias ===
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+node_modules/
+
+# === Sitio generado para GitHub Pages (build artifact) ===
+site/
+
+# === Godot 4 ===
+# Carpeta de importación/caché del editor (se regenera sola).
+.godot/
+# Exportaciones/builds del juego.
+export.cfg
+export_presets.cfg
+build/
+builds/
+exports/
+*.pck
+
+# === Unity ===
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+*.csproj
+*.sln
+*.unitypackage
+
+# === Unreal Engine ===
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.VC.db
+*.opensdf
+*.sdf
+
+# === Ejecutables y binarios de build (usar Git LFS para assets fuente) ===
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+*.apk
+*.aab
+*.wasm
+
+# === Credenciales y secretos ===
+*.pem
+*.key
+*.env
+.env
+.env.*
+secrets/
+
+# === Sistema operativo / editores ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

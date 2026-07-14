@@ -1,0 +1,126 @@
+<div align="center">
+
+# 🎮 Programa de Desarrollo de Videojuegos Moderno
+
+## **~292 clases · 18 partes · de fundamentos a nivel profesional**
+
+**El programa de desarrollo de videojuegos más completo en español — desde matemáticas, C#, C++ y game loops hasta motores 2D/3D, shaders, IA de juegos, multijugador, VR/AR, optimización y publicación.**
+
+[![CI](https://github.com/vladimiracunadev-create/desarrollo-videojuegos-moderno-program/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/desarrollo-videojuegos-moderno-program/actions/workflows/ci.yml)
+[![Security](https://github.com/vladimiracunadev-create/desarrollo-videojuegos-moderno-program/actions/workflows/security.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/desarrollo-videojuegos-moderno-program/actions/workflows/security.yml)
+[![Deploy Pages](https://github.com/vladimiracunadev-create/desarrollo-videojuegos-moderno-program/actions/workflows/deploy-pages.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/desarrollo-videojuegos-moderno-program/actions/workflows/deploy-pages.yml)
+
+[![Clases](https://img.shields.io/badge/clases-45%20listas%20·%20~292%20plan-7c5cff?style=for-the-badge)](classes/README.md)
+[![Nivel](https://img.shields.io/badge/nivel-fundamentos%20→%20profesional-2e8b57?style=for-the-badge)](classes/README.md)
+[![Idioma](https://img.shields.io/badge/idioma-español-blue?style=for-the-badge)](README.md)
+[![Motores](https://img.shields.io/badge/motores-Godot%20·%20Unity%20·%20Unreal-orange?style=for-the-badge)](classes/README.md)
+[![License](https://img.shields.io/badge/license-MIT-3fb950?style=for-the-badge)](LICENSE)
+
+[🌐 Sitio del curso](https://vladimiracunadev-create.github.io/desarrollo-videojuegos-moderno-program/) · [📚 Índice completo de clases](classes/README.md) · [🗺️ Roadmap](ROADMAP.md) · [🤝 Contribuir](CONTRIBUTING.md)
+
+</div>
+
+---
+
+> 🧭 **Estado del programa.** El diseño curricular abarca las 18 partes listadas abajo. **Construidas y completas: Parte 0 (Fundamentos) y Parte 1 (Motores 2D)** — 45 clases con laboratorio guiado paso a paso. El resto de partes están planificadas en el [Roadmap](ROADMAP.md) y se irán completando con el mismo formato.
+
+## 🎯 Qué es esto
+
+Un currículo modular y **secuencial** que cubre **todo el espectro del desarrollo de videojuegos moderno**, paso a paso, en clases numeradas (001→…) agrupadas en 18 partes. No es teoría suelta: cada clase termina en algo que **corre en pantalla**. Cada clase es una carpeta con un `README.md` completo que incluye:
+
+- 🎯 **Objetivo** y **resultados de aprendizaje verificables**.
+- 🗺️ **Temas** con el porqué de cada uno.
+- 📖 **Definiciones y características** de los términos técnicos.
+- 🧪 **Laboratorio guiado** paso a paso (con motores y herramientas reales).
+- ✍️ **Ejercicios** y **reto verificable** con criterio de aceptación.
+- ⚠️ **Errores comunes** (síntoma → causa → solución).
+- ❓ **Preguntas frecuentes** auténticas.
+- 🔗 **Referencias** a los libros y fuentes del área.
+
+## 🛠️ Todas las tecnologías, no una sola
+
+El programa es **agnóstico de motor por diseño**: primero enseña los conceptos (game loop, vectores, colisiones, ECS) y luego los aterriza en las herramientas líderes de la industria. A lo largo del programa se usan:
+
+| Categoría | Tecnologías cubiertas |
+|---|---|
+| **Motores** | Godot 4 (principal, gratis y open source), Unity (C#), Unreal Engine 5 (C++/Blueprints) |
+| **Lenguajes** | C#, C++, GDScript, Python, JavaScript/TypeScript, HLSL/GLSL (shaders), Rust (Bevy) |
+| **Web / HTML5** | Canvas, WebGL, Phaser, PixiJS, Three.js, WebAssembly |
+| **Gráficos** | Pipeline de render, shaders, PBR, iluminación, post-procesado |
+| **Física** | Godot Physics, Box2D, PhysX, integración numérica |
+| **Networking** | ENet, netcode determinista, cliente-servidor, rollback |
+| **Herramientas** | Git + LFS, Blender, Aseprite, Tiled, FMOD/Wwise, profilers |
+| **Plataformas** | Windows, Linux, macOS, Android/iOS, web, consolas, VR/AR |
+
+> Godot 4 es el motor **principal** para la práctica temprana (gratis, ligero, moderno, exporta a todo), pero los conceptos se contrastan con Unity y Unreal para que puedas trabajar en cualquier estudio.
+
+## 🗂️ Las 18 partes
+
+| # | Parte | Clases | Estado |
+|---|---|---:|:---:|
+| 0 | Fundamentos y prerrequisitos | 25 | ✅ |
+| 1 | Motores 2D y tu primer juego jugable | 20 | ✅ |
+| 2 | Desarrollo 3D: motores, escenas y transformaciones | 22 | 🔜 |
+| 3 | Física y matemáticas de juegos aplicadas | 18 | 🔜 |
+| 4 | Gráficos, shaders y rendering moderno | 22 | 🔜 |
+| 5 | Inteligencia artificial para juegos | 18 | 🔜 |
+| 6 | Audio y música interactiva | 12 | 🔜 |
+| 7 | Multijugador y networking | 18 | 🔜 |
+| 8 | Game design y diseño de niveles | 16 | 🔜 |
+| 9 | Arte, animación y pipeline de assets | 16 | 🔜 |
+| 10 | UI/UX, accesibilidad y localización | 12 | 🔜 |
+| 11 | Móvil, consolas y plataformas | 14 | 🔜 |
+| 12 | Juegos web y HTML5 | 14 | 🔜 |
+| 13 | VR, AR y experiencias inmersivas | 12 | 🔜 |
+| 14 | Optimización, profiling y rendimiento | 15 | 🔜 |
+| 15 | Herramientas, editores y automatización (tooling) | 12 | 🔜 |
+| 16 | Producción, publicación, monetización y LiveOps | 14 | 🔜 |
+| 17 | Capstones y preparación profesional / portfolio | 12 | 🔜 |
+
+➡️ **[Ver el índice completo de clases](classes/README.md)**
+
+## 📚 Pauta derivada de los mejores libros de la industria
+
+Cada parte sigue explícitamente la secuencia y los énfasis de la literatura de referencia del sector:
+
+| Área | Libros de referencia |
+|---|---|
+| **Arquitectura de motores** | Gregory — *Game Engine Architecture* · Nystrom — *Game Programming Patterns* |
+| **Matemáticas y física** | Lengyel — *Mathematics for 3D Game Programming* · Millington — *Game Physics Engine Development* |
+| **Gráficos / shaders** | Akenine-Möller et al. — *Real-Time Rendering* · *The Book of Shaders* (Gonzalez Vivo) |
+| **IA de juegos** | Millington & Funge — *Artificial Intelligence for Games* · *Game AI Pro* (Rabin) |
+| **Game design** | Schell — *The Art of Game Design* · Fullerton — *Game Design Workshop* |
+| **Multijugador** | Glazer & Madhav — *Multiplayer Game Programming* · Valve/GDC netcode talks |
+| **Producción** | Keith — *Agile Game Development* · Chandler — *The Game Production Handbook* |
+
+> Las referencias apuntan a las obras; **no se reproduce su contenido**. El material del curso es original en su redacción.
+
+## 🚀 Cómo usar el programa
+
+1. **Sigue el orden.** La numeración es secuencial por diseño: cada clase asume lo anterior. Si ya dominas un bloque, sáltalo, pero no empieces por la Parte 4 (shaders) sin la 0.
+2. **Monta el entorno primero.** La [Clase 016](classes/parte-0-fundamentos-y-prerrequisitos/016-montaje-del-entorno-godot-unity-unreal-y-herramientas/README.md) te deja Godot, Unity y las herramientas listas para trabajar.
+3. **Haz los laboratorios.** Leer no basta: cada clase termina en algo que corre. Escribe el código, ejecútalo, rómpelo y arréglalo.
+4. **Construye tu portfolio.** Cada capstone es una pieza publicable. Al final tendrás juegos jugables que enseñar.
+
+## 🧭 Rutas sugeridas por rol
+
+- **Programador de gameplay** → Partes 0, 1, 2, 3, 5, 8.
+- **Programador gráfico / técnico** → Partes 0, 3, 4, 14.
+- **Desarrollador indie (solo dev)** → Partes 0, 1, 6, 8, 9, 16.
+- **Desarrollador móvil / web** → Partes 0, 1, 11, 12.
+- **Programador de multijugador** → Partes 0, 2, 3, 7, 14.
+- **Diseñador de niveles / técnico** → Partes 0, 1, 8, 15.
+
+## 📄 Licencia
+
+[MIT](LICENSE) — úsalo, modifícalo y compártelo. El conocimiento debe ser accesible.
+
+---
+
+<div align="center">
+
+**Hecho para quien quiere aprender a hacer videojuegos en serio, de principio a fin.**
+
+[⬆️ Empezar por el índice de clases](classes/README.md)
+
+</div>
