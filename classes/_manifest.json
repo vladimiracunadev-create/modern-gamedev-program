@@ -1,74 +1,971 @@
 {
  "program": "Desarrollo de Videojuegos Moderno",
  "total_planned": 292,
- "built": [0, 1],
+ "total_built": 155,
+ "parts_built": 8,
  "parts": [
   {
    "idx": 0,
    "title": "Fundamentos y prerrequisitos",
-   "sub": "Matematicas, programacion (C#, C++, GDScript), game loop, patrones, ECS, graficos base, audio y entorno",
    "slug": "parte-0-fundamentos-y-prerrequisitos",
    "start": 1,
    "end": 25,
    "count": 25,
+   "built": true,
    "classes": [
-    { "num": 1, "title": "Que es el desarrollo de videojuegos moderno: motores, disciplinas y pipeline", "slug": "001-que-es-el-desarrollo-de-videojuegos-moderno-motores-disciplinas-y-pipeline" },
-    { "num": 2, "title": "Anatomia de un videojuego: game loop, estado, tiempo y frames", "slug": "002-anatomia-de-un-videojuego-game-loop-estado-tiempo-y-frames" },
-    { "num": 3, "title": "Historia y generos: que define la jugabilidad", "slug": "003-historia-y-generos-que-define-la-jugabilidad" },
-    { "num": 4, "title": "Matematicas para juegos I: vectores y algebra lineal", "slug": "004-matematicas-para-juegos-i-vectores-y-algebra-lineal" },
-    { "num": 5, "title": "Matematicas para juegos II: matrices y transformaciones", "slug": "005-matematicas-para-juegos-ii-matrices-y-transformaciones" },
-    { "num": 6, "title": "Matematicas para juegos III: trigonometria, angulos y rotaciones", "slug": "006-matematicas-para-juegos-iii-trigonometria-angulos-y-rotaciones" },
-    { "num": 7, "title": "Fisica basica para juegos: cinematica, fuerzas e integracion", "slug": "007-fisica-basica-para-juegos-cinematica-fuerzas-e-integracion" },
-    { "num": 8, "title": "Programacion fundamentos con C#: tipos, control de flujo y funciones", "slug": "008-programacion-fundamentos-con-c-sharp-tipos-control-de-flujo-y-funciones" },
-    { "num": 9, "title": "POO para juegos: clases, herencia y composicion", "slug": "009-programacion-orientada-a-objetos-para-juegos-clases-herencia-y-composicion" },
-    { "num": 10, "title": "Estructuras de datos para juegos: arrays, listas, diccionarios y colas", "slug": "010-estructuras-de-datos-para-juegos-arrays-listas-diccionarios-y-colas" },
-    { "num": 11, "title": "C++ para juegos: fundamentos, punteros y memoria", "slug": "011-c-plus-plus-para-juegos-fundamentos-punteros-y-memoria" },
-    { "num": 12, "title": "GDScript y Python en juegos: scripting rapido", "slug": "012-gdscript-y-python-en-juegos-scripting-rapido" },
-    { "num": 13, "title": "Patrones de diseno en juegos: State, Observer, Component y mas", "slug": "013-patrones-de-diseno-en-juegos-state-observer-component-y-mas" },
-    { "num": 14, "title": "Arquitectura ECS (Entity-Component-System)", "slug": "014-arquitectura-ecs-entity-component-system" },
-    { "num": 15, "title": "Git y control de versiones para proyectos de juegos (con LFS)", "slug": "015-git-y-control-de-versiones-para-proyectos-de-juegos-con-lfs" },
-    { "num": 16, "title": "Montaje del entorno: Godot, Unity, Unreal y herramientas", "slug": "016-montaje-del-entorno-godot-unity-unreal-y-herramientas" },
-    { "num": 17, "title": "Graficos por computadora: como se dibuja un frame", "slug": "017-graficos-por-computadora-como-se-dibuja-un-frame" },
-    { "num": 18, "title": "Sistemas de coordenadas y espacios: local, mundo, camara, pantalla", "slug": "018-sistemas-de-coordenadas-y-espacios-local-mundo-camara-pantalla" },
-    { "num": 19, "title": "Color, sprites, texturas y formatos de imagen", "slug": "019-color-sprites-texturas-y-formatos-de-imagen" },
-    { "num": 20, "title": "Audio digital: muestreo, formatos y mezcla", "slug": "020-audio-digital-muestreo-formatos-y-mezcla" },
-    { "num": 21, "title": "Assets y pipeline de contenido: import, compresion y presupuestos", "slug": "021-assets-y-pipeline-de-contenido-import-compresion-y-presupuestos" },
-    { "num": 22, "title": "Delta time, fixed timestep y determinismo", "slug": "022-delta-time-fixed-timestep-y-determinismo" },
-    { "num": 23, "title": "Debugging y profiling: herramientas y mentalidad", "slug": "023-debugging-y-profiling-herramientas-y-mentalidad" },
-    { "num": 24, "title": "Prototipado rapido y bucle de iteracion de diseno", "slug": "024-prototipado-rapido-y-bucle-de-iteracion-de-diseno" },
-    { "num": 25, "title": "Metodologia, gestion de proyectos y portfolio del desarrollador", "slug": "025-metodologia-gestion-de-proyectos-y-portfolio-del-desarrollador" }
+    {
+     "num": 1,
+     "title": "Qué es el desarrollo de videojuegos moderno: motores, disciplinas y pipeline",
+     "slug": "001-que-es-el-desarrollo-de-videojuegos-moderno-motores-disciplinas-y-pipeline"
+    },
+    {
+     "num": 2,
+     "title": "Anatomía de un videojuego: game loop, estado, tiempo y frames",
+     "slug": "002-anatomia-de-un-videojuego-game-loop-estado-tiempo-y-frames"
+    },
+    {
+     "num": 3,
+     "title": "Historia y géneros: qué define la jugabilidad",
+     "slug": "003-historia-y-generos-que-define-la-jugabilidad"
+    },
+    {
+     "num": 4,
+     "title": "Matemáticas para juegos I: vectores y álgebra lineal",
+     "slug": "004-matematicas-para-juegos-i-vectores-y-algebra-lineal"
+    },
+    {
+     "num": 5,
+     "title": "Matemáticas para juegos II: matrices y transformaciones",
+     "slug": "005-matematicas-para-juegos-ii-matrices-y-transformaciones"
+    },
+    {
+     "num": 6,
+     "title": "Matemáticas para juegos III: trigonometría, ángulos y rotaciones",
+     "slug": "006-matematicas-para-juegos-iii-trigonometria-angulos-y-rotaciones"
+    },
+    {
+     "num": 7,
+     "title": "Física básica para juegos: cinemática, fuerzas e integración",
+     "slug": "007-fisica-basica-para-juegos-cinematica-fuerzas-e-integracion"
+    },
+    {
+     "num": 8,
+     "title": "Programación fundamentos con C#: tipos, control de flujo y funciones",
+     "slug": "008-programacion-fundamentos-con-c-sharp-tipos-control-de-flujo-y-funciones"
+    },
+    {
+     "num": 9,
+     "title": "POO para juegos: clases, herencia y composición",
+     "slug": "009-programacion-orientada-a-objetos-para-juegos-clases-herencia-y-composicion"
+    },
+    {
+     "num": 10,
+     "title": "Estructuras de datos para juegos: arrays, listas, diccionarios y colas",
+     "slug": "010-estructuras-de-datos-para-juegos-arrays-listas-diccionarios-y-colas"
+    },
+    {
+     "num": 11,
+     "title": "C++ para juegos: fundamentos, punteros y memoria",
+     "slug": "011-c-plus-plus-para-juegos-fundamentos-punteros-y-memoria"
+    },
+    {
+     "num": 12,
+     "title": "GDScript y Python en juegos: scripting rápido",
+     "slug": "012-gdscript-y-python-en-juegos-scripting-rapido"
+    },
+    {
+     "num": 13,
+     "title": "Patrones de diseño en juegos: State, Observer, Component y más",
+     "slug": "013-patrones-de-diseno-en-juegos-state-observer-component-y-mas"
+    },
+    {
+     "num": 14,
+     "title": "Arquitectura ECS (Entity-Component-System)",
+     "slug": "014-arquitectura-ecs-entity-component-system"
+    },
+    {
+     "num": 15,
+     "title": "Git y control de versiones para proyectos de juegos (con LFS)",
+     "slug": "015-git-y-control-de-versiones-para-proyectos-de-juegos-con-lfs"
+    },
+    {
+     "num": 16,
+     "title": "Montaje del entorno: Godot, Unity, Unreal y herramientas",
+     "slug": "016-montaje-del-entorno-godot-unity-unreal-y-herramientas"
+    },
+    {
+     "num": 17,
+     "title": "Gráficos por computadora: cómo se dibuja un frame",
+     "slug": "017-graficos-por-computadora-como-se-dibuja-un-frame"
+    },
+    {
+     "num": 18,
+     "title": "Sistemas de coordenadas y espacios: local, mundo, cámara, pantalla",
+     "slug": "018-sistemas-de-coordenadas-y-espacios-local-mundo-camara-pantalla"
+    },
+    {
+     "num": 19,
+     "title": "Color, sprites, texturas y formatos de imagen",
+     "slug": "019-color-sprites-texturas-y-formatos-de-imagen"
+    },
+    {
+     "num": 20,
+     "title": "Audio digital: muestreo, formatos y mezcla",
+     "slug": "020-audio-digital-muestreo-formatos-y-mezcla"
+    },
+    {
+     "num": 21,
+     "title": "Assets y pipeline de contenido: import, compresión y presupuestos",
+     "slug": "021-assets-y-pipeline-de-contenido-import-compresion-y-presupuestos"
+    },
+    {
+     "num": 22,
+     "title": "Delta time, fixed timestep y determinismo",
+     "slug": "022-delta-time-fixed-timestep-y-determinismo"
+    },
+    {
+     "num": 23,
+     "title": "Debugging y profiling: herramientas y mentalidad",
+     "slug": "023-debugging-y-profiling-herramientas-y-mentalidad"
+    },
+    {
+     "num": 24,
+     "title": "Prototipado rápido y bucle de iteración de diseño",
+     "slug": "024-prototipado-rapido-y-bucle-de-iteracion-de-diseno"
+    },
+    {
+     "num": 25,
+     "title": "Metodología, gestión de proyectos y portfolio del desarrollador",
+     "slug": "025-metodologia-gestion-de-proyectos-y-portfolio-del-desarrollador"
+    }
    ]
   },
   {
    "idx": 1,
    "title": "Motores 2D y tu primer juego jugable",
-   "sub": "Godot 4 de cero a un plataformas 2D completo: nodos, input, movimiento, colisiones, tilemaps, enemigos, UI, audio y exportacion",
    "slug": "parte-1-motores-2d-y-tu-primer-juego-jugable",
    "start": 26,
    "end": 45,
    "count": 20,
+   "built": true,
    "classes": [
-    { "num": 26, "title": "Anatomia de un motor 2D: escenas, nodos y arbol", "slug": "026-anatomia-de-un-motor-2d-escenas-nodos-y-arbol" },
-    { "num": 27, "title": "Godot: interfaz, proyecto y primer sprite en pantalla", "slug": "027-godot-interfaz-proyecto-y-primer-sprite-en-pantalla" },
-    { "num": 28, "title": "El game loop en la practica: _process, _physics_process y senales", "slug": "028-el-game-loop-en-la-practica-process-physics-process-y-senales" },
-    { "num": 29, "title": "Input: teclado, raton, gamepad y mapeo de acciones", "slug": "029-input-teclado-raton-gamepad-y-mapeo-de-acciones" },
-    { "num": 30, "title": "Movimiento de personaje 2D: velocidad, aceleracion y control", "slug": "030-movimiento-de-personaje-2d-velocidad-aceleracion-y-control" },
-    { "num": 31, "title": "Sprites, animacion por frames y AnimationPlayer", "slug": "031-sprites-animacion-por-frames-y-animationplayer" },
-    { "num": 32, "title": "Camaras 2D: seguimiento, limites y screen shake", "slug": "032-camaras-2d-seguimiento-limites-y-screen-shake" },
-    { "num": 33, "title": "Colisiones 2D: cuerpos, areas y capas", "slug": "033-colisiones-2d-cuerpos-areas-y-capas" },
-    { "num": 34, "title": "Fisica 2D: RigidBody, gravedad y plataformas", "slug": "034-fisica-2d-rigidbody-gravedad-y-plataformas" },
-    { "num": 35, "title": "Tilemaps y diseno de niveles 2D", "slug": "035-tilemaps-y-diseno-de-niveles-2d" },
-    { "num": 36, "title": "Maquina de estados del jugador: idle, run, jump, fall", "slug": "036-maquina-de-estados-del-jugador-idle-run-jump-fall" },
-    { "num": 37, "title": "Enemigos e IA basica 2D: patrullas y persecucion", "slug": "037-enemigos-e-ia-basica-2d-patrullas-y-persecucion" },
-    { "num": 38, "title": "Salud, dano y combate 2D", "slug": "038-salud-dano-y-combate-2d" },
-    { "num": 39, "title": "Recolectables, puntuacion y HUD", "slug": "039-recolectables-puntuacion-y-hud" },
-    { "num": 40, "title": "Menus, pausa y flujo de escenas", "slug": "040-menus-pausa-y-flujo-de-escenas" },
-    { "num": 41, "title": "Sonido y musica en 2D: efectos y bucle musical", "slug": "041-sonido-y-musica-en-2d-efectos-y-bucle-musical" },
-    { "num": 42, "title": "Particulas y feedback visual (juice)", "slug": "042-particulas-y-feedback-visual-juice" },
-    { "num": 43, "title": "Guardado y carga de progreso", "slug": "043-guardado-y-carga-de-progreso" },
-    { "num": 44, "title": "Empaquetado y exportacion del juego 2D (Windows y web)", "slug": "044-empaquetado-y-exportacion-del-juego-2d-windows-y-web" },
-    { "num": 45, "title": "Capstone Parte 1: un plataformas 2D completo jugable", "slug": "045-capstone-parte-1-un-plataformas-2d-completo-jugable" }
+    {
+     "num": 26,
+     "title": "Anatomía de un motor 2D: escenas, nodos y árbol",
+     "slug": "026-anatomia-de-un-motor-2d-escenas-nodos-y-arbol"
+    },
+    {
+     "num": 27,
+     "title": "Godot: interfaz, proyecto y primer sprite en pantalla",
+     "slug": "027-godot-interfaz-proyecto-y-primer-sprite-en-pantalla"
+    },
+    {
+     "num": 28,
+     "title": "El game loop en la práctica: _process,_physics_process y señales",
+     "slug": "028-el-game-loop-en-la-practica-process-physics-process-y-senales"
+    },
+    {
+     "num": 29,
+     "title": "Input: teclado, ratón, gamepad y mapeo de acciones",
+     "slug": "029-input-teclado-raton-gamepad-y-mapeo-de-acciones"
+    },
+    {
+     "num": 30,
+     "title": "Movimiento de personaje 2D: velocidad, aceleración y control",
+     "slug": "030-movimiento-de-personaje-2d-velocidad-aceleracion-y-control"
+    },
+    {
+     "num": 31,
+     "title": "Sprites, animación por frames y AnimationPlayer",
+     "slug": "031-sprites-animacion-por-frames-y-animationplayer"
+    },
+    {
+     "num": 32,
+     "title": "Cámaras 2D: seguimiento, límites y screen shake",
+     "slug": "032-camaras-2d-seguimiento-limites-y-screen-shake"
+    },
+    {
+     "num": 33,
+     "title": "Colisiones 2D: cuerpos, áreas y capas",
+     "slug": "033-colisiones-2d-cuerpos-areas-y-capas"
+    },
+    {
+     "num": 34,
+     "title": "Física 2D: RigidBody, gravedad y plataformas",
+     "slug": "034-fisica-2d-rigidbody-gravedad-y-plataformas"
+    },
+    {
+     "num": 35,
+     "title": "Tilemaps y diseño de niveles 2D",
+     "slug": "035-tilemaps-y-diseno-de-niveles-2d"
+    },
+    {
+     "num": 36,
+     "title": "Máquina de estados del jugador: idle, run, jump, fall",
+     "slug": "036-maquina-de-estados-del-jugador-idle-run-jump-fall"
+    },
+    {
+     "num": 37,
+     "title": "Enemigos e IA básica 2D: patrullas y persecución",
+     "slug": "037-enemigos-e-ia-basica-2d-patrullas-y-persecucion"
+    },
+    {
+     "num": 38,
+     "title": "Salud, daño y combate 2D",
+     "slug": "038-salud-dano-y-combate-2d"
+    },
+    {
+     "num": 39,
+     "title": "Recolectables, puntuación y HUD",
+     "slug": "039-recolectables-puntuacion-y-hud"
+    },
+    {
+     "num": 40,
+     "title": "Menús, pausa y flujo de escenas",
+     "slug": "040-menus-pausa-y-flujo-de-escenas"
+    },
+    {
+     "num": 41,
+     "title": "Sonido y música en 2D: efectos y bucle musical",
+     "slug": "041-sonido-y-musica-en-2d-efectos-y-bucle-musical"
+    },
+    {
+     "num": 42,
+     "title": "Partículas y feedback visual (juice)",
+     "slug": "042-particulas-y-feedback-visual-juice"
+    },
+    {
+     "num": 43,
+     "title": "Guardado y carga de progreso",
+     "slug": "043-guardado-y-carga-de-progreso"
+    },
+    {
+     "num": 44,
+     "title": "Empaquetado y exportación del juego 2D (Windows y web)",
+     "slug": "044-empaquetado-y-exportacion-del-juego-2d-windows-y-web"
+    },
+    {
+     "num": 45,
+     "title": "Capstone Parte 1: un plataformas 2D completo jugable",
+     "slug": "045-capstone-parte-1-un-plataformas-2d-completo-jugable"
+    }
    ]
+  },
+  {
+   "idx": 2,
+   "title": "Desarrollo 3D: motores, escenas y transformaciones",
+   "slug": "parte-2-desarrollo-3d-motores-escenas-y-transformaciones",
+   "start": 46,
+   "end": 67,
+   "count": 22,
+   "built": true,
+   "classes": [
+    {
+     "num": 46,
+     "title": "Del 2D al 3D: qué cambia (ejes, cámaras y mallas)",
+     "slug": "046-del-2d-al-3d-que-cambia-ejes-camaras-y-mallas"
+    },
+    {
+     "num": 47,
+     "title": "Escenas 3D en Godot: Node3D, transformaciones y gizmo",
+     "slug": "047-escenas-3d-en-godot-node3d-transformaciones-y-gizmo"
+    },
+    {
+     "num": 48,
+     "title": "Sistemas de coordenadas 3D y Transform3D (basis y origin)",
+     "slug": "048-sistemas-de-coordenadas-3d-y-transform3d-basis-y-origin"
+    },
+    {
+     "num": 49,
+     "title": "Mallas, materiales y MeshInstance3D",
+     "slug": "049-mallas-materiales-y-meshinstance3d"
+    },
+    {
+     "num": 50,
+     "title": "Importar modelos 3D: glTF, Blender y el pipeline",
+     "slug": "050-importar-modelos-3d-gltf-blender-y-el-pipeline"
+    },
+    {
+     "num": 51,
+     "title": "Cámaras 3D: perspectiva, FOV y Camera3D",
+     "slug": "051-camaras-3d-perspectiva-fov-y-camera3d"
+    },
+    {
+     "num": 52,
+     "title": "Iluminación 3D: tipos de luz y sombras",
+     "slug": "052-iluminacion-3d-tipos-de-luz-y-sombras"
+    },
+    {
+     "num": 53,
+     "title": "WorldEnvironment: cielo, niebla y tonemapping",
+     "slug": "053-worldenvironment-cielo-niebla-y-tonemapping"
+    },
+    {
+     "num": 54,
+     "title": "Movimiento 3D: CharacterBody3D y move_and_slide",
+     "slug": "054-movimiento-3d-characterbody3d-y-move-and-slide"
+    },
+    {
+     "num": 55,
+     "title": "Controlador en primera persona (FPS)",
+     "slug": "055-controlador-en-primera-persona-fps"
+    },
+    {
+     "num": 56,
+     "title": "Controlador en tercera persona con cámara orbital",
+     "slug": "056-controlador-en-tercera-persona-con-camara-orbital"
+    },
+    {
+     "num": 57,
+     "title": "Colisiones y física 3D: cuerpos, formas y capas",
+     "slug": "057-colisiones-y-fisica-3d-cuerpos-formas-y-capas"
+    },
+    {
+     "num": 58,
+     "title": "RigidBody3D, fuerzas e interacción física",
+     "slug": "058-rigidbody3d-fuerzas-e-interaccion-fisica"
+    },
+    {
+     "num": 59,
+     "title": "Raycasting 3D: selección, disparos y detección de suelo",
+     "slug": "059-raycasting-3d-seleccion-disparos-y-deteccion-de-suelo"
+    },
+    {
+     "num": 60,
+     "title": "Animación 3D: esqueletos, skinning y AnimationPlayer",
+     "slug": "060-animacion-3d-esqueletos-skinning-y-animationplayer"
+    },
+    {
+     "num": 61,
+     "title": "AnimationTree y blending de animaciones",
+     "slug": "061-animationtree-y-blending-de-animaciones"
+    },
+    {
+     "num": 62,
+     "title": "NavigationServer 3D: navmesh y pathfinding",
+     "slug": "062-navigationserver-3d-navmesh-y-pathfinding"
+    },
+    {
+     "num": 63,
+     "title": "Áreas, triggers y detección en 3D",
+     "slug": "063-areas-triggers-y-deteccion-en-3d"
+    },
+    {
+     "num": 64,
+     "title": "Instanciado y escenas 3D reutilizables",
+     "slug": "064-instanciado-y-escenas-3d-reutilizables"
+    },
+    {
+     "num": 65,
+     "title": "Nivel 3D: GridMap, kits modulares y blockout",
+     "slug": "065-nivel-3d-gridmap-kits-modulares-y-blockout"
+    },
+    {
+     "num": 66,
+     "title": "Optimización 3D básica: LOD, occlusion y draw calls",
+     "slug": "066-optimizacion-3d-basica-lod-occlusion-y-draw-calls"
+    },
+    {
+     "num": 67,
+     "title": "Capstone Parte 2: un nivel 3D explorable en tercera persona",
+     "slug": "067-capstone-parte-2-un-nivel-3d-explorable-en-tercera-persona"
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "title": "Física y matemáticas de juegos aplicadas",
+   "slug": "parte-3-fisica-y-matematicas-de-juegos-aplicadas",
+   "start": 68,
+   "end": 85,
+   "count": 18,
+   "built": true,
+   "classes": [
+    {
+     "num": 68,
+     "title": "Repaso aplicado: vectores y transformaciones en el motor",
+     "slug": "068-repaso-aplicado-vectores-y-transformaciones-en-el-motor"
+    },
+    {
+     "num": 69,
+     "title": "Cuaterniones: rotaciones 3D sin gimbal lock",
+     "slug": "069-cuaterniones-rotaciones-3d-sin-gimbal-lock"
+    },
+    {
+     "num": 70,
+     "title": "Integración numérica en la práctica (Euler y Verlet)",
+     "slug": "070-integracion-numerica-en-la-practica-euler-y-verlet"
+    },
+    {
+     "num": 71,
+     "title": "Detección de colisiones: AABB, esferas y SAT",
+     "slug": "071-deteccion-de-colisiones-aabb-esferas-y-sat"
+    },
+    {
+     "num": 72,
+     "title": "Respuesta a colisiones: impulsos y restitución",
+     "slug": "072-respuesta-a-colisiones-impulsos-y-restitucion"
+    },
+    {
+     "num": 73,
+     "title": "Fricción, arrastre y amortiguación",
+     "slug": "073-friccion-arrastre-y-amortiguacion"
+    },
+    {
+     "num": 74,
+     "title": "Raycasts y shapecasts: usos avanzados",
+     "slug": "074-raycasts-y-shapecasts-usos-avanzados"
+    },
+    {
+     "num": 75,
+     "title": "Motores de física: broadphase y narrowphase",
+     "slug": "075-motores-de-fisica-broadphase-y-narrowphase"
+    },
+    {
+     "num": 76,
+     "title": "Juntas y restricciones (joints): bisagras y resortes",
+     "slug": "076-juntas-y-restricciones-joints-bisagras-y-resortes"
+    },
+    {
+     "num": 77,
+     "title": "Ragdolls y física de personajes",
+     "slug": "077-ragdolls-y-fisica-de-personajes"
+    },
+    {
+     "num": 78,
+     "title": "Vehículos: física de ruedas y suspensión",
+     "slug": "078-vehiculos-fisica-de-ruedas-y-suspension"
+    },
+    {
+     "num": 79,
+     "title": "Proyectiles: balística, gravedad y predicción",
+     "slug": "079-proyectiles-balistica-gravedad-y-prediccion"
+    },
+    {
+     "num": 80,
+     "title": "Movimiento con curvas: Bézier, splines y paths",
+     "slug": "080-movimiento-con-curvas-bezier-splines-y-paths"
+    },
+    {
+     "num": 81,
+     "title": "Interpolación y easing (lerp, slerp y tweens)",
+     "slug": "081-interpolacion-y-easing-lerp-slerp-y-tweens"
+    },
+    {
+     "num": 82,
+     "title": "Steering behaviors: seek, flee, arrive y wander",
+     "slug": "082-steering-behaviors-seek-flee-arrive-y-wander"
+    },
+    {
+     "num": 83,
+     "title": "Física de partículas y telas (soft bodies)",
+     "slug": "083-fisica-de-particulas-y-telas-soft-bodies"
+    },
+    {
+     "num": 84,
+     "title": "Determinismo y física fija para multijugador",
+     "slug": "084-determinismo-y-fisica-fija-para-multijugador"
+    },
+    {
+     "num": 85,
+     "title": "Capstone Parte 3: un mini-juego de física",
+     "slug": "085-capstone-parte-3-un-mini-juego-de-fisica"
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "title": "Gráficos, shaders y rendering moderno",
+   "slug": "parte-4-graficos-shaders-y-rendering-moderno",
+   "start": 86,
+   "end": 107,
+   "count": 22,
+   "built": true,
+   "classes": [
+    {
+     "num": 86,
+     "title": "El pipeline de render moderno en profundidad",
+     "slug": "086-el-pipeline-de-render-moderno-en-profundidad"
+    },
+    {
+     "num": 87,
+     "title": "Rasterización vs ray tracing: panorama actual",
+     "slug": "087-rasterizacion-vs-ray-tracing-panorama-actual"
+    },
+    {
+     "num": 88,
+     "title": "El lenguaje de shaders de Godot: estructura y tipos",
+     "slug": "088-el-lenguaje-de-shaders-de-godot-estructura-y-tipos"
+    },
+    {
+     "num": 89,
+     "title": "Vertex shaders: deformar geometría",
+     "slug": "089-vertex-shaders-deformar-geometria"
+    },
+    {
+     "num": 90,
+     "title": "Fragment shaders: color por píxel y UVs",
+     "slug": "090-fragment-shaders-color-por-pixel-y-uvs"
+    },
+    {
+     "num": 91,
+     "title": "Texturas en shaders: sampling, tiling y mezcla",
+     "slug": "091-texturas-en-shaders-sampling-tiling-y-mezcla"
+    },
+    {
+     "num": 92,
+     "title": "Iluminación en shaders: Lambert, Phong y especular",
+     "slug": "092-iluminacion-en-shaders-lambert-phong-y-especular"
+    },
+    {
+     "num": 93,
+     "title": "PBR: modelo físico de materiales (metallic/roughness)",
+     "slug": "093-pbr-modelo-fisico-de-materiales-metallic-roughness"
+    },
+    {
+     "num": 94,
+     "title": "Normal mapping y detalle de superficie",
+     "slug": "094-normal-mapping-y-detalle-de-superficie"
+    },
+    {
+     "num": 95,
+     "title": "Shaders 2D: efectos sobre sprites (disolución y outline)",
+     "slug": "095-shaders-2d-efectos-sobre-sprites-disolucion-y-outline"
+    },
+    {
+     "num": 96,
+     "title": "Screen-space y post-procesado",
+     "slug": "096-screen-space-y-post-procesado"
+    },
+    {
+     "num": 97,
+     "title": "Efectos: bloom, vignette, aberración cromática y CRT",
+     "slug": "097-efectos-bloom-vignette-aberracion-cromatica-y-crt"
+    },
+    {
+     "num": 98,
+     "title": "Sombras: shadow mapping y calidad",
+     "slug": "098-sombras-shadow-mapping-y-calidad"
+    },
+    {
+     "num": 99,
+     "title": "Transparencia, blending y orden de dibujado",
+     "slug": "099-transparencia-blending-y-orden-de-dibujado"
+    },
+    {
+     "num": 100,
+     "title": "Agua, olas y superficies animadas",
+     "slug": "100-agua-olas-y-superficies-animadas"
+    },
+    {
+     "num": 101,
+     "title": "Partículas en GPU y shaders de partículas",
+     "slug": "101-particulas-en-gpu-y-shaders-de-particulas"
+    },
+    {
+     "num": 102,
+     "title": "Instancing y MultiMesh: miles de objetos",
+     "slug": "102-instancing-y-multimesh-miles-de-objetos"
+    },
+    {
+     "num": 103,
+     "title": "Toon/cel shading y estilos no fotorrealistas",
+     "slug": "103-toon-cel-shading-y-estilos-no-fotorrealistas"
+    },
+    {
+     "num": 104,
+     "title": "Compute shaders: cómputo en GPU",
+     "slug": "104-compute-shaders-computo-en-gpu"
+    },
+    {
+     "num": 105,
+     "title": "Optimización de shaders y coste en GPU",
+     "slug": "105-optimizacion-de-shaders-y-coste-en-gpu"
+    },
+    {
+     "num": 106,
+     "title": "Herramientas visuales: VisualShader y Shader Graph",
+     "slug": "106-herramientas-visuales-visualshader-y-shader-graph"
+    },
+    {
+     "num": 107,
+     "title": "Capstone Parte 4: set de shaders y post-procesado",
+     "slug": "107-capstone-parte-4-set-de-shaders-y-post-procesado"
+    }
+   ]
+  },
+  {
+   "idx": 5,
+   "title": "Inteligencia artificial para juegos",
+   "slug": "parte-5-inteligencia-artificial-para-juegos",
+   "start": 108,
+   "end": 125,
+   "count": 18,
+   "built": true,
+   "classes": [
+    {
+     "num": 108,
+     "title": "Panorama de la IA de juegos: qué es y qué no",
+     "slug": "108-panorama-de-la-ia-de-juegos-que-es-y-que-no"
+    },
+    {
+     "num": 109,
+     "title": "Máquinas de estado finito (FSM) para IA",
+     "slug": "109-maquinas-de-estado-finito-fsm-para-ia"
+    },
+    {
+     "num": 110,
+     "title": "Máquinas de estado jerárquicas (HFSM)",
+     "slug": "110-maquinas-de-estado-jerarquicas-hfsm"
+    },
+    {
+     "num": 111,
+     "title": "Behavior Trees: fundamentos",
+     "slug": "111-behavior-trees-fundamentos"
+    },
+    {
+     "num": 112,
+     "title": "Behavior Trees: construir un enemigo completo",
+     "slug": "112-behavior-trees-construir-un-enemigo-completo"
+    },
+    {
+     "num": 113,
+     "title": "Pathfinding: A* explicado y aplicado",
+     "slug": "113-pathfinding-a-estrella-explicado-y-aplicado"
+    },
+    {
+     "num": 114,
+     "title": "Navmesh y navegación en Godot (2D y 3D)",
+     "slug": "114-navmesh-y-navegacion-en-godot-2d-y-3d"
+    },
+    {
+     "num": 115,
+     "title": "Steering y evitación de obstáculos (flocking)",
+     "slug": "115-steering-y-evitacion-de-obstaculos-flocking"
+    },
+    {
+     "num": 116,
+     "title": "Percepción: visión, oído y memoria del agente",
+     "slug": "116-percepcion-vision-oido-y-memoria-del-agente"
+    },
+    {
+     "num": 117,
+     "title": "Toma de decisiones: utility AI",
+     "slug": "117-toma-de-decisiones-utility-ai"
+    },
+    {
+     "num": 118,
+     "title": "GOAP: planificación orientada a objetivos",
+     "slug": "118-goap-planificacion-orientada-a-objetivos"
+    },
+    {
+     "num": 119,
+     "title": "IA de combate: cobertura, flanqueo y coordinación",
+     "slug": "119-ia-de-combate-cobertura-flanqueo-y-coordinacion"
+    },
+    {
+     "num": 120,
+     "title": "Director de IA y dificultad dinámica",
+     "slug": "120-director-de-ia-y-dificultad-dinamica"
+    },
+    {
+     "num": 121,
+     "title": "IA para NPCs y vida ambiental",
+     "slug": "121-ia-para-npcs-y-vida-ambiental"
+    },
+    {
+     "num": 122,
+     "title": "Ruido y generación procedural (Perlin y Simplex)",
+     "slug": "122-ruido-y-generacion-procedural-perlin-y-simplex"
+    },
+    {
+     "num": 123,
+     "title": "Generación procedural de niveles",
+     "slug": "123-generacion-procedural-de-niveles"
+    },
+    {
+     "num": 124,
+     "title": "Machine learning en juegos: panorama (ML-Agents y RL)",
+     "slug": "124-machine-learning-en-juegos-panorama-ml-agents-y-rl"
+    },
+    {
+     "num": 125,
+     "title": "Capstone Parte 5: enemigo con behavior tree y percepción",
+     "slug": "125-capstone-parte-5-enemigo-con-behavior-tree-y-percepcion"
+    }
+   ]
+  },
+  {
+   "idx": 6,
+   "title": "Audio y música interactiva",
+   "slug": "parte-6-audio-y-musica-interactiva",
+   "start": 126,
+   "end": 137,
+   "count": 12,
+   "built": true,
+   "classes": [
+    {
+     "num": 126,
+     "title": "Fundamentos de audio para juegos (repaso aplicado)",
+     "slug": "126-fundamentos-de-audio-para-juegos-repaso-aplicado"
+    },
+    {
+     "num": 127,
+     "title": "Diseño de sonido: capas, variación y aleatoriedad",
+     "slug": "127-diseno-de-sonido-capas-variacion-y-aleatoriedad"
+    },
+    {
+     "num": 128,
+     "title": "Buses, efectos y mezcla dinámica",
+     "slug": "128-buses-efectos-y-mezcla-dinamica"
+    },
+    {
+     "num": 129,
+     "title": "Audio 3D/posicional y atenuación",
+     "slug": "129-audio-3d-posicional-y-atenuacion"
+    },
+    {
+     "num": 130,
+     "title": "Música adaptativa: capas verticales",
+     "slug": "130-musica-adaptativa-capas-verticales"
+    },
+    {
+     "num": 131,
+     "title": "Música adaptativa: transiciones horizontales",
+     "slug": "131-musica-adaptativa-transiciones-horizontales"
+    },
+    {
+     "num": 132,
+     "title": "Middleware de audio: FMOD",
+     "slug": "132-middleware-de-audio-fmod"
+    },
+    {
+     "num": 133,
+     "title": "Middleware de audio: Wwise",
+     "slug": "133-middleware-de-audio-wwise"
+    },
+    {
+     "num": 134,
+     "title": "Sincronización con ritmo y eventos",
+     "slug": "134-sincronizacion-con-ritmo-y-eventos"
+    },
+    {
+     "num": 135,
+     "title": "Voces, diálogo y localización de audio",
+     "slug": "135-voces-dialogo-y-localizacion-de-audio"
+    },
+    {
+     "num": 136,
+     "title": "Optimización de audio: memoria y streaming",
+     "slug": "136-optimizacion-de-audio-memoria-y-streaming"
+    },
+    {
+     "num": 137,
+     "title": "Capstone Parte 6: sistema de audio adaptativo",
+     "slug": "137-capstone-parte-6-sistema-de-audio-adaptativo"
+    }
+   ]
+  },
+  {
+   "idx": 7,
+   "title": "Multijugador y networking",
+   "slug": "parte-7-multijugador-y-networking",
+   "start": 138,
+   "end": 155,
+   "count": 18,
+   "built": true,
+   "classes": [
+    {
+     "num": 138,
+     "title": "Fundamentos de redes para juegos: TCP, UDP y latencia",
+     "slug": "138-fundamentos-de-redes-para-juegos-tcp-udp-y-latencia"
+    },
+    {
+     "num": 139,
+     "title": "Modelos de arquitectura: P2P, cliente-servidor y autoritativo",
+     "slug": "139-modelos-de-arquitectura-p2p-cliente-servidor-autoritativo"
+    },
+    {
+     "num": 140,
+     "title": "El multijugador de alto nivel de Godot (MultiplayerAPI)",
+     "slug": "140-el-multijugador-de-alto-nivel-de-godot-multiplayerapi"
+    },
+    {
+     "num": 141,
+     "title": "RPCs: llamadas remotas y sincronización",
+     "slug": "141-rpcs-llamadas-remotas-y-sincronizacion"
+    },
+    {
+     "num": 142,
+     "title": "MultiplayerSpawner y MultiplayerSynchronizer",
+     "slug": "142-multiplayerspawner-y-multiplayersynchronizer"
+    },
+    {
+     "num": 143,
+     "title": "Un chat y lobby en red paso a paso",
+     "slug": "143-un-chat-y-lobby-en-red-paso-a-paso"
+    },
+    {
+     "num": 144,
+     "title": "Mover jugadores en red: replicación de estado",
+     "slug": "144-mover-jugadores-en-red-replicacion-de-estado"
+    },
+    {
+     "num": 145,
+     "title": "Predicción del cliente y reconciliación",
+     "slug": "145-prediccion-del-cliente-y-reconciliacion"
+    },
+    {
+     "num": 146,
+     "title": "Interpolación y extrapolación de entidades",
+     "slug": "146-interpolacion-y-extrapolacion-de-entidades"
+    },
+    {
+     "num": 147,
+     "title": "Lag compensation y rollback netcode",
+     "slug": "147-lag-compensation-y-rollback-netcode"
+    },
+    {
+     "num": 148,
+     "title": "Servidor autoritativo y anti-cheat básico",
+     "slug": "148-servidor-autoritativo-y-anti-cheat-basico"
+    },
+    {
+     "num": 149,
+     "title": "Serialización eficiente y ancho de banda",
+     "slug": "149-serializacion-eficiente-y-ancho-de-banda"
+    },
+    {
+     "num": 150,
+     "title": "Matchmaking, salas y relay (NAT traversal)",
+     "slug": "150-matchmaking-salas-y-relay-nat-traversal"
+    },
+    {
+     "num": 151,
+     "title": "Servidores dedicados: headless y despliegue",
+     "slug": "151-servidores-dedicados-headless-y-despliegue"
+    },
+    {
+     "num": 152,
+     "title": "Backends: Nakama, Steam y servicios gestionados",
+     "slug": "152-backends-nakama-steam-y-servicios-gestionados"
+    },
+    {
+     "num": 153,
+     "title": "Testing de red: simular latencia y pérdida",
+     "slug": "153-testing-de-red-simular-latencia-y-perdida"
+    },
+    {
+     "num": 154,
+     "title": "Seguridad en multijugador: validación y exploits",
+     "slug": "154-seguridad-en-multijugador-validacion-y-exploits"
+    },
+    {
+     "num": 155,
+     "title": "Capstone Parte 7: un juego en red mínimo cliente-servidor",
+     "slug": "155-capstone-parte-7-un-juego-en-red-minimo-cliente-servidor"
+    }
+   ]
+  },
+  {
+   "idx": 8,
+   "title": "Game design y diseño de niveles",
+   "slug": "parte-8-game-design-y-diseno-de-niveles",
+   "start": 156,
+   "end": 171,
+   "count": 16,
+   "built": false,
+   "classes": []
+  },
+  {
+   "idx": 9,
+   "title": "Arte, animación y pipeline de assets",
+   "slug": "parte-9-arte-animacion-y-pipeline-de-assets",
+   "start": 172,
+   "end": 187,
+   "count": 16,
+   "built": false,
+   "classes": []
+  },
+  {
+   "idx": 10,
+   "title": "UI/UX, accesibilidad y localización",
+   "slug": "parte-10-ui-ux-accesibilidad-y-localizacion",
+   "start": 188,
+   "end": 199,
+   "count": 12,
+   "built": false,
+   "classes": []
+  },
+  {
+   "idx": 11,
+   "title": "Móvil, consolas y plataformas",
+   "slug": "parte-11-movil-consolas-y-plataformas",
+   "start": 200,
+   "end": 213,
+   "count": 14,
+   "built": false,
+   "classes": []
+  },
+  {
+   "idx": 12,
+   "title": "Juegos web y HTML5",
+   "slug": "parte-12-juegos-web-y-html5",
+   "start": 214,
+   "end": 227,
+   "count": 14,
+   "built": false,
+   "classes": []
+  },
+  {
+   "idx": 13,
+   "title": "VR, AR y experiencias inmersivas",
+   "slug": "parte-13-vr-ar-y-experiencias-inmersivas",
+   "start": 228,
+   "end": 239,
+   "count": 12,
+   "built": false,
+   "classes": []
+  },
+  {
+   "idx": 14,
+   "title": "Optimización, profiling y rendimiento",
+   "slug": "parte-14-optimizacion-profiling-y-rendimiento",
+   "start": 240,
+   "end": 254,
+   "count": 15,
+   "built": false,
+   "classes": []
+  },
+  {
+   "idx": 15,
+   "title": "Herramientas, editores y automatización (tooling)",
+   "slug": "parte-15-herramientas-editores-y-automatizacion",
+   "start": 255,
+   "end": 266,
+   "count": 12,
+   "built": false,
+   "classes": []
+  },
+  {
+   "idx": 16,
+   "title": "Producción, publicación, monetización y LiveOps",
+   "slug": "parte-16-produccion-publicacion-monetizacion-y-liveops",
+   "start": 267,
+   "end": 280,
+   "count": 14,
+   "built": false,
+   "classes": []
+  },
+  {
+   "idx": 17,
+   "title": "Capstones y preparación profesional / portfolio",
+   "slug": "parte-17-capstones-y-preparacion-profesional-portfolio",
+   "start": 281,
+   "end": 292,
+   "count": 12,
+   "built": false,
+   "classes": []
   }
  ]
 }

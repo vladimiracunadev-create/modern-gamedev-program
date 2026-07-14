@@ -193,6 +193,8 @@ Entrega el juego completo terminado según la especificación y la *definition o
 - Godot Docs — Pausing games: <https://docs.godotengine.org/en/stable/tutorials/scripting/pausing_games.html>
 - Godot Docs — Exporting projects: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html>
 
-## ➡️ Siguiente paso
+## ➡️ Siguiente clase
 
-¡Felicidades, has terminado la Parte 1 con un juego completo! La **Parte 2 — Desarrollo 3D** (en construcción) dará el salto a las tres dimensiones. Mientras tanto, revisa el [índice del programa](../../README.md) y pule tu juego para el portfolio.
+¡Felicidades, has terminado la Parte 1 con un juego completo! La Parte 2 da el salto a las tres dimensiones.
+
+[Clase 046 - Del 2D al 3D: qué cambia (ejes, cámaras y mallas)](../../parte-2-desarrollo-3d-motores-escenas-y-transformaciones/046-del-2d-al-3d-que-cambia-ejes-camaras-y-mallas/README.md)

@@ -9,10 +9,15 @@ es la base y el primer entregable.
 - [x] Estructura de carpetas + índice maestro (`classes/README.md`).
 - [x] **Parte 0 — Fundamentos y prerrequisitos** (clases 001–025): README de parte + 25 clases completas.
 - [x] **Parte 1 — Motores 2D y tu primer juego jugable** (clases 026–045): README de parte + 20 clases completas.
-- [ ] Parte 2 — Desarrollo 3D (clases 046–067).
-- [ ] Parte 3 — Física y matemáticas aplicadas (clases 068–085).
-- [ ] Parte 4 — Gráficos, shaders y rendering (clases 086–107).
-- [ ] Partes 5–17 — resto del programa (IA, audio, multijugador, diseño, arte, plataformas, web, VR/AR, optimización, tooling, publicación, capstones).
+- [x] **Parte 2 — Desarrollo 3D: motores, escenas y transformaciones** (clases 046–067): 22 clases.
+- [x] **Parte 3 — Física y matemáticas de juegos aplicadas** (clases 068–085): 18 clases.
+- [x] **Parte 4 — Gráficos, shaders y rendering moderno** (clases 086–107): 22 clases.
+- [x] **Parte 5 — Inteligencia artificial para juegos** (clases 108–125): 18 clases.
+- [x] **Parte 6 — Audio y música interactiva** (clases 126–137): 12 clases.
+- [x] **Parte 7 — Multijugador y networking** (clases 138–155): 18 clases.
+- [ ] Parte 8 — Game design y diseño de niveles (clases 156–171).
+- [ ] Parte 9 — Arte, animación y pipeline de assets (clases 172–187).
+- [ ] Partes 10–17 — UI/UX, plataformas, web, VR/AR, optimización, tooling, publicación y capstones.
 
 ## Fase 2 — Laboratorios ejecutables (planificada)
 

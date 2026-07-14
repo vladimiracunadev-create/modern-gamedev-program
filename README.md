@@ -10,7 +10,7 @@
 [![Security](https://github.com/vladimiracunadev-create/desarrollo-videojuegos-moderno-program/actions/workflows/security.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/desarrollo-videojuegos-moderno-program/actions/workflows/security.yml)
 [![Deploy Pages](https://github.com/vladimiracunadev-create/desarrollo-videojuegos-moderno-program/actions/workflows/deploy-pages.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/desarrollo-videojuegos-moderno-program/actions/workflows/deploy-pages.yml)
 
-[![Clases](https://img.shields.io/badge/clases-45%20listas%20·%20~292%20plan-7c5cff?style=for-the-badge)](classes/README.md)
+[![Clases](https://img.shields.io/badge/clases-155%20listas%20·%20~292%20plan-7c5cff?style=for-the-badge)](classes/README.md)
 [![Nivel](https://img.shields.io/badge/nivel-fundamentos%20→%20profesional-2e8b57?style=for-the-badge)](classes/README.md)
 [![Idioma](https://img.shields.io/badge/idioma-español-blue?style=for-the-badge)](README.md)
 [![Motores](https://img.shields.io/badge/motores-Godot%20·%20Unity%20·%20Unreal-orange?style=for-the-badge)](classes/README.md)
@@ -22,7 +22,7 @@
 
 ---
 
-> 🧭 **Estado del programa.** El diseño curricular abarca las 18 partes listadas abajo. **Construidas y completas: Parte 0 (Fundamentos) y Parte 1 (Motores 2D)** — 45 clases con laboratorio guiado paso a paso. El resto de partes están planificadas en el [Roadmap](ROADMAP.md) y se irán completando con el mismo formato.
+> 🧭 **Estado del programa.** El diseño curricular abarca las 18 partes listadas abajo. **Construidas y completas: Partes 0 a 7** — 155 clases con laboratorio guiado paso a paso (de los fundamentos y el 2D al 3D, física, shaders, IA, audio y multijugador). Las Partes 8 a 17 están planificadas en el [Roadmap](ROADMAP.md) y se completan con el mismo formato.
 
 ## 🎯 Qué es esto
 
@@ -60,12 +60,12 @@ El programa es **agnóstico de motor por diseño**: primero enseña los concepto
 |---|---|---:|:---:|
 | 0 | Fundamentos y prerrequisitos | 25 | ✅ |
 | 1 | Motores 2D y tu primer juego jugable | 20 | ✅ |
-| 2 | Desarrollo 3D: motores, escenas y transformaciones | 22 | 🔜 |
-| 3 | Física y matemáticas de juegos aplicadas | 18 | 🔜 |
-| 4 | Gráficos, shaders y rendering moderno | 22 | 🔜 |
-| 5 | Inteligencia artificial para juegos | 18 | 🔜 |
-| 6 | Audio y música interactiva | 12 | 🔜 |
-| 7 | Multijugador y networking | 18 | 🔜 |
+| 2 | Desarrollo 3D: motores, escenas y transformaciones | 22 | ✅ |
+| 3 | Física y matemáticas de juegos aplicadas | 18 | ✅ |
+| 4 | Gráficos, shaders y rendering moderno | 22 | ✅ |
+| 5 | Inteligencia artificial para juegos | 18 | ✅ |
+| 6 | Audio y música interactiva | 12 | ✅ |
+| 7 | Multijugador y networking | 18 | ✅ |
 | 8 | Game design y diseño de niveles | 16 | 🔜 |
 | 9 | Arte, animación y pipeline de assets | 16 | 🔜 |
 | 10 | UI/UX, accesibilidad y localización | 12 | 🔜 |
