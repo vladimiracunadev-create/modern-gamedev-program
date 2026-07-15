@@ -9,6 +9,9 @@ node_modules/
 # === Sitio generado para GitHub Pages (build artifact) ===
 site/
 
+# === Logs temporales de scripts/verificar_todo.py ===
+.verif_red/
+
 # === Godot 4 ===
 # Carpeta de importación/caché del editor (se regenera sola).
 .godot/

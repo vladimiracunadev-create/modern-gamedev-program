@@ -35,21 +35,34 @@ Toda clase debe incluir estas secciones, en este orden:
 - **Contenido original.** No copies texto de libros ni de la documentación; cítalos como referencia.
 - **Sin binarios pesados en Git.** Usa Git LFS para arte, audio y modelos (ver [`.gitattributes`](.gitattributes) y la Clase 015).
 
-## 🔧 Comprobaciones locales antes del PR
+## 🔧 Comprobaciones locales antes de subir
+
+Hay un script que corre **lo mismo que la CI**, para no descubrir en rojo lo que se puede
+descubrir en verde:
 
 ```bash
-# 1. Validar estructura, secciones y enlaces internos
-python scripts/validar_estructura.py
-
-# 2. Lint de Markdown (requiere Node)
-npx --yes markdownlint-cli2 "**/*.md"
-
-# 3. Generar el sitio (verifica que compila)
-python -m pip install "markdown>=3.6"
-python scripts/generar_sitio.py
+python scripts/verificar_todo.py --rapido            # validadores: unos segundos
+python scripts/verificar_todo.py --godot /ruta/godot # + los 6 labs: ~4 min
 ```
 
-Todas deben pasar en verde. La CI las ejecuta automáticamente en cada Pull Request.
+Comprueba estructura y enlaces, índice y manifest sincronizados, assets deterministas,
+markdownlint, el build del sitio, los workflows, y —si le pasas Godot 4.3— los laboratorios
+enteros: cada uno en sus dos versiones más las pruebas de comportamiento (que la red replica,
+que la IA decide, que la UI no se recorta).
+
+Termina diciendo si puedes subir o no. **Si no le pasas `--godot`, avisa de que la mitad de la
+CI se ha quedado sin comprobar** en vez de darte un verde tranquilizador.
+
+Por partes, si lo prefieres:
+
+```bash
+python scripts/validar_estructura.py       # estructura, secciones y enlaces internos
+npx --yes markdownlint-cli2 "**/*.md"      # lint de Markdown (requiere Node)
+python scripts/verificar_assets.py         # los assets coinciden con el generador
+python scripts/generar_sitio.py            # el sitio compila
+```
+
+Todas deben pasar en verde. La CI las ejecuta en cada push.
 
 ## 🔀 Flujo de trabajo
 
