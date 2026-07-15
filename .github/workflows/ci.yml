@@ -28,6 +28,20 @@ jobs:
       - name: Validar estructura, secciones y enlaces internos
         run: python scripts/validar_estructura.py
 
+      - name: Comprobar que el índice y el glosario están sincronizados
+        run: |
+          set -euo pipefail
+          # Ambos se generan desde las clases: si alguien añade una clase y no
+          # regenera, la documentación queda mintiendo. Aquí se detecta.
+          python scripts/generar_indice.py
+          python scripts/generar_glosario.py
+          if ! git diff --quiet -- classes/README.md classes/_manifest.json glosario/README.md; then
+            echo "::error::índice/manifest/glosario desactualizados. Ejecuta: python scripts/generar_indice.py && python scripts/generar_glosario.py"
+            git diff --stat -- classes/README.md classes/_manifest.json glosario/README.md
+            exit 1
+          fi
+          echo "Documentación generada sincronizada ✔"
+
       - name: Resumen
         if: always()
         run: |

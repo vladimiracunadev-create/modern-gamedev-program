@@ -25,7 +25,8 @@ OUT = os.path.join(ROOT, "site")
 
 # Markdown de origen del nivel superior que se publican.
 INCLUIR_TOP = ["README.md", "ROADMAP.md", "CONTRIBUTING.md", "SECURITY.md",
-               "labs/README.md", "labs/plataformas-2d/README.md"]
+               "labs/README.md", "labs/plataformas-2d/README.md",
+               "rutas/README.md", "autoevaluaciones/README.md", "glosario/README.md"]
 
 LINK_MD = re.compile(r"\]\(([^)]+?)\.md((?:#[^)]*)?)\)")
 
@@ -66,7 +67,7 @@ PLANTILLA = """<!doctype html>
 </style>
 </head>
 <body>
-<div class="nav"><a href="{home}">🎮 Inicio</a> · <a href="{indice}">📚 Clases</a> · <a href="{roadmap}">🗺️ Roadmap</a></div>
+<div class="nav"><a href="{home}">🎮 Inicio</a> · <a href="{indice}">📚 Clases</a> · <a href="{buscar}">🔎 Buscar</a> · <a href="{rutas}">🧭 Rutas</a> · <a href="{quiz}">📝 Autoevaluación</a> · <a href="{progreso}">✅ Progreso</a> · <a href="{labs}">🧪 Labs</a></div>
 {body}
 </body>
 </html>
@@ -101,9 +102,13 @@ def escribir(rel_md: str, md_text: str) -> None:
         title = re.sub(r"[#*`]", "", m.group(1)).strip()
     html = PLANTILLA.format(
         title=title,
-        home=f"{subir}index.html" if prof else "index.html",
-        indice=f"{subir}classes/README.html" if prof else "classes/README.html",
-        roadmap=f"{subir}ROADMAP.html" if prof else "ROADMAP.html",
+        home=f"{subir}index.html",
+        indice=f"{subir}classes/README.html",
+        buscar=f"{subir}buscar.html",
+        rutas=f"{subir}rutas/README.html",
+        quiz=f"{subir}autoevaluaciones/quiz.html",
+        progreso=f"{subir}autoevaluaciones/progreso.html",
+        labs=f"{subir}labs/README.html",
         body=render(reescribir_enlaces(md_text)),
     )
     with open(destino, "w", encoding="utf-8") as f:
@@ -230,12 +235,12 @@ def escribir_landing() -> None:
     ]
     stats_html = "".join(f'<div class="stat"><b>{v}</b><span>{k}</span></div>' for v, k in stats)
     feats = [
-        ("📚", "Currículo paso a paso", f"{total_hechas} clases listas (Partes 0 y 1), cada una con objetivo, laboratorio guiado, ejercicios y reto verificable.", "classes/README.html"),
-        ("🕹️", "Tu primer juego real", "La Parte 1 te lleva de un sprite en pantalla a un plataformas 2D completo y jugable en Godot 4.", "classes/parte-1-motores-2d-y-tu-primer-juego-jugable/README.html"),
-        ("🧮", "Fundamentos sólidos", "Matemáticas, física, C#, C++, patrones y ECS: entiendes el porqué, no solo el cómo.", "classes/parte-0-fundamentos-y-prerrequisitos/README.html"),
-        ("🛠️", "Todas las tecnologías", "Agnóstico de motor: Godot, Unity y Unreal; C#, C++, GDScript, shaders, web y más.", "classes/README.html"),
-        ("🗺️", "Roadmap abierto", "18 partes diseñadas de fundamentos a nivel profesional. Sigue el avance del programa.", "ROADMAP.html"),
-        ("🎯", "Orientado a portfolio", "Cada capstone es una pieza publicable. Terminas con juegos que puedes enseñar.", "classes/README.html"),
+        ("📚", "Currículo paso a paso", f"{total_hechas} clases, cada una con objetivo, laboratorio guiado, ejercicios y reto verificable.", "classes/README.html"),
+        ("🧪", "Laboratorios ejecutables", "Proyectos Godot reales que se abren y se juegan: versión para completar y solución de referencia, verificadas en CI.", "labs/README.html"),
+        ("🧭", "Rutas por rol", "Recorridos ordenados para gameplay, gráficos, indie, móvil/web, multijugador, niveles y XR.", "rutas/README.html"),
+        ("📝", "Autoevaluación", "90 preguntas (una batería por parte) con explicación de cada respuesta.", "autoevaluaciones/quiz.html"),
+        ("✅", "Tu progreso", f"Marca las {total_hechas} clases y sigue tu avance (se guarda en tu navegador).", "autoevaluaciones/progreso.html"),
+        ("🔎", "Buscador", "Encuentra cualquier tema entre las 292 clases: shaders, coyote time, navmesh, rollback…", "buscar.html"),
     ]
     feats_html = "".join(
         f'<a class="feat" href="{u}"><div class="ic">{i}</div><h3>{t}</h3><p>{d}</p></a>'
@@ -270,10 +275,11 @@ def escribir_landing() -> None:
   </div>
   <div class="cta">
     <a class="btn btn-1" href="classes/README.html">📚 Empezar el curso</a>
-    <a class="btn btn-2" href="ROADMAP.html">🗺️ Ver el roadmap</a>
+    <a class="btn btn-2" href="rutas/README.html">🧭 Elegir mi ruta</a>
+    <a class="btn btn-2" href="buscar.html">🔎 Buscar</a>
   </div>
 </header>
-<div class="aviso"><div class="wrap">🕹️ Curso abierto (MIT) · Partes 0 y 1 completas · el resto del programa se publica siguiendo el <a href="ROADMAP.html">roadmap</a>.</div></div>
+<div class="aviso"><div class="wrap">🕹️ Curso abierto (MIT) · <b>292 clases en 18 partes</b> · con <a href="labs/README.html">laboratorios Godot ejecutables</a> verificados en CI.</div></div>
 <main class="wrap">
   <div class="stats">{stats_html}</div>
   <h2 class="sec">Qué incluye</h2>
@@ -293,6 +299,159 @@ def escribir_landing() -> None:
            f"<style>{LANDING_CSS}</style></head><body>{cuerpo}</body></html>")
     with open(os.path.join(OUT, "index.html"), "w", encoding="utf-8") as f:
         f.write(doc)
+
+
+TEMA_RE = re.compile(r"^\|\s*\d+\s*\|\s*([^|]+?)\s*\|", re.MULTILINE)
+H1_CLASE_RE = re.compile(r"^#\s+Clase\s+(\d{3})\s*[—-]\s*(.+)$", re.MULTILINE)
+
+BUSCAR_HTML = """<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Buscar · Desarrollo de Videojuegos Moderno</title>
+<style>
+  :root{--acento:#7c5cff;--bg:#fff;--bg2:#f5f4fb;--txt:#12181d;--muted:#5b6670;--card:#fff;--borde:#e6e2f2}
+  @media (prefers-color-scheme:dark){:root{--bg:#0d1117;--bg2:#12111c;--txt:#e6edf3;--muted:#9aa7b2;--card:#161b22;--borde:#272138}}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);color:var(--txt);line-height:1.6}
+  a{color:var(--acento);text-decoration:none}
+  a:hover{text-decoration:underline}
+  header{background:linear-gradient(135deg,#7c5cff,#5b21b6);color:#fff;padding:2rem 1.1rem;text-align:center}
+  header h1{margin:.2rem 0;font-size:1.6rem}
+  .wrap{max-width:820px;margin:0 auto;padding:0 1.1rem 4rem}
+  .nav{font-size:.9rem;margin:1rem 0;opacity:.85}
+  #q{width:100%;padding:.8rem 1rem;font-size:1.05rem;border:2px solid var(--borde);border-radius:10px;
+     background:var(--card);color:var(--txt)}
+  #q:focus{outline:none;border-color:var(--acento)}
+  .meta{color:var(--muted);font-size:.9rem;margin:.8rem 0}
+  .r{background:var(--card);border:1px solid var(--borde);border-radius:10px;padding:.7rem .9rem;margin:.5rem 0}
+  .r:hover{border-color:var(--acento)}
+  .r .t{font-weight:600}
+  .r .p{font-size:.82rem;color:var(--muted)}
+  .r .tm{font-size:.82rem;color:var(--muted);margin-top:.2rem}
+  mark{background:color-mix(in srgb,var(--acento) 30%,transparent);color:inherit;border-radius:3px}
+  footer{text-align:center;color:var(--muted);font-size:.85rem;padding:2rem 1rem}
+</style>
+</head>
+<body>
+<header>
+  <div style="font-size:2rem">🔎</div>
+  <h1>Buscar en el curso</h1>
+</header>
+<div class="wrap">
+  <div class="nav"><a href="index.html">🎮 Inicio</a> · <a href="classes/README.html">📚 Clases</a> · <a href="rutas/README.html">🧭 Rutas</a> · <a href="autoevaluaciones/quiz.html">📝 Autoevaluación</a></div>
+  <input id="q" type="search" placeholder="Escribe: shader, coyote time, navmesh, rollback, wishlists…" autofocus autocomplete="off">
+  <div class="meta" id="meta">Cargando índice…</div>
+  <div id="res"></div>
+</div>
+<footer>Busca por título de clase o por tema. Todo ocurre en tu navegador.</footer>
+<script>
+let IDX = [];
+const $ = i => document.getElementById(i);
+const norm = s => String(s).normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase();
+
+fetch('busqueda.json').then(r => r.json()).then(d => {
+  IDX = d.map(c => ({...c, _b: norm(c.t + ' ' + c.p + ' ' + c.tm)}));
+  $('meta').textContent = IDX.length + ' clases indexadas. Escribe para buscar.';
+}).catch(() => { $('meta').textContent = 'No se pudo cargar el índice.'; });
+
+$('q').oninput = () => {
+  const t = $('q').value.trim();
+  if (!t) { $('res').innerHTML = ''; $('meta').textContent = IDX.length + ' clases indexadas. Escribe para buscar.'; return; }
+  const términos = norm(t).split(/\\s+/).filter(Boolean);
+  const hits = IDX.filter(c => términos.every(w => c._b.includes(w))).slice(0, 60);
+  $('meta').textContent = hits.length ? hits.length + ' resultado(s)' : 'Sin resultados para "' + t + '"';
+  $('res').innerHTML = hits.map(c => `
+    <div class="r">
+      <div class="t"><a href="${c.u}">${String(c.n).padStart(3,'0')} — ${res(c.t, términos)}</a></div>
+      <div class="p">Parte ${c.pi} · ${esc(c.p)}</div>
+      ${c.tm ? `<div class="tm">${res(c.tm.slice(0, 160), términos)}…</div>` : ''}
+    </div>`).join('');
+};
+
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function res(txt, ws){
+  let h = esc(txt);
+  ws.forEach(w => {
+    const n = norm(h);
+    let i = n.indexOf(w), out = '', last = 0;
+    while (i !== -1) { out += h.slice(last, i) + '<mark>' + h.slice(i, i + w.length) + '</mark>'; last = i + w.length; i = n.indexOf(w, last); }
+    h = out + h.slice(last);
+  });
+  return h;
+}
+</script>
+</body>
+</html>
+"""
+
+
+def construir_busqueda() -> int:
+    """Índice de búsqueda: número, título, parte y temas de cada clase."""
+    entradas = []
+    for pdir in sorted(glob.glob(os.path.join(ROOT, "classes", "parte-*")),
+                       key=lambda p: int(re.search(r"parte-(\d+)", p).group(1))):
+        pidx = int(re.search(r"parte-(\d+)", os.path.basename(pdir)).group(1))
+        pslug = os.path.basename(pdir)
+        ptitulo = pslug
+        prm = os.path.join(pdir, "README.md")
+        if os.path.isfile(prm):
+            m = re.search(r"^#\s+Parte\s+\d+\s*[—-]\s*(.+)$",
+                          open(prm, encoding="utf-8").read(), re.MULTILINE)
+            if m:
+                ptitulo = m.group(1).strip()
+
+        for cdir in sorted(glob.glob(os.path.join(pdir, "*"))):
+            base = os.path.basename(cdir)
+            rm = os.path.join(cdir, "README.md")
+            if not (os.path.isdir(cdir) and re.match(r"^\d{3}-", base) and os.path.isfile(rm)):
+                continue
+            txt = open(rm, encoding="utf-8").read()
+            m = H1_CLASE_RE.search(txt)
+            if not m:
+                continue
+            # Temas: primera columna de la tabla "🗺️ Temas".
+            temas = ""
+            sec = txt.split("## 🗺️ Temas", 1)
+            if len(sec) == 2:
+                tabla = sec[1].split("##", 1)[0]
+                temas = " · ".join(t.strip() for t in TEMA_RE.findall(tabla))
+            entradas.append({
+                "n": int(m.group(1)),
+                "t": m.group(2).strip(),
+                "p": ptitulo,
+                "pi": pidx,
+                "tm": temas,
+                "u": f"classes/{pslug}/{base}/README.html",
+            })
+
+    entradas.sort(key=lambda e: e["n"])
+    with open(os.path.join(OUT, "busqueda.json"), "w", encoding="utf-8") as f:
+        json.dump(entradas, f, ensure_ascii=False, separators=(",", ":"))
+    with open(os.path.join(OUT, "buscar.html"), "w", encoding="utf-8") as f:
+        f.write(BUSCAR_HTML)
+    return len(entradas)
+
+
+def copiar_interactivos() -> int:
+    """Copia las páginas que ya son HTML autocontenido y los datos que consumen."""
+    n = 0
+    destino = os.path.join(OUT, "autoevaluaciones")
+    os.makedirs(destino, exist_ok=True)
+    for nombre in ("quiz.html", "progreso.html", "preguntas.json"):
+        origen = os.path.join(ROOT, "autoevaluaciones", nombre)
+        if os.path.isfile(origen):
+            shutil.copyfile(origen, os.path.join(destino, nombre))
+            n += 1
+    # progreso.html lee el manifest para listar las 292 clases.
+    manifest = os.path.join(ROOT, "classes", "_manifest.json")
+    if os.path.isfile(manifest):
+        os.makedirs(os.path.join(OUT, "classes"), exist_ok=True)
+        shutil.copyfile(manifest, os.path.join(OUT, "classes", "_manifest.json"))
+        n += 1
+    return n
 
 
 def main() -> int:
@@ -322,10 +481,14 @@ def main() -> int:
     # que no se renderiza bien como landing; usamos una portada propia).
     escribir_landing()
 
+    n_busqueda = construir_busqueda()
+    n_copias = copiar_interactivos()
+
     # .nojekyll para que Pages no ignore archivos con nombres especiales.
     open(os.path.join(OUT, ".nojekyll"), "w").close()
 
-    print(f"Sitio generado en site/  ({generados} páginas HTML + index.html)")
+    print(f"Sitio generado en site/  ({generados} páginas HTML + index.html + "
+          f"buscador con {n_busqueda} clases + {n_copias} archivos interactivos)")
     return 0
 
 

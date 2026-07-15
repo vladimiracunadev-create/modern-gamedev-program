@@ -1,0 +1,1107 @@
+{
+ "meta": {
+  "programa": "Desarrollo de Videojuegos Moderno",
+  "total_preguntas": 90,
+  "partes": 18
+ },
+ "partes": [
+  {
+   "idx": 0,
+   "titulo": "Fundamentos y prerrequisitos",
+   "preguntas": [
+    {
+     "q": "Un alumno tenía `position.x += 4.0` en `_process` y funcionaba bien. Al corregirlo a `position.x += speed * delta` dejando `speed = 4.0`, el sprite ahora se mueve lentísimo. ¿Cuál es la causa?",
+     "opciones": [
+      "`delta` no debe usarse en `_process`, solo en `_physics_process`",
+      "Falta llamar a `move_and_slide()` para que el motor aplique el desplazamiento",
+      "La velocidad seguía expresada en píxeles por cuadro; al multiplicar por delta debe pasar a píxeles por segundo",
+      "`delta` devuelve milisegundos, así que hay que multiplicar el resultado por 1000"
+     ],
+     "correcta": 2,
+     "exp": "Multiplicar por delta convierte una velocidad expresada por segundo en el avance de ese cuadro; con 4.0 px/s el sprite recorre solo 4 píxeles por segundo en vez de los ~240 previos."
+    },
+    {
+     "q": "En una simulación de proyectiles con paso de tiempo grande, la velocidad crece sin control hasta desbordarse. El código usa la velocidad actual para mover la posición y luego actualiza la velocidad. ¿Cuál es el diagnóstico y la corrección más económica?",
+     "opciones": [
+      "Es Euler explícito, que inyecta energía; usar Euler semi-implícito (actualizar la velocidad primero y mover con la nueva)",
+      "El problema es la gravedad con signo positivo; basta invertir su signo",
+      "Falta normalizar el vector velocidad en cada paso de integración",
+      "Es un error de precisión de coma flotante; se resuelve usando dobles en vez de floats"
+     ],
+     "correcta": 0,
+     "exp": "Ese orden es Euler explícito, que acumula energía y diverge; el semi-implícito actualiza la velocidad antes de mover y es mucho más estable con casi el mismo coste."
+    },
+    {
+     "q": "El jugador está en el origen y mira en dirección `(1, 0)` normalizada. Se calcula `hacia = (objetivo - jugador).normalized()` y luego `mira.dot(hacia)`. ¿Qué información aporta directamente el signo de ese producto punto?",
+     "opciones": [
+      "La distancia en unidades entre el jugador y el objetivo",
+      "Si el objetivo está delante (positivo) o detrás (negativo) del jugador",
+      "Si el objetivo está a la izquierda (positivo) o a la derecha (negativo)",
+      "El ángulo exacto en grados entre la mirada y el objetivo"
+     ],
+     "correcta": 1,
+     "exp": "Con vectores normalizados el producto punto es el coseno del ángulo: positivo significa mismo sentido (delante) y negativo, sentido opuesto (detrás); la izquierda/derecha la da el producto cruz."
+    },
+    {
+     "q": "Un equipo migra a ECS y coloca dentro del componente `Velocity` un método `mover()` que actualiza la posición. ¿Qué principio de ECS se está rompiendo?",
+     "opciones": [
+      "Las entidades deben ser objetos completos, no meros identificadores",
+      "Los componentes deben heredar de una clase base común para poder consultarse",
+      "Cada sistema debe procesar todas las entidades sin filtrar por componentes",
+      "Los componentes son datos puros; la lógica debe vivir en los sistemas"
+     ],
+     "correcta": 3,
+     "exp": "En ECS la entidad es un id, el componente es solo datos y el sistema contiene la lógica; poner comportamiento en el componente reintroduce POO y anula la orientación a datos."
+    },
+    {
+     "q": "En un repo de Godot ya versionado, se instala Git LFS y se configura `git lfs track \"*.png\"`. Los PNG añadidos antes siguen pesando en el historial y no aparecen como punteros LFS. ¿Por qué?",
+     "opciones": [
+      "LFS solo funciona con archivos mayores de 100 MB; los PNG pequeños se ignoran",
+      "LFS solo actúa sobre archivos añadidos después de configurar el tracking; hay que reañadirlos (`git rm --cached` y `git add`)",
+      "Falta ejecutar `git lfs install` de nuevo en cada commit para que el filtro se aplique",
+      "El `.gitignore` está excluyendo los PNG, por eso LFS no los ve"
+     ],
+     "correcta": 1,
+     "exp": "El filtro de LFS se aplica en el momento del `add`; los binarios ya rastreados como archivos normales deben quitarse del índice y volver a añadirse para convertirse en punteros."
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "titulo": "Motores 2D y tu primer juego jugable",
+   "preguntas": [
+    {
+     "q": "Al portar un script de Godot 3 a Godot 4, la línea `move_and_slide(velocity, Vector2.UP)` produce el error \"Too many arguments for move_and_slide()\". ¿Cuál es la corrección correcta en Godot 4?",
+     "opciones": [
+      "Cambiar la llamada por `move_and_collide(velocity)` pasando el mismo vector",
+      "Asignar `velocity` a la propiedad del cuerpo y llamar a `move_and_slide()` sin argumentos",
+      "Mantener los argumentos pero convertir `Vector2.UP` a `Vector3.UP`",
+      "Envolver la llamada en `_process` en vez de `_physics_process`"
+     ],
+     "correcta": 1,
+     "exp": "En Godot 4 `CharacterBody2D` expone `velocity` como propiedad y `move_and_slide()` se llama sin parámetros; el vector \"arriba\" se configura ahora con `up_direction`."
+    },
+    {
+     "q": "Un `Area2D` de recolección nunca dispara `body_entered` cuando el jugador la atraviesa, aunque ambos tienen `CollisionShape2D` válidos. ¿Cuál es la causa más probable?",
+     "opciones": [
+      "La `collision_mask` del `Area2D` no incluye la capa en la que vive el jugador",
+      "El `Area2D` necesita un `RigidBody2D` como padre para poder detectar cuerpos",
+      "La señal `body_entered` solo funciona con `StaticBody2D`, no con `CharacterBody2D`",
+      "El `collision_layer` del `Area2D` no incluye la capa del jugador"
+     ],
+     "correcta": 0,
+     "exp": "`collision_layer` responde \"en qué capa estoy\" y `collision_mask` responde \"a quién detecto\"; para que el área vea al jugador, su máscara debe incluir la capa del jugador."
+    },
+    {
+     "q": "Quieres que el jugador empuje cajas por el nivel. El jugador es un `CharacterBody2D` y las cajas también. Las cajas no se mueven al chocar. ¿Qué explica mejor el comportamiento?",
+     "opciones": [
+      "Falta activar `Continuous CD` en las cajas para que registren el contacto",
+      "El `CharacterBody2D` solo empuja si se le sube la propiedad `mass`",
+      "`CharacterBody2D` no participa en la simulación de fuerzas; las cajas empujables deben ser `RigidBody2D`",
+      "Hay que llamar a `move_and_collide()` en vez de `move_and_slide()` en las cajas"
+     ],
+     "correcta": 2,
+     "exp": "El `CharacterBody2D` es cinemático: lo mueve tu código y no aplica fuerzas a otros cuerpos; los objetos sueltos y empujables se modelan con `RigidBody2D`, que sí simula el motor."
+    },
+    {
+     "q": "El guardado de partida funciona perfecto desde el editor, pero en el `.exe` exportado el progreso no persiste. El código abre `res://savegame.json` para escribir. ¿Cuál es la causa?",
+     "opciones": [
+      "Falta llamar a `flush()` sobre el `FileAccess` antes de cerrarlo",
+      "El JSON debe guardarse siempre en binario para que sobreviva a la exportación",
+      "Hay que usar una ruta absoluta como `C:\\\\Datos\\\\savegame.json` en la build final",
+      "`res://` es de solo lectura una vez exportado el juego; el progreso debe ir a `user://`"
+     ],
+     "correcta": 3,
+     "exp": "Al exportar, `res://` queda empaquetado y es de solo lectura; `user://` apunta a una carpeta de datos por usuario y plataforma que sí es escribible y persistente."
+    },
+    {
+     "q": "En `_physics_process`, un alumno consulta `is_on_floor()` para decidir el salto y siempre obtiene `false`, aunque el personaje está claramente apoyado. Además de faltar colisionadores, ¿qué error de orden lo provoca?",
+     "opciones": [
+      "Consulta `is_on_floor()` antes de llamar a `move_and_slide()` en ese mismo frame",
+      "Consulta `is_on_floor()` dentro de `_physics_process` en vez de `_process`",
+      "No resetea `velocity.y = 0` antes de la consulta, lo que invalida el resultado",
+      "Llama a `is_on_floor()` sin haber asignado antes `up_direction` a `Vector2.UP`"
+     ],
+     "correcta": 0,
+     "exp": "`is_on_floor()` reporta el resultado del último movimiento resuelto, así que solo es fiable después de llamar a `move_and_slide()` en ese frame."
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "titulo": "Desarrollo 3D: motores, escenas y transformaciones",
+   "preguntas": [
+    {
+     "q": "Un enemigo 3D debe avanzar hacia donde mira. El código usa `global_position += transform.basis.z * speed * delta` y el enemigo retrocede. ¿Cuál es el problema?",
+     "opciones": [
+      "Hay que usar `transform.origin` en lugar de `global_position`",
+      "En Godot el frente local de un objeto es `-basis.z`, no `+basis.z`",
+      "La `basis` solo codifica escala; la orientación está en `rotation_degrees`",
+      "Falta convertir la basis a cuaternión antes de extraer la dirección"
+     ],
+     "correcta": 1,
+     "exp": "Por convención en Godot el eje local hacia adelante es `-Z`, que es también la dirección en la que mira una `Camera3D`; usar `+basis.z` apunta justo a la espalda."
+    },
+    {
+     "q": "Un `RigidBody3D` con forma de colisión trimesh (`ConcavePolygonShape3D`) no colisiona con el suelo, que también es trimesh, y además hunde los FPS. ¿Cuál es la explicación correcta?",
+     "opciones": [
+      "Los trimesh requieren activar `Continuous CD` para registrar contactos",
+      "Un trimesh solo colisiona si el `collision_layer` y la `collision_mask` son idénticos",
+      "El trimesh es válido solo en cuerpos estáticos y dos formas cóncavas no chocan entre sí; usar convex o una primitiva en el cuerpo dinámico",
+      "El trimesh necesita hornearse desde el editor antes de poder colisionar"
+     ],
+     "correcta": 2,
+     "exp": "La colisión triángulo a triángulo solo es válida para geometría estática y dos cóncavas no se detectan mutuamente; los cuerpos dinámicos deben usar formas convexas o primitivas, que además son mucho más baratas."
+    },
+    {
+     "q": "Se ajusta el `fov` de una `Camera3D` de 75 a 30 grados y el encuadre no cambia en absoluto. ¿Cuál es la causa más probable?",
+     "opciones": [
+      "El `fov` solo surte efecto tras llamar a `make_current()`",
+      "El `fov` de Godot se expresa en radianes, así que 30 y 75 son casi equivalentes",
+      "Los planos `near` y `far` están anulando el efecto del `fov`",
+      "La cámara está en proyección ortográfica, donde el encuadre lo controla `size` y no el `fov`"
+     ],
+     "correcta": 3,
+     "exp": "El campo de visión angular solo tiene sentido en proyección perspectiva; en ortográfica no hay convergencia y el encuadre se ajusta con la propiedad `size`."
+    },
+    {
+     "q": "Un enemigo tiene un `NavigationAgent3D` con `target_position` actualizado cada frame sobre un navmesh horneado, pero permanece inmóvil. ¿Qué falta entender del rol del agente?",
+     "opciones": [
+      "El `NavigationAgent3D` no mueve al cuerpo; devuelve el siguiente punto con `get_next_path_position()` y tú calculas la velocidad hacia él",
+      "El `NavigationAgent3D` requiere que el enemigo sea un `RigidBody3D` para moverse",
+      "Hay que activar la propiedad `enabled` del agente, desactivada por defecto",
+      "El agente solo mueve al cuerpo si `is_navigation_finished()` devuelve `false` explícitamente"
+     ],
+     "correcta": 0,
+     "exp": "El agente solo resuelve la ruta: entrega el siguiente waypoint y es tu código quien calcula la dirección restando la posición actual y aplica `move_and_slide()`."
+    },
+    {
+     "q": "Una escena 3D con geometría y luces se ejecuta y la pantalla aparece completamente vacía, sin errores en consola. ¿Cuál es la primera comprobación a hacer sobre la cámara?",
+     "opciones": [
+      "Que la cámara tenga `shadow_enabled` activado para renderizar la escena",
+      "Que el `far` esté en 0 para no limitar la distancia de dibujado",
+      "Que alguna `Camera3D` tenga `current = true` (o se active con `make_current()`)",
+      "Que la cámara sea hija directa del nodo raíz de la escena"
+     ],
+     "correcta": 2,
+     "exp": "Solo una cámara puede estar activa por viewport; si ninguna tiene `current` en true no hay punto de vista desde el que renderizar y la pantalla queda vacía."
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "titulo": "Física y matemáticas de juegos aplicadas",
+   "preguntas": [
+    {
+     "q": "Se compara Euler explícito, Euler semi-implícito y Verlet en un oscilador (muelle) durante miles de pasos. ¿Qué comportamiento describe mejor a Euler explícito?",
+     "opciones": [
+      "Pierde energía progresivamente hasta detener el oscilador",
+      "Conserva la energía exactamente porque es un método simpléctico",
+      "Gana energía en cada ciclo y la amplitud crece hasta divergir",
+      "Da el mismo resultado que Verlet pero con la mitad de coste"
+     ],
+     "correcta": 2,
+     "exp": "Euler explícito usa la velocidad vieja para mover, lo que inyecta energía en cada paso; la amplitud crece sin control mientras que semi-implícito y Verlet la conservan mucho mejor."
+    },
+    {
+     "q": "Se implementa SAT para colisión de polígonos y falla sistemáticamente con una forma de \"L\". ¿Cuál es la causa de raíz?",
+     "opciones": [
+      "SAT requiere proyectar sobre los ejes cardinales X e Y únicamente",
+      "SAT solo es válido para formas convexas; la \"L\" es cóncava y debe descomponerse en convexos",
+      "Falta la fase de broadphase, sin la cual SAT no puede ejecutarse",
+      "SAT necesita que los polígonos tengan el mismo número de vértices"
+     ],
+     "correcta": 1,
+     "exp": "El teorema del eje separador solo garantiza resultados correctos entre convexos; una forma cóncava debe descomponerse en varias piezas convexas y probarlas por separado."
+    },
+    {
+     "q": "En una respuesta a colisión por impulsos, dos cuerpos se quedan \"pegados\" vibrando y a veces reciben impulso incluso cuando ya se están separando. ¿Qué dos comprobaciones faltan?",
+     "opciones": [
+      "Subir el coeficiente de restitución por encima de 1 y normalizar la velocidad",
+      "Aumentar la masa de ambos cuerpos y reducir el paso de tiempo",
+      "Aplicar el impulso en la tangente y no en la normal, e ignorar la penetración",
+      "Resolución posicional según masa inversa, y saltarse el impulso si la velocidad relativa normal indica que se alejan"
+     ],
+     "correcta": 3,
+     "exp": "El impulso corrige velocidades pero no el solapamiento, así que hace falta separar los cuerpos a lo largo de la normal en proporción a la masa inversa; y si la velocidad relativa normal ya es de separación, aplicar impulso añadiría energía falsa."
+    },
+    {
+     "q": "Se quiere aplicar primero una rotación `q1` y después `q2` sobre un objeto, usando cuaterniones en Godot. ¿Cuál es la composición correcta y qué requisito tiene?",
+     "opciones": [
+      "`q1 * q2`, y basta con que ambos tengan la misma parte real",
+      "`q2 * q1`, y ambos deben ser unitarios (normalizados) para representar rotaciones puras",
+      "`q1 + q2`, ya que las rotaciones se suman componente a componente",
+      "`q2 * q1`, pero solo funciona si se convierten antes a ángulos de Euler"
+     ],
+     "correcta": 1,
+     "exp": "La multiplicación de cuaterniones no es conmutativa y se lee de derecha a izquierda: `q2 * q1` aplica `q1` primero; además, solo los cuaterniones unitarios representan rotación sin deformar la escala."
+    },
+    {
+     "q": "Un coche frena con `velocity *= 0.9` una vez por frame. En un PC a 144 FPS frena muchísimo antes que en uno a 30 FPS. ¿Cuál es la corrección adecuada?",
+     "opciones": [
+      "Mover el frenado a `_process` para que reciba el delta variable",
+      "Cambiar el factor a 0.99 para que la diferencia sea imperceptible",
+      "Aplicar el damping de forma independiente del framerate, p. ej. `velocity *= pow(0.9, delta * 60)` o usar `move_toward`",
+      "Multiplicar directamente el factor por delta: `velocity *= 0.9 * delta`"
+     ],
+     "correcta": 2,
+     "exp": "Un factor fijo por frame se aplica más veces cuantos más FPS haya; elevarlo a `delta * 60` (decaimiento exponencial) o usar `move_toward` hace el frenado independiente del framerate."
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "titulo": "Gráficos, shaders y rendering moderno",
+   "preguntas": [
+    {
+     "q": "En un shader `spatial` de Godot, escribir `ALBEDO = vec3(1.0, 0.0, 0.0);` dentro de la función `vertex()` produce un error de compilación. ¿Por qué?",
+     "opciones": [
+      "`ALBEDO` requiere el hint `source_color` para poder asignarse",
+      "`ALBEDO` es un built-in de la etapa `fragment()`; en `vertex()` se trabaja con `VERTEX` y se pasan datos con `varying`",
+      "`ALBEDO` es de tipo `vec4`, así que falta el componente alfa",
+      "`ALBEDO` solo existe en `shader_type canvas_item`, no en `spatial`"
+     ],
+     "correcta": 1,
+     "exp": "El vertex shader corre una vez por vértice y su tarea es proyectar geometría; el color final se produce por fragmento, así que `ALBEDO` solo está disponible en `fragment()`."
+    },
+    {
+     "q": "Un shader dibuja un círculo con `float mascara = step(0.3, distance(UV, vec2(0.5)));` y el borde se ve escalonado y duro. ¿Qué cambio produce un borde suave y antialiaseado?",
+     "opciones": [
+      "Sustituir `step` por `smoothstep(0.28, 0.3, distance(UV, vec2(0.5)))`",
+      "Sustituir `distance` por `length(UV)` para ganar precisión",
+      "Envolver la expresión en `fract()` para suavizar la transición",
+      "Medir la distancia desde `vec2(0.0)` en lugar de `vec2(0.5)`"
+     ],
+     "correcta": 0,
+     "exp": "`step` devuelve solo 0 o 1 y genera un corte duro; `smoothstep` interpola suavemente entre dos bordes cercanos, lo que suaviza el contorno."
+    },
+    {
+     "q": "Un material PBR de madera se ve mal en todas las escenas: los brillos son extraños y aparece con sombras \"pintadas\" que no se corresponden con las luces. Se configuró con `metallic = 0.5` y una textura de albedo fotografiada con iluminación. ¿Qué dos errores hay?",
+     "opciones": [
+      "El roughness debería ser 0 y el AO debería multiplicar la luz directa",
+      "El albedo necesita el hint `hint_normal` y el metallic debería ser 1",
+      "La madera es dieléctrica, así que metallic debe ser 0; y el albedo debe ser color plano, sin luz ni sombras horneadas",
+      "Falta activar `shadow_enabled` en el material y usar alpha scissor"
+     ],
+     "correcta": 2,
+     "exp": "En PBR metallic es prácticamente binario (0 dieléctrico, 1 metal) y los valores intermedios casi no existen en la realidad; además el albedo debe ser color difuso puro, porque la iluminación la calcula el motor."
+    },
+    {
+     "q": "Se aplica un normal map muy detallado a una esfera de pocos polígonos. El relieve se aprecia bien al mover la luz, pero el contorno de la esfera sigue viéndose facetado. ¿Por qué?",
+     "opciones": [
+      "El normal map perturba las normales para la iluminación pero no modifica la geometría, así que la silueta no cambia",
+      "Falta subir `NORMAL_MAP_DEPTH` por encima de 1.0 para que afecte al borde",
+      "La textura no se marcó como Normal Map al importar, y por eso el contorno falla",
+      "El normal map solo funciona en mallas con UV en potencia de dos"
+     ],
+     "correcta": 0,
+     "exp": "El normal mapping es una ilusión de iluminación: altera cómo la luz golpea cada píxel sin tocar los vértices, por lo que la silueta requiere más polígonos o técnicas como parallax/displacement."
+    },
+    {
+     "q": "Un campo de 20.000 briznas de hierba, creado como 20.000 nodos `MeshInstance3D` con la misma malla, hunde los FPS y el profiler muestra draw calls altísimas. ¿Cuál es la solución adecuada?",
+     "opciones": [
+      "Asignar un `ShaderMaterial` distinto a cada brizna para repartir la carga",
+      "Usar un `MultiMeshInstance3D` con un `MultiMesh` y colocar cada brizna con `set_instance_transform()`",
+      "Activar `cull_disabled` en el material de cada nodo",
+      "Mover la creación de los nodos de `_ready` a `_physics_process`"
+     ],
+     "correcta": 1,
+     "exp": "El instancing dibuja N copias de la misma malla con una sola orden variando solo los datos por instancia, lo que colapsa miles de draw calls en una y descarga a la CPU."
+    }
+   ]
+  },
+  {
+   "idx": 5,
+   "titulo": "Inteligencia artificial para juegos",
+   "preguntas": [
+    {
+     "q": "Un enemigo con FSM alterna frenéticamente entre `PATRULLA` y `PERSIGUE` varias veces por segundo cuando el jugador está justo en el límite del rango de detección. ¿Cuál es la solución estándar?",
+     "opciones": [
+      "Evaluar las transiciones en `_process` en lugar de `_physics_process`",
+      "Añadir un tercer estado intermedio que absorba el cambio",
+      "Usar histéresis: umbrales distintos para entrar y para salir del estado",
+      "Aumentar la velocidad del enemigo para que cruce el umbral más rápido"
+     ],
+     "correcta": 2,
+     "exp": "El parpadeo ocurre porque las condiciones de ida y vuelta se solapan en el mismo punto; separar los umbrales (entrar a 200 px, salir a 260 px) crea una zona muerta que estabiliza la decisión."
+    },
+    {
+     "q": "En un behavior tree quieres que el enemigo intente atacar y, si no puede, intente perseguir y, si tampoco, patrulle (siempre en ese orden de prioridad). ¿Qué composite debes usar en la raíz?",
+     "opciones": [
+      "Un Sequence, porque ejecuta los hijos en orden hasta que uno tiene éxito",
+      "Un Selector (Fallback), porque prueba los hijos hasta que uno devuelve SUCCESS",
+      "Un Decorator Inverter, que invierte el resultado de cada rama",
+      "Un Repeater, que reintenta cada hijo hasta agotar las prioridades"
+     ],
+     "correcta": 1,
+     "exp": "El Selector es un \"O\" lógico: recorre los hijos y se queda con el primero que triunfa, que es exactamente la semántica de una lista de prioridades; el Sequence es un \"Y\" que falla si un hijo falla."
+    },
+    {
+     "q": "Sobre una grilla donde solo se permite movimiento en 4 direcciones, ¿por qué la distancia Manhattan es una buena heurística para A*?",
+     "opciones": [
+      "Porque siempre sobreestima el coste restante, lo que acelera enormemente la búsqueda",
+      "Porque hace que A* se comporte exactamente igual que Dijkstra",
+      "Porque es la única heurística que Godot admite en `AStarGrid2D`",
+      "Porque es admisible: nunca sobreestima el coste real, y eso garantiza que A* halle el camino óptimo"
+     ],
+     "correcta": 3,
+     "exp": "Sin diagonales, la Manhattan coincide exactamente con el número mínimo de pasos y nunca lo supera; una heurística admisible es la condición que garantiza la optimalidad de A*."
+    },
+    {
+     "q": "Un guardia detecta al jugador en 360 grados aunque lo tenga a su espalda. El código solo comprueba `distancia < alcance`. ¿Qué prueba falta para implementar un cono de visión?",
+     "opciones": [
+      "Comparar el producto punto entre el frente normalizado del agente y el vector normalizado al jugador contra `cos(mitad_del_angulo)`",
+      "Comparar el producto cruz entre el frente y el vector al jugador contra cero",
+      "Comprobar que `distancia` sea también mayor que un alcance mínimo",
+      "Sumar el ángulo del agente y el del jugador y comprobar que no supere 180 grados"
+     ],
+     "correcta": 0,
+     "exp": "Con vectores normalizados el producto punto es el coseno del ángulo entre ellos, así que `dot > cos(mitad_angulo)` equivale a \"está dentro del cono\"; conviene además validar la línea de vista con un raycast."
+    },
+    {
+     "q": "En un sistema de Utility AI donde la puntuación de cada acción es el producto de sus consideraciones, la acción `Curarse` nunca se ejecuta pese a estar bien diseñada. ¿Cuál es la causa más probable?",
+     "opciones": [
+      "Las consideraciones deben promediarse, nunca multiplicarse; multiplicar es siempre un error",
+      "Falta añadir histéresis, sin la cual ninguna acción puede ganar",
+      "Alguna de sus consideraciones devuelve 0, lo que anula todo el producto",
+      "Las utilidades deben estar en el rango [0, 100] y no en [0, 1]"
+     ],
+     "correcta": 2,
+     "exp": "Multiplicar consideraciones es intencional: permite que un factor en 0 vete la acción por completo, así que una consideración mal normalizada o saturada en 0 la deja fuera de juego para siempre."
+    }
+   ]
+  },
+  {
+   "idx": 6,
+   "titulo": "Audio y música interactiva",
+   "preguntas": [
+    {
+     "q": "Estás decidiendo el formato de importación de los assets de audio de tu juego: tienes pasos, disparos e impactos muy cortos que suenan decenas de veces por minuto, y tres pistas de música de tres minutos cada una. ¿Cuál es el criterio correcto?",
+     "opciones": [
+      "Todo en WAV: es el formato sin pérdida y garantiza la mejor calidad en cualquier caso",
+      "Todo en OGG Vorbis: comprime y siempre reduce el consumo de recursos del juego",
+      "SFX cortos en WAV (se cargan enteros en RAM, latencia mínima) y música larga en OGG Vorbis con streaming desde disco",
+      "SFX en OGG con streaming activado y música en WAV, porque la música necesita la máxima fidelidad"
+     ],
+     "correcta": 2,
+     "exp": "WAV va descomprimido a RAM: latencia mínima y CPU casi nulo, ideal para SFX cortos y frecuentes. OGG Vorbis se transmite desde disco y ahorra memoria, ideal para pistas largas. El streaming no conviene para SFX cortos."
+    },
+    {
+     "q": "Un alumno reporta que su música suena distorsionada y saturada. Revisas su código y encuentra `player.volume_db = 100` porque \"quería el volumen al máximo\". ¿Qué error conceptual cometió?",
+     "opciones": [
+      "`volume_db` no es un porcentaje: es una escala en decibelios cuyo rango útil va aproximadamente de -80 a +6, y 0 dB significa \"sin cambio\", no el mínimo",
+      "`volume_db` sí es un porcentaje, pero el valor máximo permitido es 80 y por eso satura",
+      "El error es usar `volume_db` en lugar de `pitch_scale`, que es la propiedad que controla el volumen",
+      "No hay error conceptual: el problema real es que el bus Master tiene un compresor mal configurado"
+     ],
+     "correcta": 0,
+     "exp": "`volume_db` está en decibelios, no en porcentaje. 0 dB equivale a la señal original y -6 dB es aproximadamente la mitad de amplitud percibida; valores muy por encima de 0 en Master provocan clipping."
+    },
+    {
+     "q": "Configuraste un `AudioStreamRandomizer` con cinco muestras de pasos, pero los jugadores se quejan de que a veces se oye exactamente la misma muestra dos veces seguidas. ¿Qué ajuste lo resuelve directamente?",
+     "opciones": [
+      "Subir `random_pitch` a 1.5 para que la repetición sea imperceptible",
+      "Añadir más muestras hasta que la probabilidad de repetición sea despreciable",
+      "Aumentar `random_volume_offset_db` para que las repeticiones suenen a distinto volumen",
+      "Cambiar el Playback Mode a `Random (No Repeats)`, que impide repetir la última muestra reproducida"
+     ],
+     "correcta": 3,
+     "exp": "El modo `Random (No Repeats)` (`PLAYBACK_RANDOM_NO_REPEATS`) descarta la última muestra sonada al sortear la siguiente. Subir el pitch a 1.5 desafina de forma poco realista; el rango recomendado ronda 1.05-1.15."
+    },
+    {
+     "q": "En un sistema de música adaptativa por capas verticales, cuando la tensión baja quieres que la capa de percusión deje de oírse. ¿Cuál es la forma correcta de hacerlo y por qué?",
+     "opciones": [
+      "Llamar a `stop()` en esa capa para liberar CPU, y `play()` de nuevo cuando la tensión suba",
+      "Bajar su `volume_db` a un valor de silencio (por ejemplo -60) con un tween: la capa sigue reproduciéndose y conserva la sincronía con las demás",
+      "Poner su `pitch_scale` a 0 para congelar la capa sin perder su posición de reproducción",
+      "Descargar el stream de la capa asignando `null` a su propiedad `stream` hasta que vuelva a hacer falta"
+     ],
+     "correcta": 1,
+     "exp": "Todas las capas arrancan a la vez y nunca se detienen: solo se atenúan. Si haces `stop()`, al volver a reproducir la capa entra desfasada respecto a los demás stems y se rompe la mezcla."
+    },
+    {
+     "q": "Estás sincronizando eventos visuales con el ritmo de una canción a 120 BPM. ¿Cuál es la aproximación correcta al reloj musical?",
+     "opciones": [
+      "Acumular `delta` en cada `_process` y comparar contra `60 / BPM`: es la fuente de tiempo más estable del motor",
+      "Usar un `Timer` con `wait_time = 60 / BPM` en modo repetición, que garantiza el compás exacto",
+      "Usar `get_playback_position()`, sumarle `AudioServer.get_time_since_last_mix()` y restarle `AudioServer.get_output_latency()`",
+      "Usar `Time.get_ticks_msec()` desde el inicio de la canción, ya que es un reloj monótono independiente del audio"
+     ],
+     "correcta": 2,
+     "exp": "La música manda: se parte de la posición de reproducción, se suma el tiempo desde la última mezcla para reducir el jitter entre frames y se resta la latencia de salida para alinear lo visual con lo audible. Acumular `delta` deriva y en un minuto el desfase ya se nota."
+    }
+   ]
+  },
+  {
+   "idx": 7,
+   "titulo": "Multijugador y networking",
+   "preguntas": [
+    {
+     "q": "¿Cuál es la razón técnica principal por la que un shooter en tiempo real evita TCP para replicar el estado del mundo?",
+     "opciones": [
+      "TCP no permite enviar datos binarios, solo texto plano, y eso limita la serialización eficiente",
+      "TCP tiene head-of-line blocking: un paquete perdido frena a todos los siguientes hasta retransmitirlo, produciendo stalls impredecibles",
+      "TCP no puede atravesar NAT, mientras que UDP sí lo hace de forma nativa",
+      "TCP consume siempre más ancho de banda que UDP porque duplica cada paquete por seguridad"
+     ],
+     "correcta": 1,
+     "exp": "El head-of-line blocking es fatal para estado que se sobrescribe cada tick: esperar la retransmisión de una posición ya obsoleta detiene todo lo que venía detrás. UDP deja que tú decidas qué fiabilidad añadir encima."
+    },
+    {
+     "q": "En un juego con servidor autoritativo, ¿cuál es el \"patrón de oro\" para declarar los RPC de input del jugador y los de difusión de estado?",
+     "opciones": [
+      "Input: `@rpc(\"authority\", \"call_local\", \"reliable\")` + `rpc()`. Estado: `@rpc(\"any_peer\", \"call_remote\", \"unreliable\")` + `rpc_id(1, ...)`",
+      "Ambos con `@rpc(\"any_peer\", \"call_local\", \"reliable\")` y `rpc()`, dejando que cada par decida qué aplicar",
+      "Input: `@rpc(\"any_peer\", ...)` enviado con `rpc_id(1, ...)` al servidor. Estado: `@rpc(\"authority\", ...)` difundido con `rpc()`",
+      "Input: `@rpc(\"authority\", ...)` con `rpc_id(1, ...)`. Estado: `@rpc(\"authority\", ...)` también con `rpc_id(1, ...)`"
+     ],
+     "correcta": 2,
+     "exp": "El input viaja del cliente al servidor, así que necesita `any_peer` y se dirige con `rpc_id(1, ...)` porque el id 1 siempre es el servidor. El estado lo difunde solo quien tiene la autoridad del nodo, con `authority` + `rpc()`, para que ningún cliente pueda falsificarlo."
+    },
+    {
+     "q": "Configuraste un `MultiplayerSpawner` y un `MultiplayerSynchronizer`, pero al probar con dos instancias todos los jugadores mueven el mismo avatar. ¿Cuál es la causa más probable?",
+     "opciones": [
+      "Falta llamar a `set_multiplayer_authority(id)` en cada avatar y comprobar `is_multiplayer_authority()` antes de leer el input",
+      "El `spawn_path` apunta a un nodo que no existe en el cliente",
+      "La escena del jugador no está en la Auto Spawn List del spawner",
+      "Falta añadir la propiedad `position` al `SceneReplicationConfig` del synchronizer"
+     ],
+     "correcta": 0,
+     "exp": "Por defecto la autoridad de un nodo recién añadido es el servidor, así que hay que transferirla al peer dueño con `set_multiplayer_authority(id)` y filtrar la lectura de input con `is_multiplayer_authority()`. Las otras opciones producen síntomas distintos (no ver al spawneado, o que la posición no se replique)."
+    },
+    {
+     "q": "Sobre el tratamiento del avatar propio frente al de los demás jugadores en un juego en red, ¿cuál es la regla correcta?",
+     "opciones": [
+      "Ambos se interpolan por igual, para que todos los jugadores vean exactamente el mismo movimiento suavizado",
+      "Ambos se predicen, porque interpolar el avatar propio introduce un retardo perceptible en el input",
+      "El propio se interpola en `_physics_process` y los ajenos se extrapolan siempre, sin límite",
+      "El avatar propio se predice (aplicando el input de inmediato) y los ajenos se interpolan, renderizándolos ligeramente en el pasado"
+     ],
+     "correcta": 3,
+     "exp": "Predicción e interpolación son complementarias, no rivales: predices el tuyo para que responda al instante y reconcilias con el servidor, e interpolas los ajenos con un retardo (unos 100 ms) para tener siempre dos snapshots entre los que mezclar. La interpolación va en `_process` porque es puramente visual."
+    },
+    {
+     "q": "Un desarrollador argumenta: \"mi juego cifra todo el tráfico con TLS, así que el cliente puede calcular su propia posición y daño; nadie puede tocar los paquetes\". ¿Qué falla en ese razonamiento?",
+     "opciones": [
+      "Nada falla: si el canal está cifrado, el estado que envía el cliente es confiable por definición",
+      "El cifrado protege el canal, pero no impide que el cliente esté modificado: el servidor debe validar cada acción y aplicar sus propios límites",
+      "Falla solo el rendimiento: cifrar añade latencia, pero la confianza en el cliente es correcta si el juego es cooperativo",
+      "Falla porque TLS no funciona sobre UDP, así que bastaría con usar un cifrado compatible con ENet"
+     ],
+     "correcta": 1,
+     "exp": "El cifrado no sustituye a la validación: el atacante es el propio cliente, y su binario puede estar parcheado. El cliente envía intención, no estado; las constantes de límite (velocidad, alcance, cooldown) viven en el servidor y validarlas es barato."
+    }
+   ]
+  },
+  {
+   "idx": 8,
+   "titulo": "Game design y diseño de niveles",
+   "preguntas": [
+    {
+     "q": "En el marco MDA (Mechanics, Dynamics, Aesthetics), ¿a qué se refiere exactamente la \"estética\"?",
+     "opciones": [
+      "Al apartado visual del juego: dirección de arte, paleta, estilo gráfico y calidad de los assets",
+      "A la respuesta emocional deseada en el jugador, es decir, el tipo de diversión que el juego busca provocar",
+      "Al conjunto de reglas formales que el diseñador escribe y controla de forma directa",
+      "Al comportamiento emergente que aparece cuando las mecánicas interactúan entre sí durante la partida"
+     ],
+     "correcta": 1,
+     "exp": "Confundir la estética de MDA con los gráficos es la confusión más frecuente del marco: un juego visualmente feo puede tener una estética MDA excelente. Las reglas son las mecánicas y el comportamiento emergente son las dinámicas."
+    },
+    {
+     "q": "Tu juego lleva semanas en pruebas y el oro de los jugadores no para de crecer: ya nadie valora el loot ni las recompensas de misión. ¿Cómo se diagnostica el problema y qué palanca es la adecuada?",
+     "opciones": [
+      "Es estrangulamiento: hay que aumentar las fuentes para que el jugador sienta progreso",
+      "Es un problema de aleatoriedad: hay que ponderar la tabla de loot para que las recompensas sean más raras",
+      "Es inflación: el flujo neto (fuentes menos sumideros) es positivo y creciente, y faltan sumideros que retiren oro del sistema",
+      "Es un bucle negativo dominante: hay que introducir rubber-banding para reequilibrar a los jugadores ricos"
+     ],
+     "correcta": 2,
+     "exp": "Inflación = fuentes demasiado generosas sin sumideros que retiren circulante; sin sumideros el recurso pierde valor. La solución son sumideros aspiracionales (mejoras deseables), no castigos secos."
+    },
+    {
+     "q": "Analizando tu juego con diagramas de bucles, marcas uno como bucle positivo (R). Un compañero concluye: \"perfecto, entonces ese bucle es bueno para la partida\". ¿Es correcta esa lectura?",
+     "opciones": [
+      "Sí: en la notación de sistemas, R indica un bucle beneficioso y B uno perjudicial que hay que eliminar",
+      "Sí, siempre que el bucle esté conectado a una fuente y no a un sumidero",
+      "No: R y B indican refuerzo y estabilización, pero el bucle positivo se refiere a que refuerza el equilibrio del sistema",
+      "No: positivo/negativo significa reforzador/estabilizador, no bueno/malo. Un bucle positivo sin freno produce bola de nieve y puede arruinar la partida"
+     ],
+     "correcta": 3,
+     "exp": "R (reinforcing) amplifica: \"más A produce más A\", el rico se hace más rico. B (balancing) estabiliza. La etiqueta describe el efecto sobre el sistema, no su valor para el diseño; el rubber-banding, por ejemplo, es un bucle negativo deliberado."
+    },
+    {
+     "q": "Tu legendaria tiene un 2 % de probabilidad por tirada. La media hasta el primer éxito son 50 intentos, pero el equipo detecta jugadores que superan los 100 sin conseguirla y abandonan. ¿Cuál es la lectura de diseño correcta?",
+     "opciones": [
+      "La media de 50 demuestra que el sistema es justo: los casos largos son una percepción sesgada, no un problema real de diseño",
+      "El diseñador no controla la suerte individual, pero sí la forma de la distribución y el peor caso: un pity timer que garantice el premio tras N intentos elimina la cola larga",
+      "Hay que subir la probabilidad global al 5 %: es la única forma de acortar la cola de casos desafortunados",
+      "Es la falacia del jugador: tras muchos fallos la probabilidad real sube por sí sola, así que basta con explicárselo al jugador"
+     ],
+     "correcta": 1,
+     "exp": "La media consuela al diseñador, pero el peor caso define la reputación del sistema: con p = 0.02, un 36 % de jugadores sigue sin la pieza tras 50 tiradas. El pity timer elimina el peor caso. Cada tirada independiente no tiene memoria: creer lo contrario es la falacia del jugador."
+    },
+    {
+     "q": "Vas justo de plazo y propones saltarte el greybox para modelar el nivel directamente con arte final. ¿Qué objeción es la correcta?",
+     "opciones": [
+      "Que el greybox es obligatorio porque Godot no permite mover geometría con texturas ya aplicadas",
+      "Que el greybox sirve para validar la paleta y la dirección de arte antes de comprometerse con los assets definitivos",
+      "Que con prisa es justo cuando más se necesita: el greybox mide jugabilidad, no estética, e iterar en gris cuesta minutos mientras iterar sobre arte final cuesta días",
+      "Que sin greybox no se pueden definir las métricas de bloqueo, ya que estas dependen de las mallas finales"
+     ],
+     "correcta": 2,
+     "exp": "El bucle es greybox → playtest → iterar, cambiando una sola variable por vuelta. La maqueta gris existe precisamente para descubrir barato que el nivel no funciona, antes de que el coste de rehacerlo sea prohibitivo."
+    }
+   ]
+  },
+  {
+   "idx": 9,
+   "titulo": "Arte, animación y pipeline de assets",
+   "preguntas": [
+    {
+     "q": "Diseñaste una paleta de cinco colores muy vistosa, pero al ponerla en el juego los elementos se \"aplanan\" y cuesta distinguirlos. ¿Qué prueba conviene hacer y qué propiedad del color es la responsable?",
+     "opciones": [
+      "Desaturar la imagen y comprobar el valor: el ojo lee primero el contraste de claro/oscuro, y sin él ningún color salva la composición",
+      "Comprobar el tono (hue): si los cinco colores no forman una armonía triádica, el ojo no puede separarlos",
+      "Comprobar la saturación: hay que subirla en todos los elementos para que cada uno destaque frente a los demás",
+      "Comprobar la temperatura: mezclar colores cálidos y fríos en la misma paleta es lo que aplana la imagen"
+     ],
+     "correcta": 0,
+     "exp": "El valor (claro/oscuro) es lo que sostiene la legibilidad; el tono es la propiedad que menos la afecta. Desaturar la paleta a gris revela de inmediato si los elementos siguen siendo distinguibles. Reservar la alta saturación para lo importante es lo que crea foco."
+    },
+    {
+     "q": "Texturizas un prop y notas que una parte se ve nítida mientras otra, con la misma textura, sale borrosa. ¿Qué concepto explica el problema y cómo se comprueba?",
+     "opciones": [
+      "Densidad de texel desigual: se comprueba con un checker UV Grid verificando que un cuadro mida lo mismo en cualquier parte del modelo",
+      "Estiramiento de UVs: se comprueba con el overlay Display Stretching, donde el rojo indica zonas sanas y el azul estiramiento severo",
+      "Falta de margen en el Pack Islands: se comprueba subiendo el margen a 0.03 para que no haya sangrado entre islas",
+      "Resolución insuficiente de la textura: se comprueba subiendo el layout de 1024 a 2048, lo que iguala la nitidez en todo el modelo"
+     ],
+     "correcta": 0,
+     "exp": "La densidad de texel son los píxeles de textura por unidad de superficie: si una isla ocupa proporcionalmente menos espacio UV que otra, recibe menos resolución y sale borrosa. En Display Stretching el azul es sano y el rojo estiramiento severo, no al revés."
+    },
+    {
+     "q": "Configuras un material metálico en Godot con `Metallic = 1` y `Roughness = 0.2`, pero se ve negro y plano, sin ningún reflejo. ¿Cuál es la causa habitual?",
+     "opciones": [
+      "El albedo es demasiado oscuro: en materiales metálicos hay que aclararlo hasta que aparezca el reflejo",
+      "`Metallic` no debe ponerse a 1: los valores intermedios (0.5) son los que producen un metal creíble",
+      "El `Roughness` es demasiado bajo: un valor cercano a 0 elimina por completo los reflejos de la superficie",
+      "No hay entorno que reflejar: en un metal el color difuso desaparece y solo queda el reflejo, así que falta un WorldEnvironment con HDRI"
+     ],
+     "correcta": 3,
+     "exp": "La regla de oro del PBR: en metal el albedo tiñe el reflejo y no hay componente difuso; sin entorno no hay nada que reflejar y la superficie sale negra o plana. En dieléctricos el albedo sí es el color difuso y el reflejo es blanquecino y tenue."
+    },
+    {
+     "q": "Vas a hornear el normal map de tu roca de alta poli sobre la malla de baja poli en Blender con Selected to Active. ¿Cuál es el orden de selección correcto y por qué?",
+     "opciones": [
+      "Primero la malla alta y luego, con Shift, la baja como objeto activo: el objeto activo es el que recibe el bake",
+      "Primero la malla baja y luego, con Shift, la alta como objeto activo: el activo es siempre la fuente del detalle",
+      "El orden es indiferente mientras ambas mallas compartan origen y transform",
+      "Solo se selecciona la malla alta: Blender detecta automáticamente la baja por proximidad"
+     ],
+     "correcta": 0,
+     "exp": "El objeto activo (el seleccionado en último lugar, con borde más claro) es el que recibe el bake, es decir, la malla baja. Si inviertes el orden horneas al revés. Además, la baja necesita UVs y el nodo de imagen destino debe estar seleccionado o el bake sale negro."
+    },
+    {
+     "q": "Importas en Godot las texturas de tu prop y el relieve del normal map se ve invertido: los huecos parecen bultos y la superficie se comporta de forma extraña. ¿Cuál es la comprobación más pertinente en el pipeline de importación?",
+     "opciones": [
+      "Bajar la resolución de la textura de 2K a 1K: los normal maps de alta resolución generan artefactos de este tipo",
+      "Activar la generación automática de LOD en el Import dock, que recalcula las normales de la malla",
+      "Verificar que la textura se importó como normal map (`Normal Map = Enabled`) y no como textura de color, y revisar el espacio de normal y el flip del canal verde",
+      "Cambiar el renderer a Forward+, ya que Mobile no soporta correctamente el mapeado de normales"
+     ],
+     "correcta": 2,
+     "exp": "Un normal map importado como color se ve raro o plano: hay que marcarlo como normal map al importar. El relieve invertido apunta además al espacio de normal (usa Tangent space) o al canal verde volteado, la convención que difiere entre herramientas."
+    }
+   ]
+  },
+  {
+   "idx": 10,
+   "titulo": "UI/UX, accesibilidad y localización",
+   "preguntas": [
+    {
+     "q": "Colocas un botón dentro de un `VBoxContainer` y ajustas su `position` en el Inspector, pero al ejecutar vuelve siempre a su sitio original. ¿Qué está pasando?",
+     "opciones": [
+      "El botón tiene las anclas mal configuradas: hay que aplicarle el preset Full Rect para que respete su posición",
+      "Un contenedor ignora la posición manual de sus hijos y la recalcula cada frame; para reordenar se cambia el orden de los hijos en el árbol",
+      "Falta asignar `custom_minimum_size` al botón: sin él, el contenedor lo reposiciona al origen",
+      "El botón necesita `size_flags_horizontal = SIZE_EXPAND_FILL` para poder conservar su posición dentro del contenedor"
+     ],
+     "correcta": 1,
+     "exp": "Los contenedores toman el control del layout de sus hijos y recalculan posición y tamaño en cada frame. Las anclas y los contenedores no se reemplazan: las anclas sirven para bloques grandes y los contenedores para distribuir hijos dentro."
+    },
+    {
+     "q": "Tu juego tiene ocho pantallas y quieres que todos los botones compartan el mismo aspecto, con esquinas redondeadas nítidas a cualquier resolución. ¿Cuál es el enfoque correcto?",
+     "opciones": [
+      "Aplicar en cada botón `add_theme_stylebox_override(\"normal\", caja)` desde el script de cada pantalla",
+      "Crear un `StyleBoxTexture` con la imagen del botón y asignarlo a cada escena por separado",
+      "Definir un `Theme` con un `StyleBoxFlat` y asignarlo a la raíz de la UI, ya que el Theme se hereda del ancestro más cercano",
+      "Duplicar el Theme una vez por pantalla para poder ajustar cada una sin afectar a las demás"
+     ],
+     "correcta": 2,
+     "exp": "Lo que aparece en más de una pantalla vive en el Theme; los `add_theme_*_override` quedan pegados a un nodo y no son reutilizables. `StyleBoxFlat` escala nítido a cualquier resolución sin depender de assets, a diferencia de `StyleBoxTexture`."
+    },
+    {
+     "q": "Tu menú cambia de idioma correctamente al pulsar el botón, pero el contador de vidas del HUD, que asignaste por código con `tr(\"HUD_VIDAS\")`, se queda en el idioma anterior. ¿Por qué?",
+     "opciones": [
+      "Porque `tr()` solo funciona sobre nodos Control y el HUD usa un nodo distinto",
+      "Porque la clave `HUD_VIDAS` no está registrada en el CSV, y `tr()` devuelve una cadena vacía en ese caso",
+      "Porque `TranslationServer.set_locale()` solo afecta a las traducciones cargadas antes de iniciar la escena",
+      "Porque los nodos Control con la clave como texto se refrescan solos, pero un `tr()` llamado desde código se evalúa una vez y hay que volver a llamarlo tras cambiar el locale"
+     ],
+     "correcta": 3,
+     "exp": "`tr()` devuelve la traducción del locale actual en el momento de la llamada. Los Control con la clave puesta como texto se retraducen automáticamente; los textos compuestos por código deben reasignarse tras `set_locale`. Si falta la clave, `tr()` devuelve la clave tal cual, no una cadena vacía."
+    },
+    {
+     "q": "En tu juego los enemigos hostiles se distinguen de los neutrales por un aura roja frente a una verde. ¿Cuál es la corrección de accesibilidad prioritaria?",
+     "opciones": [
+      "Añadir un canal redundante de información (forma, icono o texto), porque no debe codificarse información crítica solo por color",
+      "Añadir un filtro de daltonismo por shader al viewport, que ya resuelve el problema para protanopía, deuteranopía y tritanopía",
+      "Aumentar la saturación de ambos colores hasta superar el contraste de 4.5:1 entre ellos",
+      "Permitir remapear los colores en las opciones, dejando que cada jugador elija la pareja que mejor distinga"
+     ],
+     "correcta": 0,
+     "exp": "No depender solo del color es uno de los requisitos de nivel básico de las Game Accessibility Guidelines: alto impacto y bajo coste. El filtro de daltonismo es un complemento, no la solución, y el ratio 4.5:1 de WCAG se refiere al contraste de texto sobre su fondo."
+    },
+    {
+     "q": "Publicas tu juego con UI vectorial en móvil y en pantallas 21:9. Los jugadores reportan interfaz borrosa y barras negras a los lados. ¿Qué configuración de Display → Window → Stretch es la adecuada?",
+     "opciones": [
+      "Mode = `viewport`, Aspect = `keep`: escala todo en bloque y garantiza que la proporción nunca se deforme",
+      "Mode = `disabled`, Aspect = `expand`: deja que cada dispositivo renderice a su resolución nativa sin escalar",
+      "Mode = `canvas_items`, Aspect = `expand`: mantiene la UI nítida y revela más área en los lados en lugar de añadir barras",
+      "Mode = `viewport`, Aspect = `expand`: combina el escalado en bloque con el aprovechamiento de las pantallas anchas"
+     ],
+     "correcta": 2,
+     "exp": "`canvas_items` es el modo recomendado para UI e ilustración vectorial nítida; `viewport` escala en bloque y es la causa habitual de la UI borrosa (está pensado para pixel art de resolución fija). `expand` revela más área en lugar de añadir barras negras, que es lo que produce `keep`."
+    }
+   ]
+  },
+  {
+   "idx": 11,
+   "titulo": "Móvil, consolas y plataformas",
+   "preguntas": [
+    {
+     "q": "Intentas subir tu juego a Google Play y la consola rechaza el archivo. Habías exportado un APK firmado con tu keystore de release. ¿Cuál es el problema?",
+     "opciones": [
+      "El APK debe firmarse con `apksigner` en vez de con la keystore configurada en el preset de Godot",
+      "Play exige AAB (Android App Bundle) para las apps nuevas: desde él genera APKs optimizados por dispositivo. El APK queda para pruebas y distribución fuera de Play",
+      "El APK es válido, pero hay que subirlo por `bundletool` en lugar de por el formulario de la consola",
+      "El problema es el renderer: Play rechaza los APK exportados con el renderer Mobile porque no cubre todos los dispositivos"
+     ],
+     "correcta": 1,
+     "exp": "El AAB es obligatorio para publicar apps nuevas en Play; Google genera desde él los APK optimizados por dispositivo, reduciendo el tamaño de descarga. El APK sigue sirviendo para pruebas locales y para tiendas alternativas."
+    },
+    {
+     "q": "Un compañero perdió el archivo `.keystore` con el que firmó la primera versión de su juego en Play. ¿Cuál es la consecuencia y la protección pertinente?",
+     "opciones": [
+      "No hay consecuencia: basta con generar una keystore nueva con el mismo alias y contraseña para recuperar la firma original",
+      "Solo afecta a la instalación por `adb`; las actualizaciones en Play se firman con la cuenta de desarrollador, no con la keystore",
+      "Sin esa clave privada no puede publicar actualizaciones de esa app; Play App Signing, donde Google custodia la clave de firma final, es la protección frente a este caso",
+      "Puede recuperarla ejecutando `apksigner verify --print-certs` sobre un APK antiguo, que reconstruye la clave privada"
+     ],
+     "correcta": 2,
+     "exp": "La keystore contiene la clave privada: sin ella no puedes actualizar la app en Play. Por eso se guarda fuera del repositorio y se respalda. Con Play App Signing, Google custodia la clave final y tú solo usas una clave de subida, que sí puede reemplazarse."
+    },
+    {
+     "q": "Implementas anuncios rewarded y descubres que los jugadores reciben las gemas aunque cierren el vídeo a los dos segundos. ¿Qué está mal?",
+     "opciones": [
+      "Falta llamar a `Engine.has_singleton(\"AdMob\")` antes de entregar la recompensa, lo que valida que el ad se completó",
+      "Estás usando un ad unit de prueba, que siempre reporta el vídeo como visto por completo",
+      "El plugin necesita el custom Gradle build para poder detectar el cierre anticipado del anuncio",
+      "Estás entregando la recompensa en la señal de cierre (`rewarded_closed`) en vez de en la de recompensa (`rewarded_earned`)"
+     ],
+     "correcta": 3,
+     "exp": "`rewarded_closed` se dispara siempre que el anuncio se cierra, se haya visto o no; solo la señal de recompensa confirma que el jugador cumplió la condición. `closed` sirve para precargar el siguiente anuncio, no para pagar."
+    },
+    {
+     "q": "Preparas la documentación de certificación para tres consolas. ¿Qué correspondencia de nomenclatura es la correcta?",
+     "opciones": [
+      "TRC en PlayStation, TCR en Xbox y lotcheck en Nintendo",
+      "TCR en PlayStation, TRC en Xbox y lotcheck en Nintendo",
+      "TRC en Nintendo, TCR en PlayStation y lotcheck en Xbox",
+      "Las tres plataformas usan TRC; TCR y lotcheck son fases internas del mismo proceso"
+     ],
+     "correcta": 0,
+     "exp": "TRC es la Technical Requirements Checklist de PlayStation, TCR son los Technical Certification Requirements de Xbox y Nintendo lo llama lotcheck. Los tres están bajo NDA y comparten un núcleo común: suspensión/resume, gestión de mandos, mensajes del sistema e integridad del guardado."
+    },
+    {
+     "q": "Adaptas tu HUD a móviles con notch usando `DisplayServer.get_display_safe_area()`. ¿Qué criterio de diseño es el correcto al aplicar los márgenes?",
+     "opciones": [
+      "Todo el contenido del juego, incluidos fondos y decorados, debe quedar dentro de la safe area para garantizar que nada se recorte",
+      "Solo la UI crítica e interactiva debe quedar dentro de la safe area; fondos y elementos decorativos pueden cubrir toda la pantalla",
+      "La safe area debe aplicarse una sola vez en `_ready()`, ya que sus valores no cambian durante la ejecución",
+      "Los márgenes de `get_display_safe_area()` se aplican tal cual como offsets, porque ya vienen en unidades del viewport"
+     ],
+     "correcta": 1,
+     "exp": "Restringir los fondos a la safe area desperdicia pantalla: se ven mejor a sangre. `get_display_safe_area()` devuelve un `Rect2i` en píxeles físicos, así que hay que convertirlo a unidades del viewport con la escala, y reaplicarlo en `size_changed` al rotar el dispositivo."
+    }
+   ]
+  },
+  {
+   "idx": 12,
+   "titulo": "Juegos web y HTML5",
+   "preguntas": [
+    {
+     "q": "Exportas tu juego de Godot 4 a Web y en la consola del navegador aparece \"SharedArrayBuffer is not defined\". ¿Cuál es la causa y la solución correcta?",
+     "opciones": [
+      "Faltan las plantillas de exportación; hay que reinstalarlas desde Manage Export Templates",
+      "El servidor no envía las cabeceras COOP y COEP, necesarias para habilitar SharedArrayBuffer y los hilos",
+      "El preset de exportación está en modo debug; hay que exportar en release",
+      "El navegador no soporta WebAssembly; hay que usar el renderer Compatibility"
+     ],
+     "correcta": 1,
+     "exp": "SharedArrayBuffer (base de los hilos en WASM) solo se habilita si la respuesta HTTP incluye Cross-Origin-Opener-Policy y Cross-Origin-Embedder-Policy. Hay que servir la exportación con un servidor que añada ambas cabeceras."
+    },
+    {
+     "q": "Tras exportar a Web, haces doble clic en index.html y solo ves una pantalla en blanco. ¿Por qué?",
+     "opciones": [
+      "El canvas necesita que el script se cargue al final del body",
+      "La exportación falló silenciosamente y no generó el binario WASM",
+      "Abriste el archivo con el protocolo file://; el WASM y los recursos exigen servirse por HTTP",
+      "Falta declarar el tamaño del canvas con atributos width y height en vez de CSS"
+     ],
+     "correcta": 2,
+     "exp": "El navegador bloquea la carga del módulo WebAssembly y de los recursos bajo file://. La exportación debe servirse por HTTP, por ejemplo desde localhost."
+    },
+    {
+     "q": "Tu juego con requestAnimationFrame se mueve mucho más rápido en un monitor de 144 Hz que en uno de 60 Hz. ¿Qué error cometiste?",
+     "opciones": [
+      "Usaste requestAnimationFrame en vez de setInterval con un intervalo fijo",
+      "Olvidaste llamar a clearRect al inicio de cada dibujo",
+      "No limitaste los FPS del navegador desde el canvas",
+      "Aplicaste el movimiento en unidades por frame en vez de multiplicar la velocidad por el delta de tiempo (dt)"
+     ],
+     "correcta": 3,
+     "exp": "requestAnimationFrame se sincroniza con el refresco de la pantalla, así que el número de frames por segundo varía. Todo movimiento debe multiplicarse por dt para ser independiente del monitor."
+    },
+    {
+     "q": "En producción, la música de tu juego web no suena nunca y la consola muestra \"The AudioContext was not allowed to start\". ¿Cuál es el arreglo correcto?",
+     "opciones": [
+      "Llamar a audioCtx.resume() dentro de un evento de interacción del usuario, como un botón de \"toca para empezar\"",
+      "Convertir todo el audio a formato WAV para que decodeAudioData no falle",
+      "Conectar las fuentes de audio directamente a destination en lugar de a un GainNode",
+      "Servir los archivos de audio con cabeceras COOP y COEP"
+     ],
+     "correcta": 0,
+     "exp": "Los navegadores exigen un gesto del usuario antes de permitir reproducir audio (política de autoplay). El AudioContext arranca suspendido y debe reanudarse dentro de un evento de usuario."
+    },
+    {
+     "q": "Estás decidiendo el transporte de red para un juego web. ¿Qué afirmación es correcta sobre WebSockets y WebRTC?",
+     "opciones": [
+      "WebSockets es peer-to-peer y no requiere servidor, mientras WebRTC siempre pasa por un servidor central",
+      "En una página servida por HTTPS puedes seguir usando ws:// sin problema",
+      "WebRTC permite conexiones directas entre pares, pero necesita STUN y a menudo TURN para atravesar NAT y firewalls",
+      "WebRTC es más simple de desplegar que WebSockets porque no necesita ninguna infraestructura adicional"
+     ],
+     "correcta": 2,
+     "exp": "WebRTC busca una ruta directa entre pares, pero requiere servidores ICE (STUN, y TURN cuando no hay ruta directa). WebSockets es cliente-servidor y en HTTPS debe usar wss://."
+    }
+   ]
+  },
+  {
+   "idx": 13,
+   "titulo": "VR, AR y experiencias inmersivas",
+   "preguntas": [
+    {
+     "q": "Diseñas una experiencia con desplazamiento libre por una sala y el hardware objetivo solo ofrece 3DoF. ¿Qué implica esto?",
+     "opciones": [
+      "Nada relevante: 3DoF y 6DoF solo se diferencian en la calidad del renderizado",
+      "El dispositivo rastrea únicamente la rotación de la cabeza, no su traslación, por lo que no puedes prometer movimiento físico libre",
+      "El dispositivo rastrea la traslación pero no la rotación, así que el usuario no podrá mirar alrededor",
+      "3DoF significa tres cámaras de tracking, suficientes para movimiento libre en la sala"
+     ],
+     "correcta": 1,
+     "exp": "3DoF rastrea solo la orientación (giro de la cabeza); 6DoF añade la posición en el espacio. Hay que confirmar los DoF del hardware antes de diseñar movimiento libre."
+    },
+    {
+     "q": "En tu escena VR de Godot, la cámara no sigue los movimientos de la cabeza del jugador. ¿Cuál es la causa más probable?",
+     "opciones": [
+      "Falta asignar el tracker left_hand al XRController3D",
+      "El proyecto usa el renderer Forward+ en vez de Mobile",
+      "El XRCamera3D no es hijo del XROrigin3D; la jerarquía está mal montada",
+      "No activaste el foveated rendering en el gestor de OpenXR"
+     ],
+     "correcta": 2,
+     "exp": "El XROrigin3D representa el punto de referencia del espacio de juego y el XRCamera3D debe colgar de él para recibir la pose del visor. La cámara nunca debe moverse por código."
+    },
+    {
+     "q": "Varios testers reportan mareo en tu prototipo VR. ¿Qué combinación de decisiones reduce mejor el malestar?",
+     "opciones": [
+      "Ofrecer snap turn como opción principal y, si hay movimiento continuo, aplicar viñeta (tunneling) y bajar la velocidad",
+      "Subir la velocidad de desplazamiento para que los tramos incómodos duren menos",
+      "Sustituir el giro por snap turn únicamente al final del proyecto, como pulido",
+      "Usar smooth turn por defecto porque resulta más natural que los saltos de ángulo"
+     ],
+     "correcta": 0,
+     "exp": "El giro suave y el movimiento continuo rápido son las mayores fuentes de cybersickness. El snap turn y el tunneling reducen el conflicto sensorial, y el confort se decide desde el diseño, no como parche final."
+    },
+    {
+     "q": "Tu app de AR con ARCore no detecta planos y los objetos colocados \"derivan\" al moverse. ¿Cuál es la causa habitual?",
+     "opciones": [
+      "Falta activar OpenXR en Project Settings; el AR móvil lo requiere igual que el VR de escritorio",
+      "Los objetos AR no se pueden anclar si no usas oclusión, que viene desactivada por defecto",
+      "El tracking es pobre por poca luz o superficies uniformes sin textura; hay que mejorar iluminación y textura del entorno",
+      "El hit-test solo funciona si el dispositivo está inmóvil durante toda la sesión"
+     ],
+     "correcta": 2,
+     "exp": "El SLAM de ARCore/ARKit necesita rasgos visuales para estimar la pose. Con poca luz o superficies lisas la detección de planos falla y el contenido deriva."
+    },
+    {
+     "q": "Preparas un juego VR para Quest a 90 fps. ¿Qué afirmación sobre el presupuesto de frame en XR es correcta?",
+     "opciones": [
+      "Tienes 16.6 ms por frame, igual que en un juego plano a 60 fps",
+      "Tienes unos 11 ms por frame para renderizar ambos ojos, y el foveated rendering ahorra píxeles bajando la resolución de la periferia",
+      "Tienes 11 ms por ojo, es decir 22 ms de presupuesto total por frame",
+      "El presupuesto no importa mientras el promedio de fps sea alto, aunque haya caídas puntuales"
+     ],
+     "correcta": 1,
+     "exp": "A 90 fps el presupuesto es 1000/90 ≈ 11 ms para renderizar los dos ojos. El foveated rendering aprovecha que el ojo solo ve nítido el centro para reducir el coste en la periferia."
+    }
+   ]
+  },
+  {
+   "idx": 14,
+   "titulo": "Optimización, profiling y rendimiento",
+   "preguntas": [
+    {
+     "q": "Un compañero dice: \"Optimicé mucho código durante dos días y el FPS no subió nada\". ¿Cuál es el diagnóstico más probable?",
+     "opciones": [
+      "El motor cachea el rendimiento anterior; hay que reiniciar el proyecto para ver la mejora",
+      "Optimizó sin medir antes, y atacó algo que no era el cuello de botella real",
+      "Las optimizaciones de CPU nunca se reflejan en el FPS, solo las de GPU",
+      "Midió con la build exportada en vez de con el editor abierto"
+     ],
+     "correcta": 1,
+     "exp": "Sin baseline ni profiling no sabes dónde está el coste. Medir primero identifica el 20% caro; optimizar a ciegas gasta tiempo sin resultado demostrable."
+    },
+    {
+     "q": "¿Por qué se recomienda razonar en frame time (ms) en vez de en FPS al fijar objetivos de rendimiento?",
+     "opciones": [
+      "Porque el frame time incluye el tiempo de GPU y el FPS solo mide la CPU",
+      "Porque los FPS solo se pueden medir en la build exportada",
+      "Porque los FPS no son una escala lineal y engañan, mientras el frame time se reparte en presupuesto: 60 fps son 16.6 ms por frame",
+      "Porque el frame time es constante entre plataformas y los FPS no"
+     ],
+     "correcta": 2,
+     "exp": "Pasar de 30 a 60 fps y de 60 a 120 fps ahorran cantidades de ms muy distintas. El frame time (16.6 ms a 60 fps) permite presupuestar por sistemas y reservar margen para picos."
+    },
+    {
+     "q": "El Profiler muestra un self time alto en el _process de tu script. ¿Qué optimización de CPU es la más adecuada según el curso?",
+     "opciones": [
+      "Cachear las referencias a nodos con @onready y sacar las búsquedas del bucle, además de tipar estáticamente las variables",
+      "Mover toda la lógica a un hilo secundario que modifique el árbol de escena directamente",
+      "Subir physics_ticks_per_second para que el motor reparta mejor la carga",
+      "Sustituir _process por _physics_process, que es más eficiente"
+     ],
+     "correcta": 0,
+     "exp": "Buscar nodos cada frame y usar variables sin tipo obligan a trabajo y comprobaciones repetidas en runtime. Cachear con @onready y tipar estáticamente elimina ese coste."
+    },
+    {
+     "q": "Tu escena tiene pocas draw calls pero el FPS sigue bajo, y empeora al subir la resolución. ¿Cuál es la causa más probable?",
+     "opciones": [
+      "Demasiados nodos idénticos; hay que agruparlos en un MultiMeshInstance",
+      "Ciclos de referencia entre objetos RefCounted que no se liberan",
+      "Los cuerpos físicos no duermen y consumen CPU",
+      "Overdraw por transparencias apiladas y presión de fillrate: cada píxel se pinta varias veces"
+     ],
+     "correcta": 3,
+     "exp": "El MultiMesh ataca las draw calls, pero si estas ya son pocas el cuello suele ser fillrate/overdraw. Reducir capas translúcidas y solape, o bajar MSAA y texturas de pantalla completa, es lo que ayuda."
+    },
+    {
+     "q": "Implementas carga en segundo plano con load_threaded_request y la barra de progreso salta de 0 a 100 sin pasos intermedios. ¿Qué falta?",
+     "opciones": [
+      "Consultar load_threaded_get_status() cada frame desde _process, en vez de una sola vez en _ready",
+      "Proteger el array de progreso con un Mutex antes de leerlo",
+      "Llamar a load_threaded_get() antes de load_threaded_request()",
+      "Usar change_scene_to_file() en lugar de la carga en hilo"
+     ],
+     "correcta": 0,
+     "exp": "El progreso se sondea: hay que llamar a load_threaded_get_status() cada frame en _process y pasar un array vacío que el motor rellena. Consultarlo una sola vez da un salto de 0 a 100."
+    }
+   ]
+  },
+  {
+   "idx": 15,
+   "titulo": "Herramientas, editores y automatización (tooling)",
+   "preguntas": [
+    {
+     "q": "Antes de invertir una semana en construir una herramienta interna, ¿cuál es el criterio de decisión correcto según el curso?",
+     "opciones": [
+      "Construirla siempre: cualquier automatización acaba amortizándose",
+      "Priorizar por lo tediosa que resulta la tarea a quien la ejecuta",
+      "Calcular el ROI incluyendo el coste de mantenimiento, priorizar por frecuencia por número de personas, y revisar antes si ya existe un plugin en el Asset Library",
+      "Diseñar primero la versión completa y general, para no tener que reescribirla después"
+     ],
+     "correcta": 2,
+     "exp": "El ROI del tooling depende de frecuencia real y personas afectadas, menos el coste oculto de mantenimiento y documentación. Automatizar algo anual o reinventar un plugin existente no compensa."
+    },
+    {
+     "q": "Un script con @tool congela o crashea el editor de Godot al editar propiedades. ¿Cuál es la protección correcta?",
+     "opciones": [
+      "Quitar la anotación @tool y ejecutar el script solo en runtime, sin previsualización en el editor",
+      "Envolver el código que asume runtime con una comprobación de Engine.is_editor_hint() para no ejecutarlo dentro del editor",
+      "Mover la lógica a _exit_tree() para que solo corra al cerrar la escena",
+      "Registrar el script como EditorPlugin en vez de usar @tool"
+     ],
+     "correcta": 1,
+     "exp": "Con @tool el script corre dentro del editor, donde no existe el contexto de juego. Engine.is_editor_hint() permite separar el comportamiento de editor del de runtime y evitar bucles o física activa."
+    },
+    {
+     "q": "Automatizas la exportación de builds en un servidor de CI sin entorno gráfico y falla por falta de ventana. ¿Qué le falta al comando de Godot?",
+     "opciones": [
+      "El flag --headless, obligatorio en servidores sin GPU ni pantalla, junto al preset y --export-release",
+      "Instalar el editor completo de Godot en vez del binario de línea de comandos",
+      "El flag --editor para que Godot cargue el proyecto antes de exportar",
+      "Exportar con el preset por defecto, ya que en CI no se pueden nombrar presets"
+     ],
+     "correcta": 0,
+     "exp": "Sin --headless Godot intenta abrir una ventana y falla en runners sin entorno gráfico. Además el nombre del preset debe copiarse literal desde export_presets.cfg y la carpeta de salida debe existir."
+    },
+    {
+     "q": "Tu pipeline de CI marca el build en verde aunque un test de GUT falla. ¿Cuál es la causa?",
+     "opciones": [
+      "Los tests están en una carpeta equivocada y GUT no los encontró, por lo que no hay fallos que reportar",
+      "GUT no puede ejecutarse en CI, solo desde el editor",
+      "Falta el flag -gexit; sin él Godot no propaga el código de salida y CI no detecta el fallo",
+      "assert_eq compara floats de forma exacta y GUT ignora ese tipo de fallo"
+     ],
+     "correcta": 2,
+     "exp": "GUT necesita -gexit para terminar el proceso con un código de salida que refleje el resultado. Sin él, CI ve una ejecución exitosa aunque haya tests rojos."
+    },
+    {
+     "q": "Tu equipo activó Git LFS pero el repositorio sigue pesando gigas al clonar. ¿Qué ocurrió?",
+     "opciones": [
+      "Git LFS no sirve para proyectos de juegos; hay que excluir los binarios con .gitignore",
+      "Se añadió .gitattributes después de haber commiteado los binarios, así que el historial ya los contiene; hay que migrarlo con git lfs migrate import",
+      "Falta ejecutar git lfs pull, que es lo que reduce el tamaño del repositorio",
+      "Las escenas .tscn son demasiado grandes y deben dividirse en subescenas"
+     ],
+     "correcta": 1,
+     "exp": "Los patrones de git lfs track solo afectan a lo que se añade después de declararlos. Si los binarios ya están en el historial hay que reescribirlo con git lfs migrate import."
+    }
+   ]
+  },
+  {
+   "idx": 16,
+   "titulo": "Producción, publicación, monetización y LiveOps",
+   "preguntas": [
+    {
+     "q": "Un proyecto lleva meses y nunca llega a beta: siempre falta \"una cosa más\". ¿Cuál es el error de producción y su corrección?",
+     "opciones": [
+      "Faltan reuniones diarias; hay que aumentar la frecuencia de seguimiento",
+      "Se estimó en puntos relativos en vez de en horas exactas; hay que estimar con más precisión",
+      "El equipo no hace crunch suficiente; hay que sumar horas para cerrar el hito",
+      "El scope está inflado: hay que recortar al core loop, mover el resto a post-lanzamiento y reescribir los milestones con criterios binarios y medibles"
+     ],
+     "correcta": 3,
+     "exp": "El scope irreal es el fallo de producción más común. Se corrige recortando al bucle central y definiendo hitos verificables, nunca añadiendo horas de crunch."
+    },
+    {
+     "q": "Un equipo planea empezar el marketing la semana del lanzamiento en Steam. ¿Por qué es un error grave?",
+     "opciones": [
+      "Porque Steam no permite publicar la página de tienda con menos de un mes de antelación",
+      "Porque las wishlists acumuladas durante meses son las que impulsan el pico de visibilidad y ventas del día del lanzamiento, y ya no hay tiempo de construirlas",
+      "Porque el algoritmo de Steam penaliza a los juegos que publican su página tarde",
+      "Porque el tráiler necesita al menos dos semanas de revisión por parte de Valve"
+     ],
+     "correcta": 1,
+     "exp": "La página debe publicarse en cuanto haya assets para acumular wishlists, que alimentan la visibilidad del lanzamiento. Empezar el marketing en el launch desperdicia esa ventana."
+    },
+    {
+     "q": "Estimas ingresos de un premium: 5.000 unidades a 15 de precio. ¿Cuál es el cálculo correcto?",
+     "opciones": [
+      "75.000, que es el ingreso que recibe el estudio",
+      "75.000 menos impuestos, sin descontar nada más, porque la comisión la paga el jugador",
+      "Unos 52.500: hay que descontar la comisión de tienda (~30%) para calcular el ingreso neto",
+      "Depende solo del ARPU, así que no se puede estimar sin conocer la conversión"
+     ],
+     "correcta": 2,
+     "exp": "5.000 × 15 = 75.000 brutos; con ~30% de comisión de tienda quedan unos 52.500 netos. Estimar en bruto infla sistemáticamente las previsiones."
+    },
+    {
+     "q": "Tu tracker de bugs tiene crashes abiertos mientras el equipo arregla errores cosméticos. ¿Qué está fallando en el proceso de QA?",
+     "opciones": [
+      "Se confunde severidad con prioridad y se triar por facilidad; hay que triar por prioridad de negocio en sesiones periódicas",
+      "Falta un plan de pruebas exploratorias; los crashes solo aparecen en casos felices",
+      "Los cosméticos son correctos de priorizar porque mejoran la percepción del jugador",
+      "El tracker debería cerrarse automáticamente cada sprint para limpiar los bugs antiguos"
+     ],
+     "correcta": 0,
+     "exp": "Severidad (impacto técnico) y prioridad (urgencia de negocio) son ejes distintos. Sin triaje recurrente por prioridad se arregla lo fácil y quedan abiertos los bloqueantes."
+    },
+    {
+     "q": "Un juego live pierde jugadores y el equipo propone añadir contenido de endgame. Según la analítica del curso, ¿qué debería mirarse primero?",
+     "opciones": [
+      "El ARPU, para saber si el contenido nuevo se amortizará",
+      "El ratio DAU/MAU, que ya indica por sí solo qué contenido añadir",
+      "El número de gráficos del dashboard, para asegurar cobertura completa de datos",
+      "La retención D1/D7: si los jugadores nuevos no vuelven, hay que arreglar el onboarding antes que añadir contenido tardío"
+     ],
+     "correcta": 3,
+     "exp": "La retención D1/D7 es el indicador de salud más temprano. Invertir en contenido tardío cuando la gente se va el primer día no recupera jugadores."
+    }
+   ]
+  },
+  {
+   "idx": 17,
+   "titulo": "Capstones y preparación profesional / portfolio",
+   "preguntas": [
+    {
+     "q": "Al definir el alcance de tu capstone, ¿qué práctica recomienda el curso para que el scope no crezca sin control?",
+     "opciones": [
+      "Escribir explícitamente una columna \"No incluye\" desde el principio y defenderla, además de aplicar el veto de pasión al elegir la idea",
+      "Listar todas las mecánicas deseadas y recortar solo si al final falta tiempo",
+      "Elegir la idea más impresionante técnicamente, aunque no te ilusione, porque luce más en el portfolio",
+      "Estimar cada tarea en horas exactas antes de empezar a producir"
+     ],
+     "correcta": 0,
+     "exp": "Definir lo excluido es tan importante como lo incluido. Y ocho semanas sin pasión matan el proyecto: si la idea no te ilusiona, vétala aunque impresione."
+    },
+    {
+     "q": "¿Qué es realmente un vertical slice y cuál es el error más común al construirlo?",
+     "opciones": [
+      "Una demo técnica que prueba los sistemas; el error es dedicarle demasiado pulido",
+      "Todo el juego en versión reducida y sin pulir; el error es limitarlo a un solo nivel",
+      "El nivel más fácil de producir, para llegar rápido; el error es elegir uno demasiado ambicioso",
+      "Un trozo representativo del juego a calidad final, aunque sea corto, que recorre el core loop entero; el error es convertirlo en \"todo el juego pero peor\""
+     ],
+     "correcta": 3,
+     "exp": "El slice vende el juego: debe ser corto pero pulido a calidad final y permitir completar el bucle central. Confundirlo con una demo técnica o con el juego entero sin pulir lo arruina."
+    },
+    {
+     "q": "Durante un playtest formal, el tester se atasca y tú sientes el impulso de explicarle cómo se juega. ¿Qué debes hacer?",
+     "opciones": [
+      "Explicarle lo justo para que pueda seguir y así aprovechar la sesión",
+      "Callar y anotar tu impulso como un fallo de onboarding, sin intervenir",
+      "Detener la sesión, ya que los datos ya no serán válidos",
+      "Preguntarle directamente si el tutorial le parece claro"
+     ],
+     "correcta": 1,
+     "exp": "No guiar es la regla del playtest: cada vez que quieres explicar algo, el juego ha fallado en enseñarlo. Ese impulso es un dato, no una interrupción a resolver."
+    },
+    {
+     "q": "Estás armando tu portfolio de desarrollador de juegos. ¿Cuál de estas decisiones es la correcta?",
+     "opciones": [
+      "Incluir todos tus proyectos para demostrar volumen de trabajo y versatilidad",
+      "Mantener un único portfolio genérico para cualquier rol, para no duplicar esfuerzo",
+      "Recortar a los 3-5 mejores proyectos, poner un GIF arriba con enlace claro para jugar, y explicar en una línea tu aportación concreta en cada trabajo de equipo",
+      "Priorizar descripciones técnicas extensas sobre la media visual, porque el evaluador es técnico"
+     ],
+     "correcta": 2,
+     "exp": "Calidad sobre cantidad: pocos proyectos bien presentados, con media inmediata y enlaces verificados. En proyectos de equipo hay que dejar claro qué hiciste tú."
+    },
+    {
+     "q": "Participas en una game jam de fin de semana. ¿Qué combinación de decisiones maximiza tus opciones de terminar y publicar?",
+     "opciones": [
+      "Elegir el motor y los assets sobre la marcha para adaptarte mejor al tema",
+      "Priorizar el arte desde el inicio, ya que es lo que se juzga en las votaciones",
+      "Trabajar sin dormir el segundo día para aprovechar todas las horas disponibles",
+      "Fijar motor y herramientas antes de empezar, recortar al core loop para llegar pronto a algo jugable, dormir, y reservar las últimas horas para exportar y subir"
+     ],
+     "correcta": 3,
+     "exp": "El scope imposible, el arranque sin herramientas listas y el agotamiento son las causas típicas de no publicar. Reservar margen final de build evita perder el trabajo por no llegar a subirlo."
+    }
+   ]
+  }
+ ]
+}

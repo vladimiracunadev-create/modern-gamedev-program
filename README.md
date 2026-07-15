@@ -17,7 +17,7 @@
 [![Motores](https://img.shields.io/badge/motores-Godot%20·%20Unity%20·%20Unreal-orange?style=for-the-badge)](classes/README.md)
 [![License](https://img.shields.io/badge/license-MIT-3fb950?style=for-the-badge)](LICENSE)
 
-[🌐 Sitio del curso](https://vladimiracunadev-create.github.io/desarrollo-videojuegos-moderno-program/) · [📚 Índice completo de clases](classes/README.md) · [🧪 Laboratorios](labs/README.md) · [🗺️ Roadmap](ROADMAP.md) · [🤝 Contribuir](CONTRIBUTING.md)
+[🌐 Sitio del curso](https://vladimiracunadev-create.github.io/desarrollo-videojuegos-moderno-program/) · [📚 Clases](classes/README.md) · [🧪 Laboratorios](labs/README.md) · [🧭 Rutas](rutas/README.md) · [📝 Autoevaluación](autoevaluaciones/README.md) · [📖 Glosario](glosario/README.md) · [🗺️ Roadmap](ROADMAP.md)
 
 </div>
 
@@ -46,6 +46,16 @@ No solo se lee: se juega. El programa incluye **proyectos Godot reales** que se 
 
 Los assets son **CC0 generados por código** ([`scripts/generar_assets.py`](scripts/generar_assets.py)) y cada push **verifica los proyectos con Godot headless** (importa, compila y arranca). Ver **[labs/](labs/README.md)**.
 
+## 🧭 Portal: rutas, autoevaluación, progreso y buscador
+
+- 🧭 **[Rutas guiadas por rol](rutas/README.md)** — recorridos ordenados para gameplay, gráficos, indie, móvil/web, multijugador, diseño de niveles y XR.
+- 📝 **[Autoevaluaciones](autoevaluaciones/README.md)** — 90 preguntas (una batería por parte) con explicación. Versión interactiva: [quiz](https://vladimiracunadev-create.github.io/desarrollo-videojuegos-moderno-program/autoevaluaciones/quiz.html).
+- ✅ **[Seguimiento de progreso](https://vladimiracunadev-create.github.io/desarrollo-videojuegos-moderno-program/autoevaluaciones/progreso.html)** — marca las 292 clases (se guarda en tu navegador).
+- 🔎 **[Buscador](https://vladimiracunadev-create.github.io/desarrollo-videojuegos-moderno-program/buscar.html)** — busca por título o tema entre las 292 clases.
+- 📖 **[Glosario](glosario/README.md)** — ~2.000 términos enlazados a la clase donde se explican.
+
+🌐 Todo navegable en el **[sitio del curso](https://vladimiracunadev-create.github.io/desarrollo-videojuegos-moderno-program/)**.
+
 ## 🛠️ Todas las tecnologías, no una sola
 
 El programa es **agnóstico de motor por diseño**: primero enseña los conceptos (game loop, vectores, colisiones, ECS) y luego los aterriza en las herramientas líderes de la industria. A lo largo del programa se usan:
@@ -62,6 +72,8 @@ El programa es **agnóstico de motor por diseño**: primero enseña los concepto
 | **Plataformas** | Windows, Linux, macOS, Android/iOS, web, consolas, VR/AR |
 
 > Godot 4 es el motor **principal** para la práctica temprana (gratis, ligero, moderno, exporta a todo), pero los conceptos se contrastan con Unity y Unreal para que puedas trabajar en cualquier estudio.
+>
+> 🔖 **Versión de referencia: Godot 4.3.** Todo el código de las clases usa la API de Godot 4 y los laboratorios se verifican en CI contra **Godot 4.3** en cada push. Con versiones 4.x posteriores debería funcionar igual; si algo cambia, [abre un issue](https://github.com/vladimiracunadev-create/desarrollo-videojuegos-moderno-program/issues).
 
 ## 🗂️ Las 18 partes
 
