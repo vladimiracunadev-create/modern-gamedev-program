@@ -1,0 +1,141 @@
+[gd_scene load_steps=19 format=3]
+
+[ext_resource type="Script" path="res://scripts/jugador.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/jugador.png" id="2_tex"]
+[ext_resource type="AudioStream" path="res://assets/salto.wav" id="3_salto"]
+[ext_resource type="AudioStream" path="res://assets/dano.wav" id="4_dano"]
+
+[sub_resource type="AtlasTexture" id="At_i0"]
+atlas = ExtResource("2_tex")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="At_i1"]
+atlas = ExtResource("2_tex")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="At_i2"]
+atlas = ExtResource("2_tex")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="At_i3"]
+atlas = ExtResource("2_tex")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="At_r0"]
+atlas = ExtResource("2_tex")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="At_r1"]
+atlas = ExtResource("2_tex")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="At_r2"]
+atlas = ExtResource("2_tex")
+region = Rect2(64, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="At_r3"]
+atlas = ExtResource("2_tex")
+region = Rect2(96, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="At_r4"]
+atlas = ExtResource("2_tex")
+region = Rect2(128, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="At_r5"]
+atlas = ExtResource("2_tex")
+region = Rect2(160, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="At_j0"]
+atlas = ExtResource("2_tex")
+region = Rect2(0, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="At_f0"]
+atlas = ExtResource("2_tex")
+region = Rect2(0, 96, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SF_jugador"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("At_f0")
+}],
+"loop": true,
+"name": &"fall",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("At_i0")
+}, {
+"duration": 1.0,
+"texture": SubResource("At_i1")
+}, {
+"duration": 1.0,
+"texture": SubResource("At_i2")
+}, {
+"duration": 1.0,
+"texture": SubResource("At_i3")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("At_j0")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("At_r0")
+}, {
+"duration": 1.0,
+"texture": SubResource("At_r1")
+}, {
+"duration": 1.0,
+"texture": SubResource("At_r2")
+}, {
+"duration": 1.0,
+"texture": SubResource("At_r3")
+}, {
+"duration": 1.0,
+"texture": SubResource("At_r4")
+}, {
+"duration": 1.0,
+"texture": SubResource("At_r5")
+}],
+"loop": true,
+"name": &"run",
+"speed": 12.0
+}]
+
+[sub_resource type="RectangleShape2D" id="Rect_jugador"]
+size = Vector2(14, 26)
+
+[node name="Jugador" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 1
+script = ExtResource("1_script")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SF_jugador")
+animation = &"idle"
+autoplay = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("Rect_jugador")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2, 2)
+position_smoothing_enabled = true
+position_smoothing_speed = 6.0
+
+[node name="SfxSalto" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_salto")
+
+[node name="SfxDano" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_dano")

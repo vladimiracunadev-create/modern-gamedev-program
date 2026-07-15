@@ -9,6 +9,7 @@
 [![CI](https://github.com/vladimiracunadev-create/desarrollo-videojuegos-moderno-program/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/desarrollo-videojuegos-moderno-program/actions/workflows/ci.yml)
 [![Security](https://github.com/vladimiracunadev-create/desarrollo-videojuegos-moderno-program/actions/workflows/security.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/desarrollo-videojuegos-moderno-program/actions/workflows/security.yml)
 [![Deploy Pages](https://github.com/vladimiracunadev-create/desarrollo-videojuegos-moderno-program/actions/workflows/deploy-pages.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/desarrollo-videojuegos-moderno-program/actions/workflows/deploy-pages.yml)
+[![Labs (Godot)](https://github.com/vladimiracunadev-create/desarrollo-videojuegos-moderno-program/actions/workflows/labs.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/desarrollo-videojuegos-moderno-program/actions/workflows/labs.yml)
 
 [![Clases](https://img.shields.io/badge/clases-292%20·%2018%20partes-7c5cff?style=for-the-badge)](classes/README.md)
 [![Nivel](https://img.shields.io/badge/nivel-fundamentos%20→%20profesional-2e8b57?style=for-the-badge)](classes/README.md)
@@ -16,7 +17,7 @@
 [![Motores](https://img.shields.io/badge/motores-Godot%20·%20Unity%20·%20Unreal-orange?style=for-the-badge)](classes/README.md)
 [![License](https://img.shields.io/badge/license-MIT-3fb950?style=for-the-badge)](LICENSE)
 
-[🌐 Sitio del curso](https://vladimiracunadev-create.github.io/desarrollo-videojuegos-moderno-program/) · [📚 Índice completo de clases](classes/README.md) · [🗺️ Roadmap](ROADMAP.md) · [🤝 Contribuir](CONTRIBUTING.md)
+[🌐 Sitio del curso](https://vladimiracunadev-create.github.io/desarrollo-videojuegos-moderno-program/) · [📚 Índice completo de clases](classes/README.md) · [🧪 Laboratorios](labs/README.md) · [🗺️ Roadmap](ROADMAP.md) · [🤝 Contribuir](CONTRIBUTING.md)
 
 </div>
 
@@ -36,6 +37,14 @@ Un currículo modular y **secuencial** que cubre **todo el espectro del desarrol
 - ⚠️ **Errores comunes** (síntoma → causa → solución).
 - ❓ **Preguntas frecuentes** auténticas.
 - 🔗 **Referencias** a los libros y fuentes del área.
+
+## 🧪 Laboratorios ejecutables
+
+No solo se lee: se juega. El programa incluye **proyectos Godot reales** que se abren y se ejecutan, en versión `inicio/` (con `TODO` para que los completes) y `solucion/` (referencia jugable).
+
+- 🕹️ **[Plataformas 2D](labs/plataformas-2d/README.md)** — el juego completo de la Parte 1: game feel, monedas, enemigos, HUD, audio y récord persistente.
+
+Los assets son **CC0 generados por código** ([`scripts/generar_assets.py`](scripts/generar_assets.py)) y cada push **verifica los proyectos con Godot headless** (importa, compila y arranca). Ver **[labs/](labs/README.md)**.
 
 ## 🛠️ Todas las tecnologías, no una sola
 

@@ -2,6 +2,11 @@
 
 > Parte: **1 — Motores 2D y tu primer juego jugable** · Fuente: *Documentación de Godot 4 (Best practices)*
 > ⏱️ Duración estimada: **150 min** · Nivel: **Intermedio**
+>
+> 🧪 **Proyecto de referencia:** este capstone tiene un laboratorio ejecutable en
+> [`labs/plataformas-2d`](../../../labs/plataformas-2d/README.md): abre `inicio/` para construirlo tú
+> (con `TODO` guiados) o `solucion/` para ver la implementación completa y jugable.
+> Ambos se verifican en CI con Godot headless.
 
 ---
 

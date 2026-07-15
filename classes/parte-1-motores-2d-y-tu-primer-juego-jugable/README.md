@@ -4,6 +4,8 @@
 
 **20 clases** · rango 026–045 · De un sprite en pantalla a un **plataformas 2D completo y jugable** con Godot 4
 
+> 🧪 **Laboratorio ejecutable:** esta parte tiene un proyecto Godot real — [`labs/plataformas-2d`](../../labs/plataformas-2d/README.md) — con versión `inicio/` (para completar) y `solucion/` (referencia jugable), verificado en CI.
+
 **Fuentes de referencia de esta parte:**
 
 - Documentación oficial de [Godot Engine 4.x](https://docs.godotengine.org/en/stable/).

@@ -24,7 +24,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "site")
 
 # Markdown de origen del nivel superior que se publican.
-INCLUIR_TOP = ["README.md", "ROADMAP.md", "CONTRIBUTING.md", "SECURITY.md"]
+INCLUIR_TOP = ["README.md", "ROADMAP.md", "CONTRIBUTING.md", "SECURITY.md",
+               "labs/README.md", "labs/plataformas-2d/README.md"]
 
 LINK_MD = re.compile(r"\]\(([^)]+?)\.md((?:#[^)]*)?)\)")
 

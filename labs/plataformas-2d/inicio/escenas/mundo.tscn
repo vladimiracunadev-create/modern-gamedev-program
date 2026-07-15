@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/mundo.gd" id="1_script"]
+[ext_resource type="PackedScene" path="res://escenas/hud.tscn" id="2_hud"]
+
+[node name="Mundo" type="Node2D"]
+script = ExtResource("1_script")
+
+[node name="Nivel" type="Node2D" parent="."]
+
+[node name="Entidades" type="Node2D" parent="."]
+
+[node name="HUD" parent="." instance=ExtResource("2_hud")]

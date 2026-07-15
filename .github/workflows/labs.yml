@@ -1,0 +1,99 @@
+name: Labs (Godot)
+
+on:
+  pull_request:
+    paths:
+      - "labs/**"
+      - "scripts/generar_assets.py"
+      - ".github/workflows/labs.yml"
+  push:
+    branches: ["main"]
+    paths:
+      - "labs/**"
+      - "scripts/generar_assets.py"
+      - ".github/workflows/labs.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: labs-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  GODOT_VERSION: "4.3"
+
+jobs:
+  godot:
+    name: ${{ matrix.proyecto }} — importar, compilar y arrancar
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # Se validan los dos: la solución de referencia y el proyecto de partida
+        # (el alumno debe poder abrir 'inicio' y que arranque sin errores).
+        proyecto: [solucion, inicio]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          lfs: true
+
+      - name: Descargar Godot ${{ env.GODOT_VERSION }} (headless)
+        run: |
+          set -euo pipefail
+          URL="https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}-stable/Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip"
+          curl -sSfL "$URL" -o godot.zip
+          unzip -q godot.zip
+          mv "Godot_v${GODOT_VERSION}-stable_linux.x86_64" /usr/local/bin/godot
+          chmod +x /usr/local/bin/godot
+          godot --headless --version
+
+      - name: Regenerar assets y comprobar que el resultado es reproducible
+        run: |
+          set -euo pipefail
+          python -m pip install --quiet pillow
+          python scripts/generar_assets.py
+          # Los assets están versionados: si el generador no es determinista, falla.
+          if ! git diff --quiet -- labs; then
+            echo "::error::generar_assets.py produce assets distintos a los versionados"
+            git diff --stat -- labs
+            exit 1
+          fi
+          echo "Assets reproducibles ✔"
+
+      - name: Importar el proyecto (valida escenas y recursos)
+        run: |
+          set -euo pipefail
+          PROY="labs/plataformas-2d/${{ matrix.proyecto }}"
+          # El primer import puede devolver != 0 aunque tenga éxito; lo que importa
+          # es que no aparezcan errores en el log.
+          godot --headless --path "$PROY" --import 2>&1 | tee import.log || true
+          if grep -E "SCRIPT ERROR|Parse Error|ERROR:|Failed loading resource" import.log; then
+            echo "::error::el proyecto ${{ matrix.proyecto }} no importa limpio"
+            exit 1
+          fi
+          echo "Import limpio ✔"
+
+      - name: Arrancar el juego headless (smoke test: ejecuta _ready y varios frames)
+        run: |
+          set -euo pipefail
+          PROY="labs/plataformas-2d/${{ matrix.proyecto }}"
+          godot --headless --path "$PROY" --quit-after 120 2>&1 | tee run.log || true
+          if grep -E "SCRIPT ERROR|Parse Error|Failed loading resource|Cannot call method" run.log; then
+            echo "::error::el proyecto ${{ matrix.proyecto }} lanza errores en tiempo de ejecución"
+            exit 1
+          fi
+          echo "Arranque sin errores ✔"
+
+      - name: Resumen
+        if: always()
+        run: |
+          {
+            echo "### 🎮 Lab plataformas-2d · ${{ matrix.proyecto }}"
+            echo ""
+            echo "- Godot: **${GODOT_VERSION}** (headless)"
+            echo "- Scripts GDScript: **$(find labs/plataformas-2d/${{ matrix.proyecto }} -name '*.gd' | wc -l)**"
+            echo "- Escenas: **$(find labs/plataformas-2d/${{ matrix.proyecto }} -name '*.tscn' | wc -l)**"
+          } >> "$GITHUB_STEP_SUMMARY"

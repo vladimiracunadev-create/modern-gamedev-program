@@ -1,0 +1,74 @@
+[gd_scene load_steps=12 format=3]
+
+[ext_resource type="Script" path="res://scripts/moneda.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/moneda.png" id="2_tex"]
+[ext_resource type="AudioStream" path="res://assets/moneda.wav" id="3_sfx"]
+
+[sub_resource type="AtlasTexture" id="At_m0"]
+atlas = ExtResource("2_tex")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="At_m1"]
+atlas = ExtResource("2_tex")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="At_m2"]
+atlas = ExtResource("2_tex")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="At_m3"]
+atlas = ExtResource("2_tex")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="At_m4"]
+atlas = ExtResource("2_tex")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="At_m5"]
+atlas = ExtResource("2_tex")
+region = Rect2(80, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SF_moneda"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("At_m0")
+}, {
+"duration": 1.0,
+"texture": SubResource("At_m1")
+}, {
+"duration": 1.0,
+"texture": SubResource("At_m2")
+}, {
+"duration": 1.0,
+"texture": SubResource("At_m3")
+}, {
+"duration": 1.0,
+"texture": SubResource("At_m4")
+}, {
+"duration": 1.0,
+"texture": SubResource("At_m5")
+}],
+"loop": true,
+"name": &"girar",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="Circ_moneda"]
+radius = 7.0
+
+[node name="Moneda" type="Area2D"]
+collision_layer = 8
+collision_mask = 2
+script = ExtResource("1_script")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SF_moneda")
+animation = &"girar"
+autoplay = "girar"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("Circ_moneda")
+
+[node name="Sfx" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_sfx")
