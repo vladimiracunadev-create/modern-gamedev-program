@@ -56,6 +56,18 @@ Los assets son **CC0 generados por código** ([`scripts/generar_assets.py`](scri
 
 🌐 Todo navegable en el **[sitio del curso](https://vladimiracunadev-create.github.io/desarrollo-videojuegos-moderno-program/)**.
 
+### 🖨️ ¿Prefieres papel?
+
+Genera guías **PDF imprimibles en blanco y negro** (una por clase) cuando las necesites:
+
+```bash
+python -m pip install "markdown>=3.6"
+python scripts/generar_material.py --parte 1   # una parte
+python scripts/generar_material.py --all       # las 292 clases (~10 min)
+```
+
+Los PDF **no se versionan** a propósito (serían ~200 MB): se generan bajo demanda en `material/`. Salen optimizados para imprimir: sin color, densos y **sin partir los bloques de código** entre páginas.
+
 ## 🛠️ Todas las tecnologías, no una sola
 
 El programa es **agnóstico de motor por diseño**: primero enseña los conceptos (game loop, vectores, colisiones, ECS) y luego los aterriza en las herramientas líderes de la industria. A lo largo del programa se usan:
