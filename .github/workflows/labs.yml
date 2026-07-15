@@ -208,9 +208,19 @@ jobs:
           fallos=0
           fallo() { echo "::error::$1"; fallos=$((fallos + 1)); }
 
-          # 1) Nadie puede haber soltado un error.
+          # 1) Nadie puede haber soltado un error. Con UNA excepción, y conviene
+          #    explicarla porque un filtro sin motivo es como no tener prueba:
+          #
+          #    "Unable to send packet on channel 0" lo emite ENet cuando un peer
+          #    se desconecta y todavía había algo en vuelo hacia él. Es una
+          #    carrera del motor, no del lab: se comprobó desactivando los RPC
+          #    del lab y el mensaje sigue apareciendo (lo emiten el
+          #    MultiplayerSynchronizer y el Spawner al despawnear). Desde
+          #    GDScript no se puede cerrar esa ventana, así que se filtra ESE
+          #    mensaje y solo ese; cualquier otro error sigue tumbando el job.
           for f in server.log c1.log c2.log cheat.log; do
-            if grep -E "SCRIPT ERROR|Parse Error|ERROR:|Cannot call method" "$f"; then
+            if grep -E "SCRIPT ERROR|Parse Error|ERROR:|Cannot call method" "$f" \
+                 | grep -v "Unable to send packet on channel"; then
               fallo "$f contiene errores"
             fi
           done
