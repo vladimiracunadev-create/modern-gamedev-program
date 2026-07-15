@@ -50,18 +50,13 @@ jobs:
           chmod +x /usr/local/bin/godot
           godot --headless --version
 
-      - name: Regenerar assets y comprobar que el resultado es reproducible
+      - name: Comprobar que los assets versionados coinciden con el generador
         run: |
           set -euo pipefail
           python -m pip install --quiet pillow
-          python scripts/generar_assets.py
-          # Los assets están versionados: si el generador no es determinista, falla.
-          if ! git diff --quiet -- labs; then
-            echo "::error::generar_assets.py produce assets distintos a los versionados"
-            git diff --stat -- labs
-            exit 1
-          fi
-          echo "Assets reproducibles ✔"
+          # Compara CONTENIDO (píxeles y muestras), no bytes: el encoder PNG de
+          # Pillow no produce los mismos bytes entre versiones/plataformas.
+          python scripts/verificar_assets.py
 
       - name: Importar el proyecto (valida escenas y recursos)
         run: |
