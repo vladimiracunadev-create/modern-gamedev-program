@@ -76,7 +76,7 @@ jobs:
           fi
           echo "Import limpio ✔"
 
-      - name: Arrancar el juego headless (smoke test: ejecuta _ready y varios frames)
+      - name: "Arrancar el juego headless (smoke test: ejecuta _ready y varios frames)"
         run: |
           set -euo pipefail
           PROY="labs/plataformas-2d/${{ matrix.proyecto }}"
