@@ -149,6 +149,10 @@ Toma un proyecto con un bug de tu elección (índice fuera de rango o nodo nulo)
 - Godot Docs, "Debugger panel": <https://docs.godotengine.org/en/stable/tutorials/scripting/debug/debugger_panel.html>
 - Godot Docs, "Performance monitors": <https://docs.godotengine.org/en/stable/classes/class_performance.html>
 
+## ⬅️ Clase anterior
+
+[Clase 022 - Delta time, fixed timestep y determinismo](../022-delta-time-fixed-timestep-y-determinismo/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 024 - Prototipado rápido y bucle de iteración de diseño](../024-prototipado-rapido-y-bucle-de-iteracion-de-diseno/README.md)

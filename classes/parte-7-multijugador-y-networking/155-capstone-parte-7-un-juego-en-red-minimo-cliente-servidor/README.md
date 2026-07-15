@@ -258,6 +258,12 @@ Entrega la **arena en red jugable** con: lobby y conexión, spawn por peer, movi
 - Heroic Labs — Documentación de Nakama: <https://heroiclabs.com/docs/>
 - GodotSteam — Documentación: <https://godotsteam.com/>
 
-## ➡️ Siguiente paso
+## ⬅️ Clase anterior
 
-¡Enhorabuena! Has completado las Partes 0 a 7: de los fundamentos a un juego multijugador. Las siguientes partes del programa (game design, arte, plataformas, web, VR/AR, optimización, tooling y publicación) están en el [roadmap](../../../ROADMAP.md). Repasa, pule tus capstones y arma tu portfolio con lo construido.
+[Clase 154 - Seguridad en multijugador: validación y exploits](../154-seguridad-en-multijugador-validacion-y-exploits/README.md)
+
+## ➡️ Siguiente clase
+
+¡Enhorabuena! Has completado las Partes 0 a 7: de los fundamentos a un juego multijugador. Con esto ya sabes **construir** juegos; lo que viene enseña a que además sean **buenos** y lleguen a alguien: diseño, arte, UI, plataformas, web, VR/AR, optimización, tooling y publicación.
+
+[Clase 156 - Qué es el game design: mecánicas, dinámicas y estética (MDA)](../../parte-8-game-design-y-diseno-de-niveles/156-que-es-el-game-design-mecanicas-dinamicas-y-estetica-mda/README.md)

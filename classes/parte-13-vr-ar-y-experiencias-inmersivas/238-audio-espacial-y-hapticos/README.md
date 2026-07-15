@@ -148,6 +148,10 @@ Crea una escena VR con al menos dos fuentes de audio 3D posicionadas, el listene
 - Godot Docs — XRController3D: <https://docs.godotengine.org/en/stable/classes/class_xrcontroller3d.html>
 - Godot Docs — AudioListener3D: <https://docs.godotengine.org/en/stable/classes/class_audiolistener3d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 237 - Rendimiento en XR](../237-rendimiento-en-xr/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 239 - Capstone Parte 13: una experiencia VR o AR mínima](../239-capstone-parte-13-una-experiencia-vr-o-ar-minima/README.md)

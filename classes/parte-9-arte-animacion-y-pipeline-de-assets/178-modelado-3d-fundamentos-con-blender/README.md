@@ -135,6 +135,10 @@ Modela un prop low-poly propio (barril, caja o arma) por debajo de **800 triáng
 - Blender Manual — glTF 2.0 export: <https://docs.blender.org/manual/en/latest/addons/import_export/scene_gltf2.html>
 - Blender Manual — Normals: <https://docs.blender.org/manual/en/latest/modeling/meshes/normals.html>
 
+## ⬅️ Clase anterior
+
+[Clase 177 - Animación 2D esqueletal (cutout) y rigging](../177-animacion-2d-esqueletal-cutout-y-rigging/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 179 - UV mapping y texturizado](../179-uv-mapping-y-texturizado/README.md)

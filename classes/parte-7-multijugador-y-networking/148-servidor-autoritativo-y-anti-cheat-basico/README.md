@@ -176,6 +176,10 @@ Mueve la lógica de daño y de recogida al servidor. El cliente solo envía inte
 - Godot Docs — RPC y MultiplayerAPI: <https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html>
 - Gabriel Gambetta — Client-Server Game Architecture: <https://www.gabrielgambetta.com/client-server-game-architecture.html>
 
+## ⬅️ Clase anterior
+
+[Clase 147 - Lag compensation y rollback netcode](../147-lag-compensation-y-rollback-netcode/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 149 - Serialización eficiente y ancho de banda](../149-serializacion-eficiente-y-ancho-de-banda/README.md)

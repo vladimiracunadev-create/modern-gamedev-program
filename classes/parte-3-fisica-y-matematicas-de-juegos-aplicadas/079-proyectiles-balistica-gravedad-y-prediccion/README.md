@@ -161,6 +161,10 @@ Implementa una torreta que dispare proyectiles con gravedad a un objetivo móvil
 - Eric Lengyel, *Mathematics for 3D Game Programming and Computer Graphics*, cinemática de proyectiles.
 - Fiedler, *Gaffer On Games* — integración de movimiento: <https://gafferongames.com/post/integration_basics/>
 
+## ⬅️ Clase anterior
+
+[Clase 078 - Vehículos: física de ruedas y suspensión](../078-vehiculos-fisica-de-ruedas-y-suspension/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 080 - Movimiento con curvas: Bézier, splines y paths](../080-movimiento-con-curvas-bezier-splines-y-paths/README.md)

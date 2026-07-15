@@ -217,6 +217,10 @@ Depende de tu juego. Vida y recencia de combate son un buen inicio; puedes sumar
 - [Señales — Godot Docs](https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html)
 - [The AI Systems of Left 4 Dead (Valve, AIIDE 2009)](https://steamcdn-a.akamaihd.net/apps/valve/2009/ai_systems_of_l4d_mike_booth.pdf)
 
+## ⬅️ Clase anterior
+
+[Clase 119 - IA de combate: cobertura, flanqueo y coordinación](../119-ia-de-combate-cobertura-flanqueo-y-coordinacion/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 121 - IA para NPCs y vida ambiental](../121-ia-para-npcs-y-vida-ambiental/README.md)

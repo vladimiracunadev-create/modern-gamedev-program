@@ -176,6 +176,10 @@ Implementa un control táctil completo con **joystick virtual analógico** que m
 - Godot Docs — Clase InputEventScreenDrag: <https://docs.godotengine.org/en/stable/classes/class_inputeventscreendrag.html>
 - Godot Docs — Clase TouchScreenButton: <https://docs.godotengine.org/en/stable/classes/class_touchscreenbutton.html>
 
+## ⬅️ Clase anterior
+
+[Clase 202 - Exportar a iOS: setup y provisioning](../202-exportar-a-ios-setup-y-provisioning/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 204 - Rendimiento y batería en móvil](../204-rendimiento-y-bateria-en-movil/README.md)

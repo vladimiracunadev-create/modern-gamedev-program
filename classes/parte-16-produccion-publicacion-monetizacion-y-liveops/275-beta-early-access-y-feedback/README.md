@@ -133,6 +133,10 @@ Elabora un plan de beta o Early Access completo para tu juego: tipo de fase just
 - Google Forms: <https://forms.google.com>
 - GDC Vault (charlas sobre playtesting): <https://www.gdcvault.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 274 - QA, testing y gestión de bugs](../274-qa-testing-y-gestion-de-bugs/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 276 - Lanzamiento: checklist y día del launch](../276-lanzamiento-checklist-y-dia-del-launch/README.md)

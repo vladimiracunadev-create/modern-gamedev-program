@@ -135,6 +135,10 @@ Entrega una tabla de ROI de tooling para tu proyecto con al menos cuatro tareas 
 - Godot Asset Library: <https://godotengine.org/asset-library/asset>
 - Godot Docs — EditorPlugin (referencia para dimensionar lo construible): <https://docs.godotengine.org/en/stable/classes/class_editorplugin.html>
 
+## ⬅️ Clase anterior
+
+[Clase 254 - Capstone Parte 14: optimizar un proyecto a 60 fps](../../parte-14-optimizacion-profiling-y-rendimiento/254-capstone-parte-14-optimizar-un-proyecto-a-60-fps/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 256 - Scripts de editor (@tool) en Godot](../256-scripts-de-editor-tool-en-godot/README.md)

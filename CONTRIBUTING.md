@@ -24,9 +24,12 @@ Toda clase debe incluir estas secciones, en este orden:
 10. `## ⚠️ Errores comunes` (tabla síntoma → causa)
 11. `## ❓ Preguntas frecuentes`
 12. `## 🔗 Referencias`
-13. `## ➡️ Siguiente clase` (enlace a la siguiente)
+13. `## ⬅️ Clase anterior` (enlace a la anterior; la 001 enlaza al índice)
+14. `## ➡️ Siguiente clase` (enlace a la siguiente)
 
 > El validador de CI (`scripts/validar_estructura.py`) comprueba que estas secciones existan, que la numeración sea contigua y que **no haya enlaces internos rotos**.
+>
+> Las dos últimas no se escriben a mano: las genera [`scripts/generar_navegacion.py`](scripts/generar_navegacion.py) a partir del orden de las clases. Si insertas o reordenas una, ejecútalo y la CI comprobará que está al día.
 
 ## ✅ Reglas de estilo
 

@@ -182,6 +182,10 @@ Construye un nivel donde el jugador debe recoger 5 ítems dispersos evitando un 
 - Phaser — Making your first game: <https://phaser.io/tutorials/making-your-first-phaser-3-game>
 - MDN — 2D breakout game con Phaser: <https://developer.mozilla.org/es/docs/Games/Tutorials/2D_breakout_game_Phaser>
 
+## ⬅️ Clase anterior
+
+[Clase 216 - JavaScript para juegos: el bucle y Canvas](../216-javascript-para-juegos-el-bucle-y-canvas/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 218 - PixiJS y renderizado 2D acelerado](../218-pixijs-y-renderizado-2d-acelerado/README.md)

@@ -144,6 +144,10 @@ Entrega un documento `mapa-del-proyecto.md` que contenga: (a) tu tabla comparati
 - Unity Manual — <https://docs.unity3d.com/Manual/index.html>
 - Unreal Engine Documentation — <https://docs.unrealengine.com>
 
+## ⬅️ Clase anterior
+
+[Volver al índice del programa](../../README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 002 - Anatomía de un videojuego: game loop, estado, tiempo y frames](../002-anatomia-de-un-videojuego-game-loop-estado-tiempo-y-frames/README.md)

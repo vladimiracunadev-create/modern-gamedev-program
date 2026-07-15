@@ -180,6 +180,10 @@ Construye un addon propio en `res://addons/` con `plugin.cfg` válido y un `Edit
 - Godot Docs — `EditorInterface`: <https://docs.godotengine.org/en/stable/classes/class_editorinterface.html>
 - Godot Docs — `EditorSelection`: <https://docs.godotengine.org/en/stable/classes/class_editorselection.html>
 
+## ⬅️ Clase anterior
+
+[Clase 256 - Scripts de editor (@tool) en Godot](../256-scripts-de-editor-tool-en-godot/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 258 - Gizmos e inspectores personalizados](../258-gizmos-e-inspectores-personalizados/README.md)

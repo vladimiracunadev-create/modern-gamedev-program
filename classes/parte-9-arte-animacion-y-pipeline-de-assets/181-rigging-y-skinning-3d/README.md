@@ -136,6 +136,10 @@ Riggea tu personaje con un armature de al menos 12 huesos nombrados y simétrico
 - Blender Manual — Inverse Kinematics: <https://docs.blender.org/manual/en/latest/animation/armatures/posing/bone_constraints/inverse_kinematics/index.html>
 - Blender Manual — Vertex Groups: <https://docs.blender.org/manual/en/latest/modeling/meshes/properties/vertex_groups/index.html>
 
+## ⬅️ Clase anterior
+
+[Clase 180 - Materiales PBR y texturas](../180-materiales-pbr-y-texturas/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 182 - Animación 3D: los 12 principios aplicados](../182-animacion-3d-los-12-principios-aplicados/README.md)

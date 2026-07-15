@@ -135,6 +135,10 @@ Toma un proyecto con al menos cuatro funciones llamadas por frame de costes dist
 - Godot Docs — Performance (monitores): <https://docs.godotengine.org/en/stable/classes/class_performance.html>
 - Godot Docs — Optimization index: <https://docs.godotengine.org/en/stable/tutorials/performance/index.html>
 
+## ⬅️ Clase anterior
+
+[Clase 240 - Mentalidad de rendimiento: medir antes de optimizar](../240-mentalidad-de-rendimiento-medir-antes-de-optimizar/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 242 - Presupuesto de frame y objetivos de FPS](../242-presupuesto-de-frame-y-objetivos-de-fps/README.md)

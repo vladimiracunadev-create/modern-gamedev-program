@@ -134,6 +134,10 @@ Dirige el arte de un juego ficticio entregando una mini style guide de una sola 
 
 - Schell, "The Art of Game Design" (lente de la atmósfera): <https://schellgames.com/art-of-game-design>
 
+## ⬅️ Clase anterior
+
+[Clase 172 - Fundamentos de arte para desarrolladores](../172-fundamentos-de-arte-para-desarrolladores/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 174 - Pixel art: fundamentos y Aseprite](../174-pixel-art-fundamentos-y-aseprite/README.md)

@@ -196,6 +196,10 @@ Entrega un proyecto Godot con una UI completa (menú + HUD + opciones), theming 
 
 - Game Accessibility Guidelines: <https://gameaccessibilityguidelines.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 198 - Fuentes, tipografía y texto multi-idioma](../198-fuentes-tipografia-y-texto-multiidioma/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 200 - Panorama de plataformas y sus restricciones](../../parte-11-movil-consolas-y-plataformas/200-panorama-de-plataformas-y-sus-restricciones/README.md)

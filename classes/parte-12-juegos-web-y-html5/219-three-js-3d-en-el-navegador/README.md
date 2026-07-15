@@ -176,6 +176,10 @@ Crea una escena con al menos tres mallas distintas (por ejemplo cubo, esfera y c
 - Three.js — Loading glTF models: <https://threejs.org/docs/index.html#manual/en/introduction/Loading-3D-models>
 - MDN — Getting started with WebGL: <https://developer.mozilla.org/es/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL>
 
+## ⬅️ Clase anterior
+
+[Clase 218 - PixiJS y renderizado 2D acelerado](../218-pixijs-y-renderizado-2d-acelerado/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 220 - WebGL y el pipeline gráfico web](../220-webgl-y-el-pipeline-grafico-web/README.md)

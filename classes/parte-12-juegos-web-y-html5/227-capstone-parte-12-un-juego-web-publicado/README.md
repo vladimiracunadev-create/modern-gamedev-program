@@ -135,6 +135,10 @@ Publica tu juego web en una URL pública (itch.io u otro portal HTML5) que cualq
 - MDN — Autoplay guide: <https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide>
 - MDN — Progressive web apps: <https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps>
 
+## ⬅️ Clase anterior
+
+[Clase 226 - PWAs y juegos instalables](../226-pwas-y-juegos-instalables/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 228 - Panorama de XR: VR, AR y MR](../../parte-13-vr-ar-y-experiencias-inmersivas/228-panorama-de-xr-vr-ar-y-mr/README.md)

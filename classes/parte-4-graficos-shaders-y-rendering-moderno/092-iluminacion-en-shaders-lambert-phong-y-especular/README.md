@@ -146,6 +146,10 @@ Crea un material "escudo de energía" con difuso tenue, un especular muy marcado
 2. Godot Engine — Shading language: <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html>
 3. Godot Engine — Your first shader (3D): <https://docs.godotengine.org/en/stable/tutorials/shaders/your_first_shader/your_first_3d_shader.html>
 
+## ⬅️ Clase anterior
+
+[Clase 091 - Texturas en shaders: sampling, tiling y mezcla](../091-texturas-en-shaders-sampling-tiling-y-mezcla/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 093 - PBR: modelo físico de materiales (metallic/roughness)](../093-pbr-modelo-fisico-de-materiales-metallic-roughness/README.md)

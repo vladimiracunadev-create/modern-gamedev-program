@@ -182,6 +182,10 @@ Convierte un juego web propio en **PWA instalable** con `manifest.json`, iconos 
 - web.dev — Learn PWA: <https://web.dev/learn/pwa>
 - MDN — Web app manifest: <https://developer.mozilla.org/en-US/docs/Web/Manifest>
 
+## ⬅️ Clase anterior
+
+[Clase 225 - Distribución: itch.io, Poki y portales HTML5](../225-distribucion-itch-io-poki-y-portales-html5/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 227 - Capstone Parte 12: un juego web publicado](../227-capstone-parte-12-un-juego-web-publicado/README.md)

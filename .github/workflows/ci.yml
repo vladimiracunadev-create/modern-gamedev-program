@@ -40,6 +40,10 @@ jobs:
             git diff --stat -- classes/README.md classes/_manifest.json glosario/README.md
             exit 1
           fi
+          # La navegación entre clases es lo primero que se rompe al insertar o
+          # reordenar una clase, y se rompe en silencio: los enlaces siguen
+          # resolviendo, solo que a la clase equivocada.
+          python scripts/generar_navegacion.py --check
           echo "Documentación generada sincronizada ✔"
 
       - name: Resumen

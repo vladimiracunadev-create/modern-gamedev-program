@@ -160,6 +160,10 @@ Configura un repositorio de juego con Git LFS rastreando al menos tres tipos de 
 - Godot Docs — Version control systems: <https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html>
 - Pro Git (libro) — Git Attributes: <https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes>
 
+## ⬅️ Clase anterior
+
+[Clase 262 - Integración continua (CI) para juegos](../262-integracion-continua-ci-para-juegos/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 264 - Testing automatizado de juegos (GUT)](../264-testing-automatizado-de-juegos-gut/README.md)

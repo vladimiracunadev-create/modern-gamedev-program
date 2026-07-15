@@ -139,6 +139,10 @@ Construye una escena donde **dos** cubos de distinto tamaño orbiten a distinta 
 - Godot Docs — Clase Camera3D: <https://docs.godotengine.org/en/stable/classes/class_camera3d.html>
 - Godot Docs — Clase DirectionalLight3D: <https://docs.godotengine.org/en/stable/classes/class_directionallight3d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 045 - Capstone Parte 1: un plataformas 2D completo jugable](../../parte-1-motores-2d-y-tu-primer-juego-jugable/045-capstone-parte-1-un-plataformas-2d-completo-jugable/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 047 - Escenas 3D en Godot: Node3D, transformaciones y gizmo](../047-escenas-3d-en-godot-node3d-transformaciones-y-gizmo/README.md)

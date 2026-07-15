@@ -155,6 +155,10 @@ Construye una app AR que detecte planos horizontales y, al tocar la pantalla sob
 - Godot Docs — XRAnchor3D: <https://docs.godotengine.org/en/stable/classes/class_xranchor3d.html>
 - Godot Docs — Exportar a Android: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_android.html>
 
+## ⬅️ Clase anterior
+
+[Clase 235 - Realidad aumentada: fundamentos y tracking](../235-realidad-aumentada-fundamentos-y-tracking/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 237 - Rendimiento en XR](../237-rendimiento-en-xr/README.md)

@@ -201,6 +201,10 @@ Con pocos datos, el coste de subir y bajar buffers supera al cálculo. Brilla cu
 - [Clase RenderingDevice — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_renderingdevice.html)
 - [Compute Shader — Khronos OpenGL Wiki](https://www.khronos.org/opengl/wiki/Compute_Shader)
 
+## ⬅️ Clase anterior
+
+[Clase 103 - Toon/cel shading y estilos no fotorrealistas](../103-toon-cel-shading-y-estilos-no-fotorrealistas/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 105 - Optimización de shaders y coste en GPU](../105-optimizacion-de-shaders-y-coste-en-gpu/README.md)

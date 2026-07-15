@@ -157,6 +157,10 @@ Suele ir mejor suavizada. Interpolar la propia variable de tensión (además del
 - [Tween — referencia de clase](https://docs.godotengine.org/en/stable/classes/class_tween.html)
 - [GDC — Vertical layering en música de juegos](https://www.gdcvault.com/)
 
+## ⬅️ Clase anterior
+
+[Clase 129 - Audio 3D/posicional y atenuación](../129-audio-3d-posicional-y-atenuacion/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 131 - Música adaptativa: transiciones horizontales](../131-musica-adaptativa-transiciones-horizontales/README.md)

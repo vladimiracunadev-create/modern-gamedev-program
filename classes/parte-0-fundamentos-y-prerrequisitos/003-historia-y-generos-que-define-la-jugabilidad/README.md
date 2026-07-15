@@ -132,6 +132,10 @@ Entrega `analisis-juegos.md` con la tabla completa de tres juegos (las seis colu
 - Jesse Schell, *The Art of Game Design: A Book of Lenses* — <https://www.schellgames.com>
 - Historia del videojuego (referencia general) — <https://es.wikipedia.org/wiki/Historia_de_los_videojuegos>
 
+## ⬅️ Clase anterior
+
+[Clase 002 - Anatomía de un videojuego: game loop, estado, tiempo y frames](../002-anatomia-de-un-videojuego-game-loop-estado-tiempo-y-frames/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 004 - Matemáticas para juegos I: vectores y álgebra lineal](../004-matematicas-para-juegos-i-vectores-y-algebra-lineal/README.md)

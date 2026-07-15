@@ -178,6 +178,10 @@ Combina varios ruidos (altura, humedad, temperatura) y añade ruido celular para
 - [Clase RandomNumberGenerator — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_randomnumbergenerator.html)
 - [Ken Perlin — Improving Noise (SIGGRAPH 2002)](https://mrl.cs.nyu.edu/~perlin/paper445.pdf)
 
+## ⬅️ Clase anterior
+
+[Clase 121 - IA para NPCs y vida ambiental](../121-ia-para-npcs-y-vida-ambiental/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 123 - Generación procedural de niveles](../123-generacion-procedural-de-niveles/README.md)

@@ -184,6 +184,10 @@ Toma una operación que congela el frame (generación procedural pesada o carga 
 - Godot Docs — Background loading: <https://docs.godotengine.org/en/stable/tutorials/io/background_loading.html>
 - Godot Docs — WorkerThreadPool: <https://docs.godotengine.org/en/stable/classes/class_workerthreadpool.html>
 
+## ⬅️ Clase anterior
+
+[Clase 249 - Optimización de assets: texturas, mallas y audio](../249-optimizacion-de-assets-texturas-mallas-y-audio/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 251 - Tiempos de carga y arranque](../251-tiempos-de-carga-y-arranque/README.md)

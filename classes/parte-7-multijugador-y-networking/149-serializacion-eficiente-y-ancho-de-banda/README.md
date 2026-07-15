@@ -187,6 +187,10 @@ Reduce el tráfico de un sincronizador de jugadores: baja el tick rate de envío
 - Godot Docs — PackedByteArray: <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>
 - Godot Docs — High-level multiplayer y Network Profiler: <https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html>
 
+## ⬅️ Clase anterior
+
+[Clase 148 - Servidor autoritativo y anti-cheat básico](../148-servidor-autoritativo-y-anti-cheat-basico/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 150 - Matchmaking, salas y relay/NAT traversal](../150-matchmaking-salas-y-relay-nat-traversal/README.md)

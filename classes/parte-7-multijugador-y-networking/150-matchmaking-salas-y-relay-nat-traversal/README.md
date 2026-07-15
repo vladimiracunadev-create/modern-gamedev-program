@@ -204,6 +204,10 @@ Construye un **lobby con códigos de sala funcional** donde un anfitrión crea u
 - Heroic Labs Nakama — Matchmaker: <https://heroiclabs.com/docs/nakama/concepts/matches/>
 - RFC 8445 — ICE (NAT traversal): <https://datatracker.ietf.org/doc/html/rfc8445>
 
+## ⬅️ Clase anterior
+
+[Clase 149 - Serialización eficiente y ancho de banda](../149-serializacion-eficiente-y-ancho-de-banda/README.md)
+
 ## ➡️ Siguiente clase
 
 Continúa con **151 — Servidores dedicados: headless y despliegue**, donde convertirás este servidor en un proceso headless desplegable.

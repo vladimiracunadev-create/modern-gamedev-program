@@ -159,6 +159,10 @@ Sí: `AudioStreamInteractive` permite *From Time* = `End of Clip`, útil cuando 
 - [AudioStreamPlayer — referencia de clase](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html)
 - [GDC — Horizontal re-sequencing en música adaptativa](https://www.gdcvault.com/)
 
+## ⬅️ Clase anterior
+
+[Clase 130 - Música adaptativa: capas verticales](../130-musica-adaptativa-capas-verticales/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 132 - Middleware de audio: FMOD](../132-middleware-de-audio-fmod/README.md)

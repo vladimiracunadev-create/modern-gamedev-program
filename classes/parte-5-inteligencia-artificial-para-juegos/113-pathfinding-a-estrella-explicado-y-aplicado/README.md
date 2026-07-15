@@ -185,6 +185,10 @@ En su forma básica sí. Para objetivos móviles se recalcula periódicamente o 
 - [Red Blob Games — Introduction to A*](https://www.redblobgames.com/pathfinding/a-star/introduction.html)
 - [Amit's A* Pages (Stanford)](http://theory.stanford.edu/~amitp/GameProgramming/)
 
+## ⬅️ Clase anterior
+
+[Clase 112 - Behavior Trees: construir un enemigo completo](../112-behavior-trees-construir-un-enemigo-completo/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 114 - Navmesh y navegación en Godot (2D y 3D)](../114-navmesh-y-navegacion-en-godot-2d-y-3d/README.md)

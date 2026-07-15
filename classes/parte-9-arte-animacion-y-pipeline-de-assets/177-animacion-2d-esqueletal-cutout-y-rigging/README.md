@@ -134,6 +134,10 @@ Riggea un personaje recortado en Godot con un Skeleton2D que tenga al menos 6 Bo
 
 - DragonBones (alternativa libre): <https://github.com/DragonBones>
 
+## ⬅️ Clase anterior
+
+[Clase 176 - Animación 2D: principios y frame-by-frame](../176-animacion-2d-principios-y-frame-by-frame/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 178 - Modelado 3D: fundamentos con Blender](../178-modelado-3d-fundamentos-con-blender/README.md)

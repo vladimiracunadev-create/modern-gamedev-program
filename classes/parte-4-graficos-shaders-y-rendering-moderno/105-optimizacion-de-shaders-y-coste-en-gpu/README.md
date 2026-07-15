@@ -181,6 +181,10 @@ Sube el tiempo cuando hay capas transparentes o partículas apiladas. Reduce el 
 - [Lenguaje de shaders de Godot: precisión y funciones](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html)
 - [Real-Time Rendering — sitio oficial del libro](https://www.realtimerendering.com/)
 
+## ⬅️ Clase anterior
+
+[Clase 104 - Compute shaders: cómputo en GPU](../104-compute-shaders-computo-en-gpu/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 106 - Herramientas visuales: VisualShader y Shader Graph](../106-herramientas-visuales-visualshader-y-shader-graph/README.md)

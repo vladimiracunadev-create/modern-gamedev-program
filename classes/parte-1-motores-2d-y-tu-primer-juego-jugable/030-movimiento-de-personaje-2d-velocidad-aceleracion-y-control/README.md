@@ -183,6 +183,10 @@ Ajusta el controlador para que se sienta bien: define valores de aceleración, f
 - Godot Docs — 2D movement overview: <https://docs.godotengine.org/en/stable/tutorials/2d/2d_movement.html>
 - Steve Swink, *Game Feel*: <https://www.gamefeelbook.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 029 - Input: teclado, ratón, gamepad y mapeo de acciones](../029-input-teclado-raton-gamepad-y-mapeo-de-acciones/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 031 - Sprites, animación por frames y AnimationPlayer](../031-sprites-animacion-por-frames-y-animationplayer/README.md)

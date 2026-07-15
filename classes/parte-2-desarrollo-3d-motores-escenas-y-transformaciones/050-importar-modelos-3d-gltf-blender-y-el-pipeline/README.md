@@ -135,6 +135,10 @@ Importa un modelo glTF externo, corrige su escala y orientación para que quede 
 - Blender Manual — glTF 2.0 exporter: <https://docs.blender.org/manual/en/latest/addons/import_export/scene_gltf2.html>
 - Khronos glTF Sample Assets (modelos de prueba): <https://github.com/KhronosGroup/glTF-Sample-Assets>
 
+## ⬅️ Clase anterior
+
+[Clase 049 - Mallas, materiales y MeshInstance3D](../049-mallas-materiales-y-meshinstance3d/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 051 - Cámaras 3D: perspectiva, FOV y Camera3D](../051-camaras-3d-perspectiva-fov-y-camera3d/README.md)

@@ -137,6 +137,10 @@ Toma una escena VR que caiga por debajo del framerate objetivo y optimízala has
 - Godot Docs — VRS y foveation: <https://docs.godotengine.org/en/stable/tutorials/3d/variable_rate_shading.html>
 - Meta — Documentación para desarrolladores de Quest: <https://developer.oculus.com/documentation/>
 
+## ⬅️ Clase anterior
+
+[Clase 236 - AR con ARCore y ARKit](../236-ar-con-arcore-y-arkit/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 238 - Audio espacial y hápticos](../238-audio-espacial-y-hapticos/README.md)

@@ -166,6 +166,10 @@ Toma un script real que corra lógica sobre muchos nodos en `_process` usando `g
 - Godot Docs — Optimizing using Servers: <https://docs.godotengine.org/en/stable/tutorials/performance/using_servers.html>
 - Godot Docs — Groups: <https://docs.godotengine.org/en/stable/tutorials/scripting/groups.html>
 
+## ⬅️ Clase anterior
+
+[Clase 242 - Presupuesto de frame y objetivos de FPS](../242-presupuesto-de-frame-y-objetivos-de-fps/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 244 - Optimización de GPU: draw calls, overdraw y fillrate](../244-optimizacion-de-gpu-draw-calls-overdraw-y-fillrate/README.md)

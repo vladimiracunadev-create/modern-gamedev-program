@@ -134,6 +134,10 @@ Entrega una tabla comparativa completa de al menos **cuatro plataformas** (PC, A
 - Google Play — Políticas para desarrolladores: <https://play.google.com/about/developer-content-policy/>
 - Apple — App Store Review Guidelines: <https://developer.apple.com/app-store/review/guidelines/>
 
+## ⬅️ Clase anterior
+
+[Clase 199 - Capstone Parte 10: una UI completa, accesible y localizada](../../parte-10-ui-ux-accesibilidad-y-localizacion/199-capstone-parte-10-una-ui-completa-accesible-y-localizada/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 201 - Exportar a Android: setup y firma](../201-exportar-a-android-setup-y-firma/README.md)

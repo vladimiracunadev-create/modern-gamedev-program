@@ -132,6 +132,10 @@ Crea una escena con suelo, al menos cinco objetos y una `DirectionalLight3D` con
 - Godot — DirectionalLight3D (clase): <https://docs.godotengine.org/en/stable/classes/class_directionallight3d.html>
 - Godot — Rendering settings (Lights and Shadows): <https://docs.godotengine.org/en/stable/classes/class_projectsettings.html>
 
+## ⬅️ Clase anterior
+
+[Clase 097 - Efectos: bloom, vignette, aberración cromática y CRT](../097-efectos-bloom-vignette-aberracion-cromatica-y-crt/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 099 - Transparencia, blending y orden de dibujado](../099-transparencia-blending-y-orden-de-dibujado/README.md)

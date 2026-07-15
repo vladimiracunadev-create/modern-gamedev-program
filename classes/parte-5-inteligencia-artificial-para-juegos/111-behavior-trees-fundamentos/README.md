@@ -234,6 +234,10 @@ Conceptualmente parecidos, pero el Selector es un dato componible: puedes reorde
 - [Callable — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_callable.html)
 - [Behavior Trees in Robotics and AI (libro abierto)](https://arxiv.org/abs/1709.00084)
 
+## ⬅️ Clase anterior
+
+[Clase 110 - Máquinas de estado jerárquicas (HFSM)](../110-maquinas-de-estado-jerarquicas-hfsm/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 112 - Behavior Trees: construir un enemigo completo](../112-behavior-trees-construir-un-enemigo-completo/README.md)

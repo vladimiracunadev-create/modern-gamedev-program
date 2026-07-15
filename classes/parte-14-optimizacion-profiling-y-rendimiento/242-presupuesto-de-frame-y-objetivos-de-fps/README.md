@@ -163,6 +163,10 @@ Diseña el presupuesto de frame de un juego objetivo 60 FPS: reparte los 16.6 ms
 - Godot Docs — Fixing jitter, stutter and physics interpolation: <https://docs.godotengine.org/en/stable/tutorials/physics/interpolation/physics_interpolation_introduction.html>
 - Jason Gregory, "Game Engine Architecture", 3.ª ed., sección sobre el bucle de juego y frame timing.
 
+## ⬅️ Clase anterior
+
+[Clase 241 - El profiler: CPU, GPU y frame time](../241-el-profiler-cpu-gpu-y-frame-time/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 243 - Optimización de CPU: lógica, scripts y llamadas](../243-optimizacion-de-cpu-logica-scripts-y-llamadas/README.md)

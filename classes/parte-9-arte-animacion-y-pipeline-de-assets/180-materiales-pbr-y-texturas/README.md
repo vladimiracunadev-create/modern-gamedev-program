@@ -136,6 +136,10 @@ Produce un texture set PBR completo para tu prop (albedo, metallic, roughness, n
 - glTF 2.0 — Materials (metallic-roughness): <https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html>
 - Godot Docs — Importing 3D scenes (glTF): <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_scenes.html>
 
+## ⬅️ Clase anterior
+
+[Clase 179 - UV mapping y texturizado](../179-uv-mapping-y-texturizado/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 181 - Rigging y skinning 3D](../181-rigging-y-skinning-3d/README.md)

@@ -167,6 +167,10 @@ Toma un sistema que cree objetos con frecuencia (por ejemplo, un generador de pr
 - Godot Docs — Performance (monitores de memoria): <https://docs.godotengine.org/en/stable/classes/class_performance.html>
 - Jason Gregory, "Game Engine Architecture", 3.ª ed., capítulo sobre gestión de memoria.
 
+## ⬅️ Clase anterior
+
+[Clase 244 - Optimización de GPU: draw calls, overdraw y fillrate](../244-optimizacion-de-gpu-draw-calls-overdraw-y-fillrate/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 246 - Object pooling y evitar asignaciones](../246-object-pooling-y-evitar-asignaciones/README.md)

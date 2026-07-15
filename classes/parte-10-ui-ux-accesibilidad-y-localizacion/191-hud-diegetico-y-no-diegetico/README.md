@@ -167,6 +167,10 @@ Crea un HUD no diegético con vida (TextureProgressBar), munición (Label) y un 
 - Godot Docs — TextureProgressBar: <https://docs.godotengine.org/en/stable/classes/class_textureprogressbar.html>
 - Game UI Database (referencias de HUD): <https://www.gameuidatabase.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 190 - Theming y estilos de UI escalables](../190-theming-y-estilos-de-ui-escalables/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 192 - Menús, navegación y flujo de pantallas](../192-menus-navegacion-y-flujo-de-pantallas/README.md)

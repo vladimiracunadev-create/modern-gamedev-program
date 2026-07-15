@@ -135,6 +135,10 @@ Empieza por Keith para la teoría de agile aplicada a juegos y por la Scrum Guid
 - GDC Vault, charlas de producción: <https://www.gdcvault.com/>
 - Atlassian, guía de agile: <https://www.atlassian.com/agile>
 
+## ⬅️ Clase anterior
+
+[Clase 266 - Capstone Parte 15: una herramienta o plugin de editor](../../parte-15-herramientas-editores-y-automatizacion/266-capstone-parte-15-una-herramienta-o-plugin-de-editor/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 268 - Formar y gestionar un equipo](../268-formar-y-gestionar-un-equipo/README.md)

@@ -159,6 +159,10 @@ Toma una escena con al menos 1000 objetos visuales idénticos dibujados como nod
 - Godot Docs — General optimization tips: <https://docs.godotengine.org/en/stable/tutorials/performance/general_optimization.html>
 - Godot Docs — 3D rendering limitations / anti-aliasing: <https://docs.godotengine.org/en/stable/tutorials/3d/3d_antialiasing.html>
 
+## ⬅️ Clase anterior
+
+[Clase 243 - Optimización de CPU: lógica, scripts y llamadas](../243-optimizacion-de-cpu-logica-scripts-y-llamadas/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 245 - Gestión de memoria y garbage collection](../245-gestion-de-memoria-y-garbage-collection/README.md)

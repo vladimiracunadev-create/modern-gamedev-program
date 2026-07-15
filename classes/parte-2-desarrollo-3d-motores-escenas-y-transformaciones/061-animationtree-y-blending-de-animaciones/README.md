@@ -139,6 +139,10 @@ Implementa un controlador de tercera/primera persona cuyo personaje mezcle idle/
 - [AnimationNodeBlendSpace1D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_animationnodeblendspace1d.html)
 - [AnimationNodeStateMachine — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_animationnodestatemachine.html)
 
+## ⬅️ Clase anterior
+
+[Clase 060 - Animación 3D: esqueletos, skinning y AnimationPlayer](../060-animacion-3d-esqueletos-skinning-y-animationplayer/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 062 - NavigationServer 3D: navmesh y pathfinding](../062-navigationserver-3d-navmesh-y-pathfinding/README.md)

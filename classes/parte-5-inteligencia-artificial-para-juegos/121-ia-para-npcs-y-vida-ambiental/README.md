@@ -206,6 +206,10 @@ Sí. Cambia los POI por zonas de pasto y agua y el patrón `ir→usar→esperar`
 - [Grupos de nodos — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/scripting/groups.html)
 - [AI-driven Dynamic Dialog (Elan Ruskin, GDC 2012)](https://www.gdcvault.com/play/1015528/AI-driven-Dynamic-Dialog-through)
 
+## ⬅️ Clase anterior
+
+[Clase 120 - Director de IA y dificultad dinámica](../120-director-de-ia-y-dificultad-dinamica/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 122 - Ruido y generación procedural (Perlin y Simplex)](../122-ruido-y-generacion-procedural-perlin-y-simplex/README.md)

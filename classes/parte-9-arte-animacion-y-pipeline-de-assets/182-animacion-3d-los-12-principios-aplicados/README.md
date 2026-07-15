@@ -136,6 +136,10 @@ Anima un ciclo completo (walk o idle) de 24 frames a 24 fps que aplique de forma
 - Blender Manual — Actions & NLA: <https://docs.blender.org/manual/en/latest/editors/nla/index.html>
 - Richard Williams, *The Animator's Survival Kit* (referencia de walk cycles): <https://www.theanimatorssurvivalkit.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 181 - Rigging y skinning 3D](../181-rigging-y-skinning-3d/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 183 - Sculpting y retopología](../183-sculpting-y-retopologia/README.md)

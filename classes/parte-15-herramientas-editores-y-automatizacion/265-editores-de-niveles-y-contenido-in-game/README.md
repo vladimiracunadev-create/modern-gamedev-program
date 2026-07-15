@@ -188,6 +188,10 @@ Construye un mini-editor in-game que coloque al menos tres tipos de objeto con e
 - Godot Docs — Saving games: <https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html>
 - Godot Docs — `ResourceSaver`: <https://docs.godotengine.org/en/stable/classes/class_resourcesaver.html>
 
+## ⬅️ Clase anterior
+
+[Clase 264 - Testing automatizado de juegos (GUT)](../264-testing-automatizado-de-juegos-gut/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 266 - Capstone Parte 15: una herramienta o plugin de editor](../266-capstone-parte-15-una-herramienta-o-plugin-de-editor/README.md)

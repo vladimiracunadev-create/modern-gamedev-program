@@ -135,6 +135,10 @@ Prepara el paquete y la ficha completos de un juego para subir a **Play Console*
 - App Store Connect (ayuda): <https://developer.apple.com/help/app-store-connect/>
 - Godot Docs — Exportar para iOS: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_ios.html>
 
+## ⬅️ Clase anterior
+
+[Clase 207 - Servicios: Google Play Games y Game Center](../207-servicios-google-play-games-y-game-center/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 209 - Desarrollo para consolas: panorama y devkits](../209-desarrollo-para-consolas-panorama-y-devkits/README.md)

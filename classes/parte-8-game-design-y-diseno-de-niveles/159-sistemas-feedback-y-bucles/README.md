@@ -135,6 +135,10 @@ Entrega el mapa de bucles de un juego con al menos dos bucles identificados (uno
 - GDC Vault — feedback loops y system design: <https://www.gdcvault.com>
 - Game Balance Concepts (Ian Schreiber): <https://gamebalanceconcepts.wordpress.com>
 
+## ⬅️ Clase anterior
+
+[Clase 158 - Mecánicas, verbos y economía del jugador](../158-mecanicas-verbos-y-economia-del-jugador/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 160 - Curvas de dificultad y progresión](../160-curvas-de-dificultad-y-progresion/README.md)

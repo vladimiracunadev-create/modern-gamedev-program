@@ -147,6 +147,10 @@ Entrega un **one-pager completo** (una página) y el **índice de un GDD ligero*
 - The Game Design Document (guía general): <https://www.gamedeveloper.com/>
 - Level Design Book — Documentation: <https://book.leveldesignbook.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 169 - Diseño de sistemas emergentes y sandbox](../169-diseno-de-sistemas-emergentes-y-sandbox/README.md)
+
 ## ➡️ Siguiente clase
 
 Continúa con [Clase 171 - Capstone Parte 8: diseñar y greyboxear un nivel completo](../171-capstone-parte-8-disenar-y-greyboxear-un-nivel-completo/README.md), donde integrarás todo lo aprendido en un nivel documentado y jugable.

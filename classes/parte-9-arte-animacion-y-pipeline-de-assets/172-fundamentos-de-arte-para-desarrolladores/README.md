@@ -134,6 +134,10 @@ Diseña la lámina de un personaje jugable ficticio: una paleta de exactamente 5
 
 - Composición y regla de tercios (referencia general): <https://en.wikipedia.org/wiki/Rule_of_thirds>
 
+## ⬅️ Clase anterior
+
+[Clase 171 - Capstone Parte 8: diseñar y greyboxear un nivel completo](../../parte-8-game-design-y-diseno-de-niveles/171-capstone-parte-8-disenar-y-greyboxear-un-nivel-completo/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 173 - Dirección de arte y coherencia visual](../173-direccion-de-arte-y-coherencia-visual/README.md)

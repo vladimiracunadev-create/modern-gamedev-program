@@ -187,6 +187,10 @@ Crea un segundo tipo de enemigo "volador" que ignore la gravedad y los `RayCast2
 - Godot — Physics introduction (capas y máscaras): <https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html>
 - Godot — CharacterBody2D: <https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 036 - Máquina de estados del jugador: idle, run, jump, fall](../036-maquina-de-estados-del-jugador-idle-run-jump-fall/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 038 - Salud, daño y combate 2D](../038-salud-dano-y-combate-2d/README.md)

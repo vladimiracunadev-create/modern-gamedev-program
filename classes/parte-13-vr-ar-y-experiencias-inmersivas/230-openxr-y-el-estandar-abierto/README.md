@@ -139,6 +139,10 @@ Configura un proyecto Godot con OpenXR habilitado, un Action Map con al menos tr
 - Khronos — OpenXR Overview: <https://www.khronos.org/openxr/>
 - Godot Docs — XR action map: <https://docs.godotengine.org/en/stable/tutorials/xr/xr_action_map.html>
 
+## ⬅️ Clase anterior
+
+[Clase 229 - Hardware XR: visores, tracking y controles](../229-hardware-xr-visores-tracking-y-controles/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 231 - VR en Godot: setup y primera escena](../231-vr-en-godot-setup-y-primera-escena/README.md)

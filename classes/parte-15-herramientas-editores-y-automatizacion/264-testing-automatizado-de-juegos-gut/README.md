@@ -194,6 +194,10 @@ Escribe una lógica de juego pura (salud, inventario o economía) con al menos d
 - Godot Docs — Unit testing con GUT: <https://docs.godotengine.org/en/stable/tutorials/scripting/unit_testing.html>
 - Godot Docs — Command line tutorial (`-s`): <https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html>
 
+## ⬅️ Clase anterior
+
+[Clase 263 - Control de versiones avanzado para equipos](../263-control-de-versiones-avanzado-para-equipos/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 265 - Editores de niveles y contenido in-game](../265-editores-de-niveles-y-contenido-in-game/README.md)

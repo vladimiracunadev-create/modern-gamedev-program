@@ -160,6 +160,10 @@ Construye un menú principal con al menos cuatro opciones que sea 100% operable 
 
 - Game Accessibility Guidelines (tamaño de objetivos): <https://gameaccessibilityguidelines.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 194 - UI responsive: múltiples resoluciones y aspect ratios](../194-ui-responsive-multiples-resoluciones-y-aspect-ratios/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 196 - Accesibilidad en juegos](../196-accesibilidad-en-juegos/README.md)

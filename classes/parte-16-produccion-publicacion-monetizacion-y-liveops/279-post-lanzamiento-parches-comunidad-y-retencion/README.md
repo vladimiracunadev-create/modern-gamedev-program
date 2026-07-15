@@ -134,6 +134,10 @@ Elabora un plan de soporte post-lanzamiento de 90 días para tu juego con: caden
 - Steamworks — Updating your game: <https://partner.steamgames.com/doc/store/updates>
 - CMX / guías de gestión de comunidad: <https://cmxhub.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 278 - Analítica de juego y telemetría](../278-analitica-de-juego-y-telemetria/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 280 - Capstone Parte 16: un plan de producción y lanzamiento](../280-capstone-parte-16-un-plan-de-produccion-y-lanzamiento/README.md)

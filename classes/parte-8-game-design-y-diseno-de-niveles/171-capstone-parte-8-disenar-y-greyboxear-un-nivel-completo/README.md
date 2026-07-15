@@ -171,6 +171,10 @@ Entrega el **nivel completo**: one-pager (objetivo, pilares, core loop), mapa de
 - Godot Docs — CharacterBody3D: <https://docs.godotengine.org/en/stable/tutorials/physics/using_character_body_3d.html>
 - Level Design Book — Process: <https://book.leveldesignbook.com/process>
 
+## ⬅️ Clase anterior
+
+[Clase 170 - Documentación de diseño: GDD y one-pager](../170-documentacion-de-diseno-gdd-y-one-pager/README.md)
+
 ## ➡️ Siguiente clase
 
 ¡Has completado la Parte 8! Continúa con [Clase 172 - Fundamentos de arte para desarrolladores](../../parte-9-arte-animacion-y-pipeline-de-assets/172-fundamentos-de-arte-para-desarrolladores/README.md), donde empezarás a vestir de arte los espacios que has aprendido a diseñar.

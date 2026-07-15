@@ -175,6 +175,10 @@ Crea un flujo Menú → Pantalla de carga → Nivel donde la pantalla de carga r
 - Godot Docs — SceneTree (change_scene_to_packed): <https://docs.godotengine.org/en/stable/classes/class_scenetree.html>
 - Godot Docs — PackedScene: <https://docs.godotengine.org/en/stable/classes/class_packedscene.html>
 
+## ⬅️ Clase anterior
+
+[Clase 250 - Multithreading y trabajos en paralelo](../250-multithreading-y-trabajos-en-paralelo/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 252 - Optimización por plataforma](../252-optimizacion-por-plataforma/README.md)

@@ -137,6 +137,10 @@ Entrega `mapa-recompensas.md` con: el inventario de recompensas, la tabla de cla
 - Dark Patterns in Games (catálogo) — <https://www.darkpattern.games>
 - Tracy Fullerton, *Game Design Workshop* (4ª ed.) — CRC Press
 
+## ⬅️ Clase anterior
+
+[Clase 162 - Aleatoriedad, azar y percepción de justicia](../162-aleatoriedad-azar-y-percepcion-de-justicia/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 164 - Onboarding y enseñar sin tutoriales](../164-onboarding-y-ensenar-sin-tutoriales/README.md)

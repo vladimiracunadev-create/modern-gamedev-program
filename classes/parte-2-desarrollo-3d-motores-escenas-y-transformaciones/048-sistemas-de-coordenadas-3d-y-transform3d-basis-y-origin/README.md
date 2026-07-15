@@ -138,6 +138,10 @@ Programa una "torreta" (un `Node3D` con un cañón alargado como hijo) que apunt
 - Godot Docs — Clase Basis: <https://docs.godotengine.org/en/stable/classes/class_basis.html>
 - Godot Docs — Clase Vector3: <https://docs.godotengine.org/en/stable/classes/class_vector3.html>
 
+## ⬅️ Clase anterior
+
+[Clase 047 - Escenas 3D en Godot: Node3D, transformaciones y gizmo](../047-escenas-3d-en-godot-node3d-transformaciones-y-gizmo/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 049 - Mallas, materiales y MeshInstance3D](../049-mallas-materiales-y-meshinstance3d/README.md)

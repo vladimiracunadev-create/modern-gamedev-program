@@ -145,6 +145,10 @@ Construye un pequeño patio cerrado: suelo trimesh, cuatro muros `StaticBody3D` 
 - [Using CharacterBody2D/3D](https://docs.godotengine.org/en/stable/tutorials/physics/using_character_body_2d.html)
 - [Collision shapes (3D)](https://docs.godotengine.org/en/stable/tutorials/physics/collision_shapes_3d.html)
 
+## ⬅️ Clase anterior
+
+[Clase 056 - Controlador en tercera persona con cámara orbital](../056-controlador-en-tercera-persona-con-camara-orbital/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 058 - RigidBody3D, fuerzas e interacción física](../058-rigidbody3d-fuerzas-e-interaccion-fisica/README.md)

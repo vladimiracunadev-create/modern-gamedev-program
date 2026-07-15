@@ -172,6 +172,10 @@ Crea una mini-demo donde un cuadrado se mueve por la pantalla con **teclado, pun
 - MDN — Gamepad API: <https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API>
 - MDN — Pointer events: <https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events>
 
+## ⬅️ Clase anterior
+
+[Clase 221 - WebGPU: el futuro del render web](../221-webgpu-el-futuro-del-render-web/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 223 - Networking web: WebSockets y WebRTC](../223-networking-web-websockets-y-webrtc/README.md)

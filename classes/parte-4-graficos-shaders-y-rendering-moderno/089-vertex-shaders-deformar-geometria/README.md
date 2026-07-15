@@ -140,6 +140,10 @@ Exactamente. El patrón de desplazar más los vértices altos (las hojas) que lo
 - [The Book of Shaders — funciones de forma y ondas](https://thebookofshaders.com/05/)
 - [The Book of Shaders — algoritmos de patrones](https://thebookofshaders.com/09/)
 
+## ⬅️ Clase anterior
+
+[Clase 088 - El lenguaje de shaders de Godot: estructura y tipos](../088-el-lenguaje-de-shaders-de-godot-estructura-y-tipos/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 090 - Fragment shaders: color por píxel y UVs](../090-fragment-shaders-color-por-pixel-y-uvs/README.md)

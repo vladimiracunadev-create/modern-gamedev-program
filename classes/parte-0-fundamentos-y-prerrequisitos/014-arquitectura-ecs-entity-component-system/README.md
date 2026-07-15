@@ -198,6 +198,10 @@ Amplía el mini-ECS con un componente `Bounds(min_x, max_x)` y un sistema `bounc
 - flecs, documentación y manual: <https://www.flecs.dev/flecs/md_docs_2Quickstart.html>
 - Unity, "Entities (DOTS)": <https://docs.unity3d.com/Packages/com.unity.entities@latest>
 
+## ⬅️ Clase anterior
+
+[Clase 013 - Patrones de diseño en juegos: State, Observer, Component y más](../013-patrones-de-diseno-en-juegos-state-observer-component-y-mas/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 015 - Git y control de versiones para proyectos de juegos (con LFS)](../015-git-y-control-de-versiones-para-proyectos-de-juegos-con-lfs/README.md)

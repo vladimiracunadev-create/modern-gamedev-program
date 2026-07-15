@@ -166,6 +166,10 @@ Implementa una función `colision(forma_a, forma_b)` que reciba formas etiquetad
 2. Wikipedia — Hyperplane separation theorem (SAT): <https://en.wikipedia.org/wiki/Hyperplane_separation_theorem>
 3. MDN — 2D collision detection: <https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection>
 
+## ⬅️ Clase anterior
+
+[Clase 070 - Integración numérica en la práctica (Euler y Verlet)](../070-integracion-numerica-en-la-practica-euler-y-verlet/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 072 - Respuesta a colisiones: impulsos y restitución](../072-respuesta-a-colisiones-impulsos-y-restitucion/README.md)

@@ -217,6 +217,10 @@ Simula 60 frames de un juego que dispara hasta 20 balas por frame usando el `Poo
 - Microsoft, `System.Collections.Generic`: <https://learn.microsoft.com/dotnet/api/system.collections.generic>
 - Microsoft, `Dictionary<TKey,TValue>`: <https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2>
 
+## ⬅️ Clase anterior
+
+[Clase 009 - POO para juegos: clases, herencia y composición](../009-programacion-orientada-a-objetos-para-juegos-clases-herencia-y-composicion/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 011 - C++ para juegos: fundamentos, punteros y memoria](../011-c-plus-plus-para-juegos-fundamentos-punteros-y-memoria/README.md)

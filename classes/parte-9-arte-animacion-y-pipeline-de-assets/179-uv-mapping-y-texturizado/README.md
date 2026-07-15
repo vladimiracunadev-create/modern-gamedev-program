@@ -136,6 +136,10 @@ Despliega por completo tu prop de la clase 178 con seams bien escondidas, iguala
 - Blender Manual — Packing Islands: <https://docs.blender.org/manual/en/latest/modeling/meshes/uv/editing.html>
 - glTF texture coordinates (spec): <https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html>
 
+## ⬅️ Clase anterior
+
+[Clase 178 - Modelado 3D: fundamentos con Blender](../178-modelado-3d-fundamentos-con-blender/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 180 - Materiales PBR y texturas](../180-materiales-pbr-y-texturas/README.md)

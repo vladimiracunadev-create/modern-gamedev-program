@@ -189,6 +189,10 @@ Construye una escena VR donde el jugador pueda agarrar un RigidBody3D con `grab`
 - Godot Docs — Using a SubViewport: <https://docs.godotengine.org/en/stable/tutorials/rendering/viewports.html>
 - godot-xr-tools — Interactables: <https://github.com/GodotVR/godot-xr-tools>
 
+## ⬅️ Clase anterior
+
+[Clase 232 - Locomoción VR y confort](../232-locomocion-vr-y-confort/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 234 - Presencia, escala y diseño para VR](../234-presencia-escala-y-diseno-para-vr/README.md)

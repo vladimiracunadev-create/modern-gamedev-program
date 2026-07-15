@@ -210,6 +210,10 @@ Crea una escena `Proyectil` (Area2D con hitbox) que el jugador dispare en la dir
 - Godot — Señales: <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html#signals>
 - Godot — Physics layers and masks: <https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html>
 
+## ⬅️ Clase anterior
+
+[Clase 037 - Enemigos e IA básica 2D: patrullas y persecución](../037-enemigos-e-ia-basica-2d-patrullas-y-persecucion/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 039 - Recolectables, puntuación y HUD](../039-recolectables-puntuacion-y-hud/README.md)

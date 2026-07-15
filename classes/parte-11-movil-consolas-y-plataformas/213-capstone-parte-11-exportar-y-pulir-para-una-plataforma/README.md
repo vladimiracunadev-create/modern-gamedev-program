@@ -145,6 +145,10 @@ Entrega un **build pulido y publicable** de tu juego para una plataforma objetiv
 - Godot Docs — Multiple resolutions: <https://docs.godotengine.org/en/stable/tutorials/rendering/multiple_resolutions.html>
 - Godot Docs — The Profiler / Monitors: <https://docs.godotengine.org/en/stable/tutorials/scripting/debug/the_profiler.html>
 
+## ⬅️ Clase anterior
+
+[Clase 212 - Steam Deck y compatibilidad PC](../212-steam-deck-y-compatibilidad-pc/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 214 - El navegador como plataforma de juegos](../../parte-12-juegos-web-y-html5/214-el-navegador-como-plataforma-de-juegos/README.md)

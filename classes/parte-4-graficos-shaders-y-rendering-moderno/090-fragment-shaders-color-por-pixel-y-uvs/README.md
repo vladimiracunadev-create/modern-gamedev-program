@@ -156,6 +156,10 @@ El mismo razonamiento sobre UV aplica en shaders `spatial`; aquí usamos `canvas
 - [The Book of Shaders — patrones](https://thebookofshaders.com/09/)
 - [Tu primer shader canvas_item — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/shaders/your_first_shader/your_first_canvasitem_shader.html)
 
+## ⬅️ Clase anterior
+
+[Clase 089 - Vertex shaders: deformar geometría](../089-vertex-shaders-deformar-geometria/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 091 - Texturas en shaders: sampling, tiling y mezcla](../091-texturas-en-shaders-sampling-tiling-y-mezcla/README.md)

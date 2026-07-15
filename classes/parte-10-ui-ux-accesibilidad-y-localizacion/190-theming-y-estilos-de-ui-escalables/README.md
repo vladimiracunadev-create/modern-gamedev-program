@@ -137,6 +137,10 @@ Crea un Theme completo (`Button` con cuatro estados, `PanelContainer`, `Label`) 
 - Godot Docs — StyleBoxFlat: <https://docs.godotengine.org/en/stable/classes/class_styleboxflat.html>
 - Godot Docs — Theme: <https://docs.godotengine.org/en/stable/classes/class_theme.html>
 
+## ⬅️ Clase anterior
+
+[Clase 189 - Sistema de UI de Godot: Control, Containers y anclas](../189-sistema-de-ui-de-godot-control-containers-y-anclas/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 191 - HUD diegético y no diegético](../191-hud-diegetico-y-no-diegetico/README.md)

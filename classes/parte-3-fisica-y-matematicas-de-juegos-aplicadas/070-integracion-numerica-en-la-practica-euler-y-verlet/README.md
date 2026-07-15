@@ -162,6 +162,10 @@ Construye una simulación Verlet de una **cadena de 5 puntos** unidos por restri
 2. Wikipedia — Verlet integration: <https://en.wikipedia.org/wiki/Verlet_integration>
 3. Wikipedia — Semi-implicit Euler method: <https://en.wikipedia.org/wiki/Semi-implicit_Euler_method>
 
+## ⬅️ Clase anterior
+
+[Clase 069 - Cuaterniones: rotaciones 3D sin gimbal lock](../069-cuaterniones-rotaciones-3d-sin-gimbal-lock/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 071 - Detección de colisiones: AABB, esferas y SAT](../071-deteccion-de-colisiones-aabb-esferas-y-sat/README.md)

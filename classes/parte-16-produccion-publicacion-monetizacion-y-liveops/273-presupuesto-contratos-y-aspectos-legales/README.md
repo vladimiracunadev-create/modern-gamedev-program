@@ -136,6 +136,10 @@ Las dudas legales más comunes tienen que ver con licencias, contratos y cuándo
 - Steamworks, requisitos legales y fiscales: <https://partner.steamgames.com/doc/finance>
 - WIPO, información sobre marcas: <https://www.wipo.int/trademarks/en/>
 
+## ⬅️ Clase anterior
+
+[Clase 272 - Steam: página, wishlists y lanzamiento](../272-steam-pagina-wishlists-y-lanzamiento/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 274 - QA, testing y gestión de bugs](../274-qa-testing-y-gestion-de-bugs/README.md)

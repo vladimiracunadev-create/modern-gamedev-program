@@ -135,6 +135,10 @@ Produce un asset orgánico completo: un modelo **alto** esculpido, una malla **b
 - Blender Manual — Normal Map node: <https://docs.blender.org/manual/en/latest/render/shader_nodes/vector/normal_map.html>
 - Blender Manual — Dynamic Topology: <https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/dyntopo.html>
 
+## ⬅️ Clase anterior
+
+[Clase 182 - Animación 3D: los 12 principios aplicados](../182-animacion-3d-los-12-principios-aplicados/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 184 - Efectos visuales (VFX) y partículas artísticas](../184-efectos-visuales-vfx-y-particulas-artisticas/README.md)

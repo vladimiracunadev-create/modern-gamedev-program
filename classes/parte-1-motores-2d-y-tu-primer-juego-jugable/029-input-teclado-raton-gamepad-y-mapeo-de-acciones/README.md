@@ -150,6 +150,10 @@ Crea las cinco acciones (`move_left`, `move_right`, `move_up`, `move_down`, `jum
 - Godot Docs — Clase Input: <https://docs.godotengine.org/en/stable/classes/class_input.html>
 - Godot Docs — Controllers, gamepads and joysticks: <https://docs.godotengine.org/en/stable/tutorials/inputs/controllers_gamepads_joysticks.html>
 
+## ⬅️ Clase anterior
+
+[Clase 028 - El game loop en la práctica: _process,_physics_process y señales](../028-el-game-loop-en-la-practica-process-physics-process-y-senales/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 030 - Movimiento de personaje 2D: velocidad, aceleración y control](../030-movimiento-de-personaje-2d-velocidad-aceleracion-y-control/README.md)

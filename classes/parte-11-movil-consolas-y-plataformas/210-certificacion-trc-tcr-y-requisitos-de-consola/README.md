@@ -162,6 +162,10 @@ Elabora una **checklist de certificación** de al menos 10 requisitos comunes y 
 - Godot Docs — Saving games: <https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html>
 - W4 Games (soporte de consola): <https://www.w4games.com>
 
+## ⬅️ Clase anterior
+
+[Clase 209 - Desarrollo para consolas: panorama y devkits](../209-desarrollo-para-consolas-panorama-y-devkits/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 211 - Input de consola, logros y guardado en nube](../211-input-de-consola-logros-y-guardado-en-nube/README.md)

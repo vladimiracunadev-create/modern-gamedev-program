@@ -235,6 +235,10 @@ Implementa un agente con **al menos cinco acciones** cuyo comportamiento sea coh
 - Godot Docs — RefCounted: <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>
 - Godot Docs — GDScript exports y clases: <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html>
 
+## ⬅️ Clase anterior
+
+[Clase 116 - Percepción: visión, oído y memoria del agente](../116-percepcion-vision-oido-y-memoria-del-agente/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 118 - GOAP: planificación orientada a objetivos](../118-goap-planificacion-orientada-a-objetivos/README.md)

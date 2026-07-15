@@ -149,6 +149,10 @@ Crea un post-proceso de "confusión" que combine un tinte morado, una distorsió
 2. Godot Engine — Custom post-processing: <https://docs.godotengine.org/en/stable/tutorials/shaders/custom_postprocessing.html>
 3. Godot Engine — Canvas item shaders: <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/canvas_item_shader.html>
 
+## ⬅️ Clase anterior
+
+[Clase 095 - Shaders 2D: efectos sobre sprites (disolución y outline)](../095-shaders-2d-efectos-sobre-sprites-disolucion-y-outline/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 097 - Efectos: bloom, vignette, aberración cromática y CRT](../097-efectos-bloom-vignette-aberracion-cromatica-y-crt/README.md)

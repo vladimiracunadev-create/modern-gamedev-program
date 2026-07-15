@@ -183,6 +183,10 @@ Crea un programa que gestione hasta 5 entidades enemigas usando `std::unique_ptr
 - cppreference, `std::unique_ptr`: <https://en.cppreference.com/w/cpp/memory/unique_ptr>
 - ISO C++ Core Guidelines, gestión de recursos (RAII): <https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-resource>
 
+## ⬅️ Clase anterior
+
+[Clase 010 - Estructuras de datos para juegos: arrays, listas, diccionarios y colas](../010-estructuras-de-datos-para-juegos-arrays-listas-diccionarios-y-colas/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 012 - GDScript y Python en juegos: scripting rápido](../012-gdscript-y-python-en-juegos-scripting-rapido/README.md)

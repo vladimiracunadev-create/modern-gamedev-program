@@ -177,6 +177,10 @@ Programa una torreta que gire suavemente (lerp de ángulo con wrap, `t = 0.2`) h
 - "atan2" explicación y cuadrantes: <https://en.wikipedia.org/wiki/Atan2>
 - Red Blob Games, artículos de matemáticas 2D: <https://www.redblobgames.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 005 - Matemáticas para juegos II: matrices y transformaciones](../005-matematicas-para-juegos-ii-matrices-y-transformaciones/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 007 - Física básica para juegos: cinemática, fuerzas e integración](../007-fisica-basica-para-juegos-cinematica-fuerzas-e-integracion/README.md)

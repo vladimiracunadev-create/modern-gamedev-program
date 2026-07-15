@@ -136,6 +136,10 @@ Entrega una hoja de balanceo de al menos 5 opciones con estadísticas base y las
 - GDC Vault — spreadsheets y balancing: <https://www.gdcvault.com>
 - Google Sheets — funciones y fórmulas: <https://support.google.com/docs/table/25273>
 
+## ⬅️ Clase anterior
+
+[Clase 160 - Curvas de dificultad y progresión](../160-curvas-de-dificultad-y-progresion/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 162 - Aleatoriedad, azar y percepción de justicia](../162-aleatoriedad-azar-y-percepcion-de-justicia/README.md)

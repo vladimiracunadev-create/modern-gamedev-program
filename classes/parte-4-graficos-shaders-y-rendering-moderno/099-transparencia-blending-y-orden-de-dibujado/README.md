@@ -165,6 +165,10 @@ Crea una fogata: un plano de **fuego** con `blend_add` y, detrás, un plano de *
 - Godot — Spatial shader (render modes): <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/spatial_shader.html>
 - Godot — StandardMaterial3D (transparencia): <https://docs.godotengine.org/en/stable/tutorials/3d/standard_material_3d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 098 - Sombras: shadow mapping y calidad](../098-sombras-shadow-mapping-y-calidad/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 100 - Agua, olas y superficies animadas](../100-agua-olas-y-superficies-animadas/README.md)

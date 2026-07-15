@@ -158,6 +158,10 @@ Crea una demo comparativa con un botón o tecla que alterne entre dibujar **3000
 - Godot Docs — Visibility ranges (HLOD): <https://docs.godotengine.org/en/stable/tutorials/3d/visibility_ranges.html>
 - Godot Docs — Clase MultiMeshInstance3D: <https://docs.godotengine.org/en/stable/classes/class_multimeshinstance3d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 065 - Nivel 3D: GridMap, kits modulares y blockout](../065-nivel-3d-gridmap-kits-modulares-y-blockout/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 067 - Capstone Parte 2: un nivel 3D explorable en tercera persona](../067-capstone-parte-2-un-nivel-3d-explorable-en-tercera-persona/README.md)

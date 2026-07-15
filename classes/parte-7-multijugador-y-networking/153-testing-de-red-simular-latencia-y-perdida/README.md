@@ -169,6 +169,10 @@ Entrega una demo con dos peers donde el jugador remoto se interpola y el cliente
 - netem — Emulación de red en Linux: <https://wiki.linuxfoundation.org/networking/netem>
 - Godot Docs — MultiplayerSynchronizer: <https://docs.godotengine.org/en/stable/classes/class_multiplayersynchronizer.html>
 
+## ⬅️ Clase anterior
+
+[Clase 152 - Backends: Nakama, Steam y servicios gestionados](../152-backends-nakama-steam-y-servicios-gestionados/README.md)
+
 ## ➡️ Siguiente clase
 
 Continúa con **154 — Seguridad en multijugador: validación y exploits**, donde blindarás el servidor contra clientes tramposos.

@@ -135,6 +135,10 @@ Entrega un set de al menos **4 assets** (3 props + 1 personaje simple) que cumpl
 - Blender Manual — Exporting glTF 2.0: <https://docs.blender.org/manual/en/latest/addons/import_export/scene_gltf2.html>
 - Godot Docs — Optimizing 3D performance: <https://docs.godotengine.org/en/stable/tutorials/performance/index.html>
 
+## ⬅️ Clase anterior
+
+[Clase 185 - Iluminación como arte y mood](../185-iluminacion-como-arte-y-mood/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 187 - Capstone Parte 9: un set de assets coherente](../187-capstone-parte-9-un-set-de-assets-coherente/README.md)

@@ -141,6 +141,10 @@ Programa una torreta 3D que apunte suavemente a un objetivo: cada frame calcula 
 2. Godot Engine — Using 3D transforms: <https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html>
 3. Godot Engine — Clase Basis: <https://docs.godotengine.org/en/stable/classes/class_basis.html>
 
+## ⬅️ Clase anterior
+
+[Clase 068 - Repaso aplicado: vectores y transformaciones en el motor](../068-repaso-aplicado-vectores-y-transformaciones-en-el-motor/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 070 - Integración numérica en la práctica (Euler y Verlet)](../070-integracion-numerica-en-la-practica-euler-y-verlet/README.md)

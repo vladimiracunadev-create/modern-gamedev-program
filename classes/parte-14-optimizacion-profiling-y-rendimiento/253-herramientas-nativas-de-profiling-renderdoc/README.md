@@ -143,6 +143,10 @@ Toma una escena que esté limitada por GPU, captura un frame con RenderDoc y pro
 - Godot Docs — Performance y optimización de GPU: <https://docs.godotengine.org/en/stable/tutorials/performance/index.html>
 - Godot Docs — clase Performance (monitores): <https://docs.godotengine.org/en/stable/classes/class_performance.html>
 
+## ⬅️ Clase anterior
+
+[Clase 252 - Optimización por plataforma](../252-optimizacion-por-plataforma/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 254 - Capstone Parte 14: optimizar un proyecto a 60 fps](../254-capstone-parte-14-optimizar-un-proyecto-a-60-fps/README.md)

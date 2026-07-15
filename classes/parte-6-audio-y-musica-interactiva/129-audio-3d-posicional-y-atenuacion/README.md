@@ -143,6 +143,10 @@ Godot no la trae automática; se aproxima bajando el volumen o aplicando un low-
 - [Audio en Godot 4 — documentación oficial](https://docs.godotengine.org/en/stable/tutorials/audio/index.html)
 - [AudioEffectReverb — referencia de clase](https://docs.godotengine.org/en/stable/classes/class_audioeffectreverb.html)
 
+## ⬅️ Clase anterior
+
+[Clase 128 - Buses, efectos y mezcla dinámica](../128-buses-efectos-y-mezcla-dinamica/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 130 - Música adaptativa: capas verticales](../130-musica-adaptativa-capas-verticales/README.md)

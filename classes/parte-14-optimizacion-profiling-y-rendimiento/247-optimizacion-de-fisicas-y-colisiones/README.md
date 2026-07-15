@@ -154,6 +154,10 @@ Toma una escena con al menos 300 cuerpos físicos mal configurada (una sola capa
 - Godot Docs — RigidBody2D (sleeping): <https://docs.godotengine.org/en/stable/classes/class_rigidbody2d.html>
 - Godot Docs — Performance monitors: <https://docs.godotengine.org/en/stable/classes/class_performance.html>
 
+## ⬅️ Clase anterior
+
+[Clase 246 - Object pooling y evitar asignaciones](../246-object-pooling-y-evitar-asignaciones/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 248 - Culling, LOD y streaming de mundo](../248-culling-lod-y-streaming-de-mundo/README.md)

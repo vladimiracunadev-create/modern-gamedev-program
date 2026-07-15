@@ -147,6 +147,10 @@ Vectores básicos y lógica bastan para empezar. Las técnicas más avanzadas (u
 - [GDC Vault — charlas de IA de juegos](https://www.gdcvault.com/)
 - [Introducción al scripting — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/scripting/index.html)
 
+## ⬅️ Clase anterior
+
+[Clase 107 - Capstone Parte 4: set de shaders y post-procesado](../../parte-4-graficos-shaders-y-rendering-moderno/107-capstone-parte-4-set-de-shaders-y-post-procesado/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 109 - Máquinas de estado finito (FSM) para IA](../109-maquinas-de-estado-finito-fsm-para-ia/README.md)

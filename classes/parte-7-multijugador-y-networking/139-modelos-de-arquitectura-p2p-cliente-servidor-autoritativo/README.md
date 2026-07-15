@@ -162,6 +162,10 @@ Extiende el esqueleto a un mini "captura la bandera" de posiciones: dos jugadore
 - Gabriel Gambetta: [Fast-Paced Multiplayer](https://www.gabrielgambetta.com/client-server-game-architecture.html)
 - Glenn Fiedler: [What every programmer needs to know about networking](https://gafferongames.com/post/what_every_programmer_needs_to_know_about_game_networking/)
 
+## ⬅️ Clase anterior
+
+[Clase 138 - Fundamentos de redes para juegos: TCP, UDP y latencia](../138-fundamentos-de-redes-para-juegos-tcp-udp-y-latencia/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 140 - El multijugador de alto nivel de Godot (MultiplayerAPI)](../140-el-multijugador-de-alto-nivel-de-godot-multiplayerapi/README.md)

@@ -194,6 +194,10 @@ Crea un nivel 2D con **tres salas** conectadas por pasillos y un `NavigationLink
 - Godot Docs — Using NavigationObstacles: <https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationobstacles.html>
 - Godot Docs — Using NavigationLinks: <https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationlinks.html>
 
+## ⬅️ Clase anterior
+
+[Clase 113 - Pathfinding: A* explicado y aplicado](../113-pathfinding-a-estrella-explicado-y-aplicado/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 115 - Steering y evitación de obstáculos (flocking)](../115-steering-y-evitacion-de-obstaculos-flocking/README.md)

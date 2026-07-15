@@ -129,6 +129,10 @@ Construye un nivel jugable completo usando `TileMapLayer` y un `TileSet` con col
 - [TileMapLayer — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_tilemaplayer.html)
 - [TileSet — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_tileset.html)
 
+## ⬅️ Clase anterior
+
+[Clase 034 - Física 2D: RigidBody, gravedad y plataformas](../034-fisica-2d-rigidbody-gravedad-y-plataformas/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 036 - Máquina de estados del jugador: idle, run, jump, fall](../036-maquina-de-estados-del-jugador-idle-run-jump-fall/README.md)

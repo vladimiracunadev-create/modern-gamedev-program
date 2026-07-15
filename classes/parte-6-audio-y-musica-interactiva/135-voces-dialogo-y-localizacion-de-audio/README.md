@@ -178,6 +178,10 @@ En un bus propio con ducking sobre la música, para que el diálogo se entienda 
 - [AudioStreamPlayer — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html)
 - [TranslationServer — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_translationserver.html)
 
+## ⬅️ Clase anterior
+
+[Clase 134 - Sincronización con ritmo y eventos](../134-sincronizacion-con-ritmo-y-eventos/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 136 - Optimización de audio: memoria y streaming](../136-optimizacion-de-audio-memoria-y-streaming/README.md)

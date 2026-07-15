@@ -193,6 +193,10 @@ Implementa un sistema de locomoción por teleport con arco proyectado y validaci
 - godot-xr-tools — Locomotion: <https://github.com/GodotVR/godot-xr-tools>
 - Godot Docs — PhysicsDirectSpaceState3D: <https://docs.godotengine.org/en/stable/classes/class_physicsdirectspacestate3d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 231 - VR en Godot: setup y primera escena](../231-vr-en-godot-setup-y-primera-escena/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 233 - Interacción VR: manos, agarre y UI espacial](../233-interaccion-vr-manos-agarre-y-ui-espacial/README.md)

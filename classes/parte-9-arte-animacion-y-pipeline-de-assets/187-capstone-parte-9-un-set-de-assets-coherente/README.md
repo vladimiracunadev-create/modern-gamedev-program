@@ -135,6 +135,10 @@ Entrega un set completo y coherente: **3 props + 1 personaje simple + una paleta
 - Godot Docs — Your first 3D scene (montaje): <https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html>
 - Blender Manual — Exporting glTF 2.0: <https://docs.blender.org/manual/en/latest/addons/import_export/scene_gltf2.html>
 
+## ⬅️ Clase anterior
+
+[Clase 186 - Pipeline de assets: nomenclatura, LODs y optimización](../186-pipeline-de-assets-nomenclatura-lods-y-optimizacion/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 188 - Fundamentos de UI/UX en juegos](../../parte-10-ui-ux-accesibilidad-y-localizacion/188-fundamentos-de-ui-ux-en-juegos/README.md)

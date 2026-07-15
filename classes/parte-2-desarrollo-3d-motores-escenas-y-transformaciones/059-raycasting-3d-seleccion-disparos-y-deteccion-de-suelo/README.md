@@ -157,6 +157,10 @@ Implementa una "linterna de inspección": un rayo desde la cámara que, cada fra
 - [RayCast3D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_raycast3d.html)
 - [PhysicsDirectSpaceState3D](https://docs.godotengine.org/en/stable/classes/class_physicsdirectspacestate3d.html)
 
+## ⬅️ Clase anterior
+
+[Clase 058 - RigidBody3D, fuerzas e interacción física](../058-rigidbody3d-fuerzas-e-interaccion-fisica/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 060 - Animación 3D: esqueletos, skinning y AnimationPlayer](../060-animacion-3d-esqueletos-skinning-y-animationplayer/README.md)

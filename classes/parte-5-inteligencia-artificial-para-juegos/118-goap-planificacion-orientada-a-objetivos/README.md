@@ -235,6 +235,10 @@ Amplía el mini-GOAP a **al menos cinco acciones** (incluye recoger munición y 
 - Godot Docs — Dictionary: <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>
 - Godot Docs — RefCounted: <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>
 
+## ⬅️ Clase anterior
+
+[Clase 117 - Toma de decisiones: utility AI](../117-toma-de-decisiones-utility-ai/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 119 - IA de combate: cobertura, flanqueo y coordinación](../119-ia-de-combate-cobertura-flanqueo-y-coordinacion/README.md)

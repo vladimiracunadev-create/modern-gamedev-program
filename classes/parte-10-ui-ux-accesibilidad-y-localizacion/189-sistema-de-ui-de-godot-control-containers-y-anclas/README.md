@@ -135,6 +135,10 @@ Construye una pantalla de dos columnas: a la izquierda una lista con scroll (que
 - Godot Docs — Control (size flags): <https://docs.godotengine.org/en/stable/classes/class_control.html>
 - Godot Docs — Container: <https://docs.godotengine.org/en/stable/classes/class_container.html>
 
+## ⬅️ Clase anterior
+
+[Clase 188 - Fundamentos de UI/UX en juegos](../188-fundamentos-de-ui-ux-en-juegos/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 190 - Theming y estilos de UI escalables](../190-theming-y-estilos-de-ui-escalables/README.md)

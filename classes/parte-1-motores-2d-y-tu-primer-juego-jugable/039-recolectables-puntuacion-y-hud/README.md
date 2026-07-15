@@ -184,6 +184,10 @@ Crea un recolectable especial `Gema` que otorgue una vida extra (hasta un máxim
 - Godot — TextureProgressBar: <https://docs.godotengine.org/en/stable/classes/class_textureprogressbar.html>
 - Godot — Area2D: <https://docs.godotengine.org/en/stable/classes/class_area2d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 038 - Salud, daño y combate 2D](../038-salud-dano-y-combate-2d/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 040 - Menús, pausa y flujo de escenas](../040-menus-pausa-y-flujo-de-escenas/README.md)

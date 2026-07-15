@@ -128,6 +128,10 @@ Construye una habitación pequeña a escala 1:1 (suelo, dos paredes, una mesa co
 - Meta — Locomotion Best Practices: <https://developer.oculus.com/resources/bp-locomotion/>
 - Khronos — OpenXR reference spaces: <https://www.khronos.org/openxr/>
 
+## ⬅️ Clase anterior
+
+[Clase 233 - Interacción VR: manos, agarre y UI espacial](../233-interaccion-vr-manos-agarre-y-ui-espacial/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 235 - Realidad aumentada: fundamentos y tracking](../235-realidad-aumentada-fundamentos-y-tracking/README.md)

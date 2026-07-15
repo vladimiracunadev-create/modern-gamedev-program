@@ -168,6 +168,10 @@ Monta un mini-nivel con: suelo `StaticBody2D` (capa `World`), jugador `Character
 - [CharacterBody2D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html)
 - [Capas y máscaras de colisión — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html#collision-layers-and-masks)
 
+## ⬅️ Clase anterior
+
+[Clase 032 - Cámaras 2D: seguimiento, límites y screen shake](../032-camaras-2d-seguimiento-limites-y-screen-shake/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 034 - Física 2D: RigidBody, gravedad y plataformas](../034-fisica-2d-rigidbody-gravedad-y-plataformas/README.md)

@@ -226,6 +226,10 @@ Diseña un escenario con **cuatro enemigos**, varios muros con puntos de cobertu
 - Godot Docs — NavigationAgent2D: <https://docs.godotengine.org/en/stable/classes/class_navigationagent2d.html>
 - Godot Docs — Marker2D: <https://docs.godotengine.org/en/stable/classes/class_marker2d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 118 - GOAP: planificación orientada a objetivos](../118-goap-planificacion-orientada-a-objetivos/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 120 - Director de IA y dificultad dinámica](../120-director-de-ia-y-dificultad-dinamica/README.md)

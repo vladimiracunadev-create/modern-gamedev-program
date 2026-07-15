@@ -135,6 +135,10 @@ Realiza al menos **3 sesiones de playtest con personas nuevas**, registra los ha
 - OBS Studio — grabar sesiones de prueba: <https://obsproject.com/>
 - Nielsen Norman Group — sobre think-aloud y usabilidad: <https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/>
 
+## ⬅️ Clase anterior
+
+[Clase 284 - Pulido, game feel y el último 10%](../284-pulido-game-feel-y-el-ultimo-10-por-ciento/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 286 - Preparar el juego para el público](../286-preparar-el-juego-para-el-publico/README.md)

@@ -213,6 +213,10 @@ Entrega un nivel 3D jugable de principio a fin que cumpla la tabla de features y
 - Godot Docs — Using AnimationTree: <https://docs.godotengine.org/en/stable/tutorials/animation/animation_tree.html>
 - Godot Docs — Clase NavigationAgent3D: <https://docs.godotengine.org/en/stable/classes/class_navigationagent3d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 066 - Optimización 3D básica: LOD, occlusion y draw calls](../066-optimizacion-3d-basica-lod-occlusion-y-draw-calls/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 068 - Repaso aplicado: vectores y transformaciones en el motor](../../parte-3-fisica-y-matematicas-de-juegos-aplicadas/068-repaso-aplicado-vectores-y-transformaciones-en-el-motor/README.md)

@@ -206,6 +206,10 @@ Entrega un nivel jugable completo: apuntar con arrastre, línea de predicción, 
 - Godot Docs — Physics materials y RigidBody: <https://docs.godotengine.org/en/stable/tutorials/physics/using_area_2d.html>
 - Godot Docs — Tween (UI easing): <https://docs.godotengine.org/en/stable/classes/class_tween.html>
 
+## ⬅️ Clase anterior
+
+[Clase 084 - Determinismo y física fija para multijugador](../084-determinismo-y-fisica-fija-para-multijugador/README.md)
+
 ## ➡️ Siguiente clase
 
 Con este capstone cierras la **Parte 3**. Continúas con la Parte 4, dedicada a gráficos, shaders y rendering moderno:

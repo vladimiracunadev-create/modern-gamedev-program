@@ -186,6 +186,10 @@ Implementa un control de volumen por bus. Crea en el Autoload `Sfx` (o uno nuevo
 - Godot Docs — Singletons (Autoload): <https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html>
 - Godot Docs — AudioServer: <https://docs.godotengine.org/en/stable/classes/class_audioserver.html>
 
+## ⬅️ Clase anterior
+
+[Clase 040 - Menús, pausa y flujo de escenas](../040-menus-pausa-y-flujo-de-escenas/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 042 - Partículas y feedback visual (juice)](../042-particulas-y-feedback-visual-juice/README.md)

@@ -134,6 +134,10 @@ Generalmente reduce la carga de CPU, pero el equilibrio depende de tu escena. Lo
 - [Real-Time Rendering — sitio oficial del libro](https://www.realtimerendering.com/)
 - [The Book of Shaders — capítulo introductorio](https://thebookofshaders.com/01/)
 
+## ⬅️ Clase anterior
+
+[Clase 085 - Capstone Parte 3: un mini-juego de física](../../parte-3-fisica-y-matematicas-de-juegos-aplicadas/085-capstone-parte-3-un-mini-juego-de-fisica/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 087 - Rasterización vs ray tracing: panorama actual](../087-rasterizacion-vs-ray-tracing-panorama-actual/README.md)

@@ -178,6 +178,10 @@ Cuando el comportamiento es determinista o especificable con reglas, cuando nece
 - [Reinforcement Learning: An Introduction (Sutton & Barto, libro abierto)](http://incompleteideas.net/book/the-book-2nd.html)
 - [Stable-Baselines3 — Documentación](https://stable-baselines3.readthedocs.io/)
 
+## ⬅️ Clase anterior
+
+[Clase 123 - Generación procedural de niveles](../123-generacion-procedural-de-niveles/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 125 - Capstone Parte 5: enemigo con behavior tree y percepción](../125-capstone-parte-5-enemigo-con-behavior-tree-y-percepcion/README.md)

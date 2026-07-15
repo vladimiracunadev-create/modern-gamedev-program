@@ -136,6 +136,10 @@ Entrega `onboarding.md` con: la mecánica elegida, la secuencia de 3-4 pasos (in
 - Jesse Schell, *The Art of Game Design: A Book of Lenses* (3ª ed.) — <https://www.schellgames.com>
 - The Design of Super Mario Bros. World 1-1 (referencia de análisis) — <https://en.wikipedia.org/wiki/Super_Mario_Bros.>
 
+## ⬅️ Clase anterior
+
+[Clase 163 - Recompensas, motivación y psicología del jugador](../163-recompensas-motivacion-y-psicologia-del-jugador/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 165 - Diseño de niveles: principios y lenguaje visual](../165-diseno-de-niveles-principios-y-lenguaje-visual/README.md)

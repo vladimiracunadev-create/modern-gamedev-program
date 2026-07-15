@@ -179,6 +179,10 @@ Crea un "recolector": instancia por código **al menos 8** coleccionables en pos
 - Godot Docs — Clase PackedScene: <https://docs.godotengine.org/en/stable/classes/class_packedscene.html>
 - Godot Docs — Using signals (código): <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html#signals>
 
+## ⬅️ Clase anterior
+
+[Clase 063 - Áreas, triggers y detección en 3D](../063-areas-triggers-y-deteccion-en-3d/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 065 - Nivel 3D: GridMap, kits modulares y blockout](../065-nivel-3d-gridmap-kits-modulares-y-blockout/README.md)

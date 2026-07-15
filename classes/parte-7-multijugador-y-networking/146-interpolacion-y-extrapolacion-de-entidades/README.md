@@ -160,6 +160,10 @@ Interpola la posición de un jugador remoto entre snapshots con ~100 ms de retar
 - Gaffer On Games — Snapshot Interpolation: <https://gafferongames.com/post/snapshot_interpolation/>
 - Godot Docs — MultiplayerSynchronizer: <https://docs.godotengine.org/en/stable/classes/class_multiplayersynchronizer.html>
 
+## ⬅️ Clase anterior
+
+[Clase 145 - Predicción del cliente y reconciliación](../145-prediccion-del-cliente-y-reconciliacion/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 147 - Lag compensation y rollback netcode](../147-lag-compensation-y-rollback-netcode/README.md)

@@ -180,6 +180,10 @@ Añade a un juego un menú de accesibilidad con, como mínimo: escalado de texto
 
 - WebAIM — Contrast Checker: <https://webaim.org/resources/contrastchecker/>
 
+## ⬅️ Clase anterior
+
+[Clase 195 - Input de UI: teclado, gamepad y táctil](../195-input-de-ui-teclado-gamepad-y-tactil/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 197 - Localización e internacionalización (i18n)](../197-localizacion-e-internacionalizacion-i18n/README.md)

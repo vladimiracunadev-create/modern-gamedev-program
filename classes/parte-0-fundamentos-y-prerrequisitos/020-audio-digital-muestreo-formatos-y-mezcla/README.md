@@ -142,6 +142,10 @@ Crea una escena con música en bucle enrutada al bus **Music** y al menos un efe
 - Audacity (editor de audio): <https://www.audacityteam.org/>
 - Freesound (sonidos libres): <https://freesound.org/>
 
+## ⬅️ Clase anterior
+
+[Clase 019 - Color, sprites, texturas y formatos de imagen](../019-color-sprites-texturas-y-formatos-de-imagen/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 021 - Assets y pipeline de contenido: import, compresión y presupuestos](../021-assets-y-pipeline-de-contenido-import-compresion-y-presupuestos/README.md)

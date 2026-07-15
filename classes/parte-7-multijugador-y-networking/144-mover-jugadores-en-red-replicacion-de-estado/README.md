@@ -165,6 +165,10 @@ Construye una sala donde 3 avatares (servidor + 2 clientes) se muevan simultáne
 - Godot Docs — ENetMultiplayerPeer: <https://docs.godotengine.org/en/stable/classes/class_enetmultiplayerpeer.html>
 - Gaffer On Games — Networked Physics: <https://gafferongames.com/post/networked_physics_2004/>
 
+## ⬅️ Clase anterior
+
+[Clase 143 - Un chat y lobby en red paso a paso](../143-un-chat-y-lobby-en-red-paso-a-paso/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 145 - Predicción del cliente y reconciliación](../145-prediccion-del-cliente-y-reconciliacion/README.md)

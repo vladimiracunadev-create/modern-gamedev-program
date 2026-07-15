@@ -165,6 +165,10 @@ Crea un campo de **al menos 8000 briznas** de hierba con `MultiMeshInstance3D`, 
 - Godot — MultiMesh (clase): <https://docs.godotengine.org/en/stable/classes/class_multimesh.html>
 - Godot — MultiMeshInstance3D (clase): <https://docs.godotengine.org/en/stable/classes/class_multimeshinstance3d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 101 - Partículas en GPU y shaders de partículas](../101-particulas-en-gpu-y-shaders-de-particulas/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 103 - Toon/cel shading y estilos no fotorrealistas](../103-toon-cel-shading-y-estilos-no-fotorrealistas/README.md)

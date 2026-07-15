@@ -148,6 +148,10 @@ Diseña una sala jugable en **dos pasadas**: primero un blockout completo con CS
 - Godot Docs — Clase GridMap: <https://docs.godotengine.org/en/stable/classes/class_gridmap.html>
 - Godot Docs — Clase MeshLibrary: <https://docs.godotengine.org/en/stable/classes/class_meshlibrary.html>
 
+## ⬅️ Clase anterior
+
+[Clase 064 - Instanciado y escenas 3D reutilizables](../064-instanciado-y-escenas-3d-reutilizables/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 066 - Optimización 3D básica: LOD, occlusion y draw calls](../066-optimizacion-3d-basica-lod-occlusion-y-draw-calls/README.md)

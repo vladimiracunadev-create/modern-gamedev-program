@@ -219,6 +219,10 @@ Entrega `transformaciones.py` con las funciones `identidad`, `traslacion`, `rota
 - Documentación de NumPy — <https://numpy.org/doc/stable/>
 - 3Blue1Brown, "Essence of Linear Algebra" (transformaciones lineales) — <https://www.3blue1brown.com/topics/linear-algebra>
 
+## ⬅️ Clase anterior
+
+[Clase 004 - Matemáticas para juegos I: vectores y álgebra lineal](../004-matematicas-para-juegos-i-vectores-y-algebra-lineal/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 006 - Matemáticas para juegos III: trigonometría, ángulos y rotaciones](../006-matematicas-para-juegos-iii-trigonometria-angulos-y-rotaciones/README.md)

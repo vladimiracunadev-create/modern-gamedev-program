@@ -175,6 +175,10 @@ Implementa un menú de opciones accesible desde el menú principal y desde la pa
 - Godot — UI building blocks: <https://docs.godotengine.org/en/stable/tutorials/ui/index.html>
 - Godot — Button: <https://docs.godotengine.org/en/stable/classes/class_button.html>
 
+## ⬅️ Clase anterior
+
+[Clase 039 - Recolectables, puntuación y HUD](../039-recolectables-puntuacion-y-hud/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 041 - Sonido y música en 2D: efectos y bucle musical](../041-sonido-y-musica-en-2d-efectos-y-bucle-musical/README.md)

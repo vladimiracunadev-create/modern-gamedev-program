@@ -134,6 +134,10 @@ Crea un sprite original de 32×32 px en Aseprite (o LibreSprite) usando una pale
 
 - Aseprite — Tutoriales (grid, paletas, pixel-perfect): <https://www.aseprite.org/docs/tutorial/>
 
+## ⬅️ Clase anterior
+
+[Clase 173 - Dirección de arte y coherencia visual](../173-direccion-de-arte-y-coherencia-visual/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 175 - Arte 2D vectorial y digital painting](../175-arte-2d-vectorial-y-digital-painting/README.md)

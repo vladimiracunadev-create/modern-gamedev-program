@@ -150,6 +150,10 @@ Construye una "vitrina de materiales" con al menos cinco esferas idénticas en f
 - Godot Docs — Clase StandardMaterial3D: <https://docs.godotengine.org/en/stable/classes/class_standardmaterial3d.html>
 - Godot Docs — Clase PrimitiveMesh: <https://docs.godotengine.org/en/stable/classes/class_primitivemesh.html>
 
+## ⬅️ Clase anterior
+
+[Clase 048 - Sistemas de coordenadas 3D y Transform3D (basis y origin)](../048-sistemas-de-coordenadas-3d-y-transform3d-basis-y-origin/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 050 - Importar modelos 3D: glTF, Blender y el pipeline](../050-importar-modelos-3d-gltf-blender-y-el-pipeline/README.md)

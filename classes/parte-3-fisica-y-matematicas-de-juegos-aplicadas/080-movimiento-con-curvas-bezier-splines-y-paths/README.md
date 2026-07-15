@@ -169,6 +169,10 @@ Crea una plataforma móvil (`AnimatableBody3D` o `MeshInstance3D`) que recorra u
 - Godot Docs — Path2D / PathFollow2D: <https://docs.godotengine.org/en/stable/classes/class_path2d.html>
 - Freya Holmér — The Beauty of Bézier Curves: <https://www.youtube.com/watch?v=aVwxzDHniEw>
 
+## ⬅️ Clase anterior
+
+[Clase 079 - Proyectiles: balística, gravedad y predicción](../079-proyectiles-balistica-gravedad-y-prediccion/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 081 - Interpolación y easing (lerp, slerp y tweens)](../081-interpolacion-y-easing-lerp-slerp-y-tweens/README.md)

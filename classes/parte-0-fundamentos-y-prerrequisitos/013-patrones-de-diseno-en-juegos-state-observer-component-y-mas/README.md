@@ -208,6 +208,10 @@ Combina State y Observer: haz que el `Personaje` dispare un evento `OnCambioEsta
 - Robert Nystrom, *Game Programming Patterns*, "Component": <https://gameprogrammingpatterns.com/component.html>
 - Microsoft, "Eventos en C#": <https://learn.microsoft.com/dotnet/csharp/programming-guide/events/>
 
+## ⬅️ Clase anterior
+
+[Clase 012 - GDScript y Python en juegos: scripting rápido](../012-gdscript-y-python-en-juegos-scripting-rapido/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 014 - Arquitectura ECS (Entity-Component-System)](../014-arquitectura-ecs-entity-component-system/README.md)

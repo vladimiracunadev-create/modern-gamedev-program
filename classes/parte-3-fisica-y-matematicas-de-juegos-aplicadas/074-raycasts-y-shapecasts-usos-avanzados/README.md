@@ -155,6 +155,10 @@ Construye un enemigo patrullero que (a) recorra una plataforma sin caerse gracia
 - Godot Docs — PhysicsDirectSpaceState3D: <https://docs.godotengine.org/en/stable/classes/class_physicsdirectspacestate3d.html>
 - Christer Ericson, *Real-Time Collision Detection*, cap. 5 (pruebas de intersección de rayos).
 
+## ⬅️ Clase anterior
+
+[Clase 073 - Fricción, arrastre y amortiguación](../073-friccion-arrastre-y-amortiguacion/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 075 - Motores de física: broadphase y narrowphase](../075-motores-de-fisica-broadphase-y-narrowphase/README.md)

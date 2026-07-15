@@ -164,6 +164,10 @@ Extiende el laboratorio para que, además de contar pares, ejecute la narrowphas
 - Godot Docs — Physics introduction: <https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html>
 - Erin Catto, *Box2D* (documentación técnica sobre solvers e islas): <https://box2d.org/documentation/>
 
+## ⬅️ Clase anterior
+
+[Clase 074 - Raycasts y shapecasts: usos avanzados](../074-raycasts-y-shapecasts-usos-avanzados/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 076 - Juntas y restricciones (joints): bisagras y resortes](../076-juntas-y-restricciones-joints-bisagras-y-resortes/README.md)

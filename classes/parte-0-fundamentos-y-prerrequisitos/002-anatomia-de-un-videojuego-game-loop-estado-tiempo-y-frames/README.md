@@ -188,6 +188,10 @@ Entrega `pelota.py` con un game loop que: (a) mueva una pelota usando delta time
 - Documentación de Python `time` — <https://docs.python.org/3/library/time.html>
 - Godot: método `_process(delta)` — <https://docs.godotengine.org/en/stable/tutorials/scripting/idle_and_physics_processing.html>
 
+## ⬅️ Clase anterior
+
+[Clase 001 - Qué es el desarrollo de videojuegos moderno: motores, disciplinas y pipeline](../001-que-es-el-desarrollo-de-videojuegos-moderno-motores-disciplinas-y-pipeline/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 003 - Historia y géneros: qué define la jugabilidad](../003-historia-y-generos-que-define-la-jugabilidad/README.md)

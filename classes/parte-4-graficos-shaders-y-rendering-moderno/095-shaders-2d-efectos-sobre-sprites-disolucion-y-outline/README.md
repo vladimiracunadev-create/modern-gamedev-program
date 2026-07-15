@@ -173,6 +173,10 @@ Programa un enemigo 2D que, al morir, se disuelva en 0.6 s con borde emisivo y q
 2. Godot Engine — Your first 2D shader: <https://docs.godotengine.org/en/stable/tutorials/shaders/your_first_shader/your_first_2d_shader.html>
 3. Godot Engine — Clase NoiseTexture2D: <https://docs.godotengine.org/en/stable/classes/class_noisetexture2d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 094 - Normal mapping y detalle de superficie](../094-normal-mapping-y-detalle-de-superficie/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 096 - Screen-space y post-procesado](../096-screen-space-y-post-procesado/README.md)

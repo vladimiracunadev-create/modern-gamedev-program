@@ -135,6 +135,10 @@ Empieza por Chandler para el marco de presupuesto y producción; la guía de Kic
 - Guía de pitch para publishers (Raw Fury/Devolver, blogs públicos): <https://www.gamesindustry.biz/>
 - Creative Europe MEDIA (grants de videojuegos, UE): <https://culture.ec.europa.eu/creative-europe>
 
+## ⬅️ Clase anterior
+
+[Clase 268 - Formar y gestionar un equipo](../268-formar-y-gestionar-un-equipo/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 270 - Modelos de negocio y monetización](../270-modelos-de-negocio-y-monetizacion/README.md)

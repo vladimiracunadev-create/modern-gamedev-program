@@ -151,6 +151,10 @@ Entrega un controlador FPS jugable en un nivel con paredes: mouse look con pitch
 - Input — API oficial: <https://docs.godotengine.org/en/stable/classes/class_input.html>
 - CharacterBody3D: <https://docs.godotengine.org/en/stable/classes/class_characterbody3d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 054 - Movimiento 3D: CharacterBody3D y move_and_slide](../054-movimiento-3d-characterbody3d-y-move-and-slide/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 056 - Controlador en tercera persona con cámara orbital](../056-controlador-en-tercera-persona-con-camara-orbital/README.md)

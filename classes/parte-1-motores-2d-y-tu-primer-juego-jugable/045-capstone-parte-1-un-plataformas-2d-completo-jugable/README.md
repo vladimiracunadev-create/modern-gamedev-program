@@ -198,6 +198,10 @@ Entrega el juego completo terminado según la especificación y la *definition o
 - Godot Docs — Pausing games: <https://docs.godotengine.org/en/stable/tutorials/scripting/pausing_games.html>
 - Godot Docs — Exporting projects: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html>
 
+## ⬅️ Clase anterior
+
+[Clase 044 - Empaquetado y exportación del juego 2D (Windows y web)](../044-empaquetado-y-exportacion-del-juego-2d-windows-y-web/README.md)
+
 ## ➡️ Siguiente clase
 
 ¡Felicidades, has terminado la Parte 1 con un juego completo! La Parte 2 da el salto a las tres dimensiones.

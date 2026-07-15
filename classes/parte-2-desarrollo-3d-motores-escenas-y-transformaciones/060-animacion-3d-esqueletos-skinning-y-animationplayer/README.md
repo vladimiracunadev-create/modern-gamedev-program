@@ -149,6 +149,10 @@ Crea un personaje que se anime coherentemente en tres estados —quieto, caminar
 - [Importing 3D scenes — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/index.html)
 - [Skeleton3D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_skeleton3d.html)
 
+## ⬅️ Clase anterior
+
+[Clase 059 - Raycasting 3D: selección, disparos y detección de suelo](../059-raycasting-3d-seleccion-disparos-y-deteccion-de-suelo/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 061 - AnimationTree y blending de animaciones](../061-animationtree-y-blending-de-animaciones/README.md)

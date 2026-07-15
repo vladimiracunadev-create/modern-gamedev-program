@@ -149,6 +149,10 @@ Diseña el plan de telemetría de tu juego: un catálogo de al menos 8 eventos c
 - RGPD — información oficial: <https://gdpr.eu/>
 - Unity Analytics: <https://docs.unity.com/analytics/>
 
+## ⬅️ Clase anterior
+
+[Clase 277 - LiveOps: eventos, temporadas y contenido continuo](../277-liveops-eventos-temporadas-y-contenido-continuo/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 279 - Post-lanzamiento: parches, comunidad y retención](../279-post-lanzamiento-parches-comunidad-y-retencion/README.md)

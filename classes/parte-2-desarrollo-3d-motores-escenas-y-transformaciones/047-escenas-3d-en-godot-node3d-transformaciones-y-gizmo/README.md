@@ -139,6 +139,10 @@ Crea un brazo articulado de al menos tres segmentos que realice un ciclo de "sal
 - Godot Docs — Introduction to 3D (viewport y gizmo): <https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html>
 - Godot Docs — Nodes and scene instances: <https://docs.godotengine.org/en/stable/tutorials/scripting/nodes_and_scene_instances.html>
 
+## ⬅️ Clase anterior
+
+[Clase 046 - Del 2D al 3D: qué cambia (ejes, cámaras y mallas)](../046-del-2d-al-3d-que-cambia-ejes-camaras-y-mallas/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 048 - Sistemas de coordenadas 3D y Transform3D (basis y origin)](../048-sistemas-de-coordenadas-3d-y-transform3d-basis-y-origin/README.md)

@@ -141,6 +141,10 @@ Construye un controlador top-down con dos "materiales de suelo": **normal** y **
 2. Godot Engine — PhysicsMaterial: <https://docs.godotengine.org/en/stable/classes/class_physicsmaterial.html>
 3. Godot Engine — `move_toward` (Vector2): <https://docs.godotengine.org/en/stable/classes/class_vector2.html#class-vector2-method-move-toward>
 
+## ⬅️ Clase anterior
+
+[Clase 072 - Respuesta a colisiones: impulsos y restitución](../072-respuesta-a-colisiones-impulsos-y-restitucion/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 074 - Raycasts y shapecasts: usos avanzados](../074-raycasts-y-shapecasts-usos-avanzados/README.md)

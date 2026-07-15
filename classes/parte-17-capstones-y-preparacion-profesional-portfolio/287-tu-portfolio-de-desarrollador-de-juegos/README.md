@@ -136,6 +136,10 @@ Amplía con estas fuentes para ver ejemplos reales y afinar la presentación de 
 - GDC Vault, charlas sobre portfolios y carrera: <https://www.gdcvault.com/>
 - Jason Schreier, Blood, Sweat, and Pixels: <https://www.jasonschreier.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 286 - Preparar el juego para el público](../286-preparar-el-juego-para-el-publico/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 288 - El demo reel y presentar tu trabajo](../288-el-demo-reel-y-presentar-tu-trabajo/README.md)

@@ -192,6 +192,10 @@ Crea un componente reutilizable `EfectoImpacto` que combine tres cosas al ejecut
 - Godot Docs — Tween: <https://docs.godotengine.org/en/stable/tutorials/animation/tween.html>
 - Godot Docs — Using Tweens (create_tween): <https://docs.godotengine.org/en/stable/classes/class_tween.html>
 
+## ⬅️ Clase anterior
+
+[Clase 041 - Sonido y música en 2D: efectos y bucle musical](../041-sonido-y-musica-en-2d-efectos-y-bucle-musical/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 043 - Guardado y carga de progreso](../043-guardado-y-carga-de-progreso/README.md)

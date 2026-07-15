@@ -140,6 +140,10 @@ Organiza un mini-proyecto en Godot con la estructura `assets/sprites`, `assets/a
 - Godot Docs, "Importing images": <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>
 - Godot Docs, "Importing audio samples": <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_audio_samples.html>
 
+## ⬅️ Clase anterior
+
+[Clase 020 - Audio digital: muestreo, formatos y mezcla](../020-audio-digital-muestreo-formatos-y-mezcla/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 022 - Delta time, fixed timestep y determinismo](../022-delta-time-fixed-timestep-y-determinismo/README.md)

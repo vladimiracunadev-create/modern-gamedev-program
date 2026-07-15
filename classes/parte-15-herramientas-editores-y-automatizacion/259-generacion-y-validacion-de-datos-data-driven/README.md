@@ -216,6 +216,10 @@ Construye un importador-validador para una categoría de datos de tu juego (obje
 - Godot Docs — `ResourceSaver`: <https://docs.godotengine.org/en/stable/classes/class_resourcesaver.html>
 - Godot Docs — Saving games / serialización: <https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html>
 
+## ⬅️ Clase anterior
+
+[Clase 258 - Gizmos e inspectores personalizados](../258-gizmos-e-inspectores-personalizados/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 260 - Recursos personalizados y bases de datos de juego](../260-recursos-personalizados-y-bases-de-datos-de-juego/README.md)

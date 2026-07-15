@@ -196,6 +196,10 @@ Sí, pero es señal de que quizá la agrupación no es la ideal. Lo natural es t
 - [GDScript básico — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html)
 - [CharacterBody2D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html)
 
+## ⬅️ Clase anterior
+
+[Clase 109 - Máquinas de estado finito (FSM) para IA](../109-maquinas-de-estado-finito-fsm-para-ia/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 111 - Behavior Trees: fundamentos](../111-behavior-trees-fundamentos/README.md)

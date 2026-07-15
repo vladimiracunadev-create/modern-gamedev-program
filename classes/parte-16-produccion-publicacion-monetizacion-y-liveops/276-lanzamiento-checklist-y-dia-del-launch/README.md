@@ -145,6 +145,10 @@ Elabora la checklist de lanzamiento completa de tu juego con las cinco áreas e 
 - Google Play — Launch checklist: <https://developer.android.com/distribute/best-practices/launch/launch-checklist>
 - App Store — Submit your apps: <https://developer.apple.com/app-store/submissions/>
 
+## ⬅️ Clase anterior
+
+[Clase 275 - Beta, early access y feedback](../275-beta-early-access-y-feedback/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 277 - LiveOps: eventos, temporadas y contenido continuo](../277-liveops-eventos-temporadas-y-contenido-continuo/README.md)

@@ -132,6 +132,10 @@ Diseña un calendario de contenido de 3 meses (12 semanas) para un juego live co
 - Steamworks — Seasonal/event best practices: <https://partner.steamgames.com/doc/features/events>
 - GDC Vault — charlas de LiveOps: <https://www.gdcvault.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 276 - Lanzamiento: checklist y día del launch](../276-lanzamiento-checklist-y-dia-del-launch/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 278 - Analítica de juego y telemetría](../278-analitica-de-juego-y-telemetria/README.md)

@@ -153,6 +153,10 @@ Conceptualmente sí: nodos de entrada, operaciones y una salida de material. Cam
 - [Shader Graph — Unity Docs](https://docs.unity3d.com/Packages/com.unity.shadergraph@latest)
 - [Material Editor — Unreal Engine Docs](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-material-editor-user-guide)
 
+## ⬅️ Clase anterior
+
+[Clase 105 - Optimización de shaders y coste en GPU](../105-optimizacion-de-shaders-y-coste-en-gpu/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 107 - Capstone Parte 4: set de shaders y post-procesado](../107-capstone-parte-4-set-de-shaders-y-post-procesado/README.md)

@@ -146,6 +146,10 @@ Crea un nivel con suelo, una rampa y un escalón bajo. El personaje debe moverse
 - Using CharacterBody: <https://docs.godotengine.org/en/stable/tutorials/physics/using_character_body_2d.html>
 - Input examples: <https://docs.godotengine.org/en/stable/tutorials/inputs/input_examples.html>
 
+## ⬅️ Clase anterior
+
+[Clase 053 - WorldEnvironment: cielo, niebla y tonemapping](../053-worldenvironment-cielo-niebla-y-tonemapping/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 055 - Controlador en primera persona (FPS)](../055-controlador-en-primera-persona-fps/README.md)

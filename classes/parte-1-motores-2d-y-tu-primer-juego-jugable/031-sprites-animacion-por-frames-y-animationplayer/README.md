@@ -194,6 +194,10 @@ Implementa un sistema de animación completo con cuatro estados visuales: `idle`
 - [Introducción a la animación (AnimationPlayer) — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/animation/introduction.html)
 - [2D sprite animation — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/2d/2d_sprite_animation.html)
 
+## ⬅️ Clase anterior
+
+[Clase 030 - Movimiento de personaje 2D: velocidad, aceleración y control](../030-movimiento-de-personaje-2d-velocidad-aceleracion-y-control/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 032 - Cámaras 2D: seguimiento, límites y screen shake](../032-camaras-2d-seguimiento-limites-y-screen-shake/README.md)

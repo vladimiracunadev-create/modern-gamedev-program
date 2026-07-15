@@ -165,6 +165,10 @@ Construye en Godot, en menos de 60 minutos y con solo formas primitivas, el prot
 - Godot Docs, "GDScript exports (`@export`)": <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_exports.html>
 - Godot Docs, "CharacterBody2D": <https://docs.godotengine.org/en/stable/tutorials/physics/using_character_body_2d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 023 - Debugging y profiling: herramientas y mentalidad](../023-debugging-y-profiling-herramientas-y-mentalidad/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 025 - Metodología, gestión de proyectos y portfolio del desarrollador](../025-metodologia-gestion-de-proyectos-y-portfolio-del-desarrollador/README.md)

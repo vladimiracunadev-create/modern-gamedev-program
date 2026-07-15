@@ -135,6 +135,10 @@ Elabora un **informe de viabilidad de porteo** de un juego propio (o de ejemplo)
 - ID@Xbox: <https://www.xbox.com/developers/id>
 - PlayStation Partners: <https://partners.playstation.net>
 
+## ⬅️ Clase anterior
+
+[Clase 208 - Publicar en las tiendas móviles](../208-publicar-en-las-tiendas-moviles/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 210 - Certificación (TRC/TCR) y requisitos de consola](../210-certificacion-trc-tcr-y-requisitos-de-consola/README.md)

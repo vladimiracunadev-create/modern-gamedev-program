@@ -143,6 +143,10 @@ A partir de una spritesheet de pixel art, muestra en pantalla al menos cuatro fo
 - Godot — AtlasTexture (clase): <https://docs.godotengine.org/en/stable/classes/class_atlastexture.html>
 - Kenney — Assets libres: <https://kenney.nl/assets>
 
+## ⬅️ Clase anterior
+
+[Clase 018 - Sistemas de coordenadas y espacios: local, mundo, cámara, pantalla](../018-sistemas-de-coordenadas-y-espacios-local-mundo-camara-pantalla/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 020 - Audio digital: muestreo, formatos y mezcla](../020-audio-digital-muestreo-formatos-y-mezcla/README.md)

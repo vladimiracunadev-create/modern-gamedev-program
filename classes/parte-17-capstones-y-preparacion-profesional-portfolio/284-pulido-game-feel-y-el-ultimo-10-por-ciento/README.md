@@ -139,6 +139,10 @@ Aplica las mejoras de mayor ratio de tu checklist al slice y entrega dos clips (
 - sfxr / jsfxr — generador de efectos de sonido: <https://sfxr.me/>
 - Game Maker's Toolkit — game feel y secretos de diseño: <https://www.youtube.com/c/MarkBrownGMT>
 
+## ⬅️ Clase anterior
+
+[Clase 283 - Construir el vertical slice](../283-construir-el-vertical-slice/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 285 - Playtesting formal y iteración con datos](../285-playtesting-formal-y-iteracion-con-datos/README.md)

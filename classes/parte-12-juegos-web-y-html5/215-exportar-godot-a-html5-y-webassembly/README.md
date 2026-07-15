@@ -146,6 +146,10 @@ Exporta un proyecto Godot con al menos un objeto que se mueva por input del juga
 - MDN — Cross-Origin-Embedder-Policy: <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy>
 - MDN — SharedArrayBuffer: <https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer>
 
+## ⬅️ Clase anterior
+
+[Clase 214 - El navegador como plataforma de juegos](../214-el-navegador-como-plataforma-de-juegos/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 216 - JavaScript para juegos: el bucle y Canvas](../216-javascript-para-juegos-el-bucle-y-canvas/README.md)

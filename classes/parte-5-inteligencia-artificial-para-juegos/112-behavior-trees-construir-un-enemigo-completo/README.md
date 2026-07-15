@@ -212,6 +212,10 @@ Fijar `target_position` con el mismo valor es barato; el `NavigationAgent2D` rec
 - [Game AI Pro — behavior trees y blackboards](http://www.gameaipro.com/)
 - [Behavior Trees in Robotics and AI (libro abierto)](https://arxiv.org/abs/1709.00084)
 
+## ⬅️ Clase anterior
+
+[Clase 111 - Behavior Trees: fundamentos](../111-behavior-trees-fundamentos/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 113 - Pathfinding: A* explicado y aplicado](../113-pathfinding-a-estrella-explicado-y-aplicado/README.md)

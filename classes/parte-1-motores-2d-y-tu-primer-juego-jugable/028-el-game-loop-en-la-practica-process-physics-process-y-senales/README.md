@@ -161,6 +161,10 @@ Haz que el jugador emita una señal `rebote(nueva_direccion: int)` cada vez que 
 - Godot Docs — Using signals (scripting): <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html>
 - Godot Docs — Timer: <https://docs.godotengine.org/en/stable/classes/class_timer.html>
 
+## ⬅️ Clase anterior
+
+[Clase 027 - Godot: interfaz, proyecto y primer sprite en pantalla](../027-godot-interfaz-proyecto-y-primer-sprite-en-pantalla/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 029 - Input: teclado, ratón, gamepad y mapeo de acciones](../029-input-teclado-raton-gamepad-y-mapeo-de-acciones/README.md)

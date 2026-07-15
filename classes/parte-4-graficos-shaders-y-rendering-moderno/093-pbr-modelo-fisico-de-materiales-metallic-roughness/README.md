@@ -146,6 +146,10 @@ Construye una fila de cinco esferas con el mismo shader, variando `roughness_par
 2. Godot Engine — Spatial shaders (canales PBR): <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/spatial_shader.html>
 3. Godot Engine — Importing images (normal maps): <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>
 
+## ⬅️ Clase anterior
+
+[Clase 092 - Iluminación en shaders: Lambert, Phong y especular](../092-iluminacion-en-shaders-lambert-phong-y-especular/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 094 - Normal mapping y detalle de superficie](../094-normal-mapping-y-detalle-de-superficie/README.md)

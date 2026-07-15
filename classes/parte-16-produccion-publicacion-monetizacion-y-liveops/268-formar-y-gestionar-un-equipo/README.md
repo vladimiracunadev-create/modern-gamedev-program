@@ -135,6 +135,10 @@ Chandler y Keith cubren la teoría de equipos y producción; las guías de Trell
 - Documentación de Trello: <https://trello.com/guide>
 - Atlassian, guía de equipos ágiles: <https://www.atlassian.com/agile/teams>
 
+## ⬅️ Clase anterior
+
+[Clase 267 - Producción de juegos: scope, milestones y agile](../267-produccion-de-juegos-scope-milestones-y-agile/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 269 - Financiación: publishers, grants y crowdfunding](../269-financiacion-publishers-grants-y-crowdfunding/README.md)

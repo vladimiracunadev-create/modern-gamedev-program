@@ -144,6 +144,10 @@ Cada capa es una voz de audio más. Con unas pocas capas no hay problema; solo i
 - [GDC — The Sound of Grand Theft Auto V (variación y capas)](https://www.gdcvault.com/)
 - [Freesound — packs de variaciones](https://freesound.org/)
 
+## ⬅️ Clase anterior
+
+[Clase 126 - Fundamentos de audio para juegos (repaso aplicado)](../126-fundamentos-de-audio-para-juegos-repaso-aplicado/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 128 - Buses, efectos y mezcla dinámica](../128-buses-efectos-y-mezcla-dinamica/README.md)

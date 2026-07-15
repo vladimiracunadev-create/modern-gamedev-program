@@ -138,6 +138,10 @@ Toma un build web (propio o de ejemplo) y **redúcele el peso transferido al men
 - web.dev — Lazy loading: <https://web.dev/articles/lazy-loading>
 - MDN — HTTP caching: <https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching>
 
+## ⬅️ Clase anterior
+
+[Clase 223 - Networking web: WebSockets y WebRTC](../223-networking-web-websockets-y-webrtc/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 225 - Distribución: itch.io, Poki y portales HTML5](../225-distribucion-itch-io-poki-y-portales-html5/README.md)

@@ -146,6 +146,10 @@ Sí, puedes definir funciones auxiliares propias y llamarlas desde las de etapa,
 - [Uniforms y su uso desde código](https://docs.godotengine.org/en/stable/tutorials/shaders/shaders_style_guide.html)
 - [The Book of Shaders — uniforms](https://thebookofshaders.com/03/)
 
+## ⬅️ Clase anterior
+
+[Clase 087 - Rasterización vs ray tracing: panorama actual](../087-rasterizacion-vs-ray-tracing-panorama-actual/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 089 - Vertex shaders: deformar geometría](../089-vertex-shaders-deformar-geometria/README.md)

@@ -179,6 +179,10 @@ Implementa un autoload `Calidad` que al arrancar detecte la plataforma con `OS.g
 - Godot Docs — Importing images (compresión): <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>
 - Godot Docs — OS (get_name, has_feature): <https://docs.godotengine.org/en/stable/classes/class_os.html>
 
+## ⬅️ Clase anterior
+
+[Clase 251 - Tiempos de carga y arranque](../251-tiempos-de-carga-y-arranque/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 253 - Herramientas nativas de profiling (RenderDoc)](../253-herramientas-nativas-de-profiling-renderdoc/README.md)

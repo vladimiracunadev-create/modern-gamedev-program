@@ -199,6 +199,10 @@ Simula una **bandera** con Verlet: una rejilla de al menos 10×6 puntos anclada 
 - The Nature of Code — Physics Libraries / particle systems: <https://natureofcode.com/>
 - Godot Docs — Custom drawing in 2D (`_draw`): <https://docs.godotengine.org/en/stable/tutorials/2d/custom_drawing_in_2d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 082 - Steering behaviors: seek, flee, arrive y wander](../082-steering-behaviors-seek-flee-arrive-y-wander/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 084 - Determinismo y física fija para multijugador](../084-determinismo-y-fisica-fija-para-multijugador/README.md)

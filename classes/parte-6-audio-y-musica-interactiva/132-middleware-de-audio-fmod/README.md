@@ -138,6 +138,10 @@ Tiene una licencia indie gratuita bajo un umbral de ingresos por título. Consul
 - [fmod-gdextension (integración Godot 4)](https://github.com/utopia-rise/fmod-gdextension)
 - [AudioStreamPlayer — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html)
 
+## ⬅️ Clase anterior
+
+[Clase 131 - Música adaptativa: transiciones horizontales](../131-musica-adaptativa-transiciones-horizontales/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 133 - Middleware de audio: Wwise](../133-middleware-de-audio-wwise/README.md)

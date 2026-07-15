@@ -190,6 +190,10 @@ Construye un gizmo 3D propio que edite visualmente una propiedad de un nodo `@to
 - Godot Docs — `EditorNode3DGizmoPlugin`: <https://docs.godotengine.org/en/stable/classes/class_editornode3dgizmoplugin.html>
 - Godot Docs — `EditorProperty`: <https://docs.godotengine.org/en/stable/classes/class_editorproperty.html>
 
+## ⬅️ Clase anterior
+
+[Clase 257 - Plugins de editor y docks personalizados](../257-plugins-de-editor-y-docks-personalizados/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 259 - Generación y validación de datos (data-driven)](../259-generacion-y-validacion-de-datos-data-driven/README.md)

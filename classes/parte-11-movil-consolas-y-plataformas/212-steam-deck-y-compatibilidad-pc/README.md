@@ -168,6 +168,10 @@ Elabora la **checklist de verificación de Steam Deck** (entrada, legibilidad, c
 - Godot Docs — Multiple resolutions: <https://docs.godotengine.org/en/stable/tutorials/rendering/multiple_resolutions.html>
 - Godot Docs — Input examples: <https://docs.godotengine.org/en/stable/tutorials/inputs/input_examples.html>
 
+## ⬅️ Clase anterior
+
+[Clase 211 - Input de consola, logros y guardado en nube](../211-input-de-consola-logros-y-guardado-en-nube/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 213 - Capstone Parte 11: exportar y pulir para una plataforma](../213-capstone-parte-11-exportar-y-pulir-para-una-plataforma/README.md)

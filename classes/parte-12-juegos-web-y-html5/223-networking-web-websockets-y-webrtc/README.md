@@ -187,6 +187,10 @@ Construye un **chat en tiempo real** por WebSocket donde varios clientes (varias
 - Godot Docs — High-level multiplayer: <https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html>
 - ws (librería Node): <https://github.com/websockets/ws>
 
+## ⬅️ Clase anterior
+
+[Clase 222 - Audio e input en la web](../222-audio-e-input-en-la-web/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 224 - Optimización y carga para web](../224-optimizacion-y-carga-para-web/README.md)

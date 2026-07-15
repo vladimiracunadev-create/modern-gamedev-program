@@ -142,6 +142,10 @@ Entrega `pacing-nivel.md` con: el nivel dividido en 6-10 tramos, la intensidad a
 - Jesse Schell, *The Art of Game Design: A Book of Lenses* (3ª ed.) — <https://www.schellgames.com>
 - Tracy Fullerton, *Game Design Workshop* (4ª ed.) — CRC Press
 
+## ⬅️ Clase anterior
+
+[Clase 165 - Diseño de niveles: principios y lenguaje visual](../165-diseno-de-niveles-principios-y-lenguaje-visual/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 167 - Diseño de niveles con propósito y el bucle greybox](../167-diseno-de-niveles-con-proposito-y-el-bucle-greybox/README.md)

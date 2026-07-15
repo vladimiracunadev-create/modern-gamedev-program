@@ -155,6 +155,10 @@ Entrega una de las dos experiencias completa según su especificación mínima, 
 - Meta — Locomotion Best Practices: <https://developer.oculus.com/resources/bp-locomotion/>
 - Google — ARCore anchors: <https://developers.google.com/ar/develop/anchors>
 
+## ⬅️ Clase anterior
+
+[Clase 238 - Audio espacial y hápticos](../238-audio-espacial-y-hapticos/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 240 - Mentalidad de rendimiento: medir antes de optimizar](../../parte-14-optimizacion-profiling-y-rendimiento/240-mentalidad-de-rendimiento-medir-antes-de-optimizar/README.md)

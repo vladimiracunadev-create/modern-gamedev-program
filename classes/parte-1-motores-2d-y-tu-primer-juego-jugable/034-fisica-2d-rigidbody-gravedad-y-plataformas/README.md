@@ -168,6 +168,10 @@ Amplía el nivel con: al menos dos cajas `RigidBody2D` (con masa y material) que
 - [Introducción a la física 2D — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html)
 - [PhysicsMaterial — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_physicsmaterial.html)
 
+## ⬅️ Clase anterior
+
+[Clase 033 - Colisiones 2D: cuerpos, áreas y capas](../033-colisiones-2d-cuerpos-areas-y-capas/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 035 - Tilemaps y diseño de niveles 2D](../035-tilemaps-y-diseno-de-niveles-2d/README.md)

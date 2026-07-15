@@ -135,6 +135,10 @@ Entrega `slice-plan.md` y valida su alcance con la **regla de la semana**: si tr
 - Game Maker's Toolkit — sobre core loops y game feel: <https://www.youtube.com/c/MarkBrownGMT>
 - Godot Docs — best practices de organización de proyecto: <https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html>
 
+## ⬅️ Clase anterior
+
+[Clase 281 - Elegir tu proyecto capstone y su alcance](../281-elegir-tu-proyecto-capstone-y-su-alcance/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 283 - Construir el vertical slice](../283-construir-el-vertical-slice/README.md)

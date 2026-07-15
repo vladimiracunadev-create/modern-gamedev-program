@@ -137,6 +137,10 @@ Toma una escena con assets sin optimizar (texturas grandes en Lossless, modelos 
 - Godot Docs — Optimizing 3D performance (LOD): <https://docs.godotengine.org/en/stable/tutorials/performance/optimizing_3d_performance.html>
 - Godot Docs — Performance (video memory monitors): <https://docs.godotengine.org/en/stable/classes/class_performance.html>
 
+## ⬅️ Clase anterior
+
+[Clase 248 - Culling, LOD y streaming de mundo](../248-culling-lod-y-streaming-de-mundo/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 250 - Multithreading y trabajos en paralelo](../250-multithreading-y-trabajos-en-paralelo/README.md)

@@ -135,6 +135,10 @@ Produce el **"loop gris"** de tu slice: el core loop completo, jugable de princi
 - GitHub — Issues y Projects para planificar: <https://github.com/features/issues>
 - Godot Docs — best practices: <https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html>
 
+## ⬅️ Clase anterior
+
+[Clase 282 - De la idea al vertical slice](../282-de-la-idea-al-vertical-slice/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 284 - Pulido, game feel y el último 10%](../284-pulido-game-feel-y-el-ultimo-10-por-ciento/README.md)

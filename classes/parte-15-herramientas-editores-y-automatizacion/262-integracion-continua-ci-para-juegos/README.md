@@ -162,6 +162,10 @@ Escribe un workflow completo `.github/workflows/build.yml` que, en cada push a `
 - Godot Docs — Exporting projects: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html>
 - chickensoft-games/setup-godot (acción para instalar Godot en CI): <https://github.com/chickensoft-games/setup-godot>
 
+## ⬅️ Clase anterior
+
+[Clase 261 - Automatización de builds y exportación por CLI](../261-automatizacion-de-builds-y-exportacion-por-cli/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 263 - Control de versiones avanzado para equipos](../263-control-de-versiones-avanzado-para-equipos/README.md)

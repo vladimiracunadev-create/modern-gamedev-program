@@ -135,6 +135,10 @@ Chandler da el marco de negocio; GameAnalytics y Deconstructor of Fun aportan da
 - Deconstructor of Fun (análisis F2P): <https://www.deconstructoroffun.com/>
 - Steamworks, precios y regiones: <https://partner.steamgames.com/doc/store/pricing>
 
+## ⬅️ Clase anterior
+
+[Clase 269 - Financiación: publishers, grants y crowdfunding](../269-financiacion-publishers-grants-y-crowdfunding/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 271 - Marketing y construcción de comunidad](../271-marketing-y-construccion-de-comunidad/README.md)

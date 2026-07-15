@@ -168,6 +168,10 @@ Crea una escena con dos sprites: uno que se mueva con `position.x += speed` (sin
 - Godot Docs, "Idle and Physics Processing": <https://docs.godotengine.org/en/stable/tutorials/scripting/idle_and_physics_processing.html>
 - Godot Docs, "CharacterBody2D `move_and_slide`": <https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 021 - Assets y pipeline de contenido: import, compresión y presupuestos](../021-assets-y-pipeline-de-contenido-import-compresion-y-presupuestos/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 023 - Debugging y profiling: herramientas y mentalidad](../023-debugging-y-profiling-herramientas-y-mentalidad/README.md)

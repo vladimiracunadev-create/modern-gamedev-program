@@ -148,6 +148,10 @@ Construye un "pulsador de equipo": cada cliente pulsa un botón para sumar punto
 - Gabriel Gambetta: [Client-Server Game Architecture](https://www.gabrielgambetta.com/client-server-game-architecture.html)
 - [Clase MultiplayerAPI](https://docs.godotengine.org/en/stable/classes/class_multiplayerapi.html)
 
+## ⬅️ Clase anterior
+
+[Clase 140 - El multijugador de alto nivel de Godot (MultiplayerAPI)](../140-el-multijugador-de-alto-nivel-de-godot-multiplayerapi/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 142 - MultiplayerSpawner y MultiplayerSynchronizer](../142-multiplayerspawner-y-multiplayersynchronizer/README.md)

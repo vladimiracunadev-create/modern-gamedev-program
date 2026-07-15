@@ -136,6 +136,10 @@ Explora las jams principales y guías de post-mortem para preparar tu participac
 - GDC Vault, charlas sobre game jams: <https://www.gdcvault.com/>
 - Guía "post-mortem" de desarrollo (Game Developer): <https://www.gamedeveloper.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 289 - Currículum, entrevistas y pruebas técnicas](../289-curriculum-entrevistas-y-pruebas-tecnicas/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 291 - Comunidad, networking y carrera en la industria](../291-comunidad-networking-y-carrera-en-la-industria/README.md)

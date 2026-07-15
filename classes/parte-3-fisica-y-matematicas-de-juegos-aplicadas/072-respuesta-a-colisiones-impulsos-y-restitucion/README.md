@@ -161,6 +161,10 @@ Implementa una mini-simulación de **N círculos** en una caja: en cada paso, in
 2. Godot Engine — PhysicsMaterial (bounce): <https://docs.godotengine.org/en/stable/classes/class_physicsmaterial.html>
 3. Wikipedia — Coefficient of restitution: <https://en.wikipedia.org/wiki/Coefficient_of_restitution>
 
+## ⬅️ Clase anterior
+
+[Clase 071 - Detección de colisiones: AABB, esferas y SAT](../071-deteccion-de-colisiones-aabb-esferas-y-sat/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 073 - Fricción, arrastre y amortiguación](../073-friccion-arrastre-y-amortiguacion/README.md)

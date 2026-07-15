@@ -163,6 +163,10 @@ Crea un "tablero de presencia": al conectar, cada cliente envía su nombre elegi
 - [Clase SceneMultiplayer](https://docs.godotengine.org/en/stable/classes/class_scenemultiplayer.html)
 - [Clase ENetMultiplayerPeer](https://docs.godotengine.org/en/stable/classes/class_enetmultiplayerpeer.html)
 
+## ⬅️ Clase anterior
+
+[Clase 139 - Modelos de arquitectura: P2P, cliente-servidor y autoritativo](../139-modelos-de-arquitectura-p2p-cliente-servidor-autoritativo/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 141 - RPCs: llamadas remotas y sincronización](../141-rpcs-llamadas-remotas-y-sincronizacion/README.md)

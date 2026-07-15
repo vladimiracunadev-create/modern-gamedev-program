@@ -137,6 +137,10 @@ Exporta tu juego a un **APK de release firmado con tu propia keystore** (no la d
 - Android — adb (Android Debug Bridge): <https://developer.android.com/tools/adb>
 - Android — Sign your app (apksigner, keystore): <https://developer.android.com/studio/publish/app-signing>
 
+## ⬅️ Clase anterior
+
+[Clase 200 - Panorama de plataformas y sus restricciones](../200-panorama-de-plataformas-y-sus-restricciones/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 202 - Exportar a iOS: setup y provisioning](../202-exportar-a-ios-setup-y-provisioning/README.md)

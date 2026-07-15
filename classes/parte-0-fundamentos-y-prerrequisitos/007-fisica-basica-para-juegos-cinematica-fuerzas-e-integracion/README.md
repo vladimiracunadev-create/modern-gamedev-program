@@ -176,6 +176,10 @@ Simula un salto en 2D con Euler semi-implícito: impulso vertical de 12 m/s, vel
 - Documentación de Python: <https://docs.python.org/3/>
 - Second law of Newton (F = ma): <https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion>
 
+## ⬅️ Clase anterior
+
+[Clase 006 - Matemáticas para juegos III: trigonometría, ángulos y rotaciones](../006-matematicas-para-juegos-iii-trigonometria-angulos-y-rotaciones/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 008 - Programación fundamentos con C#: tipos, control de flujo y funciones](../008-programacion-fundamentos-con-c-sharp-tipos-control-de-flujo-y-funciones/README.md)

@@ -235,6 +235,10 @@ El BSP reparte el espacio de forma más uniforme y evita zonas vacías, a cambio
 - [Cellular Automata Method for Cave Generation — RogueBasin](https://www.roguebasin.com/index.php/Cellular_Automata_Method_for_Generating_Random_Cave-Like_Levels)
 - [Procedural Content Generation in Games (libro abierto)](https://www.pcgbook.com/)
 
+## ⬅️ Clase anterior
+
+[Clase 122 - Ruido y generación procedural (Perlin y Simplex)](../122-ruido-y-generacion-procedural-perlin-y-simplex/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 124 - Machine learning en juegos: panorama (ML-Agents y RL)](../124-machine-learning-en-juegos-panorama-ml-agents-y-rl/README.md)

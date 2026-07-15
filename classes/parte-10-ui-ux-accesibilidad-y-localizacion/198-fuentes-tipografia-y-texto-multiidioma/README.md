@@ -155,6 +155,10 @@ Configura una fuente única con fallback que renderice sin cuadraditos al menos 
 
 - SIL Open Font License: <https://openfontlicense.org/>
 
+## ⬅️ Clase anterior
+
+[Clase 197 - Localización e internacionalización (i18n)](../197-localizacion-e-internacionalizacion-i18n/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 199 - Capstone Parte 10: una UI completa, accesible y localizada](../199-capstone-parte-10-una-ui-completa-accesible-y-localizada/README.md)

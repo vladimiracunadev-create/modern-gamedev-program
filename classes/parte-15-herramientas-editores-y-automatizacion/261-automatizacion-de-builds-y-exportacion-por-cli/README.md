@@ -157,6 +157,10 @@ Crea un script `build.sh` que, a partir de un proyecto con al menos dos presets,
 - Godot Docs — Exporting for dedicated servers / headless: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_dedicated_servers.html>
 - GNU Bash Manual — Set builtin (`set -euo pipefail`): <https://www.gnu.org/software/bash/manual/bash.html#The-Set-Builtin>
 
+## ⬅️ Clase anterior
+
+[Clase 260 - Recursos personalizados y bases de datos de juego](../260-recursos-personalizados-y-bases-de-datos-de-juego/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 262 - Integración continua (CI) para juegos](../262-integracion-continua-ci-para-juegos/README.md)

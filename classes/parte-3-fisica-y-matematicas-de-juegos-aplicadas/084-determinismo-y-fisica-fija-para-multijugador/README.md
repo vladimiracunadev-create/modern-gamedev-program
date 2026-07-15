@@ -170,6 +170,10 @@ Implementa un mini-sistema lockstep local: dos entidades que reciben la **misma*
 - Godot Docs — RandomNumberGenerator: <https://docs.godotengine.org/en/stable/classes/class_randomnumbergenerator.html>
 - Gaffer On Games — Floating Point Determinism: <https://gafferongames.com/post/floating_point_determinism/>
 
+## ⬅️ Clase anterior
+
+[Clase 083 - Física de partículas y telas (soft bodies)](../083-fisica-de-particulas-y-telas-soft-bodies/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 085 - Capstone Parte 3: un mini-juego de física](../085-capstone-parte-3-un-mini-juego-de-fisica/README.md)

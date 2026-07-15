@@ -143,6 +143,10 @@ No. Como con FMOD, la integración vive en un plugin externo; Godot no incluye W
 - [Wwise — trabajar con Game Parameters (RTPC)](https://www.audiokinetic.com/library/edge/?source=Help&id=working_with_game_parameters)
 - [FMOD — para comparar middlewares](https://www.fmod.com/)
 
+## ⬅️ Clase anterior
+
+[Clase 132 - Middleware de audio: FMOD](../132-middleware-de-audio-fmod/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 134 - Sincronización con ritmo y eventos](../134-sincronizacion-con-ritmo-y-eventos/README.md)

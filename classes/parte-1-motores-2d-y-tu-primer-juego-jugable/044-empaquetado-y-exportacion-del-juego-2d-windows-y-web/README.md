@@ -130,6 +130,10 @@ Deja tu juego publicable en las dos plataformas. Exporta un `.exe` de Windows si
 - Godot Docs — Exporting for Windows: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_windows.html>
 - itch.io — Uploading HTML5 games: <https://itch.io/docs/creators/html5>
 
+## ⬅️ Clase anterior
+
+[Clase 043 - Guardado y carga de progreso](../043-guardado-y-carga-de-progreso/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 045 - Capstone Parte 1: un plataformas 2D completo jugable](../045-capstone-parte-1-un-plataformas-2d-completo-jugable/README.md)

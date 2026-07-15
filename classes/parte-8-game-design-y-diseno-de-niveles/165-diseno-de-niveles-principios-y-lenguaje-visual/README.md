@@ -135,6 +135,10 @@ Entrega `analisis-nivel.md` con: la descripción del nivel analizado, la tabla d
 - Jesse Schell, *The Art of Game Design: A Book of Lenses* (3ª ed.) — <https://www.schellgames.com>
 - Game Maker's Toolkit (lenguaje visual en niveles) — <https://www.youtube.com/c/MarkBrownGMT>
 
+## ⬅️ Clase anterior
+
+[Clase 164 - Onboarding y enseñar sin tutoriales](../164-onboarding-y-ensenar-sin-tutoriales/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 166 - Pacing, ritmo y composición de un nivel](../166-pacing-ritmo-y-composicion-de-un-nivel/README.md)

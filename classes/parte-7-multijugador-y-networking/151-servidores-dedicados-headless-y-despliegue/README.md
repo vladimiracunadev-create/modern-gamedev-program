@@ -171,6 +171,10 @@ Entrega un proyecto que, con **un único código base**, arranque como servidor 
 - Godot Docs — Feature tags (headless/server): <https://docs.godotengine.org/en/stable/tutorials/export/feature_tags.html>
 - Heroic Labs — Servidores y despliegue: <https://heroiclabs.com/docs/nakama/getting-started/install/docker/>
 
+## ⬅️ Clase anterior
+
+[Clase 150 - Matchmaking, salas y relay (NAT traversal)](../150-matchmaking-salas-y-relay-nat-traversal/README.md)
+
 ## ➡️ Siguiente clase
 
 Continúa con **152 — Backends: Nakama, Steam y servicios gestionados**, donde delegarás auth, salas y almacenamiento a un backend.

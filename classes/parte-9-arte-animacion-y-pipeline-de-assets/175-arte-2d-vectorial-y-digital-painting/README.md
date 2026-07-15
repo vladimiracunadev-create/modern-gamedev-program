@@ -144,6 +144,10 @@ Produce un asset 2D original terminado, ya sea raster por capas en Krita (linear
 
 - Inkscape — Manual (herramienta Bézier): <https://inkscape-manuals.readthedocs.io/>
 
+## ⬅️ Clase anterior
+
+[Clase 174 - Pixel art: fundamentos y Aseprite](../174-pixel-art-fundamentos-y-aseprite/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 176 - Animación 2D: principios y frame-by-frame](../176-animacion-2d-principios-y-frame-by-frame/README.md)

@@ -159,6 +159,10 @@ Crea un tablero kanban real (GitHub Projects o Trello) para un proyecto de juego
 - GitHub Docs, "About Projects": <https://docs.github.com/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects>
 - Ludum Dare, game jam periódica: <https://ldjam.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 024 - Prototipado rápido y bucle de iteración de diseño](../024-prototipado-rapido-y-bucle-de-iteracion-de-diseno/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 026 - Anatomía de un motor 2D: escenas, nodos y árbol](../../parte-1-motores-2d-y-tu-primer-juego-jugable/026-anatomia-de-un-motor-2d-escenas-nodos-y-arbol/README.md)

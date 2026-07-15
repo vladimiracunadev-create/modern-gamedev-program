@@ -223,6 +223,10 @@ Cuando cumple la Definition of Done: todas las casillas del checklist marcadas y
 - [Buses de audio (mezcla y efectos) — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/audio/audio_buses.html)
 - [Singletons (Autoload) — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html)
 
+## ⬅️ Clase anterior
+
+[Clase 136 - Optimización de audio: memoria y streaming](../136-optimizacion-de-audio-memoria-y-streaming/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 138 - Fundamentos de redes para juegos: TCP, UDP y latencia](../../parte-7-multijugador-y-networking/138-fundamentos-de-redes-para-juegos-tcp-udp-y-latencia/README.md)

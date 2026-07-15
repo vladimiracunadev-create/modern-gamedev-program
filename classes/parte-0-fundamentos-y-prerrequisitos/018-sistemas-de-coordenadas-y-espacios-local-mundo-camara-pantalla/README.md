@@ -139,6 +139,10 @@ Construye una escena con una `Camera2D` desplazable (por ejemplo, con las flecha
 - Godot — Node2D (clase): <https://docs.godotengine.org/en/stable/classes/class_node2d.html>
 - Godot — CanvasItem get_global_mouse_position: <https://docs.godotengine.org/en/stable/classes/class_canvasitem.html>
 
+## ⬅️ Clase anterior
+
+[Clase 017 - Gráficos por computadora: cómo se dibuja un frame](../017-graficos-por-computadora-como-se-dibuja-un-frame/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 019 - Color, sprites, texturas y formatos de imagen](../019-color-sprites-texturas-y-formatos-de-imagen/README.md)

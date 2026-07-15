@@ -138,6 +138,10 @@ Sí, `set_bus_volume_db(0, db)` afecta a toda la salida. Es la base de un contro
 - [Efectos de audio — AudioEffect](https://docs.godotengine.org/en/stable/classes/class_audioeffect.html)
 - [Guía de mezcla dinámica y ducking (GDC)](https://www.gdcvault.com/)
 
+## ⬅️ Clase anterior
+
+[Clase 127 - Diseño de sonido: capas, variación y aleatoriedad](../127-diseno-de-sonido-capas-variacion-y-aleatoriedad/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 129 - Audio 3D/posicional y atenuación](../129-audio-3d-posicional-y-atenuacion/README.md)

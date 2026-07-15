@@ -190,6 +190,10 @@ Añade histéresis (umbrales distintos para entrar y salir) o un pequeño tempor
 - [CharacterBody2D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html)
 - [Programming Game AI by Example — capítulo de FSM](https://www.jblearning.com/catalog/productdetails/9781556220784)
 
+## ⬅️ Clase anterior
+
+[Clase 108 - Panorama de la IA de juegos: qué es y qué no](../108-panorama-de-la-ia-de-juegos-que-es-y-que-no/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 110 - Máquinas de estado jerárquicas (HFSM)](../110-maquinas-de-estado-jerarquicas-hfsm/README.md)

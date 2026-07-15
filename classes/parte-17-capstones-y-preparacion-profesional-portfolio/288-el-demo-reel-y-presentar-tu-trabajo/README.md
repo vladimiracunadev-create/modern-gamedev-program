@@ -136,6 +136,10 @@ Estudia reels de referencia y guías de montaje antes de grabar el tuyo:
 - GDC Vault, charlas de demo reel y presentación: <https://www.gdcvault.com/>
 - YouTube — subir y compartir reels: <https://www.youtube.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 287 - Tu portfolio de desarrollador de juegos](../287-tu-portfolio-de-desarrollador-de-juegos/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 289 - Currículum, entrevistas y pruebas técnicas](../289-curriculum-entrevistas-y-pruebas-tecnicas/README.md)

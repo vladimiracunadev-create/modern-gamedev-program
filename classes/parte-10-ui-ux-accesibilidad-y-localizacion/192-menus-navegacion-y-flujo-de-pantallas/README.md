@@ -175,6 +175,10 @@ Construye un flujo de tres pantallas (Principal → Opciones → Controles) con 
 - Godot Docs — Control (focus): <https://docs.godotengine.org/en/stable/classes/class_control.html>
 - Godot Docs — Tween: <https://docs.godotengine.org/en/stable/classes/class_tween.html>
 
+## ⬅️ Clase anterior
+
+[Clase 191 - HUD diegético y no diegético](../191-hud-diegetico-y-no-diegetico/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 193 - Feedback, juice y animación de UI](../193-feedback-juice-y-animacion-de-ui/README.md)

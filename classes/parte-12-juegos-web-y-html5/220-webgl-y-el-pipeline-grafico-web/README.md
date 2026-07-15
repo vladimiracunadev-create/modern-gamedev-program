@@ -206,6 +206,10 @@ Dibuja un cuadrado (dos triángulos) de colores en las cuatro esquinas que rote 
 - WebGL2 Fundamentals: <https://webgl2fundamentals.org/>
 - Khronos — WebGL 2.0 Specification: <https://registry.khronos.org/webgl/specs/latest/2.0/>
 
+## ⬅️ Clase anterior
+
+[Clase 219 - Three.js: 3D en el navegador](../219-three-js-3d-en-el-navegador/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 221 - WebGPU: el futuro del render web](../221-webgpu-el-futuro-del-render-web/README.md)

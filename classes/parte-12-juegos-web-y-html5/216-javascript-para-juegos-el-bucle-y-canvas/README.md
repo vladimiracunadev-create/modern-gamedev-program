@@ -179,6 +179,10 @@ Crea un mini-juego donde un cuadrado "jugador" (controlado por flechas) debe toc
 - MDN — CanvasRenderingContext2D: <https://developer.mozilla.org/es/docs/Web/API/CanvasRenderingContext2D>
 - MDN — Pointer events: <https://developer.mozilla.org/es/docs/Web/API/Pointer_events>
 
+## ⬅️ Clase anterior
+
+[Clase 215 - Exportar Godot a HTML5 y WebAssembly](../215-exportar-godot-a-html5-y-webassembly/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 217 - Motores web: Phaser (2D)](../217-motores-web-phaser-2d/README.md)

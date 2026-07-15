@@ -148,6 +148,10 @@ Construye una escena VR con XROrigin3D, XRCamera3D y dos XRController3D correcta
 - Godot Docs — XRController3D: <https://docs.godotengine.org/en/stable/classes/class_xrcontroller3d.html>
 - godot-xr-tools: <https://github.com/GodotVR/godot-xr-tools>
 
+## ⬅️ Clase anterior
+
+[Clase 230 - OpenXR y el estándar abierto](../230-openxr-y-el-estandar-abierto/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 232 - Locomoción VR y confort](../232-locomocion-vr-y-confort/README.md)

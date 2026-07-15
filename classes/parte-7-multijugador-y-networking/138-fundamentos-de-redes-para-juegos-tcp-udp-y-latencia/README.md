@@ -169,6 +169,10 @@ Construye una pequeña "sala de espera de red": un servidor que acepte hasta 4 c
 - Valve Developer Wiki: [Source Multiplayer Networking](https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking)
 - Documentación de [ENetMultiplayerPeer](https://docs.godotengine.org/en/stable/classes/class_enetmultiplayerpeer.html)
 
+## ⬅️ Clase anterior
+
+[Clase 137 - Capstone Parte 6: sistema de audio adaptativo](../../parte-6-audio-y-musica-interactiva/137-capstone-parte-6-sistema-de-audio-adaptativo/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 139 - Modelos de arquitectura: P2P, cliente-servidor y autoritativo](../139-modelos-de-arquitectura-p2p-cliente-servidor-autoritativo/README.md)

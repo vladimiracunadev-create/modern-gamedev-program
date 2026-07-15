@@ -184,6 +184,10 @@ Crea una manada de 8 agentes que hacen `wander` por defecto, pero cambian a `fle
 - The Nature of Code (Daniel Shiffman) — Autonomous Agents: <https://natureofcode.com/autonomous-agents/>
 - Godot Docs — Vector2: <https://docs.godotengine.org/en/stable/classes/class_vector2.html>
 
+## ⬅️ Clase anterior
+
+[Clase 081 - Interpolación y easing (lerp, slerp y tweens)](../081-interpolacion-y-easing-lerp-slerp-y-tweens/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 083 - Física de partículas y telas (soft bodies)](../083-fisica-de-particulas-y-telas-soft-bodies/README.md)

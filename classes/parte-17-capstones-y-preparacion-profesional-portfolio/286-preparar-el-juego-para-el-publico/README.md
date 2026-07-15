@@ -136,6 +136,10 @@ Publica tu capstone (o su vertical slice) en **itch.io** con página completa y 
 - Game Accessibility Guidelines — accesibilidad mínima: <https://gameaccessibilityguidelines.com/>
 - Godot Docs — exportar proyectos: <https://docs.godotengine.org/en/stable/tutorials/export/index.html>
 
+## ⬅️ Clase anterior
+
+[Clase 285 - Playtesting formal y iteración con datos](../285-playtesting-formal-y-iteracion-con-datos/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 287 - Tu portfolio de desarrollador de juegos](../287-tu-portfolio-de-desarrollador-de-juegos/README.md)

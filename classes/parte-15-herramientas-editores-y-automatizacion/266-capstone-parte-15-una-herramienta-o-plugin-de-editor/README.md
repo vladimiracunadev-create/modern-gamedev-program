@@ -193,6 +193,10 @@ Construye y documenta una herramienta útil real por una de las tres vías (plug
 - GUT — documentación oficial: <https://gut.readthedocs.io/>
 - GitHub Docs — Workflow syntax: <https://docs.github.com/actions/using-workflows/workflow-syntax-for-github-actions>
 
+## ⬅️ Clase anterior
+
+[Clase 265 - Editores de niveles y contenido in-game](../265-editores-de-niveles-y-contenido-in-game/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 267 - Producción de juegos: scope, milestones y agile](../../parte-16-produccion-publicacion-monetizacion-y-liveops/267-produccion-de-juegos-scope-milestones-y-agile/README.md)

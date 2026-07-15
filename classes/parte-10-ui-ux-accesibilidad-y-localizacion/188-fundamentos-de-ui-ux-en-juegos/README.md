@@ -144,6 +144,10 @@ Extiende la auditoría para que, al cerrar (tecla Esc), imprima en el Output un 
 - Celia Hodent — The Gamer's Brain (sitio oficial): <https://celiahodent.com/>
 - GDC Vault — UX design talks: <https://www.gdcvault.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 187 - Capstone Parte 9: un set de assets coherente](../../parte-9-arte-animacion-y-pipeline-de-assets/187-capstone-parte-9-un-set-de-assets-coherente/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 189 - Sistema de UI de Godot: Control, Containers y anclas](../189-sistema-de-ui-de-godot-control-containers-y-anclas/README.md)

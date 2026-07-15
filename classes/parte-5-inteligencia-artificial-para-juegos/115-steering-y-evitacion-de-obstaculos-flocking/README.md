@@ -224,6 +224,10 @@ Implementa una bandada de **al menos 30 boids** que persiga al ratón por un map
 - Godot Docs — CharacterBody2D: <https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html>
 - Godot Docs — RayCast2D: <https://docs.godotengine.org/en/stable/classes/class_raycast2d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 114 - Navmesh y navegación en Godot (2D y 3D)](../114-navmesh-y-navegacion-en-godot-2d-y-3d/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 116 - Percepción: visión, oído y memoria del agente](../116-percepcion-vision-oido-y-memoria-del-agente/README.md)

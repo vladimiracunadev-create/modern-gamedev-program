@@ -161,6 +161,10 @@ Crea un "modo arcade" que combine bloom (por Environment), vignette, aberración
 2. Godot Engine — Screen-reading shaders: <https://docs.godotengine.org/en/stable/tutorials/shaders/screen-reading_shaders.html>
 3. Godot Engine — Custom post-processing: <https://docs.godotengine.org/en/stable/tutorials/shaders/custom_postprocessing.html>
 
+## ⬅️ Clase anterior
+
+[Clase 096 - Screen-space y post-procesado](../096-screen-space-y-post-procesado/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 098 - Sombras: shadow mapping y calidad](../098-sombras-shadow-mapping-y-calidad/README.md)

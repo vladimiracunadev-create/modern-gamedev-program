@@ -221,6 +221,10 @@ Completa el lobby: unión por IP, nombres únicos, chat funcional, estado listo 
 - [Clase SceneTree (change_scene_to_file)](https://docs.godotengine.org/en/stable/classes/class_scenetree.html)
 - [Clase MultiplayerAPI](https://docs.godotengine.org/en/stable/classes/class_multiplayerapi.html)
 
+## ⬅️ Clase anterior
+
+[Clase 142 - MultiplayerSpawner y MultiplayerSynchronizer](../142-multiplayerspawner-y-multiplayersynchronizer/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 144 - Mover jugadores en red: replicación de estado](../144-mover-jugadores-en-red-replicacion-de-estado/README.md)

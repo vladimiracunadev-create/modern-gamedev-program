@@ -134,6 +134,10 @@ Anima un ciclo en Aseprite (bola que rebota de al menos 6 frames o idle de perso
 
 - 12 principios de la animación (resumen): <https://en.wikipedia.org/wiki/Twelve_basic_principles_of_animation>
 
+## ⬅️ Clase anterior
+
+[Clase 175 - Arte 2D vectorial y digital painting](../175-arte-2d-vectorial-y-digital-painting/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 177 - Animación 2D esqueletal (cutout) y rigging](../177-animacion-2d-esqueletal-cutout-y-rigging/README.md)

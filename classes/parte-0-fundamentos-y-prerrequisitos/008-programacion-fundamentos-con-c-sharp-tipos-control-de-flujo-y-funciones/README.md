@@ -208,6 +208,10 @@ Amplía el simulador para que el héroe tenga una habilidad especial usable una 
 - Microsoft, "`dotnet new`": <https://learn.microsoft.com/dotnet/core/tools/dotnet-new>
 - C# tipos integrados: <https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/built-in-types>
 
+## ⬅️ Clase anterior
+
+[Clase 007 - Física básica para juegos: cinemática, fuerzas e integración](../007-fisica-basica-para-juegos-cinematica-fuerzas-e-integracion/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 009 - POO para juegos: clases, herencia y composición](../009-programacion-orientada-a-objetos-para-juegos-clases-herencia-y-composicion/README.md)

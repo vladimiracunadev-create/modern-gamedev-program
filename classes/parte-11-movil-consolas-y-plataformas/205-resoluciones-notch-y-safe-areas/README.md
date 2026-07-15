@@ -142,6 +142,10 @@ Adapta el HUD de tu juego a la **safe area** usando `DisplayServer.get_display_s
 - Godot Docs — Size and anchors (Control): <https://docs.godotengine.org/en/stable/tutorials/ui/size_and_anchors.html>
 - Godot Docs — Handheld / orientación: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_android.html>
 
+## ⬅️ Clase anterior
+
+[Clase 204 - Rendimiento y batería en móvil](../204-rendimiento-y-bateria-en-movil/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 206 - Monetización móvil: anuncios y compras in-app](../206-monetizacion-movil-anuncios-y-compras-in-app/README.md)

@@ -141,6 +141,10 @@ Construye una escena con dos cámaras (perspectiva y ortográfica) y un menú po
 - Using cameras (tutorial 3D): <https://docs.godotengine.org/en/stable/tutorials/3d/using_cameras.html>
 - Introduction to 3D: <https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 050 - Importar modelos 3D: glTF, Blender y el pipeline](../050-importar-modelos-3d-gltf-blender-y-el-pipeline/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 052 - Iluminación 3D: tipos de luz y sombras](../052-iluminacion-3d-tipos-de-luz-y-sombras/README.md)

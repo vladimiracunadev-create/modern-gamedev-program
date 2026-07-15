@@ -172,6 +172,10 @@ Aplica un estilo cel shading completo a un modelo: iluminación en **3 o más ba
 - Godot — Shading language: <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html>
 - Godot — Your first shader in 3D: <https://docs.godotengine.org/en/stable/tutorials/shaders/your_first_shader/your_first_shader_in_3d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 102 - Instancing y MultiMesh: miles de objetos](../102-instancing-y-multimesh-miles-de-objetos/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 104 - Compute shaders: cómputo en GPU](../104-compute-shaders-computo-en-gpu/README.md)

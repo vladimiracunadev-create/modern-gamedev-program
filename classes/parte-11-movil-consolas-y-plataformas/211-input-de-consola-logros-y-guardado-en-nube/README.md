@@ -210,6 +210,10 @@ Implementa un sistema que (a) muestre el **glifo de confirmar correcto** según 
 - Godot Docs — Saving games: <https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html>
 - Godot Docs — FileAccess: <https://docs.godotengine.org/en/stable/classes/class_fileaccess.html>
 
+## ⬅️ Clase anterior
+
+[Clase 210 - Certificación (TRC/TCR) y requisitos de consola](../210-certificacion-trc-tcr-y-requisitos-de-consola/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 212 - Steam Deck y compatibilidad PC](../212-steam-deck-y-compatibilidad-pc/README.md)

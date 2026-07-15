@@ -176,6 +176,10 @@ Crea desde cero un repositorio de un proyecto de juego con: un `.gitignore` que 
 - Git LFS, tutorial oficial: <https://github.com/git-lfs/git-lfs/wiki/Tutorial>
 - GitHub Docs, "Ignoring files (.gitignore)": <https://docs.github.com/get-started/getting-started-with-git/ignoring-files>
 
+## ⬅️ Clase anterior
+
+[Clase 014 - Arquitectura ECS (Entity-Component-System)](../014-arquitectura-ecs-entity-component-system/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 016 - Montaje del entorno: Godot, Unity, Unreal y herramientas](../016-montaje-del-entorno-godot-unity-unreal-y-herramientas/README.md)

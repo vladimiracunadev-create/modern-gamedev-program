@@ -171,6 +171,10 @@ El principio es el mismo, pero esos middlewares exponen su propio reloj y marcad
 - [AudioStreamPlayer — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html)
 - [Latencia de audio — concepto general](https://docs.godotengine.org/en/stable/tutorials/audio/audio_buses.html)
 
+## ⬅️ Clase anterior
+
+[Clase 133 - Middleware de audio: Wwise](../133-middleware-de-audio-wwise/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 135 - Voces, diálogo y localización de audio](../135-voces-dialogo-y-localizacion-de-audio/README.md)

@@ -135,6 +135,10 @@ Analiza con MDA un juego que **nunca hayas estudiado formalmente** y entrega la 
 - Marco MDA (resumen): <https://en.wikipedia.org/wiki/MDA_framework>
 - Extra Credits — What Makes Us Roll (diseño de experiencias): <https://www.youtube.com/c/extracredits>
 
+## ⬅️ Clase anterior
+
+[Clase 155 - Capstone Parte 7: un juego en red mínimo cliente-servidor](../../parte-7-multijugador-y-networking/155-capstone-parte-7-un-juego-en-red-minimo-cliente-servidor/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 157 - El core loop y los pilares de diseño](../157-el-core-loop-y-los-pilares-de-diseno/README.md)

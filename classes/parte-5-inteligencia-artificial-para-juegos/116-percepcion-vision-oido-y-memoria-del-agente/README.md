@@ -212,6 +212,10 @@ Crea una sala con **dos columnas** que bloqueen la vista. El enemigo debe: (a) i
 - Godot Docs — Timer: <https://docs.godotengine.org/en/stable/classes/class_timer.html>
 - Godot Docs — Using signals: <https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html>
 
+## ⬅️ Clase anterior
+
+[Clase 115 - Steering y evitación de obstáculos (flocking)](../115-steering-y-evitacion-de-obstaculos-flocking/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 117 - Toma de decisiones: utility AI](../117-toma-de-decisiones-utility-ai/README.md)

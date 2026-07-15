@@ -133,6 +133,10 @@ Produce el plan de producción y lanzamiento completo de tu juego, integrando la
 - GDC Vault — charlas de producción y lanzamiento: <https://www.gdcvault.com/>
 - Chris Zukowski — How to Market a Game: <https://howtomarketagame.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 279 - Post-lanzamiento: parches, comunidad y retención](../279-post-lanzamiento-parches-comunidad-y-retencion/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 281 - Elegir tu proyecto capstone y su alcance](../../parte-17-capstones-y-preparacion-profesional-portfolio/281-elegir-tu-proyecto-capstone-y-su-alcance/README.md)

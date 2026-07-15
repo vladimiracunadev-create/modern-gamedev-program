@@ -214,6 +214,10 @@ Implementa un sistema de **tres ranuras de guardado** (`user://save_1.json`, `sa
 - Godot Docs — JSON: <https://docs.godotengine.org/en/stable/classes/class_json.html>
 - Godot Docs — Background loading / IO: <https://docs.godotengine.org/en/stable/tutorials/io/index.html>
 
+## ⬅️ Clase anterior
+
+[Clase 042 - Partículas y feedback visual (juice)](../042-particulas-y-feedback-visual-juice/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 044 - Empaquetado y exportación del juego 2D (Windows y web)](../044-empaquetado-y-exportacion-del-juego-2d-windows-y-web/README.md)

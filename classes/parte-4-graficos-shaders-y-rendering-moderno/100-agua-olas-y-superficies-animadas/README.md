@@ -179,6 +179,10 @@ Entrega un shader de agua con **al menos dos** olas de Gerstner, color por profu
 - Godot — Tu primer shader 3D: <https://docs.godotengine.org/en/stable/tutorials/shaders/your_first_shader/your_first_shader_in_3d.html>
 - Godot — Shading language (built-ins): <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html>
 
+## ⬅️ Clase anterior
+
+[Clase 099 - Transparencia, blending y orden de dibujado](../099-transparencia-blending-y-orden-de-dibujado/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 101 - Partículas en GPU y shaders de partículas](../101-particulas-en-gpu-y-shaders-de-particulas/README.md)

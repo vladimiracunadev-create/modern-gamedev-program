@@ -140,6 +140,10 @@ Entrega el proyecto de Godot preparado para AR: sin OpenXR de escritorio, con `X
 - Godot Docs — XR interfaces: <https://docs.godotengine.org/en/stable/tutorials/xr/index.html>
 - Google — Anchors en ARCore: <https://developers.google.com/ar/develop/anchors>
 
+## ⬅️ Clase anterior
+
+[Clase 234 - Presencia, escala y diseño para VR](../234-presencia-escala-y-diseno-para-vr/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 236 - AR con ARCore y ARKit](../236-ar-con-arcore-y-arkit/README.md)

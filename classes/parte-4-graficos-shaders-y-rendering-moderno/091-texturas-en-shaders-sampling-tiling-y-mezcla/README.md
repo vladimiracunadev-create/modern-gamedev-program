@@ -162,6 +162,10 @@ Sí: encadena `mix` o usa varias máscaras. Es la base de los materiales de terr
 - [The Book of Shaders — texturas](https://thebookofshaders.com/09/)
 - [The Book of Shaders — ruido para máscaras](https://thebookofshaders.com/11/)
 
+## ⬅️ Clase anterior
+
+[Clase 090 - Fragment shaders: color por píxel y UVs](../090-fragment-shaders-color-por-pixel-y-uvs/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 092 - Iluminación en shaders: Lambert, Phong y especular](../092-iluminacion-en-shaders-lambert-phong-y-especular/README.md)

@@ -147,6 +147,10 @@ Construye un "toast" de notificación: un panel que entra deslizándose desde fu
 - Godot Docs — Quaternion: <https://docs.godotengine.org/en/stable/classes/class_quaternion.html>
 - Easings.net — catálogo visual de curvas de easing: <https://easings.net/>
 
+## ⬅️ Clase anterior
+
+[Clase 080 - Movimiento con curvas: Bézier, splines y paths](../080-movimiento-con-curvas-bezier-splines-y-paths/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 082 - Steering behaviors: seek, flee, arrive y wander](../082-steering-behaviors-seek-flee-arrive-y-wander/README.md)

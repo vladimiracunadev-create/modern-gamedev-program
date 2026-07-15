@@ -148,6 +148,10 @@ Entrega un **blockout jugable de 3 beats** en Godot que cumpla un objetivo de di
 - Godot Docs — CharacterBody3D (movimiento de prueba): <https://docs.godotengine.org/en/stable/tutorials/physics/using_character_body_3d.html>
 - Level Design Book — Blockout: <https://book.leveldesignbook.com/process/blockout>
 
+## ⬅️ Clase anterior
+
+[Clase 166 - Pacing, ritmo y composición de un nivel](../166-pacing-ritmo-y-composicion-de-un-nivel/README.md)
+
 ## ➡️ Siguiente clase
 
 Continúa con [Clase 168 - Narrativa y storytelling en juegos](../168-narrativa-y-storytelling-en-juegos/README.md), donde harás que el propio nivel cuente una historia sin cinemáticas.

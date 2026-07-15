@@ -135,6 +135,10 @@ Entrega la **misma escena** iluminada en **dos moods claramente diferenciados** 
 - Godot Docs — Using SDFGI (GI): <https://docs.godotengine.org/en/stable/tutorials/3d/global_illumination/using_sdfgi.html>
 - Godot Docs — WorldEnvironment: <https://docs.godotengine.org/en/stable/classes/class_worldenvironment.html>
 
+## ⬅️ Clase anterior
+
+[Clase 184 - Efectos visuales (VFX) y partículas artísticas](../184-efectos-visuales-vfx-y-particulas-artisticas/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 186 - Pipeline de assets: nomenclatura, LODs y optimización](../186-pipeline-de-assets-nomenclatura-lods-y-optimizacion/README.md)

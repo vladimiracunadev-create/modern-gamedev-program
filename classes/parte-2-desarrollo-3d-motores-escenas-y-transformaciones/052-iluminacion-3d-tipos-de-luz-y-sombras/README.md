@@ -136,6 +136,10 @@ Ilumina una habitación cerrada (cuatro paredes y suelo) usando un `OmniLight3D`
 - Light3D — API oficial: <https://docs.godotengine.org/en/stable/classes/class_light3d.html>
 - DirectionalLight3D: <https://docs.godotengine.org/en/stable/classes/class_directionallight3d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 051 - Cámaras 3D: perspectiva, FOV y Camera3D](../051-camaras-3d-perspectiva-fov-y-camera3d/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 053 - WorldEnvironment: cielo, niebla y tonemapping](../053-worldenvironment-cielo-niebla-y-tonemapping/README.md)

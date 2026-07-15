@@ -231,6 +231,10 @@ El que haga subir el tiempo de GPU por encima de tu presupuesto de frame. Mídel
 - [Partículas GPU 3D — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/3d/particles/index.html)
 - [Glow y entorno (bloom) — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/3d/environment_and_post_processing.html)
 
+## ⬅️ Clase anterior
+
+[Clase 106 - Herramientas visuales: VisualShader y Shader Graph](../106-herramientas-visuales-visualshader-y-shader-graph/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 108 - Panorama de la IA de juegos: qué es y qué no](../../parte-5-inteligencia-artificial-para-juegos/108-panorama-de-la-ia-de-juegos-que-es-y-que-no/README.md)

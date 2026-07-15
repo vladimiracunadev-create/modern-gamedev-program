@@ -152,6 +152,10 @@ Monta una arena donde cada peer tiene su cuadrado controlable, todos spawneados 
 - [Clase MultiplayerSynchronizer](https://docs.godotengine.org/en/stable/classes/class_multiplayersynchronizer.html)
 - [Clase SceneReplicationConfig](https://docs.godotengine.org/en/stable/classes/class_scenereplicationconfig.html)
 
+## ⬅️ Clase anterior
+
+[Clase 141 - RPCs: llamadas remotas y sincronización](../141-rpcs-llamadas-remotas-y-sincronizacion/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 143 - Un chat y lobby en red paso a paso](../143-un-chat-y-lobby-en-red-paso-a-paso/README.md)

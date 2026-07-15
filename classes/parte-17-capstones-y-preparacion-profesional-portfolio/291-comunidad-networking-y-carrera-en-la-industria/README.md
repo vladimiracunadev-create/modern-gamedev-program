@@ -136,6 +136,10 @@ Empieza por estas comunidades y recursos para tejer tu red y cuidar tu carrera:
 - Discord — servidores de motores y comunidades: <https://discord.com/>
 - Jason Schreier, Blood, Sweat, and Pixels (crunch y realidad): <https://www.jasonschreier.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 290 - Game jams como trampolín profesional](../290-game-jams-como-trampolin-profesional/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 292 - Capstone final: publica tu juego y tu portfolio](../292-capstone-final-publica-tu-juego-y-tu-portfolio/README.md)

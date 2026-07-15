@@ -135,6 +135,10 @@ Entrega el diseño de **3 sistemas ortogonales** con su tabla de reglas, la **ma
 - GDC — Systemic design de immersive sims (charlas): <https://www.gdcvault.com/>
 - Game Design Vocabulary — Emergence (referencia general): <https://www.gamedeveloper.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 168 - Narrativa y storytelling en juegos](../168-narrativa-y-storytelling-en-juegos/README.md)
+
 ## ➡️ Siguiente clase
 
 Continúa con [Clase 170 - Documentación de diseño: GDD y one-pager](../170-documentacion-de-diseno-gdd-y-one-pager/README.md), donde aprenderás a comunicar y documentar la visión de estos sistemas.

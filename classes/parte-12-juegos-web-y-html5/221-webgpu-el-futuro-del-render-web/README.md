@@ -193,6 +193,10 @@ Construye una página que, al cargar, detecte WebGPU y muestre en pantalla **un 
 - WebGPU Fundamentals: <https://webgpufundamentals.org/>
 - Can I use — WebGPU: <https://caniuse.com/webgpu>
 
+## ⬅️ Clase anterior
+
+[Clase 220 - WebGL y el pipeline gráfico web](../220-webgl-y-el-pipeline-grafico-web/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 222 - Audio e input en la web](../222-audio-e-input-en-la-web/README.md)

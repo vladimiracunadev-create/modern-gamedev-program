@@ -196,6 +196,10 @@ Amplía la FSM con un estado `DASH` que impulse al jugador horizontalmente a alt
 - Godot — Finite State Machine (comunidad): <https://docs.godotengine.org/en/stable/tutorials/scripting/index.html>
 - Godot — AnimatedSprite2D: <https://docs.godotengine.org/en/stable/classes/class_animatedsprite2d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 035 - Tilemaps y diseño de niveles 2D](../035-tilemaps-y-diseno-de-niveles-2d/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 037 - Enemigos e IA básica 2D: patrullas y persecución](../037-enemigos-e-ia-basica-2d-patrullas-y-persecucion/README.md)

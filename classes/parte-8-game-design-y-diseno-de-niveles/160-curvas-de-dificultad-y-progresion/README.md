@@ -135,6 +135,10 @@ Entrega la tabla de curva de dificultad de 10 niveles con reto, poder y tensión
 - GDC Vault — difficulty y pacing: <https://www.gdcvault.com>
 - Game Maker's Toolkit — dificultad y flow: <https://www.youtube.com/c/MarkBrownGMT>
 
+## ⬅️ Clase anterior
+
+[Clase 159 - Sistemas, feedback y bucles](../159-sistemas-feedback-y-bucles/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 161 - Balanceo de juego: números, spreadsheets y tuning](../161-balanceo-de-juego-numeros-spreadsheets-y-tuning/README.md)

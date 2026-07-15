@@ -188,6 +188,10 @@ Construye una sala con **tres** áreas encadenadas: un checkpoint inicial, una z
 - Godot Docs — Collision layers and masks: <https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html#collision-layers-and-masks>
 - Godot Docs — Clase CollisionShape3D: <https://docs.godotengine.org/en/stable/classes/class_collisionshape3d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 062 - NavigationServer 3D: navmesh y pathfinding](../062-navigationserver-3d-navmesh-y-pathfinding/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 064 - Instanciado y escenas 3D reutilizables](../064-instanciado-y-escenas-3d-reutilizables/README.md)

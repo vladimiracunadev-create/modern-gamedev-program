@@ -171,6 +171,10 @@ Construye un mundo 3D con al menos 800 objetos (vegetación, props y edificios) 
 - Godot Docs — Using MultiMeshInstance: <https://docs.godotengine.org/en/stable/tutorials/3d/using_multi_mesh_instance.html>
 - Godot Docs — VisibleOnScreenEnabler3D: <https://docs.godotengine.org/en/stable/classes/class_visibleonscreenenabler3d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 247 - Optimización de físicas y colisiones](../247-optimizacion-de-fisicas-y-colisiones/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 249 - Optimización de assets: texturas, mallas y audio](../249-optimizacion-de-assets-texturas-mallas-y-audio/README.md)

@@ -136,6 +136,10 @@ Godot 4 soporta MP3, pero OGG Vorbis suele dar mejor relación calidad/peso y bu
 - [Importar audio en Godot](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_audio_samples.html)
 - [Freesound — biblioteca de sonidos libres](https://freesound.org/)
 
+## ⬅️ Clase anterior
+
+[Clase 125 - Capstone Parte 5: enemigo con behavior tree y percepción](../../parte-5-inteligencia-artificial-para-juegos/125-capstone-parte-5-enemigo-con-behavior-tree-y-percepcion/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 127 - Diseño de sonido: capas, variación y aleatoriedad](../127-diseno-de-sonido-capas-variacion-y-aleatoriedad/README.md)

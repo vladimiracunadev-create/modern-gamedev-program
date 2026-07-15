@@ -163,6 +163,10 @@ Localiza una UI (menú de 3 opciones + un texto con variable) a dos idiomas medi
 
 - Godot — Pseudolocalization: <https://docs.godotengine.org/en/stable/tutorials/i18n/pseudolocalization.html>
 
+## ⬅️ Clase anterior
+
+[Clase 196 - Accesibilidad en juegos](../196-accesibilidad-en-juegos/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 198 - Fuentes, tipografía y texto multi-idioma](../198-fuentes-tipografia-y-texto-multiidioma/README.md)

@@ -147,6 +147,10 @@ Amplía el autoload `Social` para soportar **tres logros** (uno de desbloqueo y 
 - Godot Docs — Android plugins: <https://docs.godotengine.org/en/stable/tutorials/platform/android/android_plugin.html>
 - Diseño de logros (Play Console): <https://developer.android.com/games/pgs/achievements>
 
+## ⬅️ Clase anterior
+
+[Clase 206 - Monetización móvil: anuncios y compras in-app](../206-monetizacion-movil-anuncios-y-compras-in-app/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 208 - Publicar en las tiendas móviles](../208-publicar-en-las-tiendas-moviles/README.md)

@@ -143,6 +143,10 @@ Crea una escena con un `ColorRect` cuyo `ShaderMaterial` genere un degradado dia
 - The Book of Shaders: <https://thebookofshaders.com/>
 - Khronos — The Graphics Pipeline: <https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview>
 
+## ⬅️ Clase anterior
+
+[Clase 016 - Montaje del entorno: Godot, Unity, Unreal y herramientas](../016-montaje-del-entorno-godot-unity-unreal-y-herramientas/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 018 - Sistemas de coordenadas y espacios: local, mundo, cámara, pantalla](../018-sistemas-de-coordenadas-y-espacios-local-mundo-camara-pantalla/README.md)

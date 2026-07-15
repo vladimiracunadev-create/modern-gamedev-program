@@ -136,6 +136,10 @@ Entrega tu `capstone-ficha.md` completo y somételo a la **prueba del semáforo*
 - itch.io — catálogo para estudiar juegos pequeños de una mecánica: <https://itch.io/games>
 - The Game Design Round Table — sobre pilares de diseño: <https://thegamedesignroundtable.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 280 - Capstone Parte 16: un plan de producción y lanzamiento](../../parte-16-produccion-publicacion-monetizacion-y-liveops/280-capstone-parte-16-un-plan-de-produccion-y-lanzamiento/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 282 - De la idea al vertical slice](../282-de-la-idea-al-vertical-slice/README.md)

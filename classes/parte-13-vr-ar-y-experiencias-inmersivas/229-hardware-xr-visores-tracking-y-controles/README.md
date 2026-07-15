@@ -135,6 +135,10 @@ Entrega una tabla de requisitos de hardware para tu experiencia con al menos sei
 - Godot Docs — XR performance y optimización: <https://docs.godotengine.org/en/stable/tutorials/xr/index.html>
 - godot-xr-tools (simulador para probar sin visor): <https://github.com/GodotVR/godot-xr-tools>
 
+## ⬅️ Clase anterior
+
+[Clase 228 - Panorama de XR: VR, AR y MR](../228-panorama-de-xr-vr-ar-y-mr/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 230 - OpenXR y el estándar abierto](../230-openxr-y-el-estandar-abierto/README.md)

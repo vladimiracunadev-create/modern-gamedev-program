@@ -176,6 +176,10 @@ Entrega un cliente Godot que **autentica contra Nakama, abre el socket en tiempo
 - GodotSteam — Documentación: <https://godotsteam.com/>
 - Steamworks — Lobbies y matchmaking: <https://partner.steamgames.com/doc/features/multiplayer/matchmaking>
 
+## ⬅️ Clase anterior
+
+[Clase 151 - Servidores dedicados: headless y despliegue](../151-servidores-dedicados-headless-y-despliegue/README.md)
+
 ## ➡️ Siguiente clase
 
 Continúa con **153 — Testing de red: simular latencia y pérdida**, donde pondrás tu multijugador bajo condiciones adversas.

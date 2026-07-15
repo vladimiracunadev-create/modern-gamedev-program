@@ -153,6 +153,10 @@ Crea una página que dibuje una "bandera" compuesta por al menos tres rectángul
 - MDN — Anatomía de un videojuego (bucle): <https://developer.mozilla.org/es/docs/Games/Anatomy>
 - itch.io — Publicar juegos HTML5: <https://itch.io/docs/creators/html5>
 
+## ⬅️ Clase anterior
+
+[Clase 213 - Capstone Parte 11: exportar y pulir para una plataforma](../../parte-11-movil-consolas-y-plataformas/213-capstone-parte-11-exportar-y-pulir-para-una-plataforma/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 215 - Exportar Godot a HTML5 y WebAssembly](../215-exportar-godot-a-html5-y-webassembly/README.md)

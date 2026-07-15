@@ -183,6 +183,10 @@ Amplía `prototipo.py` para que el cuadrado, además de moverse con las flechas,
 - pygame, documentación oficial: <https://www.pygame.org/docs/>
 - pygame, "A Newbie Guide": <https://www.pygame.org/docs/tut/newbieguide.html>
 
+## ⬅️ Clase anterior
+
+[Clase 011 - C++ para juegos: fundamentos, punteros y memoria](../011-c-plus-plus-para-juegos-fundamentos-punteros-y-memoria/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 013 - Patrones de diseño en juegos: State, Observer, Component y más](../013-patrones-de-diseno-en-juegos-state-observer-component-y-mas/README.md)

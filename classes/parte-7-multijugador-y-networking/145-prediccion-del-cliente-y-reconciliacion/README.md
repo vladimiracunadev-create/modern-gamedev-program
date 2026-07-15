@@ -156,6 +156,10 @@ Implementa predicción + reconciliación para un avatar con latencia simulada de
 - Gaffer On Games — Networked Physics: <https://gafferongames.com/post/networked_physics_2004/>
 - Godot Docs — High-level multiplayer: <https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html>
 
+## ⬅️ Clase anterior
+
+[Clase 144 - Mover jugadores en red: replicación de estado](../144-mover-jugadores-en-red-replicacion-de-estado/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 146 - Interpolación y extrapolación de entidades](../146-interpolacion-y-extrapolacion-de-entidades/README.md)

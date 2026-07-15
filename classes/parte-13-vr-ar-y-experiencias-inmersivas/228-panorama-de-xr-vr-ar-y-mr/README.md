@@ -135,6 +135,10 @@ Toma una idea de experiencia inmersiva (propia o asignada) y produce un document
 - Khronos — What is OpenXR (whitepaper): <https://www.khronos.org/files/openxr-10-reference-guide.pdf>
 - Godot Docs — XR tools y simulador: <https://github.com/GodotVR/godot-xr-tools>
 
+## ⬅️ Clase anterior
+
+[Clase 227 - Capstone Parte 12: un juego web publicado](../../parte-12-juegos-web-y-html5/227-capstone-parte-12-un-juego-web-publicado/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 229 - Hardware XR: visores, tracking y controles](../229-hardware-xr-visores-tracking-y-controles/README.md)

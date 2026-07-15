@@ -161,6 +161,10 @@ Toma un proyecto propio con al menos tres subsistemas por frame (por ejemplo: IA
 - Godot Docs — Time (clase): <https://docs.godotengine.org/en/stable/classes/class_time.html>
 - Jason Gregory, "Game Engine Architecture", 3.ª ed., cap. sobre profiling y medición.
 
+## ⬅️ Clase anterior
+
+[Clase 239 - Capstone Parte 13: una experiencia VR o AR mínima](../../parte-13-vr-ar-y-experiencias-inmersivas/239-capstone-parte-13-una-experiencia-vr-o-ar-minima/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 241 - El profiler: CPU, GPU y frame time](../241-el-profiler-cpu-gpu-y-frame-time/README.md)

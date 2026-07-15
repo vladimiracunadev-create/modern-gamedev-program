@@ -155,6 +155,10 @@ Construye una HUD de juego con al menos cinco elementos (vida, puntuación, mini
 
 - Game Accessibility Guidelines: <https://gameaccessibilityguidelines.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 193 - Feedback, juice y animación de UI](../193-feedback-juice-y-animacion-de-ui/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 195 - Input de UI: teclado, gamepad y táctil](../195-input-de-ui-teclado-gamepad-y-tactil/README.md)

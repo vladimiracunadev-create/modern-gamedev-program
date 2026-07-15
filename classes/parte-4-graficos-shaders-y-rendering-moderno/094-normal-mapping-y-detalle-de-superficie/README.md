@@ -147,6 +147,10 @@ Crea un muro de piedra: un `PlaneMesh` con normal map de roca, `tiling` ajustabl
 2. Godot Engine — Importing images (Normal Map): <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>
 3. Godot Engine — Standard Material 3D (Normal): <https://docs.godotengine.org/en/stable/tutorials/3d/standard_material_3d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 093 - PBR: modelo físico de materiales (metallic/roughness)](../093-pbr-modelo-fisico-de-materiales-metallic-roughness/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 095 - Shaders 2D: efectos sobre sprites (disolución y outline)](../095-shaders-2d-efectos-sobre-sprites-disolucion-y-outline/README.md)

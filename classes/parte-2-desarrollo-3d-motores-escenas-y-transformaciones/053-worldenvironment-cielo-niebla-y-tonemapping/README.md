@@ -144,6 +144,10 @@ Configura un `WorldEnvironment` con cielo procedural que ilumine la escena como 
 - Environment — API oficial: <https://docs.godotengine.org/en/stable/classes/class_environment.html>
 - ProceduralSkyMaterial: <https://docs.godotengine.org/en/stable/classes/class_proceduralskymaterial.html>
 
+## ⬅️ Clase anterior
+
+[Clase 052 - Iluminación 3D: tipos de luz y sombras](../052-iluminacion-3d-tipos-de-luz-y-sombras/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 054 - Movimiento 3D: CharacterBody3D y move_and_slide](../054-movimiento-3d-characterbody3d-y-move-and-slide/README.md)

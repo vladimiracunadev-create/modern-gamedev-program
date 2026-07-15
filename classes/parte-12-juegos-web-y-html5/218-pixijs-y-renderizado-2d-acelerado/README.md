@@ -176,6 +176,10 @@ Crea una "lluvia" de al menos 1000 sprites que caen desde arriba con velocidades
 - PixiJS — API Reference: <https://pixijs.download/release/docs/index.html>
 - MDN — WebGL: <https://developer.mozilla.org/es/docs/Web/API/WebGL_API>
 
+## ⬅️ Clase anterior
+
+[Clase 217 - Motores web: Phaser (2D)](../217-motores-web-phaser-2d/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 219 - Three.js: 3D en el navegador](../219-three-js-3d-en-el-navegador/README.md)

@@ -135,6 +135,10 @@ Zukowski es la referencia central de marketing indie con datos; complétalo con 
 - Reddit r/gamedev (marketing): <https://www.reddit.com/r/gamedev/>
 - presskit() de Rami Ismail (dopresskit): <https://dopresskit.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 270 - Modelos de negocio y monetización](../270-modelos-de-negocio-y-monetizacion/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 272 - Steam: página, wishlists y lanzamiento](../272-steam-pagina-wishlists-y-lanzamiento/README.md)

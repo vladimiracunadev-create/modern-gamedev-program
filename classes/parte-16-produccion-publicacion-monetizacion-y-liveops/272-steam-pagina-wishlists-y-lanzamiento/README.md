@@ -135,6 +135,10 @@ Las dudas sobre Steam suelen concentrarse en las wishlists, el timing y qué hac
 - Chris Zukowski — wishlists y Steam: <https://howtomarketagame.com/>
 - Steamworks, lanzamiento (launch checklist): <https://partner.steamgames.com/doc/store/application/launchchecklist>
 
+## ⬅️ Clase anterior
+
+[Clase 271 - Marketing y construcción de comunidad](../271-marketing-y-construccion-de-comunidad/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 273 - Presupuesto, contratos y aspectos legales](../273-presupuesto-contratos-y-aspectos-legales/README.md)

@@ -175,6 +175,10 @@ Crea un botón "Reclamar" con feedback completo: hover (crece + sonido), press (
 - Godot Docs — AudioStreamPlayer: <https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html>
 - Kenney — UI Audio (assets libres): <https://kenney.nl/assets/interface-sounds>
 
+## ⬅️ Clase anterior
+
+[Clase 192 - Menús, navegación y flujo de pantallas](../192-menus-navegacion-y-flujo-de-pantallas/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 194 - UI responsive: múltiples resoluciones y aspect ratios](../194-ui-responsive-multiples-resoluciones-y-aspect-ratios/README.md)

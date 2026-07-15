@@ -172,6 +172,10 @@ Crea un generador `@tool` de una estructura repetitiva a tu elección (una escal
 - Godot Docs — `Node._get_configuration_warnings`: <https://docs.godotengine.org/en/stable/classes/class_node.html>
 - Godot Docs — GDScript exports: <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_exports.html>
 
+## ⬅️ Clase anterior
+
+[Clase 255 - Por qué construir herramientas propias](../255-por-que-construir-herramientas-propias/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 257 - Plugins de editor y docks personalizados](../257-plugins-de-editor-y-docks-personalizados/README.md)

@@ -155,6 +155,10 @@ Entrega un controlador en tercera persona: cámara orbital con `SpringArm3D` que
 - Introduction to 3D: <https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html>
 - CharacterBody3D: <https://docs.godotengine.org/en/stable/classes/class_characterbody3d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 055 - Controlador en primera persona (FPS)](../055-controlador-en-primera-persona-fps/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 057 - Colisiones y física 3D: cuerpos, formas y capas](../057-colisiones-y-fisica-3d-cuerpos-formas-y-capas/README.md)

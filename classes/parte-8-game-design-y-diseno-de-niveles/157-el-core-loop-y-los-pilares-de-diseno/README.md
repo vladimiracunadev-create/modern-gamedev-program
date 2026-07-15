@@ -138,6 +138,10 @@ Entrega el diagrama de core loop en tres escalas anidadas de un juego (propio o 
 - GDC Vault — charlas sobre design pillars y core loops: <https://www.gdcvault.com>
 - Excalidraw — herramienta de diagramas: <https://excalidraw.com>
 
+## ⬅️ Clase anterior
+
+[Clase 156 - Qué es el game design: mecánicas, dinámicas y estética (MDA)](../156-que-es-el-game-design-mecanicas-dinamicas-y-estetica-mda/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 158 - Mecánicas, verbos y economía del jugador](../158-mecanicas-verbos-y-economia-del-jugador/README.md)

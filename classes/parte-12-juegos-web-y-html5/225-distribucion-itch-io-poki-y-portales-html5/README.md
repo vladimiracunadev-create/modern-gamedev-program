@@ -144,6 +144,10 @@ Publica un juego HTML5 propio en **itch.io** como build embebido, con ficha comp
 - Poki for Developers: <https://developers.poki.com>
 - CrazyGames Developers: <https://developer.crazygames.com>
 
+## ⬅️ Clase anterior
+
+[Clase 224 - Optimización y carga para web](../224-optimizacion-y-carga-para-web/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 226 - PWAs y juegos instalables](../226-pwas-y-juegos-instalables/README.md)

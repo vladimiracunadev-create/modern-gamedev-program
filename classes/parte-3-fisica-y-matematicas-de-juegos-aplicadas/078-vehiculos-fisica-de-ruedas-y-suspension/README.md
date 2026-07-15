@@ -148,6 +148,10 @@ Construye un circuito con al menos una curva cerrada y una rampa, y un coche jug
 - Godot Docs — RigidBody3D (centro de masa): <https://docs.godotengine.org/en/stable/classes/class_rigidbody3d.html>
 - Ian Millington, *Game Physics Engine Development*, sección de vehículos y fuerzas.
 
+## ⬅️ Clase anterior
+
+[Clase 077 - Ragdolls y física de personajes](../077-ragdolls-y-fisica-de-personajes/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 079 - Proyectiles: balística, gravedad y predicción](../079-proyectiles-balistica-gravedad-y-prediccion/README.md)

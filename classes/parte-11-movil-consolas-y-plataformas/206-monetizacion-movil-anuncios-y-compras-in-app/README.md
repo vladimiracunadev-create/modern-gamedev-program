@@ -166,6 +166,10 @@ Integra un plugin de monetización en tu build de Android y muestra un **rewarde
 - Android — Google Play Billing: <https://developer.android.com/google/play/billing>
 - Google Play — Políticas de monetización y anuncios: <https://support.google.com/googleplay/android-developer/answer/9857753>
 
+## ⬅️ Clase anterior
+
+[Clase 205 - Resoluciones, notch y safe areas](../205-resoluciones-notch-y-safe-areas/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 207 - Servicios: Google Play Games y Game Center](../207-servicios-google-play-games-y-game-center/README.md)

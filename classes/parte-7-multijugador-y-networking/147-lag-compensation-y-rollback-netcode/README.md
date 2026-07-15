@@ -185,6 +185,10 @@ Implementa lag compensation para un disparo: el servidor guarda el historial de 
 - Gaffer On Games — Deterministic Lockstep: <https://gafferongames.com/post/deterministic_lockstep/>
 - Godot Docs — High-level multiplayer: <https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html>
 
+## ⬅️ Clase anterior
+
+[Clase 146 - Interpolación y extrapolación de entidades](../146-interpolacion-y-extrapolacion-de-entidades/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 148 - Servidor autoritativo y anti-cheat básico](../148-servidor-autoritativo-y-anti-cheat-basico/README.md)

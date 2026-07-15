@@ -267,6 +267,10 @@ El Director decide *cuántos* enemigos y *cuándo* aparecen; cada enemigo, con s
 - [Behavior trees for AI: How they work (Chris Simpson)](https://www.gamedeveloper.com/programming/behavior-trees-for-ai-how-they-work)
 - [Navegación 2D — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_introduction_2d.html)
 
+## ⬅️ Clase anterior
+
+[Clase 124 - Machine learning en juegos: panorama (ML-Agents y RL)](../124-machine-learning-en-juegos-panorama-ml-agents-y-rl/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 126 - Fundamentos de audio para juegos (repaso aplicado)](../../parte-6-audio-y-musica-interactiva/126-fundamentos-de-audio-para-juegos-repaso-aplicado/README.md)

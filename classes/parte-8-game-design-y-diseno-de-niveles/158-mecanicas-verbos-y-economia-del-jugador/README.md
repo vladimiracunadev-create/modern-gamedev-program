@@ -135,6 +135,10 @@ Entrega el mapa completo de verbos + economía de un juego con al menos dos recu
 - GDC Vault — economy design y "Ratchets, Clickers and Grinders": <https://www.gdcvault.com>
 - Game Balance Concepts (Ian Schreiber): <https://gamebalanceconcepts.wordpress.com>
 
+## ⬅️ Clase anterior
+
+[Clase 157 - El core loop y los pilares de diseño](../157-el-core-loop-y-los-pilares-de-diseno/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 159 - Sistemas, feedback y bucles](../159-sistemas-feedback-y-bucles/README.md)

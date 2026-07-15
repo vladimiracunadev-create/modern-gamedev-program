@@ -135,6 +135,10 @@ Consulta ofertas reales y guías de entrevista para calibrar requisitos y practi
 - Jason Schreier, Blood, Sweat, and Pixels: <https://www.jasonschreier.com/>
 - Guía de CV para desarrolladores (freeCodeCamp): <https://www.freecodecamp.org/news/tag/resume/>
 
+## ⬅️ Clase anterior
+
+[Clase 288 - El demo reel y presentar tu trabajo](../288-el-demo-reel-y-presentar-tu-trabajo/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 290 - Game jams como trampolín profesional](../290-game-jams-como-trampolin-profesional/README.md)

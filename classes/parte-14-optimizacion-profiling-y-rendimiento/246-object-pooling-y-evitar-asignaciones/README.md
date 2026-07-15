@@ -198,6 +198,10 @@ Construye una escena de tipo *bullet hell* con al menos 200 balas simultáneas d
 - Godot Docs — PackedScene: <https://docs.godotengine.org/en/stable/classes/class_packedscene.html>
 - Godot Docs — Idle and physics processing: <https://docs.godotengine.org/en/stable/tutorials/scripting/idle_and_physics_processing.html>
 
+## ⬅️ Clase anterior
+
+[Clase 245 - Gestión de memoria y garbage collection](../245-gestion-de-memoria-y-garbage-collection/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 247 - Optimización de físicas y colisiones](../247-optimizacion-de-fisicas-y-colisiones/README.md)

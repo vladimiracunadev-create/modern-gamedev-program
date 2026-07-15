@@ -137,6 +137,10 @@ Entrega `sistema-azar.md` con: la mecánica elegida (entrada o salida), la tabla
 - Tracy Fullerton, *Game Design Workshop* (4ª ed.) — CRC Press
 - Falacia del jugador (referencia general) — <https://es.wikipedia.org/wiki/Falacia_del_jugador>
 
+## ⬅️ Clase anterior
+
+[Clase 161 - Balanceo de juego: números, spreadsheets y tuning](../161-balanceo-de-juego-numeros-spreadsheets-y-tuning/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 163 - Recompensas, motivación y psicología del jugador](../163-recompensas-motivacion-y-psicologia-del-jugador/README.md)

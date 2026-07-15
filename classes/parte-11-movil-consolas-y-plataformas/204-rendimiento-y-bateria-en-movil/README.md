@@ -138,6 +138,10 @@ Configura tu juego para móvil (renderer Mobile o Compatibility, compresión de 
 - Godot Docs — Importing images y compresión: <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>
 - Godot Docs — The Performance class y monitores: <https://docs.godotengine.org/en/stable/classes/class_performance.html>
 
+## ⬅️ Clase anterior
+
+[Clase 203 - Input táctil y controles móviles](../203-input-tactil-y-controles-moviles/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 205 - Resoluciones, notch y safe areas](../205-resoluciones-notch-y-safe-areas/README.md)

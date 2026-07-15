@@ -187,6 +187,10 @@ Cuando el pool está lleno y llega un sonido nuevo, reemplazas el menos importan
 - [AudioStreamOggVorbis — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_audiostreamoggvorbis.html)
 - [AudioStreamPlayer — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html)
 
+## ⬅️ Clase anterior
+
+[Clase 135 - Voces, diálogo y localización de audio](../135-voces-dialogo-y-localizacion-de-audio/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 137 - Capstone Parte 6: sistema de audio adaptativo](../137-capstone-parte-6-sistema-de-audio-adaptativo/README.md)

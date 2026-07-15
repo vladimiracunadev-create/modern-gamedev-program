@@ -193,6 +193,10 @@ Construye un efecto de **fuego de campamento**: un `GPUParticles3D` con al menos
 - Godot — Particle shader: <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/particle_shader.html>
 - Godot — ParticleProcessMaterial (clase): <https://docs.godotengine.org/en/stable/classes/class_particleprocessmaterial.html>
 
+## ⬅️ Clase anterior
+
+[Clase 100 - Agua, olas y superficies animadas](../100-agua-olas-y-superficies-animadas/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 102 - Instancing y MultiMesh: miles de objetos](../102-instancing-y-multimesh-miles-de-objetos/README.md)

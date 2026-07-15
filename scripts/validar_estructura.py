@@ -39,6 +39,9 @@ SECCIONES_REQUERIDAS = [
     "## ⚠️ Errores comunes",
     "## ❓ Preguntas frecuentes",
     "## 🔗 Referencias",
+    # Un curso secuencial se lee en los dos sentidos: la clase de hoy da por
+    # sabido lo de ayer, y hay que poder volver sin pasar por el índice.
+    "## ⬅️ Clase anterior",
 ]
 # La última clase de una parte enlaza a "Siguiente clase" o a "Siguiente paso";
 # la última clase del programa cierra con "Fin del programa". Aceptamos los tres.

@@ -138,6 +138,10 @@ La misma matemática aparece en detección de colisiones y raycasts de gameplay,
 - [Real-Time Rendering — recursos](https://www.realtimerendering.com/)
 - [The Book of Shaders — formas y distancias](https://thebookofshaders.com/07/)
 
+## ⬅️ Clase anterior
+
+[Clase 086 - El pipeline de render moderno en profundidad](../086-el-pipeline-de-render-moderno-en-profundidad/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 088 - El lenguaje de shaders de Godot: estructura y tipos](../088-el-lenguaje-de-shaders-de-godot-estructura-y-tipos/README.md)

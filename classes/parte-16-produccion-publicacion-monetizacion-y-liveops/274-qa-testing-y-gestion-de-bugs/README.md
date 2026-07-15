@@ -136,6 +136,10 @@ Toma una funcionalidad de tu juego, escribe un plan de pruebas de mínimo 8 caso
 - GitHub Issues docs: <https://docs.github.com/issues>
 - Ministry of Testing — Exploratory testing: <https://www.ministryoftesting.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 273 - Presupuesto, contratos y aspectos legales](../273-presupuesto-contratos-y-aspectos-legales/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 275 - Beta, early access y feedback](../275-beta-early-access-y-feedback/README.md)

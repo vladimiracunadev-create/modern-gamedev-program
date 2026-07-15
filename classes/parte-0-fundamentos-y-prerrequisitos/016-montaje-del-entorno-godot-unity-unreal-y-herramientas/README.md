@@ -132,6 +132,10 @@ Monta el entorno completo y deja evidencia: un proyecto de Godot que renderice u
 - Unreal Engine — Descargas: <https://www.unrealengine.com/download>
 - Visual Studio Code: <https://code.visualstudio.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 015 - Git y control de versiones para proyectos de juegos (con LFS)](../015-git-y-control-de-versiones-para-proyectos-de-juegos-con-lfs/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 017 - Gráficos por computadora: cómo se dibuja un frame](../017-graficos-por-computadora-como-se-dibuja-un-frame/README.md)

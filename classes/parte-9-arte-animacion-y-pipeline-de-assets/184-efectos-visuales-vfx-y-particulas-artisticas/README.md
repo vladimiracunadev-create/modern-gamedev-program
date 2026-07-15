@@ -136,6 +136,10 @@ Diseña un efecto de impacto completo formado por al menos **tres capas** (flash
 - Kenney — Assets CC0 (partículas y texturas): <https://kenney.nl/assets>
 - Godot Docs — StandardMaterial3D (blend modes): <https://docs.godotengine.org/en/stable/classes/class_standardmaterial3d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 183 - Sculpting y retopología](../183-sculpting-y-retopologia/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 185 - Iluminación como arte y mood](../185-iluminacion-como-arte-y-mood/README.md)

@@ -185,6 +185,10 @@ Crea una cámara reutilizable con suavizado, límites de nivel, look-ahead y una
 - [Tween — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_tween.html)
 - [Métodos de aleatoriedad (RandomNumberGenerator) — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/math/random_number_generation.html)
 
+## ⬅️ Clase anterior
+
+[Clase 031 - Sprites, animación por frames y AnimationPlayer](../031-sprites-animacion-por-frames-y-animationplayer/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 033 - Colisiones 2D: cuerpos, áreas y capas](../033-colisiones-2d-cuerpos-areas-y-capas/README.md)

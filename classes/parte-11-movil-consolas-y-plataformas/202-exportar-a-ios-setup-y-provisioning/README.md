@@ -135,6 +135,10 @@ Genera desde Godot el **proyecto Xcode** de tu juego con un Bundle Identifier y 
 - Apple — Distributing your app for testing and release: <https://developer.apple.com/documentation/xcode/distributing-your-app-for-beta-testing-and-releases>
 - Apple — Signing your apps in Xcode: <https://developer.apple.com/documentation/xcode/signing-your-apps-in-xcode>
 
+## ⬅️ Clase anterior
+
+[Clase 201 - Exportar a Android: setup y firma](../201-exportar-a-android-setup-y-firma/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 203 - Input táctil y controles móviles](../203-input-tactil-y-controles-moviles/README.md)

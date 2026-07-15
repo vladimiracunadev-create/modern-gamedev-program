@@ -222,6 +222,10 @@ Entrega `vec2.py` con la clase completa y un script `demo.py` que resuelva los t
 - Módulo `math` de Python — <https://docs.python.org/3/library/math.html>
 - Freya Holmér, "The Beauty of Bézier / Vectors" (canal educativo de matemáticas para juegos) — <https://www.youtube.com/@Acegikmo>
 
+## ⬅️ Clase anterior
+
+[Clase 003 - Historia y géneros: qué define la jugabilidad](../003-historia-y-generos-que-define-la-jugabilidad/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 005 - Matemáticas para juegos II: matrices y transformaciones](../005-matematicas-para-juegos-ii-matrices-y-transformaciones/README.md)

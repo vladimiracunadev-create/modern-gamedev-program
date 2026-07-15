@@ -236,6 +236,10 @@ Construye un pequeño escenario con al menos cuatro `GameObject` distintos (juga
 - Unity, "Introduction to components": <https://docs.unity3d.com/Manual/Components.html>
 - "Composition over inheritance": <https://en.wikipedia.org/wiki/Composition_over_inheritance>
 
+## ⬅️ Clase anterior
+
+[Clase 008 - Programación fundamentos con C#: tipos, control de flujo y funciones](../008-programacion-fundamentos-con-c-sharp-tipos-control-de-flujo-y-funciones/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 010 - Estructuras de datos para juegos: arrays, listas, diccionarios y colas](../010-estructuras-de-datos-para-juegos-arrays-listas-diccionarios-y-colas/README.md)

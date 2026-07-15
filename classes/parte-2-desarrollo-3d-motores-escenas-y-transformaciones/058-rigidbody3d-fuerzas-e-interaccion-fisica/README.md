@@ -161,6 +161,10 @@ Crea una escena de "bolos": diez cajas apiladas en pirámide y una bola pesada q
 - [PhysicsMaterial — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_physicsmaterial.html)
 - [Rigid body physics tutorial](https://docs.godotengine.org/en/stable/tutorials/physics/rigid_body.html)
 
+## ⬅️ Clase anterior
+
+[Clase 057 - Colisiones y física 3D: cuerpos, formas y capas](../057-colisiones-y-fisica-3d-cuerpos-formas-y-capas/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 059 - Raycasting 3D: selección, disparos y detección de suelo](../059-raycasting-3d-seleccion-disparos-y-deteccion-de-suelo/README.md)

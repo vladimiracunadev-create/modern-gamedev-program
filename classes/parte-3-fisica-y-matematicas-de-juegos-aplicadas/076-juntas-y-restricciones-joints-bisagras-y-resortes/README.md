@@ -161,6 +161,10 @@ Construye un puente colgante jugable: una serie de tablones (`RigidBody3D`) unid
 - Godot Docs — Generic6DOFJoint3D: <https://docs.godotengine.org/en/stable/classes/class_generic6dofjoint3d.html>
 - Ian Millington, *Game Physics Engine Development*, capítulos sobre restricciones y contactos.
 
+## ⬅️ Clase anterior
+
+[Clase 075 - Motores de física: broadphase y narrowphase](../075-motores-de-fisica-broadphase-y-narrowphase/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 077 - Ragdolls y física de personajes](../077-ragdolls-y-fisica-de-personajes/README.md)

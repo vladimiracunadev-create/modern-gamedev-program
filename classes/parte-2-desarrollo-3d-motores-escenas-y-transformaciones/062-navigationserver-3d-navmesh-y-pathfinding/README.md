@@ -150,6 +150,10 @@ Monta un nivel con al menos dos muros y un obstáculo, hornea el navmesh y crea 
 - [Using NavigationAgents — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html)
 - [NavigationRegion3D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_navigationregion3d.html)
 
+## ⬅️ Clase anterior
+
+[Clase 061 - AnimationTree y blending de animaciones](../061-animationtree-y-blending-de-animaciones/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 063 - Áreas, triggers y detección en 3D](../063-areas-triggers-y-deteccion-en-3d/README.md)

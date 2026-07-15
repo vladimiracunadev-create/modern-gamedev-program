@@ -198,6 +198,10 @@ Entrega el proyecto optimizado junto con un informe que incluya: la línea base 
 - Godot Docs — MultiMeshInstance3D: <https://docs.godotengine.org/en/stable/classes/class_multimeshinstance3d.html>
 - Godot Docs — clase Performance (monitores): <https://docs.godotengine.org/en/stable/classes/class_performance.html>
 
+## ⬅️ Clase anterior
+
+[Clase 253 - Herramientas nativas de profiling (RenderDoc)](../253-herramientas-nativas-de-profiling-renderdoc/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 255 - Por qué construir herramientas propias](../../parte-15-herramientas-editores-y-automatizacion/255-por-que-construir-herramientas-propias/README.md)

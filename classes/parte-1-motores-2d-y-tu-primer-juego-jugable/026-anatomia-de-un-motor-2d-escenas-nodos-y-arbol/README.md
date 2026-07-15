@@ -136,6 +136,10 @@ Crea una tercera escena `Moneda` (raíz `Node2D` con un `Sprite2D`) e instáncia
 - Godot Docs — SceneTree: <https://docs.godotengine.org/en/stable/tutorials/scripting/scene_tree.html>
 - Godot Docs — Scene organization: <https://docs.godotengine.org/en/stable/tutorials/best_practices/scene_organization.html>
 
+## ⬅️ Clase anterior
+
+[Clase 025 - Metodología, gestión de proyectos y portfolio del desarrollador](../../parte-0-fundamentos-y-prerrequisitos/025-metodologia-gestion-de-proyectos-y-portfolio-del-desarrollador/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 027 - Godot: interfaz, proyecto y primer sprite en pantalla](../027-godot-interfaz-proyecto-y-primer-sprite-en-pantalla/README.md)

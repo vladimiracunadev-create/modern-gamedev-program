@@ -137,6 +137,10 @@ Crea un script que reciba la posición del jugador, la del enemigo y la direcci�
 3. Godot Engine — Clase Vector3: <https://docs.godotengine.org/en/stable/classes/class_vector3.html>
 4. Godot Engine — Using transforms: <https://docs.godotengine.org/en/stable/tutorials/math/matrices_and_transforms.html>
 
+## ⬅️ Clase anterior
+
+[Clase 067 - Capstone Parte 2: un nivel 3D explorable en tercera persona](../../parte-2-desarrollo-3d-motores-escenas-y-transformaciones/067-capstone-parte-2-un-nivel-3d-explorable-en-tercera-persona/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 069 - Cuaterniones: rotaciones 3D sin gimbal lock](../069-cuaterniones-rotaciones-3d-sin-gimbal-lock/README.md)

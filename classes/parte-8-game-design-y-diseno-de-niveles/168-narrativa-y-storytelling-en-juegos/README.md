@@ -137,6 +137,10 @@ Entrega el **diseño narrativo de un nivel** contado por completo a través del 
 - Level Design Book — Storytelling: <https://book.leveldesignbook.com/process/layout/storytelling>
 - GDC — Environmental Storytelling (charlas): <https://www.gdcvault.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 167 - Diseño de niveles con propósito y el bucle greybox](../167-diseno-de-niveles-con-proposito-y-el-bucle-greybox/README.md)
+
 ## ➡️ Siguiente clase
 
 Continúa con [Clase 169 - Diseño de sistemas emergentes y sandbox](../169-diseno-de-sistemas-emergentes-y-sandbox/README.md), donde diseñarás sistemas cuya interacción genera historias por sí sola.

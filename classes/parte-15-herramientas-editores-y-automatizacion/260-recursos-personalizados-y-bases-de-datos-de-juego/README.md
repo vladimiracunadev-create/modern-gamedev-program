@@ -168,6 +168,10 @@ Diseña un recurso personalizado propio (arma, objeto, hechizo o carta) con `cla
 - Godot Docs — GDScript exports (`@export_group`, `@export_range`): <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_exports.html>
 - Godot Docs — `ResourceLoader`: <https://docs.godotengine.org/en/stable/classes/class_resourceloader.html>
 
+## ⬅️ Clase anterior
+
+[Clase 259 - Generación y validación de datos (data-driven)](../259-generacion-y-validacion-de-datos-data-driven/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 261 - Automatización de builds y exportación por CLI](../261-automatizacion-de-builds-y-exportacion-por-cli/README.md)

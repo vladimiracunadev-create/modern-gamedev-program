@@ -136,6 +136,10 @@ Apóyate en estas plataformas y guías para publicar y dar a conocer tu juego:
 - Jason Schreier, Blood, Sweat, and Pixels: <https://www.jasonschreier.com/>
 - Guía de lanzamiento indie (Game Developer): <https://www.gamedeveloper.com/>
 
+## ⬅️ Clase anterior
+
+[Clase 291 - Comunidad, networking y carrera en la industria](../291-comunidad-networking-y-carrera-en-la-industria/README.md)
+
 ## ➡️ Fin del programa
 
 ¡Has completado el Programa de Desarrollo de Videojuegos Moderno, de los fundamentos a la publicación profesional! Ahora lo más importante: **seguir construyendo, terminando y publicando**. Vuelve al [índice del programa](../../README.md) para repasar cualquier parte, y comparte lo que hagas. 🎮

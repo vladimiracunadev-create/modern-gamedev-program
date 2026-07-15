@@ -148,6 +148,10 @@ Implementa un enemigo que camina con animación y, al llegar su vida a cero por 
 - Godot Docs — Skeleton3D: <https://docs.godotengine.org/en/stable/classes/class_skeleton3d.html>
 - Ian Millington, *Game Physics Engine Development*, capítulos sobre cuerpos rígidos articulados.
 
+## ⬅️ Clase anterior
+
+[Clase 076 - Juntas y restricciones (joints): bisagras y resortes](../076-juntas-y-restricciones-joints-bisagras-y-resortes/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 078 - Vehículos: física de ruedas y suspensión](../078-vehiculos-fisica-de-ruedas-y-suspension/README.md)

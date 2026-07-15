@@ -133,6 +133,10 @@ Configura el proyecto a 1280×720 con estiramiento `canvas_items`/`keep`, coloca
 - Godot Docs — Importing images: <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>
 - Godot Docs — Sprite2D: <https://docs.godotengine.org/en/stable/classes/class_sprite2d.html>
 
+## ⬅️ Clase anterior
+
+[Clase 026 - Anatomía de un motor 2D: escenas, nodos y árbol](../026-anatomia-de-un-motor-2d-escenas-nodos-y-arbol/README.md)
+
 ## ➡️ Siguiente clase
 
 [Clase 028 - El game loop en la práctica: _process, _physics_process y señales](../028-el-game-loop-en-la-practica-process-physics-process-y-senales/README.md)
