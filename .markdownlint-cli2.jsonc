@@ -18,5 +18,6 @@
     "MD060": false         // estilo de columnas de tabla (subjetivo)
   },
   "globs": ["**/*.md"],
-  "ignores": ["node_modules", ".git", "site"]
+  // "material" y "site" son salida generada (PDFs, HTML): no se lintan.
+  "ignores": ["node_modules", ".git", "site", "material"]
 }

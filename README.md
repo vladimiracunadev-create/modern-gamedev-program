@@ -63,17 +63,25 @@ Los assets son **CC0 generados por código** ([`scripts/generar_assets.py`](scri
 
 🌐 Todo navegable en el **[sitio del curso](https://vladimiracunadev-create.github.io/modern-gamedev-program/)**.
 
-### 🖨️ ¿Prefieres papel?
+### 📖 Manual completo (PDF)
 
-Genera guías **PDF imprimibles en blanco y negro** (una por clase) cuando las necesites:
+¿Quieres el curso entero en un solo documento para leer de corrido, imprimir o llevar offline? Genera el **manual completo en PDF** — las 292 clases en orden, en blanco y negro, listas para imprimir:
 
 ```bash
 python -m pip install "markdown>=3.6"
+python scripts/generar_manual.py       # material/MANUAL-COMPLETO.pdf (~300 págs)
+```
+
+### 🖨️ ¿O solo una parte?
+
+También puedes generar guías **PDF por clase** (mismo estilo imprimible):
+
+```bash
 python scripts/generar_material.py --parte 1   # una parte
 python scripts/generar_material.py --all       # las 292 clases (~10 min)
 ```
 
-Los PDF **no se versionan** a propósito (serían ~200 MB): se generan bajo demanda en `material/`. Salen optimizados para imprimir: sin color, densos y **sin partir los bloques de código** entre páginas.
+Los PDF **no se versionan** a propósito (el manual completo pesa ~28 MB, y las guías sueltas sumarían ~200 MB): se generan bajo demanda en `material/`. Salen optimizados para imprimir: sin color, densos y **sin partir los bloques de código** entre páginas.
 
 ## 🛠️ Todas las tecnologías, no una sola
 
