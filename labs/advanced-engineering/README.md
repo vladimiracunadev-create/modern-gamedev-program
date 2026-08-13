@@ -16,16 +16,16 @@ godot --headless --path labs/advanced-engineering/solucion --script res://prueba
   DOD 100000 partículas: SoA 16.14 ms · AoS 61.74 ms · ×3.8
   Memoria 10k objetos: pool 22.49 ms · nuevos 32.56 ms · ×1.4
   Espacial 5000 objetos, 200 consultas: fuerza bruta 85.05 ms · rejilla 1.73 ms · ×49.2
-  Jobs 200000 elementos (8 núcleos): secuencial 210.15 ms · paralelo 131.04 ms · ×1.60
+  Jobs 200000 elementos (8 hilos lógicos): secuencial 189.49 ms · paralelo 115.36 ms · ×1.64
 == 33 comprobaciones, 0 fallos ==
 ```
 
-**Tus números serán distintos, y eso es correcto.** Dependen de tu CPU, de tu caché y de cuántos núcleos tengas. Lo que no cambia es el orden de magnitud de cada mejora, y es informativo por sí mismo:
+**Tus números serán distintos, y eso es correcto.** Dependen de tu CPU, de tu caché y de cuántos hilos tengas disponibles de verdad. Lo que no cambia es el orden de magnitud de cada mejora, y es informativo por sí mismo:
 
 - La rejilla gana **por complejidad** (de O(n) por consulta a O(vecinos)): la mejora es enorme y crece con el número de objetos.
 - SoA gana **por memoria** (líneas de caché aprovechadas en vez de desperdiciadas): entre ×3 y ×5, sin cambiar ni una operación aritmética.
 - El pool gana **poco de media** y muchísimo en el peor caso: lo que elimina no es el coste, es la **varianza** que produce los tirones.
-- El paralelismo gana **solo si hay trabajo suficiente por elemento**. Con la carga de este banco y 8 núcleos sale ×1.6, muy lejos del ×8 teórico. Si sustituyes el cálculo por una simple multiplicación, el paralelo **pierde**: la sobrecarga de repartir se come la ganancia. Compruébalo, es la lección de la [clase 341](../../classes/parte-21-arquitectura-avanzada-de-motores-y-rendering/341-job-systems-y-task-graphs/README.md).
+- El paralelismo gana **solo si hay trabajo suficiente por elemento y hilos de verdad disponibles**. Con la carga de este banco y 8 hilos lógicos sale ×1.6, muy lejos del ×8 teórico. En el runner de CI de este repositorio, con 4 hilos compartidos de una máquina virtual, sale **×0.98: no gana nada**. Y si sustituyes el cálculo por una simple multiplicación, el paralelo **pierde** en cualquier máquina. Compruébalo: es la lección de la [clase 341](../../classes/parte-21-arquitectura-avanzada-de-motores-y-rendering/341-job-systems-y-task-graphs/README.md).
 
 ## 📦 Qué hay dentro
 
@@ -43,7 +43,7 @@ godot --headless --path labs/advanced-engineering/solucion --script res://prueba
 
 ## ✅ Qué verifica la CI
 
-**33 comprobaciones, y ninguna es un `assert` sobre milisegundos** salvo la comparación relativa final, que se adapta al número de núcleos de la máquina. Un test que falla según el hardware acaba desactivado, y un test desactivado no protege nada.
+**33 comprobaciones, y ninguna exige una velocidad concreta.** Los milisegundos se imprimen; lo que se comprueba es la corrección. La única comprobación de rendimiento es una guardia de regresión —que repartir el trabajo no cueste *más* que hacerlo entero— porque exigir una aceleración concreta convierte el test en una lotería del hardware, y un test que falla por motivos ajenos al código acaba desactivado. Un test desactivado no protege nada.
 
 - **Corrección antes que velocidad**: SoA y AoS producen las mismas posiciones y vidas tras 30 pasos; la rejilla devuelve **exactamente** los mismos ids que la fuerza bruta, ordenados, incluso con coordenadas negativas.
 - **Compactación**: swap-remove elimina las muertas, mantiene el resto, no deja huecos y conserva la suma total de vidas de las supervivientes.
