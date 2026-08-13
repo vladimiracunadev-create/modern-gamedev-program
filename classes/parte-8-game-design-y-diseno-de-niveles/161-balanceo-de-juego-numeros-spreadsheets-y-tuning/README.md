@@ -129,6 +129,14 @@ Entrega una hoja de balanceo de al menos 5 opciones con estadísticas base y las
 
 **❓ ¿Los datos reemplazan al playtesting?** No. La hoja acerca los números a un rango razonable; el playtesting revela si el balance *se siente* justo. Se complementan: modela, prueba, mide y vuelve a la hoja.
 
+## 🔭 Para ir más lejos
+
+La hoja de cálculo es donde se balancea; el juego es donde se comprueba. La Parte 18 construye los sistemas que hacen ese balance **medible dentro del juego**, y la Parte 19 los que permiten ajustarlo sin publicar una build:
+
+- [Clase 300 — Loot tables y sistemas de recompensas](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/300-loot-tables-y-sistemas-de-recompensas/README.md): pesos, tablas anidadas y un simulador que calcula el valor esperado sobre 100.000 tiradas.
+- [Clase 303 — Economía interna implementada](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/303-economia-interna-implementada/README.md): el informe automático de fuentes y sumideros, que sustituye a estimar la inflación a ojo.
+- [Clase 315 — Remote Config y feature flags](../../parte-19-ingenieria-de-produccion-backend-y-confiabilidad/315-remote-config-feature-flags-y-experimentos/README.md): cambiar un número de balance en minutos en vez de en días.
+
 ## 🔗 Referencias
 
 - Ian Schreiber — Game Balance Concepts (curso completo): <https://gamebalanceconcepts.wordpress.com>

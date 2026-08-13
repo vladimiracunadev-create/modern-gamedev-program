@@ -128,6 +128,13 @@ Entrega la tabla de curva de dificultad de 10 niveles con reto, poder y tensión
 
 **❓ ¿Cómo mido la dificultad real sin telemetría?** Con playtesting: cuenta muertes por nivel, tiempo de superación y en qué punto la gente abandona. Esos datos revelan los picos ocultos que tu escala 1-10 estimada no capturó y te dicen dónde ajustar la curva.
 
+## 🔭 Para ir más lejos
+
+Las curvas que diseñas aquí se implementan en la Parte 18, parametrizadas para que puedas cambiarlas sin tocar código:
+
+- [Clase 302 — Progresión y skill trees](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/302-progresion-y-skill-trees/README.md): curvas de XP lineal, cuadrática y exponencial, árboles de habilidades con prerrequisitos, respec y metaprogresión. Incluye el cálculo que convierte una curva en **horas de juego**, que es la cifra que de verdad estás decidiendo aquí.
+- [Clase 296 — Equipamiento, loadouts y estadísticas](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/296-equipamiento-loadouts-y-estadisticas/README.md): modificadores planos, porcentuales y multiplicativos, y por qué su orden de aplicación cambia toda la curva de poder.
+
 ## 🔗 Referencias
 
 - Mihály Csíkszentmihályi — modelo de Flow: <https://en.wikipedia.org/wiki/Flow_(psychology)>

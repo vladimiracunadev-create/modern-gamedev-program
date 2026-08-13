@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Genera `glosario/README.md` a partir de las secciones "📖 Definiciones y
-características" de las 292 clases.
+características" de todas las clases del programa.
 
 Cada clase define sus términos; este script los reúne, los ordena
 alfabéticamente y enlaza cada uno a la clase donde se explica. Si un término
@@ -48,6 +48,9 @@ def limpiar(txt: str) -> str:
 def main() -> int:
     # término -> lista de (num_clase, titulo_clase, ruta, definicion)
     entradas: dict[str, list[tuple[int, str, str, str]]] = {}
+    # Se cuentan las clases leídas en vez de escribir el total a mano: así el
+    # glosario no miente cuando el programa crece.
+    clases_vistas: set[int] = set()
 
     for pdir in sorted(glob.glob(os.path.join(CLASSES, "parte-*"))):
         pslug = os.path.basename(pdir)
@@ -61,6 +64,7 @@ def main() -> int:
             if not m:
                 continue
             num, titulo = int(m.group(1)), m.group(2).strip()
+            clases_vistas.add(num)
 
             partes = txt.split("## 📖 Definiciones y características", 1)
             if len(partes) != 2:
@@ -96,8 +100,8 @@ def main() -> int:
         "> [⬅️ Volver al programa](../README.md) · [📚 Índice completo](../classes/README.md) · [🔎 Buscador](https://vladimiracunadev-create.github.io/modern-gamedev-program/buscar.html)",
         "",
         f"**{len(ordenados)} términos** recopilados automáticamente de las secciones "
-        "*Definiciones y características* de las 292 clases. Cada término enlaza a la clase "
-        "donde se explica en contexto.",
+        f"*Definiciones y características* de las {len(clases_vistas)} clases. Cada término "
+        "enlaza a la clase donde se explica en contexto.",
         "",
         "> Este archivo se genera con `python scripts/generar_glosario.py`. No lo edites a mano: "
         "corrige la definición en la clase de origen y vuelve a generarlo.",

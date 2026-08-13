@@ -130,6 +130,14 @@ Entrega `mapa-recompensas.md` con: el inventario de recompensas, la tabla de cla
 
 **❓ ¿Cómo sé si crucé la línea ética?** Pregúntate si estarías cómodo explicando el mecanismo a la cara del jugador. Si el sistema depende de que no entienda lo que pasa, es un dark pattern.
 
+## 🔭 Para ir más lejos
+
+Las recompensas que diseñas aquí necesitan sistemas que las entreguen de forma fiable. En la Parte 18:
+
+- [Clase 300 — Loot tables](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/300-loot-tables-y-sistemas-de-recompensas/README.md): drops garantizados, condicionales y con pity.
+- [Clase 302 — Progresión y skill trees](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/302-progresion-y-skill-trees/README.md): desbloqueos, puntos de habilidad y metaprogresión que sobrevive a la partida.
+- [Clase 305 — Quest System](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/305-quest-system/README.md): la entrega **atómica** de recompensas, incluido el caso que todo el mundo olvida — el inventario lleno al terminar una misión de tres horas.
+
 ## 🔗 Referencias
 
 - Jesse Schell, *The Art of Game Design: A Book of Lenses* (3ª ed.) — <https://www.schellgames.com>

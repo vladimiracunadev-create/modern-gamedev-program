@@ -1,0 +1,103 @@
+{
+	"version": 1,
+	"quests": [
+		{
+			"id": "lobos_del_camino",
+			"titulo": "Los lobos del camino",
+			"dador": "guardia_puerta",
+			"prerrequisitos": [],
+			"secuencial": false,
+			"objetivos": [
+				{ "id": "matar_lobos", "tipo": "matar", "objetivo": "lobo", "cantidad": 5 },
+				{ "id": "pieles", "tipo": "recoger", "objetivo": "piel_lobo",
+				  "cantidad": 3, "opcional": true }
+			],
+			"recompensas": {
+				"xp": 250, "oro": 120,
+				"items": [{ "item": "pocion_menor", "cantidad": 3 }],
+				"opcional": { "oro": 60 }
+			}
+		},
+		{
+			"id": "la_guarida",
+			"titulo": "La guarida",
+			"dador": "guardia_puerta",
+			"prerrequisitos": [{ "quest_completada": "lobos_del_camino" }],
+			"secuencial": true,
+			"limite_tiempo": 600.0,
+			"objetivos": [
+				{ "id": "llegar", "tipo": "alcanzar", "objetivo": "zona_guarida", "cantidad": 1 },
+				{ "id": "jefe", "tipo": "matar", "objetivo": "lobo_alfa", "cantidad": 1 },
+				{ "id": "volver", "tipo": "hablar", "objetivo": "guardia_puerta", "cantidad": 1 }
+			],
+			"recompensas": {
+				"xp": 800, "oro": 400,
+				"items": [{ "item": "capa_lobo", "cantidad": 1 }],
+				"desbloqueos": ["receta_capa_lobo"]
+			}
+		},
+		{
+			"id": "hierro_para_bram",
+			"titulo": "Hierro para Bram",
+			"dador": "herrero_bram",
+			"prerrequisitos": [],
+			"secuencial": false,
+			"objetivos": [
+				{ "id": "traer", "tipo": "entregar", "objetivo": "mineral_hierro", "cantidad": 6 }
+			],
+			"recompensas": {
+				"xp": 150, "oro": 80,
+				"items": [{ "item": "espada_hierro", "cantidad": 1 }]
+			}
+		},
+		{
+			"id": "el_camino_del_norte",
+			"titulo": "El camino del norte",
+			"dador": "guardia_puerta",
+			"prerrequisitos": [{ "quest_completada": "la_guarida" }, { "nivel_min": 5 }],
+			"secuencial": false,
+			"objetivos": [
+				{ "id": "bandidos", "tipo": "matar", "objetivo": "bandido", "cantidad": 8 },
+				{ "id": "zona", "tipo": "alcanzar", "objetivo": "zona_paso_norte", "cantidad": 1 }
+			],
+			"recompensas": {
+				"xp": 1400, "oro": 700,
+				"items": [{ "item": "espada_acero", "cantidad": 1 }],
+				"desbloqueos": ["zona_paso_norte"]
+			}
+		},
+		{
+			"id": "la_forja_perdida",
+			"titulo": "La forja perdida",
+			"dador": "herrero_bram",
+			"prerrequisitos": [{ "quest_completada": "hierro_para_bram" }],
+			"secuencial": true,
+			"objetivos": [
+				{ "id": "hablar_bram", "tipo": "hablar", "objetivo": "herrero_bram", "cantidad": 1 },
+				{ "id": "llave", "tipo": "recoger", "objetivo": "llave_guarida", "cantidad": 1 },
+				{ "id": "secreto", "tipo": "flag", "objetivo": "forja_encontrada", "cantidad": 1 }
+			],
+			"recompensas": {
+				"xp": 600, "oro": 250,
+				"items": [{ "item": "martillo_herrero", "cantidad": 1 }]
+			}
+		},
+		{
+			"id": "el_alba",
+			"titulo": "El alba",
+			"dador": "guardia_puerta",
+			"prerrequisitos": [
+				{ "quest_completada": "el_camino_del_norte" },
+				{ "quest_completada": "la_forja_perdida" }
+			],
+			"secuencial": false,
+			"objetivos": [
+				{ "id": "colmillos", "tipo": "recoger", "objetivo": "colmillo_alfa", "cantidad": 3 }
+			],
+			"recompensas": {
+				"xp": 4000, "oro": 2000,
+				"items": [{ "item": "hoja_legendaria", "cantidad": 1 }]
+			}
+		}
+	]
+}

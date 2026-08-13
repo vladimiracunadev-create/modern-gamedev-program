@@ -16,16 +16,17 @@ Qué corre
 5. Build del sitio  (generar_sitio.py)
 6. YAML de los workflows
 7. Los laboratorios con Godot headless: la matriz entera (cada lab × inicio y
-   solución) más las pruebas de comportamiento (red, IA y UI).
+   solución), las pruebas de comportamiento (red, IA y UI) y las suites de los
+   labs de las Partes 18-21 (sistemas, runtime, IA generativa e ingeniería).
 
 Lo de Godot solo corre si le dices dónde está: aquí no viene instalado.
 
     python scripts/verificar_todo.py --godot /ruta/a/godot
     python scripts/verificar_todo.py --rapido          # sin los labs
 
-La matriz de labs NO está copiada aquí: se lee de .github/workflows/labs.yml. Si
-se copiara, el día que alguien añada un lab al workflow este script seguiría
-comprobando los de antes y diría que todo va bien.
+Ni la matriz de labs ni la de suites están copiadas aquí: se leen de
+.github/workflows/labs.yml. Si se copiaran, el día que alguien añada un lab al
+workflow este script seguiría comprobando los de antes y diría que todo va bien.
 
 Salida: 0 si todo está verde; 1 si algo falla (y entonces no pushees).
 """
@@ -199,6 +200,40 @@ def verificar_labs(r: Resultado, godot: str) -> None:
         r.check(marcador in run, f"{etiqueta}: imprime «{marcador}»", run)
 
 
+def leer_suites() -> list[tuple[str, str, int]]:
+    """(lab, script, mínimo) del job 'sistemas', leídos también del workflow."""
+    import yaml
+    with open(WORKFLOW, encoding="utf-8") as f:
+        wf = yaml.safe_load(f)
+    incs = wf["jobs"]["sistemas"]["strategy"]["matrix"]["include"]
+    return [(i["lab"], i["script"], int(i["minimo"])) for i in incs]
+
+
+def prueba_suites(r: Resultado, godot: str) -> None:
+    """Los labs de las Partes 18-21 traen su propia suite: aquí se ejecuta entera.
+
+    El mínimo de comprobaciones no es un capricho: sin él, una suite que se corta
+    a la tercera reportaría «0 fallos» y pasaría en verde.
+    """
+    for lab, script, minimo in leer_suites():
+        proyecto = os.path.join(ROOT, "labs", lab, "solucion")
+        if not os.path.isdir(proyecto):
+            r.check(False, f"{lab}: no existe {proyecto}")
+            continue
+        print(f"\n      · suite de pruebas ({lab})")
+        _, log = correr([godot, "--headless", "--path", proyecto, "--script", script])
+        err = hay_errores(log)
+        if not r.check(not err, f"{lab}: la suite corre sin errores del motor", err):
+            continue
+        m = re.search(r"== (\d+) comprobaciones, (\d+) fallo", log)
+        if not m:
+            r.check(False, f"{lab}: la suite llega al final", log)
+            continue
+        hechas, fallos = int(m.group(1)), int(m.group(2))
+        r.check(hechas >= minimo and fallos == 0,
+                f"{lab}: {hechas} comprobaciones (mín {minimo}), {fallos} fallo(s)", log)
+
+
 def prueba_ia(r: Resultado, godot: str) -> None:
     proyecto = os.path.join(ROOT, "labs", "ia-enemigo", "solucion")
     if not os.path.isdir(proyecto):
@@ -339,6 +374,7 @@ def main() -> int:
         verificar_labs(r, args.godot)
         prueba_ia(r, args.godot)
         prueba_ui(r, args.godot)
+        prueba_suites(r, args.godot)
         prueba_red(r, args.godot)
         limpiar_derivados()
 

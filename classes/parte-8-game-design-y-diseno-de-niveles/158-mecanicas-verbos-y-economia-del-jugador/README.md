@@ -128,6 +128,13 @@ Entrega el mapa completo de verbos + economía de un juego con al menos dos recu
 
 **❓ ¿Cómo estimo tasas si no tengo telemetría?** Juega tramos cronometrados y anota cuánto ganas y gastas de cada recurso por minuto. Aunque sean aproximadas, revelan el signo del flujo neto, que es lo que importa.
 
+## 🔭 Para ir más lejos
+
+En esta clase **diseñas** la economía del jugador: qué recursos hay, de dónde salen y en qué se gastan. En la Parte 18 se **implementa** ese diseño, con sus casos límite y su persistencia. La distinción es deliberada y se mantiene en todo el programa: aquí se decide *qué* debe pasar; allí se construye el sistema que hace que pase.
+
+- [Clase 303 — Economía interna implementada](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/303-economia-interna-implementada/README.md): monedero con punto único de mutación, fuentes y sumideros medidos, tiendas con stock y un simulador de 100 horas para detectar la inflación **antes** de publicar.
+- [Clase 295 — Sistema de inventario](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/295-sistema-de-inventario/README.md): los recursos del jugador tienen que estar en algún sitio, y ese sitio tiene reglas.
+
 ## 🔗 Referencias
 
 - Anna Anthropy & Naomi Clark — A Game Design Vocabulary: <https://www.penguinrandomhouse.com/books/313337/a-game-design-vocabulary/>

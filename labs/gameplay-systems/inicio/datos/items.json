@@ -1,0 +1,130 @@
+{
+	"version": 1,
+	"items": [
+		{ "id": "pocion_menor", "nombre": "Poción menor",
+		  "descripcion": "Restaura 25 puntos de vida.",
+		  "tipo": "CONSUMIBLE", "rareza": "COMUN", "max_stack": 20, "valor": 15,
+		  "tags": ["consumible", "curacion"],
+		  "efectos": [{ "tipo": "curar", "valor": 25 }] },
+
+		{ "id": "pocion_mayor", "nombre": "Poción mayor",
+		  "descripcion": "Restaura 80 puntos de vida.",
+		  "tipo": "CONSUMIBLE", "rareza": "POCO_COMUN", "max_stack": 10, "valor": 60,
+		  "tags": ["consumible", "curacion"],
+		  "efectos": [{ "tipo": "curar", "valor": 80 }] },
+
+		{ "id": "elixir_furia", "nombre": "Elixir de furia",
+		  "descripcion": "Aumenta el ataque durante un tiempo.",
+		  "tipo": "CONSUMIBLE", "rareza": "RARO", "max_stack": 5, "valor": 120,
+		  "tags": ["consumible", "buff"],
+		  "efectos": [{ "tipo": "estado", "estado": "furia", "duracion": 10.0 }] },
+
+		{ "id": "moneda_oro", "nombre": "Moneda de oro",
+		  "descripcion": "La moneda corriente del valle.",
+		  "tipo": "MONEDA", "rareza": "COMUN", "max_stack": 999, "valor": 1,
+		  "tags": ["moneda"] },
+
+		{ "id": "mineral_hierro", "nombre": "Mineral de hierro",
+		  "descripcion": "Sale de la mina del norte.",
+		  "tipo": "MATERIAL", "rareza": "COMUN", "max_stack": 50, "valor": 8,
+		  "tags": ["material", "metal"] },
+
+		{ "id": "lingote_hierro", "nombre": "Lingote de hierro",
+		  "descripcion": "Mineral fundido en la fragua.",
+		  "tipo": "MATERIAL", "rareza": "COMUN", "max_stack": 30, "valor": 22,
+		  "tags": ["material", "metal"] },
+
+		{ "id": "piel_lobo", "nombre": "Piel de lobo",
+		  "descripcion": "Áspera pero abrigada.",
+		  "tipo": "MATERIAL", "rareza": "COMUN", "max_stack": 30, "valor": 12,
+		  "tags": ["material", "cuero"] },
+
+		{ "id": "empunadura", "nombre": "Empuñadura de cuero",
+		  "descripcion": "Base de cualquier arma decente.",
+		  "tipo": "MATERIAL", "rareza": "COMUN", "max_stack": 20, "valor": 18,
+		  "tags": ["material", "cuero"] },
+
+		{ "id": "martillo_herrero", "nombre": "Martillo de herrero",
+		  "descripcion": "Herramienta, no arma. No se gasta al usarla.",
+		  "tipo": "MISCELANEA", "rareza": "POCO_COMUN", "max_stack": 1, "valor": 90,
+		  "tags": ["herramienta"] },
+
+		{ "id": "espada_hierro", "nombre": "Espada de hierro",
+		  "descripcion": "Fiable y pesada.",
+		  "tipo": "ARMA", "rareza": "COMUN", "max_stack": 1, "valor": 80,
+		  "tags": ["arma", "metal", "filo"],
+		  "efectos": [{ "tipo": "modificador", "stat": "ataque", "modo": "plano", "valor": 7 }] },
+
+		{ "id": "espada_acero", "nombre": "Espada de acero",
+		  "descripcion": "Más ligera y mejor equilibrada.",
+		  "tipo": "ARMA", "rareza": "POCO_COMUN", "max_stack": 1, "valor": 210,
+		  "tags": ["arma", "metal", "filo"],
+		  "efectos": [{ "tipo": "modificador", "stat": "ataque", "modo": "plano", "valor": 13 }] },
+
+		{ "id": "hacha_dos_manos", "nombre": "Hacha a dos manos",
+		  "descripcion": "Ocupa las dos manos, y se nota.",
+		  "tipo": "ARMA", "rareza": "RARO", "max_stack": 1, "valor": 340,
+		  "tags": ["arma", "metal", "dos_manos"],
+		  "efectos": [
+			{ "tipo": "modificador", "stat": "ataque", "modo": "plano", "valor": 22 },
+			{ "tipo": "modificador", "stat": "velocidad", "modo": "porcentual", "valor": -0.15 }] },
+
+		{ "id": "hoja_legendaria", "nombre": "Hoja del alba",
+		  "descripcion": "Nadie recuerda quién la forjó.",
+		  "tipo": "ARMA", "rareza": "LEGENDARIO", "max_stack": 1, "valor": 4000,
+		  "tags": ["arma", "unico", "filo"],
+		  "efectos": [
+			{ "tipo": "modificador", "stat": "ataque", "modo": "plano", "valor": 40 },
+			{ "tipo": "modificador", "stat": "ataque", "modo": "porcentual", "valor": 0.2 }] },
+
+		{ "id": "escudo_madera", "nombre": "Escudo de madera",
+		  "descripcion": "Mejor que nada.",
+		  "tipo": "ARMADURA", "rareza": "COMUN", "max_stack": 1, "valor": 45,
+		  "tags": ["escudo", "madera"],
+		  "efectos": [{ "tipo": "modificador", "stat": "defensa", "modo": "plano", "valor": 5 }] },
+
+		{ "id": "casco_hierro", "nombre": "Casco de hierro",
+		  "descripcion": "Pesado y sordo.",
+		  "tipo": "ARMADURA", "rareza": "COMUN", "max_stack": 1, "valor": 70,
+		  "tags": ["armadura", "metal"],
+		  "efectos": [{ "tipo": "modificador", "stat": "defensa", "modo": "plano", "valor": 8 }] },
+
+		{ "id": "coraza_hierro", "nombre": "Coraza de hierro",
+		  "descripcion": "Protege lo importante.",
+		  "tipo": "ARMADURA", "rareza": "POCO_COMUN", "max_stack": 1, "valor": 190,
+		  "tags": ["armadura", "metal"],
+		  "efectos": [
+			{ "tipo": "modificador", "stat": "defensa", "modo": "plano", "valor": 18 },
+			{ "tipo": "modificador", "stat": "velocidad", "modo": "porcentual", "valor": -0.08 }] },
+
+		{ "id": "capa_lobo", "nombre": "Capa de lobo",
+		  "descripcion": "Cosida con las pieles del camino.",
+		  "tipo": "ARMADURA", "rareza": "RARO", "max_stack": 1, "valor": 260,
+		  "tags": ["armadura", "cuero"],
+		  "efectos": [
+			{ "tipo": "modificador", "stat": "defensa", "modo": "plano", "valor": 10 },
+			{ "tipo": "modificador", "stat": "res_hielo", "modo": "plano", "valor": 0.25 }] },
+
+		{ "id": "anillo_fuerza", "nombre": "Anillo de fuerza",
+		  "descripcion": "Discreto y caro.",
+		  "tipo": "MISCELANEA", "rareza": "RARO", "max_stack": 1, "valor": 480,
+		  "tags": ["joya", "unico"],
+		  "efectos": [{ "tipo": "modificador", "stat": "fuerza", "modo": "plano", "valor": 4 }] },
+
+		{ "id": "amuleto_vida", "nombre": "Amuleto de vida",
+		  "descripcion": "Late, muy despacio.",
+		  "tipo": "MISCELANEA", "rareza": "EPICO", "max_stack": 1, "valor": 900,
+		  "tags": ["joya", "unico"],
+		  "efectos": [{ "tipo": "modificador", "stat": "constitucion", "modo": "porcentual", "valor": 0.15 }] },
+
+		{ "id": "llave_guarida", "nombre": "Llave de la guarida",
+		  "descripcion": "Oxidada, pero gira.",
+		  "tipo": "CLAVE", "rareza": "POCO_COMUN", "max_stack": 1, "valor": 0,
+		  "tags": ["clave"] },
+
+		{ "id": "colmillo_alfa", "nombre": "Colmillo del alfa",
+		  "descripcion": "Prueba de que estuviste allí.",
+		  "tipo": "MATERIAL", "rareza": "EPICO", "max_stack": 10, "valor": 350,
+		  "tags": ["material", "trofeo"] }
+	]
+}

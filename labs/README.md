@@ -21,12 +21,16 @@ Ambas versiones se **verifican en CI con Godot headless** en cada push: se impor
 | [**Multijugador**](multijugador/README.md) | [Parte 7](../classes/parte-7-multijugador-y-networking/README.md) (clases 138–155) | Una arena en red con servidor autoritativo: predicción, reconciliación, interpolación de remotos y validación anti-cheat, sobre ENet puro. |
 | [**IA de enemigos**](ia-enemigo/README.md) | [Parte 5](../classes/parte-5-inteligencia-artificial-para-juegos/README.md) (clases 108–125) | Un enemigo con behavior tree, cono de visión, memoria y pathfinding A\*: patrulla, te ve, te persigue, te pierde y va a buscarte. |
 | [**UI accesible**](ui-accesible/README.md) | [Parte 10](../classes/parte-10-ui-ux-accesibilidad-y-localizacion/README.md) (clases 188–199) | Menú, HUD y opciones que cambian de idioma en marcha, aguantan el texto al 200 % y se navegan enteros con el teclado. |
+| [**Sistemas de gameplay**](gameplay-systems/README.md) | [Parte 18](../classes/parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/README.md) (clases 293–310) | Inventario, equipo, stats con modificadores, habilidades, efectos de estado, loot, quests, progresión y economía — con guardado versionado y migraciones. |
+| [**Runtime de producción**](production-runtime/README.md) | [Parte 19](../classes/parte-19-ingenieria-de-produccion-backend-y-confiabilidad/README.md) (clases 311–324) | Cliente de backend que sobrevive a un servidor hostil: reintentos con jitter, circuit breaker, idempotencia, feature flags, telemetría con consentimiento y saves atómicos con checksum. |
+| [**Sistema de IA en el juego**](ai-game-system/README.md) | [Parte 20](../classes/parte-20-ia-generativa-y-desarrollo-asistido-por-ia/README.md) (clases 325–338) | NPC con lore anclado y validación de salida, donde el modelo propone y el juego dispone. Determinista, sin red y **sin claves de API**. |
+| [**Ingeniería avanzada**](advanced-engineering/README.md) | [Parte 21](../classes/parte-21-arquitectura-avanzada-de-motores-y-rendering/README.md) (clases 339–352) | Banco que mide SoA frente a AoS, pool frente a asignación, rejilla frente a fuerza bruta y paralelo frente a secuencial — comprobando que dan el mismo resultado. |
 
-## 🎯 Por qué hay seis labs y no dieciocho
+## 🎯 Por qué hay diez labs y no veintidós
 
 Porque un laboratorio solo tiene sentido cuando la parte **termina en algo que se ejecuta**, y no todas terminan en eso — ni deberían.
 
-- **Las partes de programación** (2D, 3D, shaders, IA, multijugador, UI) terminan en un proyecto que corre. Ahí un lab es lo natural, y lo tienen.
+- **Las partes de programación** (2D, 3D, shaders, IA, multijugador, UI, sistemas de gameplay, runtime de producción, IA generativa e ingeniería avanzada) terminan en un proyecto que corre. Ahí un lab es lo natural, y lo tienen.
 - **Las partes de arte, game design, producción y carrera** terminan en un entregable que no es un ejecutable: un set de assets coherente, un documento de diseño, un presupuesto, un portfolio. Meterlas a la fuerza en un `project.godot` no enseñaría nada — su reto verificable está en la propia clase, y ahí se queda.
 - **Las que dependen de hardware o de servicios** (VR/AR, móvil y consolas, backends) no se pueden verificar en un servidor de CI sin visor, sin teléfono y sin cuenta. Prometer un lab verificado ahí sería mentir.
 
@@ -38,10 +42,11 @@ Las que faltan y sí tendrían sentido —**física** (Parte 3, con integradores
 
 Conviene ser exacto, porque es la diferencia entre "está escrito" y "funciona":
 
-- **Los seis laboratorios se ejecutan en CI** en cada push: se importan, se arrancan con Godot headless y se les exige una prueba positiva — que el nivel se construya, que los shaders compilen, que la red conecte, que la IA decida, que la UI no se recorte. Si el badge está verde, **este código funciona**.
+- **Los diez laboratorios se ejecutan en CI** en cada push: se importan, se arrancan con Godot headless y se les exige una prueba positiva — que el nivel se construya, que los shaders compilen, que la red conecte, que la IA decida, que la UI no se recorte.
+- **Los cuatro últimos van más allá y ejecutan suites de pruebas completas** (122, 91, 55 y 33 comprobaciones): apilado y transacciones de inventario, modificadores de stats, transiciones de quest y migraciones de guardado; reintentos, circuit breaker, flags y compatibilidad de saves; siete ataques de prompt injection que no alteran el estado del juego; y equivalencia entre cada versión optimizada y su referencia lenta. Si el badge está verde, **este código funciona**.
 - **El código dentro de los README de clase no se ejecuta en CI.** Está escrito y revisado a mano, y es material de lectura: fragmentos que ilustran una idea, muchos de ellos trozos de un archivo mayor. No son proyectos que se abran.
 
-Dicho de otra forma: el badge cubre los labs, no las 292 clases. Preferimos decirlo a que te lo encuentres.
+Dicho de otra forma: el badge cubre los labs, no las 352 clases. Preferimos decirlo a que te lo encuentres.
 
 ## 🚀 Cómo usarlos
 
@@ -55,7 +60,7 @@ Dicho de otra forma: el badge cubre los labs, no las 292 clases. Preferimos deci
 
 Todos los assets (sprites, texturas y sonidos) son **obra original generada por código** con [`scripts/generar_assets.py`](../scripts/generar_assets.py) y están en **dominio público (CC0)**: puedes usarlos para lo que quieras, sin atribución y sin arrastrar licencias de terceros.
 
-Cada lab declara ahí qué assets necesita, y hay bastante menos de lo que parece: el lab 3D no trae ni una malla (todo son primitivas de Godot montadas por código) y el de shaders solo necesita dos texturas.
+Cada lab declara ahí qué assets necesita, y hay bastante menos de lo que parece: el lab 3D no trae ni una malla (todo son primitivas de Godot montadas por código) y el de shaders solo necesita dos texturas. Los cuatro laboratorios de las Partes 18–21 **no tienen ningún asset binario**: son sistemas, y todo lo que consumen son archivos JSON de datos que puedes leer y editar en un editor de texto.
 
 ¿Quieres cambiarlos? Edita el generador y vuelve a ejecutarlo:
 

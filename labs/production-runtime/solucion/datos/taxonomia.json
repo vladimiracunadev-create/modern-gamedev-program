@@ -1,0 +1,61 @@
+{
+	"version_taxonomia": 1,
+	"eventos": {
+		"sesion_iniciada": {
+			"v": 1,
+			"descripcion": "El jugador ha arrancado el juego y ha llegado al menú.",
+			"pregunta": "¿Cuánta gente juega y desde qué plataforma?",
+			"consentimiento": "esencial",
+			"campos": {
+				"plataforma": { "tipo": "string",
+					"valores": ["windows", "linux", "macos", "android", "ios", "web"] },
+				"build": { "tipo": "string" },
+				"primera_vez": { "tipo": "bool" }
+			}
+		},
+		"crash": {
+			"v": 1,
+			"descripcion": "El juego se ha cerrado de forma inesperada.",
+			"pregunta": "¿Qué está fallando y en qué plataforma?",
+			"consentimiento": "esencial",
+			"campos": {
+				"plataforma": { "tipo": "string",
+					"valores": ["windows", "linux", "macos", "android", "ios", "web"] },
+				"build": { "tipo": "string" },
+				"escena": { "tipo": "string" }
+			}
+		},
+		"nivel_completado": {
+			"v": 2,
+			"descripcion": "El jugador ha terminado un nivel.",
+			"pregunta": "¿Dónde se atasca la gente y cuánto tarda?",
+			"consentimiento": "analitica",
+			"campos": {
+				"nivel_id": { "tipo": "string" },
+				"segundos": { "tipo": "int", "min": 0, "max": 86400 },
+				"muertes": { "tipo": "int", "min": 0, "max": 10000 },
+				"dificultad": { "tipo": "string", "valores": ["facil", "normal", "dificil"] }
+			}
+		},
+		"compra_realizada": {
+			"v": 1,
+			"descripcion": "Compra completada dentro del juego.",
+			"pregunta": "¿Qué se compra y en qué momento de la progresión?",
+			"consentimiento": "analitica",
+			"campos": {
+				"sku": { "tipo": "string" },
+				"moneda": { "tipo": "string" },
+				"nivel_jugador": { "tipo": "int", "min": 1, "max": 999 }
+			}
+		},
+		"campana_vista": {
+			"v": 1,
+			"descripcion": "El jugador ha visto una promoción dentro del juego.",
+			"pregunta": "¿Qué promociones funcionan?",
+			"consentimiento": "marketing",
+			"campos": {
+				"campana_id": { "tipo": "string" }
+			}
+		}
+	}
+}

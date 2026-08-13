@@ -2,8 +2,8 @@
 
 > [⬅️ Volver al programa](../README.md) · [🗺️ Roadmap](../ROADMAP.md)
 
-Programa secuencial de **292 clases** en **18 partes**. La numeración es global (001→…) y el orden importa: cada clase asume la anterior.
-**Estado:** 292 clases construidas en 18 de 18 partes · 0 clases planificadas.
+Programa secuencial de **352 clases** en **22 partes**. La numeración es global (001→…) y el orden importa: cada clase asume la anterior.
+**Estado:** 352 clases construidas en 22 de 22 partes · 0 clases planificadas.
 
 
 ---
@@ -425,3 +425,91 @@ Programa secuencial de **292 clases** en **18 partes**. La numeración es global
 | 290 | [Game jams como trampolín profesional](parte-17-capstones-y-preparacion-profesional-portfolio/290-game-jams-como-trampolin-profesional/README.md) |
 | 291 | [Comunidad, networking y carrera en la industria](parte-17-capstones-y-preparacion-profesional-portfolio/291-comunidad-networking-y-carrera-en-la-industria/README.md) |
 | 292 | [Capstone final: publica tu juego y tu portfolio](parte-17-capstones-y-preparacion-profesional-portfolio/292-capstone-final-publica-tu-juego-y-tu-portfolio/README.md) |
+
+## ✅ Parte 18 — Arquitectura de gameplay y sistemas sistémicos · clases 293–310
+
+> [📂 Ver README de la parte](parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/README.md)
+
+| # | Clase |
+|---|---|
+| 293 | [Arquitectura de gameplay a escala](parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/293-arquitectura-de-gameplay-a-escala/README.md) |
+| 294 | [Items y base de datos de objetos](parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/294-items-y-base-de-datos-de-objetos/README.md) |
+| 295 | [Sistema de inventario](parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/295-sistema-de-inventario/README.md) |
+| 296 | [Equipamiento, loadouts y estadísticas](parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/296-equipamiento-loadouts-y-estadisticas/README.md) |
+| 297 | [Ability System: arquitectura de habilidades](parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/297-ability-system-arquitectura-de-habilidades/README.md) |
+| 298 | [Status effects, buffs y debuffs](parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/298-status-effects-buffs-y-debuffs/README.md) |
+| 299 | [Arquitectura avanzada de combate y daño](parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/299-arquitectura-avanzada-de-combate-y-dano/README.md) |
+| 300 | [Loot tables y sistemas de recompensas](parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/300-loot-tables-y-sistemas-de-recompensas/README.md) |
+| 301 | [Crafting y recetas](parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/301-crafting-y-recetas/README.md) |
+| 302 | [Progresión y skill trees](parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/302-progresion-y-skill-trees/README.md) |
+| 303 | [Economía interna implementada](parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/303-economia-interna-implementada/README.md) |
+| 304 | [Sistemas de diálogo](parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/304-sistemas-de-dialogo/README.md) |
+| 305 | [Quest System](parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/305-quest-system/README.md) |
+| 306 | [Facciones, reputación y relaciones](parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/306-facciones-reputacion-y-relaciones/README.md) |
+| 307 | [Save System de producción](parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/307-save-system-de-produccion/README.md) |
+| 308 | [Commands, input recording y replays](parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/308-commands-input-recording-y-replays/README.md) |
+| 309 | [Modding y arquitectura extensible](parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/309-modding-y-arquitectura-extensible/README.md) |
+| 310 | [Capstone Parte 18: un juego sistémico](parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/310-capstone-parte-18-un-juego-sistemico/README.md) |
+
+## ✅ Parte 19 — Ingeniería de producción, backend y confiabilidad · clases 311–324
+
+> [📂 Ver README de la parte](parte-19-ingenieria-de-produccion-backend-y-confiabilidad/README.md)
+
+| # | Clase |
+|---|---|
+| 311 | [Arquitectura backend para videojuegos](parte-19-ingenieria-de-produccion-backend-y-confiabilidad/311-arquitectura-backend-para-videojuegos/README.md) |
+| 312 | [Identidad, perfiles y entitlements](parte-19-ingenieria-de-produccion-backend-y-confiabilidad/312-identidad-perfiles-y-entitlements/README.md) |
+| 313 | [Cloud saves, cross-save y resolución de conflictos](parte-19-ingenieria-de-produccion-backend-y-confiabilidad/313-cloud-saves-cross-save-y-resolucion-de-conflictos/README.md) |
+| 314 | [Economía transaccional de servidor](parte-19-ingenieria-de-produccion-backend-y-confiabilidad/314-economia-transaccional-de-servidor/README.md) |
+| 315 | [Remote Config, feature flags y experimentos](parte-19-ingenieria-de-produccion-backend-y-confiabilidad/315-remote-config-feature-flags-y-experimentos/README.md) |
+| 316 | [Observabilidad de juegos](parte-19-ingenieria-de-produccion-backend-y-confiabilidad/316-observabilidad-de-juegos/README.md) |
+| 317 | [Telemetría, privacidad y gobernanza de datos](parte-19-ingenieria-de-produccion-backend-y-confiabilidad/317-telemetria-privacidad-y-gobernanza-de-datos/README.md) |
+| 318 | [Threat modeling para videojuegos](parte-19-ingenieria-de-produccion-backend-y-confiabilidad/318-threat-modeling-para-videojuegos/README.md) |
+| 319 | [Anti-cheat y respuesta frente al abuso](parte-19-ingenieria-de-produccion-backend-y-confiabilidad/319-anti-cheat-y-respuesta-frente-al-abuso/README.md) |
+| 320 | [Testing de producción](parte-19-ingenieria-de-produccion-backend-y-confiabilidad/320-testing-de-produccion/README.md) |
+| 321 | [Performance regression testing](parte-19-ingenieria-de-produccion-backend-y-confiabilidad/321-performance-regression-testing/README.md) |
+| 322 | [Build y release engineering](parte-19-ingenieria-de-produccion-backend-y-confiabilidad/322-build-y-release-engineering/README.md) |
+| 323 | [Parches, delivery y recuperación](parte-19-ingenieria-de-produccion-backend-y-confiabilidad/323-parches-delivery-y-recuperacion/README.md) |
+| 324 | [Capstone Parte 19: un runtime de producción](parte-19-ingenieria-de-produccion-backend-y-confiabilidad/324-capstone-parte-19-un-runtime-de-produccion/README.md) |
+
+## ✅ Parte 20 — IA generativa y desarrollo asistido por IA · clases 325–338
+
+> [📂 Ver README de la parte](parte-20-ia-generativa-y-desarrollo-asistido-por-ia/README.md)
+
+| # | Clase |
+|---|---|
+| 325 | [IA generativa en desarrollo de videojuegos](parte-20-ia-generativa-y-desarrollo-asistido-por-ia/325-ia-generativa-en-desarrollo-de-videojuegos/README.md) |
+| 326 | [Prompt y specification engineering para juegos](parte-20-ia-generativa-y-desarrollo-asistido-por-ia/326-prompt-y-specification-engineering-para-juegos/README.md) |
+| 327 | [Agentes de programación para GameDev](parte-20-ia-generativa-y-desarrollo-asistido-por-ia/327-agentes-de-programacion-para-gamedev/README.md) |
+| 328 | [Código generado por IA con verificación](parte-20-ia-generativa-y-desarrollo-asistido-por-ia/328-codigo-generado-por-ia-con-verificacion/README.md) |
+| 329 | [Assets generativos y provenance](parte-20-ia-generativa-y-desarrollo-asistido-por-ia/329-assets-generativos-y-provenance/README.md) |
+| 330 | [Pipeline técnico de assets asistido por IA](parte-20-ia-generativa-y-desarrollo-asistido-por-ia/330-pipeline-tecnico-de-assets-asistido-por-ia/README.md) |
+| 331 | [NPC controlados por LLM](parte-20-ia-generativa-y-desarrollo-asistido-por-ia/331-npc-controlados-por-llm/README.md) |
+| 332 | [RAG, memoria y lore del mundo](parte-20-ia-generativa-y-desarrollo-asistido-por-ia/332-rag-memoria-y-lore-del-mundo/README.md) |
+| 333 | [Diálogo, quests y contenido generativo](parte-20-ia-generativa-y-desarrollo-asistido-por-ia/333-dialogo-quests-y-contenido-generativo/README.md) |
+| 334 | [Proveedores locales y remotos](parte-20-ia-generativa-y-desarrollo-asistido-por-ia/334-proveedores-locales-y-remotos/README.md) |
+| 335 | [Coste, latencia, caché y fallbacks](parte-20-ia-generativa-y-desarrollo-asistido-por-ia/335-coste-latencia-cache-y-fallbacks/README.md) |
+| 336 | [Seguridad y moderación de IA dentro del juego](parte-20-ia-generativa-y-desarrollo-asistido-por-ia/336-seguridad-y-moderacion-de-ia-dentro-del-juego/README.md) |
+| 337 | [Evaluación de sistemas generativos](parte-20-ia-generativa-y-desarrollo-asistido-por-ia/337-evaluacion-de-sistemas-generativos/README.md) |
+| 338 | [Capstone Parte 20: un NPC con lore verificable](parte-20-ia-generativa-y-desarrollo-asistido-por-ia/338-capstone-parte-20-un-npc-con-lore-verificable/README.md) |
+
+## ✅ Parte 21 — Arquitectura avanzada de motores y rendering · clases 339–352
+
+> [📂 Ver README de la parte](parte-21-arquitectura-avanzada-de-motores-y-rendering/README.md)
+
+| # | Clase |
+|---|---|
+| 339 | [Data-Oriented Design](parte-21-arquitectura-avanzada-de-motores-y-rendering/339-data-oriented-design/README.md) |
+| 340 | [Allocators y gestión avanzada de memoria](parte-21-arquitectura-avanzada-de-motores-y-rendering/340-allocators-y-gestion-avanzada-de-memoria/README.md) |
+| 341 | [Job Systems y Task Graphs](parte-21-arquitectura-avanzada-de-motores-y-rendering/341-job-systems-y-task-graphs/README.md) |
+| 342 | [Particionamiento espacial](parte-21-arquitectura-avanzada-de-motores-y-rendering/342-particionamiento-espacial/README.md) |
+| 343 | [Resource Management y streaming asíncrono](parte-21-arquitectura-avanzada-de-motores-y-rendering/343-resource-management-y-streaming-asincrono/README.md) |
+| 344 | [Grandes mundos y world partition](parte-21-arquitectura-avanzada-de-motores-y-rendering/344-grandes-mundos-y-world-partition/README.md) |
+| 345 | [Rendering temporal](parte-21-arquitectura-avanzada-de-motores-y-rendering/345-rendering-temporal/README.md) |
+| 346 | [Upscaling y resolución dinámica](parte-21-arquitectura-avanzada-de-motores-y-rendering/346-upscaling-y-resolucion-dinamica/README.md) |
+| 347 | [HDR y gestión moderna de color](parte-21-arquitectura-avanzada-de-motores-y-rendering/347-hdr-y-gestion-moderna-de-color/README.md) |
+| 348 | [Global illumination y ray tracing moderno](parte-21-arquitectura-avanzada-de-motores-y-rendering/348-global-illumination-y-ray-tracing-moderno/README.md) |
+| 349 | [GPU-driven rendering](parte-21-arquitectura-avanzada-de-motores-y-rendering/349-gpu-driven-rendering/README.md) |
+| 350 | [Shader compilation y stutter](parte-21-arquitectura-avanzada-de-motores-y-rendering/350-shader-compilation-y-stutter/README.md) |
+| 351 | [APIs gráficas modernas](parte-21-arquitectura-avanzada-de-motores-y-rendering/351-apis-graficas-modernas/README.md) |
+| 352 | [Capstone Parte 21: ingeniería avanzada verificable](parte-21-arquitectura-avanzada-de-motores-y-rendering/352-capstone-parte-21-ingenieria-avanzada-verificable/README.md) |

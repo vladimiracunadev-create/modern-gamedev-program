@@ -1,6 +1,6 @@
 # Parte 17 — Capstones y preparación profesional / portfolio
 
-> [⬅️ Volver al programa](../../README.md) · [📚 Índice completo](../README.md) · [⏮️ Parte anterior](../parte-16-produccion-publicacion-monetizacion-y-liveops/README.md)
+> [⬅️ Volver al programa](../../README.md) · [📚 Índice completo](../README.md) · [⏮️ Parte anterior](../parte-16-produccion-publicacion-monetizacion-y-liveops/README.md) · [⏭️ Parte siguiente](../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/README.md)
 
 **12 clases** · rango 281–292 · El cierre: llevar un proyecto de la idea al vertical slice, pulirlo, publicarlo, construir tu portfolio y lanzarte a la industria
 
@@ -63,4 +63,6 @@ Al terminar la parte, el alumno podrá:
 
 ---
 
-> **Fin del programa.** Has recorrido de los fundamentos a la publicación profesional. Ahora la parte más importante: **construir, terminar y publicar**. Vuelve al [índice](../README.md) y elige tu próximo capstone. 🎮
+> **Fin del núcleo del programa.** Has recorrido de los fundamentos a la publicación profesional: con las Partes 0–17 ya puedes hacer un juego y sacarlo al mundo. Lo más importante ahora es **construir, terminar y publicar**.
+>
+> Y si quieres seguir, el tramo avanzado empieza en la [Parte 18](../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/README.md): arquitectura de sistemas de gameplay, ingeniería de producción y backend, IA generativa verificada y arquitectura interna de motores. 🎮

@@ -9,7 +9,7 @@ se generan bajo demanda en `material/`, que está en .gitignore.
 Uso:
   python scripts/generar_material.py --parte 1      # solo la parte 1
   python scripts/generar_material.py --parte 0 1 2  # varias partes
-  python scripts/generar_material.py --all          # las 292 clases (~10 min)
+  python scripts/generar_material.py --all          # las 352 clases (~12 min)
   python scripts/generar_material.py --parte 1 --solo-html   # sin PDF (rápido)
 
 Requiere: pip install "markdown>=3.6" y Chrome o Edge instalado (headless).

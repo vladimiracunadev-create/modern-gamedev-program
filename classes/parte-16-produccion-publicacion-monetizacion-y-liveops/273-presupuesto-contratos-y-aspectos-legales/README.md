@@ -128,6 +128,15 @@ Las dudas legales más comunes tienen que ver con licencias, contratos y cuándo
 
 **¿Puedo usar assets de IA generativa?** Depende de los términos de la herramienta y de la legislación, que está en evolución. Revisa la licencia de la herramienta, guarda evidencia y, ante la duda sobre propiedad o derechos de terceros, consulta a un profesional antes de comercializar.
 
+## 🔭 Para ir más lejos
+
+Al marco legal de esta clase hay que añadirle hoy un asunto que no existía hace pocos años: **el contenido generado por IA**. Afecta a qué puedes registrar como obra propia, qué puedes usar comercialmente, qué tienes que declarar en las tiendas y qué haces si alguien reclama.
+
+- [Clase 329 — Assets generativos y provenance](../../parte-20-ia-generativa-y-desarrollo-asistido-por-ia/329-assets-generativos-y-provenance/README.md): registro de procedencia obligatorio y verificado en CI, licencias de las herramientas (que pesan más que la ley general para el uso comercial), requisitos de divulgación de las plataformas, y la política de equipo — incluida su dimensión laboral, que es una decisión que hay que tomar explícitamente.
+- [Clase 317 — Telemetría, privacidad y gobernanza de datos](../../parte-19-ingenieria-de-produccion-backend-y-confiabilidad/317-telemetria-privacidad-y-gobernanza-de-datos/README.md): obligaciones de protección de datos, consentimiento, retención y el caso especial de los menores.
+
+Ninguna de las dos sustituye a un profesional, y las dos lo dicen. Lo que aportan es saber **qué preguntar** y tener el sistema técnico listo para cumplir.
+
 ## 🔗 Referencias
 
 - Heather Chandler — The Game Production Toolbox: <https://www.routledge.com/>

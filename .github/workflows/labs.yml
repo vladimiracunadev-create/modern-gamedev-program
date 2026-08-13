@@ -36,7 +36,8 @@ jobs:
         # Cada lab se valida en sus dos versiones: la solución de referencia y
         # el proyecto de partida (el alumno debe poder abrir 'inicio' y que
         # arranque sin errores).
-        lab: [plataformas-2d, 3d-tercera-persona, shaders, multijugador, ia-enemigo, ui-accesible]
+        lab: [plataformas-2d, 3d-tercera-persona, shaders, multijugador, ia-enemigo, ui-accesible,
+              gameplay-systems, production-runtime, ai-game-system, advanced-engineering]
         proyecto: [solucion, inicio]
         # 'marcador' es la prueba POSITIVA de cada lab: la línea que el proyecto
         # tiene que imprimir para demostrar que no solo arrancó, sino que llegó a
@@ -57,6 +58,14 @@ jobs:
             marcador: "Nivel construido:"
           - lab: ui-accesible
             marcador: "UI construida:"
+          - lab: gameplay-systems
+            marcador: "Mundo construido:"
+          - lab: production-runtime
+            marcador: "Runtime construido:"
+          - lab: ai-game-system
+            marcador: "Sistema IA construido:"
+          - lab: advanced-engineering
+            marcador: "Banco listo:"
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -460,3 +469,161 @@ jobs:
             echo "- Texto al 100/150/200 % sin recortes · 16:9, 21:9 y 4:3"
           } >> "$GITHUB_STEP_SUMMARY"
           echo "La UI aguanta ✔"
+
+  # Los cuatro labs de las Partes 18-21 no son escenas que se miran: son sistemas
+  # que se prueban. Cada uno trae su propia suite y este job la ejecuta entera.
+  #
+  # El umbral 'minimo' NO es decorativo: sin él, una suite que se corta a la
+  # tercera comprobación reportaría "0 fallos" y el job pasaría en verde. Se
+  # exige un número de comprobaciones cercano al real, así que borrar pruebas
+  # para que deje de fallar tampoco cuela.
+  #
+  # Solo sobre 'solucion': 'inicio' tiene los TODO sin hacer y sus pruebas deben
+  # fallar — es su razón de ser. El job de arriba ya verifica que 'inicio'
+  # importa y arranca limpio, que es lo que se le puede exigir.
+  sistemas:
+    name: ${{ matrix.lab }} · suite de pruebas
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - lab: gameplay-systems
+            script: res://pruebas/sistemas_test.gd
+            minimo: 110
+            titulo: "🎒 Sistemas de gameplay"
+            detalle: "Apilado y transacciones atómicas · equipo y modificadores · efectos con conteo por fuente · quests · migraciones de guardado v1→v3"
+          - lab: production-runtime
+            script: res://pruebas/runtime_test.gd
+            minimo: 85
+            titulo: "☁️ Runtime de producción"
+            detalle: "Reintentos con jitter · circuit breaker · idempotencia · feature flags deterministas · telemetría con taxonomía · saves atómicos con checksum"
+          - lab: ai-game-system
+            script: res://pruebas/ia_test.gd
+            minimo: 50
+            titulo: "🤖 Sistema de IA en el juego"
+            detalle: "Siete ataques de prompt injection sin efecto en el juego · lore con visibilidad · degradación sin IA · caché normalizada. Sin red y sin claves."
+          - lab: advanced-engineering
+            script: res://pruebas/ingenieria_test.gd
+            minimo: 30
+            titulo: "⚙️ Ingeniería avanzada"
+            detalle: "SoA==AoS · rejilla==fuerza bruta · pool y arena · grafo de tareas con detección de ciclos · paralelo determinista en 50 pasadas"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          lfs: true
+
+      - name: Descargar Godot ${{ env.GODOT_VERSION }} (headless)
+        run: |
+          set -euo pipefail
+          URL="https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}-stable/Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip"
+          curl -sSfL "$URL" -o godot.zip
+          unzip -q godot.zip
+          mv "Godot_v${GODOT_VERSION}-stable_linux.x86_64" /usr/local/bin/godot
+          chmod +x /usr/local/bin/godot
+
+      - name: Importar
+        run: |
+          set -euo pipefail
+          godot --headless --path "labs/${{ matrix.lab }}/solucion" --import > import.log 2>&1 || true
+          if grep -E "SCRIPT ERROR|Parse Error|ERROR:" import.log; then
+            echo "::error::el lab ${{ matrix.lab }} no importa limpio"
+            cat import.log
+            exit 1
+          fi
+
+      - name: Ejecutar la suite
+        run: |
+          set -euo pipefail
+          godot --headless --path "labs/${{ matrix.lab }}/solucion" \
+                --script "${{ matrix.script }}" 2>&1 | tee test.log || true
+
+          # Un error del motor invalida el resultado aunque el contador diga 0
+          # fallos: si algo dejó de cargar, lo que se probó no es lo que hay.
+          if grep -E "SCRIPT ERROR|Parse Error|ERROR:|Cannot call method|leaked" test.log; then
+            echo "::error::${{ matrix.lab }} lanza errores durante las pruebas"
+            exit 1
+          fi
+
+          resumen=$(sed -n 's/^== \([0-9]*\) comprobaciones, \([0-9]*\) fallo.*/\1 \2/p' test.log | head -1)
+          hechas=$(echo "$resumen" | cut -d' ' -f1)
+          fallos=$(echo "$resumen" | cut -d' ' -f2)
+          hechas=${hechas:-0}
+          fallos=${fallos:-99}
+
+          if [ "$hechas" -lt "${{ matrix.minimo }}" ]; then
+            echo "::error::solo se ejecutaron $hechas comprobaciones (esperaba ${{ matrix.minimo }}+): ¿se cortó a media suite?"
+            cat test.log
+            exit 1
+          fi
+          if [ "$fallos" -ne 0 ]; then
+            echo "::error::$fallos comprobación(es) han fallado en ${{ matrix.lab }}"
+            cat test.log
+            exit 1
+          fi
+
+          echo "comprobaciones: $hechas · fallos: $fallos"
+          {
+            echo "### ${{ matrix.titulo }}"
+            echo ""
+            echo "- Comprobaciones: **$hechas**, fallos: **$fallos**"
+            echo "- ${{ matrix.detalle }}"
+          } >> "$GITHUB_STEP_SUMMARY"
+          echo "La suite pasa ✔"
+
+  # Los labs de las Partes 18-21 prometen funcionar sin red, sin claves de API y
+  # sin servicios de pago. Una promesa que no se comprueba dura hasta el primer
+  # despiste, así que aquí se comprueba: si alguien añade una llamada HTTP o una
+  # clave, este job lo dice antes de que llegue a main.
+  #
+  # No sustituye al workflow de seguridad (que escanea el repo entero): es una
+  # verificación específica del contrato de estos cuatro laboratorios.
+  offline:
+    name: labs 18-21 · sin red y sin claves
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Comprobar que no hay llamadas de red ni credenciales
+        run: |
+          set -euo pipefail
+          LABS="labs/gameplay-systems labs/production-runtime labs/ai-game-system labs/advanced-engineering"
+          fallos=0
+          fallo() { echo "::error::$1"; fallos=$((fallos + 1)); }
+
+          # 1) Nada de red en el código GDScript. El lab de runtime simula un
+          #    backend hostil con un mock en memoria: no necesita salir a
+          #    internet, y ese es justo el punto.
+          if grep -rnE "HTTPRequest|HTTPClient|StreamPeerTCP|StreamPeerTLS|PacketPeerUDP|ENetMultiplayerPeer|WebSocketPeer" \
+               --include="*.gd" $LABS; then
+            fallo "hay clases de red en unos labs que deben funcionar offline"
+          fi
+
+          # 2) Ninguna URL http(s) real. Se permiten las de documentación en
+          #    comentarios de godotengine.org y las rutas res:// del motor.
+          if grep -rnE "https?://" --include="*.gd" --include="*.json" --include="*.godot" $LABS \
+               | grep -vE "godotengine\.org|docs\.godotengine"; then
+            fallo "hay URLs externas en los labs offline"
+          fi
+
+          # 3) Nada que se parezca a una clave. El patrón busca asignaciones con
+          #    valor largo, no la palabra suelta: 'api_key' como nombre de campo
+          #    en un ejemplo de configuración es legítimo; un valor de 20+
+          #    caracteres al lado, no.
+          if grep -rniE "(api[_-]?key|secret|token|password|bearer)[\"' ]*[:=][\"' ]*[A-Za-z0-9_\-]{20,}" \
+               --include="*.gd" --include="*.json" --include="*.cfg" --include="*.godot" $LABS; then
+            fallo "hay algo con pinta de credencial en los labs"
+          fi
+
+          if [ "$fallos" -gt 0 ]; then
+            exit 1
+          fi
+          {
+            echo "### 🔒 Contrato de los labs 18–21"
+            echo ""
+            echo "- Sin clases de red · sin URLs externas · sin credenciales"
+            echo "- La CI ejecuta estos cuatro laboratorios **completamente offline**"
+          } >> "$GITHUB_STEP_SUMMARY"
+          echo "Los labs cumplen su contrato offline ✔"

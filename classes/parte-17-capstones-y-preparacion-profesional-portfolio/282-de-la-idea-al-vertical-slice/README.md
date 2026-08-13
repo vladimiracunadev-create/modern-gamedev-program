@@ -128,6 +128,19 @@ Entrega `slice-plan.md` y valida su alcance con la **regla de la semana**: si tr
 
 **❓ ¿El slice tiene que incluir menús y pantalla de título?** Solo lo justo para entrar y salir del core loop con dignidad. Un menú mínimo y una pantalla de fin bastan; los menús extensos de opciones pertenecen a la fase de preparación para el público, no al slice.
 
+## 🔭 Para ir más lejos
+
+Un vertical slice se juzga por lo que demuestra. Si tu proyecto va a tener sistemas de juego, backend o contenido generado, conviene que el alcance incluya desde el principio cuatro cosas que después son caras de añadir:
+
+| Añadir al alcance | Por qué | Dónde se construye |
+|---|---|---|
+| **Arquitectura por capas** | Sin ella, el slice no crece; se reescribe | [Clase 293](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/293-arquitectura-de-gameplay-a-escala/README.md) |
+| **Criterios de aceptación verificables** | "Está terminado" tiene que significar algo | [Clase 310](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/310-capstone-parte-18-un-juego-sistemico/README.md) |
+| **Pruebas automáticas y profiling** | Un slice que se rompe al añadir la siguiente pieza no demuestra nada | [Clases 320](../../parte-19-ingenieria-de-produccion-backend-y-confiabilidad/320-testing-de-produccion/README.md) y [321](../../parte-19-ingenieria-de-produccion-backend-y-confiabilidad/321-performance-regression-testing/README.md) |
+| **Compatibilidad de guardado** | Si el slice va a evolucionar, sus saves también | [Clase 307](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/307-save-system-de-produccion/README.md) |
+
+No es alcance "extra": es lo que diferencia un vertical slice de una demo que solo funciona si nadie la toca.
+
 ## 🔗 Referencias
 
 - GDC — charlas sobre vertical slice y producción: <https://www.youtube.com/user/gdconf>

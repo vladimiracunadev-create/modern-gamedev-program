@@ -130,6 +130,16 @@ Entrega el **diseño narrativo de un nivel** contado por completo a través del 
 
 **¿La disonancia ludonarrativa siempre es un error?** No siempre; algunos juegos la usan deliberadamente como comentario. El problema es la disonancia *accidental*, que rompe la inmersión sin querer.
 
+## 🔭 Para ir más lejos
+
+La narrativa que escribes aquí necesita máquinas que la ejecuten. En la Parte 18 se construyen las tres:
+
+- [Clase 304 — Sistemas de diálogo](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/304-sistemas-de-dialogo/README.md): grafo de nodos con condiciones, variables, consecuencias y localización, más un validador que detecta saltos rotos y ramas inalcanzables **antes** de que un jugador se quede atascado mirando a un NPC.
+- [Clase 305 — Quest System](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/305-quest-system/README.md): misiones como datos, con estados, cadenas y objetivos que avanzan escuchando eventos del juego.
+- [Clase 306 — Facciones, reputación y relaciones](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/306-facciones-reputacion-y-relaciones/README.md): consecuencias que se propagan, para que una decisión de la hora 3 se note en la hora 20.
+
+Y si te interesa el diálogo generado dinámicamente, la [clase 333](../../parte-20-ia-generativa-y-desarrollo-asistido-por-ia/333-dialogo-quests-y-contenido-generativo/README.md) explica cómo hacerlo **sin** que el modelo pueda romper la coherencia del mundo: la estructura la escribe una persona, el texto se genera y todo pasa por el mismo validador.
+
 ## 🔗 Referencias
 
 - Godot Dialogue Manager: <https://github.com/nathanhoad/godot_dialogue_manager>

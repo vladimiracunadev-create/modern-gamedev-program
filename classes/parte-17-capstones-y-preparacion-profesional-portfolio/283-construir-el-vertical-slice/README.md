@@ -128,6 +128,17 @@ Produce el **"loop gris"** de tu slice: el core loop completo, jugable de princi
 
 **❓ ¿Cada cuánto debería hacer commit?** Al final de cada tarea cerrada y siempre que el proyecto quede jugable. Commits pequeños y frecuentes te dan puntos de retorno seguros si una iteración rompe algo.
 
+## 🔭 Para ir más lejos
+
+Al construir el slice, estas cuatro decisiones son las que más caro sale tomar tarde. Cada una tiene su clase en el tramo avanzado:
+
+1. **Separa las capas desde el primer día.** Dominio sin nodos, presentación que solo escucha. Un slice monolítico no se puede ampliar: se reescribe. → [Clase 293](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/293-arquitectura-de-gameplay-a-escala/README.md)
+2. **Escribe los criterios de aceptación antes que el código**, y que sean comprobables por una máquina. → [Clase 310](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/310-capstone-parte-18-un-juego-sistemico/README.md)
+3. **Mide desde el principio.** Un presupuesto de rendimiento en CI evita descubrir en la semana 8 que el slice va a 25 fps. → [Clase 321](../../parte-19-ingenieria-de-produccion-backend-y-confiabilidad/321-performance-regression-testing/README.md)
+4. **Versiona el guardado en cuanto exista.** Añadir `SAVE_VERSION` y una migración cuesta media hora ahora y días después. → [Clase 307](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/307-save-system-de-produccion/README.md)
+
+Y si el slice incluye combate, inventario, habilidades o quests, el capstone de la [Parte 18](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/310-capstone-parte-18-un-juego-sistemico/README.md) construye exactamente eso, integrado y verificado.
+
 ## 🔗 Referencias
 
 - GDC — producción y *cutting scope*: <https://www.youtube.com/user/gdconf>

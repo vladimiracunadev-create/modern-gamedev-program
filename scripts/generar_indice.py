@@ -17,7 +17,7 @@ import re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CLASSES = os.path.join(ROOT, "classes")
 
-# Plan canónico del programa completo (18 partes). start/end = rango global de clases.
+# Plan canónico del programa completo (22 partes). start/end = rango global de clases.
 PLAN = [
     (0, "Fundamentos y prerrequisitos", "parte-0-fundamentos-y-prerrequisitos", 1, 25),
     (1, "Motores 2D y tu primer juego jugable", "parte-1-motores-2d-y-tu-primer-juego-jugable", 26, 45),
@@ -37,6 +37,10 @@ PLAN = [
     (15, "Herramientas, editores y automatización (tooling)", "parte-15-herramientas-editores-y-automatizacion", 255, 266),
     (16, "Producción, publicación, monetización y LiveOps", "parte-16-produccion-publicacion-monetizacion-y-liveops", 267, 280),
     (17, "Capstones y preparación profesional / portfolio", "parte-17-capstones-y-preparacion-profesional-portfolio", 281, 292),
+    (18, "Arquitectura de gameplay y sistemas sistémicos", "parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos", 293, 310),
+    (19, "Ingeniería de producción, backend y confiabilidad", "parte-19-ingenieria-de-produccion-backend-y-confiabilidad", 311, 324),
+    (20, "IA generativa y desarrollo asistido por IA", "parte-20-ia-generativa-y-desarrollo-asistido-por-ia", 325, 338),
+    (21, "Arquitectura avanzada de motores y rendering", "parte-21-arquitectura-avanzada-de-motores-y-rendering", 339, 352),
 ]
 
 H1_CLASE = re.compile(r"^#\s+Clase\s+(\d{3})\s*[—-]\s*(.+)$", re.MULTILINE)
@@ -71,7 +75,7 @@ def main() -> int:
         "",
         "> [⬅️ Volver al programa](../README.md) · [🗺️ Roadmap](../ROADMAP.md)",
         "",
-        f"Programa secuencial de **{total_plan} clases** en **18 partes**. La numeración es global "
+        f"Programa secuencial de **{total_plan} clases** en **{len(PLAN)} partes**. La numeración es global "
         "(001→…) y el orden importa: cada clase asume la anterior.",
         "",
         "---",
@@ -111,7 +115,7 @@ def main() -> int:
             })
 
     # Resumen al principio (se inserta tras la línea de descripción).
-    resumen = (f"**Estado:** {construidas} clases construidas en {partes_hechas} de 18 partes "
+    resumen = (f"**Estado:** {construidas} clases construidas en {partes_hechas} de {len(PLAN)} partes "
                f"· {total_plan - construidas} clases planificadas.")
     lineas.insert(5, resumen)
     lineas.insert(6, "")

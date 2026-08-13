@@ -1,0 +1,48 @@
+{
+	"version": 1,
+	"tablas": {
+		"loot_lobo": {
+			"rolls": 2,
+			"garantizados": [{ "item": "moneda_oro", "min": 3, "max": 12 }],
+			"entradas": [
+				{ "item": "piel_lobo", "peso": 45, "min": 1, "max": 2 },
+				{ "item": "pocion_menor", "peso": 20 },
+				{ "tabla": "raro_generico", "peso": 5 },
+				{ "nada": true, "peso": 30 }
+			]
+		},
+		"loot_bandido": {
+			"rolls": 2,
+			"garantizados": [{ "item": "moneda_oro", "min": 8, "max": 25 }],
+			"entradas": [
+				{ "item": "mineral_hierro", "peso": 35, "min": 1, "max": 3 },
+				{ "item": "espada_hierro", "peso": 10 },
+				{ "item": "pocion_menor", "peso": 20, "min": 1, "max": 2 },
+				{ "tabla": "raro_generico", "peso": 8 },
+				{ "nada": true, "peso": 27 }
+			]
+		},
+		"loot_lobo_alfa": {
+			"rolls": 3,
+			"garantizados": [
+				{ "item": "colmillo_alfa", "min": 1, "max": 1 },
+				{ "item": "moneda_oro", "min": 60, "max": 140 }
+			],
+			"entradas": [
+				{ "item": "piel_lobo", "peso": 50, "min": 2, "max": 5 },
+				{ "item": "capa_lobo", "peso": 15 },
+				{ "tabla": "raro_generico", "peso": 25 },
+				{ "nada": true, "peso": 10 }
+			]
+		},
+		"raro_generico": {
+			"rolls": 1,
+			"entradas": [
+				{ "item": "anillo_fuerza", "peso": 65 },
+				{ "item": "amuleto_vida", "peso": 25 },
+				{ "item": "hacha_dos_manos", "peso": 8 },
+				{ "item": "hoja_legendaria", "peso": 2, "condicion": { "nivel_min": 20 } }
+			]
+		}
+	}
+}

@@ -209,6 +209,21 @@ Construye un importador-validador para una categoría de datos de tu juego (obje
 
 **❓ ¿Puedo correr esto en un pipeline automático?** Sí: el mismo script puede invocarse desde un `EditorScript` o desde la línea de comandos con `--headless`, encajando en la automatización de builds de la clase siguiente de la parte.
 
+## 🔭 Para ir más lejos
+
+El diseño data-driven que aprendes aquí es el cimiento de toda la Parte 18. Estos son los sistemas que se construyen con él, cada uno con su esquema y su validador:
+
+| Sistema | Clase | Qué valida |
+|---|---|---|
+| Items | [294](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/294-items-y-base-de-datos-de-objetos/README.md) | IDs estables, stack, rangos, iconos existentes, tipos de efecto |
+| Habilidades | [297](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/297-ability-system-arquitectura-de-habilidades/README.md) | Coste, cooldown, targeting, tags de bloqueo |
+| Loot | [300](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/300-loot-tables-y-sistemas-de-recompensas/README.md) | Pesos positivos, referencias existentes, ausencia de ciclos |
+| Crafteo | [301](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/301-crafting-y-recetas/README.md) | Ingredientes reales, cantidades, ciclos de recetas |
+| Diálogo | [304](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/304-sistemas-de-dialogo/README.md) | Saltos rotos, nodos huérfanos, callejones sin salida |
+| Quests | [305](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/305-quest-system/README.md) | Tipos de objetivo, prerrequisitos, quests que se completan solas |
+
+En todos ellos se repite la misma idea que aquí: **el contenido es código y se valida en CI**.
+
 ## 🔗 Referencias
 
 - Godot Docs — `FileAccess`: <https://docs.godotengine.org/en/stable/classes/class_fileaccess.html>

@@ -127,6 +127,14 @@ Elabora un plan de soporte post-lanzamiento de 90 días para tu juego con: caden
 
 **❓ ¿Cómo sé cuándo parar?** Cuando el coste de sostenerlo supera el retorno y el equipo aporta más en otro proyecto. Define umbrales por adelantado para no decidirlo con el ego.
 
+## 🔭 Para ir más lejos
+
+El post-lanzamiento de esta clase se ve desde producción y comunidad. La Parte 19 lo ve desde la ingeniería, y añade lo que hace falta **cuando algo sale mal**:
+
+- [Clase 323 — Parches, delivery y recuperación](../../parte-19-ingenieria-de-produccion-backend-y-confiabilidad/323-parches-delivery-y-recuperacion/README.md): parches delta, catálogos de contenido versionados, **publicación gradual con parada automática**, hotfix, rollback (y por qué a veces **no** es posible: si la versión nueva cambió el formato del save), modo degradado por subsistema, runbooks de incidente y postmortem sin culpables.
+- [Clase 315 — Remote Config y feature flags](../../parte-19-ingenieria-de-produccion-backend-y-confiabilidad/315-remote-config-feature-flags-y-experimentos/README.md): **kill switches** que apagan una función en segundos, en vez de esperar días a que un parche llegue a los jugadores.
+- [Clase 322 — Build y release engineering](../../parte-19-ingenieria-de-produccion-backend-y-confiabilidad/322-build-y-release-engineering/README.md): versionado, artefactos verificables, símbolos archivados y canales con promoción — para poder responder a "un jugador reporta un crash en la 1.4.2: ¿de qué commit salió y cómo lo reproduzco?".
+
 ## 🔗 Referencias
 
 - Steamworks — Community Hub: <https://partner.steamgames.com/doc/store/communityhub>

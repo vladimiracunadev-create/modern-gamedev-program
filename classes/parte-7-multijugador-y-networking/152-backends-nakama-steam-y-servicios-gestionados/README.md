@@ -169,6 +169,16 @@ Entrega un cliente Godot que **autentica contra Nakama, abre el socket en tiempo
 
 **¿Nakama es de pago?** Es open source y puedes self-hostearlo gratis (Docker). Heroic Labs ofrece además Heroic Cloud como servicio gestionado de pago.
 
+## 🔭 Para ir más lejos
+
+Esta clase es el **prerrequisito natural de la Parte 19**: aquí has visto qué servicios puedes contratar; allí se construye la arquitectura que hay detrás, para que sepas qué estás contratando, qué puedes sustituir y qué sigue siendo responsabilidad tuya.
+
+- [Clase 311 — Arquitectura backend para videojuegos](../../parte-19-ingenieria-de-produccion-backend-y-confiabilidad/311-arquitectura-backend-para-videojuegos/README.md): los cuatro planos de comunicación, la tabla de autoridad de datos y la degradación elegante cuando algo cae.
+- [Clase 312 — Identidad, perfiles y entitlements](../../parte-19-ingenieria-de-produccion-backend-y-confiabilidad/312-identidad-perfiles-y-entitlements/README.md): cuentas invitado, vinculación de plataformas y derechos sobre contenido, sin secretos en el cliente.
+- [Clase 313 — Cloud saves y resolución de conflictos](../../parte-19-ingenieria-de-produccion-backend-y-confiabilidad/313-cloud-saves-cross-save-y-resolucion-de-conflictos/README.md): el problema real del guardado en la nube, que no es el transporte sino el conflicto.
+
+La Parte 19 no duplica lo de aquí: **no vuelve a explicar Nakama ni Steam**. Explica los patrones que son los mismos con cualquier proveedor, y lo hace con mocks deterministas, sin exigir ninguna cuenta.
+
 ## 🔗 Referencias
 
 - Heroic Labs — Documentación de Nakama: <https://heroiclabs.com/docs/>

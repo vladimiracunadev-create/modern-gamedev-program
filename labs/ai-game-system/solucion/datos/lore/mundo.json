@@ -1,0 +1,110 @@
+{
+	"version": 1,
+	"entradas": [
+		{ "id": "villarroca_general", "peso": 1.0, "visibilidad": "publico",
+		  "etiquetas": ["villarroca", "pueblo", "lugar", "mina"],
+		  "texto": "Villarroca es un pueblo minero de unas trescientas personas, en el valle del río Gris. Vive del hierro de la mina del norte." },
+
+		{ "id": "mina_general", "peso": 1.0, "visibilidad": "publico",
+		  "etiquetas": ["mina", "hierro", "trabajo"],
+		  "texto": "La mina del norte lleva abierta cuatro generaciones. Da hierro de buena calidad y trabajo a media Villarroca." },
+
+		{ "id": "mina_derrumbe", "peso": 1.2, "visibilidad": "publico",
+		  "etiquetas": ["mina", "derrumbe", "historia", "muertos"],
+		  "texto": "Hace tres años, un derrumbe en el nivel bajo de la mina mató a once mineros. La galería sigue cerrada." },
+
+		{ "id": "rio_gris", "peso": 0.9, "visibilidad": "publico",
+		  "etiquetas": ["rio", "gris", "lugar", "villarroca"],
+		  "texto": "El río Gris baja del paso norte y mueve el molino. En invierno se hiela en los remansos." },
+
+		{ "id": "guardia_puerta", "peso": 1.0, "visibilidad": "publico",
+		  "etiquetas": ["guardia", "puerta", "npc", "tolven"],
+		  "texto": "Tolven lleva la guardia de la puerta sur desde hace once años. Es cordial y muy poco imaginativo." },
+
+		{ "id": "bram_general", "peso": 1.0, "visibilidad": "publico",
+		  "etiquetas": ["bram", "herrero", "fragua", "npc"],
+		  "texto": "Bram es el herrero de Villarroca. Forja armas y armaduras de hierro y acero, y no negocia los precios." },
+
+		{ "id": "bram_hermano", "peso": 1.5, "visibilidad": "npc:herrero_bram",
+		  "etiquetas": ["bram", "doran", "derrumbe", "familia", "hermano"],
+		  "texto": "El hermano de Bram, Doran, murió en el derrumbe. Bram no habla de ello con desconocidos." },
+
+		{ "id": "nara_general", "peso": 1.0, "visibilidad": "publico",
+		  "etiquetas": ["nara", "aldeana", "molino", "npc"],
+		  "texto": "Nara lleva el molino desde que murió su madre. Sabe todo lo que se dice en el pueblo, y algo más." },
+
+		{ "id": "nara_rumor", "peso": 1.3, "visibilidad": "npc:aldeana_nara",
+		  "etiquetas": ["nara", "rumor", "verol", "capataz"],
+		  "texto": "Nara ha oído que el capataz Verol pagó a dos hombres para no declarar en la investigación de la mina." },
+
+		{ "id": "mina_causa_real", "peso": 2.0, "visibilidad": "secreto",
+		  "requiere_quest": "la_verdad_de_la_mina",
+		  "etiquetas": ["mina", "derrumbe", "verol", "secreto", "causa"],
+		  "texto": "El derrumbe lo causó una excavación no autorizada del capataz Verol, que ocultó los informes." },
+
+		{ "id": "lobos_camino", "peso": 1.0, "visibilidad": "publico",
+		  "etiquetas": ["lobos", "camino", "peligro"],
+		  "texto": "Desde el otoño hay lobos en el camino del sur. Ya han matado dos cabras y herido a un carretero." },
+
+		{ "id": "paso_norte", "peso": 0.9, "visibilidad": "publico",
+		  "etiquetas": ["paso", "norte", "lugar", "bandidos"],
+		  "texto": "El paso del norte está cerrado por la nieve medio año. En verano lo cruzan mercaderes, y bandidos." },
+
+		{ "id": "gremio_hierro", "peso": 1.0, "visibilidad": "publico",
+		  "etiquetas": ["gremio", "hierro", "faccion", "comercio"],
+		  "texto": "El Gremio del Hierro compra toda la producción de la mina y fija el precio en la ciudad." },
+
+		{ "id": "guardia_faccion", "peso": 1.0, "visibilidad": "publico",
+		  "etiquetas": ["guardia", "faccion", "orden"],
+		  "texto": "La Guardia del Valle mantiene el orden en Villarroca y los caminos. Son ocho, y siete son de aquí." },
+
+		{ "id": "bandidos_faccion", "peso": 1.0, "visibilidad": "publico",
+		  "etiquetas": ["bandidos", "faccion", "paso", "peligro"],
+		  "texto": "Los bandidos del paso asaltan caravanas en verano. Nadie sabe dónde invernan." },
+
+		{ "id": "fragua_precios", "peso": 1.1, "visibilidad": "npc:herrero_bram",
+		  "etiquetas": ["bram", "precios", "fragua", "comercio"],
+		  "texto": "Bram cobra 80 monedas por una espada de hierro y 210 por una de acero. No hace descuentos." },
+
+		{ "id": "molino_nara", "peso": 1.0, "visibilidad": "npc:aldeana_nara",
+		  "etiquetas": ["nara", "molino", "grano", "trabajo"],
+		  "texto": "El molino de Nara muele el grano de todo el valle. En otoño trabaja de sol a sol." },
+
+		{ "id": "invierno_valle", "peso": 0.8, "visibilidad": "publico",
+		  "etiquetas": ["invierno", "valle", "clima"],
+		  "texto": "El invierno en el valle dura cinco meses. La nieve corta el paso y el pueblo vive de lo guardado." },
+
+		{ "id": "templo_viejo", "peso": 0.9, "visibilidad": "publico",
+		  "etiquetas": ["templo", "viejo", "lugar", "ruinas"],
+		  "texto": "En la ladera este quedan las ruinas de un templo. Nadie recuerda a qué estaba dedicado." },
+
+		{ "id": "forja_perdida", "peso": 1.4, "visibilidad": "secreto",
+		  "requiere_quest": "la_forja_perdida",
+		  "etiquetas": ["forja", "perdida", "secreto", "templo"],
+		  "texto": "Bajo el templo viejo hay una forja antigua. Bram cree que allí se templó la Hoja del Alba." },
+
+		{ "id": "hoja_alba", "peso": 1.2, "visibilidad": "publico",
+		  "etiquetas": ["hoja", "alba", "leyenda", "arma"],
+		  "texto": "La Hoja del Alba es una leyenda del valle: una espada que no se mella. Nadie la ha visto." },
+
+		{ "id": "carretero", "peso": 0.8, "visibilidad": "publico",
+		  "etiquetas": ["carretero", "herido", "lobos", "npc"],
+		  "texto": "El carretero herido por los lobos se recupera en casa de Nara. Aún no puede caminar." },
+
+		{ "id": "mercado", "peso": 0.9, "visibilidad": "publico",
+		  "etiquetas": ["mercado", "comercio", "villarroca"],
+		  "texto": "El mercado de Villarroca se pone los días de luna nueva, en la plaza de la puerta sur." },
+
+		{ "id": "verol_capataz", "peso": 1.0, "visibilidad": "publico",
+		  "etiquetas": ["verol", "capataz", "mina", "npc"],
+		  "texto": "Verol es el capataz de la mina. Vino de la ciudad hace seis años y no se ha ganado a nadie." },
+
+		{ "id": "mina_nivel_bajo", "peso": 1.1, "visibilidad": "publico",
+		  "etiquetas": ["mina", "nivel", "bajo", "cerrado"],
+		  "texto": "El nivel bajo de la mina está tapiado desde el derrumbe. La Guardia vigila que nadie entre." },
+
+		{ "id": "tolven_hijo", "peso": 1.2, "visibilidad": "npc:guardia_tolven",
+		  "etiquetas": ["tolven", "hijo", "guardia", "familia"],
+		  "texto": "El hijo de Tolven trabaja en la mina, en el nivel alto. Su padre no duerme bien desde el derrumbe." }
+	]
+}

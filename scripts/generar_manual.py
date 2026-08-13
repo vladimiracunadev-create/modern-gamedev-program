@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Genera el **manual del curso en PDF**: consolida las 292 clases en un único
-documento, en orden, listo para leer de corrido, imprimir o estudiar offline.
+Genera el **manual del curso en PDF**: consolida todas las clases del programa
+en un único documento, en orden, listo para leer de corrido, imprimir o estudiar
+offline.
 
   manual/MANUAL.pdf   render imprimible en B/N (vía Chrome/Edge headless)
 
@@ -10,7 +11,7 @@ El PDF **se versiona** (se sube al repo): así hay un enlace de descarga directo
 desde el README y desde GitHub Pages, sin que nadie tenga que generarlo. Se
 regenera con este script cuando el contenido cambia, y refleja el repo actual.
 
-El manual respeta el orden global 001→292 agrupado en las 18 partes, con portada
+El manual respeta el orden global 001→352 agrupado en las 22 partes, con portada
 e índice clicable. De cada clase se quita la navegación «⬅️ anterior / ➡️
 siguiente» (en un libro se pasa página), se bajan los títulos para que encajen
 bajo el título de su parte, y los enlaces relativos pasan a texto (en papel no
@@ -87,7 +88,7 @@ def construir_markdown() -> str:
     doc = [
         "# Manual completo — Desarrollo de Videojuegos Moderno",
         "",
-        f"*{total} clases · 18 partes · de fundamentos a nivel profesional*  ",
+        f"*{total} clases · {len(lista)} partes · de fundamentos a nivel profesional*  ",
         "*github.com/vladimiracunadev-create/modern-gamedev-program · Licencia MIT*",
         "",
         "[TOC]",

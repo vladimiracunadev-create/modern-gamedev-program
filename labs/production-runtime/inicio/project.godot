@@ -1,0 +1,23 @@
+﻿; Engine configuration file.
+; Proyecto de referencia del laboratorio "Runtime de producción" del
+; Programa de Desarrollo de Videojuegos Moderno (Parte 19, clase 324).
+
+config_version=5
+
+[application]
+
+config/name="Runtime de producción — Inicio"
+config/description="Proyecto de partida del capstone de la Parte 19 (clase 324). Busca los TODO."
+run/main_scene="res://escenas/runtime.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+
+[display]
+
+window/size/viewport_width=800
+window/size/viewport_height=600
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.11, 0.12, 0.15, 1)

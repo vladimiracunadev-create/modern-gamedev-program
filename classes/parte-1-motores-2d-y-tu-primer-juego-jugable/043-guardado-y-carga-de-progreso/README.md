@@ -196,6 +196,24 @@ Implementa un sistema de **tres ranuras de guardado** (`user://save_1.json`, `sa
 | Funciona en el editor pero no en el .exe con ruta absoluta | Usaste una ruta `C:\...`. Nunca uses rutas absolutas; solo `user://`. |
 | "Continuar" aparece aunque no haya partida | Comprobaste mal la existencia. Usa `FileAccess.file_exists(RUTA_GUARDADO)`. |
 
+## 🚀 De save básico a save de producción
+
+Lo que acabas de construir es correcto y suficiente para este juego. Pero tiene un límite que aparece en cuanto publicas: **el día que añadas un campo o cambies el formato, las partidas guardadas de tus jugadores dejarán de cargar**. Y un save es lo único de tu juego que no se puede volver a generar — si se pierde una partida de 40 horas, no hay reinstalación que la recupere.
+
+Un sistema de guardado de producción añade cinco cosas sobre esto:
+
+| Lo que tienes ahora | Lo que hace falta al publicar | Por qué |
+|---|---|---|
+| `JSON.stringify` directo | `SAVE_VERSION` + migraciones | Un parche no puede romper partidas |
+| Escribir sobre el archivo | Temporal + verificación + rename (atómico) | Un corte de luz a mitad de escritura |
+| Un archivo | Copias de seguridad rotativas | Última red antes de perder la partida |
+| Confiar en el contenido | Checksum y validación de esquema | Detectar corrupción antes de aplicarla |
+| Guardar y ya | Ranuras, autoguardado y checkpoints | Lo que el jugador espera de un juego moderno |
+
+El **ejercicio 4** de esta clase te pide añadir un campo `"version"`: eso es exactamente la semilla de todo lo anterior. Cuando quieras el sistema completo —con migraciones encadenadas, escritura atómica, recuperación ante corrupción y arquitectura lista para la nube—, está en la **[clase 307: Save System de producción](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/307-save-system-de-produccion/README.md)**.
+
+Y si algún día tu juego guarda en la nube o se juega en dos dispositivos, el problema de los conflictos se trata en la **[clase 313](../../parte-19-ingenieria-de-produccion-backend-y-confiabilidad/313-cloud-saves-cross-save-y-resolucion-de-conflictos/README.md)**.
+
 ## ❓ Preguntas frecuentes
 
 **❓ ¿Dónde queda físicamente el archivo `user://save.json`?** En una carpeta por-usuario que depende del sistema (en Windows dentro de `AppData`). Ábrela desde **Project → Open User Data Folder** para inspeccionarla.

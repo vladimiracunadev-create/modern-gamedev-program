@@ -1,0 +1,23 @@
+; Engine configuration file.
+; Proyecto de referencia del laboratorio "Sistemas de gameplay" del
+; Programa de Desarrollo de Videojuegos Moderno (Parte 18, clase 310).
+
+config_version=5
+
+[application]
+
+config/name="Sistemas de gameplay — Solución"
+config/description="Solución de referencia del capstone de la Parte 18 (clase 310)."
+run/main_scene="res://escenas/mundo.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+
+[display]
+
+window/size/viewport_width=800
+window/size/viewport_height=600
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.11, 0.12, 0.15, 1)

@@ -1,0 +1,48 @@
+{
+	"version": 1,
+	"habilidades": [
+		{
+			"id": "golpe_pesado", "nombre": "Golpe pesado",
+			"coste_recurso": "mana", "coste": 10,
+			"cooldown": 3.0, "casteo": 0.0, "recuperacion": 0.5,
+			"rango": 3.0, "targeting": "UNO",
+			"bloquea": ["estado.aturdido"],
+			"cancelable": true,
+			"efectos": [{ "tipo": "dano", "valor": 25 }]
+		},
+		{
+			"id": "bola_fuego", "nombre": "Bola de fuego",
+			"coste_recurso": "mana", "coste": 25,
+			"cooldown": 6.0, "casteo": 1.2, "recuperacion": 0.4,
+			"rango": 12.0, "targeting": "AREA",
+			"bloquea": ["estado.aturdido", "estado.silenciado"],
+			"cancelable": true,
+			"efectos": [
+				{ "tipo": "dano", "valor": 40 },
+				{ "tipo": "estado", "estado": "quemadura" }
+			]
+		},
+		{
+			"id": "grito_guerra", "nombre": "Grito de guerra",
+			"coste_recurso": "mana", "coste": 15,
+			"cooldown": 20.0, "casteo": 0.0, "recuperacion": 0.8,
+			"rango": 0.0, "targeting": "SELF",
+			"bloquea": ["estado.silenciado"],
+			"cancelable": false,
+			"efectos": [{ "tipo": "estado", "estado": "furia" }]
+		},
+		{
+			"id": "ventisca", "nombre": "Ventisca",
+			"coste_recurso": "mana", "coste": 40,
+			"cooldown": 15.0, "casteo": 2.0, "recuperacion": 1.0,
+			"rango": 10.0, "targeting": "CONO",
+			"requiere": ["escuela.hielo"],
+			"bloquea": ["estado.aturdido", "estado.silenciado"],
+			"cancelable": true,
+			"efectos": [
+				{ "tipo": "dano", "valor": 30 },
+				{ "tipo": "estado", "estado": "congelacion" }
+			]
+		}
+	]
+}

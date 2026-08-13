@@ -169,6 +169,14 @@ Mueve la lógica de daño y de recogida al servidor. El cliente solo envía inte
 
 **¿Dónde pongo las constantes de límite?** En el servidor. Nunca dejes que el cliente envíe sus propios límites de velocidad o alcance; los define y aplica el servidor.
 
+## 🔭 Para ir más lejos
+
+Lo de esta clase es la base: el servidor manda y el cliente pide. El tramo avanzado del programa la lleva hasta producción:
+
+- **Cómo saber qué hay que validar**, y no adivinarlo: [clase 318 — Threat modeling para videojuegos](../../parte-19-ingenieria-de-produccion-backend-y-confiabilidad/318-threat-modeling-para-videojuegos/README.md). Se dibujan los límites de confianza y se derivan de ahí las validaciones concretas.
+- **Anti-cheat más allá de lo básico**: [clase 319 — Anti-cheat y respuesta frente al abuso](../../parte-19-ingenieria-de-produccion-backend-y-confiabilidad/319-anti-cheat-y-respuesta-frente-al-abuso/README.md). Estado imposible, detección estadística, falsos positivos y proceso de sanción con apelación.
+- **La economía, que es donde más incentivo hay para hacer trampas**: [clase 314 — Economía transaccional de servidor](../../parte-19-ingenieria-de-produccion-backend-y-confiabilidad/314-economia-transaccional-de-servidor/README.md). Idempotencia, transacciones atómicas y auditoría.
+
 ## 🔗 Referencias
 
 - Gaffer On Games — What every programmer needs to know about game networking: <https://gafferongames.com/post/what_every_programmer_needs_to_know_about_game_networking/>

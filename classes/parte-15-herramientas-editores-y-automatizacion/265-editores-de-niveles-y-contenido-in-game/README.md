@@ -181,6 +181,14 @@ Construye un mini-editor in-game que coloque al menos tres tipos de objeto con e
 
 **❓ ¿Cómo hago deshacer/rehacer completo?** Mantén una pila de acciones (comando ejecutado + su inverso). El clic derecho de este lab es la versión mínima; una pila permite rehacer también.
 
+## 🔭 Para ir más lejos
+
+Un editor in-game es la puerta natural para que la comunidad **cree** contenido. La [clase 309 — Modding y arquitectura extensible](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/309-modding-y-arquitectura-extensible/README.md) se ocupa de la otra mitad: cómo **cargarlo** con seguridad.
+
+Allí se tratan el manifiesto de mod, la versión de API, el orden de carga determinista, los parches de datos con lista blanca, la detección de conflictos, el aislamiento de fallos y —con honestidad— los límites reales del sandboxing en GDScript.
+
+Y el patrón de deshacer/rehacer que un editor necesita está en la [clase 308](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/308-commands-input-recording-y-replays/README.md): sale gratis si las acciones del editor son comandos reversibles.
+
 ## 🔗 Referencias
 
 - Godot Docs — `FileAccess`: <https://docs.godotengine.org/en/stable/classes/class_fileaccess.html>

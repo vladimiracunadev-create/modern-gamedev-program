@@ -1,0 +1,23 @@
+; Engine configuration file.
+; Proyecto de referencia del laboratorio "Sistema de IA en el juego" del
+; Programa de Desarrollo de Videojuegos Moderno (Parte 20, clase 338).
+
+config_version=5
+
+[application]
+
+config/name="Sistema de IA — Solución"
+config/description="Solución de referencia del capstone de la Parte 20 (clase 338). Sin claves de API."
+run/main_scene="res://escenas/npc.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+
+[display]
+
+window/size/viewport_width=800
+window/size/viewport_height=600
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.11, 0.12, 0.15, 1)

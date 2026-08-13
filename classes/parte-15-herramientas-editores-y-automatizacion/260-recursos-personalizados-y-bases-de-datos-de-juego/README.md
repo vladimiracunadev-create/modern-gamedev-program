@@ -161,6 +161,12 @@ Diseña un recurso personalizado propio (arma, objeto, hechizo o carta) con `cla
 
 **❓ ¿La herencia de recursos es como la herencia de clases?** Se parece: el `.tres` hijo toma los valores del padre y sobrescribe los que definas. Es herencia de **datos**, no de comportamiento; el script sigue siendo el mismo `class_name`.
 
+## 🔭 Para ir más lejos
+
+Esta clase enseña el mecanismo; la [clase 294 — Items y base de datos de objetos](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/294-items-y-base-de-datos-de-objetos/README.md) construye el sistema completo encima: `ItemDefinition` con todos sus campos, carga desde JSON y desde `Resource`, indexado por id, validador con ocho reglas ejecutable en CI, y la distinción que sostiene todo lo demás — **definición** (dato compartido e inmutable) frente a **instancia** (lo único que se guarda en el save).
+
+Ahí también se responde a la pregunta que esta clase deja abierta: *¿`Resource` o JSON?* Con sus ventajas reales y el patrón habitual en producción.
+
 ## 🔗 Referencias
 
 - Godot Docs — Resources: <https://docs.godotengine.org/en/stable/tutorials/scripting/resources.html>

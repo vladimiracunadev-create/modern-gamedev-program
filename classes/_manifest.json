@@ -1,8 +1,8 @@
 {
  "program": "Desarrollo de Videojuegos Moderno",
- "total_planned": 292,
- "total_built": 292,
- "parts_built": 18,
+ "total_planned": 352,
+ "total_built": 352,
+ "parts_built": 22,
  "parts": [
   {
    "idx": 0,
@@ -1659,6 +1659,350 @@
      "num": 292,
      "title": "Capstone final: publica tu juego y tu portfolio",
      "slug": "292-capstone-final-publica-tu-juego-y-tu-portfolio"
+    }
+   ]
+  },
+  {
+   "idx": 18,
+   "title": "Arquitectura de gameplay y sistemas sistémicos",
+   "slug": "parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos",
+   "start": 293,
+   "end": 310,
+   "count": 18,
+   "built": true,
+   "classes": [
+    {
+     "num": 293,
+     "title": "Arquitectura de gameplay a escala",
+     "slug": "293-arquitectura-de-gameplay-a-escala"
+    },
+    {
+     "num": 294,
+     "title": "Items y base de datos de objetos",
+     "slug": "294-items-y-base-de-datos-de-objetos"
+    },
+    {
+     "num": 295,
+     "title": "Sistema de inventario",
+     "slug": "295-sistema-de-inventario"
+    },
+    {
+     "num": 296,
+     "title": "Equipamiento, loadouts y estadísticas",
+     "slug": "296-equipamiento-loadouts-y-estadisticas"
+    },
+    {
+     "num": 297,
+     "title": "Ability System: arquitectura de habilidades",
+     "slug": "297-ability-system-arquitectura-de-habilidades"
+    },
+    {
+     "num": 298,
+     "title": "Status effects, buffs y debuffs",
+     "slug": "298-status-effects-buffs-y-debuffs"
+    },
+    {
+     "num": 299,
+     "title": "Arquitectura avanzada de combate y daño",
+     "slug": "299-arquitectura-avanzada-de-combate-y-dano"
+    },
+    {
+     "num": 300,
+     "title": "Loot tables y sistemas de recompensas",
+     "slug": "300-loot-tables-y-sistemas-de-recompensas"
+    },
+    {
+     "num": 301,
+     "title": "Crafting y recetas",
+     "slug": "301-crafting-y-recetas"
+    },
+    {
+     "num": 302,
+     "title": "Progresión y skill trees",
+     "slug": "302-progresion-y-skill-trees"
+    },
+    {
+     "num": 303,
+     "title": "Economía interna implementada",
+     "slug": "303-economia-interna-implementada"
+    },
+    {
+     "num": 304,
+     "title": "Sistemas de diálogo",
+     "slug": "304-sistemas-de-dialogo"
+    },
+    {
+     "num": 305,
+     "title": "Quest System",
+     "slug": "305-quest-system"
+    },
+    {
+     "num": 306,
+     "title": "Facciones, reputación y relaciones",
+     "slug": "306-facciones-reputacion-y-relaciones"
+    },
+    {
+     "num": 307,
+     "title": "Save System de producción",
+     "slug": "307-save-system-de-produccion"
+    },
+    {
+     "num": 308,
+     "title": "Commands, input recording y replays",
+     "slug": "308-commands-input-recording-y-replays"
+    },
+    {
+     "num": 309,
+     "title": "Modding y arquitectura extensible",
+     "slug": "309-modding-y-arquitectura-extensible"
+    },
+    {
+     "num": 310,
+     "title": "Capstone Parte 18: un juego sistémico",
+     "slug": "310-capstone-parte-18-un-juego-sistemico"
+    }
+   ]
+  },
+  {
+   "idx": 19,
+   "title": "Ingeniería de producción, backend y confiabilidad",
+   "slug": "parte-19-ingenieria-de-produccion-backend-y-confiabilidad",
+   "start": 311,
+   "end": 324,
+   "count": 14,
+   "built": true,
+   "classes": [
+    {
+     "num": 311,
+     "title": "Arquitectura backend para videojuegos",
+     "slug": "311-arquitectura-backend-para-videojuegos"
+    },
+    {
+     "num": 312,
+     "title": "Identidad, perfiles y entitlements",
+     "slug": "312-identidad-perfiles-y-entitlements"
+    },
+    {
+     "num": 313,
+     "title": "Cloud saves, cross-save y resolución de conflictos",
+     "slug": "313-cloud-saves-cross-save-y-resolucion-de-conflictos"
+    },
+    {
+     "num": 314,
+     "title": "Economía transaccional de servidor",
+     "slug": "314-economia-transaccional-de-servidor"
+    },
+    {
+     "num": 315,
+     "title": "Remote Config, feature flags y experimentos",
+     "slug": "315-remote-config-feature-flags-y-experimentos"
+    },
+    {
+     "num": 316,
+     "title": "Observabilidad de juegos",
+     "slug": "316-observabilidad-de-juegos"
+    },
+    {
+     "num": 317,
+     "title": "Telemetría, privacidad y gobernanza de datos",
+     "slug": "317-telemetria-privacidad-y-gobernanza-de-datos"
+    },
+    {
+     "num": 318,
+     "title": "Threat modeling para videojuegos",
+     "slug": "318-threat-modeling-para-videojuegos"
+    },
+    {
+     "num": 319,
+     "title": "Anti-cheat y respuesta frente al abuso",
+     "slug": "319-anti-cheat-y-respuesta-frente-al-abuso"
+    },
+    {
+     "num": 320,
+     "title": "Testing de producción",
+     "slug": "320-testing-de-produccion"
+    },
+    {
+     "num": 321,
+     "title": "Performance regression testing",
+     "slug": "321-performance-regression-testing"
+    },
+    {
+     "num": 322,
+     "title": "Build y release engineering",
+     "slug": "322-build-y-release-engineering"
+    },
+    {
+     "num": 323,
+     "title": "Parches, delivery y recuperación",
+     "slug": "323-parches-delivery-y-recuperacion"
+    },
+    {
+     "num": 324,
+     "title": "Capstone Parte 19: un runtime de producción",
+     "slug": "324-capstone-parte-19-un-runtime-de-produccion"
+    }
+   ]
+  },
+  {
+   "idx": 20,
+   "title": "IA generativa y desarrollo asistido por IA",
+   "slug": "parte-20-ia-generativa-y-desarrollo-asistido-por-ia",
+   "start": 325,
+   "end": 338,
+   "count": 14,
+   "built": true,
+   "classes": [
+    {
+     "num": 325,
+     "title": "IA generativa en desarrollo de videojuegos",
+     "slug": "325-ia-generativa-en-desarrollo-de-videojuegos"
+    },
+    {
+     "num": 326,
+     "title": "Prompt y specification engineering para juegos",
+     "slug": "326-prompt-y-specification-engineering-para-juegos"
+    },
+    {
+     "num": 327,
+     "title": "Agentes de programación para GameDev",
+     "slug": "327-agentes-de-programacion-para-gamedev"
+    },
+    {
+     "num": 328,
+     "title": "Código generado por IA con verificación",
+     "slug": "328-codigo-generado-por-ia-con-verificacion"
+    },
+    {
+     "num": 329,
+     "title": "Assets generativos y provenance",
+     "slug": "329-assets-generativos-y-provenance"
+    },
+    {
+     "num": 330,
+     "title": "Pipeline técnico de assets asistido por IA",
+     "slug": "330-pipeline-tecnico-de-assets-asistido-por-ia"
+    },
+    {
+     "num": 331,
+     "title": "NPC controlados por LLM",
+     "slug": "331-npc-controlados-por-llm"
+    },
+    {
+     "num": 332,
+     "title": "RAG, memoria y lore del mundo",
+     "slug": "332-rag-memoria-y-lore-del-mundo"
+    },
+    {
+     "num": 333,
+     "title": "Diálogo, quests y contenido generativo",
+     "slug": "333-dialogo-quests-y-contenido-generativo"
+    },
+    {
+     "num": 334,
+     "title": "Proveedores locales y remotos",
+     "slug": "334-proveedores-locales-y-remotos"
+    },
+    {
+     "num": 335,
+     "title": "Coste, latencia, caché y fallbacks",
+     "slug": "335-coste-latencia-cache-y-fallbacks"
+    },
+    {
+     "num": 336,
+     "title": "Seguridad y moderación de IA dentro del juego",
+     "slug": "336-seguridad-y-moderacion-de-ia-dentro-del-juego"
+    },
+    {
+     "num": 337,
+     "title": "Evaluación de sistemas generativos",
+     "slug": "337-evaluacion-de-sistemas-generativos"
+    },
+    {
+     "num": 338,
+     "title": "Capstone Parte 20: un NPC con lore verificable",
+     "slug": "338-capstone-parte-20-un-npc-con-lore-verificable"
+    }
+   ]
+  },
+  {
+   "idx": 21,
+   "title": "Arquitectura avanzada de motores y rendering",
+   "slug": "parte-21-arquitectura-avanzada-de-motores-y-rendering",
+   "start": 339,
+   "end": 352,
+   "count": 14,
+   "built": true,
+   "classes": [
+    {
+     "num": 339,
+     "title": "Data-Oriented Design",
+     "slug": "339-data-oriented-design"
+    },
+    {
+     "num": 340,
+     "title": "Allocators y gestión avanzada de memoria",
+     "slug": "340-allocators-y-gestion-avanzada-de-memoria"
+    },
+    {
+     "num": 341,
+     "title": "Job Systems y Task Graphs",
+     "slug": "341-job-systems-y-task-graphs"
+    },
+    {
+     "num": 342,
+     "title": "Particionamiento espacial",
+     "slug": "342-particionamiento-espacial"
+    },
+    {
+     "num": 343,
+     "title": "Resource Management y streaming asíncrono",
+     "slug": "343-resource-management-y-streaming-asincrono"
+    },
+    {
+     "num": 344,
+     "title": "Grandes mundos y world partition",
+     "slug": "344-grandes-mundos-y-world-partition"
+    },
+    {
+     "num": 345,
+     "title": "Rendering temporal",
+     "slug": "345-rendering-temporal"
+    },
+    {
+     "num": 346,
+     "title": "Upscaling y resolución dinámica",
+     "slug": "346-upscaling-y-resolucion-dinamica"
+    },
+    {
+     "num": 347,
+     "title": "HDR y gestión moderna de color",
+     "slug": "347-hdr-y-gestion-moderna-de-color"
+    },
+    {
+     "num": 348,
+     "title": "Global illumination y ray tracing moderno",
+     "slug": "348-global-illumination-y-ray-tracing-moderno"
+    },
+    {
+     "num": 349,
+     "title": "GPU-driven rendering",
+     "slug": "349-gpu-driven-rendering"
+    },
+    {
+     "num": 350,
+     "title": "Shader compilation y stutter",
+     "slug": "350-shader-compilation-y-stutter"
+    },
+    {
+     "num": 351,
+     "title": "APIs gráficas modernas",
+     "slug": "351-apis-graficas-modernas"
+    },
+    {
+     "num": 352,
+     "title": "Capstone Parte 21: ingeniería avanzada verificable",
+     "slug": "352-capstone-parte-21-ingenieria-avanzada-verificable"
     }
    ]
   }

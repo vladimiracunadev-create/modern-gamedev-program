@@ -140,6 +140,10 @@ Apóyate en estas plataformas y guías para publicar y dar a conocer tu juego:
 
 [Clase 291 - Comunidad, networking y carrera en la industria](../291-comunidad-networking-y-carrera-en-la-industria/README.md)
 
-## ➡️ Fin del programa
+## ➡️ Siguiente clase
 
-¡Has completado el Programa de Desarrollo de Videojuegos Moderno, de los fundamentos a la publicación profesional! Ahora lo más importante: **seguir construyendo, terminando y publicando**. Vuelve al [índice del programa](../../README.md) para repasar cualquier parte, y comparte lo que hagas. 🎮
+Has completado el **núcleo del programa** (Partes 0–17): de los fundamentos a la publicación profesional. Con esto ya puedes hacer un juego y sacarlo al mundo.
+
+Lo que viene a continuación es el **tramo avanzado** (Partes 18–21), el que separa "sé hacer un videojuego" de "sé diseñar, implementar, operar, mantener y evolucionar profesionalmente un videojuego complejo": arquitectura de sistemas de gameplay, ingeniería de producción y backend, IA generativa verificada y arquitectura interna de motores.
+
+[Clase 293 - Arquitectura de gameplay a escala](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/293-arquitectura-de-gameplay-a-escala/README.md)

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bgsys0mundo01"]
+
+[ext_resource type="Script" path="res://scripts/mundo.gd" id="1_mundo"]
+
+[node name="Mundo" type="Node"]
+script = ExtResource("1_mundo")

@@ -185,7 +185,7 @@ footer .wrap{padding:2rem 1.1rem;text-align:center;color:var(--muted);font-size:
 footer a{color:var(--acento);font-weight:600}
 """
 
-# Programa completo planificado (para pintar las 18 partes en la portada).
+# Programa completo planificado (para pintar las 22 partes en la portada).
 # 'done' marca las partes ya construidas (con carpeta real en classes/).
 PLAN = [
     (0, "Fundamentos y prerrequisitos", 25),
@@ -206,6 +206,10 @@ PLAN = [
     (15, "Herramientas, editores y automatización", 12),
     (16, "Producción, publicación, monetización y LiveOps", 14),
     (17, "Capstones y preparación profesional / portfolio", 12),
+    (18, "Arquitectura de gameplay y sistemas sistémicos", 18),
+    (19, "Ingeniería de producción, backend y confiabilidad", 14),
+    (20, "IA generativa y desarrollo asistido por IA", 14),
+    (21, "Arquitectura avanzada de motores y rendering", 14),
 ]
 
 
@@ -226,26 +230,38 @@ def partes_construidas() -> dict[int, dict]:
     return out
 
 
+def contar_preguntas() -> int:
+    """Lee el número real de preguntas del banco, en vez de fijarlo a mano."""
+    ruta = os.path.join(ROOT, "autoevaluaciones", "preguntas.json")
+    try:
+        with open(ruta, encoding="utf-8") as f:
+            datos = json.load(f)
+        return sum(len(p.get("preguntas", [])) for p in datos.get("partes", []))
+    except Exception:
+        return 0
+
+
 def escribir_landing() -> None:
     hechas = partes_construidas()
     total_hechas = sum(p["n"] for p in hechas.values())
     total_plan = sum(n for _, _, n in PLAN)
+    n_preguntas = contar_preguntas()
     stats = [
         (str(total_hechas), "clases listas"),
         (str(len(hechas)), "partes construidas"),
         (str(total_plan), "clases planificadas"),
-        ("18", "partes en total"),
+        (str(len(PLAN)), "partes en total"),
         ("3+", "motores (Godot/Unity/Unreal)"),
     ]
     stats_html = "".join(f'<div class="stat"><b>{v}</b><span>{k}</span></div>' for v, k in stats)
     feats = [
         ("📚", "Currículo paso a paso", f"{total_hechas} clases, cada una con objetivo, laboratorio guiado, ejercicios y reto verificable.", "classes/README.html"),
         ("🧪", "Laboratorios ejecutables", "Proyectos Godot reales que se abren y se juegan: versión para completar y solución de referencia, verificadas en CI.", "labs/README.html"),
-        ("🧭", "Rutas por rol", "Recorridos ordenados para gameplay, gráficos, indie, móvil/web, multijugador, niveles y XR.", "rutas/README.html"),
-        ("📝", "Autoevaluación", "90 preguntas (una batería por parte) con explicación de cada respuesta.", "autoevaluaciones/quiz.html"),
+        ("🧭", "Rutas por rol", "Trece recorridos ordenados: gameplay, gráficos, indie, móvil/web, multijugador, niveles, XR y las cinco especializaciones de ingeniería.", "rutas/README.html"),
+        ("📝", "Autoevaluación", f"{n_preguntas} preguntas (una batería por parte) con explicación de cada respuesta.", "autoevaluaciones/quiz.html"),
         ("✅", "Tu progreso", f"Marca las {total_hechas} clases y sigue tu avance (se guarda en tu navegador).", "autoevaluaciones/progreso.html"),
-        ("🔎", "Buscador", "Encuentra cualquier tema entre las 292 clases: shaders, coyote time, navmesh, rollback…", "buscar.html"),
-        ("📕", "Manual en PDF", "Las 292 clases en un único PDF (~300 págs), en orden, para leer de corrido o estudiar sin conexión.", "manual/MANUAL.pdf"),
+        ("🔎", "Buscador", f"Encuentra cualquier tema entre las {total_hechas} clases: shaders, coyote time, navmesh, rollback, circuit breaker…", "buscar.html"),
+        ("📕", "Manual en PDF", f"Las {total_hechas} clases en un único PDF, en orden, para leer de corrido o estudiar sin conexión.", "manual/MANUAL.pdf"),
     ]
     feats_html = "".join(
         f'<a class="feat" href="{u}"><div class="ic">{i}</div><h3>{t}</h3><p>{d}</p></a>'
@@ -275,7 +291,7 @@ def escribir_landing() -> None:
   <h1>Desarrollo de Videojuegos Moderno</h1>
   <p class="sub">De las matemáticas y el game loop a un juego completo y publicable — con Godot, Unity y Unreal, paso a paso y en español.</p>
   <div class="chips">
-    <span class="chip">{total_hechas} clases listas</span><span class="chip">18 partes</span>
+    <span class="chip">{total_hechas} clases listas</span><span class="chip">{len(PLAN)} partes</span>
     <span class="chip">Fundamentos → Profesional</span><span class="chip">Godot · Unity · Unreal</span><span class="chip">MIT</span>
   </div>
   <div class="cta">
@@ -284,12 +300,12 @@ def escribir_landing() -> None:
     <a class="btn btn-2" href="buscar.html">🔎 Buscar</a>
   </div>
 </header>
-<div class="aviso"><div class="wrap">🕹️ Curso abierto (MIT) · <b>292 clases en 18 partes</b> · con <a href="labs/README.html">laboratorios Godot ejecutables</a> verificados en CI.</div></div>
+<div class="aviso"><div class="wrap">🕹️ Curso abierto (MIT) · <b>{total_hechas} clases en {len(PLAN)} partes</b> · con <a href="labs/README.html">laboratorios Godot ejecutables</a> verificados en CI.</div></div>
 <main class="wrap">
   <div class="stats">{stats_html}</div>
   <h2 class="sec">Qué incluye</h2>
   <div class="grid">{feats_html}</div>
-  <h2 class="sec">Las 18 partes</h2>
+  <h2 class="sec">Las {len(PLAN)} partes</h2>
   <div class="parts">{parts_html}</div>
 </main>
 <footer><div class="wrap">
@@ -450,7 +466,7 @@ def copiar_interactivos() -> int:
         if os.path.isfile(origen):
             shutil.copyfile(origen, os.path.join(destino, nombre))
             n += 1
-    # progreso.html lee el manifest para listar las 292 clases.
+    # progreso.html lee el manifest para listar todas las clases del programa.
     manifest = os.path.join(ROOT, "classes", "_manifest.json")
     if os.path.isfile(manifest):
         os.makedirs(os.path.join(OUT, "classes"), exist_ok=True)

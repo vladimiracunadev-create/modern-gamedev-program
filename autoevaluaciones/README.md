@@ -6,7 +6,7 @@ Dos herramientas para saber si de verdad estás aprendiendo, no solo leyendo.
 
 ## 📝 Autoevaluación
 
-**90 preguntas** — una batería de 5 por cada una de las 18 partes. Cada pregunta tiene 4 opciones y, al corregir, la **explicación de por qué** la respuesta correcta lo es.
+**110 preguntas** — una batería de 5 por cada una de las 22 partes. Cada pregunta tiene 4 opciones y, al corregir, la **explicación de por qué** la respuesta correcta lo es.
 
 👉 **[Hacer la autoevaluación](https://vladimiracunadev-create.github.io/modern-gamedev-program/autoevaluaciones/quiz.html)**
 
@@ -20,7 +20,7 @@ Las preguntas están escritas a partir del contenido real de las clases, y mucho
 
 ## ✅ Seguimiento de progreso
 
-Marca las **292 clases** conforme las completes y mira tu avance por parte y global.
+Marca las **352 clases** conforme las completes y mira tu avance por parte y global.
 
 👉 **[Ver mi progreso](https://vladimiracunadev-create.github.io/modern-gamedev-program/autoevaluaciones/progreso.html)**
 

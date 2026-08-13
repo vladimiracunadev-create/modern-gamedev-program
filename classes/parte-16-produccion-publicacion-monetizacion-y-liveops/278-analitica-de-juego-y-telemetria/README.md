@@ -142,6 +142,15 @@ Diseña el plan de telemetría de tu juego: un catálogo de al menos 8 eventos c
 
 **❓ ¿Puedo decidir todo con datos?** Los datos informan, no reemplazan el criterio de diseño. Dicen qué pasa; el equipo decide por qué y qué hacer. Cuidado con optimizar solo lo medible.
 
+## 🔭 Para ir más lejos
+
+Esta clase cubre la analítica de **producto**: qué medir para entender a tus jugadores. La Parte 19 añade sus dos hermanas técnicas:
+
+- [Clase 316 — Observabilidad de juegos](../../parte-19-ingenieria-de-produccion-backend-y-confiabilidad/316-observabilidad-de-juegos/README.md): logs estructurados, métricas con percentiles, trazas con correlation id y crash reporting con símbolos. Es la analítica para **operar**, no para entender el comportamiento: responde a "¿qué está fallando ahora mismo?".
+- [Clase 317 — Telemetría, privacidad y gobernanza de datos](../../parte-19-ingenieria-de-produccion-backend-y-confiabilidad/317-telemetria-privacidad-y-gobernanza-de-datos/README.md): taxonomía de eventos con esquema y versión, lista blanca que hace **estructuralmente imposible** enviar datos personales por descuido, consentimiento granular, retención con borrado automático y derecho de supresión.
+
+La distinción entre *logging de depuración* y *telemetría de producción* que allí se establece ahorra la mitad de los problemas de coste y de privacidad.
+
 ## 🔗 Referencias
 
 - GameAnalytics — Documentación de eventos y métricas: <https://gameanalytics.com/docs/>

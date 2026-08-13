@@ -1,0 +1,44 @@
+{
+	"version": 1,
+	"efectos": [
+		{
+			"id": "quemadura", "nombre": "Quemadura",
+			"duracion": 4.0, "periodo": 1.0,
+			"apilamiento": "STACK", "max_stacks": 3,
+			"tags": ["dano.fuego"],
+			"por_tick": [{ "tipo": "dano", "valor": 6 }]
+		},
+		{
+			"id": "veneno", "nombre": "Veneno",
+			"duracion": 6.0, "periodo": 2.0,
+			"apilamiento": "INDEPENDIENTE", "max_stacks": 1,
+			"tags": ["dano.veneno"],
+			"por_tick": [{ "tipo": "dano", "valor": 4 }]
+		},
+		{
+			"id": "regeneracion", "nombre": "Regeneración",
+			"duracion": 8.0, "periodo": 2.0,
+			"apilamiento": "REFRESH", "beneficioso": true,
+			"por_tick": [{ "tipo": "curar", "valor": 10 }]
+		},
+		{
+			"id": "aturdimiento", "nombre": "Aturdido",
+			"duracion": 2.0,
+			"apilamiento": "IGNORAR", "prioridad": 100, "dispelable": false,
+			"tags": ["estado.aturdido"]
+		},
+		{
+			"id": "congelacion", "nombre": "Congelado",
+			"duracion": 3.0,
+			"apilamiento": "REFRESH", "prioridad": 80,
+			"tags": ["estado.congelado"],
+			"modificadores": [{ "stat": "velocidad", "modo": "porcentual", "valor": -0.5 }]
+		},
+		{
+			"id": "furia", "nombre": "Furia",
+			"duracion": 10.0,
+			"apilamiento": "REFRESH", "beneficioso": true,
+			"modificadores": [{ "stat": "ataque", "modo": "porcentual", "valor": 0.25 }]
+		}
+	]
+}

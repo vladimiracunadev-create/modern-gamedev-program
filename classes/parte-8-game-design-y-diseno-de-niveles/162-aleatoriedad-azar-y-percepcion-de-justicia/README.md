@@ -130,6 +130,13 @@ Entrega `sistema-azar.md` con: la mecánica elegida (entrada o salida), la tabla
 
 **❓ ¿Debo mostrar las probabilidades al jugador?** Depende del tono y la ley local (muchas jurisdicciones lo exigen en cajas de pago). La transparencia genera confianza y reduce las teorías conspirativas.
 
+## 🔭 Para ir más lejos
+
+La percepción de justicia que se diseña aquí se implementa con dos mecanismos concretos en la Parte 18:
+
+- [Clase 300 — Loot tables y sistemas de recompensas](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/300-loot-tables-y-sistemas-de-recompensas/README.md): **sistemas de piedad** (pity duro y blando), que corrigen la crueldad de la distribución geométrica, y RNG sembrado para que un caso de mala suerte sea reproducible y depurable.
+- [Clase 299 — Arquitectura avanzada de combate y daño](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/299-arquitectura-avanzada-de-combate-y-dano/README.md): críticos con aleatoriedad inyectada, y la **traza** que permite explicar al jugador —y a ti— de dónde salió cada número.
+
 ## 🔗 Referencias
 
 - Jesse Schell, *The Art of Game Design: A Book of Lenses* (3ª ed.) — <https://www.schellgames.com>

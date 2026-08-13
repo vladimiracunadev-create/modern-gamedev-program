@@ -187,6 +187,14 @@ Escribe una lógica de juego pura (salud, inventario o economía) con al menos d
 
 **❓ ¿Cuántos tests son suficientes?** No busques un número: cubre las reglas de negocio y los casos límite (cero, máximos, entradas inválidas). La cobertura útil vale más que la total.
 
+## 🔭 Para ir más lejos
+
+GUT cubre los tests unitarios, que son la base. La Parte 19 amplía la batería con las técnicas que encuentran lo que **no se te ocurrió** comprobar:
+
+- [Clase 320 — Testing de producción](../../parte-19-ingenieria-de-produccion-backend-y-confiabilidad/320-testing-de-produccion/README.md): **property-based testing** (afirmas una propiedad y la máquina busca contraejemplos, y los reduce al mínimo), **fuzzing seguro** de tus parsers, **soak testing** para cazar fugas y **load testing** con percentiles.
+- [Clase 308 — Commands, input recording y replays](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/308-commands-input-recording-y-replays/README.md): **replays como test de regresión**. Una partida grabada ocupa unos KB, se reproduce en milisegundos y ejercita combate, habilidades, efectos e inventario a la vez. Es el test de integración más barato que existe.
+- [Clase 321 — Performance regression testing](../../parte-19-ingenieria-de-produccion-backend-y-confiabilidad/321-performance-regression-testing/README.md): presupuestos que **fallan la CI** cuando un cambio empeora el arranque, el frame time, la memoria o el tamaño de la build.
+
 ## 🔗 Referencias
 
 - GUT — documentación oficial: <https://gut.readthedocs.io/>
