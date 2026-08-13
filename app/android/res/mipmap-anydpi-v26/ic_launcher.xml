@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Icono adaptativo (Android 8+, que es el mínimo de la app). El lanzador recorta
+  el fondo con la forma que use el dispositivo — círculo, cuadrado redondeado,
+  gota — y el primer plano se queda dentro de la zona segura.
+-->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_fondo" />
+    <foreground android:drawable="@drawable/ic_mando" />
+</adaptive-icon>

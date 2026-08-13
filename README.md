@@ -75,6 +75,17 @@ Los assets son **CC0 generados por código** ([`scripts/generar_assets.py`](scri
 
 > Se genera con `python scripts/generar_manual.py` a partir de las clases, así que refleja el contenido del repositorio.
 
+## 📱 Apps para leer sin conexión (Windows y Android)
+
+¿Prefieres estudiar sin navegador y sin internet? Las apps **Videojuegos Moderno** ([`app/`](app/README.md)) empaquetan **el mismo HTML** que se publica en GitHub Pages: las 352 clases, el buscador, el glosario, las autoevaluaciones y el seguimiento de progreso, todo dentro del ejecutable.
+
+- 📥 **[Descargar desde la última release](https://github.com/vladimiracunadev-create/modern-gamedev-program/releases/latest)** — APK de Android y ZIP portable de Windows x64 · verifica la integridad con `SHA256SUMS.txt`.
+- 🔌 **Offline de verdad:** el curso viaja dentro. El APK **no declara ni el permiso de INTERNET**, y el progreso se guarda **solo en tu dispositivo**.
+- 🔎 **Funciona todo:** buscador, quiz y progreso incluidos, porque el contenido se sirve desde un origen propio y no con `file://` — el detalle técnico está en [`app/README.md`](app/README.md).
+- 📕 El manual en PDF **no va dentro** (pesa más que la app entera y ninguna de las dos lo mostraría bien): se descarga aparte, en la misma release.
+
+> APK de **sideload**, fuera de Play Store, firmado en el proceso de release. En Android hay que permitir la instalación desde orígenes desconocidos para el instalador que uses. La app de Windows es un ZIP portable: se descomprime y se ejecuta, sin instalador.
+
 ### 🖨️ ¿O solo una parte?
 
 También puedes generar guías **PDF por clase** (mismo estilo imprimible):
@@ -110,45 +121,68 @@ El programa es **agnóstico de motor por diseño**: primero enseña los concepto
 
 ## 🗂️ Las 22 partes
 
-| # | Parte | Clases | Estado |
-|---|---|---:|:---:|
-| 0 | Fundamentos y prerrequisitos | 25 | ✅ |
-| 1 | Motores 2D y tu primer juego jugable | 20 | ✅ |
-| 2 | Desarrollo 3D: motores, escenas y transformaciones | 22 | ✅ |
-| 3 | Física y matemáticas de juegos aplicadas | 18 | ✅ |
-| 4 | Gráficos, shaders y rendering moderno | 22 | ✅ |
-| 5 | Inteligencia artificial para juegos | 18 | ✅ |
-| 6 | Audio y música interactiva | 12 | ✅ |
-| 7 | Multijugador y networking | 18 | ✅ |
-| 8 | Game design y diseño de niveles | 16 | ✅ |
-| 9 | Arte, animación y pipeline de assets | 16 | ✅ |
-| 10 | UI/UX, accesibilidad y localización | 12 | ✅ |
-| 11 | Móvil, consolas y plataformas | 14 | ✅ |
-| 12 | Juegos web y HTML5 | 14 | ✅ |
-| 13 | VR, AR y experiencias inmersivas | 12 | ✅ |
-| 14 | Optimización, profiling y rendimiento | 15 | ✅ |
-| 15 | Herramientas, editores y automatización (tooling) | 12 | ✅ |
-| 16 | Producción, publicación, monetización y LiveOps | 14 | ✅ |
-| 17 | Capstones y preparación profesional / portfolio | 12 | ✅ |
-| 18 | Arquitectura de gameplay y sistemas sistémicos | 18 | ✅ |
-| 19 | Ingeniería de producción, backend y confiabilidad | 14 | ✅ |
-| 20 | IA generativa y desarrollo asistido por IA | 14 | ✅ |
-| 21 | Arquitectura avanzada de motores y rendering | 14 | ✅ |
+Cada parte tiene su **propio README** con narrativa completa: de qué trata, resultados de aprendizaje, temario y enlaces a sus clases. Las cinco etapas se presentan aquí con el mismo detalle porque las cinco están completas.
 
-➡️ **[Ver el índice completo de clases](classes/README.md)**
+### 🟢 Etapa 1 — Primeros juegos
 
-### 🔧 Las cuatro partes de especialización (18–21)
+Para quien empieza sin base. Al terminarla tienes un plataformas 2D con buen game feel y un nivel 3D explorable, ambos exportados y jugables por otra persona.
 
-Las Partes 0–17 te llevan de cero a un juego publicado. Las cuatro siguientes son otra cosa: **la diferencia entre saber hacer un juego y saber sostener uno**. Llegan después del capstone porque cada una responde a un problema que solo se reconoce cuando ya lo tienes delante.
+| # | Parte | Clases | Contenido central | README |
+|---:|---|---:|---|---|
+| 0 | Fundamentos y prerrequisitos | 25 (001–025) | Vectores, game loop, POO, patrones, Git+LFS y montaje del entorno | [📘 leer](classes/parte-0-fundamentos-y-prerrequisitos/README.md) |
+| 1 | Motores 2D y tu primer juego jugable | 20 (026–045) | Escenas, tilemaps, controlador, game feel, HUD, audio y guardado | [📘 leer](classes/parte-1-motores-2d-y-tu-primer-juego-jugable/README.md) |
+| 2 | Desarrollo 3D: motores, escenas y transformaciones | 22 (046–067) | Transformaciones, cámaras, materiales, luces, navegación y blockout | [📘 leer](classes/parte-2-desarrollo-3d-motores-escenas-y-transformaciones/README.md) |
 
-| Parte | El problema que resuelve |
-|---|---|
-| **18 — Sistemas de gameplay** | Tu inventario, tus stats y tus quests funcionan por separado y se rompen al combinarse. Es lo que más cuesta reescribir a mitad de producción. |
-| **19 — Producción y confiabilidad** | El juego funciona en tu máquina. En producción hay red que falla, saves que se corrompen a media escritura y parches que rompen partidas. |
-| **20 — IA generativa** | Dónde aporta de verdad un modelo de lenguaje —en desarrollo y dentro del juego— y cómo impedir que un jugador le pida una espada legendaria y se la lleve. **No sustituye a la Parte 5**: la complementa. |
-| **21 — Arquitectura avanzada** | El profiler dice que el bucle tarda 40 ms y no sabes por qué. Datos, memoria, paralelismo y rendering moderno, medidos en vez de supuestos. |
+### 🔵 Etapa 2 — Los sistemas del juego
 
-Los cuatro laboratorios correspondientes funcionan **sin claves de API, sin servicios de pago y sin red**: la CI los ejecuta completamente offline con mocks deterministas.
+Las disciplinas técnicas que hacen que un juego se sienta, se vea, reaccione, suene y se juegue con otros. Al terminarla sabes escribir shaders, un enemigo que decide y una partida en red autoritativa.
+
+| # | Parte | Clases | Contenido central | README |
+|---:|---|---:|---|---|
+| 3 | Física y matemáticas de juegos aplicadas | 18 (068–085) | Integradores, colisiones, steering, easing y determinismo | [📘 leer](classes/parte-3-fisica-y-matematicas-de-juegos-aplicadas/README.md) |
+| 4 | Gráficos, shaders y rendering moderno | 22 (086–107) | Pipeline, GLSL, PBR, iluminación, post-procesado y optimización visual | [📘 leer](classes/parte-4-graficos-shaders-y-rendering-moderno/README.md) |
+| 5 | Inteligencia artificial para juegos | 18 (108–125) | FSM, behavior trees, pathfinding A\*, percepción, memoria y squads | [📘 leer](classes/parte-5-inteligencia-artificial-para-juegos/README.md) |
+| 6 | Audio y música interactiva | 12 (126–137) | Buses, mezcla, audio espacial, música adaptativa y ducking | [📘 leer](classes/parte-6-audio-y-musica-interactiva/README.md) |
+| 7 | Multijugador y networking | 18 (138–155) | RPCs, servidor autoritativo, predicción, reconciliación y rollback | [📘 leer](classes/parte-7-multijugador-y-networking/README.md) |
+
+### 🟣 Etapa 3 — Diseño, arte y experiencia
+
+Lo que convierte un prototipo técnico en un juego que alguien quiere jugar. Al terminarla tienes un nivel diseñado con intención, un set de assets coherente y una UI que se entiende y se navega.
+
+| # | Parte | Clases | Contenido central | README |
+|---:|---|---:|---|---|
+| 8 | Game design y diseño de niveles | 16 (156–171) | Mecánicas, economía, curvas de dificultad, balance, narrativa y niveles | [📘 leer](classes/parte-8-game-design-y-diseno-de-niveles/README.md) |
+| 9 | Arte, animación y pipeline de assets | 16 (172–187) | Pixel art, 3D, rigging, animación, LODs y nomenclatura de assets | [📘 leer](classes/parte-9-arte-animacion-y-pipeline-de-assets/README.md) |
+| 10 | UI/UX, accesibilidad y localización | 12 (188–199) | Layouts, foco, navegación por teclado, i18n y texto al 200 % | [📘 leer](classes/parte-10-ui-ux-accesibilidad-y-localizacion/README.md) |
+
+### 🟠 Etapa 4 — Plataformas, rendimiento y publicación
+
+Sacar el juego de tu máquina y ponerlo en manos de la gente. Al terminarla has exportado a móvil y web, has optimizado con el profiler y tienes un plan de lanzamiento y un portfolio.
+
+| # | Parte | Clases | Contenido central | README |
+|---:|---|---:|---|---|
+| 11 | Móvil, consolas y plataformas | 14 (200–213) | Export, táctil, batería, tiendas y requisitos de plataforma | [📘 leer](classes/parte-11-movil-consolas-y-plataformas/README.md) |
+| 12 | Juegos web y HTML5 | 14 (214–227) | Canvas, WebGL, WebAssembly, Phaser, Three.js y PWA | [📘 leer](classes/parte-12-juegos-web-y-html5/README.md) |
+| 13 | VR, AR y experiencias inmersivas | 12 (228–239) | Visores, tracking, interacción, confort y rendimiento en XR | [📘 leer](classes/parte-13-vr-ar-y-experiencias-inmersivas/README.md) |
+| 14 | Optimización, profiling y rendimiento | 15 (240–254) | Profiler, presupuesto de fotograma, CPU, GPU, memoria y carga | [📘 leer](classes/parte-14-optimizacion-profiling-y-rendimiento/README.md) |
+| 15 | Herramientas, editores y automatización | 12 (255–266) | Plugins de editor, datos, testing automatizado y CI de proyecto | [📘 leer](classes/parte-15-herramientas-editores-y-automatizacion/README.md) |
+| 16 | Producción, publicación, monetización y LiveOps | 14 (267–280) | Alcance, hitos, presupuesto, tiendas, analítica y post-lanzamiento | [📘 leer](classes/parte-16-produccion-publicacion-monetizacion-y-liveops/README.md) |
+| 17 | Capstones y preparación profesional / portfolio | 12 (281–292) | Vertical slice, portfolio, entrevistas y publicación del juego | [📘 leer](classes/parte-17-capstones-y-preparacion-profesional-portfolio/README.md) |
+
+### 🔴 Etapa 5 — Especialización en ingeniería
+
+**La diferencia entre saber hacer un juego y saber sostener uno.** Llega después del capstone porque cada parte responde a un problema que solo se reconoce cuando ya lo tienes delante. Sus cuatro laboratorios funcionan **sin claves de API, sin servicios de pago y sin red**: la CI los ejecuta completamente offline con mocks deterministas.
+
+| # | Parte | Clases | El problema que resuelve | README |
+|---:|---|---:|---|---|
+| 18 | Arquitectura de gameplay y sistemas sistémicos | 18 (293–310) | Tu inventario, tus stats y tus quests funcionan por separado y se rompen al combinarse | [📘 leer](classes/parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/README.md) |
+| 19 | Ingeniería de producción, backend y confiabilidad | 14 (311–324) | Funciona en tu máquina; en producción hay red que falla y saves que se corrompen | [📘 leer](classes/parte-19-ingenieria-de-produccion-backend-y-confiabilidad/README.md) |
+| 20 | IA generativa y desarrollo asistido por IA | 14 (325–338) | Dónde aporta un modelo de lenguaje, y cómo impedir que regale una espada legendaria | [📘 leer](classes/parte-20-ia-generativa-y-desarrollo-asistido-por-ia/README.md) |
+| 21 | Arquitectura avanzada de motores y rendering | 14 (339–352) | El profiler dice 40 ms y no sabes por qué: datos, memoria, paralelismo y rendering | [📘 leer](classes/parte-21-arquitectura-avanzada-de-motores-y-rendering/README.md) |
+
+> ⚠️ La Parte 20 **no sustituye a la Parte 5**: la complementa. Los behavior trees y el pathfinding siguen siendo la base del comportamiento de un NPC, y la [ruta de IA para juegos](rutas/ia-juegos.md) hace la Parte 5 primero.
+
+➡️ **[Ver el índice plano de las 352 clases](classes/README.md)**
 
 > 📈 **¿Ya estabas siguiendo el curso?** Las clases **001–292 no cambiaron de número ni de URL**, y no se eliminó ni se reemplazó ninguna. Sigues exactamente donde estabas. El detalle de qué se añadió y qué se respetó, en **[docs/EVOLUTION-292-TO-352.md](docs/EVOLUTION-292-TO-352.md)**.
 
@@ -180,23 +214,87 @@ Cada parte sigue explícitamente la secuencia y los énfasis de la literatura de
 
 ## 🧭 Rutas sugeridas por rol
 
-- **Programador de gameplay** → Partes 0, 1, 2, 3, 5, 8.
-- **Programador gráfico / técnico** → Partes 0, 3, 4, 14.
-- **Desarrollador indie (solo dev)** → Partes 0, 1, 6, 8, 9, 16.
-- **Desarrollador móvil / web** → Partes 0, 1, 11, 12.
-- **Programador de multijugador** → Partes 0, 2, 3, 7, 14.
-- **Diseñador de niveles / técnico** → Partes 0, 1, 8, 15.
+Cada rol tiene una **guía de carrera completa** (qué es, día a día, qué necesitas saber, tu ruta en el curso, qué te contrata, salario orientativo, mitos y siguientes pasos). Haz clic en el nombre:
 
-Y las especializaciones, que **empiezan donde terminan las anteriores**:
+**Rutas de base** (Partes 0–17), que se pueden empezar desde cero:
 
-- **Programador de sistemas de gameplay** → Parte 18, tras la ruta de gameplay.
-- **Ingeniero de backend / online** → Partes 15 y 19, tras la de multijugador.
-- **Desarrollador de IA para juegos** → Parte 5 **primero**, luego 18 y 20.
-- **Programador de motor / rendimiento** → Partes 14 y 21.
-- **Arquitecto técnico** → Partes 18, 19, 21 y 16, tras dos especializaciones.
-- **Indie avanzado** → Partes 18, 19 y 21, con un juego ya publicado.
+- **[Programador de gameplay](rutas/gameplay.md)** → Partes 0, 1, 2, 3, 5, 8, 14, 17 · el rol más demandado: haces que el juego *se sienta* bien.
+- **[Programador gráfico / técnico](rutas/grafico.md)** → Partes 0, 1, 2, 4, 3, 14, 9 · shaders, iluminación y el *look* del juego.
+- **[Desarrollador indie (solo dev)](rutas/indie.md)** → Partes 0, 1, 8, 9, 6, 10, 15, 16 · lo haces todo tú; lo difícil es **terminar**.
+- **[Desarrollador móvil / web](rutas/movil-web.md)** → Partes 0, 1, 10, 11, 12, 14, 16 · alcance masivo con restricciones duras.
+- **[Programador de multijugador](rutas/multijugador.md)** → Partes 0, 1, 2, 3, 7, 14, 15 · de los roles más difíciles y mejor pagados.
+- **[Diseñador de niveles / técnico](rutas/diseno-niveles.md)** → Partes 0, 1, 8, 2, 15, 10 · diseñas la experiencia **y** las herramientas.
+- **[Desarrollador XR (VR/AR)](rutas/xr.md)** → Partes 0, 1, 2, 3, 14, 13, 6 · nicho exigente donde los fps no se negocian.
 
-➡️ El detalle de cada una, con orden e hitos, en **[rutas/](rutas/README.md)**.
+**Rutas de especialización** (Partes 18–21), que **empiezan donde terminan las anteriores**:
+
+- **[Programador de sistemas de gameplay](rutas/sistemas-gameplay.md)** → Parte 18, tras la ruta de gameplay · inventario, stats, quests y economía que no se rompen al combinarse.
+- **[Ingeniero de backend y online](rutas/backend-online.md)** → Partes 15 y 19, tras la de multijugador · la ruta **más transferible fuera de los videojuegos**.
+- **[Desarrollador de IA para juegos](rutas/ia-juegos.md)** → Parte 5 **primero**, luego 18 y 20 · las dos IA, en el orden correcto.
+- **[Programador de motor / rendimiento](rutas/motor-rendimiento.md)** → Partes 14 y 21 · el techo salarial técnico del sector.
+- **[Arquitecto técnico de juegos](rutas/arquitecto-tecnico.md)** → Partes 18, 19, 21 y 16, tras dos especializaciones · decidir qué **no** se construye.
+- **[Indie avanzado](rutas/indie-avanzado.md)** → Partes 18, 19 y 21, con un juego ya publicado · que lo terminado aguante.
+
+➡️ El índice con las trece rutas y cómo se encadenan, en **[rutas/](rutas/README.md)**.
+
+## ✅ Calidad y CI
+
+El repositorio no se publica a ciegas: cada `push` y cada PR pasan por integración continua que valida estructura, enlaces, codificación, estilo, build del sitio **y los diez laboratorios con Godot headless**. Nada llega a `main` en rojo.
+
+| ⚙️ Workflow | Qué cubre |
+|---|---|
+| 🧪 [ci.yml](.github/workflows/ci.yml) | estructura y secciones obligatorias de las 352 clases, enlaces internos, navegación anterior/siguiente, índice/manifest/glosario sincronizados, codificación UTF-8 sin mojibake, `markdownlint` y build del sitio |
+| 🎮 [labs.yml](.github/workflows/labs.yml) | los 10 laboratorios × `inicio`/`solucion` con **Godot 4.3 headless**: importan limpio, arrancan y publican su marcador. Más las pruebas dedicadas de red, IA y UI, las **cuatro suites** de las Partes 18–21 (301 comprobaciones) y el contrato offline (sin red, sin URLs externas, sin credenciales) |
+| 🔒 [security.yml](.github/workflows/security.yml) | escaneo de secretos (`gitleaks`) y análisis estático (`bandit`) de los scripts |
+| 🚀 [deploy-pages.yml](.github/workflows/deploy-pages.yml) | genera y despliega el sitio del curso a GitHub Pages |
+
+Los mismos validadores corren en local antes de subir:
+
+```bash
+python scripts/verificar_todo.py --godot /ruta/a/godot
+```
+
+O uno a uno, si prefieres ir por partes:
+
+```bash
+python scripts/validar_estructura.py    # 352 clases + enlaces .md sin rotos
+python scripts/validar_encoding.py      # todo UTF-8, sin mojibake
+python scripts/generar_navegacion.py --check
+npx markdownlint-cli2 "**/*.md"
+```
+
+## 🎯 Qué es y qué no es este programa
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+### ✅ Lo que sí es
+
+- 📚 un currículo **secuencial y completo** de 352 clases, de fundamentos a especialización en ingeniería;
+- 🧪 un curso con **práctica real**: 10 laboratorios Godot ejecutables y verificados en CI, cuatro de ellos con suites de pruebas;
+- 🧭 una guía de **carrera por rol** con día a día, habilidades, portfolio y salario orientativo;
+- 🔍 material **honesto sobre sus límites**: dice explícitamente qué verifica una máquina y qué no;
+- 📖 material **abierto y offline-friendly** (manual PDF, sitio en Pages y apps de escritorio y Android), en español.
+
+</td>
+<td valign="top" width="50%">
+
+### ❌ Lo que no es
+
+- 🚫 un atajo para "hacer un juego en un fin de semana": la numeración es secuencial por diseño;
+- 🚫 un curso de un solo motor: Godot es el principal, pero los conceptos se contrastan con Unity y Unreal;
+- 🚫 una promesa de empleo: las guías de rol marcan los salarios como **orientativos**, y el sector paga por debajo del software empresarial equivalente;
+- 🚫 un sustituto de publicar: lo que te contrata es un juego terminado, no haber leído 352 clases;
+- 🚫 contenido copiado de los libros de referencia: la redacción es **original**.
+
+</td>
+</tr>
+</table>
+
+## 💡 Idea fuerza
+
+> El valor de este programa no está en acumular tecnologías, sino en **traducirlas en juegos que existen**: una secuencia pedagógica que no se salta pasos, laboratorios que se abren y se ejecutan, honestidad sobre lo que cada rol implica de verdad, y un recorrido que puedes hacer de principio a fin sin quedarte a medias.
 
 ## 📄 Licencia
 
@@ -209,5 +307,15 @@ Y las especializaciones, que **empiezan donde terminan las anteriores**:
 **Hecho para quien quiere aprender a hacer videojuegos en serio, de principio a fin.**
 
 [⬆️ Empezar por el índice de clases](classes/README.md)
+
+<br>
+
+**¿Te resulta útil? ⭐ Dale una estrella al repo.**
+
+[![GitHub stars](https://img.shields.io/github/stars/vladimiracunadev-create/modern-gamedev-program?style=social)](https://github.com/vladimiracunadev-create/modern-gamedev-program/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/vladimiracunadev-create/modern-gamedev-program?style=social)](https://github.com/vladimiracunadev-create/modern-gamedev-program/network/members)
+[![Follow](https://img.shields.io/github/followers/vladimiracunadev-create?style=social&label=Follow)](https://github.com/vladimiracunadev-create)
+
+Hecho con 🎮 y ☕ por [Vladimir Acuña](https://github.com/vladimiracunadev-create)
 
 </div>

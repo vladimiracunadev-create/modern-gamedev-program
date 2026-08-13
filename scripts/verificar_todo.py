@@ -9,7 +9,7 @@ en tu máquina, en un par de minutos.
 
 Qué corre
 ---------
-1. Estructura y enlaces  (validar_estructura.py)
+1. Estructura y enlaces  (validar_estructura.py) + codificación (validar_encoding.py)
 2. Índice y manifest sincronizados  (generar_indice.py, y que no cambie nada)
 3. Assets deterministas  (verificar_assets.py)
 4. Markdown  (markdownlint-cli2, si hay npx)
@@ -108,9 +108,12 @@ def hay_errores(log: str) -> str:
 # 1-6: lo que no necesita Godot
 # --------------------------------------------------------------------------
 def verificar_repo(r: Resultado) -> None:
-    print("\n[1/7] Estructura y enlaces")
+    print("\n[1/7] Estructura, enlaces y codificación")
     cod, out = correr([sys.executable, "scripts/validar_estructura.py"])
     r.check(cod == 0, "estructura y enlaces íntegros", out)
+
+    cod, out = correr([sys.executable, "scripts/validar_encoding.py"])
+    r.check(cod == 0, "todo UTF-8 y sin mojibake", out)
 
     print("\n[2/7] Índice y navegación sincronizados")
     correr([sys.executable, "scripts/generar_indice.py"])

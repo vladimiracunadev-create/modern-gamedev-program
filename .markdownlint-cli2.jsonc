@@ -18,6 +18,9 @@
     "MD060": false         // estilo de columnas de tabla (subjetivo)
   },
   "globs": ["**/*.md"],
-  // "material" y "site" son salida generada (PDFs, HTML): no se lintan.
-  "ignores": ["node_modules", ".git", "site", "material"]
+  // "material", "site" y "dist" son salida generada (PDFs, HTML, binarios) y
+  // "node_modules" es código ajeno: no se lintan. El patrón "**/node_modules"
+  // es necesario además del suelto porque hay dependencias anidadas
+  // (app/windows/node_modules) que el nombre a secas no alcanza.
+  "ignores": ["node_modules", "**/node_modules", ".git", "site", "material", "dist"]
 }

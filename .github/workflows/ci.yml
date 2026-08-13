@@ -28,6 +28,12 @@ jobs:
       - name: Validar estructura, secciones y enlaces internos
         run: python scripts/validar_estructura.py
 
+      - name: Validar codificación (UTF-8 sin mojibake)
+        # El curso se escribe en español y con emoji en casi cada título: basta
+        # con que una herramienta reescriba un archivo como cp1252 para que
+        # «física» pase a «fÃ­sica» sin que nada falle. Esto lo detecta.
+        run: python scripts/validar_encoding.py
+
       - name: Comprobar que el índice y el glosario están sincronizados
         run: |
           set -euo pipefail

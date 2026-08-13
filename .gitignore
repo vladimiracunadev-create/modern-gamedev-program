@@ -12,6 +12,13 @@ site/
 # === Logs temporales de scripts/verificar_todo.py ===
 .verif_red/
 
+# === Apps empaquetadas (scripts/generar_apps.py) ===
+# Salen a la release de GitHub, no al repositorio: son binarios de build.
+dist/
+# Keystores de firma: NUNCA en el repo. El script los crea fuera, en ~/.
+*.jks
+*.keystore
+
 # === Godot 4 ===
 # Carpeta de importación/caché del editor (se regenera sola).
 .godot/

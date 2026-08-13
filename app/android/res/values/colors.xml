@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Los mismos colores del sitio: la app no es «otra cosa», es el curso. -->
+    <color name="fondo">#0d0f14</color>
+    <color name="acento">#7c5cff</color>
+    <color name="icono_fondo">#151823</color>
+</resources>

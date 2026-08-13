@@ -23,13 +23,27 @@ import markdown
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "site")
 
-# Markdown de origen del nivel superior que se publican.
-INCLUIR_TOP = ["README.md", "ROADMAP.md", "CONTRIBUTING.md", "SECURITY.md",
-               "labs/README.md", "labs/plataformas-2d/README.md",
-               "labs/3d-tercera-persona/README.md", "labs/shaders/README.md",
-               "labs/multijugador/README.md", "labs/ia-enemigo/README.md",
-               "labs/ui-accesible/README.md",
-               "rutas/README.md", "autoevaluaciones/README.md", "glosario/README.md"]
+# Markdown fuera de classes/ que también se publica. Los fijos son fijos; el
+# resto se DESCUBRE con patrones, no se enumera: una lista escrita a mano se
+# queda corta el día que alguien añade un lab o una ruta, y el sitio publica un
+# enlace roto sin que nada falle.
+FIJOS_TOP = ["README.md", "ROADMAP.md", "CONTRIBUTING.md", "SECURITY.md",
+             "rutas/README.md", "autoevaluaciones/README.md",
+             "glosario/README.md", "app/README.md"]
+PATRONES_TOP = ["labs/README.md", "labs/*/README.md", "rutas/*.md", "docs/*.md"]
+
+
+def documentos_top() -> list[str]:
+    vistos: list[str] = []
+    for rel in FIJOS_TOP:
+        if os.path.isfile(os.path.join(ROOT, rel)) and rel not in vistos:
+            vistos.append(rel)
+    for patron in PATRONES_TOP:
+        for p in sorted(glob.glob(os.path.join(ROOT, patron))):
+            rel = os.path.relpath(p, ROOT).replace("\\", "/")
+            if rel not in vistos:
+                vistos.append(rel)
+    return vistos
 
 LINK_MD = re.compile(r"\]\(([^)]+?)\.md((?:#[^)]*)?)\)")
 
@@ -483,7 +497,7 @@ def main() -> int:
     generados = 0
 
     # Documentos del nivel superior.
-    for rel in INCLUIR_TOP:
+    for rel in documentos_top():
         p = os.path.join(ROOT, rel)
         if os.path.isfile(p):
             escribir(rel, open(p, encoding="utf-8").read())

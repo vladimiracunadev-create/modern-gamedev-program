@@ -1,0 +1,17 @@
+{
+  "name": "modern-gamedev-program",
+  "productName": "Videojuegos Moderno",
+  "version": "2.0.0",
+  "description": "El Programa de Desarrollo de Videojuegos Moderno, completo y sin conexión: 352 clases en 22 partes.",
+  "main": "main.js",
+  "license": "MIT",
+  "author": "Vladimir Acuña",
+  "private": true,
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "@electron/packager": "^18.4.4",
+    "electron": "^38.8.6"
+  }
+}
