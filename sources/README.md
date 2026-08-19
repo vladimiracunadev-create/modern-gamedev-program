@@ -6,7 +6,8 @@ verifica cada cita de cada clase, y una CI que bloquea si deja de cuadrar.
 
 | Fichero | Qué es |
 |---|---|
-| [`bibliography.json`](bibliography.json) | El registro. Una entrada por obra, con localizador resoluble. |
+| [**`BIBLIOGRAFIA.md`**](BIBLIOGRAFIA.md) | **La lista legible**: las 207 obras agrupadas por tipo, con autoría, año, localizador y las clases que citan cada una. Empieza por aquí. |
+| [`bibliography.json`](bibliography.json) | El registro que la produce. Una entrada por obra, con localizador resoluble. |
 | [`refresh-report.md`](refresh-report.md) | Última salida de `scripts/refresh-sources`: qué resolvió y qué no. Lo genera la máquina. |
 
 ## Por qué existe
@@ -43,10 +44,11 @@ Cero peticiones de red. Comprueba:
 6. ningún bloque de fuentes se repite entre clases;
 7. los enlaces al motor y a la suite usan la versión anclada;
 8. cada cita declara el uso que su clase hace de ella;
-9. las cifras del README las produjo este script.
+9. las cifras del README y `BIBLIOGRAFIA.md` los produjo este script.
 
-`python scripts/verify-sources --write` regenera el bloque del README. Las
-cifras **no se escriben a mano**: si alguien las toca, el paso 9 falla.
+`python scripts/verify-sources --write` regenera el bloque del README y
+`BIBLIOGRAFIA.md` entero. Ninguno de los dos se escribe a mano: si alguien los
+toca, el paso 9 falla.
 
 ### `scripts/refresh-sources` — en red, manual o mensual, **no** bloquea
 
@@ -84,14 +86,15 @@ día 1 de cada mes, y a demanda. **Nunca borra una entrada.**
    `match.works` el fragmento de texto si la obra se cita sin enlace.
 4. Deja `used_in` como esté y ejecuta `python scripts/verify-sources`: te dirá
    el valor real. Ese campo lo manda el recuento, no el criterio de nadie.
-5. Regenera el README: `python scripts/verify-sources --write`.
+5. Regenera el README y la bibliografía:
+   `python scripts/verify-sources --write`.
 
 ### Lo que no se hace nunca
 
 - **Inventar** un ISBN, un DOI, una URL o una fecha. Lo que no se resuelve va
   con `"status": "pendiente"` y su `pending_reason`.
 - **Borrar** una fuente que no resuelve. Se marca; la cita se conserva.
-- Escribir a mano las cifras del README.
+- Escribir a mano las cifras del README o editar `BIBLIOGRAFIA.md`.
 
 Un hueco declarado es información. Un hueco rellenado por intuición es una
 invención con formato de bibliografía.

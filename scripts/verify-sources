@@ -17,11 +17,13 @@ Comprueba:
   7.  Las versiones de motor y suite citadas son las ancladas en el registro.
   8.  Cada cita declara el uso que la clase hace de ella, con una etiqueta del
       vocabulario declarado.
-  9.  Las cifras que muestra el README coinciden con el recuento del registro.
+  9.  Las cifras que muestra el README coinciden con el recuento del
+      registro, y sources/BIBLIOGRAFIA.md —la lista legible de las obras—
+      está regenerada a partir de él.
 
 Uso:
     python scripts/verify-sources             # verifica; sale 1 si algo falla
-    python scripts/verify-sources --write     # regenera el bloque del README
+    python scripts/verify-sources --write     # regenera README + BIBLIOGRAFIA.md
 """
 from __future__ import annotations
 
@@ -38,6 +40,7 @@ if hasattr(sys.stdout, 'reconfigure'):      # consolas Windows en cp1252
 RAIZ = Path(__file__).resolve().parent.parent
 REGISTRO = RAIZ / 'sources' / 'bibliography.json'
 README = RAIZ / 'README.md'
+BIBLIO = RAIZ / 'sources' / 'BIBLIOGRAFIA.md'
 INICIO = '<!-- fuentes:inicio -->'
 FIN = '<!-- fuentes:fin -->'
 
@@ -63,6 +66,27 @@ USOS_FIJOS = {
     'lectura de respaldo del objetivo; no se usa en el procedimiento',
 }
 USO_TEMA = re.compile(r'^respalda el Tema \d+ «.+»$')
+
+ETIQUETA = {'book': 'libro', 'paper': 'artículo', 'standard': 'norma',
+            'reference': 'documentación', 'dataset': 'datos'}
+# Secciones de la bibliografía, en el orden en que se leen.
+SECCIONES = [
+    ('book', '📕 Libros',
+     'Obras impresas. El localizador es el ISBN-13 de la edición concreta '
+     'que se cita, no del título en general: la ficha de Open Library abre '
+     'esa edición y ninguna otra.'),
+    ('paper', '📄 Artículos y ponencias',
+     'Publicaciones con DOI. El enlace resuelve siempre, aunque la revista '
+     'cambie de sitio.'),
+    ('standard', '📐 Normas y especificaciones',
+     'El texto normativo de quien responde por él: Khronos, W3C, IETF, '
+     'ISO/UIT, la Unión Europea. Nunca un resumen de terceros.'),
+    ('reference', '📘 Documentación oficial y obras de referencia',
+     'Documentación viva —se actualiza— de quien fabrica la herramienta, '
+     'más ensayos y manuales de autor. Es la parte que más se mueve y por '
+     'eso la que más vigila `refresh-sources`.'),
+    ('dataset', '📊 Conjuntos de datos', ''),
+]
 
 
 class Errores:
@@ -303,49 +327,181 @@ def cifras(doc: dict, datos: dict) -> dict:
     }
 
 
-def rectoras(doc: dict, n: int = 8) -> list[dict]:
+def rectoras(doc: dict, n: int = 10) -> list[dict]:
     e = [x for x in doc['entries'] if x['tier'] == 'primaria']
     e.sort(key=lambda x: (-len(x['used_in']), x['id']))
     return e[:n]
 
 
+def _clases_de(e: dict) -> str:
+    """Los números de clase que citan la obra, no las rutas: se leen mejor."""
+    nums = sorted({m.group(1) for m in
+                   (re.search(r'/(\d{3})-', r) for r in e['used_in']) if m})
+    return ', '.join(nums)
+
+
+def _fila(e: dict) -> str:
+    autores = ' · '.join(e['authors'][:3])
+    if len(e['authors']) > 3:
+        autores += ' et al.'
+    año = e.get('published') or '—'
+    # La quinta columna dice quién responde por la obra. En un libro o un
+    # artículo eso es su identificador permanente; en documentación viva, el
+    # organismo que la publica, que es lo único que no se mueve.
+    if e.get('isbn13'):
+        ident = f"ISBN {e['isbn13']}"
+    elif e.get('doi'):
+        ident = f"DOI {e['doi']}"
+    else:
+        ident = e.get('authority') or '—'
+    ed = f" ({e['edition']})" if e.get('edition') else ''
+    marca = '' if e['status'] == 'verificada' else ' ⚠️'
+    tier = '🔹' if e['tier'] == 'primaria' else '·'
+    # El desplegable va DENTRO de la celda y en una sola línea: así la lista de
+    # clases —lo que hace falta para corregir— está pegada a su obra en vez de
+    # en un bloque aparte, y la tabla no se rompe.
+    return (f"| {tier} | **{e['title']}**{ed}{marca} | {autores} | {año} | "
+            f"{ident} | {_celda_clases(e)} | [abrir]({e['locator']}) |")
+
+
+def _celda_clases(e: dict) -> str:
+    """Cuántas clases citan la obra y, al desplegar, cuáles. Es lo que permite
+    corregir: si una fuente resulta estar mal, ahí está la lista exacta de lo
+    que hay que revisar."""
+    n = len(e['used_in'])
+    nums = _clases_de(e).split(', ')
+    if not nums or not nums[0]:
+        return str(n)
+    # Listar 275 números no ayuda a nadie: a partir de cierto punto la obra es
+    # transversal y lo que hace falta es el registro, no la enumeración.
+    if len(nums) > 40:
+        lista = (', '.join(nums[:40]) + f' … y {len(nums) - 40} más '
+                 '(lista completa en <code>used_in</code> del registro)')
+    else:
+        lista = ', '.join(nums)
+    return f"<details><summary>{n}</summary>{lista}</details>"
+
+
+def bibliografia(doc: dict, c: dict) -> str:
+    L = [f'# 📚 Bibliografía del programa', '',
+         '> **Este fichero lo genera una máquina.** Lo produce '
+         '`python scripts/verify-sources --write` a partir de '
+         '[`bibliography.json`](bibliography.json), y la CI falla si queda '
+         'desincronizado. No lo edites a mano: edita el registro.', '',
+         f'Las **{c["clases"]} clases** del programa citan **{c["entradas"]} '
+         f'obras**, {c["citas"]} veces en total. Están todas aquí, con su '
+         f'autoría, su año, su identificador y las clases que las usan.', '',
+         '**Cómo leer la tabla**', '',
+         '- 🔹 marca la **fuente primaria**: la documentación de quien fabrica '
+         'la herramienta, el texto normativo, la obra del autor. Un `·` marca '
+         'la secundaria: charla, tutorial, divulgación o catálogo.',
+         '- **Clases** es cuántas clases citan esa obra; despliega el número '
+         'para ver cuáles. Eso es lo que permite corregir: si una fuente '
+         'resulta estar mal, ahí tienes la lista exacta de lo que hay que '
+         'revisar.',
+         '- ⚠️ marca la obra con un **hueco declarado**: el localizador no '
+         'resuelve o la obra no está identificada del todo. Están todas '
+         'explicadas al final, con su motivo. No se borran.',
+         '- «abrir» va al **localizador**: la ficha del ISBN, el DOI, o la '
+         'fuente primaria.', '',
+         f'Última comprobación por red: **{c["verified_on"]}** '
+         f'([informe](refresh-report.md)). Cómo se mantiene esto y cómo se '
+         f'añade una fuente: [`README.md`](README.md).', '',
+         '---', '']
+
+    for tipo, titulo, intro in SECCIONES:
+        grupo = sorted((x for x in doc['entries'] if x['type'] == tipo),
+                       key=lambda x: (-len(x['used_in']), x['title'].lower()))
+        if not grupo:
+            continue
+        L += [f'## {titulo} ({len(grupo)})', '']
+        if intro:
+            L += [intro, '']
+        quinta = ('Identificador' if tipo in ('book', 'paper')
+                  else 'Quién responde por ella')
+        L += [f'| | Obra | Autoría | Año | {quinta} | Clases | |',
+              '|:-:|---|---|:-:|---|---:|:-:|']
+        L += [_fila(e) for e in grupo]
+        L += ['', '---', '']
+
+    pend = [x for x in doc['entries'] if x['status'] == 'pendiente']
+    L += [f'## ⚠️ Huecos declarados ({len(pend)})', '',
+          'Un hueco declarado es información. Un hueco rellenado por intuición '
+          'es una invención con formato de bibliografía. Estas obras se citan '
+          'en el programa y **no se han borrado**: se dice qué falta y por qué.',
+          '']
+    for e in sorted(pend, key=lambda x: x['id']):
+        L += [f'### {e["title"]}', '',
+              f'- **Entrada:** `{e["id"]}` · {ETIQUETA[e["type"]]} · '
+              f'citada en {len(e["used_in"])} '
+              f'{"clase" if len(e["used_in"]) == 1 else "clases"}',
+              f'- **Localizador:** <{e["locator"]}>',
+              f'- **Qué falta:** {e.get("pending_reason", "")}', '']
+
+    notas = [x for x in doc['entries'] if x.get('note')]
+    if notas:
+        L += ['---', '', f'## 🗒️ Notas de edición ({len(notas)})', '',
+              'Por qué esta entrada dice lo que dice, cuando no es evidente.',
+              '']
+        for e in sorted(notas, key=lambda x: x['title'].lower()):
+            L += [f'- **{e["title"]}** — {e["note"]}']
+        L += ['']
+    return '\n'.join(L)
+
+
+def escribir_bibliografia(doc: dict, c: dict, escribir: bool,
+                          err: Errores) -> None:
+    nuevo = bibliografia(doc, c)
+    actual = BIBLIO.read_text(encoding='utf-8') if BIBLIO.exists() else None
+    if actual == nuevo:
+        return
+    if escribir:
+        BIBLIO.parent.mkdir(exist_ok=True)
+        BIBLIO.write_text(nuevo, encoding='utf-8', newline='\n')
+        print(f'{BIBLIO.relative_to(RAIZ).as_posix()}: bibliografía regenerada.')
+    else:
+        err('sources/BIBLIOGRAFIA.md no coincide con el registro. '
+            'Regenérala: python scripts/verify-sources --write')
+
+
 def render(doc: dict, c: dict) -> str:
-    pct = 100.0 * c['verificadas'] / c['entradas'] if c['entradas'] else 0.0
     color = 'brightgreen' if c['pendientes'] == 0 else 'yellow'
     ins = (f'![Fuentes](https://img.shields.io/badge/fuentes-'
            f'{c["entradas"]}%20obras%20%C2%B7%20{c["verificadas"]}%20verificadas'
            f'%20%C2%B7%20{c["pendientes"]}%20pendientes-{color})')
     filas = '\n'.join(
-        f'| {x["title"]} | {" · ".join(x["authors"][:2])} | `{x["type"]}` | '
-        f'{len(x["used_in"])} | [localizador]({x["locator"]}) |'
+        f'| **{x["title"]}** | {" · ".join(x["authors"][:2])} | {ETIQUETA[x["type"]]} | '
+        f'{len(x["used_in"])} | [abrir]({x["locator"]}) |'
         for x in rectoras(doc))
     return f"""{INICIO}
 {ins}
 
-**Registro de fuentes:** [`sources/bibliography.json`](sources/bibliography.json) ·
-verificado el **{c['verified_on']}** · comprobado por
-[`scripts/verify-sources`](scripts/verify-sources).
+### 📖 [Bibliografía completa del programa](sources/BIBLIOGRAFIA.md)
 
-| | |
-|---|---:|
-| Obras registradas | **{c['entradas']}** |
-| Con localizador resuelto (`verificada`) | **{c['verificadas']}** ({pct:.1f} %) |
-| Con hueco declarado (`pendiente`) | **{c['pendientes']}** |
-| Fuentes primarias / secundarias | **{c['primarias']}** / **{c['secundarias']}** |
-| Libros (ISBN-13) / artículos (DOI) / normas / documentación | **{c['libros']}** / **{c['articulos']}** / **{c['normas']}** / **{c['referencias']}** |
-| Citas de clase cubiertas | **{c['citas']}** en **{c['clases']}** clases |
+Las {c['clases']} clases se apoyan en **{c['entradas']} obras**:
+**{c['libros']} libros** con su ISBN-13, **{c['articulos']} artículos** con su DOI,
+**{c['normas']} normas y especificaciones**, y **{c['referencias']} obras de documentación
+oficial y de referencia**. Están todas listadas —autoría, año, localizador y qué
+clases las citan— en **[`sources/BIBLIOGRAFIA.md`](sources/BIBLIOGRAFIA.md)**.
+
+De ellas, **{c['verificadas']} tienen el localizador comprobado** y **{c['pendientes']}
+declaran un hueco** que nadie ha rellenado a ojo. El dato en bruto está en
+[`sources/bibliography.json`](sources/bibliography.json); lo comprueba
+[`scripts/verify-sources`](scripts/verify-sources) en cada push —incluidas estas
+cifras, que no se escriben a mano—, y la última pasada por red fue el
+**{c['verified_on']}**.
+
+**Las diez obras que más sostienen el programa**
+
+| Obra | Autoría | Tipo | Clases | Localizador |
+|---|---|---|---:|---|
+{filas}
 
 **Política de versión del motor.** La documentación del motor y de la suite de
 arte va anclada a versión, nunca a un alias móvil: **Godot {c['godot']}** —la que
 compila y ejecuta la CI de laboratorios— y **Blender {c['blender']} LTS**. Los alias
 `/en/stable` y `/latest` se mueven solos y dejan al programa citando una versión
 que nunca enseñó; `verify-sources` falla si reaparecen.
-
-**Obras rectoras** (las primarias más usadas; la lista completa está en el registro):
-
-| Obra | Autoría | Tipo | Clases | Localizador |
-|---|---|---|---:|---|
-{filas}
 {FIN}"""
 
 
@@ -383,6 +539,7 @@ def main() -> int:
     datos = cotejar(doc, err)
     c = cifras(doc, datos)
     readme(doc, c, escribir, err)
+    escribir_bibliografia(doc, c, escribir, err)
 
     print(f'Registro: {c["entradas"]} obras '
           f'({c["verificadas"]} verificadas, {c["pendientes"]} pendientes) · '

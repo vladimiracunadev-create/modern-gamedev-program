@@ -47,37 +47,41 @@ Cada clase cierra con sus fuentes, y cada fuente citada existe en un registro ú
 <!-- fuentes:inicio -->
 ![Fuentes](https://img.shields.io/badge/fuentes-207%20obras%20%C2%B7%20204%20verificadas%20%C2%B7%203%20pendientes-yellow)
 
-**Registro de fuentes:** [`sources/bibliography.json`](sources/bibliography.json) ·
-verificado el **2026-08-19** · comprobado por
-[`scripts/verify-sources`](scripts/verify-sources).
+### 📖 [Bibliografía completa del programa](sources/BIBLIOGRAFIA.md)
 
-| | |
-|---|---:|
-| Obras registradas | **207** |
-| Con localizador resuelto (`verificada`) | **204** (98.6 %) |
-| Con hueco declarado (`pendiente`) | **3** |
-| Fuentes primarias / secundarias | **140** / **67** |
-| Libros (ISBN-13) / artículos (DOI) / normas / documentación | **31** / **5** / **18** / **153** |
-| Citas de clase cubiertas | **1490** en **352** clases |
+Las 352 clases se apoyan en **207 obras**:
+**31 libros** con su ISBN-13, **5 artículos** con su DOI,
+**18 normas y especificaciones**, y **153 obras de documentación
+oficial y de referencia**. Están todas listadas —autoría, año, localizador y qué
+clases las citan— en **[`sources/BIBLIOGRAFIA.md`](sources/BIBLIOGRAFIA.md)**.
+
+De ellas, **204 tienen el localizador comprobado** y **3
+declaran un hueco** que nadie ha rellenado a ojo. El dato en bruto está en
+[`sources/bibliography.json`](sources/bibliography.json); lo comprueba
+[`scripts/verify-sources`](scripts/verify-sources) en cada push —incluidas estas
+cifras, que no se escriben a mano—, y la última pasada por red fue el
+**2026-08-19**.
+
+**Las diez obras que más sostienen el programa**
+
+| Obra | Autoría | Tipo | Clases | Localizador |
+|---|---|---|---:|---|
+| **Godot Engine 4.3 documentation** | Godot Engine (colaboradores del proyecto) | documentación | 275 | [abrir](https://docs.godotengine.org/en/4.3/) |
+| **Game Engine Architecture** | Gregory, Jason | libro | 21 | [abrir](https://openlibrary.org/isbn/9781138035454) |
+| **Steamworks Documentation** | Valve Corporation | documentación | 19 | [abrir](https://partner.steamgames.com/) |
+| **Game Programming Patterns** | Nystrom, Robert | libro | 18 | [abrir](https://openlibrary.org/isbn/9780990582908) |
+| **OWASP — Top Ten y proyectos asociados** | OWASP Foundation | documentación | 16 | [abrir](https://owasp.org/) |
+| **Real-Time Rendering** | Akenine-Möller, Tomas · Haines, Eric | libro | 15 | [abrir](https://openlibrary.org/isbn/9781138627000) |
+| **MDN Web Docs** | Mozilla y colaboradores de MDN | documentación | 15 | [abrir](https://developer.mozilla.org/) |
+| **The Art of Game Design: A Book of Lenses** | Schell, Jesse | libro | 13 | [abrir](https://openlibrary.org/isbn/9781138632059) |
+| **Gaffer On Games — artículos de física y networking de juegos** | Fiedler, Glenn | documentación | 12 | [abrir](https://gafferongames.com/) |
+| **GitHub Docs** | GitHub, Inc. | documentación | 12 | [abrir](https://docs.github.com/) |
 
 **Política de versión del motor.** La documentación del motor y de la suite de
 arte va anclada a versión, nunca a un alias móvil: **Godot 4.3** —la que
 compila y ejecuta la CI de laboratorios— y **Blender 4.2 LTS**. Los alias
 `/en/stable` y `/latest` se mueven solos y dejan al programa citando una versión
 que nunca enseñó; `verify-sources` falla si reaparecen.
-
-**Obras rectoras** (las primarias más usadas; la lista completa está en el registro):
-
-| Obra | Autoría | Tipo | Clases | Localizador |
-|---|---|---|---:|---|
-| Godot Engine 4.3 documentation | Godot Engine (colaboradores del proyecto) | `reference` | 275 | [localizador](https://docs.godotengine.org/en/4.3/) |
-| Game Engine Architecture | Gregory, Jason | `book` | 21 | [localizador](https://openlibrary.org/isbn/9781138035454) |
-| Steamworks Documentation | Valve Corporation | `reference` | 19 | [localizador](https://partner.steamgames.com/) |
-| Game Programming Patterns | Nystrom, Robert | `book` | 18 | [localizador](https://openlibrary.org/isbn/9780990582908) |
-| OWASP — Top Ten y proyectos asociados | OWASP Foundation | `reference` | 16 | [localizador](https://owasp.org/) |
-| Real-Time Rendering | Akenine-Möller, Tomas · Haines, Eric | `book` | 15 | [localizador](https://openlibrary.org/isbn/9781138627000) |
-| MDN Web Docs | Mozilla y colaboradores de MDN | `reference` | 15 | [localizador](https://developer.mozilla.org/) |
-| The Art of Game Design: A Book of Lenses | Schell, Jesse | `book` | 13 | [localizador](https://openlibrary.org/isbn/9781138632059) |
 <!-- fuentes:fin -->
 
 ## 🧪 Laboratorios ejecutables
