@@ -215,9 +215,9 @@ Entrega `transformaciones.py` con las funciones `identidad`, `traslacion`, `rota
 
 ## 🔗 Referencias
 
-- Eric Lengyel, *Mathematics for 3D Game Programming and Computer Graphics* — <https://foundationsofgameenginedev.com>
-- Documentación de NumPy — <https://numpy.org/doc/stable/>
-- 3Blue1Brown, "Essence of Linear Algebra" (transformaciones lineales) — <https://www.3blue1brown.com/topics/linear-algebra>
+- Eric Lengyel, *Mathematics for 3D Game Programming and Computer Graphics* — <https://foundationsofgameenginedev.com> · uso: se instala o se consulta en la preparación
+- Documentación de NumPy — <https://numpy.org/doc/stable/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- 3Blue1Brown, "Essence of Linear Algebra" (transformaciones lineales) — <https://www.3blue1brown.com/topics/linear-algebra> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

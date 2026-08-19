@@ -51,7 +51,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x desde <https://godotengine.org/download>. Reúne lo construido en clases previas: áreas (063), instanciado (064), GridMap/blockout (065) y optimización (066). Guías útiles: cámara en tercera persona y `SpringArm3D` en <https://docs.godotengine.org/en/stable/classes/class_springarm3d.html>, navegación 3D en <https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_introduction_3d.html>, y `WorldEnvironment` en <https://docs.godotengine.org/en/stable/tutorials/3d/environment_and_post_processing.html>. Para animación revisa `AnimationTree` en <https://docs.godotengine.org/en/stable/tutorials/animation/animation_tree.html>.
+Necesitas Godot 4.x desde <https://godotengine.org/download>. Reúne lo construido en clases previas: áreas (063), instanciado (064), GridMap/blockout (065) y optimización (066). Guías útiles: cámara en tercera persona y `SpringArm3D` en <https://docs.godotengine.org/en/4.3/classes/class_springarm3d.html>, navegación 3D en <https://docs.godotengine.org/en/4.3/tutorials/navigation/navigation_introduction_3d.html>, y `WorldEnvironment` en <https://docs.godotengine.org/en/4.3/tutorials/3d/environment_and_post_processing.html>. Para animación revisa `AnimationTree` en <https://docs.godotengine.org/en/4.3/tutorials/animation/animation_tree.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -207,11 +207,11 @@ Entrega un nivel 3D jugable de principio a fin que cumpla la tabla de features y
 
 ## 🔗 Referencias
 
-- Godot Docs — Clase SpringArm3D: <https://docs.godotengine.org/en/stable/classes/class_springarm3d.html>
-- Godot Docs — Navigation introduction 3D: <https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_introduction_3d.html>
-- Godot Docs — Environment and post-processing: <https://docs.godotengine.org/en/stable/tutorials/3d/environment_and_post_processing.html>
-- Godot Docs — Using AnimationTree: <https://docs.godotengine.org/en/stable/tutorials/animation/animation_tree.html>
-- Godot Docs — Clase NavigationAgent3D: <https://docs.godotengine.org/en/stable/classes/class_navigationagent3d.html>
+- Godot Docs — Clase SpringArm3D: <https://docs.godotengine.org/en/4.3/classes/class_springarm3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Navigation introduction 3D: <https://docs.godotengine.org/en/4.3/tutorials/navigation/navigation_introduction_3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Environment and post-processing: <https://docs.godotengine.org/en/4.3/tutorials/3d/environment_and_post_processing.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Using AnimationTree: <https://docs.godotengine.org/en/4.3/tutorials/animation/animation_tree.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Clase NavigationAgent3D: <https://docs.godotengine.org/en/4.3/classes/class_navigationagent3d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

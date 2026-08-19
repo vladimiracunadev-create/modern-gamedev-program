@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Godot 4.x** abierto y un juego cualquiera para auditar (uno tuyo, uno comercial o incluso un prototipo del curso). Ten a mano papel o una nota digital para registrar hallazgos. No hace falta arte: usaremos nodos `Control` básicos para construir la checklist.
 
-Como lectura de apoyo, el trabajo de Celia Hodent sobre psicología cognitiva aplicada a juegos es la referencia estándar; su charla "The Gamer's Brain" resume los principios. Consulta también la introducción a GUI de Godot: <https://docs.godotengine.org/en/stable/tutorials/ui/index.html>.
+Como lectura de apoyo, el trabajo de Celia Hodent sobre psicología cognitiva aplicada a juegos es la referencia estándar; su charla "The Gamer's Brain" resume los principios. Consulta también la introducción a GUI de Godot: <https://docs.godotengine.org/en/4.3/tutorials/ui/index.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -139,10 +139,10 @@ Extiende la auditoría para que, al cerrar (tecla Esc), imprima en el Output un 
 
 ## 🔗 Referencias
 
-- Godot Docs — GUI (índice): <https://docs.godotengine.org/en/stable/tutorials/ui/index.html>
-- Godot Docs — Control: <https://docs.godotengine.org/en/stable/classes/class_control.html>
-- Celia Hodent — The Gamer's Brain (sitio oficial): <https://celiahodent.com/>
-- GDC Vault — UX design talks: <https://www.gdcvault.com/>
+- Godot Docs — GUI (índice): <https://docs.godotengine.org/en/4.3/tutorials/ui/index.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Control: <https://docs.godotengine.org/en/4.3/classes/class_control.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Celia Hodent — The Gamer's Brain (sitio oficial): <https://celiahodent.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — UX design talks: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

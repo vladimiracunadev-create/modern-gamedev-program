@@ -43,7 +43,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Consigue dos temas del mismo proyecto musical, idealmente al **mismo tempo** y en tonalidades compatibles: `exploracion.ogg` y `combate.ogg`, ambos en bucle. Para el enfoque manual con crossfade bastan dos `AudioStreamPlayer`. Para el enfoque con `AudioStreamInteractive` necesitas **Godot 4.3 o superior**; comprueba tu versión en *Help → About*. Revisa la [referencia de AudioStreamInteractive](https://docs.godotengine.org/en/stable/classes/class_audiostreaminteractive.html) y la [guía de música interactiva](https://docs.godotengine.org/en/stable/tutorials/audio/index.html). Coloca los OGG en `audio/musica/`.
+Consigue dos temas del mismo proyecto musical, idealmente al **mismo tempo** y en tonalidades compatibles: `exploracion.ogg` y `combate.ogg`, ambos en bucle. Para el enfoque manual con crossfade bastan dos `AudioStreamPlayer`. Para el enfoque con `AudioStreamInteractive` necesitas **Godot 4.3 o superior**; comprueba tu versión en *Help → About*. Revisa la [referencia de AudioStreamInteractive](https://docs.godotengine.org/en/4.3/classes/class_audiostreaminteractive.html) y la [guía de música interactiva](https://docs.godotengine.org/en/4.3/tutorials/audio/index.html). Coloca los OGG en `audio/musica/`.
 
 ## 🧪 Laboratorio guiado
 
@@ -154,10 +154,10 @@ Sí: `AudioStreamInteractive` permite *From Time* = `End of Clip`, útil cuando 
 
 ## 🔗 Referencias
 
-- [AudioStreamInteractive — referencia de clase](https://docs.godotengine.org/en/stable/classes/class_audiostreaminteractive.html)
-- [Audio interactivo en Godot 4 — documentación](https://docs.godotengine.org/en/stable/tutorials/audio/index.html)
-- [AudioStreamPlayer — referencia de clase](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html)
-- [GDC — Horizontal re-sequencing en música adaptativa](https://www.gdcvault.com/)
+- [AudioStreamInteractive — referencia de clase](https://docs.godotengine.org/en/4.3/classes/class_audiostreaminteractive.html) · uso: se instala o se consulta en la preparación
+- [Audio interactivo en Godot 4 — documentación](https://docs.godotengine.org/en/4.3/tutorials/audio/index.html) · uso: se instala o se consulta en la preparación
+- [AudioStreamPlayer — referencia de clase](https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [GDC — Horizontal re-sequencing en música adaptativa](https://www.gdcvault.com/) — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 1 «Re-sequencing horizontal»
 
 ## ⬅️ Clase anterior
 

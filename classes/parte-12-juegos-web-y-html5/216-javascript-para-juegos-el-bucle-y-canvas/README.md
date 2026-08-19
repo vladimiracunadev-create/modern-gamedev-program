@@ -174,10 +174,10 @@ Crea un mini-juego donde un cuadrado "jugador" (controlado por flechas) debe toc
 
 ## 🔗 Referencias
 
-- MDN — Anatomy of a video game: <https://developer.mozilla.org/es/docs/Games/Anatomy>
-- MDN — window.requestAnimationFrame: <https://developer.mozilla.org/es/docs/Web/API/Window/requestAnimationFrame>
-- MDN — CanvasRenderingContext2D: <https://developer.mozilla.org/es/docs/Web/API/CanvasRenderingContext2D>
-- MDN — Pointer events: <https://developer.mozilla.org/es/docs/Web/API/Pointer_events>
+- MDN — Anatomy of a video game: <https://developer.mozilla.org/es/docs/Games/Anatomy> · uso: se instala o se consulta en la preparación
+- MDN — window.requestAnimationFrame: <https://developer.mozilla.org/es/docs/Web/API/Window/requestAnimationFrame> · uso: respalda el Tema 1 «`requestAnimationFrame`»
+- MDN — CanvasRenderingContext2D: <https://developer.mozilla.org/es/docs/Web/API/CanvasRenderingContext2D> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- MDN — Pointer events: <https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

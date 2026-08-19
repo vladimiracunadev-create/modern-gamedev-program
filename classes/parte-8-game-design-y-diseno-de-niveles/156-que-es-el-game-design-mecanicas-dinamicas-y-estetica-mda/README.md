@@ -130,10 +130,10 @@ Analiza con MDA un juego que **nunca hayas estudiado formalmente** y entrega la 
 
 ## 🔗 Referencias
 
-- Hunicke, LeBlanc & Zubek — MDA: A Formal Approach to Game Design: <https://users.cs.northwestern.edu/~hunicke/MDA.pdf>
-- Jesse Schell — The Art of Game Design (sitio del libro): <https://www.schellgames.com/art-of-game-design>
-- Marco MDA (resumen): <https://en.wikipedia.org/wiki/MDA_framework>
-- Extra Credits — What Makes Us Roll (diseño de experiencias): <https://www.youtube.com/c/extracredits>
+- Hunicke, LeBlanc & Zubek — MDA: A Formal Approach to Game Design: <https://users.cs.northwestern.edu/~hunicke/MDA.pdf> · uso: se instala o se consulta en la preparación
+- Jesse Schell — The Art of Game Design (sitio del libro): <https://www.schellgames.com/art-of-game-design> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Marco MDA (resumen): <https://en.wikipedia.org/wiki/MDA_framework> · uso: se instala o se consulta en la preparación
+- Extra Credits — What Makes Us Roll (diseño de experiencias): <https://www.youtube.com/@ExtraCredits> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

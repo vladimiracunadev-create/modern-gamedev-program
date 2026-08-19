@@ -52,7 +52,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Reúne todo tu proyecto `PlataformasCurso` con los sistemas de las clases 026-044: escenas de menú, nivel(es) con **TileMap**, jugador `CharacterBody2D` con máquina de estados, enemigos, monedas, HUD, pausa, audio (Autoloads de música y SFX), partículas y `GameState` de guardado. Necesitas **Godot 4.x** y, para el playtesting, **otra persona** que no haya jugado antes. Ten a mano la guía de buenas prácticas de organización: <https://docs.godotengine.org/en/stable/tutorials/best_practices/scene_organization.html> y el cambio de escenas: <https://docs.godotengine.org/en/stable/tutorials/scripting/change_scenes_manually.html>.
+Reúne todo tu proyecto `PlataformasCurso` con los sistemas de las clases 026-044: escenas de menú, nivel(es) con **TileMap**, jugador `CharacterBody2D` con máquina de estados, enemigos, monedas, HUD, pausa, audio (Autoloads de música y SFX), partículas y `GameState` de guardado. Necesitas **Godot 4.x** y, para el playtesting, **otra persona** que no haya jugado antes. Ten a mano la guía de buenas prácticas de organización: <https://docs.godotengine.org/en/4.3/tutorials/best_practices/scene_organization.html> y el cambio de escenas: <https://docs.godotengine.org/en/4.3/tutorials/scripting/change_scenes_manually.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -192,11 +192,11 @@ Entrega el juego completo terminado según la especificación y la *definition o
 
 ## 🔗 Referencias
 
-- Godot Docs — Scene organization: <https://docs.godotengine.org/en/stable/tutorials/best_practices/scene_organization.html>
-- Godot Docs — Change scenes manually: <https://docs.godotengine.org/en/stable/tutorials/scripting/change_scenes_manually.html>
-- Godot Docs — Singletons (Autoload): <https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html>
-- Godot Docs — Pausing games: <https://docs.godotengine.org/en/stable/tutorials/scripting/pausing_games.html>
-- Godot Docs — Exporting projects: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html>
+- Godot Docs — Scene organization: <https://docs.godotengine.org/en/4.3/tutorials/best_practices/scene_organization.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Change scenes manually: <https://docs.godotengine.org/en/4.3/tutorials/scripting/change_scenes_manually.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Singletons (Autoload): <https://docs.godotengine.org/en/4.3/tutorials/scripting/singletons_autoload.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Pausing games: <https://docs.godotengine.org/en/4.3/tutorials/scripting/pausing_games.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Exporting projects: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_projects.html> · uso: respalda el Tema 8 «Pulido final y export»
 
 ## ⬅️ Clase anterior
 

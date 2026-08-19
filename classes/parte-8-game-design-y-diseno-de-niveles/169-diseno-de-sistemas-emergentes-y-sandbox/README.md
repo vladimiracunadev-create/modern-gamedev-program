@@ -46,7 +46,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Esta clase es de **diseño analítico**: tu herramienta es la matriz de interacciones (hoja de cálculo, tabla Markdown o papel cuadriculado). No implementarás los sistemas aquí, pero pensarás cómo lo harías en Godot: cada sistema suele modelarse como un **componente/nodo** que emite y recibe señales (por ejemplo, un `Area3D` "fuego" que al solaparse con uno "agua" produce "vapor"). Ten presente el patrón de señales de Godot (<https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html>) y el uso de grupos para consultar sistemas afectados.
+Esta clase es de **diseño analítico**: tu herramienta es la matriz de interacciones (hoja de cálculo, tabla Markdown o papel cuadriculado). No implementarás los sistemas aquí, pero pensarás cómo lo harías en Godot: cada sistema suele modelarse como un **componente/nodo** que emite y recibe señales (por ejemplo, un `Area3D` "fuego" que al solaparse con uno "agua" produce "vapor"). Ten presente el patrón de señales de Godot (<https://docs.godotengine.org/en/4.3/getting_started/step_by_step/signals.html>) y el uso de grupos para consultar sistemas afectados.
 
 ## 🧪 Laboratorio guiado
 
@@ -130,10 +130,10 @@ Entrega el diseño de **3 sistemas ortogonales** con su tabla de reglas, la **ma
 
 ## 🔗 Referencias
 
-- Godot Docs — Signals: <https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html>
-- Godot Docs — Groups: <https://docs.godotengine.org/en/stable/tutorials/scripting/groups.html>
-- GDC — Systemic design de immersive sims (charlas): <https://www.gdcvault.com/>
-- Game Design Vocabulary — Emergence (referencia general): <https://www.gamedeveloper.com/>
+- Godot Docs — Signals: <https://docs.godotengine.org/en/4.3/getting_started/step_by_step/signals.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Groups: <https://docs.godotengine.org/en/4.3/tutorials/scripting/groups.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC — Systemic design de immersive sims (charlas): <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 4 «Immersive sims»
+- Game Design Vocabulary — Emergence (referencia general): <https://www.gamedeveloper.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

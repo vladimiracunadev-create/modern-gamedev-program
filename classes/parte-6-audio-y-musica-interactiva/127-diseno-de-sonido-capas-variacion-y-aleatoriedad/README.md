@@ -43,7 +43,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Consigue de tres a cinco variaciones de un mismo efecto: por ejemplo, cuatro muestras de pasos sobre grava, o tres de un disparo. Si no las tienes grabadas, en [freesound.org](https://freesound.org/) suelen venir en packs. Impórtalas como **WAV** con *Loop* `Disabled`. Para las capas necesitarás además una "cola" (un breve *tail* reverberante o un eco). Ten abierta la [referencia de AudioStreamRandomizer](https://docs.godotengine.org/en/stable/classes/class_audiostreamrandomizer.html). Crea una carpeta `audio/pasos/` y coloca ahí tus muestras.
+Consigue de tres a cinco variaciones de un mismo efecto: por ejemplo, cuatro muestras de pasos sobre grava, o tres de un disparo. Si no las tienes grabadas, en [freesound.org](https://freesound.org/) suelen venir en packs. Impórtalas como **WAV** con *Loop* `Disabled`. Para las capas necesitarás además una "cola" (un breve *tail* reverberante o un eco). Ten abierta la [referencia de AudioStreamRandomizer](https://docs.godotengine.org/en/4.3/classes/class_audiostreamrandomizer.html). Crea una carpeta `audio/pasos/` y coloca ahí tus muestras.
 
 ## 🧪 Laboratorio guiado
 
@@ -139,10 +139,10 @@ Cada capa es una voz de audio más. Con unas pocas capas no hay problema; solo i
 
 ## 🔗 Referencias
 
-- [AudioStreamRandomizer — referencia de clase](https://docs.godotengine.org/en/stable/classes/class_audiostreamrandomizer.html)
-- [Audio en Godot 4 — documentación oficial](https://docs.godotengine.org/en/stable/tutorials/audio/index.html)
-- [GDC — The Sound of Grand Theft Auto V (variación y capas)](https://www.gdcvault.com/)
-- [Freesound — packs de variaciones](https://freesound.org/)
+- [AudioStreamRandomizer — referencia de clase](https://docs.godotengine.org/en/4.3/classes/class_audiostreamrandomizer.html) · uso: se instala o se consulta en la preparación
+- [Audio en Godot 4 — documentación oficial](https://docs.godotengine.org/en/4.3/tutorials/audio/index.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [GDC — The Sound of Grand Theft Auto V (variación y capas)](https://www.gdcvault.com/) — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 2 «Variación de pitch»
+- [Freesound — packs de variaciones](https://freesound.org/) · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

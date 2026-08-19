@@ -47,8 +47,8 @@ Al finalizar, el alumno podrá:
 
 Godot 4.x. Crea un `MultiMeshInstance3D` y asígnale un `MultiMesh` nuevo con un `QuadMesh` o una malla simple de brizna de hierba (un quad alto). Activa el **monitor de rendimiento** (`Debugger > Monitors`) para ver *Draw Calls* y *Primitives*. Prepara un `ShaderMaterial` para animar/variar las instancias.
 
-- Using MultiMesh: <https://docs.godotengine.org/en/stable/tutorials/performance/using_multimesh.html>
-- MultiMesh (clase): <https://docs.godotengine.org/en/stable/classes/class_multimesh.html>
+- Using MultiMesh: <https://docs.godotengine.org/en/4.3/tutorials/performance/using_multimesh.html>
+- MultiMesh (clase): <https://docs.godotengine.org/en/4.3/classes/class_multimesh.html>
 
 ## 🧪 Laboratorio guiado
 
@@ -161,9 +161,9 @@ Crea un campo de **al menos 8000 briznas** de hierba con `MultiMeshInstance3D`, 
 
 ## 🔗 Referencias
 
-- Godot — Using MultiMesh: <https://docs.godotengine.org/en/stable/tutorials/performance/using_multimesh.html>
-- Godot — MultiMesh (clase): <https://docs.godotengine.org/en/stable/classes/class_multimesh.html>
-- Godot — MultiMeshInstance3D (clase): <https://docs.godotengine.org/en/stable/classes/class_multimeshinstance3d.html>
+- Godot — Using MultiMesh: <https://docs.godotengine.org/en/4.3/tutorials/performance/using_multimesh.html> · uso: se instala o se consulta en la preparación
+- Godot — MultiMesh (clase): <https://docs.godotengine.org/en/4.3/classes/class_multimesh.html> · uso: se instala o se consulta en la preparación
+- Godot — MultiMeshInstance3D (clase): <https://docs.godotengine.org/en/4.3/classes/class_multimeshinstance3d.html> · uso: respalda el Tema 3 «`MultiMeshInstance3D`»
 
 ## ⬅️ Clase anterior
 

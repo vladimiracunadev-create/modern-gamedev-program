@@ -139,10 +139,10 @@ La percepción de justicia que se diseña aquí se implementa con dos mecanismos
 
 ## 🔗 Referencias
 
-- Jesse Schell, *The Art of Game Design: A Book of Lenses* (3ª ed.) — <https://www.schellgames.com>
-- Pseudo Random Distribution (Dota 2, agrupamiento de rachas) — <https://liquipedia.net/dota2/Pseudo_Random_Distribution>
-- Tracy Fullerton, *Game Design Workshop* (4ª ed.) — CRC Press
-- Falacia del jugador (referencia general) — <https://es.wikipedia.org/wiki/Falacia_del_jugador>
+- Jesse Schell, *The Art of Game Design: A Book of Lenses* (3ª ed.) — <https://www.schellgames.com> · uso: se instala o se consulta en la preparación
+- Pseudo Random Distribution (Dota 2, agrupamiento de rachas) — <https://liquipedia.net/dota2/Pseudo_Random_Distribution> · uso: se instala o se consulta en la preparación
+- Tracy Fullerton, *Game Design Workshop* (4ª ed.) — CRC Press · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Falacia del jugador (referencia general) — <https://es.wikipedia.org/wiki/Falacia_del_jugador> · uso: respalda el Tema 4 «Falacia del jugador y rachas»
 
 ## ⬅️ Clase anterior
 

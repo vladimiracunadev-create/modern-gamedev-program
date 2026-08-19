@@ -50,7 +50,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x con **Forward+**. Prepara una escena de prueba con un suelo, uno o dos objetos protagonistas y una `Camera3D`. El post-procesado se hace con un `MeshInstance3D` que usa un `QuadMesh` marcado para dibujarse a pantalla completa (o un nodo con material que lea `hint_screen_texture`). Los uniforms globales se registran en **Project Settings → Shader Globals**. Ten a mano la [guía de post-procesado con shaders de pantalla](https://docs.godotengine.org/en/stable/tutorials/shaders/advanced_postprocessing.html) y la referencia de [uniforms globales](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html#global-uniforms). Reutiliza lo aprendido en las clases 093 (PBR), 100 (agua), 101 (partículas) y 096–097 (post-proceso).
+Necesitas Godot 4.x con **Forward+**. Prepara una escena de prueba con un suelo, uno o dos objetos protagonistas y una `Camera3D`. El post-procesado se hace con un `MeshInstance3D` que usa un `QuadMesh` marcado para dibujarse a pantalla completa (o un nodo con material que lea `hint_screen_texture`). Los uniforms globales se registran en **Project Settings → Shader Globals**. Ten a mano la [guía de post-procesado con shaders de pantalla](https://docs.godotengine.org/en/4.3/tutorials/shaders/advanced_postprocessing.html) y la referencia de [uniforms globales](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/shading_language.html#global-uniforms). Reutiliza lo aprendido en las clases 093 (PBR), 100 (agua), 101 (partículas) y 096–097 (post-proceso).
 
 ## 🧪 Laboratorio guiado
 
@@ -226,10 +226,10 @@ El que haga subir el tiempo de GPU por encima de tu presupuesto de frame. Mídel
 
 ## 🔗 Referencias
 
-- [Post-procesado avanzado con shaders de pantalla — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/shaders/advanced_postprocessing.html)
-- [Uniforms globales en el lenguaje de shaders — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html)
-- [Partículas GPU 3D — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/3d/particles/index.html)
-- [Glow y entorno (bloom) — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/3d/environment_and_post_processing.html)
+- [Post-procesado avanzado con shaders de pantalla — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/shaders/advanced_postprocessing.html) · uso: se instala o se consulta en la preparación
+- [Uniforms globales en el lenguaje de shaders — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/shading_language.html) · uso: se instala o se consulta en la preparación
+- [Partículas GPU 3D — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/3d/particles/index.html) · uso: respalda el Tema 4 «Partículas GPU»
+- [Glow y entorno (bloom) — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/3d/environment_and_post_processing.html) · uso: respalda el Tema 5 «Post-proceso screen-space»
 
 ## ⬅️ Clase anterior
 

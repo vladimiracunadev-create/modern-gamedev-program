@@ -173,10 +173,10 @@ Cuando el comportamiento es determinista o especificable con reglas, cuando nece
 
 ## 🔗 Referencias
 
-- [Unity ML-Agents Toolkit — GitHub](https://github.com/Unity-Technologies/ml-agents)
-- [Godot RL Agents — GitHub](https://github.com/edbeeching/godot_rl_agents)
-- [Reinforcement Learning: An Introduction (Sutton & Barto, libro abierto)](http://incompleteideas.net/book/the-book-2nd.html)
-- [Stable-Baselines3 — Documentación](https://stable-baselines3.readthedocs.io/)
+- [Unity ML-Agents Toolkit — GitHub](https://github.com/Unity-Technologies/ml-agents) · uso: se instala o se consulta en la preparación
+- [Godot RL Agents — GitHub](https://github.com/edbeeching/godot_rl_agents) · uso: respalda el Tema 6 «ML-Agents y addons Godot»
+- [Reinforcement Learning: An Introduction (Sutton & Barto, libro abierto)](http://incompleteideas.net/book/the-book-2nd.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Stable-Baselines3 — Documentación](https://stable-baselines3.readthedocs.io/) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

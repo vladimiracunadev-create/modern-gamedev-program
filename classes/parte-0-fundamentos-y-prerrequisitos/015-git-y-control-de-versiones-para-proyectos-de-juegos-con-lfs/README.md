@@ -171,10 +171,10 @@ Crea desde cero un repositorio de un proyecto de juego con: un `.gitignore` que 
 
 ## 🔗 Referencias
 
-- Scott Chacon & Ben Straub, *Pro Git*, "Fundamentos de Git": <https://git-scm.com/book/es/v2>
-- Scott Chacon & Ben Straub, *Pro Git*, "Ramificaciones en Git": <https://git-scm.com/book/es/v2/Ramificaciones-en-Git-Procedimientos-Basicos-para-Ramificar-y-Fusionar>
-- Git LFS, tutorial oficial: <https://github.com/git-lfs/git-lfs/wiki/Tutorial>
-- GitHub Docs, "Ignoring files (.gitignore)": <https://docs.github.com/get-started/getting-started-with-git/ignoring-files>
+- Scott Chacon & Ben Straub, *Pro Git*, "Fundamentos de Git": <https://git-scm.com/book/es/v2> · uso: se instala o se consulta en la preparación
+- Scott Chacon & Ben Straub, *Pro Git*, "Ramificaciones en Git": <https://git-scm.com/book/es/v2/Ramificaciones-en-Git-Procedimientos-B%C3%A1sicos-para-Ramificar-y-Fusionar> · uso: respalda el Tema 6 «Git LFS»
+- Git LFS, tutorial oficial: <https://github.com/git-lfs/git-lfs/wiki/Tutorial> · uso: se instala o se consulta en la preparación
+- GitHub Docs, "Ignoring files (.gitignore)": <https://docs.github.com/get-started/getting-started-with-git/ignoring-files> · uso: respalda el Tema 4 «`.gitignore` en juegos»
 
 ## ⬅️ Clase anterior
 

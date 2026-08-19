@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Trabajaremos en **Blender 4.x** (<https://www.blender.org/download/>) con el personaje riggeado de la clase 181; si no lo tienes, usa **Rigify** o un rig sencillo propio. Cambia el layout a la pestaña **Animation**, que muestra el viewport junto al **Dope Sheet**; añadirás un **Graph Editor** en un área para pulir curvas.
 
-Configura la escena a **24 fps** (**Output Properties → Frame Rate**), el estándar de animación, y activa **Auto Keying** solo cuando lo domines (al principio conviene poner keys a mano con `I`). Como referencia conceptual, *The Animator's Survival Kit* de Richard Williams es la biblia del walk cycle. Documentación: animación en Blender (<https://docs.blender.org/manual/en/latest/animation/index.html>) y el Graph Editor (<https://docs.blender.org/manual/en/latest/editors/graph_editor/index.html>).
+Configura la escena a **24 fps** (**Output Properties → Frame Rate**), el estándar de animación, y activa **Auto Keying** solo cuando lo domines (al principio conviene poner keys a mano con `I`). Como referencia conceptual, *The Animator's Survival Kit* de Richard Williams es la biblia del walk cycle. Documentación: animación en Blender (<https://docs.blender.org/manual/en/4.2/animation/index.html>) y el Graph Editor (<https://docs.blender.org/manual/en/4.2/editors/graph_editor/index.html>).
 
 Ten claro el método de trabajo profesional: primero las **poses clave** (los momentos que cuentan la acción), luego los **breakdowns** (poses intermedias que definen el arco y el peso) y por último el pulido de **curvas** en el Graph Editor. Animar así, "de lo importante a lo fino", evita perderse en detalles antes de que la acción principal funcione.
 
@@ -131,10 +131,10 @@ Anima un ciclo completo (walk o idle) de 24 frames a 24 fps que aplique de forma
 
 ## 🔗 Referencias
 
-- Blender Manual — Animation & Rigging: <https://docs.blender.org/manual/en/latest/animation/index.html>
-- Blender Manual — Graph Editor: <https://docs.blender.org/manual/en/latest/editors/graph_editor/index.html>
-- Blender Manual — Actions & NLA: <https://docs.blender.org/manual/en/latest/editors/nla/index.html>
-- Richard Williams, *The Animator's Survival Kit* (referencia de walk cycles): <https://www.theanimatorssurvivalkit.com/>
+- Blender Manual — Animation & Rigging: <https://docs.blender.org/manual/en/4.2/animation/index.html> · uso: se instala o se consulta en la preparación
+- Blender Manual — Graph Editor: <https://docs.blender.org/manual/en/4.2/editors/graph_editor/index.html> · uso: se instala o se consulta en la preparación
+- Blender Manual — Actions & NLA: <https://docs.blender.org/manual/en/4.2/editors/nla/index.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Richard Williams, *The Animator's Survival Kit* (referencia de walk cycles): <https://www.theanimatorssurvivalkit.com/> ⚠️ (sitio caído; la obra se localiza por ISBN en el registro) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

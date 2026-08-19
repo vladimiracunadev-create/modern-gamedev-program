@@ -8,7 +8,7 @@
 
 - Robert Nystrom, *Game Programming Patterns* — Component, Command, Event Queue, Type Object, Service Locator: <https://gameprogrammingpatterns.com/>
 - Jason Gregory, *Game Engine Architecture* (3.ª ed.) — capítulos de gameplay foundation systems y object models.
-- Documentación de [recursos personalizados de Godot 4](https://docs.godotengine.org/en/stable/tutorials/scripting/resources.html) y de [señales](https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html).
+- Documentación de [recursos personalizados de Godot 4](https://docs.godotengine.org/en/4.3/tutorials/scripting/resources.html) y de [señales](https://docs.godotengine.org/en/4.3/getting_started/step_by_step/signals.html).
 - Documentación del [Gameplay Ability System de Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-ability-system-for-unreal-engine) como referencia conceptual de sistemas de habilidades de producción.
 - Charlas de GDC sobre diseño de sistemas de inventario, loot y economías: <https://www.gdcvault.com/>
 

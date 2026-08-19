@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usa **Godot 4.x**, proyecto 3D. Necesitas una escena con un `MeshInstance3D` con un `PlaneMesh` (o `QuadMesh`) grande, un `OmniLight3D` que puedas mover y una `Camera3D`. Consigue un normal map (por ejemplo de ladrillo o piedra); al importarlo, en la pestaña Import marca que es un **Normal Map**. Revisa los [Spatial shaders](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/spatial_shader.html) y [Importing images](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html). Lo observable: el plano liso muestra sombras de relieve que se desplazan cuando mueves la luz.
+Usa **Godot 4.x**, proyecto 3D. Necesitas una escena con un `MeshInstance3D` con un `PlaneMesh` (o `QuadMesh`) grande, un `OmniLight3D` que puedas mover y una `Camera3D`. Consigue un normal map (por ejemplo de ladrillo o piedra); al importarlo, en la pestaña Import marca que es un **Normal Map**. Revisa los [Spatial shaders](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/spatial_shader.html) y [Importing images](https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_images.html). Lo observable: el plano liso muestra sombras de relieve que se desplazan cuando mueves la luz.
 
 ## 🧪 Laboratorio guiado
 
@@ -143,9 +143,9 @@ Crea un muro de piedra: un `PlaneMesh` con normal map de roca, `tiling` ajustabl
 
 ## 🔗 Referencias
 
-1. Godot Engine — Spatial shaders (NORMAL_MAP): <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/spatial_shader.html>
-2. Godot Engine — Importing images (Normal Map): <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>
-3. Godot Engine — Standard Material 3D (Normal): <https://docs.godotengine.org/en/stable/tutorials/3d/standard_material_3d.html>
+1. Godot Engine — Spatial shaders (NORMAL_MAP): <https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/spatial_shader.html> · uso: se instala o se consulta en la preparación
+2. Godot Engine — Importing images (Normal Map): <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_images.html> · uso: se instala o se consulta en la preparación
+3. Godot Engine — Standard Material 3D (Normal): <https://docs.godotengine.org/en/4.3/tutorials/3d/standard_material_3d.html> · uso: respalda el Tema 2 «Codificación RGB de un normal map»
 
 ## ⬅️ Clase anterior
 

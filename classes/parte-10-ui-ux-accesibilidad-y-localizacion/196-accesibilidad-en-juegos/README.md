@@ -58,7 +58,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usaremos **Godot 4.x**. Crea o reutiliza un juego pequeño con algo de texto y un par de acciones de input. Necesitas un `Theme` propio para el proyecto: créalo en el sistema de archivos (**+ > New Resource > Theme**) y asígnalo en *Project Settings > GUI > Theme > Custom*. La referencia central de esta clase es <https://gameaccessibilityguidelines.com/>, que ofrece la checklist por niveles; complétala con la [documentación de accesibilidad de Godot](https://docs.godotengine.org/en/stable/tutorials/ui/gui_using_theme_editor.html) y, para TTS, con `DisplayServer.tts_*`. Ten a mano un verificador de contraste (por ejemplo el de WebAIM).
+Usaremos **Godot 4.x**. Crea o reutiliza un juego pequeño con algo de texto y un par de acciones de input. Necesitas un `Theme` propio para el proyecto: créalo en el sistema de archivos (**+ > New Resource > Theme**) y asígnalo en *Project Settings > GUI > Theme > Custom*. La referencia central de esta clase es <https://gameaccessibilityguidelines.com/>, que ofrece la checklist por niveles; complétala con la [documentación de accesibilidad de Godot](https://docs.godotengine.org/en/4.3/tutorials/ui/gui_using_theme_editor.html) y, para TTS, con `DisplayServer.tts_*`. Ten a mano un verificador de contraste (por ejemplo el de WebAIM).
 
 ## 🧪 Laboratorio guiado
 
@@ -172,13 +172,13 @@ Añade a un juego un menú de accesibilidad con, como mínimo: escalado de texto
 
 ## 🔗 Referencias
 
-- Game Accessibility Guidelines: <https://gameaccessibilityguidelines.com/>
+- Game Accessibility Guidelines: <https://gameaccessibilityguidelines.com/> · uso: se instala o se consulta en la preparación
 
-- Godot — Using the theme editor: <https://docs.godotengine.org/en/stable/tutorials/ui/gui_using_theme_editor.html>
+- Godot — Using the theme editor: <https://docs.godotengine.org/en/4.3/tutorials/ui/gui_using_theme_editor.html> · uso: se instala o se consulta en la preparación
 
-- Godot — InputMap y remapeo en runtime: <https://docs.godotengine.org/en/stable/tutorials/inputs/input_examples.html>
+- Godot — InputMap y remapeo en runtime: <https://docs.godotengine.org/en/4.3/tutorials/inputs/input_examples.html> · uso: respalda el Tema 5 «Remapeo de input con `InputMap`»
 
-- WebAIM — Contrast Checker: <https://webaim.org/resources/contrastchecker/>
+- WebAIM — Contrast Checker: <https://webaim.org/resources/contrastchecker/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

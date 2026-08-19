@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas el proyecto con **export de Android funcionando** (clase 201) y el **custom Gradle build** activado en el preset (los plugins nativos lo requieren). Elige un plugin de la comunidad para AdMob o Play Billing compatible con tu versión de Godot 4 (por ejemplo, integraciones GDExtension de AdMob mantenidas por la comunidad) y sigue su README para copiar el `.aar`/addon a `res://addons/` y activarlo en Project Settings → Plugins. Usa siempre **ad units de prueba** durante el desarrollo.
 
-Consulta cómo crear/usar plugins de Android en Godot en <https://docs.godotengine.org/en/stable/tutorials/platform/android/android_plugin.html>, la documentación de AdMob en <https://developers.google.com/admob/android/quick-start> y Play Billing en <https://developer.android.com/google/play/billing>. Revisa las políticas de anuncios de la tienda antes de publicar.
+Consulta cómo crear/usar plugins de Android en Godot en <https://docs.godotengine.org/en/4.3/tutorials/platform/android/android_plugin.html>, la documentación de AdMob en <https://developers.google.com/admob/android/quick-start> y Play Billing en <https://developer.android.com/google/play/billing>. Revisa las políticas de anuncios de la tienda antes de publicar.
 
 ## 🧪 Laboratorio guiado
 
@@ -161,10 +161,10 @@ Integra un plugin de monetización en tu build de Android y muestra un **rewarde
 
 ## 🔗 Referencias
 
-- Godot Docs — Creating Android plugins: <https://docs.godotengine.org/en/stable/tutorials/platform/android/android_plugin.html>
-- Google — AdMob for Android (quick start): <https://developers.google.com/admob/android/quick-start>
-- Android — Google Play Billing: <https://developer.android.com/google/play/billing>
-- Google Play — Políticas de monetización y anuncios: <https://support.google.com/googleplay/android-developer/answer/9857753>
+- Godot Docs — Creating Android plugins: <https://docs.godotengine.org/en/4.3/tutorials/platform/android/android_plugin.html> · uso: se instala o se consulta en la preparación
+- Google — AdMob for Android (quick start): <https://developers.google.com/admob/android/quick-start> · uso: se instala o se consulta en la preparación
+- Android — Google Play Billing: <https://developer.android.com/google/play/billing> · uso: se instala o se consulta en la preparación
+- Google Play — Políticas de monetización y anuncios: <https://support.google.com/googleplay/android-developer/answer/9857753> · uso: respalda el Tema 7 «Plugins de Android»
 
 ## ⬅️ Clase anterior
 

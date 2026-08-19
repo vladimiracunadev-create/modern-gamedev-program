@@ -62,7 +62,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Godot 4.x con `WorldEnvironment` (tonemap, exposición, glow), texturas con y sin `sRGB` en sus ajustes de importación, y un monitor HDR si lo tienes (no es imprescindible: casi todo el contenido se verifica en SDR). Trabajaremos en `res://color/`. La [documentación de entorno y post-procesado de Godot](https://docs.godotengine.org/en/stable/tutorials/3d/environment_and_post_processing.html) cubre los ajustes; aquí se explica qué hacen y por qué.
+Godot 4.x con `WorldEnvironment` (tonemap, exposición, glow), texturas con y sin `sRGB` en sus ajustes de importación, y un monitor HDR si lo tienes (no es imprescindible: casi todo el contenido se verifica en SDR). Trabajaremos en `res://color/`. La [documentación de entorno y post-procesado de Godot](https://docs.godotengine.org/en/4.3/tutorials/3d/environment_and_post_processing.html) cubre los ajustes; aquí se explica qué hacen y por qué.
 
 ## 🧪 Laboratorio guiado
 
@@ -399,12 +399,12 @@ Implementa una demostración de gestión de color con: conversiones sRGB↔linea
 
 ## 🔗 Referencias
 
-- Akenine-Möller, Haines & Hoffman — *Real-Time Rendering*, capítulo de color y tone mapping: <https://www.realtimerendering.com/>
-- Godot Docs — Entorno y post-procesado (tonemap, exposición, glow): <https://docs.godotengine.org/en/stable/tutorials/3d/environment_and_post_processing.html>
-- Godot Docs — Importación de imágenes y ajuste sRGB: <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>
-- ITU-R BT.709 — parámetros de SDR: <https://www.itu.int/rec/R-REC-BT.709>
-- ITU-R BT.2100 — parámetros de HDR (PQ y HLG): <https://www.itu.int/rec/R-REC-BT.2100>
-- ACES — Academy Color Encoding System: <https://acescentral.com/>
+- Akenine-Möller, Haines & Hoffman — *Real-Time Rendering*, capítulo de color y tone mapping: <https://www.realtimerendering.com/> · uso: respalda el Tema 7 «Tone mapping»
+- Godot Docs — Entorno y post-procesado (tonemap, exposición, glow): <https://docs.godotengine.org/en/4.3/tutorials/3d/environment_and_post_processing.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Importación de imágenes y ajuste sRGB: <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_images.html> · uso: respalda el Tema 2 «Gamma y sRGB»
+- ITU-R BT.709 — parámetros de SDR: <https://www.itu.int/rec/R-REC-BT.709> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- ITU-R BT.2100 — parámetros de HDR (PQ y HLG): <https://www.itu.int/rec/R-REC-BT.2100> · uso: respalda el Tema 9 «Curva EOTF (PQ, HLG)»
+- ACES — Academy Color Encoding System: <https://acescentral.com/> · uso: respalda el Tema 4 «Espacios de color»
 
 ## ⬅️ Clase anterior
 

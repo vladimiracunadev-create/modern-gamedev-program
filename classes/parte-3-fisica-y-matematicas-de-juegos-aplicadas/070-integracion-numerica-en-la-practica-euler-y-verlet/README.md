@@ -158,9 +158,9 @@ Construye una simulación Verlet de una **cadena de 5 puntos** unidos por restri
 
 ## 🔗 Referencias
 
-1. Godot Engine — `_physics_process` y paso fijo: <https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html>
-2. Wikipedia — Verlet integration: <https://en.wikipedia.org/wiki/Verlet_integration>
-3. Wikipedia — Semi-implicit Euler method: <https://en.wikipedia.org/wiki/Semi-implicit_Euler_method>
+1. Godot Engine — `_physics_process` y paso fijo: <https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html> · uso: respalda el Tema 6 «Paso de tiempo fijo»
+2. Wikipedia — Verlet integration: <https://en.wikipedia.org/wiki/Verlet_integration> · uso: respalda el Tema 4 «Verlet en posición»
+3. Wikipedia — Semi-implicit Euler method: <https://en.wikipedia.org/wiki/Semi-implicit_Euler_method> · uso: respalda el Tema 3 «Euler semi-implícito»
 
 ## ⬅️ Clase anterior
 

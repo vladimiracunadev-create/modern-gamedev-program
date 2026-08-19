@@ -153,10 +153,10 @@ La distinción entre *logging de depuración* y *telemetría de producción* que
 
 ## 🔗 Referencias
 
-- GameAnalytics — Documentación de eventos y métricas: <https://gameanalytics.com/docs/>
-- Firebase Analytics para juegos: <https://firebase.google.com/docs/analytics>
-- RGPD — información oficial: <https://gdpr.eu/>
-- Unity Analytics: <https://docs.unity.com/analytics/>
+- GameAnalytics — Documentación de eventos y métricas: <https://gameanalytics.com/docs/> · uso: respalda el Tema 1 «Métricas de actividad (DAU/MAU)»
+- Firebase Analytics para juegos: <https://firebase.google.com/docs/analytics> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- RGPD — información oficial: <https://gdpr.eu/> · uso: se instala o se consulta en la preparación
+- Unity Analytics: <https://docs.unity.com/analytics/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

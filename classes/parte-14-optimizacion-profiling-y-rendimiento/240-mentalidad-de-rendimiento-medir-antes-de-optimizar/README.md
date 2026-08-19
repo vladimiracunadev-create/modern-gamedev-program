@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Godot 4.x** y un proyecto con algo de carga real: sirve cualquier escena con decenas o cientos de nodos que se muevan. Trabajaremos casi todo desde código con la clase singleton **`Performance`** y con **`Time`**, ambas disponibles sin importar nada. En clases siguientes abriremos el **Debugger → Profiler** y **Monitors**; hoy nos centramos en la instrumentación manual, que es la más portable y la que puedes dejar embebida en tu juego.
 
-Consulta la lista completa de monitores en la documentación de la clase `Performance`: <https://docs.godotengine.org/en/stable/classes/class_performance.html>. La guía general de optimización está en <https://docs.godotengine.org/en/stable/tutorials/performance/index.html>.
+Consulta la lista completa de monitores en la documentación de la clase `Performance`: <https://docs.godotengine.org/en/4.3/classes/class_performance.html>. La guía general de optimización está en <https://docs.godotengine.org/en/4.3/tutorials/performance/index.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -156,10 +156,10 @@ Toma un proyecto propio con al menos tres subsistemas por frame (por ejemplo: IA
 
 ## 🔗 Referencias
 
-- Godot Docs — Performance (clase): <https://docs.godotengine.org/en/stable/classes/class_performance.html>
-- Godot Docs — Optimization index: <https://docs.godotengine.org/en/stable/tutorials/performance/index.html>
-- Godot Docs — Time (clase): <https://docs.godotengine.org/en/stable/classes/class_time.html>
-- Jason Gregory, "Game Engine Architecture", 3.ª ed., cap. sobre profiling y medición.
+- Godot Docs — Performance (clase): <https://docs.godotengine.org/en/4.3/classes/class_performance.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Optimization index: <https://docs.godotengine.org/en/4.3/tutorials/performance/index.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Time (clase): <https://docs.godotengine.org/en/4.3/classes/class_time.html> · uso: respalda el Tema 6 «Instrumentar con `Time.get_ticks_usec()`»
+- Jason Gregory, "Game Engine Architecture", 3.ª ed., cap. sobre profiling y medición. · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

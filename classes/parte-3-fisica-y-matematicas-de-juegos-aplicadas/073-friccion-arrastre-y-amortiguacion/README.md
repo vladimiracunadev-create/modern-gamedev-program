@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usaremos **Godot 4.x** ([godotengine.org](https://godotengine.org)) con un `CharacterBody2D` en una escena 2D. Añade una `CollisionShape2D` y un `Sprite2D` para ver el objeto. Lo observable es cómo cambia el "feel": con drag alto el objeto se detiene rápido; sin él, patina. Consulta [CharacterBody2D](https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html) y [PhysicsMaterial](https://docs.godotengine.org/en/stable/classes/class_physicsmaterial.html).
+Usaremos **Godot 4.x** ([godotengine.org](https://godotengine.org)) con un `CharacterBody2D` en una escena 2D. Añade una `CollisionShape2D` y un `Sprite2D` para ver el objeto. Lo observable es cómo cambia el "feel": con drag alto el objeto se detiene rápido; sin él, patina. Consulta [CharacterBody2D](https://docs.godotengine.org/en/4.3/classes/class_characterbody2d.html) y [PhysicsMaterial](https://docs.godotengine.org/en/4.3/classes/class_physicsmaterial.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -137,9 +137,9 @@ Construye un controlador top-down con dos "materiales de suelo": **normal** y **
 
 ## 🔗 Referencias
 
-1. Godot Engine — CharacterBody2D: <https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html>
-2. Godot Engine — PhysicsMaterial: <https://docs.godotengine.org/en/stable/classes/class_physicsmaterial.html>
-3. Godot Engine — `move_toward` (Vector2): <https://docs.godotengine.org/en/stable/classes/class_vector2.html#class-vector2-method-move-toward>
+1. Godot Engine — CharacterBody2D: <https://docs.godotengine.org/en/4.3/classes/class_characterbody2d.html> · uso: se instala o se consulta en la preparación
+2. Godot Engine — PhysicsMaterial: <https://docs.godotengine.org/en/4.3/classes/class_physicsmaterial.html> · uso: se instala o se consulta en la preparación
+3. Godot Engine — `move_toward` (Vector2): <https://docs.godotengine.org/en/4.3/classes/class_vector2.html#class-vector2-method-move-toward> · uso: respalda el Tema 5 «move_toward para frenar»
 
 ## ⬅️ Clase anterior
 

@@ -11,7 +11,7 @@
 - Ian Millington & John Funge, *Artificial Intelligence for Games* (2ª ed., CRC Press).
 - Steve Rabin (ed.), *Game AI Pro* (series, CRC Press) — [artículos gratis](http://www.gameaipro.com/).
 - Mat Buckland, *Programming Game AI by Example* (Wordware).
-- Documentación de [navegación de Godot 4](https://docs.godotengine.org/en/stable/tutorials/navigation/index.html).
+- Documentación de [navegación de Godot 4](https://docs.godotengine.org/en/4.3/tutorials/navigation/index.html).
 
 ---
 

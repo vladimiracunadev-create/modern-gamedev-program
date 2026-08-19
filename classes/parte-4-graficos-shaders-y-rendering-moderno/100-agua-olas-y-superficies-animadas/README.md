@@ -47,8 +47,8 @@ Al finalizar, el alumno podrá:
 
 Godot 4.x, Forward+. Necesitas un `MeshInstance3D` con un `PlaneMesh` **subdividido** (Subdivide Width/Depth altos, p. ej. 100×100) para que las olas de vértice se vean; una malla sin subdivisiones no se deforma. Crea una `NoiseTexture2D` o usa un normal map de agua. Añade una `DirectionalLight3D` y un `WorldEnvironment` con cielo para tener reflejos.
 
-- Spatial shader: <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/spatial_shader.html>
-- Tutorial de shaders 3D: <https://docs.godotengine.org/en/stable/tutorials/shaders/your_first_shader/your_first_shader_in_3d.html>
+- Spatial shader: <https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/spatial_shader.html>
+- Tutorial de shaders 3D: <https://docs.godotengine.org/en/4.3/tutorials/shaders/your_first_shader/your_first_3d_shader.html>
 
 ## 🧪 Laboratorio guiado
 
@@ -175,9 +175,9 @@ Entrega un shader de agua con **al menos dos** olas de Gerstner, color por profu
 
 ## 🔗 Referencias
 
-- Godot — Spatial shader: <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/spatial_shader.html>
-- Godot — Tu primer shader 3D: <https://docs.godotengine.org/en/stable/tutorials/shaders/your_first_shader/your_first_shader_in_3d.html>
-- Godot — Shading language (built-ins): <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html>
+- Godot — Spatial shader: <https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/spatial_shader.html> · uso: se instala o se consulta en la preparación
+- Godot — Tu primer shader 3D: <https://docs.godotengine.org/en/4.3/tutorials/shaders/your_first_shader/your_first_3d_shader.html> · uso: se instala o se consulta en la preparación
+- Godot — Shading language (built-ins): <https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/shading_language.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

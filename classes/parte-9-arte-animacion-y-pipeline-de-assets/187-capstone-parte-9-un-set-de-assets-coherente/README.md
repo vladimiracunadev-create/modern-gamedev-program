@@ -129,11 +129,11 @@ Entrega un set completo y coherente: **3 props + 1 personaje simple + una paleta
 
 ## 🔗 Referencias
 
-- Blender Manual — UV editing (densidad y unwrap): <https://docs.blender.org/manual/en/latest/modeling/meshes/uv/index.html>
-- Blender Manual — Animation & rigging: <https://docs.blender.org/manual/en/latest/animation/index.html>
-- Godot Docs — Importing 3D scenes: <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/index.html>
-- Godot Docs — Your first 3D scene (montaje): <https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html>
-- Blender Manual — Exporting glTF 2.0: <https://docs.blender.org/manual/en/latest/addons/import_export/scene_gltf2.html>
+- Blender Manual — UV editing (densidad y unwrap): <https://docs.blender.org/manual/en/4.2/modeling/meshes/uv/index.html> · uso: respalda el Tema 4 «Coherencia de escala y densidad»
+- Blender Manual — Animation & rigging: <https://docs.blender.org/manual/en/4.2/animation/index.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Importing 3D scenes: <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_3d_scenes/index.html> · uso: respalda el Tema 5 «Pipeline extremo a extremo»
+- Godot Docs — Your first 3D scene (montaje): <https://docs.godotengine.org/en/4.3/getting_started/first_3d_game/index.html> · uso: respalda el Tema 8 «Montaje y presentación en Godot»
+- Blender Manual — Exporting glTF 2.0: <https://docs.blender.org/manual/en/4.2/addons/import_export/scene_gltf2.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

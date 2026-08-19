@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Continúa en tu proyecto VR con OpenXR y dos `XRController3D` (izquierdo y derecho) bajo el `XROrigin3D`. Necesitas auriculares para apreciar el audio espacial (el HRTF luce con cabeza/oídos). Ten algún archivo de sonido corto (un impacto, un zumbido) importado en `res://audio/`. Crea un bus de audio extra en el panel **Audio** para el reverb de la sala.
 
-Referencias: `AudioStreamPlayer3D` en <https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer3d.html>, buses de audio en <https://docs.godotengine.org/en/stable/tutorials/audio/audio_buses.html> y `XRController3D` en <https://docs.godotengine.org/en/stable/classes/class_xrcontroller3d.html>.
+Referencias: `AudioStreamPlayer3D` en <https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer3d.html>, buses de audio en <https://docs.godotengine.org/en/4.3/tutorials/audio/audio_buses.html> y `XRController3D` en <https://docs.godotengine.org/en/4.3/classes/class_xrcontroller3d.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -143,10 +143,10 @@ Crea una escena VR con al menos dos fuentes de audio 3D posicionadas, el listene
 
 ## 🔗 Referencias
 
-- Godot Docs — AudioStreamPlayer3D: <https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer3d.html>
-- Godot Docs — Buses de audio: <https://docs.godotengine.org/en/stable/tutorials/audio/audio_buses.html>
-- Godot Docs — XRController3D: <https://docs.godotengine.org/en/stable/classes/class_xrcontroller3d.html>
-- Godot Docs — AudioListener3D: <https://docs.godotengine.org/en/stable/classes/class_audiolistener3d.html>
+- Godot Docs — AudioStreamPlayer3D: <https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Buses de audio: <https://docs.godotengine.org/en/4.3/tutorials/audio/audio_buses.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — XRController3D: <https://docs.godotengine.org/en/4.3/classes/class_xrcontroller3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — AudioListener3D: <https://docs.godotengine.org/en/4.3/classes/class_audiolistener3d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

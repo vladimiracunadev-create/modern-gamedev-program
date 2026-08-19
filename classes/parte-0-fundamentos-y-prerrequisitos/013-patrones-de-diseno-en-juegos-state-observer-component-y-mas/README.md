@@ -203,10 +203,10 @@ Combina State y Observer: haz que el `Personaje` dispare un evento `OnCambioEsta
 
 ## 🔗 Referencias
 
-- Robert Nystrom, *Game Programming Patterns*, "State": <https://gameprogrammingpatterns.com/state.html>
-- Robert Nystrom, *Game Programming Patterns*, "Observer": <https://gameprogrammingpatterns.com/observer.html>
-- Robert Nystrom, *Game Programming Patterns*, "Component": <https://gameprogrammingpatterns.com/component.html>
-- Microsoft, "Eventos en C#": <https://learn.microsoft.com/dotnet/csharp/programming-guide/events/>
+- Robert Nystrom, *Game Programming Patterns*, "State": <https://gameprogrammingpatterns.com/state.html> · uso: respalda el Tema 1 «State»
+- Robert Nystrom, *Game Programming Patterns*, "Observer": <https://gameprogrammingpatterns.com/observer.html> · uso: respalda el Tema 2 «Observer»
+- Robert Nystrom, *Game Programming Patterns*, "Component": <https://gameprogrammingpatterns.com/component.html> · uso: respalda el Tema 3 «Component»
+- Microsoft, "Eventos en C#": <https://learn.microsoft.com/dotnet/csharp/programming-guide/events/> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

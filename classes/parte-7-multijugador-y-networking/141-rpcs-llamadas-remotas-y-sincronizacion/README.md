@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-**Godot 4.x** y **dos instancias**. Reutiliza el patrón de conexión de las clases anteriores (crear servidor con `--server`, cliente sin argumentos). Ten abierta la [documentación de RPC de Godot 4](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html#remote-procedure-calls). Añade a tu escena un `Button` (`BtnAccion`) y un `Label` (`Marcador`) para ver el contador compartido. Recuerda: los nombres de los nodos con `@rpc` deben coincidir en todos los pares porque el RPC se resuelve por ruta de nodo.
+**Godot 4.x** y **dos instancias**. Reutiliza el patrón de conexión de las clases anteriores (crear servidor con `--server`, cliente sin argumentos). Ten abierta la [documentación de RPC de Godot 4](https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html#remote-procedure-calls). Añade a tu escena un `Button` (`BtnAccion`) y un `Label` (`Marcador`) para ver el contador compartido. Recuerda: los nombres de los nodos con `@rpc` deben coincidir en todos los pares porque el RPC se resuelve por ruta de nodo.
 
 ## 🧪 Laboratorio guiado
 
@@ -143,10 +143,10 @@ Construye un "pulsador de equipo": cada cliente pulsa un botón para sumar punto
 
 ## 🔗 Referencias
 
-- [RPC en high-level multiplayer (Godot 4)](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html#remote-procedure-calls)
-- [Anotaciones de GDScript (@rpc)](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_exports.html)
-- Gabriel Gambetta: [Client-Server Game Architecture](https://www.gabrielgambetta.com/client-server-game-architecture.html)
-- [Clase MultiplayerAPI](https://docs.godotengine.org/en/stable/classes/class_multiplayerapi.html)
+- [RPC en high-level multiplayer (Godot 4)](https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html#remote-procedure-calls) · uso: se instala o se consulta en la preparación
+- [Anotaciones de GDScript (@rpc)](https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_exports.html) · uso: respalda el Tema 1 «Anatomía de `@rpc`»
+- Gabriel Gambetta: [Client-Server Game Architecture](https://www.gabrielgambetta.com/client-server-game-architecture.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Clase MultiplayerAPI](https://docs.godotengine.org/en/4.3/classes/class_multiplayerapi.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

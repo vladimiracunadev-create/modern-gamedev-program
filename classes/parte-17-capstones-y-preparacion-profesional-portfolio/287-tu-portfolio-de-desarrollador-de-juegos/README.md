@@ -130,11 +130,11 @@ La mayoría de los portfolios fallan por los mismos motivos: intentar mostrarlo 
 
 Amplía con estas fuentes para ver ejemplos reales y afinar la presentación de tu trabajo:
 
-- itch.io — publicar y alojar builds jugables: <https://itch.io/>
-- GitHub Pages — web estática gratuita: <https://pages.github.com/>
-- ArtStation — portfolios de arte: <https://www.artstation.com/>
-- GDC Vault, charlas sobre portfolios y carrera: <https://www.gdcvault.com/>
-- Jason Schreier, Blood, Sweat, and Pixels: <https://www.jasonschreier.com/>
+- itch.io — publicar y alojar builds jugables: <https://itch.io/> · uso: se instala o se consulta en la preparación
+- GitHub Pages — web estática gratuita: <https://pages.github.com/> · uso: se instala o se consulta en la preparación
+- ArtStation — portfolios de arte: <https://www.artstation.com/> · uso: se instala o se consulta en la preparación
+- GDC Vault, charlas sobre portfolios y carrera: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: se instala o se consulta en la preparación
+- Jason Schreier, Blood, Sweat, and Pixels: <https://www.jasonschreier.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

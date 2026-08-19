@@ -43,7 +43,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas **Godot 4.x**. El enemigo será un `CharacterBody2D` con un `RayCast2D` para la línea de vista y un `Timer` para el olvido. El jugador es otro `CharacterBody2D`. Crea `res://ia/percepcion/`. Consulta [Vector2.dot](https://docs.godotengine.org/en/stable/classes/class_vector2.html#class-vector2-method-dot), [RayCast2D](https://docs.godotengine.org/en/stable/classes/class_raycast2d.html) y [Timer](https://docs.godotengine.org/en/stable/classes/class_timer.html). Usaremos capas de colisión: pon las paredes en una capa que el raycast detecte.
+Necesitas **Godot 4.x**. El enemigo será un `CharacterBody2D` con un `RayCast2D` para la línea de vista y un `Timer` para el olvido. El jugador es otro `CharacterBody2D`. Crea `res://ia/percepcion/`. Consulta [Vector2.dot](https://docs.godotengine.org/en/4.3/classes/class_vector2.html#class-vector2-method-dot), [RayCast2D](https://docs.godotengine.org/en/4.3/classes/class_raycast2d.html) y [Timer](https://docs.godotengine.org/en/4.3/classes/class_timer.html). Usaremos capas de colisión: pon las paredes en una capa que el raycast detecte.
 
 ## 🧪 Laboratorio guiado
 
@@ -207,10 +207,10 @@ Crea una sala con **dos columnas** que bloqueen la vista. El enemigo debe: (a) i
 
 ## 🔗 Referencias
 
-- Godot Docs — Vector2.dot(): <https://docs.godotengine.org/en/stable/classes/class_vector2.html>
-- Godot Docs — RayCast2D: <https://docs.godotengine.org/en/stable/classes/class_raycast2d.html>
-- Godot Docs — Timer: <https://docs.godotengine.org/en/stable/classes/class_timer.html>
-- Godot Docs — Using signals: <https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html>
+- Godot Docs — Vector2.dot(): <https://docs.godotengine.org/en/4.3/classes/class_vector2.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — RayCast2D: <https://docs.godotengine.org/en/4.3/classes/class_raycast2d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Timer: <https://docs.godotengine.org/en/4.3/classes/class_timer.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Using signals: <https://docs.godotengine.org/en/4.3/getting_started/step_by_step/signals.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

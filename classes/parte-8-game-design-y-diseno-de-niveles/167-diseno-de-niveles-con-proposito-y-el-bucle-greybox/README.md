@@ -46,7 +46,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Trabajarás en **Godot 4.x** con nodos **CSG** (`CSGBox3D`, `CSGCombiner3D`) para esculpir geometría rápida y booleana, o con **GridMap** cuando prefieras ensamblar por celdas modulares a partir de una `MeshLibrary`. Para movimiento de prueba basta un `CharacterBody3D` con el template de Godot. Antes de tocar el editor, ten a mano una hoja con tu objetivo de diseño y un croquis en papel. Referencias: CSG en Godot (<https://docs.godotengine.org/en/stable/tutorials/3d/csg_tools.html>) y GridMap (<https://docs.godotengine.org/en/stable/tutorials/3d/using_gridmaps.html>).
+Trabajarás en **Godot 4.x** con nodos **CSG** (`CSGBox3D`, `CSGCombiner3D`) para esculpir geometría rápida y booleana, o con **GridMap** cuando prefieras ensamblar por celdas modulares a partir de una `MeshLibrary`. Para movimiento de prueba basta un `CharacterBody3D` con el template de Godot. Antes de tocar el editor, ten a mano una hoja con tu objetivo de diseño y un croquis en papel. Referencias: CSG en Godot (<https://docs.godotengine.org/en/4.3/tutorials/3d/csg_tools.html>) y GridMap (<https://docs.godotengine.org/en/4.3/tutorials/3d/using_gridmaps.html>).
 
 ## 🧪 Laboratorio guiado
 
@@ -143,10 +143,10 @@ Entrega un **blockout jugable de 3 beats** en Godot que cumpla un objetivo de di
 
 ## 🔗 Referencias
 
-- Godot Docs — CSG tools: <https://docs.godotengine.org/en/stable/tutorials/3d/csg_tools.html>
-- Godot Docs — Using GridMaps: <https://docs.godotengine.org/en/stable/tutorials/3d/using_gridmaps.html>
-- Godot Docs — CharacterBody3D (movimiento de prueba): <https://docs.godotengine.org/en/stable/tutorials/physics/using_character_body_3d.html>
-- Level Design Book — Blockout: <https://book.leveldesignbook.com/process/blockout>
+- Godot Docs — CSG tools: <https://docs.godotengine.org/en/4.3/tutorials/3d/csg_tools.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Using GridMaps: <https://docs.godotengine.org/en/4.3/tutorials/3d/using_gridmaps.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — CharacterBody3D (movimiento de prueba): <https://docs.godotengine.org/en/4.3/classes/class_characterbody3d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Level Design Book — Blockout: <https://book.leveldesignbook.com/process/blockout> · uso: respalda el Tema 6 «Herramientas de blockout»
 
 ## ⬅️ Clase anterior
 

@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas **Godot 4.x** ([godotengine.org](https://godotengine.org)). Crea un proyecto 2D y una escena con un `CharacterBody2D` como agente; dale un `Sprite2D` (o un `Polygon2D` triangular para ver hacia dónde mira) y un `CollisionShape2D`. El agente se moverá con `move_and_slide()`, así que trabajaremos su propiedad `velocity`. Ten a mano la referencia de [CharacterBody2D](https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html) y [Vector2](https://docs.godotengine.org/en/stable/classes/class_vector2.html). El objetivo será la posición del mouse (`get_global_mouse_position()`), así que podrás probar todo moviendo el cursor.
+Necesitas **Godot 4.x** ([godotengine.org](https://godotengine.org)). Crea un proyecto 2D y una escena con un `CharacterBody2D` como agente; dale un `Sprite2D` (o un `Polygon2D` triangular para ver hacia dónde mira) y un `CollisionShape2D`. El agente se moverá con `move_and_slide()`, así que trabajaremos su propiedad `velocity`. Ten a mano la referencia de [CharacterBody2D](https://docs.godotengine.org/en/4.3/classes/class_characterbody2d.html) y [Vector2](https://docs.godotengine.org/en/4.3/classes/class_vector2.html). El objetivo será la posición del mouse (`get_global_mouse_position()`), así que podrás probar todo moviendo el cursor.
 
 ## 🧪 Laboratorio guiado
 
@@ -179,10 +179,10 @@ Crea una manada de 8 agentes que hacen `wander` por defecto, pero cambian a `fle
 
 ## 🔗 Referencias
 
-- Craig Reynolds — Steering Behaviors for Autonomous Characters: <https://www.red3d.com/cwr/steer/>
-- Godot Docs — CharacterBody2D: <https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html>
-- The Nature of Code (Daniel Shiffman) — Autonomous Agents: <https://natureofcode.com/autonomous-agents/>
-- Godot Docs — Vector2: <https://docs.godotengine.org/en/stable/classes/class_vector2.html>
+- Craig Reynolds — Steering Behaviors for Autonomous Characters: <https://www.red3d.com/cwr/steer/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — CharacterBody2D: <https://docs.godotengine.org/en/4.3/classes/class_characterbody2d.html> · uso: se instala o se consulta en la preparación
+- The Nature of Code (Daniel Shiffman) — Autonomous Agents: <https://natureofcode.com/autonomous-agents/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Vector2: <https://docs.godotengine.org/en/4.3/classes/class_vector2.html> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

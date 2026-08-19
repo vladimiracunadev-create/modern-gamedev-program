@@ -379,11 +379,11 @@ Implementa el pipeline completo con **al menos tres categorías** de asset, sus 
 
 ## 🔗 Referencias
 
-- Godot Docs — Importar imágenes y ajustes de importación: <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>
-- Godot Docs — Best practices de importación de assets: <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/index.html>
-- Pillow — documentación de la biblioteca de imagen: <https://pillow.readthedocs.io/>
-- Khronos — glTF, formato estándar de intercambio 3D: <https://www.khronos.org/gltf/>
-- C2PA — procedencia de contenido (integración con el paso 5): <https://c2pa.org/>
+- Godot Docs — Importar imágenes y ajustes de importación: <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_images.html> · uso: respalda el Tema 1 «El pipeline como puertas»
+- Godot Docs — Best practices de importación de assets: <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/index.html> · uso: respalda el Tema 1 «El pipeline como puertas»
+- Pillow — documentación de la biblioteca de imagen: <https://pillow.readthedocs.io/> · uso: se instala o se consulta en la preparación
+- Khronos — glTF, formato estándar de intercambio 3D: <https://www.khronos.org/gltf/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- C2PA — procedencia de contenido (integración con el paso 5): <https://c2pa.org/> · uso: respalda el Tema 4 «Validación de contenido»
 
 ## ⬅️ Clase anterior
 

@@ -129,11 +129,11 @@ Entrega un set de al menos **4 assets** (3 props + 1 personaje simple) que cumpl
 
 ## 🔗 Referencias
 
-- Godot Docs — Importing 3D scenes: <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/index.html>
-- Godot Docs — Mesh level of detail (LOD): <https://docs.godotengine.org/en/stable/tutorials/3d/mesh_lod.html>
-- Godot Docs — Importing images (compresión): <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>
-- Blender Manual — Exporting glTF 2.0: <https://docs.blender.org/manual/en/latest/addons/import_export/scene_gltf2.html>
-- Godot Docs — Optimizing 3D performance: <https://docs.godotengine.org/en/stable/tutorials/performance/index.html>
+- Godot Docs — Importing 3D scenes: <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_3d_scenes/index.html> · uso: respalda el Tema 1 «Por qué existe el pipeline»
+- Godot Docs — Mesh level of detail (LOD): <https://docs.godotengine.org/en/4.3/tutorials/3d/mesh_lod.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Importing images (compresión): <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_images.html> · uso: respalda el Tema 1 «Por qué existe el pipeline»
+- Blender Manual — Exporting glTF 2.0: <https://docs.blender.org/manual/en/4.2/addons/import_export/scene_gltf2.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Optimizing 3D performance: <https://docs.godotengine.org/en/4.3/tutorials/performance/index.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

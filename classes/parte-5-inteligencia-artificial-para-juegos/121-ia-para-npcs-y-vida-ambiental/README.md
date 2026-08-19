@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usaremos Godot 4.x. El NPC será un `CharacterBody2D` con un `Area2D` hijo como "sentido de proximidad" y varios `Marker2D` en la escena como POI. Los barks se mostrarán con `print()` y, opcionalmente, con un `Label` flotante. La FSM se construye con un `enum` y `match`; para conductas más complejas la formalizaremos en la clase 125. Ten a mano la referencia de [CharacterBody2D](https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html) y de [Area2D](https://docs.godotengine.org/en/stable/classes/class_area2d.html).
+Usaremos Godot 4.x. El NPC será un `CharacterBody2D` con un `Area2D` hijo como "sentido de proximidad" y varios `Marker2D` en la escena como POI. Los barks se mostrarán con `print()` y, opcionalmente, con un `Label` flotante. La FSM se construye con un `enum` y `match`; para conductas más complejas la formalizaremos en la clase 125. Ten a mano la referencia de [CharacterBody2D](https://docs.godotengine.org/en/4.3/classes/class_characterbody2d.html) y de [Area2D](https://docs.godotengine.org/en/4.3/classes/class_area2d.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -201,10 +201,10 @@ Sí. Cambia los POI por zonas de pasto y agua y el patrón `ir→usar→esperar`
 
 ## 🔗 Referencias
 
-- [Clase CharacterBody2D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html)
-- [Clase Area2D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_area2d.html)
-- [Grupos de nodos — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/scripting/groups.html)
-- [AI-driven Dynamic Dialog (Elan Ruskin, GDC 2012)](https://www.gdcvault.com/play/1015528/AI-driven-Dynamic-Dialog-through)
+- [Clase CharacterBody2D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_characterbody2d.html) · uso: se instala o se consulta en la preparación
+- [Clase Area2D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_area2d.html) · uso: se instala o se consulta en la preparación
+- [Grupos de nodos — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/scripting/groups.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [AI-driven Dynamic Dialog (Elan Ruskin, GDC 2012)](https://www.gdcvault.com/play/1015528/AI-driven-Dynamic-Dialog-through) — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

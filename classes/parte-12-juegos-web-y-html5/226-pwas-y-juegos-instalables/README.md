@@ -177,10 +177,10 @@ Convierte un juego web propio en **PWA instalable** con `manifest.json`, iconos 
 
 ## 🔗 Referencias
 
-- MDN — Progressive web apps: <https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps>
-- MDN — Service Worker API: <https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API>
-- web.dev — Learn PWA: <https://web.dev/learn/pwa>
-- MDN — Web app manifest: <https://developer.mozilla.org/en-US/docs/Web/Manifest>
+- MDN — Progressive web apps: <https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps> · uso: se instala o se consulta en la preparación
+- MDN — Service Worker API: <https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API> · uso: se instala o se consulta en la preparación
+- web.dev — Learn PWA: <https://web.dev/learn/pwa> · uso: se instala o se consulta en la preparación
+- MDN — Web app manifest: <https://developer.mozilla.org/en-US/docs/Web/Manifest> · uso: respalda el Tema 2 «`manifest.json`»
 
 ## ⬅️ Clase anterior
 

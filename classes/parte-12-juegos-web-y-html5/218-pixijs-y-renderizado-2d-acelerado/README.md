@@ -171,10 +171,10 @@ Crea una "lluvia" de al menos 1000 sprites que caen desde arriba con velocidades
 
 ## 🔗 Referencias
 
-- PixiJS — Sitio oficial: <https://pixijs.com/>
-- PixiJS — Guías (v8): <https://pixijs.com/8.x/guides>
-- PixiJS — API Reference: <https://pixijs.download/release/docs/index.html>
-- MDN — WebGL: <https://developer.mozilla.org/es/docs/Web/API/WebGL_API>
+- PixiJS — Sitio oficial: <https://pixijs.com/> · uso: se instala o se consulta en la preparación
+- PixiJS — Guías (v8): <https://pixijs.com/8.x/guides> · uso: se instala o se consulta en la preparación
+- PixiJS — API Reference: <https://pixijs.download/release/docs/index.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- MDN — WebGL: <https://developer.mozilla.org/es/docs/Web/API/WebGL_API> · uso: respalda el Tema 1 «Renderer WebGL 2D»
 
 ## ⬅️ Clase anterior
 

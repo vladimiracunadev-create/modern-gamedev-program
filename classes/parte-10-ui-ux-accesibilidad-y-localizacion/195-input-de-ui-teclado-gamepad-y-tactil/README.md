@@ -58,7 +58,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usaremos **Godot 4.x**. Las acciones `ui_*` ya vienen definidas en cada proyecto (puedes verlas en **Project Settings > Input Map** activando *Show Built-in Actions*). Conecta un mando por USB o Bluetooth si quieres probar el gamepad; si no, el teclado ejercita el mismo sistema de foco. Para probar el táctil sin dispositivo, activa en *Project Settings > Input Devices > Pointing* la opción **Emulate Touch From Mouse**, que convierte clics del ratón en eventos de toque. Ten a mano la guía de [GUI navigation](https://docs.godotengine.org/en/stable/tutorials/ui/gui_navigation.html) y las pautas de tamaño de objetivo táctil de <https://gameaccessibilityguidelines.com/>.
+Usaremos **Godot 4.x**. Las acciones `ui_*` ya vienen definidas en cada proyecto (puedes verlas en **Project Settings > Input Map** activando *Show Built-in Actions*). Conecta un mando por USB o Bluetooth si quieres probar el gamepad; si no, el teclado ejercita el mismo sistema de foco. Para probar el táctil sin dispositivo, activa en *Project Settings > Input Devices > Pointing* la opción **Emulate Touch From Mouse**, que convierte clics del ratón en eventos de toque. Ten a mano la guía de [GUI navigation](https://docs.godotengine.org/en/4.3/tutorials/ui/gui_navigation.html) y las pautas de tamaño de objetivo táctil de <https://gameaccessibilityguidelines.com/>.
 
 ## 🧪 Laboratorio guiado
 
@@ -152,13 +152,13 @@ Construye un menú principal con al menos cuatro opciones que sea 100% operable 
 
 ## 🔗 Referencias
 
-- Godot — GUI navigation: <https://docs.godotengine.org/en/stable/tutorials/ui/gui_navigation.html>
+- Godot — GUI navigation: <https://docs.godotengine.org/en/4.3/tutorials/ui/gui_navigation.html> · uso: se instala o se consulta en la preparación
 
-- Godot — InputEvent: <https://docs.godotengine.org/en/stable/tutorials/inputs/inputevent.html>
+- Godot — InputEvent: <https://docs.godotengine.org/en/4.3/tutorials/inputs/inputevent.html> · uso: respalda el Tema 8 «Convivencia de los tres inputs»
 
-- Godot — TouchScreenButton: <https://docs.godotengine.org/en/stable/classes/class_touchscreenbutton.html>
+- Godot — TouchScreenButton: <https://docs.godotengine.org/en/4.3/classes/class_touchscreenbutton.html> · uso: respalda el Tema 6 «`TouchScreenButton` y targets»
 
-- Game Accessibility Guidelines (tamaño de objetivos): <https://gameaccessibilityguidelines.com/>
+- Game Accessibility Guidelines (tamaño de objetivos): <https://gameaccessibilityguidelines.com/> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

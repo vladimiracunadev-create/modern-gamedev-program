@@ -218,9 +218,9 @@ Entrega `vec2.py` con la clase completa y un script `demo.py` que resuelva los t
 
 ## 🔗 Referencias
 
-- Eric Lengyel, *Mathematics for 3D Game Programming and Computer Graphics* — <https://foundationsofgameenginedev.com>
-- Módulo `math` de Python — <https://docs.python.org/3/library/math.html>
-- Freya Holmér, "The Beauty of Bézier / Vectors" (canal educativo de matemáticas para juegos) — <https://www.youtube.com/@Acegikmo>
+- Eric Lengyel, *Mathematics for 3D Game Programming and Computer Graphics* — <https://foundationsofgameenginedev.com> · uso: se instala o se consulta en la preparación
+- Módulo `math` de Python — <https://docs.python.org/3/library/math.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Freya Holmér, "The Beauty of Bézier / Vectors" (canal educativo de matemáticas para juegos) — <https://www.youtube.com/@Acegikmo> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

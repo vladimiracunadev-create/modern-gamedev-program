@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Trabajas sobre el slice que produjiste. Ten a mano tu motor y los recursos de partes anteriores sobre *tweening*, partículas, cámara y audio: la mayoría del *juice* se logra combinando técnicas que ya conoces. Para sonidos rápidos de marcador-a-final, [jsfxr/sfxr](https://sfxr.me/) genera efectos retro al instante y libres.
 
-La referencia canónica es la charla de Vlambeer **"The Art of Screenshake"**: búscala en <https://www.youtube.com/user/gdconf>. Complementa con el libro *Game Feel* de Steve Swink para el marco conceptual. Antes de tocar nada, graba un clip de tu slice "antes" para comparar el impacto del pulido después.
+La referencia canónica es la charla de Vlambeer **"The Art of Screenshake"**: búscala en <https://www.youtube.com/@GDC>. Complementa con el libro *Game Feel* de Steve Swink para el marco conceptual. Antes de tocar nada, graba un clip de tu slice "antes" para comparar el impacto del pulido después.
 
 ## 🧪 Laboratorio guiado
 
@@ -134,10 +134,10 @@ Aplica las mejoras de mayor ratio de tu checklist al slice y entrega dos clips (
 
 ## 🔗 Referencias
 
-- Vlambeer — "The Art of Screenshake" (GDC): <https://www.youtube.com/user/gdconf>
-- Steve Swink — *Game Feel* (libro): <http://www.game-feel.com/>
-- sfxr / jsfxr — generador de efectos de sonido: <https://sfxr.me/>
-- Game Maker's Toolkit — game feel y secretos de diseño: <https://www.youtube.com/c/MarkBrownGMT>
+- Vlambeer — "The Art of Screenshake" (GDC): <https://www.youtube.com/@GDC> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: se instala o se consulta en la preparación
+- Steve Swink — *Game Feel* (libro): <http://www.game-feel.com/> · uso: respalda el Tema 2 «Game feel y juice»
+- sfxr / jsfxr — generador de efectos de sonido: <https://sfxr.me/> · uso: se instala o se consulta en la preparación
+- Game Maker's Toolkit — game feel y secretos de diseño: <https://www.youtube.com/c/MarkBrownGMT> · uso: respalda el Tema 2 «Game feel y juice»
 
 ## ⬅️ Clase anterior
 

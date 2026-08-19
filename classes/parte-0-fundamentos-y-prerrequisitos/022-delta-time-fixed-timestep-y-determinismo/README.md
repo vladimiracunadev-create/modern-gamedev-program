@@ -163,10 +163,10 @@ Crea una escena con dos sprites: uno que se mueva con `position.x += speed` (sin
 
 ## 🔗 Referencias
 
-- Glenn Fiedler, "Fix Your Timestep!": <https://gafferongames.com/post/fix_your_timestep/>
-- Robert Nystrom, *Game Programming Patterns*, "Game Loop": <https://gameprogrammingpatterns.com/game-loop.html>
-- Godot Docs, "Idle and Physics Processing": <https://docs.godotengine.org/en/stable/tutorials/scripting/idle_and_physics_processing.html>
-- Godot Docs, "CharacterBody2D `move_and_slide`": <https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html>
+- Glenn Fiedler, "Fix Your Timestep!": <https://gafferongames.com/post/fix_your_timestep/> · uso: se instala o se consulta en la preparación
+- Robert Nystrom, *Game Programming Patterns*, "Game Loop": <https://gameprogrammingpatterns.com/game-loop.html> · uso: se instala o se consulta en la preparación
+- Godot Docs, "Idle and Physics Processing": <https://docs.godotengine.org/en/4.3/tutorials/scripting/idle_and_physics_processing.html> · uso: respalda el Tema 4 «`_process` vs `_physics_process`»
+- Godot Docs, "CharacterBody2D `move_and_slide`": <https://docs.godotengine.org/en/4.3/classes/class_characterbody2d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Continúa en el proyecto VR de la clase 231 con OpenXR activado y `get_viewport().use_xr = true`. Necesitas un visor conectado (Quest por Link o standalone) para verificar la escala; sin visor puedes validar medidas en el editor con la rejilla, pero la sensación real solo se aprecia con el casco puesto. Usa mallas simples (`BoxMesh`, `CylinderMesh`) con dimensiones reales para prototipar rápido.
 
-Referencias de apoyo: XR en Godot en <https://docs.godotengine.org/en/stable/tutorials/xr/index.html> y las guías de confort de Meta en <https://developer.oculus.com/resources/bp-locomotion/>.
+Referencias de apoyo: XR en Godot en <https://docs.godotengine.org/en/4.3/tutorials/xr/index.html> y las guías de confort de Meta en <https://developer.oculus.com/resources/bp-locomotion/>.
 
 ## 🧪 Laboratorio guiado
 
@@ -123,10 +123,10 @@ Construye una habitación pequeña a escala 1:1 (suelo, dos paredes, una mesa co
 
 ## 🔗 Referencias
 
-- Godot Docs — XR: <https://docs.godotengine.org/en/stable/tutorials/xr/index.html>
-- Godot Docs — Setting up XR: <https://docs.godotengine.org/en/stable/tutorials/xr/setting_up_xr.html>
-- Meta — Locomotion Best Practices: <https://developer.oculus.com/resources/bp-locomotion/>
-- Khronos — OpenXR reference spaces: <https://www.khronos.org/openxr/>
+- Godot Docs — XR: <https://docs.godotengine.org/en/4.3/tutorials/xr/index.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Setting up XR: <https://docs.godotengine.org/en/4.3/tutorials/xr/setting_up_xr.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Meta — Locomotion Best Practices: <https://developer.oculus.com/resources/bp-locomotion/> · uso: se instala o se consulta en la preparación
+- Khronos — OpenXR reference spaces: <https://www.khronos.org/openxr/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

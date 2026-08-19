@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Godot 4.x** y el **Debugger → Profiler** de la clase 241 para medir el antes y el después. Trabajaremos sobre un script deliberadamente ineficiente y lo iremos corrigiendo. Ten a mano un `Label` para mostrar métricas en pantalla y muchos nodos hijos sobre los que iterar (crea, por ejemplo, 300 `Node2D` bajo un contenedor).
 
-La referencia central es la guía de optimización de GDScript y las notas de tipado estático: <https://docs.godotengine.org/en/stable/tutorials/performance/using_servers.html> y <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/static_typing.html>. También aplican las "General optimization tips": <https://docs.godotengine.org/en/stable/tutorials/performance/general_optimization.html>.
+La referencia central es la guía de optimización de GDScript y las notas de tipado estático: <https://docs.godotengine.org/en/4.3/tutorials/performance/using_servers.html> y <https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/static_typing.html>. También aplican las "General optimization tips": <https://docs.godotengine.org/en/4.3/tutorials/performance/general_optimization.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -161,10 +161,10 @@ Toma un script real que corra lógica sobre muchos nodos en `_process` usando `g
 
 ## 🔗 Referencias
 
-- Godot Docs — Static typing in GDScript: <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/static_typing.html>
-- Godot Docs — General optimization tips: <https://docs.godotengine.org/en/stable/tutorials/performance/general_optimization.html>
-- Godot Docs — Optimizing using Servers: <https://docs.godotengine.org/en/stable/tutorials/performance/using_servers.html>
-- Godot Docs — Groups: <https://docs.godotengine.org/en/stable/tutorials/scripting/groups.html>
+- Godot Docs — Static typing in GDScript: <https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/static_typing.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — General optimization tips: <https://docs.godotengine.org/en/4.3/tutorials/performance/general_optimization.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Optimizing using Servers: <https://docs.godotengine.org/en/4.3/tutorials/performance/using_servers.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Groups: <https://docs.godotengine.org/en/4.3/tutorials/scripting/groups.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

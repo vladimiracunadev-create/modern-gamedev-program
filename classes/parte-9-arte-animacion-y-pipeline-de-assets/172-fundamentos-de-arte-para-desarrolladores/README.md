@@ -126,13 +126,13 @@ Diseña la lámina de un personaje jugable ficticio: una paleta de exactamente 5
 
 ## 🔗 Referencias
 
-- Krita — Documentación de color: <https://docs.krita.org/en/general_concepts/colors.html>
+- Krita — Documentación de color: <https://docs.krita.org/en/general_concepts/colors.html> · uso: respalda el Tema 1 «Rueda de color y armonías»
 
-- Krita — Manual de usuario: <https://docs.krita.org/en/user_manual.html>
+- Krita — Manual de usuario: <https://docs.krita.org/en/user_manual.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
-- Interaction of Color / rueda cromática (Adobe Color como apoyo): <https://color.adobe.com/>
+- Interaction of Color / rueda cromática (Adobe Color como apoyo): <https://color.adobe.com/> · uso: respalda el Tema 1 «Rueda de color y armonías»
 
-- Composición y regla de tercios (referencia general): <https://en.wikipedia.org/wiki/Rule_of_thirds>
+- Composición y regla de tercios (referencia general): <https://en.wikipedia.org/wiki/Rule_of_thirds> · uso: respalda el Tema 6 «Regla de tercios y foco»
 
 ## ⬅️ Clase anterior
 

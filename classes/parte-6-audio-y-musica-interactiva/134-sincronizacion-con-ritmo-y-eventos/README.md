@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x y una pista musical con un BPM conocido y constante (un loop de 120 BPM funciona bien; anota su BPM exacto). Importa el audio como OGG para música larga. Ten a la vista la [referencia de AudioStreamPlayer](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html), la de [AudioServer](https://docs.godotengine.org/en/stable/classes/class_audioserver.html) y el tutorial [Sincronizar el juego con el audio](https://docs.godotengine.org/en/stable/tutorials/audio/sync_with_audio.html), que explica por qué conviene usar el reloj del audio en lugar del reloj del frame. Prepara un nodo visual sencillo (un `ColorRect` o un `Sprite2D`) para que el pulso sea observable, no solo audible.
+Necesitas Godot 4.x y una pista musical con un BPM conocido y constante (un loop de 120 BPM funciona bien; anota su BPM exacto). Importa el audio como OGG para música larga. Ten a la vista la [referencia de AudioStreamPlayer](https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer.html), la de [AudioServer](https://docs.godotengine.org/en/4.3/classes/class_audioserver.html) y el tutorial [Sincronizar el juego con el audio](https://docs.godotengine.org/en/4.3/tutorials/audio/sync_with_audio.html), que explica por qué conviene usar el reloj del audio en lugar del reloj del frame. Prepara un nodo visual sencillo (un `ColorRect` o un `Sprite2D`) para que el pulso sea observable, no solo audible.
 
 ## 🧪 Laboratorio guiado
 
@@ -166,10 +166,10 @@ El principio es el mismo, pero esos middlewares exponen su propio reloj y marcad
 
 ## 🔗 Referencias
 
-- [Sincronizar el juego con el audio — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/audio/sync_with_audio.html)
-- [AudioServer — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_audioserver.html)
-- [AudioStreamPlayer — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html)
-- [Latencia de audio — concepto general](https://docs.godotengine.org/en/stable/tutorials/audio/audio_buses.html)
+- [Sincronizar el juego con el audio — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/audio/sync_with_audio.html) · uso: se instala o se consulta en la preparación
+- [AudioServer — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_audioserver.html) · uso: se instala o se consulta en la preparación
+- [AudioStreamPlayer — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer.html) · uso: se instala o se consulta en la preparación
+- [Latencia de audio — concepto general](https://docs.godotengine.org/en/4.3/tutorials/audio/audio_buses.html) · uso: respalda el Tema 5 «Latencia de salida»
 
 ## ⬅️ Clase anterior
 

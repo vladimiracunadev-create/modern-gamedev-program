@@ -360,11 +360,11 @@ Implementa configuración remota con esquema y defectos compilados, feature flag
 
 ## 🔗 Referencias
 
-- Martin Fowler — Feature Toggles: <https://martinfowler.com/articles/feature-toggles.html>
-- Google — *Site Reliability Engineering*, capítulo de releases progresivas: <https://sre.google/books/>
-- Godot Docs — `OS.is_debug_build` y builds: <https://docs.godotengine.org/en/stable/classes/class_os.html>
-- Godot Docs — `String.sha256_buffer` (hash determinista): <https://docs.godotengine.org/en/stable/classes/class_string.html>
-- GDC Vault — charlas sobre LiveOps, experimentación y balance en producción: <https://www.gdcvault.com/>
+- Martin Fowler — Feature Toggles: <https://martinfowler.com/articles/feature-toggles.html> · uso: se instala o se consulta en la preparación
+- Google — *Site Reliability Engineering*, capítulo de releases progresivas: <https://sre.google/books/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `OS.is_debug_build` y builds: <https://docs.godotengine.org/en/4.3/classes/class_os.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `String.sha256_buffer` (hash determinista): <https://docs.godotengine.org/en/4.3/classes/class_string.html> · uso: respalda el Tema 7 «Asignación determinista»
+- GDC Vault — charlas sobre LiveOps, experimentación y balance en producción: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

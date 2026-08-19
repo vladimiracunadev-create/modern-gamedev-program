@@ -140,10 +140,10 @@ Elabora la checklist de lanzamiento completa de tu juego con las cinco áreas e 
 
 ## 🔗 Referencias
 
-- Steamworks — Launch checklist: <https://partner.steamgames.com/doc/store/application/launchchecklist>
-- presskit() de Rami Ismail: <https://dopresskit.com/>
-- Google Play — Launch checklist: <https://developer.android.com/distribute/best-practices/launch/launch-checklist>
-- App Store — Submit your apps: <https://developer.apple.com/app-store/submissions/>
+- Steamworks — Launch checklist: <https://partner.steamgames.com/doc/store/application/launchchecklist> · uso: se instala o se consulta en la preparación
+- presskit() de Rami Ismail: <https://dopresskit.com/> · uso: se instala o se consulta en la preparación
+- Google Play — Launch checklist: <https://developer.android.com/distribute/best-practices/launch/launch-checklist> · uso: respalda el Tema 1 «Checklist como red de seguridad»
+- App Store — Submit your apps: <https://developer.apple.com/app-store/submissions/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

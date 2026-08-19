@@ -130,10 +130,10 @@ Entrega `analisis-nivel.md` con: la descripción del nivel analizado, la tabla d
 
 ## 🔗 Referencias
 
-- Scott Rogers, *Level Up! The Guide to Great Video Game Design* — <https://www.wiley.com>
-- World of Level Design (guía visual y affordances) — <https://www.worldofleveldesign.com>
-- Jesse Schell, *The Art of Game Design: A Book of Lenses* (3ª ed.) — <https://www.schellgames.com>
-- Game Maker's Toolkit (lenguaje visual en niveles) — <https://www.youtube.com/c/MarkBrownGMT>
+- Scott Rogers, *Level Up! The Guide to Great Video Game Design* — <https://www.wiley.com> · uso: se instala o se consulta en la preparación
+- World of Level Design (guía visual y affordances) — <https://www.worldofleveldesign.com> · uso: se instala o se consulta en la preparación
+- Jesse Schell, *The Art of Game Design: A Book of Lenses* (3ª ed.) — <https://www.schellgames.com> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Game Maker's Toolkit (lenguaje visual en niveles) — <https://www.youtube.com/c/MarkBrownGMT> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

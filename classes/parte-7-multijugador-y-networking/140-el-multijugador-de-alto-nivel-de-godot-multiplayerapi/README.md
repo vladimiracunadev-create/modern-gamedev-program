@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-**Godot 4.x** y capacidad de abrir **dos instancias**. Prepara una escena con un `Control` que tenga dos botones (`BtnServidor`, `BtnCliente`), un `LineEdit` para la IP y un `ItemList` o `Label` para mostrar los peers. Ten abierta la [referencia de MultiplayerAPI](https://docs.godotengine.org/en/stable/classes/class_multiplayerapi.html) y la de [SceneMultiplayer](https://docs.godotengine.org/en/stable/classes/class_scenemultiplayer.html). Recuerda activar *Debug → Run Multiple Instances* para probar cómodamente.
+**Godot 4.x** y capacidad de abrir **dos instancias**. Prepara una escena con un `Control` que tenga dos botones (`BtnServidor`, `BtnCliente`), un `LineEdit` para la IP y un `ItemList` o `Label` para mostrar los peers. Ten abierta la [referencia de MultiplayerAPI](https://docs.godotengine.org/en/4.3/classes/class_multiplayerapi.html) y la de [SceneMultiplayer](https://docs.godotengine.org/en/4.3/classes/class_scenemultiplayer.html). Recuerda activar *Debug → Run Multiple Instances* para probar cómodamente.
 
 ## 🧪 Laboratorio guiado
 
@@ -158,10 +158,10 @@ Crea un "tablero de presencia": al conectar, cada cliente envía su nombre elegi
 
 ## 🔗 Referencias
 
-- [High-level multiplayer (Godot 4)](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html)
-- [Clase MultiplayerAPI](https://docs.godotengine.org/en/stable/classes/class_multiplayerapi.html)
-- [Clase SceneMultiplayer](https://docs.godotengine.org/en/stable/classes/class_scenemultiplayer.html)
-- [Clase ENetMultiplayerPeer](https://docs.godotengine.org/en/stable/classes/class_enetmultiplayerpeer.html)
+- [High-level multiplayer (Godot 4)](https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Clase MultiplayerAPI](https://docs.godotengine.org/en/4.3/classes/class_multiplayerapi.html) · uso: se instala o se consulta en la preparación
+- [Clase SceneMultiplayer](https://docs.godotengine.org/en/4.3/classes/class_scenemultiplayer.html) · uso: se instala o se consulta en la preparación
+- [Clase ENetMultiplayerPeer](https://docs.godotengine.org/en/4.3/classes/class_enetmultiplayerpeer.html) · uso: respalda el Tema 2 «ENetMultiplayerPeer»
 
 ## ⬅️ Clase anterior
 

@@ -43,7 +43,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x y una escena 2D. Prepara un `CharacterBody2D` para el enemigo con un `Sprite2D` (o `ColorRect`), un `RayCast2D` para la visión y opcionalmente un `Timer` para el cooldown de ataque. Ten en la escena un nodo que represente al jugador dentro de un grupo llamado `player` para poder localizarlo con `get_tree().get_first_node_in_group()`. Repasa el patrón `enum`/`match` en la [documentación de GDScript](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html) y el uso de [RayCast2D](https://docs.godotengine.org/en/stable/classes/class_raycast2d.html). Añade un `TileMapLayer` o unos muros con colisión para que la visión pueda bloquearse.
+Necesitas Godot 4.x y una escena 2D. Prepara un `CharacterBody2D` para el enemigo con un `Sprite2D` (o `ColorRect`), un `RayCast2D` para la visión y opcionalmente un `Timer` para el cooldown de ataque. Ten en la escena un nodo que represente al jugador dentro de un grupo llamado `player` para poder localizarlo con `get_tree().get_first_node_in_group()`. Repasa el patrón `enum`/`match` en la [documentación de GDScript](https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_basics.html) y el uso de [RayCast2D](https://docs.godotengine.org/en/4.3/classes/class_raycast2d.html). Añade un `TileMapLayer` o unos muros con colisión para que la visión pueda bloquearse.
 
 ## 🧪 Laboratorio guiado
 
@@ -185,10 +185,10 @@ Añade histéresis (umbrales distintos para entrar y salir) o un pequeño tempor
 
 ## 🔗 Referencias
 
-- [GDScript básico — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html)
-- [RayCast2D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_raycast2d.html)
-- [CharacterBody2D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html)
-- [Programming Game AI by Example — capítulo de FSM](https://www.jblearning.com/catalog/productdetails/9781556220784)
+- [GDScript básico — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_basics.html) · uso: se instala o se consulta en la preparación
+- [RayCast2D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_raycast2d.html) · uso: se instala o se consulta en la preparación
+- [CharacterBody2D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_characterbody2d.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Programming Game AI by Example — capítulo de FSM](https://www.jblearning.com/catalog/productdetails/9781556220784) ⚠️ (ficha retirada; la obra se localiza por ISBN en el registro) · uso: respalda el Tema 2 «FSM con enum + match»
 
 ## ⬅️ Clase anterior
 

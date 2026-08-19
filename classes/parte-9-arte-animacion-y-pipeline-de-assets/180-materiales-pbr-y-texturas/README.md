@@ -51,7 +51,7 @@ Trabajar en PBR significa dejar de "pintar" cómo se ve algo y empezar a describ
 
 Trabajaremos en **Blender 4.x** con el motor **Cycles** activado para poder hornear (**Render Properties → Render Engine → Cycles**). Para ver el resultado en un motor usaremos **Godot 4** (<https://godotengine.org/download>), que importa glTF con materiales PBR de forma nativa. El prop con UVs de la clase 179 es el punto de partida.
 
-Puedes crear texturas de forma **procedural** con nodos (Noise, Musgrave, Voronoi) sin descargar nada, o mencionamos que herramientas como **Substance 3D Painter** o **Adobe Substance** son el estándar profesional para pintar sets PBR. Documentación clave: shading y materiales (<https://docs.blender.org/manual/en/latest/render/shader_nodes/index.html>) y baking (<https://docs.blender.org/manual/en/latest/render/cycles/baking.html>).
+Puedes crear texturas de forma **procedural** con nodos (Noise, Musgrave, Voronoi) sin descargar nada, o mencionamos que herramientas como **Substance 3D Painter** o **Adobe Substance** son el estándar profesional para pintar sets PBR. Documentación clave: shading y materiales (<https://docs.blender.org/manual/en/4.2/render/shader_nodes/index.html>) y baking (<https://docs.blender.org/manual/en/4.2/render/cycles/baking.html>).
 
 Ten claro el orden mental del flujo PBR: primero decides si el material es metal o no (metallic), luego lo pulido que está (roughness), después su color puro (albedo) y por último el detalle fino (normal y AO). Este orden evita el error clásico de "pintar" sombras dentro del color base.
 
@@ -131,10 +131,10 @@ Produce un texture set PBR completo para tu prop (albedo, metallic, roughness, n
 
 ## 🔗 Referencias
 
-- Blender Manual — Principled BSDF: <https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/principled.html>
-- Blender Manual — Baking (Cycles): <https://docs.blender.org/manual/en/latest/render/cycles/baking.html>
-- glTF 2.0 — Materials (metallic-roughness): <https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html>
-- Godot Docs — Importing 3D scenes (glTF): <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_scenes.html>
+- Blender Manual — Principled BSDF: <https://docs.blender.org/manual/en/4.2/render/shader_nodes/shader/principled.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Blender Manual — Baking (Cycles): <https://docs.blender.org/manual/en/4.2/render/cycles/baking.html> · uso: se instala o se consulta en la preparación
+- glTF 2.0 — Materials (metallic-roughness): <https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html> · uso: respalda el Tema 3 «Metallic y roughness»
+- Godot Docs — Importing 3D scenes (glTF): <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_3d_scenes/index.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Continúa con la **pantalla de la clase 189** (panel, lista, botones) en **Godot 4.x**. Trabajaremos con el **editor de Theme** que aparece en el panel inferior al editar un recurso Theme, y con el Inspector para los StyleBox.
 
-Referencia principal: **GUI skinning and themes** (<https://docs.godotengine.org/en/stable/tutorials/ui/gui_skinning.html>). Para el editor visual del Theme, consulta **Using the theme editor** (<https://docs.godotengine.org/en/stable/tutorials/ui/gui_using_theme_editor.html>). Puedes definir el Theme por editor o por código; aquí combinamos ambos.
+Referencia principal: **GUI skinning and themes** (<https://docs.godotengine.org/en/4.3/tutorials/ui/gui_skinning.html>). Para el editor visual del Theme, consulta **Using the theme editor** (<https://docs.godotengine.org/en/4.3/tutorials/ui/gui_using_theme_editor.html>). Puedes definir el Theme por editor o por código; aquí combinamos ambos.
 
 ## 🧪 Laboratorio guiado
 
@@ -132,10 +132,10 @@ Crea un Theme completo (`Button` con cuatro estados, `PanelContainer`, `Label`) 
 
 ## 🔗 Referencias
 
-- Godot Docs — GUI skinning and themes: <https://docs.godotengine.org/en/stable/tutorials/ui/gui_skinning.html>
-- Godot Docs — Using the theme editor: <https://docs.godotengine.org/en/stable/tutorials/ui/gui_using_theme_editor.html>
-- Godot Docs — StyleBoxFlat: <https://docs.godotengine.org/en/stable/classes/class_styleboxflat.html>
-- Godot Docs — Theme: <https://docs.godotengine.org/en/stable/classes/class_theme.html>
+- Godot Docs — GUI skinning and themes: <https://docs.godotengine.org/en/4.3/tutorials/ui/gui_skinning.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Using the theme editor: <https://docs.godotengine.org/en/4.3/tutorials/ui/gui_using_theme_editor.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — StyleBoxFlat: <https://docs.godotengine.org/en/4.3/classes/class_styleboxflat.html> · uso: respalda el Tema 3 «StyleBoxFlat»
+- Godot Docs — Theme: <https://docs.godotengine.org/en/4.3/classes/class_theme.html> · uso: respalda el Tema 1 «Recurso Theme»
 
 ## ⬅️ Clase anterior
 

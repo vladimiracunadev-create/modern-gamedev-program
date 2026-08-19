@@ -184,10 +184,10 @@ Construye una escena VR donde el jugador pueda agarrar un RigidBody3D con `grab`
 
 ## 🔗 Referencias
 
-- Godot Docs — XR: <https://docs.godotengine.org/en/stable/tutorials/xr/index.html>
-- Godot Docs — Area3D: <https://docs.godotengine.org/en/stable/classes/class_area3d.html>
-- Godot Docs — Using a SubViewport: <https://docs.godotengine.org/en/stable/tutorials/rendering/viewports.html>
-- godot-xr-tools — Interactables: <https://github.com/GodotVR/godot-xr-tools>
+- Godot Docs — XR: <https://docs.godotengine.org/en/4.3/tutorials/xr/index.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Area3D: <https://docs.godotengine.org/en/4.3/classes/class_area3d.html> · uso: respalda el Tema 1 «Area3D en la mano»
+- Godot Docs — Using a SubViewport: <https://docs.godotengine.org/en/4.3/tutorials/rendering/viewports.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- godot-xr-tools — Interactables: <https://github.com/GodotVR/godot-xr-tools> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

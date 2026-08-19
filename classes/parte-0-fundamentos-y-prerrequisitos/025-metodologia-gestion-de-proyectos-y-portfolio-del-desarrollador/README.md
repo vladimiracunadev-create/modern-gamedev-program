@@ -154,10 +154,10 @@ Crea un tablero kanban real (GitHub Projects o Trello) para un proyecto de juego
 
 ## 🔗 Referencias
 
-- Clinton Keith, *Agile Game Development with Scrum*: <https://www.agilegamedevelopment.com/>
-- itch.io, "Creating and managing your game page": <https://itch.io/docs/creators/design>
-- GitHub Docs, "About Projects": <https://docs.github.com/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects>
-- Ludum Dare, game jam periódica: <https://ldjam.com/>
+- Clinton Keith, *Agile Game Development with Scrum*: <https://www.agilegamedevelopment.com/> ⚠️ (sitio caído; la obra se localiza por ISBN en el registro) · uso: respalda el Tema 1 «Agile/scrum ligero»
+- itch.io, "Creating and managing your game page": <https://itch.io/docs/creators/design> · uso: respalda el Tema 5 «Game jams»
+- GitHub Docs, "About Projects": <https://docs.github.com/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Ludum Dare, game jam periódica: <https://ldjam.com/> · uso: respalda el Tema 5 «Game jams»
 
 ## ⬅️ Clase anterior
 

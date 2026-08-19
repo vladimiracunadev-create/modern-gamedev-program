@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x, un par de clips de voz por línea (uno por idioma, por ejemplo `hola_es.ogg` y `hola_en.ogg`) y un archivo de traducciones para los subtítulos (un CSV importado como `.translation`, o `.po`). Configura los idiomas en *Project Settings → Localization* y revisa cómo Godot elige el locale. Ten a mano el tutorial de [internacionalización de juegos](https://docs.godotengine.org/en/stable/tutorials/i18n/internationalizing_games.html), la guía de [importar traducciones](https://docs.godotengine.org/en/stable/tutorials/i18n/importing_translations.html) y la [referencia de AudioStreamPlayer](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html). Crea un `Label` para los subtítulos y, si puedes, un bus "Voz" separado del bus de música.
+Necesitas Godot 4.x, un par de clips de voz por línea (uno por idioma, por ejemplo `hola_es.ogg` y `hola_en.ogg`) y un archivo de traducciones para los subtítulos (un CSV importado como `.translation`, o `.po`). Configura los idiomas en *Project Settings → Localization* y revisa cómo Godot elige el locale. Ten a mano el tutorial de [internacionalización de juegos](https://docs.godotengine.org/en/4.3/tutorials/i18n/internationalizing_games.html), la guía de [importar traducciones](https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_translations.html) y la [referencia de AudioStreamPlayer](https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer.html). Crea un `Label` para los subtítulos y, si puedes, un bus "Voz" separado del bus de música.
 
 ## 🧪 Laboratorio guiado
 
@@ -173,10 +173,10 @@ En un bus propio con ducking sobre la música, para que el diálogo se entienda 
 
 ## 🔗 Referencias
 
-- [Internacionalizar juegos — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/i18n/internationalizing_games.html)
-- [Importar traducciones — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/i18n/importing_translations.html)
-- [AudioStreamPlayer — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html)
-- [TranslationServer — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_translationserver.html)
+- [Internacionalizar juegos — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/i18n/internationalizing_games.html) · uso: se instala o se consulta en la preparación
+- [Importar traducciones — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_translations.html) · uso: se instala o se consulta en la preparación
+- [AudioStreamPlayer — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer.html) · uso: se instala o se consulta en la preparación
+- [TranslationServer — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_translationserver.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

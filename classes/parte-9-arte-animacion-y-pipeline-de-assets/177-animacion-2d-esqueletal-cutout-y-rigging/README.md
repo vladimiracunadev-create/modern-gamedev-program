@@ -58,7 +58,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Haremos el laboratorio en **Godot 4** con **Skeleton2D** y **Bone2D**, integrados y gratuitos (<https://godotengine.org/>); su documentación de cutout está en <https://docs.godotengine.org/en/stable/tutorials/animation/cutout_animation.html>. Como alternativa profesional dedicada existe **Spine** (<https://esotericsoftware.com/>, de pago) y **DragonBones** (libre). Prepara un personaje recortado en piezas (torso, cabeza, dos brazos, dos piernas) como PNG con transparencia; puedes reutilizar un asset de la clase 175.
+Haremos el laboratorio en **Godot 4** con **Skeleton2D** y **Bone2D**, integrados y gratuitos (<https://godotengine.org/>); su documentación de cutout está en <https://docs.godotengine.org/en/4.3/tutorials/animation/cutout_animation.html>. Como alternativa profesional dedicada existe **Spine** (<https://esotericsoftware.com/>, de pago) y **DragonBones** (libre). Prepara un personaje recortado en piezas (torso, cabeza, dos brazos, dos piernas) como PNG con transparencia; puedes reutilizar un asset de la clase 175.
 
 En Godot, ten a mano el panel **Scene**, el editor de **AnimationPlayer** y el modo de edición de huesos que aparece al seleccionar un Skeleton2D. Importa las piezas a una carpeta `personaje/`.
 
@@ -126,13 +126,13 @@ Riggea un personaje recortado en Godot con un Skeleton2D que tenga al menos 6 Bo
 
 ## 🔗 Referencias
 
-- Godot Docs — Cutout animation: <https://docs.godotengine.org/en/stable/tutorials/animation/cutout_animation.html>
+- Godot Docs — Cutout animation: <https://docs.godotengine.org/en/4.3/tutorials/animation/cutout_animation.html> · uso: se instala o se consulta en la preparación
 
-- Godot Docs — Skeleton2D e IK: <https://docs.godotengine.org/en/stable/tutorials/animation/2d_skeletons.html>
+- Godot Docs — Skeleton2D e IK: <https://docs.godotengine.org/en/4.3/tutorials/animation/2d_skeletons.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
-- Spine — Documentación oficial: <https://esotericsoftware.com/spine-user-guide>
+- Spine — Documentación oficial: <https://esotericsoftware.com/spine-user-guide> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
-- DragonBones (alternativa libre): <https://github.com/DragonBones>
+- DragonBones (alternativa libre): <https://github.com/DragonBones> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

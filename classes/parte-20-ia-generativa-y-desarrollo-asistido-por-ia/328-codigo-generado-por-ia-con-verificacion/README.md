@@ -360,11 +360,11 @@ Implementa el ciclo de verificación completo y automatizado: compilación limpi
 
 ## 🔗 Referencias
 
-- OWASP — Top 10 for LLM Applications (manejo inseguro de salidas): <https://owasp.org/www-project-top-10-for-large-language-model-applications/>
-- Godot Docs — GDScript tipado estático: <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/static_typing.html>
-- Godot Docs — Command line tutorial (`--import`, `--script`): <https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html>
-- GUT — Godot Unit Test: <https://github.com/bitwes/Gut>
-- GitHub Docs — Actions: <https://docs.github.com/actions>
+- OWASP — Top 10 for LLM Applications (manejo inseguro de salidas): <https://owasp.org/www-project-top-10-for-large-language-model-applications/> · uso: respalda el Tema 6 «Manejo de errores»
+- Godot Docs — GDScript tipado estático: <https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/static_typing.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Command line tutorial (`--import`, `--script`): <https://docs.godotengine.org/en/4.3/tutorials/editor/command_line_tutorial.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GUT — Godot Unit Test: <https://github.com/bitwes/Gut> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GitHub Docs — Actions: <https://docs.github.com/actions> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

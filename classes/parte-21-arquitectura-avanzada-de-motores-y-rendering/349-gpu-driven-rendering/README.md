@@ -409,12 +409,12 @@ Implementa un sistema de renderizado con culling en GPU: buffer de escena subido
 
 ## 🔗 Referencias
 
-- Akenine-Möller, Haines & Hoffman — *Real-Time Rendering*, capítulo de pipeline y culling: <https://www.realtimerendering.com/>
-- Vulkan Docs — Indirect drawing: <https://docs.vulkan.org/spec/latest/chapters/drawing.html>
-- Microsoft — Mesh shaders en DirectX 12: <https://learn.microsoft.com/windows/win32/direct3d12/mesh-shader-pipeline>
-- Godot Docs — Compute shaders y `RenderingDevice`: <https://docs.godotengine.org/en/stable/tutorials/shaders/compute_shaders.html>
-- Godot Docs — `MultiMesh`: <https://docs.godotengine.org/en/stable/classes/class_multimesh.html>
-- NVIDIA — Introduction to Turing Mesh Shaders: <https://developer.nvidia.com/blog/introduction-turing-mesh-shaders/>
+- Akenine-Möller, Haines & Hoffman — *Real-Time Rendering*, capítulo de pipeline y culling: <https://www.realtimerendering.com/> · uso: respalda el Tema 3 «Culling en GPU»
+- Vulkan Docs — Indirect drawing: <https://docs.vulkan.org/spec/latest/chapters/drawing.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Microsoft — Mesh shaders en DirectX 12: <https://learn.microsoft.com/en-us/windows/win32/direct3d12/direct3d-12-graphics> · uso: respalda el Tema 7 «Mesh shaders»
+- Godot Docs — Compute shaders y `RenderingDevice`: <https://docs.godotengine.org/en/4.3/tutorials/shaders/compute_shaders.html> · uso: respalda el Tema 7 «Mesh shaders»
+- Godot Docs — `MultiMesh`: <https://docs.godotengine.org/en/4.3/classes/class_multimesh.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- NVIDIA — Introduction to Turing Mesh Shaders: <https://developer.nvidia.com/blog/introduction-turing-mesh-shaders/> · uso: respalda el Tema 7 «Mesh shaders»
 
 ## ⬅️ Clase anterior
 

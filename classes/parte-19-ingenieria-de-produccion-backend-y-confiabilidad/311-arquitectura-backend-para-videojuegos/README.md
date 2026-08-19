@@ -60,7 +60,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-No hace falta contratar nada: trabajaremos con un **backend simulado** en el propio proyecto Godot, que es lo que después usará la CI. Necesitarás `HTTPRequest` para la parte real y el patrón de proveedor que construiremos aquí. Documentación: [`HTTPRequest`](https://docs.godotengine.org/en/stable/classes/class_httprequest.html) y [`HTTPClient`](https://docs.godotengine.org/en/stable/classes/class_httpclient.html). Conviene tener a mano la clase [151](../../parte-7-multijugador-y-networking/151-servidores-dedicados-headless-y-despliegue/README.md) sobre servidores dedicados headless.
+No hace falta contratar nada: trabajaremos con un **backend simulado** en el propio proyecto Godot, que es lo que después usará la CI. Necesitarás `HTTPRequest` para la parte real y el patrón de proveedor que construiremos aquí. Documentación: [`HTTPRequest`](https://docs.godotengine.org/en/4.3/classes/class_httprequest.html) y [`HTTPClient`](https://docs.godotengine.org/en/4.3/classes/class_httpclient.html). Conviene tener a mano la clase [151](../../parte-7-multijugador-y-networking/151-servidores-dedicados-headless-y-despliegue/README.md) sobre servidores dedicados headless.
 
 ## 🧪 Laboratorio guiado
 
@@ -336,12 +336,12 @@ Implementa una capa de backend con `ProveedorBackend` (interfaz), un `MockBacken
 
 ## 🔗 Referencias
 
-- Google — *Site Reliability Engineering*, capítulos de manejo de sobrecarga y cascadas de fallos: <https://sre.google/books/>
-- Godot Docs — `HTTPRequest`: <https://docs.godotengine.org/en/stable/classes/class_httprequest.html>
-- Godot Docs — `HTTPClient`: <https://docs.godotengine.org/en/stable/classes/class_httpclient.html>
-- AWS — Exponential backoff and jitter (explicación clásica del patrón): <https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/>
-- Martin Fowler — Circuit Breaker: <https://martinfowler.com/bliki/CircuitBreaker.html>
-- GDC Vault — charlas sobre arquitectura de backends de juegos y LiveOps: <https://www.gdcvault.com/>
+- Google — *Site Reliability Engineering*, capítulos de manejo de sobrecarga y cascadas de fallos: <https://sre.google/books/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `HTTPRequest`: <https://docs.godotengine.org/en/4.3/classes/class_httprequest.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `HTTPClient`: <https://docs.godotengine.org/en/4.3/classes/class_httpclient.html> · uso: se instala o se consulta en la preparación
+- AWS — Exponential backoff and jitter (explicación clásica del patrón): <https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/> · uso: respalda el Tema 7 «Timeouts y reintentos»
+- Martin Fowler — Circuit Breaker: <https://martinfowler.com/bliki/CircuitBreaker.html> · uso: respalda el Tema 8 «Circuit breaker»
+- GDC Vault — charlas sobre arquitectura de backends de juegos y LiveOps: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 1 «Arquitectura de referencia»
 
 ## ⬅️ Clase anterior
 

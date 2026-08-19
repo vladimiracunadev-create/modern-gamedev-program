@@ -163,10 +163,10 @@ Elabora la **checklist de verificación de Steam Deck** (entrada, legibilidad, c
 
 ## 🔗 Referencias
 
-- Steam Deck para desarrolladores (Valve): <https://partner.steamgames.com/doc/steamdeck>
-- GodotSteam (documentación): <https://godotsteam.com>
-- Godot Docs — Multiple resolutions: <https://docs.godotengine.org/en/stable/tutorials/rendering/multiple_resolutions.html>
-- Godot Docs — Input examples: <https://docs.godotengine.org/en/stable/tutorials/inputs/input_examples.html>
+- Steam Deck para desarrolladores (Valve): <https://partner.steamgames.com/doc/steamdeck> · uso: se instala o se consulta en la preparación
+- GodotSteam (documentación): <https://godotsteam.com> · uso: se instala o se consulta en la preparación
+- Godot Docs — Multiple resolutions: <https://docs.godotengine.org/en/4.3/tutorials/rendering/multiple_resolutions.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Input examples: <https://docs.godotengine.org/en/4.3/tutorials/inputs/input_examples.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

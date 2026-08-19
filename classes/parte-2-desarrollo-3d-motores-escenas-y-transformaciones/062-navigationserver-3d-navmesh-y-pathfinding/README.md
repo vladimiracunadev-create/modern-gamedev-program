@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Godot 4.x con un nivel 3D (suelo y muros estáticos, como el de la clase 057). El personaje jugador servirá como objetivo. Ten a mano un enemigo simple (`CharacterBody3D` con cápsula y malla). Como la navegación se actualiza en física, usaremos `_physics_process`. Consulta [3D navigation overview](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_introduction_3d.html) y [Using NavigationAgents](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html).
+Godot 4.x con un nivel 3D (suelo y muros estáticos, como el de la clase 057). El personaje jugador servirá como objetivo. Ten a mano un enemigo simple (`CharacterBody3D` con cápsula y malla). Como la navegación se actualiza en física, usaremos `_physics_process`. Consulta [3D navigation overview](https://docs.godotengine.org/en/4.3/tutorials/navigation/navigation_introduction_3d.html) y [Using NavigationAgents](https://docs.godotengine.org/en/4.3/tutorials/navigation/navigation_using_navigationagents.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -146,9 +146,9 @@ Monta un nivel con al menos dos muros y un obstáculo, hornea el navmesh y crea 
 
 ## 🔗 Referencias
 
-- [3D navigation overview — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_introduction_3d.html)
-- [Using NavigationAgents — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html)
-- [NavigationRegion3D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_navigationregion3d.html)
+- [3D navigation overview — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/navigation/navigation_introduction_3d.html) · uso: se instala o se consulta en la preparación
+- [Using NavigationAgents — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/navigation/navigation_using_navigationagents.html) · uso: se instala o se consulta en la preparación
+- [NavigationRegion3D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_navigationregion3d.html) · uso: respalda el Tema 2 «NavigationRegion3D»
 
 ## ⬅️ Clase anterior
 

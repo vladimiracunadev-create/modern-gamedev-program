@@ -59,7 +59,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Godot 4.x con plantillas de exportación, GitHub Actions y Python para los scripts. Trabajaremos en `.github/workflows/release.yml` y `scripts/release/`. Documentación: [exportación desde CLI en Godot](https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html), [SemVer 2.0.0](https://semver.org/) y [GitHub Actions](https://docs.github.com/actions). Si tu repositorio ya tiene CI (Parte 15), esta clase la amplía; no la sustituye.
+Godot 4.x con plantillas de exportación, GitHub Actions y Python para los scripts. Trabajaremos en `.github/workflows/release.yml` y `scripts/release/`. Documentación: [exportación desde CLI en Godot](https://docs.godotengine.org/en/4.3/tutorials/export/exporting_projects.html), [SemVer 2.0.0](https://semver.org/) y [GitHub Actions](https://docs.github.com/actions). Si tu repositorio ya tiene CI (Parte 15), esta clase la amplía; no la sustituye.
 
 ## 🧪 Laboratorio guiado
 
@@ -401,11 +401,11 @@ Implementa una cadena de release completa: sellado de versión desde git, matriz
 
 ## 🔗 Referencias
 
-- Semantic Versioning 2.0.0: <https://semver.org/>
-- Godot Docs — Exportar proyectos y exportación desde CLI: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html>
-- GitHub Docs — Actions, matrices y artefactos: <https://docs.github.com/actions>
-- Reproducible Builds — guía y causas de no determinismo: <https://reproducible-builds.org/docs/>
-- Keep a Changelog — formato de changelog legible: <https://keepachangelog.com/>
+- Semantic Versioning 2.0.0: <https://semver.org/> · uso: se instala o se consulta en la preparación
+- Godot Docs — Exportar proyectos y exportación desde CLI: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_projects.html> · uso: se instala o se consulta en la preparación
+- GitHub Docs — Actions, matrices y artefactos: <https://docs.github.com/actions> · uso: se instala o se consulta en la preparación
+- Reproducible Builds — guía y causas de no determinismo: <https://reproducible-builds.org/docs/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Keep a Changelog — formato de changelog legible: <https://keepachangelog.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

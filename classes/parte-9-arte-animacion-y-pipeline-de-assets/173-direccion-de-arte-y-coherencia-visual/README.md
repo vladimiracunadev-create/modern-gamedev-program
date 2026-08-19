@@ -126,13 +126,13 @@ Dirige el arte de un juego ficticio entregando una mini style guide de una sola 
 
 ## 🔗 Referencias
 
-- Krita — Manual de usuario: <https://docs.krita.org/en/user_manual.html>
+- Krita — Manual de usuario: <https://docs.krita.org/en/user_manual.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
-- GDC — charlas de art direction (canal oficial): <https://www.youtube.com/@Gdconf>
+- GDC — charlas de art direction (canal oficial): <https://www.youtube.com/@GDC> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
-- Adobe Color — extracción de paletas: <https://color.adobe.com/>
+- Adobe Color — extracción de paletas: <https://color.adobe.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
-- Schell, "The Art of Game Design" (lente de la atmósfera): <https://schellgames.com/art-of-game-design>
+- Schell, "The Art of Game Design" (lente de la atmósfera): <https://schellgames.com/art-of-game-design> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

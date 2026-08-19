@@ -368,12 +368,12 @@ Implementa un sistema de partículas o proyectiles con **al menos 100.000 entida
 
 ## 🔗 Referencias
 
-- Richard Fabian — *Data-Oriented Design* (libro completo en abierto): <https://www.dataorienteddesign.com/dodbook/>
-- Mike Acton — «Data-Oriented Design and C++», CppCon (charla de referencia): <https://www.youtube.com/watch?v=rX0ItVEVjHc>
-- Jason Gregory — *Game Engine Architecture*: <https://www.gameenginebook.com/>
-- Godot Docs — `PackedFloat32Array` y tipos empaquetados: <https://docs.godotengine.org/en/stable/classes/class_packedfloat32array.html>
-- Godot Docs — `MultiMesh` y `MultiMeshInstance2D`: <https://docs.godotengine.org/en/stable/classes/class_multimesh.html>
-- Ulrich Drepper — *What Every Programmer Should Know About Memory*: <https://people.freebsd.org/~lstewart/articles/cpumemory.pdf>
+- Richard Fabian — *Data-Oriented Design* (libro completo en abierto): <https://www.dataorienteddesign.com/dodbook/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Mike Acton — «Data-Oriented Design and C++», CppCon (charla de referencia): <https://www.youtube.com/watch?v=rX0ItVEVjHc> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Jason Gregory — *Game Engine Architecture*: <https://www.gameenginebook.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `PackedFloat32Array` y tipos empaquetados: <https://docs.godotengine.org/en/4.3/classes/class_packedfloat32array.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `MultiMesh` y `MultiMeshInstance2D`: <https://docs.godotengine.org/en/4.3/classes/class_multimesh.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Ulrich Drepper — *What Every Programmer Should Know About Memory*: <https://people.freebsd.org/~lstewart/articles/cpumemory.pdf> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

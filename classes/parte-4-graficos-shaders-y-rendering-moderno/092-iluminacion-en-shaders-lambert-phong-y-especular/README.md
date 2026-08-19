@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usa **Godot 4.x** con un proyecto 3D. Crea una escena con un `Node3D` raíz, un `MeshInstance3D` con una esfera (buena para ver el degradado de luz), un `DirectionalLight3D` y una `Camera3D`. Añade al `MeshInstance3D` un **material nuevo → Shader Material → Shader nuevo**. Ten a mano la referencia del [Shading language](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html) y de los [Spatial shaders](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/spatial_shader.html), donde se documenta la función `light()`. Lo observable será la esfera pasando de mate a brillante según muevas la luz.
+Usa **Godot 4.x** con un proyecto 3D. Crea una escena con un `Node3D` raíz, un `MeshInstance3D` con una esfera (buena para ver el degradado de luz), un `DirectionalLight3D` y una `Camera3D`. Añade al `MeshInstance3D` un **material nuevo → Shader Material → Shader nuevo**. Ten a mano la referencia del [Shading language](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/shading_language.html) y de los [Spatial shaders](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/spatial_shader.html), donde se documenta la función `light()`. Lo observable será la esfera pasando de mate a brillante según muevas la luz.
 
 ## 🧪 Laboratorio guiado
 
@@ -142,9 +142,9 @@ Crea un material "escudo de energía" con difuso tenue, un especular muy marcado
 
 ## 🔗 Referencias
 
-1. Godot Engine — Spatial shaders (función light): <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/spatial_shader.html>
-2. Godot Engine — Shading language: <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html>
-3. Godot Engine — Your first shader (3D): <https://docs.godotengine.org/en/stable/tutorials/shaders/your_first_shader/your_first_3d_shader.html>
+1. Godot Engine — Spatial shaders (función light): <https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/spatial_shader.html> · uso: se instala o se consulta en la preparación
+2. Godot Engine — Shading language: <https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/shading_language.html> · uso: se instala o se consulta en la preparación
+3. Godot Engine — Your first shader (3D): <https://docs.godotengine.org/en/4.3/tutorials/shaders/your_first_shader/your_first_3d_shader.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

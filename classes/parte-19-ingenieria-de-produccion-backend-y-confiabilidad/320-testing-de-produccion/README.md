@@ -413,12 +413,12 @@ Implementa una batería de testing de producción con: property-based testing co
 
 ## 🔗 Referencias
 
-- GUT — Godot Unit Test: <https://github.com/bitwes/Gut>
-- Godot Docs — Command line tutorial (`--headless`, `--script`): <https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html>
-- Godot Docs — `Performance` (monitores de memoria y objetos): <https://docs.godotengine.org/en/stable/classes/class_performance.html>
-- QuickCheck — el artículo original de property-based testing (Claessen & Hughes): <https://dl.acm.org/doi/10.1145/351240.351266>
-- Google — *Site Reliability Engineering*, capítulo de testing de fiabilidad: <https://sre.google/books/>
-- OWASP — Fuzzing (uso defensivo): <https://owasp.org/www-community/Fuzzing>
+- GUT — Godot Unit Test: <https://github.com/bitwes/Gut> · uso: se instala o se consulta en la preparación
+- Godot Docs — Command line tutorial (`--headless`, `--script`): <https://docs.godotengine.org/en/4.3/tutorials/editor/command_line_tutorial.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `Performance` (monitores de memoria y objetos): <https://docs.godotengine.org/en/4.3/classes/class_performance.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- QuickCheck — el artículo original de property-based testing (Claessen & Hughes): <https://dl.acm.org/doi/10.1145/351240.351266> · uso: respalda el Tema 2 «Property-based»
+- Google — *Site Reliability Engineering*, capítulo de testing de fiabilidad: <https://sre.google/books/> · uso: respalda el Tema 8 «Soak testing»
+- OWASP — Fuzzing (uso defensivo): <https://owasp.org/www-community/Fuzzing> · uso: respalda el Tema 4 «Fuzzing»
 
 ## ⬅️ Clase anterior
 

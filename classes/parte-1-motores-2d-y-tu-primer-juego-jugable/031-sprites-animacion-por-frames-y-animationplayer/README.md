@@ -46,7 +46,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x (recomendado 4.3+) y la escena `Player` de las clases anteriores, con un `CharacterBody2D` que ya se mueve y salta. Para los frames puedes usar una spritesheet libre (por ejemplo de [Kenney](https://kenney.nl/assets) o [OpenGameArt](https://opengameart.org/)) o placeholders. Consulta la documentación de [AnimatedSprite2D](https://docs.godotengine.org/en/stable/classes/class_animatedsprite2d.html) y de [AnimationPlayer](https://docs.godotengine.org/en/stable/tutorials/animation/introduction.html).
+Necesitas Godot 4.x (recomendado 4.3+) y la escena `Player` de las clases anteriores, con un `CharacterBody2D` que ya se mueve y salta. Para los frames puedes usar una spritesheet libre (por ejemplo de [Kenney](https://kenney.nl/assets) o [OpenGameArt](https://opengameart.org/)) o placeholders. Consulta la documentación de [AnimatedSprite2D](https://docs.godotengine.org/en/4.3/classes/class_animatedsprite2d.html) y de [AnimationPlayer](https://docs.godotengine.org/en/4.3/tutorials/animation/introduction.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -189,10 +189,10 @@ Implementa un sistema de animación completo con cuatro estados visuales: `idle`
 
 ## 🔗 Referencias
 
-- [AnimatedSprite2D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_animatedsprite2d.html)
-- [SpriteFrames — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_spriteframes.html)
-- [Introducción a la animación (AnimationPlayer) — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/animation/introduction.html)
-- [2D sprite animation — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/2d/2d_sprite_animation.html)
+- [AnimatedSprite2D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_animatedsprite2d.html) · uso: se instala o se consulta en la preparación
+- [SpriteFrames — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_spriteframes.html) · uso: respalda el Tema 2 «Recurso `SpriteFrames`»
+- [Introducción a la animación (AnimationPlayer) — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/animation/introduction.html) · uso: se instala o se consulta en la preparación
+- [2D sprite animation — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/2d/2d_sprite_animation.html) · uso: respalda el Tema 7 «Señal `animation_finished`»
 
 ## ⬅️ Clase anterior
 

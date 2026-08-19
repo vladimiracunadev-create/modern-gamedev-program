@@ -302,12 +302,12 @@ Entrega un proyecto Godot ejecutable que integre **al menos doce** de los sistem
 
 ## 🔗 Referencias
 
-- Laboratorio de esta parte — [`labs/gameplay-systems/`](../../../labs/gameplay-systems/README.md)
-- Robert Nystrom — *Game Programming Patterns*: <https://gameprogrammingpatterns.com/>
-- Jason Gregory — *Game Engine Architecture*: <https://www.gameenginebook.com/>
-- Godot Docs — Command line tutorial (`--headless`, `--script`): <https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html>
-- Godot Docs — `SceneTree`: <https://docs.godotengine.org/en/stable/classes/class_scenetree.html>
-- GDC Vault — charlas sobre diseño de juegos sistémicos: <https://www.gdcvault.com/>
+- Laboratorio de esta parte — [`labs/gameplay-systems/`](../../../labs/gameplay-systems/README.md) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Robert Nystrom — *Game Programming Patterns*: <https://gameprogrammingpatterns.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Jason Gregory — *Game Engine Architecture*: <https://www.gameenginebook.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Command line tutorial (`--headless`, `--script`): <https://docs.godotengine.org/en/4.3/tutorials/editor/command_line_tutorial.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `SceneTree`: <https://docs.godotengine.org/en/4.3/classes/class_scenetree.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas sobre diseño de juegos sistémicos: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

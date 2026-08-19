@@ -128,9 +128,9 @@ Entrega `analisis-juegos.md` con la tabla completa de tres juegos (las seis colu
 
 ## 🔗 Referencias
 
-- Steve Rabin (ed.), *Introduction to Game Development* — Cengage/Charles River Media
-- Jesse Schell, *The Art of Game Design: A Book of Lenses* — <https://www.schellgames.com>
-- Historia del videojuego (referencia general) — <https://es.wikipedia.org/wiki/Historia_de_los_videojuegos>
+- Steve Rabin (ed.), *Introduction to Game Development* — Cengage/Charles River Media · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Jesse Schell, *The Art of Game Design: A Book of Lenses* — <https://www.schellgames.com> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Historia del videojuego (referencia general) — <https://es.wikipedia.org/wiki/Historia_de_los_videojuegos> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

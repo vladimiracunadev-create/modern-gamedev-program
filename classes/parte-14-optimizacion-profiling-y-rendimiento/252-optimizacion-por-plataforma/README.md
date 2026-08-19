@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas Godot 4.x. El renderer se elige en **Proyecto → Ajustes del proyecto → Rendering → Renderer → Rendering Method** (hay variantes para escritorio y para móvil). La compresión de texturas se configura por recurso en la pestaña **Importar** al seleccionar una imagen (modo de compresión: Lossless, Lossy o **VRAM Compressed**). Ten a mano el panel **Depurar → Monitores** para comparar tiempos de frame entre perfiles. Si dispones de un dispositivo Android, prepara la exportación para probar en hardware real, aunque el laboratorio funciona simulando plataformas en el editor.
 
-Documentación de apoyo: renderers en <https://docs.godotengine.org/en/stable/tutorials/rendering/renderers.html>, optimización para móvil en <https://docs.godotengine.org/en/stable/tutorials/performance/index.html> e importación de imágenes en <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>.
+Documentación de apoyo: renderers en <https://docs.godotengine.org/en/4.3/about/list_of_features.html#rendering>, optimización para móvil en <https://docs.godotengine.org/en/4.3/tutorials/performance/index.html> e importación de imágenes en <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_images.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -174,10 +174,10 @@ Implementa un autoload `Calidad` que al arrancar detecte la plataforma con `OS.g
 
 ## 🔗 Referencias
 
-- Godot Docs — Renderers: <https://docs.godotengine.org/en/stable/tutorials/rendering/renderers.html>
-- Godot Docs — Performance / optimización: <https://docs.godotengine.org/en/stable/tutorials/performance/index.html>
-- Godot Docs — Importing images (compresión): <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>
-- Godot Docs — OS (get_name, has_feature): <https://docs.godotengine.org/en/stable/classes/class_os.html>
+- Godot Docs — Renderers: <https://docs.godotengine.org/en/4.3/about/list_of_features.html#rendering> · uso: se instala o se consulta en la preparación
+- Godot Docs — Performance / optimización: <https://docs.godotengine.org/en/4.3/tutorials/performance/index.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Importing images (compresión): <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_images.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — OS (get_name, has_feature): <https://docs.godotengine.org/en/4.3/classes/class_os.html> · uso: respalda el Tema 8 «Feature flags por plataforma»
 
 ## ⬅️ Clase anterior
 

@@ -374,11 +374,11 @@ Implementa el sistema de crafteo con **al menos ocho recetas** en tres niveles d
 
 ## 🔗 Referencias
 
-- Robert Nystrom — *Game Programming Patterns*, Type Object: <https://gameprogrammingpatterns.com/type-object.html>
-- Godot Docs — `JSON` y carga de datos: <https://docs.godotengine.org/en/stable/classes/class_json.html>
-- Godot Docs — `Callable` (las operaciones de la transacción): <https://docs.godotengine.org/en/stable/classes/class_callable.html>
-- GDC Vault — charlas sobre economías de materiales y sistemas de crafteo: <https://www.gdcvault.com/>
-- Jason Gregory — *Game Engine Architecture*: <https://www.gameenginebook.com/>
+- Robert Nystrom — *Game Programming Patterns*, Type Object: <https://gameprogrammingpatterns.com/type-object.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `JSON` y carga de datos: <https://docs.godotengine.org/en/4.3/classes/class_json.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `Callable` (las operaciones de la transacción): <https://docs.godotengine.org/en/4.3/classes/class_callable.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas sobre economías de materiales y sistemas de crafteo: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Jason Gregory — *Game Engine Architecture*: <https://www.gameenginebook.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

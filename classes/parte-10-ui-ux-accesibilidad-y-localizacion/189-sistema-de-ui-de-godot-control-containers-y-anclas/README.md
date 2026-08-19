@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Trabaja en **Godot 4.x** con un proyecto vacío o el del curso. Configura antes el estiramiento en **Project → Project Settings → Display → Window → Stretch**: pon **Mode** en `canvas_items` y **Aspect** en `keep` para probar bien la adaptación.
 
-Ten a mano dos referencias de Godot: **Size and anchors** (<https://docs.godotengine.org/en/stable/tutorials/ui/size_and_anchors.html>) y **Using Containers** (<https://docs.godotengine.org/en/stable/tutorials/ui/gui_containers.html>). Casi todo el trabajo es en el editor; el script solo rellena la lista.
+Ten a mano dos referencias de Godot: **Size and anchors** (<https://docs.godotengine.org/en/4.3/tutorials/ui/size_and_anchors.html>) y **Using Containers** (<https://docs.godotengine.org/en/4.3/tutorials/ui/gui_containers.html>). Casi todo el trabajo es en el editor; el script solo rellena la lista.
 
 ## 🧪 Laboratorio guiado
 
@@ -130,10 +130,10 @@ Construye una pantalla de dos columnas: a la izquierda una lista con scroll (que
 
 ## 🔗 Referencias
 
-- Godot Docs — Size and anchors: <https://docs.godotengine.org/en/stable/tutorials/ui/size_and_anchors.html>
-- Godot Docs — Using Containers: <https://docs.godotengine.org/en/stable/tutorials/ui/gui_containers.html>
-- Godot Docs — Control (size flags): <https://docs.godotengine.org/en/stable/classes/class_control.html>
-- Godot Docs — Container: <https://docs.godotengine.org/en/stable/classes/class_container.html>
+- Godot Docs — Size and anchors: <https://docs.godotengine.org/en/4.3/tutorials/ui/size_and_anchors.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Using Containers: <https://docs.godotengine.org/en/4.3/tutorials/ui/gui_containers.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Control (size flags): <https://docs.godotengine.org/en/4.3/classes/class_control.html> · uso: respalda el Tema 6 «Size flags»
+- Godot Docs — Container: <https://docs.godotengine.org/en/4.3/classes/class_container.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

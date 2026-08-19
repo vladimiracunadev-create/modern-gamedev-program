@@ -444,11 +444,11 @@ Implementa un sistema de mundo grande con: particionado jerárquico de **al meno
 
 ## 🔗 Referencias
 
-- Unreal Engine Docs — World Partition (referencia conceptual de un sistema de producción): <https://dev.epicgames.com/documentation/en-us/unreal-engine/world-partition-in-unreal-engine>
-- Jason Gregory — *Game Engine Architecture*, capítulos de mundos y streaming: <https://www.gameenginebook.com/>
-- Godot Docs — `Node3D` y transformaciones globales: <https://docs.godotengine.org/en/stable/classes/class_node3d.html>
-- Godot Docs — Problemas de precisión en mundos grandes: <https://docs.godotengine.org/en/stable/tutorials/3d/large_world_coordinates.html>
-- Akenine-Möller et al. — *Real-Time Rendering*, capítulo de LOD y culling: <https://www.realtimerendering.com/>
+- Unreal Engine Docs — World Partition (referencia conceptual de un sistema de producción): <https://dev.epicgames.com/documentation/en-us/unreal-engine/world-partition-in-unreal-engine> · uso: se instala o se consulta en la preparación
+- Jason Gregory — *Game Engine Architecture*, capítulos de mundos y streaming: <https://www.gameenginebook.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `Node3D` y transformaciones globales: <https://docs.godotengine.org/en/4.3/classes/class_node3d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Problemas de precisión en mundos grandes: <https://docs.godotengine.org/en/4.3/tutorials/physics/large_world_coordinates.html> · uso: respalda el Tema 2 «Precisión de flotantes»
+- Akenine-Möller et al. — *Real-Time Rendering*, capítulo de LOD y culling: <https://www.realtimerendering.com/> · uso: respalda el Tema 6 «LOD de mundo»
 
 ## ⬅️ Clase anterior
 

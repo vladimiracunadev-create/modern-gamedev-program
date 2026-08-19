@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Continúa con `PlataformasCurso`. Asegúrate de que el `Jugador` está en el grupo `"jugador"` (pestaña **Node > Groups**). Repasa cómo registrar un Autoload en **Project Settings > Autoload** (<https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html>) y la referencia de `CanvasLayer` (<https://docs.godotengine.org/en/stable/classes/class_canvaslayer.html>). Para las barras, consulta `TextureProgressBar` (<https://docs.godotengine.org/en/stable/classes/class_textureprogressbar.html>).
+Continúa con `PlataformasCurso`. Asegúrate de que el `Jugador` está en el grupo `"jugador"` (pestaña **Node > Groups**). Repasa cómo registrar un Autoload en **Project Settings > Autoload** (<https://docs.godotengine.org/en/4.3/tutorials/scripting/singletons_autoload.html>) y la referencia de `CanvasLayer` (<https://docs.godotengine.org/en/4.3/classes/class_canvaslayer.html>). Para las barras, consulta `TextureProgressBar` (<https://docs.godotengine.org/en/4.3/classes/class_textureprogressbar.html>).
 
 Prepara una textura simple para la moneda (puede ser el `icon.svg` escalado) y otra para el relleno de la barra de vida.
 
@@ -179,10 +179,10 @@ Crea un recolectable especial `Gema` que otorgue una vida extra (hasta un máxim
 
 ## 🔗 Referencias
 
-- Godot — Singletons (Autoload): <https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html>
-- Godot — CanvasLayer: <https://docs.godotengine.org/en/stable/classes/class_canvaslayer.html>
-- Godot — TextureProgressBar: <https://docs.godotengine.org/en/stable/classes/class_textureprogressbar.html>
-- Godot — Area2D: <https://docs.godotengine.org/en/stable/classes/class_area2d.html>
+- Godot — Singletons (Autoload): <https://docs.godotengine.org/en/4.3/tutorials/scripting/singletons_autoload.html> · uso: se instala o se consulta en la preparación
+- Godot — CanvasLayer: <https://docs.godotengine.org/en/4.3/classes/class_canvaslayer.html> · uso: se instala o se consulta en la preparación
+- Godot — TextureProgressBar: <https://docs.godotengine.org/en/4.3/classes/class_textureprogressbar.html> · uso: se instala o se consulta en la preparación
+- Godot — Area2D: <https://docs.godotengine.org/en/4.3/classes/class_area2d.html> · uso: respalda el Tema 2 «Recolectable como Area2D»
 
 ## ⬅️ Clase anterior
 

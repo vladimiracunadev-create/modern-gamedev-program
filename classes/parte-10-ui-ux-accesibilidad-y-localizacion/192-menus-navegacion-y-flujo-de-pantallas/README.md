@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Trabaja en **Godot 4.x**. Ten conectado un **gamepad** si puedes, aunque todo se prueba también con las flechas del teclado y Enter. Revisa en **Project → Project Settings → Input Map** que existan `ui_up`, `ui_down`, `ui_accept`, etc. (vienen por defecto).
 
-Referencia principal: **GUI navigation** (<https://docs.godotengine.org/en/stable/tutorials/ui/gui_navigation.html>), que explica el foco y los vecinos. Para la entrada, **InputEvent / InputMap** (<https://docs.godotengine.org/en/stable/tutorials/inputs/inputevent.html>).
+Referencia principal: **GUI navigation** (<https://docs.godotengine.org/en/4.3/tutorials/ui/gui_navigation.html>), que explica el foco y los vecinos. Para la entrada, **InputEvent / InputMap** (<https://docs.godotengine.org/en/4.3/tutorials/inputs/inputevent.html>).
 
 ## 🧪 Laboratorio guiado
 
@@ -170,10 +170,10 @@ Construye un flujo de tres pantallas (Principal → Opciones → Controles) con 
 
 ## 🔗 Referencias
 
-- Godot Docs — GUI navigation: <https://docs.godotengine.org/en/stable/tutorials/ui/gui_navigation.html>
-- Godot Docs — InputEvent: <https://docs.godotengine.org/en/stable/tutorials/inputs/inputevent.html>
-- Godot Docs — Control (focus): <https://docs.godotengine.org/en/stable/classes/class_control.html>
-- Godot Docs — Tween: <https://docs.godotengine.org/en/stable/classes/class_tween.html>
+- Godot Docs — GUI navigation: <https://docs.godotengine.org/en/4.3/tutorials/ui/gui_navigation.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — InputEvent: <https://docs.godotengine.org/en/4.3/tutorials/inputs/inputevent.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Control (focus): <https://docs.godotengine.org/en/4.3/classes/class_control.html> · uso: respalda el Tema 4 «focus_neighbor_*»
+- Godot Docs — Tween: <https://docs.godotengine.org/en/4.3/classes/class_tween.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

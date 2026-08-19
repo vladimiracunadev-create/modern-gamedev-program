@@ -155,10 +155,10 @@ Interpola la posición de un jugador remoto entre snapshots con ~100 ms de retar
 
 ## 🔗 Referencias
 
-- Gabriel Gambetta — Entity Interpolation: <https://www.gabrielgambetta.com/entity-interpolation.html>
-- Valve Developer — Source Multiplayer Networking (interpolation): <https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking>
-- Gaffer On Games — Snapshot Interpolation: <https://gafferongames.com/post/snapshot_interpolation/>
-- Godot Docs — MultiplayerSynchronizer: <https://docs.godotengine.org/en/stable/classes/class_multiplayersynchronizer.html>
+- Gabriel Gambetta — Entity Interpolation: <https://www.gabrielgambetta.com/entity-interpolation.html> · uso: se instala o se consulta en la preparación
+- Valve Developer — Source Multiplayer Networking (interpolation): <https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking> · uso: respalda el Tema 2 «Interpolation delay»
+- Gaffer On Games — Snapshot Interpolation: <https://gafferongames.com/post/snapshot_interpolation/> · uso: respalda el Tema 2 «Interpolation delay»
+- Godot Docs — MultiplayerSynchronizer: <https://docs.godotengine.org/en/4.3/classes/class_multiplayersynchronizer.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

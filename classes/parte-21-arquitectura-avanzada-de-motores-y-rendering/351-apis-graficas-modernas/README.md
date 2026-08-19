@@ -64,7 +64,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Godot 4.x y su clase [`RenderingDevice`](https://docs.godotengine.org/en/stable/classes/class_renderingdevice.html), que expone una abstracción muy parecida a Vulkan y permite tocar estos conceptos sin salir del motor. Trabajaremos en `res://rd/`. Documentación de referencia: [Vulkan](https://docs.vulkan.org/), [DirectX 12](https://learn.microsoft.com/windows/win32/direct3d12/), [Metal](https://developer.apple.com/metal/) y [WebGPU](https://www.w3.org/TR/webgpu/). Ninguna es necesaria para seguir la clase.
+Godot 4.x y su clase [`RenderingDevice`](https://docs.godotengine.org/en/4.3/classes/class_renderingdevice.html), que expone una abstracción muy parecida a Vulkan y permite tocar estos conceptos sin salir del motor. Trabajaremos en `res://rd/`. Documentación de referencia: [Vulkan](https://docs.vulkan.org/), [DirectX 12](https://learn.microsoft.com/windows/win32/direct3d12/), [Metal](https://developer.apple.com/metal/) y [WebGPU](https://www.w3.org/TR/webgpu/). Ninguna es necesaria para seguir la clase.
 
 ## 🧪 Laboratorio guiado
 
@@ -417,13 +417,13 @@ Implementa un pequeño sistema de cómputo en GPU con `RenderingDevice` que ejer
 
 ## 🔗 Referencias
 
-- Khronos — Especificación y guía de Vulkan: <https://docs.vulkan.org/>
-- Microsoft — Documentación de DirectX 12: <https://learn.microsoft.com/windows/win32/direct3d12/directx-12-programming-guide>
-- Apple — Metal: <https://developer.apple.com/metal/>
-- W3C — Especificación de WebGPU: <https://www.w3.org/TR/webgpu/>
-- Godot Docs — `RenderingDevice`: <https://docs.godotengine.org/en/stable/classes/class_renderingdevice.html>
-- Godot Docs — Compute shaders: <https://docs.godotengine.org/en/stable/tutorials/shaders/compute_shaders.html>
-- Akenine-Möller et al. — *Real-Time Rendering*, capítulo del pipeline gráfico: <https://www.realtimerendering.com/>
+- Khronos — Especificación y guía de Vulkan: <https://docs.vulkan.org/> · uso: se instala o se consulta en la preparación
+- Microsoft — Documentación de DirectX 12: <https://learn.microsoft.com/windows/win32/direct3d12/directx-12-programming-guide> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Apple — Metal: <https://developer.apple.com/metal/> · uso: se instala o se consulta en la preparación
+- W3C — Especificación de WebGPU: <https://www.w3.org/TR/webgpu/> · uso: se instala o se consulta en la preparación
+- Godot Docs — `RenderingDevice`: <https://docs.godotengine.org/en/4.3/classes/class_renderingdevice.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Compute shaders: <https://docs.godotengine.org/en/4.3/tutorials/shaders/compute_shaders.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Akenine-Möller et al. — *Real-Time Rendering*, capítulo del pipeline gráfico: <https://www.realtimerendering.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

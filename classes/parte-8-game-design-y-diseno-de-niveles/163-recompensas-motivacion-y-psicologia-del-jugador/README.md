@@ -140,10 +140,10 @@ Las recompensas que diseñas aquí necesitan sistemas que las entreguen de forma
 
 ## 🔗 Referencias
 
-- Jesse Schell, *The Art of Game Design: A Book of Lenses* (3ª ed.) — <https://www.schellgames.com>
-- Richard Bartle, *Hearts, Clubs, Diamonds, Spades: Players Who Suit MUDs* — <https://mud.co.uk/richard/hcds.htm>
-- Dark Patterns in Games (catálogo) — <https://www.darkpattern.games>
-- Tracy Fullerton, *Game Design Workshop* (4ª ed.) — CRC Press
+- Jesse Schell, *The Art of Game Design: A Book of Lenses* (3ª ed.) — <https://www.schellgames.com> · uso: se instala o se consulta en la preparación
+- Richard Bartle, *Hearts, Clubs, Diamonds, Spades: Players Who Suit MUDs* — <https://mud.co.uk/richard/hcds.htm> · uso: se instala o se consulta en la preparación
+- Dark Patterns in Games (catálogo) — <https://www.darkpattern.games> · uso: se instala o se consulta en la preparación
+- Tracy Fullerton, *Game Design Workshop* (4ª ed.) — CRC Press · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

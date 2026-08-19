@@ -382,11 +382,11 @@ Implementa el sistema completo con **al menos seis efectos**: un DoT acumulable,
 
 ## 🔗 Referencias
 
-- Unreal Engine Docs — Gameplay Effects (referencia conceptual de políticas de apilamiento): <https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-effects-for-the-gameplay-ability-system-in-unreal-engine>
-- Robert Nystrom — *Game Programming Patterns*, Update Method: <https://gameprogrammingpatterns.com/update-method.html>
-- Godot Docs — `Timer` y tiempo de juego: <https://docs.godotengine.org/en/stable/classes/class_timer.html>
-- Godot Docs — Diccionarios y arrays: <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>
-- GDC Vault — charlas sobre diseño de combate, control y contrajuego: <https://www.gdcvault.com/>
+- Unreal Engine Docs — Gameplay Effects (referencia conceptual de políticas de apilamiento): <https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-effects-for-the-gameplay-ability-system-in-unreal-engine> · uso: se instala o se consulta en la preparación
+- Robert Nystrom — *Game Programming Patterns*, Update Method: <https://gameprogrammingpatterns.com/update-method.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `Timer` y tiempo de juego: <https://docs.godotengine.org/en/4.3/classes/class_timer.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Diccionarios y arrays: <https://docs.godotengine.org/en/4.3/classes/class_dictionary.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas sobre diseño de combate, control y contrajuego: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

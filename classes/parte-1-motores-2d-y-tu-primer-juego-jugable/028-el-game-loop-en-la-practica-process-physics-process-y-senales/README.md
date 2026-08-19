@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Sigue en `PlataformasCurso`. Trabajaremos sobre `escenas/jugador.tscn` y `escenas/mundo.tscn`. No hacen falta assets nuevos. Ten a mano el panel **Output** para ver los prints y el panel **Node → Signals** (a la derecha, junto al Inspector) para conectar señales por editor.
 
-Documentación de apoyo: procesamiento en <https://docs.godotengine.org/en/stable/tutorials/scripting/idle_and_physics_processing.html> y señales en <https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html>.
+Documentación de apoyo: procesamiento en <https://docs.godotengine.org/en/4.3/tutorials/scripting/idle_and_physics_processing.html> y señales en <https://docs.godotengine.org/en/4.3/getting_started/step_by_step/signals.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -156,10 +156,10 @@ Haz que el jugador emita una señal `rebote(nueva_direccion: int)` cada vez que 
 
 ## 🔗 Referencias
 
-- Godot Docs — Idle and Physics processing: <https://docs.godotengine.org/en/stable/tutorials/scripting/idle_and_physics_processing.html>
-- Godot Docs — Signals: <https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html>
-- Godot Docs — Using signals (scripting): <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html>
-- Godot Docs — Timer: <https://docs.godotengine.org/en/stable/classes/class_timer.html>
+- Godot Docs — Idle and Physics processing: <https://docs.godotengine.org/en/4.3/tutorials/scripting/idle_and_physics_processing.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Signals: <https://docs.godotengine.org/en/4.3/getting_started/step_by_step/signals.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Using signals (scripting): <https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_basics.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Timer: <https://docs.godotengine.org/en/4.3/classes/class_timer.html> · uso: respalda el Tema 8 «Nodo Timer»
 
 ## ⬅️ Clase anterior
 

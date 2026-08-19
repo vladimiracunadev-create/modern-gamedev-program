@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x, un puñado de SFX cortos (impactos, pasos) que importarás como WAV, y una canción larga que importarás como OGG con streaming activado. En el inspector de importación de Godot puedes marcar *Loop* y, para el OGG, comprobar que el recurso es un `AudioStreamOggVorbis` con streaming. Revisa la guía de [importar samples de audio](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_audio_samples.html), la [referencia de AudioStreamWAV](https://docs.godotengine.org/en/stable/classes/class_audiostreamwav.html) y la de [AudioStreamOggVorbis](https://docs.godotengine.org/en/stable/classes/class_audiostreamoggvorbis.html). Abre el *Monitor* del depurador (pestaña *Debugger → Monitors*) para observar memoria y número de nodos mientras pruebas el pool.
+Necesitas Godot 4.x, un puñado de SFX cortos (impactos, pasos) que importarás como WAV, y una canción larga que importarás como OGG con streaming activado. En el inspector de importación de Godot puedes marcar *Loop* y, para el OGG, comprobar que el recurso es un `AudioStreamOggVorbis` con streaming. Revisa la guía de [importar samples de audio](https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_audio_samples.html), la [referencia de AudioStreamWAV](https://docs.godotengine.org/en/4.3/classes/class_audiostreamwav.html) y la de [AudioStreamOggVorbis](https://docs.godotengine.org/en/4.3/classes/class_audiostreamoggvorbis.html). Abre el *Monitor* del depurador (pestaña *Debugger → Monitors*) para observar memoria y número de nodos mientras pruebas el pool.
 
 ## 🧪 Laboratorio guiado
 
@@ -182,10 +182,10 @@ Cuando el pool está lleno y llega un sonido nuevo, reemplazas el menos importan
 
 ## 🔗 Referencias
 
-- [Importar samples de audio — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_audio_samples.html)
-- [AudioStreamWAV — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_audiostreamwav.html)
-- [AudioStreamOggVorbis — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_audiostreamoggvorbis.html)
-- [AudioStreamPlayer — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html)
+- [Importar samples de audio — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_audio_samples.html) · uso: se instala o se consulta en la preparación
+- [AudioStreamWAV — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_audiostreamwav.html) · uso: se instala o se consulta en la preparación
+- [AudioStreamOggVorbis — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_audiostreamoggvorbis.html) · uso: se instala o se consulta en la preparación
+- [AudioStreamPlayer — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

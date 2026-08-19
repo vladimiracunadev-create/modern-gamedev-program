@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Godot 4.x** instalado (versión estándar, sin C#, salvo que lo prefieras). Descárgalo desde <https://godotengine.org/download>. No requiere instalación: es un único ejecutable. Abre el **Project Manager**, que es la ventana desde la que se crean y administran proyectos.
 
-Como marcador visual usaremos por ahora un icono que Godot incluye en todo proyecto nuevo (`icon.svg`), así no dependemos de descargar assets. Ten a mano la documentación oficial de nodos y escenas: <https://docs.godotengine.org/en/stable/getting_started/step_by_step/nodes_and_scenes.html>.
+Como marcador visual usaremos por ahora un icono que Godot incluye en todo proyecto nuevo (`icon.svg`), así no dependemos de descargar assets. Ten a mano la documentación oficial de nodos y escenas: <https://docs.godotengine.org/en/4.3/getting_started/step_by_step/nodes_and_scenes.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -131,10 +131,10 @@ Crea una tercera escena `Moneda` (raíz `Node2D` con un `Sprite2D`) e instáncia
 
 ## 🔗 Referencias
 
-- Godot Docs — Nodes and scenes: <https://docs.godotengine.org/en/stable/getting_started/step_by_step/nodes_and_scenes.html>
-- Godot Docs — Instancing: <https://docs.godotengine.org/en/stable/getting_started/step_by_step/instancing.html>
-- Godot Docs — SceneTree: <https://docs.godotengine.org/en/stable/tutorials/scripting/scene_tree.html>
-- Godot Docs — Scene organization: <https://docs.godotengine.org/en/stable/tutorials/best_practices/scene_organization.html>
+- Godot Docs — Nodes and scenes: <https://docs.godotengine.org/en/4.3/getting_started/step_by_step/nodes_and_scenes.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Instancing: <https://docs.godotengine.org/en/4.3/getting_started/step_by_step/instancing.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — SceneTree: <https://docs.godotengine.org/en/4.3/tutorials/scripting/scene_tree.html> · uso: respalda el Tema 6 «SceneTree y nodo raíz del juego»
+- Godot Docs — Scene organization: <https://docs.godotengine.org/en/4.3/tutorials/best_practices/scene_organization.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

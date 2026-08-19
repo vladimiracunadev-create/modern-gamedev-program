@@ -43,7 +43,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Esta clase es conceptual y de análisis, así que solo necesitas Godot 4.x abierto para escribir pseudocódigo comentado en un `Node` de práctica, y un juego que conozcas bien (un shooter, un stealth o un plataformas con enemigos). Ten a mano papel o un archivo de texto para esbozar diagramas de estados. Como apoyo teórico, revisa los artículos gratuitos de [Game AI Pro](http://www.gameaipro.com/) y el capítulo introductorio de *Artificial Intelligence for Games*. La documentación de [scripting de Godot 4](https://docs.godotengine.org/en/stable/tutorials/scripting/index.html) te servirá para dar forma al esqueleto del guardia.
+Esta clase es conceptual y de análisis, así que solo necesitas Godot 4.x abierto para escribir pseudocódigo comentado en un `Node` de práctica, y un juego que conozcas bien (un shooter, un stealth o un plataformas con enemigos). Ten a mano papel o un archivo de texto para esbozar diagramas de estados. Como apoyo teórico, revisa los artículos gratuitos de [Game AI Pro](http://www.gameaipro.com/) y el capítulo introductorio de *Artificial Intelligence for Games*. La documentación de [scripting de Godot 4](https://docs.godotengine.org/en/4.3/tutorials/scripting/index.html) te servirá para dar forma al esqueleto del guardia.
 
 ## 🧪 Laboratorio guiado
 
@@ -142,10 +142,10 @@ Vectores básicos y lógica bastan para empezar. Las técnicas más avanzadas (u
 
 ## 🔗 Referencias
 
-- [Game AI Pro — artículos gratuitos](http://www.gameaipro.com/)
-- [Artificial Intelligence for Games (CRC Press)](https://www.routledge.com/Artificial-Intelligence-for-Games/Millington/p/book/9780367670566)
-- [GDC Vault — charlas de IA de juegos](https://www.gdcvault.com/)
-- [Introducción al scripting — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/scripting/index.html)
+- [Game AI Pro — artículos gratuitos](http://www.gameaipro.com/) · uso: se instala o se consulta en la preparación
+- [Artificial Intelligence for Games (CRC Press)](https://www.routledge.com/Artificial-Intelligence-for-Games/Millington/p/book/9780367670566) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [GDC Vault — charlas de IA de juegos](https://www.gdcvault.com/) — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 2 «IA de juegos vs IA académica/ML»
+- [Introducción al scripting — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/scripting/index.html) · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

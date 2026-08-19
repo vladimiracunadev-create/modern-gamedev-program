@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Godot 4 incluye un **replicador y opciones de depuración de red** accesibles desde el editor (menú **Debug → Network** en las versiones que lo exponen) para inyectar latencia y pérdida en el peer local; consulta la guía de multijugador de Godot (<https://docs.godotengine.org/en/stable/tutorials/networking/index.html>). En Windows, descarga **clumsy** (<https://jagt.github.io/clumsy/>), una herramienta gratuita que degrada el tráfico por filtros. En Linux o en tu servidor headless, usa **tc/netem** (parte de `iproute2`). Prepara un proyecto simple con dos peers: un jugador local con predicción y un remoto interpolado usando `MultiplayerSynchronizer`, para tener algo observable que romper.
+Godot 4 incluye un **replicador y opciones de depuración de red** accesibles desde el editor (menú **Debug → Network** en las versiones que lo exponen) para inyectar latencia y pérdida en el peer local; consulta la guía de multijugador de Godot (<https://docs.godotengine.org/en/4.3/tutorials/networking/index.html>). En Windows, descarga **clumsy** (<https://jagt.github.io/clumsy/>), una herramienta gratuita que degrada el tráfico por filtros. En Linux o en tu servidor headless, usa **tc/netem** (parte de `iproute2`). Prepara un proyecto simple con dos peers: un jugador local con predicción y un remoto interpolado usando `MultiplayerSynchronizer`, para tener algo observable que romper.
 
 ## 🧪 Laboratorio guiado
 
@@ -164,10 +164,10 @@ Entrega una demo con dos peers donde el jugador remoto se interpola y el cliente
 
 ## 🔗 Referencias
 
-- Godot Docs — Networking (índice): <https://docs.godotengine.org/en/stable/tutorials/networking/index.html>
-- clumsy (Windows): <https://jagt.github.io/clumsy/>
-- netem — Emulación de red en Linux: <https://wiki.linuxfoundation.org/networking/netem>
-- Godot Docs — MultiplayerSynchronizer: <https://docs.godotengine.org/en/stable/classes/class_multiplayersynchronizer.html>
+- Godot Docs — Networking (índice): <https://docs.godotengine.org/en/4.3/tutorials/networking/index.html> · uso: se instala o se consulta en la preparación
+- clumsy (Windows): <https://jagt.github.io/clumsy/> · uso: se instala o se consulta en la preparación
+- netem — Emulación de red en Linux: <https://wiki.linuxfoundation.org/networking/netem> · uso: respalda el Tema 5 «tc/netem (Linux)»
+- Godot Docs — MultiplayerSynchronizer: <https://docs.godotengine.org/en/4.3/classes/class_multiplayersynchronizer.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

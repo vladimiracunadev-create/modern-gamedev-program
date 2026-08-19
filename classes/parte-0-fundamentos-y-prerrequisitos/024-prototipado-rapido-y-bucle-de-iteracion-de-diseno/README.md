@@ -160,10 +160,10 @@ Construye en Godot, en menos de 60 minutos y con solo formas primitivas, el prot
 
 ## 🔗 Referencias
 
-- Tracy Fullerton, *Game Design Workshop* (4.ª ed.), capítulos de prototipado y playtesting: <https://www.gamedesignworkshop.com/>
-- Steve Swink, *Game Feel*: <http://www.game-feel.com/>
-- Godot Docs, "GDScript exports (`@export`)": <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_exports.html>
-- Godot Docs, "CharacterBody2D": <https://docs.godotengine.org/en/stable/tutorials/physics/using_character_body_2d.html>
+- Tracy Fullerton, *Game Design Workshop* (4.ª ed.), capítulos de prototipado y playtesting: <https://www.gamedesignworkshop.com/> · uso: respalda el Tema 7 «Game feel»
+- Steve Swink, *Game Feel*: <http://www.game-feel.com/> · uso: respalda el Tema 7 «Game feel»
+- Godot Docs, "GDScript exports (`@export`)": <https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_exports.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs, "CharacterBody2D": <https://docs.godotengine.org/en/4.3/tutorials/physics/using_character_body_2d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

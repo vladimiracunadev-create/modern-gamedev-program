@@ -167,10 +167,10 @@ Crea una mini-demo donde un cuadrado se mueve por la pantalla con **teclado, pun
 
 ## 🔗 Referencias
 
-- MDN — Web Audio API: <https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API>
-- MDN — Autoplay guide: <https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide>
-- MDN — Gamepad API: <https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API>
-- MDN — Pointer events: <https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events>
+- MDN — Web Audio API: <https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API> · uso: se instala o se consulta en la preparación
+- MDN — Autoplay guide: <https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide> · uso: se instala o se consulta en la preparación
+- MDN — Gamepad API: <https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API> · uso: se instala o se consulta en la preparación
+- MDN — Pointer events: <https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events> · uso: respalda el Tema 7 «Pointer Events»
 
 ## ⬅️ Clase anterior
 

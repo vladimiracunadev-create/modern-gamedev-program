@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x y los recursos de las clases previas: SFX cortos (WAV) para el Randomizer, un clip de audio 3D, y música organizada en capas o como `AudioStreamInteractive` con un clip de exploración y otro de combate. Configura los buses en *Audio* (Master, Musica, SFX, Voz) y prepara el ducking en el bus Musica. Registra el `AudioManager` como Autoload en *Project Settings → Autoload*. Ten a mano las referencias de [AudioStreamRandomizer](https://docs.godotengine.org/en/stable/classes/class_audiostreamrandomizer.html), [AudioStreamInteractive](https://docs.godotengine.org/en/stable/classes/class_audiostreaminteractive.html), [AudioStreamPlayer3D](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer3d.html) y la guía de [buses de audio](https://docs.godotengine.org/en/stable/tutorials/audio/audio_buses.html).
+Necesitas Godot 4.x y los recursos de las clases previas: SFX cortos (WAV) para el Randomizer, un clip de audio 3D, y música organizada en capas o como `AudioStreamInteractive` con un clip de exploración y otro de combate. Configura los buses en *Audio* (Master, Musica, SFX, Voz) y prepara el ducking en el bus Musica. Registra el `AudioManager` como Autoload en *Project Settings → Autoload*. Ten a mano las referencias de [AudioStreamRandomizer](https://docs.godotengine.org/en/4.3/classes/class_audiostreamrandomizer.html), [AudioStreamInteractive](https://docs.godotengine.org/en/4.3/classes/class_audiostreaminteractive.html), [AudioStreamPlayer3D](https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer3d.html) y la guía de [buses de audio](https://docs.godotengine.org/en/4.3/tutorials/audio/audio_buses.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -217,11 +217,11 @@ Cuando cumple la Definition of Done: todas las casillas del checklist marcadas y
 
 ## 🔗 Referencias
 
-- [AudioStreamRandomizer — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_audiostreamrandomizer.html)
-- [AudioStreamInteractive — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_audiostreaminteractive.html)
-- [AudioStreamPlayer3D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer3d.html)
-- [Buses de audio (mezcla y efectos) — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/audio/audio_buses.html)
-- [Singletons (Autoload) — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html)
+- [AudioStreamRandomizer — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_audiostreamrandomizer.html) · uso: se instala o se consulta en la preparación
+- [AudioStreamInteractive — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_audiostreaminteractive.html) · uso: se instala o se consulta en la preparación
+- [AudioStreamPlayer3D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer3d.html) · uso: se instala o se consulta en la preparación
+- [Buses de audio (mezcla y efectos) — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/audio/audio_buses.html) · uso: se instala o se consulta en la preparación
+- [Singletons (Autoload) — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/scripting/singletons_autoload.html) · uso: respalda el Tema 1 «AudioManager como Autoload»
 
 ## ⬅️ Clase anterior
 

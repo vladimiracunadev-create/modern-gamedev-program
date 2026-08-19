@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Godot 4.x**. Vigilaremos la memoria con `Performance.get_monitor(Performance.MEMORY_STATIC)` y con **Monitors → Memory** en el Debugger; el monitor **Object Count** ayuda a ver objetos vivos. Para inspeccionar fugas de nodos, activa en **Project Settings** el aviso de objetos huérfanos y usa `print_orphan_nodes()`.
 
-Consulta "Memory management" y la referencia de `RefCounted`: <https://docs.godotengine.org/en/stable/tutorials/best_practices/node_alternatives.html> y <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>. La lista de monitores de memoria está en la clase `Performance`: <https://docs.godotengine.org/en/stable/classes/class_performance.html>.
+Consulta "Memory management" y la referencia de `RefCounted`: <https://docs.godotengine.org/en/4.3/tutorials/best_practices/node_alternatives.html> y <https://docs.godotengine.org/en/4.3/classes/class_refcounted.html>. La lista de monitores de memoria está en la clase `Performance`: <https://docs.godotengine.org/en/4.3/classes/class_performance.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -162,10 +162,10 @@ Toma un sistema que cree objetos con frecuencia (por ejemplo, un generador de pr
 
 ## 🔗 Referencias
 
-- Godot Docs — When and how to avoid using nodes (RefCounted/Object): <https://docs.godotengine.org/en/stable/tutorials/best_practices/node_alternatives.html>
-- Godot Docs — RefCounted (clase): <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>
-- Godot Docs — Performance (monitores de memoria): <https://docs.godotengine.org/en/stable/classes/class_performance.html>
-- Jason Gregory, "Game Engine Architecture", 3.ª ed., capítulo sobre gestión de memoria.
+- Godot Docs — When and how to avoid using nodes (RefCounted/Object): <https://docs.godotengine.org/en/4.3/tutorials/best_practices/node_alternatives.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — RefCounted (clase): <https://docs.godotengine.org/en/4.3/classes/class_refcounted.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Performance (monitores de memoria): <https://docs.godotengine.org/en/4.3/classes/class_performance.html> · uso: se instala o se consulta en la preparación
+- Jason Gregory, "Game Engine Architecture", 3.ª ed., capítulo sobre gestión de memoria. · uso: respalda el Tema 1 «Memoria estática vs dinámica»
 
 ## ⬅️ Clase anterior
 

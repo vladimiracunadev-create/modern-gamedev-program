@@ -367,11 +367,11 @@ Implementa un sistema anti-cheat defensivo con validación determinista de movim
 
 ## 🔗 Referencias
 
-- GDC Vault — charlas sobre anti-cheat, confianza y seguridad en juegos online: <https://www.gdcvault.com/>
-- OWASP — Top Ten y controles de validación de entrada: <https://owasp.org/www-project-top-ten/>
-- Valve — documentación de Steamworks sobre integridad de partidas: <https://partner.steamgames.com/doc/features>
-- Godot Docs — `MultiplayerAPI` y autoridad: <https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html>
-- Adam Shostack — *Threat Modeling*: <https://shostack.org/books/threat-modeling-book>
+- GDC Vault — charlas sobre anti-cheat, confianza y seguridad en juegos online: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- OWASP — Top Ten y controles de validación de entrada: <https://owasp.org/www-project-top-ten/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Valve — documentación de Steamworks sobre integridad de partidas: <https://partner.steamgames.com/doc/features> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `MultiplayerAPI` y autoridad: <https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html> · uso: respalda el Tema 3 «Autoridad de servidor»
+- Adam Shostack — *Threat Modeling*: <https://shostack.org/books/threat-modeling-book> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

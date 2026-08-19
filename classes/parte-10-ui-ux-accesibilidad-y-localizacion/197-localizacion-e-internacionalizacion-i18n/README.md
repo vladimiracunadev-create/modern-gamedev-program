@@ -58,7 +58,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usaremos **Godot 4.x** y un editor de hojas de cálculo (LibreOffice Calc, Excel o cualquier editor de texto) para el CSV. **Importante:** guarda el CSV con codificación **UTF-8** y separador por comas, y con salto de línea al final. Godot detecta automáticamente los CSV de traducción con una columna `keys`. Registra el resultado en **Project > Project Settings > Localization**. Ten a mano la guía oficial de [Internationalizing games](https://docs.godotengine.org/en/stable/tutorials/i18n/internationalizing_games.html) y la de [Localization using gettext](https://docs.godotengine.org/en/stable/tutorials/i18n/localization_using_gettext.html) si prefieres PO. Como referencia de UX inclusiva, <https://gameaccessibilityguidelines.com/> también trata la claridad del idioma.
+Usaremos **Godot 4.x** y un editor de hojas de cálculo (LibreOffice Calc, Excel o cualquier editor de texto) para el CSV. **Importante:** guarda el CSV con codificación **UTF-8** y separador por comas, y con salto de línea al final. Godot detecta automáticamente los CSV de traducción con una columna `keys`. Registra el resultado en **Project > Project Settings > Localization**. Ten a mano la guía oficial de [Internationalizing games](https://docs.godotengine.org/en/4.3/tutorials/i18n/internationalizing_games.html) y la de [Localization using gettext](https://docs.godotengine.org/en/4.3/tutorials/i18n/localization_using_gettext.html) si prefieres PO. Como referencia de UX inclusiva, <https://gameaccessibilityguidelines.com/> también trata la claridad del idioma.
 
 ## 🧪 Laboratorio guiado
 
@@ -155,13 +155,13 @@ Localiza una UI (menú de 3 opciones + un texto con variable) a dos idiomas medi
 
 ## 🔗 Referencias
 
-- Godot — Internationalizing games: <https://docs.godotengine.org/en/stable/tutorials/i18n/internationalizing_games.html>
+- Godot — Internationalizing games: <https://docs.godotengine.org/en/4.3/tutorials/i18n/internationalizing_games.html> · uso: se instala o se consulta en la preparación
 
-- Godot — Localization using gettext (PO): <https://docs.godotengine.org/en/stable/tutorials/i18n/localization_using_gettext.html>
+- Godot — Localization using gettext (PO): <https://docs.godotengine.org/en/4.3/tutorials/i18n/localization_using_gettext.html> · uso: se instala o se consulta en la preparación
 
-- Godot — Importing translations (CSV): <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_translations.html>
+- Godot — Importing translations (CSV): <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_translations.html> · uso: respalda el Tema 4 «Archivos CSV y PO»
 
-- Godot — Pseudolocalization: <https://docs.godotengine.org/en/stable/tutorials/i18n/pseudolocalization.html>
+- Godot — Pseudolocalization: <https://docs.godotengine.org/en/4.3/tutorials/i18n/pseudolocalization.html> · uso: respalda el Tema 1 «i18n vs l10n»
 
 ## ⬅️ Clase anterior
 

@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Con **Godot 4.x** basta. Vamos a esbozar arquitecturas y luego montar un esqueleto autoritativo probado con **dos instancias** en `localhost`. Ten a la vista la [guía de multijugador de alto nivel de Godot](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html) y, como lectura de arquitectura, la charla clásica de [Source Multiplayer Networking](https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking). Antes de programar, dibuja en papel las tres topologías (malla P2P, estrella cliente-servidor y autoritativo con flechas de input/estado): ese diagrama guiará tu código.
+Con **Godot 4.x** basta. Vamos a esbozar arquitecturas y luego montar un esqueleto autoritativo probado con **dos instancias** en `localhost`. Ten a la vista la [guía de multijugador de alto nivel de Godot](https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html) y, como lectura de arquitectura, la charla clásica de [Source Multiplayer Networking](https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking). Antes de programar, dibuja en papel las tres topologías (malla P2P, estrella cliente-servidor y autoritativo con flechas de input/estado): ese diagrama guiará tu código.
 
 ## 🧪 Laboratorio guiado
 
@@ -157,10 +157,10 @@ Extiende el esqueleto a un mini "captura la bandera" de posiciones: dos jugadore
 
 ## 🔗 Referencias
 
-- [High-level multiplayer (Godot 4)](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html)
-- Valve: [Source Multiplayer Networking](https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking)
-- Gabriel Gambetta: [Fast-Paced Multiplayer](https://www.gabrielgambetta.com/client-server-game-architecture.html)
-- Glenn Fiedler: [What every programmer needs to know about networking](https://gafferongames.com/post/what_every_programmer_needs_to_know_about_game_networking/)
+- [High-level multiplayer (Godot 4)](https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html) · uso: se instala o se consulta en la preparación
+- Valve: [Source Multiplayer Networking](https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking) · uso: se instala o se consulta en la preparación
+- Gabriel Gambetta: [Fast-Paced Multiplayer](https://www.gabrielgambetta.com/client-server-game-architecture.html) · uso: respalda el Tema 6 «Host (listen server) vs dedicado»
+- Glenn Fiedler: [What every programmer needs to know about networking](https://gafferongames.com/post/what_every_programmer_needs_to_know_about_game_networking/) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

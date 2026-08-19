@@ -8,7 +8,7 @@
 
 **Fuentes de referencia de esta parte:**
 
-- Documentación oficial de [Godot Engine 4.x — 3D](https://docs.godotengine.org/en/stable/tutorials/3d/index.html).
+- Documentación oficial de [Godot Engine 4.x — 3D](https://docs.godotengine.org/en/4.3/tutorials/3d/index.html).
 - Jason Gregory, *Game Engine Architecture* (3ª ed.) — rendering y escenas.
 - Eric Lengyel, *Mathematics for 3D Game Programming and Computer Graphics*.
 - Documentación de [Blender](https://docs.blender.org/) y del formato [glTF](https://www.khronos.org/gltf/).

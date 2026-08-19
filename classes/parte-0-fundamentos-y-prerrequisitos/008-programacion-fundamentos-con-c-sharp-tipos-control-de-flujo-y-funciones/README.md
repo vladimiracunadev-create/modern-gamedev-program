@@ -203,10 +203,10 @@ Amplía el simulador para que el héroe tenga una habilidad especial usable una 
 
 ## 🔗 Referencias
 
-- Microsoft, "A tour of C#": <https://learn.microsoft.com/dotnet/csharp/tour-of-csharp/>
-- Microsoft, "Install .NET": <https://learn.microsoft.com/dotnet/core/install/>
-- Microsoft, "`dotnet new`": <https://learn.microsoft.com/dotnet/core/tools/dotnet-new>
-- C# tipos integrados: <https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/built-in-types>
+- Microsoft, "A tour of C#": <https://learn.microsoft.com/dotnet/csharp/tour-of-csharp/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Microsoft, "Install .NET": <https://learn.microsoft.com/dotnet/core/install/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Microsoft, "`dotnet new`": <https://learn.microsoft.com/dotnet/core/tools/dotnet-new> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- C# tipos integrados: <https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/built-in-types> · uso: respalda el Tema 2 «Tipos básicos»
 
 ## ⬅️ Clase anterior
 

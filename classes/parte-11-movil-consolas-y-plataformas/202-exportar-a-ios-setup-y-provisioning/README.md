@@ -53,7 +53,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas un **Mac** con **Xcode** instalado (App Store), una **cuenta Apple Developer** (gratuita para pruebas en tu propio dispositivo, de pago para publicar), un **iPhone/iPad** con cable, y las **plantillas de exportación** de Godot instaladas. En el iPhone deberás confiar en tu certificado de desarrollador la primera vez (Ajustes → General → VPN y gestión de dispositivos).
 
-Sigue la guía oficial de Godot para iOS en <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_ios.html> y la documentación de firma de Apple en <https://developer.apple.com/documentation/xcode/distributing-your-app-for-beta-testing-and-releases>. Ten tu **Team ID** a mano (aparece en developer.apple.com → Membership).
+Sigue la guía oficial de Godot para iOS en <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_for_ios.html> y la documentación de firma de Apple en <https://developer.apple.com/documentation/xcode/distributing-your-app-for-beta-testing-and-releases>. Ten tu **Team ID** a mano (aparece en developer.apple.com → Membership).
 
 Si no cuentas con un Mac ahora mismo, no te saltes la clase: los pasos 1 a 4 (instalar plantillas y generar el proyecto Xcode) se hacen en cualquier sistema operativo, y el resto lo puedes preparar como documento para ejecutarlo cuando dispongas de hardware Apple, un Mac prestado o un servicio de CI con macOS. Lo importante es entender el flujo de firma, que es idéntico en todos los casos.
 
@@ -130,10 +130,10 @@ Genera desde Godot el **proyecto Xcode** de tu juego con un Bundle Identifier y 
 
 ## 🔗 Referencias
 
-- Godot Docs — Exporting for iOS: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_ios.html>
-- Apple Developer — Certificates, Identifiers & Profiles: <https://developer.apple.com/help/account/manage-identifiers/register-an-app-id>
-- Apple — Distributing your app for testing and release: <https://developer.apple.com/documentation/xcode/distributing-your-app-for-beta-testing-and-releases>
-- Apple — Signing your apps in Xcode: <https://developer.apple.com/documentation/xcode/signing-your-apps-in-xcode>
+- Godot Docs — Exporting for iOS: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_for_ios.html> · uso: se instala o se consulta en la preparación
+- Apple Developer — Certificates, Identifiers & Profiles: <https://developer.apple.com/help/account/manage-identifiers/register-an-app-id> · uso: respalda el Tema 2 «Cuenta Apple Developer»
+- Apple — Distributing your app for testing and release: <https://developer.apple.com/documentation/xcode/distributing-your-app-for-beta-testing-and-releases> · uso: se instala o se consulta en la preparación
+- Apple — Signing your apps in Xcode: <https://developer.apple.com/documentation/xcode/distributing-your-app-for-beta-testing-and-releases> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

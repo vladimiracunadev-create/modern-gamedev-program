@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Sigue en `PlataformasCurso`. Si tienes un gamepad, conéctalo por USB o Bluetooth antes de abrir Godot para que lo detecte. No hacen falta assets. Usaremos la pantalla y el Output para ver los valores de input.
 
-Consulta el Input Map en <https://docs.godotengine.org/en/stable/tutorials/inputs/inputevent.html#actions> y la clase `Input` en <https://docs.godotengine.org/en/stable/classes/class_input.html>. Todo el mapeo se hace en Project Settings → Input Map.
+Consulta el Input Map en <https://docs.godotengine.org/en/4.3/tutorials/inputs/inputevent.html#actions> y la clase `Input` en <https://docs.godotengine.org/en/4.3/classes/class_input.html>. Todo el mapeo se hace en Project Settings → Input Map.
 
 ## 🧪 Laboratorio guiado
 
@@ -145,10 +145,10 @@ Crea las cinco acciones (`move_left`, `move_right`, `move_up`, `move_down`, `jum
 
 ## 🔗 Referencias
 
-- Godot Docs — InputEvent y acciones: <https://docs.godotengine.org/en/stable/tutorials/inputs/inputevent.html>
-- Godot Docs — Using InputMap: <https://docs.godotengine.org/en/stable/tutorials/inputs/input_examples.html>
-- Godot Docs — Clase Input: <https://docs.godotengine.org/en/stable/classes/class_input.html>
-- Godot Docs — Controllers, gamepads and joysticks: <https://docs.godotengine.org/en/stable/tutorials/inputs/controllers_gamepads_joysticks.html>
+- Godot Docs — InputEvent y acciones: <https://docs.godotengine.org/en/4.3/tutorials/inputs/inputevent.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Using InputMap: <https://docs.godotengine.org/en/4.3/tutorials/inputs/input_examples.html> · uso: respalda el Tema 1 «Input Map»
+- Godot Docs — Clase Input: <https://docs.godotengine.org/en/4.3/classes/class_input.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Controllers, gamepads and joysticks: <https://docs.godotengine.org/en/4.3/tutorials/inputs/controllers_gamepads_joysticks.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

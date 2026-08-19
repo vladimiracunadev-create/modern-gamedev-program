@@ -129,11 +129,11 @@ La mayoría de problemas de equipo no son técnicos sino de coordinación: infor
 
 Chandler y Keith cubren la teoría de equipos y producción; las guías de Trello y Atlassian aportan las plantillas prácticas para montar tu tablero y tus ceremonias.
 
-- Heather Chandler — The Game Production Toolbox: <https://www.routledge.com/>
-- Clinton Keith — Agile Game Development: <https://www.agilegamedevelopment.com/>
-- GDC Vault, charlas de producción y equipos: <https://www.gdcvault.com/>
-- Documentación de Trello: <https://trello.com/guide>
-- Atlassian, guía de equipos ágiles: <https://www.atlassian.com/agile/teams>
+- Heather Chandler — The Game Production Toolbox: <https://www.routledge.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Clinton Keith — Agile Game Development: <https://www.agilegamedevelopment.com/> ⚠️ (sitio caído; la obra se localiza por ISBN en el registro) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault, charlas de producción y equipos: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: se instala o se consulta en la preparación
+- Documentación de Trello: <https://trello.com/guide> · uso: respalda el Tema 5 «Herramientas: Trello/Jira/Discord»
+- Atlassian, guía de equipos ágiles: <https://www.atlassian.com/agile/teams> · uso: respalda el Tema 3 «Equipos pequeños vs grandes»
 
 ## ⬅️ Clase anterior
 

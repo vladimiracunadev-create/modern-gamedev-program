@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Con Godot 4.x trabajaremos sobre una **rejilla lógica** (`Array` de `Array` de `int`) y solo al final la volcaremos a un **`TileMapLayer`** con al menos dos tiles: muro y suelo. Toda la aleatoriedad pasará por un `RandomNumberGenerator` con `seed`, para poder reproducir cualquier nivel. Ten a mano la clase [TileMapLayer](https://docs.godotengine.org/en/stable/classes/class_tilemaplayer.html) y la referencia de [RandomNumberGenerator](https://docs.godotengine.org/en/stable/classes/class_randomnumbergenerator.html).
+Con Godot 4.x trabajaremos sobre una **rejilla lógica** (`Array` de `Array` de `int`) y solo al final la volcaremos a un **`TileMapLayer`** con al menos dos tiles: muro y suelo. Toda la aleatoriedad pasará por un `RandomNumberGenerator` con `seed`, para poder reproducir cualquier nivel. Ten a mano la clase [TileMapLayer](https://docs.godotengine.org/en/4.3/classes/class_tilemaplayer.html) y la referencia de [RandomNumberGenerator](https://docs.godotengine.org/en/4.3/classes/class_randomnumbergenerator.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -230,10 +230,10 @@ El BSP reparte el espacio de forma más uniforme y evita zonas vacías, a cambio
 
 ## 🔗 Referencias
 
-- [Clase TileMapLayer — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_tilemaplayer.html)
-- [Clase RandomNumberGenerator — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_randomnumbergenerator.html)
-- [Cellular Automata Method for Cave Generation — RogueBasin](https://www.roguebasin.com/index.php/Cellular_Automata_Method_for_Generating_Random_Cave-Like_Levels)
-- [Procedural Content Generation in Games (libro abierto)](https://www.pcgbook.com/)
+- [Clase TileMapLayer — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_tilemaplayer.html) · uso: se instala o se consulta en la preparación
+- [Clase RandomNumberGenerator — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_randomnumbergenerator.html) · uso: se instala o se consulta en la preparación
+- [Cellular Automata Method for Cave Generation — RogueBasin](https://www.roguebasin.com/index.php/Cellular_Automata_Method_for_Generating_Random_Cave-Like_Levels) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Procedural Content Generation in Games (libro abierto)](https://www.pcgbook.com/) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

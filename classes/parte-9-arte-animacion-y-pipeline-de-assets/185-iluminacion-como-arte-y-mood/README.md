@@ -129,11 +129,11 @@ Entrega la **misma escena** iluminada en **dos moods claramente diferenciados** 
 
 ## 🔗 Referencias
 
-- Godot Docs — Lights and shadows: <https://docs.godotengine.org/en/stable/tutorials/3d/lights_and_shadows.html>
-- Godot Docs — Environment and post-processing: <https://docs.godotengine.org/en/stable/tutorials/3d/environment_and_post_processing.html>
-- Godot Docs — DirectionalLight3D: <https://docs.godotengine.org/en/stable/classes/class_directionallight3d.html>
-- Godot Docs — Using SDFGI (GI): <https://docs.godotengine.org/en/stable/tutorials/3d/global_illumination/using_sdfgi.html>
-- Godot Docs — WorldEnvironment: <https://docs.godotengine.org/en/stable/classes/class_worldenvironment.html>
+- Godot Docs — Lights and shadows: <https://docs.godotengine.org/en/4.3/tutorials/3d/lights_and_shadows.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Environment and post-processing: <https://docs.godotengine.org/en/4.3/tutorials/3d/environment_and_post_processing.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — DirectionalLight3D: <https://docs.godotengine.org/en/4.3/classes/class_directionallight3d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Using SDFGI (GI): <https://docs.godotengine.org/en/4.3/tutorials/3d/global_illumination/using_sdfgi.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — WorldEnvironment: <https://docs.godotengine.org/en/4.3/classes/class_worldenvironment.html> · uso: respalda el Tema 7 «WorldEnvironment»
 
 ## ⬅️ Clase anterior
 

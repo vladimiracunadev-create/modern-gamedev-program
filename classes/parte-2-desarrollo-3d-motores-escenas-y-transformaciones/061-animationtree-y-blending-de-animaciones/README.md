@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Godot 4.x y el personaje animado de la clase 060 (con `AnimationPlayer` y clips Idle/Walk/Run en loop). Añadirás un `AnimationTree` hermano. Revisa [Using AnimationTree](https://docs.godotengine.org/en/stable/tutorials/animation/animation_tree.html) y la clase [AnimationNodeBlendSpace1D](https://docs.godotengine.org/en/stable/classes/class_animationnodeblendspace1d.html).
+Godot 4.x y el personaje animado de la clase 060 (con `AnimationPlayer` y clips Idle/Walk/Run en loop). Añadirás un `AnimationTree` hermano. Revisa [Using AnimationTree](https://docs.godotengine.org/en/4.3/tutorials/animation/animation_tree.html) y la clase [AnimationNodeBlendSpace1D](https://docs.godotengine.org/en/4.3/classes/class_animationnodeblendspace1d.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -135,9 +135,9 @@ Implementa un controlador de tercera/primera persona cuyo personaje mezcle idle/
 
 ## 🔗 Referencias
 
-- [Using AnimationTree — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/animation/animation_tree.html)
-- [AnimationNodeBlendSpace1D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_animationnodeblendspace1d.html)
-- [AnimationNodeStateMachine — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_animationnodestatemachine.html)
+- [Using AnimationTree — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/animation/animation_tree.html) · uso: se instala o se consulta en la preparación
+- [AnimationNodeBlendSpace1D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_animationnodeblendspace1d.html) · uso: se instala o se consulta en la preparación
+- [AnimationNodeStateMachine — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_animationnodestatemachine.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

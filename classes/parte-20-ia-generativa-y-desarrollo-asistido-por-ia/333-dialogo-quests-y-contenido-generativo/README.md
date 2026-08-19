@@ -451,11 +451,11 @@ Implementa un generador de contenido con vocabulario cerrado derivado del conten
 
 ## 🔗 Referencias
 
-- Godot Docs — `JSON` y validación: <https://docs.godotengine.org/en/stable/classes/class_json.html>
-- JSON Schema — esquemas para validar contenido generado: <https://json-schema.org/>
-- OWASP — Top 10 for LLM Applications: <https://owasp.org/www-project-top-10-for-large-language-model-applications/>
-- Shaker, Togelius & Nelson — *Procedural Content Generation in Games* (fundamentos de PCG): <https://www.pcgbook.com/>
-- GDC Vault — charlas sobre generación de contenido y validación: <https://www.gdcvault.com/>
+- Godot Docs — `JSON` y validación: <https://docs.godotengine.org/en/4.3/classes/class_json.html> · uso: respalda el Tema 4 «Validación de esquema»
+- JSON Schema — esquemas para validar contenido generado: <https://json-schema.org/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- OWASP — Top 10 for LLM Applications: <https://owasp.org/www-project-top-10-for-large-language-model-applications/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Shaker, Togelius & Nelson — *Procedural Content Generation in Games* (fundamentos de PCG): <https://www.pcgbook.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas sobre generación de contenido y validación: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 4 «Validación de esquema»
 
 ## ⬅️ Clase anterior
 

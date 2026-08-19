@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Continúa con tu proyecto `PlataformasCurso`. No necesitas descargar assets: las partículas se generan por defecto con un punto de color, y puedes darles textura opcional con `res://icon.svg`. Ten a mano la documentación de partículas 2D: <https://docs.godotengine.org/en/stable/tutorials/2d/particle_systems_2d.html> y la de tweens: <https://docs.godotengine.org/en/stable/tutorials/animation/tween.html>. Recomendado tener ya integrado el sonido de la Clase 041 para combinar efectos.
+Continúa con tu proyecto `PlataformasCurso`. No necesitas descargar assets: las partículas se generan por defecto con un punto de color, y puedes darles textura opcional con `res://icon.svg`. Ten a mano la documentación de partículas 2D: <https://docs.godotengine.org/en/4.3/tutorials/2d/particle_systems_2d.html> y la de tweens: <https://docs.godotengine.org/en/4.3/classes/class_tween.html>. Recomendado tener ya integrado el sonido de la Clase 041 para combinar efectos.
 
 ## 🧪 Laboratorio guiado
 
@@ -186,11 +186,11 @@ Crea un componente reutilizable `EfectoImpacto` que combine tres cosas al ejecut
 
 ## 🔗 Referencias
 
-- Godot Docs — Particle systems (2D): <https://docs.godotengine.org/en/stable/tutorials/2d/particle_systems_2d.html>
-- Godot Docs — CPUParticles2D: <https://docs.godotengine.org/en/stable/classes/class_cpuparticles2d.html>
-- Godot Docs — GPUParticles2D: <https://docs.godotengine.org/en/stable/classes/class_gpuparticles2d.html>
-- Godot Docs — Tween: <https://docs.godotengine.org/en/stable/tutorials/animation/tween.html>
-- Godot Docs — Using Tweens (create_tween): <https://docs.godotengine.org/en/stable/classes/class_tween.html>
+- Godot Docs — Particle systems (2D): <https://docs.godotengine.org/en/4.3/tutorials/2d/particle_systems_2d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — CPUParticles2D: <https://docs.godotengine.org/en/4.3/classes/class_cpuparticles2d.html> · uso: respalda el Tema 2 «GPUParticles2D vs CPUParticles2D»
+- Godot Docs — GPUParticles2D: <https://docs.godotengine.org/en/4.3/classes/class_gpuparticles2d.html> · uso: respalda el Tema 2 «GPUParticles2D vs CPUParticles2D»
+- Godot Docs — Tween: <https://docs.godotengine.org/en/4.3/classes/class_tween.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Using Tweens (create_tween): <https://docs.godotengine.org/en/4.3/classes/class_tween.html> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

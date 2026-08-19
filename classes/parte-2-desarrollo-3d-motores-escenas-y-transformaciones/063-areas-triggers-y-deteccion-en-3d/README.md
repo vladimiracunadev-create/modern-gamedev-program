@@ -46,7 +46,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x desde <https://godotengine.org/download>. La referencia central de esta clase es la clase `Area3D` en <https://docs.godotengine.org/en/stable/classes/class_area3d.html> y la introducción a la física en <https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html>. Para entender capas y máscaras revisa <https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html#collision-layers-and-masks>. Reutilizaremos un `CharacterBody3D` simple como jugador; si vienes de clases anteriores puedes emplear el que ya tengas.
+Necesitas Godot 4.x desde <https://godotengine.org/download>. La referencia central de esta clase es la clase `Area3D` en <https://docs.godotengine.org/en/4.3/classes/class_area3d.html> y la introducción a la física en <https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html>. Para entender capas y máscaras revisa <https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html#collision-layers-and-masks>. Reutilizaremos un `CharacterBody3D` simple como jugador; si vienes de clases anteriores puedes emplear el que ya tengas.
 
 ## 🧪 Laboratorio guiado
 
@@ -183,10 +183,10 @@ Construye una sala con **tres** áreas encadenadas: un checkpoint inicial, una z
 
 ## 🔗 Referencias
 
-- Godot Docs — Clase Area3D: <https://docs.godotengine.org/en/stable/classes/class_area3d.html>
-- Godot Docs — Physics introduction: <https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html>
-- Godot Docs — Collision layers and masks: <https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html#collision-layers-and-masks>
-- Godot Docs — Clase CollisionShape3D: <https://docs.godotengine.org/en/stable/classes/class_collisionshape3d.html>
+- Godot Docs — Clase Area3D: <https://docs.godotengine.org/en/4.3/classes/class_area3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Physics introduction: <https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Collision layers and masks: <https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html#collision-layers-and-masks> · uso: se instala o se consulta en la preparación
+- Godot Docs — Clase CollisionShape3D: <https://docs.godotengine.org/en/4.3/classes/class_collisionshape3d.html> · uso: respalda el Tema 3 «CollisionShape3D»
 
 ## ⬅️ Clase anterior
 

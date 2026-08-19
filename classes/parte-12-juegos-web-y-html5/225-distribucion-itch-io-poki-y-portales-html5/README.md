@@ -139,10 +139,10 @@ Publica un juego HTML5 propio en **itch.io** como build embebido, con ficha comp
 
 ## 🔗 Referencias
 
-- itch.io — HTML5 games: <https://itch.io/docs/creators/html5>
-- itch.io — Creator docs: <https://itch.io/docs/creators/>
-- Poki for Developers: <https://developers.poki.com>
-- CrazyGames Developers: <https://developer.crazygames.com>
+- itch.io — HTML5 games: <https://itch.io/docs/creators/html5> · uso: respalda el Tema 1 «Empaquetado HTML5»
+- itch.io — Creator docs: <https://itch.io/docs/creators/getting-started> · uso: respalda el Tema 3 «itch.io: subir y configurar»
+- Poki for Developers: <https://developers.poki.com> · uso: se instala o se consulta en la preparación
+- CrazyGames Developers: <https://developer.crazygames.com> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

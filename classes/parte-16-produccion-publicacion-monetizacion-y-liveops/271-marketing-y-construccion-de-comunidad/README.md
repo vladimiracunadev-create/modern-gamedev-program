@@ -129,11 +129,11 @@ Las preguntas recurrentes del marketing indie tienen que ver con el cuándo, el 
 
 Zukowski es la referencia central de marketing indie con datos; complétalo con la documentación de Steam sobre visibilidad y con presskit() para preparar tu material de prensa.
 
-- Chris Zukowski — How To Market A Game: <https://howtomarketagame.com/>
-- Steamworks, marketing y visibilidad: <https://partner.steamgames.com/doc/marketing>
-- GDC Vault, charlas de marketing indie: <https://www.gdcvault.com/>
-- Reddit r/gamedev (marketing): <https://www.reddit.com/r/gamedev/>
-- presskit() de Rami Ismail (dopresskit): <https://dopresskit.com/>
+- Chris Zukowski — How To Market A Game: <https://howtomarketagame.com/> · uso: se instala o se consulta en la preparación
+- Steamworks, marketing y visibilidad: <https://partner.steamgames.com/doc/marketing> · uso: respalda el Tema 1 «Marketing indie: constancia»
+- GDC Vault, charlas de marketing indie: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 1 «Marketing indie: constancia»
+- Reddit r/gamedev (marketing): <https://www.reddit.com/r/gamedev/> · uso: respalda el Tema 1 «Marketing indie: constancia»
+- presskit() de Rami Ismail (dopresskit): <https://dopresskit.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

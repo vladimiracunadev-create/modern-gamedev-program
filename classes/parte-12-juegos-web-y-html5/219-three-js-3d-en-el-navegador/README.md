@@ -171,10 +171,10 @@ Crea una escena con al menos tres mallas distintas (por ejemplo cubo, esfera y c
 
 ## 🔗 Referencias
 
-- Three.js — Creating a scene: <https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene>
-- Three.js — Documentación: <https://threejs.org/docs/>
-- Three.js — Loading glTF models: <https://threejs.org/docs/index.html#manual/en/introduction/Loading-3D-models>
-- MDN — Getting started with WebGL: <https://developer.mozilla.org/es/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL>
+- Three.js — Creating a scene: <https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene> · uso: respalda el Tema 1 «Scene»
+- Three.js — Documentación: <https://threejs.org/docs/> · uso: se instala o se consulta en la preparación
+- Three.js — Loading glTF models: <https://threejs.org/docs/index.html#manual/en/introduction/Loading-3D-models> · uso: respalda el Tema 7 «Modelos glTF»
+- MDN — Getting started with WebGL: <https://developer.mozilla.org/es/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

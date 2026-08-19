@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Godot 4.x**. Godot ofrece un asistente en **Project → Project Settings → Plugins → Create New Plugin** que genera el esqueleto (`plugin.cfg` + script) automáticamente; en esta clase lo crearemos a mano para entender cada pieza, pero puedes usar el asistente después.
 
-Sigue la referencia oficial paso a paso, que documenta el formato exacto de `plugin.cfg`: <https://docs.godotengine.org/en/stable/tutorials/plugins/editor/making_plugins.html>. La lista completa de métodos está en la clase `EditorPlugin`: <https://docs.godotengine.org/en/stable/classes/class_editorplugin.html>.
+Sigue la referencia oficial paso a paso, que documenta el formato exacto de `plugin.cfg`: <https://docs.godotengine.org/en/4.3/tutorials/plugins/editor/making_plugins.html>. La lista completa de métodos está en la clase `EditorPlugin`: <https://docs.godotengine.org/en/4.3/classes/class_editorplugin.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -175,10 +175,10 @@ Construye un addon propio en `res://addons/` con `plugin.cfg` válido y un `Edit
 
 ## 🔗 Referencias
 
-- Godot Docs — Making plugins: <https://docs.godotengine.org/en/stable/tutorials/plugins/editor/making_plugins.html>
-- Godot Docs — `EditorPlugin`: <https://docs.godotengine.org/en/stable/classes/class_editorplugin.html>
-- Godot Docs — `EditorInterface`: <https://docs.godotengine.org/en/stable/classes/class_editorinterface.html>
-- Godot Docs — `EditorSelection`: <https://docs.godotengine.org/en/stable/classes/class_editorselection.html>
+- Godot Docs — Making plugins: <https://docs.godotengine.org/en/4.3/tutorials/plugins/editor/making_plugins.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `EditorPlugin`: <https://docs.godotengine.org/en/4.3/classes/class_editorplugin.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `EditorInterface`: <https://docs.godotengine.org/en/4.3/classes/class_editorinterface.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `EditorSelection`: <https://docs.godotengine.org/en/4.3/classes/class_editorselection.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

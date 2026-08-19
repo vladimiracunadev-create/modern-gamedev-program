@@ -142,10 +142,10 @@ Entrega un **one-pager completo** (una página) y el **índice de un GDD ligero*
 
 ## 🔗 Referencias
 
-- Mermaid (diagramas en Markdown): <https://mermaid.js.org/>
-- diagrams.net (editor de diagramas): <https://www.diagrams.net/>
-- The Game Design Document (guía general): <https://www.gamedeveloper.com/>
-- Level Design Book — Documentation: <https://book.leveldesignbook.com/>
+- Mermaid (diagramas en Markdown): <https://mermaid.js.org/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- diagrams.net (editor de diagramas): <https://www.diagrams.net/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- The Game Design Document (guía general): <https://www.gamedeveloper.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Level Design Book — Documentation: <https://book.leveldesignbook.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

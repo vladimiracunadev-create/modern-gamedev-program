@@ -51,7 +51,7 @@ Al finalizar, el alumno podrá:
 
 Descarga RenderDoc gratis desde <https://renderdoc.org/>. Funciona en Windows y Linux. Para que Godot sea capturable, exporta o ejecuta el juego con el backend gráfico **Vulkan** (Forward+ o Mobile); RenderDoc soporta Vulkan y OpenGL. Prepara una escena "pesada" con muchos objetos, transparencias o partículas, para que la captura tenga material que analizar. Ten también abierto el panel de **Monitores** de Godot para confirmar primero si estás limitado por GPU antes de capturar.
 
-Documentación de apoyo: guía de RenderDoc en <https://renderdoc.org/docs/> y depuración/optimización de GPU en Godot en <https://docs.godotengine.org/en/stable/tutorials/performance/index.html>. RenderDoc no captura el editor: hazlo sobre el juego en ejecución (F5) o sobre el ejecutable exportado.
+Documentación de apoyo: guía de RenderDoc en <https://renderdoc.org/docs/> y depuración/optimización de GPU en Godot en <https://docs.godotengine.org/en/4.3/tutorials/performance/index.html>. RenderDoc no captura el editor: hazlo sobre el juego en ejecución (F5) o sobre el ejecutable exportado.
 
 ## 🧪 Laboratorio guiado
 
@@ -138,10 +138,10 @@ Toma una escena que esté limitada por GPU, captura un frame con RenderDoc y pro
 
 ## 🔗 Referencias
 
-- RenderDoc — sitio oficial y descarga: <https://renderdoc.org/>
-- RenderDoc — documentación: <https://renderdoc.org/docs/>
-- Godot Docs — Performance y optimización de GPU: <https://docs.godotengine.org/en/stable/tutorials/performance/index.html>
-- Godot Docs — clase Performance (monitores): <https://docs.godotengine.org/en/stable/classes/class_performance.html>
+- RenderDoc — sitio oficial y descarga: <https://renderdoc.org/> · uso: se instala o se consulta en la preparación
+- RenderDoc — documentación: <https://renderdoc.org/docs/> · uso: se instala o se consulta en la preparación
+- Godot Docs — Performance y optimización de GPU: <https://docs.godotengine.org/en/4.3/tutorials/performance/index.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — clase Performance (monitores): <https://docs.godotengine.org/en/4.3/classes/class_performance.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

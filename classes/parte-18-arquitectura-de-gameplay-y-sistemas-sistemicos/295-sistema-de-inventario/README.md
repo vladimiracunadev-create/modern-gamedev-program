@@ -352,11 +352,11 @@ Implementa el `Inventario` completo con `agregar`, `agregar_todo_o_nada`, `quita
 
 ## 🔗 Referencias
 
-- Robert Nystrom — *Game Programming Patterns*: <https://gameprogrammingpatterns.com/>
-- Godot Docs — Arrays y tipos de datos: <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html>
-- Godot Docs — Señales personalizadas: <https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html>
-- Godot Docs — Drag and drop en Control (para la UI del inventario): <https://docs.godotengine.org/en/stable/tutorials/ui/gui_drag_and_drop.html>
-- GDC Vault — charlas sobre diseño de sistemas de inventario y UX de gestión: <https://www.gdcvault.com/>
+- Robert Nystrom — *Game Programming Patterns*: <https://gameprogrammingpatterns.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Arrays y tipos de datos: <https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_basics.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Señales personalizadas: <https://docs.godotengine.org/en/4.3/getting_started/step_by_step/signals.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Drag and drop en Control (para la UI del inventario): <https://docs.godotengine.org/en/4.3/classes/class_control.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas sobre diseño de sistemas de inventario y UX de gestión: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

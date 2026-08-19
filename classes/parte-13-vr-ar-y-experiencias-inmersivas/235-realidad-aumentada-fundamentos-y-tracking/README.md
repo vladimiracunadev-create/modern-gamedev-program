@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas un móvil compatible: Android con **ARCore** o iOS con **ARKit**. Godot no trae AR móvil de serie: se integra mediante **plugins/addons** que exponen la funcionalidad como una interfaz XR. En esta clase no compilamos aún; preparamos el proyecto y el árbol de nodos. Trabajaremos con `XROrigin3D` y `XRCamera3D` (la cámara pasa a mostrar el passthrough) más nodos de ancla que en la clase 236 poblará el plugin.
 
-Referencias: ARCore en <https://developers.google.com/ar>, ARKit en <https://developer.apple.com/augmented-reality/> y las interfaces XR de Godot en <https://docs.godotengine.org/en/stable/tutorials/xr/index.html>.
+Referencias: ARCore en <https://developers.google.com/ar>, ARKit en <https://developer.apple.com/augmented-reality/> y las interfaces XR de Godot en <https://docs.godotengine.org/en/4.3/tutorials/xr/index.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -135,10 +135,10 @@ Entrega el proyecto de Godot preparado para AR: sin OpenXR de escritorio, con `X
 
 ## 🔗 Referencias
 
-- Google — ARCore fundamentals: <https://developers.google.com/ar/develop/fundamentals>
-- Apple — Augmented Reality (ARKit): <https://developer.apple.com/augmented-reality/>
-- Godot Docs — XR interfaces: <https://docs.godotengine.org/en/stable/tutorials/xr/index.html>
-- Google — Anchors en ARCore: <https://developers.google.com/ar/develop/anchors>
+- Google — ARCore fundamentals: <https://developers.google.com/ar/develop/fundamentals> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Apple — Augmented Reality (ARKit): <https://developer.apple.com/augmented-reality/> · uso: se instala o se consulta en la preparación
+- Godot Docs — XR interfaces: <https://docs.godotengine.org/en/4.3/tutorials/xr/index.html> · uso: se instala o se consulta en la preparación
+- Google — Anchors en ARCore: <https://developers.google.com/ar/develop/anchors> · uso: respalda el Tema 5 «Anclas (anchors)»
 
 ## ⬅️ Clase anterior
 

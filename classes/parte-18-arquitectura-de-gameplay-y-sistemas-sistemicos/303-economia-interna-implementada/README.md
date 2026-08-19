@@ -369,11 +369,11 @@ Implementa el monedero con punto único de mutación e historial, precios deriva
 
 ## 🔗 Referencias
 
-- GDC Vault — charlas sobre diseño de economías virtuales, faucets y sinks: <https://www.gdcvault.com/>
-- Jesse Schell — *The Art of Game Design*, capítulo sobre economías: <https://www.schellgames.com/art-of-game-design/>
-- Godot Docs — Señales y `StringName`: <https://docs.godotengine.org/en/stable/classes/class_stringname.html>
-- Godot Docs — `FileAccess` y exportación de datos (CSV del historial): <https://docs.godotengine.org/en/stable/classes/class_fileaccess.html>
-- Vili Lehdonvirta & Edward Castronova — *Virtual Economies: Design and Analysis* (MIT Press): <https://mitpress.mit.edu/9780262027250/virtual-economies/>
+- GDC Vault — charlas sobre diseño de economías virtuales, faucets y sinks: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 3 «Fuentes (faucets)»
+- Jesse Schell — *The Art of Game Design*, capítulo sobre economías: <https://www.schellgames.com/art-of-game-design/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Señales y `StringName`: <https://docs.godotengine.org/en/4.3/classes/class_stringname.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `FileAccess` y exportación de datos (CSV del historial): <https://docs.godotengine.org/en/4.3/classes/class_fileaccess.html> · uso: respalda el Tema 9 «Historial de transacciones»
+- Vili Lehdonvirta & Edward Castronova — *Virtual Economies: Design and Analysis* (MIT Press): <https://mitpress.mit.edu/9780262027250/virtual-economies/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

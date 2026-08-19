@@ -10,7 +10,7 @@
 
 - Tomas Akenine-Möller, Eric Haines et al., *Real-Time Rendering* (4ª ed., CRC Press).
 - Patricio Gonzalez Vivo & Jen Lowe, *The Book of Shaders* — [gratis online](https://thebookofshaders.com/).
-- Documentación de [shaders de Godot 4](https://docs.godotengine.org/en/stable/tutorials/shaders/index.html).
+- Documentación de [shaders de Godot 4](https://docs.godotengine.org/en/4.3/tutorials/shaders/index.html).
 - *Physically Based Rendering* (Pharr, Jakob, Humphreys) — teoría de PBR.
 
 ---

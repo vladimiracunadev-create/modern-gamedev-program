@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x con el **Forward+** renderer activo (es el predeterminado y usa Vulkan). Trabajaremos en una escena 3D vacía, así que crea un proyecto nuevo o abre uno de práctica. Ten a mano el **Inspector** y el menú **Project → Project Settings → Rendering** para observar las opciones del backend. Para profundizar, consulta el capítulo de arquitectura de rendering en la [documentación oficial de Godot](https://docs.godotengine.org/en/stable/tutorials/shaders/introduction_to_shaders.html) y el resumen del pipeline en [Real-Time Rendering](https://www.realtimerendering.com/). No hace falta escribir shaders complejos aún: el objetivo es *ver* dónde encaja cada pieza.
+Necesitas Godot 4.x con el **Forward+** renderer activo (es el predeterminado y usa Vulkan). Trabajaremos en una escena 3D vacía, así que crea un proyecto nuevo o abre uno de práctica. Ten a mano el **Inspector** y el menú **Project → Project Settings → Rendering** para observar las opciones del backend. Para profundizar, consulta el capítulo de arquitectura de rendering en la [documentación oficial de Godot](https://docs.godotengine.org/en/4.3/tutorials/shaders/introduction_to_shaders.html) y el resumen del pipeline en [Real-Time Rendering](https://www.realtimerendering.com/). No hace falta escribir shaders complejos aún: el objetivo es *ver* dónde encaja cada pieza.
 
 ## 🧪 Laboratorio guiado
 
@@ -129,10 +129,10 @@ Generalmente reduce la carga de CPU, pero el equilibrio depende de tu escena. Lo
 
 ## 🔗 Referencias
 
-- [Introducción a los shaders — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/shaders/introduction_to_shaders.html)
-- [Métodos de renderizado en Godot 4](https://docs.godotengine.org/en/stable/tutorials/rendering/index.html)
-- [Real-Time Rendering — sitio oficial del libro](https://www.realtimerendering.com/)
-- [The Book of Shaders — capítulo introductorio](https://thebookofshaders.com/01/)
+- [Introducción a los shaders — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/shaders/introduction_to_shaders.html) · uso: se instala o se consulta en la preparación
+- [Métodos de renderizado en Godot 4](https://docs.godotengine.org/en/4.3/tutorials/rendering/index.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Real-Time Rendering — sitio oficial del libro](https://www.realtimerendering.com/) · uso: se instala o se consulta en la preparación
+- [The Book of Shaders — capítulo introductorio](https://thebookofshaders.com/01/) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

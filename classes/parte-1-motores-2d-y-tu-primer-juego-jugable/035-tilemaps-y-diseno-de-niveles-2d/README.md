@@ -46,7 +46,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot **4.3 o superior** (por `TileMapLayer`) y una imagen de tiles (tileset) — por ejemplo packs gratuitos de [Kenney](https://kenney.nl/assets) — con cuadrícula regular (16×16 o 32×32). Continúa el proyecto de plataformas con tu `Player`. Referencias: [Usar TileMaps](https://docs.godotengine.org/en/stable/tutorials/2d/using_tilemaps.html) y [Usar TileSets](https://docs.godotengine.org/en/stable/tutorials/2d/using_tilesets.html).
+Necesitas Godot **4.3 o superior** (por `TileMapLayer`) y una imagen de tiles (tileset) — por ejemplo packs gratuitos de [Kenney](https://kenney.nl/assets) — con cuadrícula regular (16×16 o 32×32). Continúa el proyecto de plataformas con tu `Player`. Referencias: [Usar TileMaps](https://docs.godotengine.org/en/4.3/tutorials/2d/using_tilemaps.html) y [Usar TileSets](https://docs.godotengine.org/en/4.3/tutorials/2d/using_tilesets.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -124,10 +124,10 @@ Construye un nivel jugable completo usando `TileMapLayer` y un `TileSet` con col
 
 ## 🔗 Referencias
 
-- [Usar TileMaps — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/2d/using_tilemaps.html)
-- [Usar TileSets — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/2d/using_tilesets.html)
-- [TileMapLayer — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_tilemaplayer.html)
-- [TileSet — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_tileset.html)
+- [Usar TileMaps — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/2d/using_tilemaps.html) · uso: se instala o se consulta en la preparación
+- [Usar TileSets — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/2d/using_tilesets.html) · uso: se instala o se consulta en la preparación
+- [TileMapLayer — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_tilemaplayer.html) · uso: respalda el Tema 4 «`TileMapLayer` (4.3+)»
+- [TileSet — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_tileset.html) · uso: respalda el Tema 1 «`TileSet` desde imagen»
 
 ## ⬅️ Clase anterior
 

@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Godot 4.x** y un juego propio de partes anteriores (o uno sencillo). Según la plataforma: para **Android**, el SDK/JDK configurados y un **keystore de release** (clase 208); para **Steam Deck**, la capacidad de probar a **1280×800** y, opcionalmente, **GodotSteam** (clase 212). Reutiliza los autoloads de glifos, guardado y certificación de las clases 211 y 210.
 
-Prepara una carpeta `entrega/` con tres documentos: `especificacion.md`, `checklist.md` y `definition_of_done.md`. Documentación clave: exportación en Godot <https://docs.godotengine.org/en/stable/tutorials/export/index.html>.
+Prepara una carpeta `entrega/` con tres documentos: `especificacion.md`, `checklist.md` y `definition_of_done.md`. Documentación clave: exportación en Godot <https://docs.godotengine.org/en/4.3/tutorials/export/index.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -140,10 +140,10 @@ Entrega un **build pulido y publicable** de tu juego para una plataforma objetiv
 
 ## 🔗 Referencias
 
-- Godot Docs — Exporting projects: <https://docs.godotengine.org/en/stable/tutorials/export/index.html>
-- Godot Docs — Exporting from the command line: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html#exporting-from-the-command-line>
-- Godot Docs — Multiple resolutions: <https://docs.godotengine.org/en/stable/tutorials/rendering/multiple_resolutions.html>
-- Godot Docs — The Profiler / Monitors: <https://docs.godotengine.org/en/stable/tutorials/scripting/debug/the_profiler.html>
+- Godot Docs — Exporting projects: <https://docs.godotengine.org/en/4.3/tutorials/export/index.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Exporting from the command line: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_projects.html#exporting-from-the-command-line> · uso: respalda el Tema 3 «Export correcto»
+- Godot Docs — Multiple resolutions: <https://docs.godotengine.org/en/4.3/tutorials/rendering/multiple_resolutions.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — The Profiler / Monitors: <https://docs.godotengine.org/en/4.3/tutorials/scripting/debug/the_profiler.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

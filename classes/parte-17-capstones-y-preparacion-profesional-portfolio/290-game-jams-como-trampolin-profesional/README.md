@@ -130,11 +130,11 @@ Las jams se arruinan casi siempre por lo mismo: scope imposible, arranque sin he
 
 Explora las jams principales y guías de post-mortem para preparar tu participación:
 
-- Global Game Jam — evento mundial por equipos: <https://globalgamejam.org/>
-- Ludum Dare — jam online con modo en solitario: <https://ldjam.com/>
-- itch.io — jams y publicación de builds: <https://itch.io/jams>
-- GDC Vault, charlas sobre game jams: <https://www.gdcvault.com/>
-- Guía "post-mortem" de desarrollo (Game Developer): <https://www.gamedeveloper.com/>
+- Global Game Jam — evento mundial por equipos: <https://globalgamejam.org/> · uso: se instala o se consulta en la preparación
+- Ludum Dare — jam online con modo en solitario: <https://ldjam.com/> · uso: se instala o se consulta en la preparación
+- itch.io — jams y publicación de builds: <https://itch.io/jams> · uso: se instala o se consulta en la preparación
+- GDC Vault, charlas sobre game jams: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 1 «Qué es una game jam»
+- Guía "post-mortem" de desarrollo (Game Developer): <https://www.gamedeveloper.com/> · uso: respalda el Tema 8 «Post-mortem»
 
 ## ⬅️ Clase anterior
 

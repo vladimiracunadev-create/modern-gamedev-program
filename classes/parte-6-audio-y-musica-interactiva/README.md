@@ -6,7 +6,7 @@
 
 **Fuentes de referencia de esta parte:**
 
-- Documentación de [audio de Godot 4](https://docs.godotengine.org/en/stable/tutorials/audio/index.html).
+- Documentación de [audio de Godot 4](https://docs.godotengine.org/en/4.3/tutorials/audio/index.html).
 - Documentación oficial de [FMOD](https://www.fmod.com/docs/) y [Wwise](https://www.audiokinetic.com/library/).
 - Karen Collins, *Game Sound* (MIT Press).
 - GDC talks sobre música adaptativa e implementación de audio interactivo.

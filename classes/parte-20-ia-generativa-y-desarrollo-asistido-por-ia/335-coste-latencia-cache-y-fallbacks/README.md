@@ -459,11 +459,11 @@ Implementa el control completo: modelo de coste con proyección, presupuestos po
 
 ## 🔗 Referencias
 
-- Google — *Site Reliability Engineering*, gestión de sobrecarga y degradación: <https://sre.google/books/>
-- Godot Docs — `String.sha256_text` (claves de caché): <https://docs.godotengine.org/en/stable/classes/class_string.html>
-- Godot Docs — `FileAccess` (caché en disco): <https://docs.godotengine.org/en/stable/classes/class_fileaccess.html>
-- Godot Docs — Señales y `await` (timeouts y asincronía): <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html>
-- OpenTelemetry — instrumentación de coste y latencia: <https://opentelemetry.io/docs/>
+- Google — *Site Reliability Engineering*, gestión de sobrecarga y degradación: <https://sre.google/books/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `String.sha256_text` (claves de caché): <https://docs.godotengine.org/en/4.3/classes/class_string.html> · uso: respalda el Tema 4 «Caché por clave normalizada»
+- Godot Docs — `FileAccess` (caché en disco): <https://docs.godotengine.org/en/4.3/classes/class_fileaccess.html> · uso: respalda el Tema 4 «Caché por clave normalizada»
+- Godot Docs — Señales y `await` (timeouts y asincronía): <https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_basics.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- OpenTelemetry — instrumentación de coste y latencia: <https://opentelemetry.io/docs/> · uso: respalda el Tema 1 «Modelo de coste»
 
 ## ⬅️ Clase anterior
 

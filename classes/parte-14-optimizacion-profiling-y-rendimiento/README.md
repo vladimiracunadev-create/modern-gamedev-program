@@ -7,7 +7,7 @@
 **Fuentes de referencia de esta parte:**
 
 - Jason Gregory, *Game Engine Architecture* — rendimiento y sistemas.
-- Documentación de [optimización de Godot 4](https://docs.godotengine.org/en/stable/tutorials/performance/index.html).
+- Documentación de [optimización de Godot 4](https://docs.godotengine.org/en/4.3/tutorials/performance/index.html).
 - *Real-Time Rendering* (Akenine-Möller et al.) — coste de GPU.
 - Documentación de [RenderDoc](https://renderdoc.org/docs/) y profilers nativos.
 

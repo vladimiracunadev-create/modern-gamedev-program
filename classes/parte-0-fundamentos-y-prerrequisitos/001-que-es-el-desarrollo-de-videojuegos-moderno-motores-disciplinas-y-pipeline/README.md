@@ -139,10 +139,10 @@ Entrega un documento `mapa-del-proyecto.md` que contenga: (a) tu tabla comparati
 
 ## 🔗 Referencias
 
-- Jason Gregory, *Game Engine Architecture*, 3rd ed. — <https://www.gameenginebook.com>
-- Documentación oficial de Godot — <https://docs.godotengine.org>
-- Unity Manual — <https://docs.unity3d.com/Manual/index.html>
-- Unreal Engine Documentation — <https://docs.unrealengine.com>
+- Jason Gregory, *Game Engine Architecture*, 3rd ed. — <https://www.gameenginebook.com> · uso: se instala o se consulta en la preparación
+- Documentación oficial de Godot — <https://docs.godotengine.org/en/4.3/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Unity Manual — <https://docs.unity3d.com/Manual/index.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Unreal Engine Documentation — <https://docs.unrealengine.com> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

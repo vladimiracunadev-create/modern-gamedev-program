@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Godot 4.x**, una cuenta de **Google Play Console** (pago único de registro) y/o una cuenta de **Apple Developer Program** (suscripción anual). Para Android se usa un plugin de PGS instalado en `res://addons/` que añade su `.gdap` y su AAR al export. Para iOS se usa un plugin equivalente de Game Center. Estos plugins los mantiene la comunidad; verifica siempre que la versión sea compatible con tu versión de Godot.
 
-Consulta la documentación oficial de servicios: PGS <https://developers.google.com/games/services> y Game Center <https://developer.apple.com/game-center/>. Para el flujo de plugins Android en Godot 4, revisa <https://docs.godotengine.org/en/stable/tutorials/platform/android/android_plugin.html>.
+Consulta la documentación oficial de servicios: PGS <https://developers.google.com/games/services> y Game Center <https://developer.apple.com/game-center/>. Para el flujo de plugins Android en Godot 4, revisa <https://docs.godotengine.org/en/4.3/tutorials/platform/android/android_plugin.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -142,10 +142,10 @@ Amplía el autoload `Social` para soportar **tres logros** (uno de desbloqueo y 
 
 ## 🔗 Referencias
 
-- Google Play Games Services: <https://developers.google.com/games/services>
-- Apple Game Center: <https://developer.apple.com/game-center/>
-- Godot Docs — Android plugins: <https://docs.godotengine.org/en/stable/tutorials/platform/android/android_plugin.html>
-- Diseño de logros (Play Console): <https://developer.android.com/games/pgs/achievements>
+- Google Play Games Services: <https://developers.google.com/games/services> · uso: se instala o se consulta en la preparación
+- Apple Game Center: <https://developer.apple.com/game-center/> · uso: se instala o se consulta en la preparación
+- Godot Docs — Android plugins: <https://docs.godotengine.org/en/4.3/tutorials/platform/android/android_plugin.html> · uso: se instala o se consulta en la preparación
+- Diseño de logros (Play Console): <https://developer.android.com/games/pgs/achievements> · uso: respalda el Tema 4 «Diseño de logros»
 
 ## ⬅️ Clase anterior
 

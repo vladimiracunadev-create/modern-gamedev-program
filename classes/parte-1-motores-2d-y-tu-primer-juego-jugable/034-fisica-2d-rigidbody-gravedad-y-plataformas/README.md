@@ -46,7 +46,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Continúa el proyecto de plataformas con tu `Player` y las capas de colisión ya nombradas (clase 033). Necesitarás añadir cajas y plataformas al nivel. Referencias: [RigidBody2D](https://docs.godotengine.org/en/stable/classes/class_rigidbody2d.html), [AnimatableBody2D](https://docs.godotengine.org/en/stable/classes/class_animatablebody2d.html) y la [introducción a la física 2D](https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html).
+Continúa el proyecto de plataformas con tu `Player` y las capas de colisión ya nombradas (clase 033). Necesitarás añadir cajas y plataformas al nivel. Referencias: [RigidBody2D](https://docs.godotengine.org/en/4.3/classes/class_rigidbody2d.html), [AnimatableBody2D](https://docs.godotengine.org/en/4.3/classes/class_animatablebody2d.html) y la [introducción a la física 2D](https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -163,10 +163,10 @@ Amplía el nivel con: al menos dos cajas `RigidBody2D` (con masa y material) que
 
 ## 🔗 Referencias
 
-- [RigidBody2D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_rigidbody2d.html)
-- [AnimatableBody2D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_animatablebody2d.html)
-- [Introducción a la física 2D — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html)
-- [PhysicsMaterial — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_physicsmaterial.html)
+- [RigidBody2D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_rigidbody2d.html) · uso: se instala o se consulta en la preparación
+- [AnimatableBody2D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_animatablebody2d.html) · uso: se instala o se consulta en la preparación
+- [Introducción a la física 2D — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html) · uso: se instala o se consulta en la preparación
+- [PhysicsMaterial — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_physicsmaterial.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

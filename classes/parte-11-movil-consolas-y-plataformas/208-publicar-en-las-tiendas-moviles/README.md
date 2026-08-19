@@ -51,7 +51,7 @@ Al finalizar, el alumno podrá:
 
 Para Android necesitas **Godot 4.x**, el **Android SDK/JDK** configurados en el editor (Editor Settings → Export → Android) y un **keystore de release** propio generado con `keytool`. Para iOS necesitas un **Mac con Xcode** y una cuenta del **Apple Developer Program**. Ten preparadas las capturas en las resoluciones que exige cada tienda y un icono de alta resolución.
 
-Documentación oficial: exportar a Android en Godot <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_android.html>, publicar en Play Console <https://support.google.com/googleplay/android-developer> y App Store Connect <https://developer.apple.com/help/app-store-connect/>.
+Documentación oficial: exportar a Android en Godot <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_for_android.html>, publicar en Play Console <https://support.google.com/googleplay/android-developer> y App Store Connect <https://developer.apple.com/help/app-store-connect/>.
 
 ## 🧪 Laboratorio guiado
 
@@ -130,10 +130,10 @@ Prepara el paquete y la ficha completos de un juego para subir a **Play Console*
 
 ## 🔗 Referencias
 
-- Godot Docs — Exportar para Android: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_android.html>
-- Ayuda de Play Console: <https://support.google.com/googleplay/android-developer>
-- App Store Connect (ayuda): <https://developer.apple.com/help/app-store-connect/>
-- Godot Docs — Exportar para iOS: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_ios.html>
+- Godot Docs — Exportar para Android: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_for_android.html> · uso: se instala o se consulta en la preparación
+- Ayuda de Play Console: <https://support.google.com/googleplay/android-developer> · uso: se instala o se consulta en la preparación
+- App Store Connect (ayuda): <https://developer.apple.com/help/app-store-connect/> · uso: se instala o se consulta en la preparación
+- Godot Docs — Exportar para iOS: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_for_ios.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

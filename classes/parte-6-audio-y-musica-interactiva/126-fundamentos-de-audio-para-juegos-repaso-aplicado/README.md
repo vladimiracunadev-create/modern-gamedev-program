@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x (idealmente 4.3 o superior) y dos archivos de audio de dominio libre: un efecto corto en formato **WAV** (por ejemplo, un "click", un salto o una moneda) y una pieza de música en **OGG** pensada para repetirse en bucle. Puedes obtenerlos en [freesound.org](https://freesound.org/) o en la biblioteca de [Kenney](https://kenney.nl/assets?q=audio). Crea un proyecto nuevo, arrastra ambos archivos a una carpeta `audio/` dentro del proyecto y ten a la vista el panel *Import* (pestaña junto a *Scene*). Repasa la [documentación de audio de Godot 4](https://docs.godotengine.org/en/stable/tutorials/audio/index.html) y la [referencia de AudioStreamPlayer](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html).
+Necesitas Godot 4.x (idealmente 4.3 o superior) y dos archivos de audio de dominio libre: un efecto corto en formato **WAV** (por ejemplo, un "click", un salto o una moneda) y una pieza de música en **OGG** pensada para repetirse en bucle. Puedes obtenerlos en [freesound.org](https://freesound.org/) o en la biblioteca de [Kenney](https://kenney.nl/assets?q=audio). Crea un proyecto nuevo, arrastra ambos archivos a una carpeta `audio/` dentro del proyecto y ten a la vista el panel *Import* (pestaña junto a *Scene*). Repasa la [documentación de audio de Godot 4](https://docs.godotengine.org/en/4.3/tutorials/audio/index.html) y la [referencia de AudioStreamPlayer](https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -131,10 +131,10 @@ Godot 4 soporta MP3, pero OGG Vorbis suele dar mejor relación calidad/peso y bu
 
 ## 🔗 Referencias
 
-- [Audio en Godot 4 — documentación oficial](https://docs.godotengine.org/en/stable/tutorials/audio/index.html)
-- [AudioStreamPlayer — referencia de clase](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html)
-- [Importar audio en Godot](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_audio_samples.html)
-- [Freesound — biblioteca de sonidos libres](https://freesound.org/)
+- [Audio en Godot 4 — documentación oficial](https://docs.godotengine.org/en/4.3/tutorials/audio/index.html) · uso: se instala o se consulta en la preparación
+- [AudioStreamPlayer — referencia de clase](https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer.html) · uso: se instala o se consulta en la preparación
+- [Importar audio en Godot](https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_audio_samples.html) · uso: respalda el Tema 5 «Latencia y buffer de audio»
+- [Freesound — biblioteca de sonidos libres](https://freesound.org/) · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

@@ -416,11 +416,11 @@ Implementa progresión y árbol con **al menos 12 nodos** en tres ramas, prerreq
 
 ## 🔗 Referencias
 
-- Jesse Schell — *The Art of Game Design*, capítulos sobre curvas de interés y recompensa: <https://www.schellgames.com/art-of-game-design/>
-- Godot Docs — `JSON` y datos de juego: <https://docs.godotengine.org/en/stable/classes/class_json.html>
-- Godot Docs — Señales: <https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html>
-- GDC Vault — charlas sobre diseño de progresión, gating y metaprogresión: <https://www.gdcvault.com/>
-- Wikipedia — Grafo dirigido acíclico (la estructura correcta de un skill tree): <https://en.wikipedia.org/wiki/Directed_acyclic_graph>
+- Jesse Schell — *The Art of Game Design*, capítulos sobre curvas de interés y recompensa: <https://www.schellgames.com/art-of-game-design/> · uso: respalda el Tema 1 «XP y curvas»
+- Godot Docs — `JSON` y datos de juego: <https://docs.godotengine.org/en/4.3/classes/class_json.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Señales: <https://docs.godotengine.org/en/4.3/getting_started/step_by_step/signals.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas sobre diseño de progresión, gating y metaprogresión: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 9 «Metaprogresión»
+- Wikipedia — Grafo dirigido acíclico (la estructura correcta de un skill tree): <https://en.wikipedia.org/wiki/Directed_acyclic_graph> · uso: respalda el Tema 5 «Grafo acíclico»
 
 ## ⬅️ Clase anterior
 

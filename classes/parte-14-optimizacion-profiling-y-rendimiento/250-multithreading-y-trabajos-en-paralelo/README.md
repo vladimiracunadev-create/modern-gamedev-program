@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usa Godot 4.x. Prepara dos escenarios: (a) un cálculo pesado puro —por ejemplo, generar un `ImageTexture` de ruido grande o sumar un array enorme— y (b) la carga de una escena o recurso pesado. Consulta las guías de hilos (<https://docs.godotengine.org/en/stable/tutorials/performance/using_multiple_threads.html>) y de background loading (<https://docs.godotengine.org/en/stable/tutorials/io/background_loading.html>).
+Usa Godot 4.x. Prepara dos escenarios: (a) un cálculo pesado puro —por ejemplo, generar un `ImageTexture` de ruido grande o sumar un array enorme— y (b) la carga de una escena o recurso pesado. Consulta las guías de hilos (<https://docs.godotengine.org/en/4.3/tutorials/performance/using_multiple_threads.html>) y de background loading (<https://docs.godotengine.org/en/4.3/tutorials/io/background_loading.html>).
 
 Regla de oro que repetirás en cada laboratorio: **el resultado que produce un hilo secundario se entrega al hilo principal, y solo el hilo principal toca la escena**. Ten un `Label` con un contador o una animación simple girando en pantalla: si sigue moviéndose durante el cálculo, sabes que no bloqueaste el frame.
 
@@ -179,10 +179,10 @@ Toma una operación que congela el frame (generación procedural pesada o carga 
 
 ## 🔗 Referencias
 
-- Godot Docs — Using multiple threads: <https://docs.godotengine.org/en/stable/tutorials/performance/using_multiple_threads.html>
-- Godot Docs — Thread-safe APIs: <https://docs.godotengine.org/en/stable/tutorials/performance/thread_safe_apis.html>
-- Godot Docs — Background loading: <https://docs.godotengine.org/en/stable/tutorials/io/background_loading.html>
-- Godot Docs — WorkerThreadPool: <https://docs.godotengine.org/en/stable/classes/class_workerthreadpool.html>
+- Godot Docs — Using multiple threads: <https://docs.godotengine.org/en/4.3/tutorials/performance/using_multiple_threads.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Thread-safe APIs: <https://docs.godotengine.org/en/4.3/tutorials/performance/thread_safe_apis.html> · uso: respalda el Tema 3 «Clase Thread»
+- Godot Docs — Background loading: <https://docs.godotengine.org/en/4.3/tutorials/io/background_loading.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — WorkerThreadPool: <https://docs.godotengine.org/en/4.3/classes/class_workerthreadpool.html> · uso: respalda el Tema 2 «WorkerThreadPool»
 
 ## ⬅️ Clase anterior
 

@@ -141,10 +141,10 @@ Y si el slice incluye combate, inventario, habilidades o quests, el capstone de 
 
 ## 🔗 Referencias
 
-- GDC — producción y *cutting scope*: <https://www.youtube.com/user/gdconf>
-- Trello — tableros Kanban gratuitos: <https://trello.com/>
-- GitHub — Issues y Projects para planificar: <https://github.com/features/issues>
-- Godot Docs — best practices: <https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html>
+- GDC — producción y *cutting scope*: <https://www.youtube.com/@GDC> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Trello — tableros Kanban gratuitos: <https://trello.com/> · uso: se instala o se consulta en la preparación
+- GitHub — Issues y Projects para planificar: <https://github.com/features/issues> · uso: se instala o se consulta en la preparación
+- Godot Docs — best practices: <https://docs.godotengine.org/en/4.3/tutorials/best_practices/index.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

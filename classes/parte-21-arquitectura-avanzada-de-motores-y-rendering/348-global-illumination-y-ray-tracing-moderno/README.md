@@ -63,7 +63,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Godot 4.x con sus tres sistemas de GI: `LightmapGI` (horneado), `VoxelGI` (dinámica, interiores) y `SDFGI` (dinámica, exteriores grandes), más `ReflectionProbe` y SSAO/SSIL. Trabajaremos en `res://gi/` con una escena de comparación. Necesitas GPU para la parte visual; los cálculos de armónicos esféricos y el análisis de coste se pueden verificar sin ella. Documentación: [iluminación global en Godot](https://docs.godotengine.org/en/stable/tutorials/3d/global_illumination/index.html).
+Godot 4.x con sus tres sistemas de GI: `LightmapGI` (horneado), `VoxelGI` (dinámica, interiores) y `SDFGI` (dinámica, exteriores grandes), más `ReflectionProbe` y SSAO/SSIL. Trabajaremos en `res://gi/` con una escena de comparación. Necesitas GPU para la parte visual; los cálculos de armónicos esféricos y el análisis de coste se pueden verificar sin ella. Documentación: [iluminación global en Godot](https://docs.godotengine.org/en/4.3/tutorials/3d/global_illumination/index.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -373,12 +373,12 @@ Construye una escena de comparación de técnicas de iluminación global con **a
 
 ## 🔗 Referencias
 
-- Akenine-Möller, Haines & Hoffman — *Real-Time Rendering*, capítulo de iluminación global: <https://www.realtimerendering.com/>
-- Pharr, Jakob & Humphreys — *Physically Based Rendering* (libro completo en abierto): <https://www.pbr-book.org/>
-- Godot Docs — Iluminación global (LightmapGI, VoxelGI, SDFGI): <https://docs.godotengine.org/en/stable/tutorials/3d/global_illumination/index.html>
-- Godot Docs — `LightmapGI` y horneado: <https://docs.godotengine.org/en/stable/tutorials/3d/global_illumination/using_lightmap_gi.html>
-- Ramamoorthi & Hanrahan — *An Efficient Representation for Irradiance Environment Maps* (armónicos esféricos): <https://cseweb.ucsd.edu/~ravir/papers/envmap/>
-- NVIDIA — Ray Tracing Gems (volúmenes en abierto): <https://www.realtimerendering.com/raytracinggems/>
+- Akenine-Möller, Haines & Hoffman — *Real-Time Rendering*, capítulo de iluminación global: <https://www.realtimerendering.com/> · uso: respalda el Tema 2 «La ecuación del rendering»
+- Pharr, Jakob & Humphreys — *Physically Based Rendering* (libro completo en abierto): <https://www.pbr-book.org/> · uso: respalda el Tema 2 «La ecuación del rendering»
+- Godot Docs — Iluminación global (LightmapGI, VoxelGI, SDFGI): <https://docs.godotengine.org/en/4.3/tutorials/3d/global_illumination/index.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `LightmapGI` y horneado: <https://docs.godotengine.org/en/4.3/tutorials/3d/global_illumination/using_lightmap_gi.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Ramamoorthi & Hanrahan — *An Efficient Representation for Irradiance Environment Maps* (armónicos esféricos): <https://cseweb.ucsd.edu/~ravir/papers/envmap/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- NVIDIA — Ray Tracing Gems (volúmenes en abierto): <https://www.realtimerendering.com/raytracinggems/> · uso: respalda el Tema 7 «Ray tracing por hardware»
 
 ## ⬅️ Clase anterior
 

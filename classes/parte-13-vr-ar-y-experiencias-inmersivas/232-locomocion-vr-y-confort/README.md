@@ -188,10 +188,10 @@ Implementa un sistema de locomoción por teleport con arco proyectado y validaci
 
 ## 🔗 Referencias
 
-- Godot Docs — XR: <https://docs.godotengine.org/en/stable/tutorials/xr/index.html>
-- Meta — VR comfort y locomotion: <https://developers.meta.com/horizon/resources/>
-- godot-xr-tools — Locomotion: <https://github.com/GodotVR/godot-xr-tools>
-- Godot Docs — PhysicsDirectSpaceState3D: <https://docs.godotengine.org/en/stable/classes/class_physicsdirectspacestate3d.html>
+- Godot Docs — XR: <https://docs.godotengine.org/en/4.3/tutorials/xr/index.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Meta — VR comfort y locomotion: <https://developers.meta.com/horizon/resources/> · uso: se instala o se consulta en la preparación
+- godot-xr-tools — Locomotion: <https://github.com/GodotVR/godot-xr-tools> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — PhysicsDirectSpaceState3D: <https://docs.godotengine.org/en/4.3/classes/class_physicsdirectspacestate3d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

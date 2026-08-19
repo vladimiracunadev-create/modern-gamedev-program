@@ -178,10 +178,10 @@ Crea un programa que gestione hasta 5 entidades enemigas usando `std::unique_ptr
 
 ## 🔗 Referencias
 
-- Jason Gregory, *Game Engine Architecture*, 3ª ed., capítulos de fundamentos de C++ y gestión de memoria.
-- cppreference, "Smart pointers": <https://en.cppreference.com/book/intro/smart_pointers>
-- cppreference, `std::unique_ptr`: <https://en.cppreference.com/w/cpp/memory/unique_ptr>
-- ISO C++ Core Guidelines, gestión de recursos (RAII): <https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-resource>
+- Jason Gregory, *Game Engine Architecture*, 3ª ed., capítulos de fundamentos de C++ y gestión de memoria. · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- cppreference, "Smart pointers": <https://en.cppreference.com/w/cpp/memory> · uso: respalda el Tema 7 «Smart pointers y RAII»
+- cppreference, `std::unique_ptr`: <https://en.cppreference.com/w/cpp/memory/unique_ptr> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- ISO C++ Core Guidelines, gestión de recursos (RAII): <https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-resource> · uso: respalda el Tema 7 «Smart pointers y RAII»
 
 ## ⬅️ Clase anterior
 

@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usarás **Godot 4** (<https://godotengine.org/>), que emplea su propio lenguaje de shaders llamado **Godot Shading Language** (archivos `.gdshader`), con sintaxis muy parecida a GLSL. No necesitas instalar nada extra: el editor de shaders está integrado. La referencia teórica es *Real-Time Rendering* de Akenine-Möller, Haines y Hoffman (<https://www.realtimerendering.com/>). Para profundizar en la sintaxis de shaders de Godot consulta su documentación (<https://docs.godotengine.org/en/stable/tutorials/shaders/index.html>). El recurso interactivo *The Book of Shaders* (<https://thebookofshaders.com/>) ayuda a visualizar el trabajo del fragment shader.
+Usarás **Godot 4** (<https://godotengine.org/>), que emplea su propio lenguaje de shaders llamado **Godot Shading Language** (archivos `.gdshader`), con sintaxis muy parecida a GLSL. No necesitas instalar nada extra: el editor de shaders está integrado. La referencia teórica es *Real-Time Rendering* de Akenine-Möller, Haines y Hoffman (<https://www.realtimerendering.com/>). Para profundizar en la sintaxis de shaders de Godot consulta su documentación (<https://docs.godotengine.org/en/4.3/tutorials/shaders/index.html>). El recurso interactivo *The Book of Shaders* (<https://thebookofshaders.com/>) ayuda a visualizar el trabajo del fragment shader.
 
 ## 🧪 Laboratorio guiado
 
@@ -137,11 +137,11 @@ Crea una escena con un `ColorRect` cuyo `ShaderMaterial` genere un degradado dia
 
 ## 🔗 Referencias
 
-- Real-Time Rendering (sitio oficial): <https://www.realtimerendering.com/>
-- Godot — Shaders (documentación): <https://docs.godotengine.org/en/stable/tutorials/shaders/index.html>
-- Godot — Your first canvas_item shader: <https://docs.godotengine.org/en/stable/tutorials/shaders/your_first_shader/your_first_2d_shader.html>
-- The Book of Shaders: <https://thebookofshaders.com/>
-- Khronos — The Graphics Pipeline: <https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview>
+- Real-Time Rendering (sitio oficial): <https://www.realtimerendering.com/> · uso: se instala o se consulta en la preparación
+- Godot — Shaders (documentación): <https://docs.godotengine.org/en/4.3/tutorials/shaders/index.html> · uso: se instala o se consulta en la preparación
+- Godot — Your first canvas_item shader: <https://docs.godotengine.org/en/4.3/tutorials/shaders/your_first_shader/your_first_2d_shader.html> · uso: respalda el Tema 5 «Shaders»
+- The Book of Shaders: <https://thebookofshaders.com/> · uso: se instala o se consulta en la preparación
+- Khronos — The Graphics Pipeline: <https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview> · uso: respalda el Tema 1 «Etapas del pipeline»
 
 ## ⬅️ Clase anterior
 

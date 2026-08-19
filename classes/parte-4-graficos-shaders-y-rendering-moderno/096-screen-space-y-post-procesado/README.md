@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usa **Godot 4.x**. Sobre cualquier escena jugable (2D o 3D con una escena de fondo visible), añade un `CanvasLayer` y, dentro, un `ColorRect`. En el inspector del `ColorRect`, pon el Layout en **Full Rect** para que cubra la pantalla, y asígnale un `ShaderMaterial`. Consulta [Screen-reading shaders](https://docs.godotengine.org/en/stable/tutorials/shaders/screen-reading_shaders.html) y [Custom post-processing](https://docs.godotengine.org/en/stable/tutorials/shaders/custom_postprocessing.html). Lo observable: toda la pantalla se tiñe y ondula como bajo el agua.
+Usa **Godot 4.x**. Sobre cualquier escena jugable (2D o 3D con una escena de fondo visible), añade un `CanvasLayer` y, dentro, un `ColorRect`. En el inspector del `ColorRect`, pon el Layout en **Full Rect** para que cubra la pantalla, y asígnale un `ShaderMaterial`. Consulta [Screen-reading shaders](https://docs.godotengine.org/en/4.3/tutorials/shaders/screen-reading_shaders.html) y [Custom post-processing](https://docs.godotengine.org/en/4.3/tutorials/shaders/custom_postprocessing.html). Lo observable: toda la pantalla se tiñe y ondula como bajo el agua.
 
 ## 🧪 Laboratorio guiado
 
@@ -145,9 +145,9 @@ Crea un post-proceso de "confusión" que combine un tinte morado, una distorsió
 
 ## 🔗 Referencias
 
-1. Godot Engine — Screen-reading shaders: <https://docs.godotengine.org/en/stable/tutorials/shaders/screen-reading_shaders.html>
-2. Godot Engine — Custom post-processing: <https://docs.godotengine.org/en/stable/tutorials/shaders/custom_postprocessing.html>
-3. Godot Engine — Canvas item shaders: <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/canvas_item_shader.html>
+1. Godot Engine — Screen-reading shaders: <https://docs.godotengine.org/en/4.3/tutorials/shaders/screen-reading_shaders.html> · uso: se instala o se consulta en la preparación
+2. Godot Engine — Custom post-processing: <https://docs.godotengine.org/en/4.3/tutorials/shaders/custom_postprocessing.html> · uso: se instala o se consulta en la preparación
+3. Godot Engine — Canvas item shaders: <https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/canvas_item_shader.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

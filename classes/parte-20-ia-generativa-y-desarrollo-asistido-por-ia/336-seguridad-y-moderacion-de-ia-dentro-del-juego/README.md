@@ -477,11 +477,11 @@ Implementa la defensa en profundidad completa: saneado con acotación y detecci�
 
 ## 🔗 Referencias
 
-- OWASP — Top 10 for Large Language Model Applications: <https://owasp.org/www-project-top-10-for-large-language-model-applications/>
-- OWASP — Prompt Injection (descripción del riesgo LLM01): <https://genai.owasp.org/llmrisk/llm01-prompt-injection/>
-- OWASP — Input Validation Cheat Sheet: <https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html>
-- Godot Docs — `RegEx`: <https://docs.godotengine.org/en/stable/classes/class_regex.html>
-- NIST — AI Risk Management Framework: <https://www.nist.gov/itl/ai-risk-management-framework>
+- OWASP — Top 10 for Large Language Model Applications: <https://owasp.org/www-project-top-10-for-large-language-model-applications/> · uso: se instala o se consulta en la preparación
+- OWASP — Prompt Injection (descripción del riesgo LLM01): <https://genai.owasp.org/llmrisk/llm01-prompt-injection/> · uso: respalda el Tema 2 «Prompt injection»
+- OWASP — Input Validation Cheat Sheet: <https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `RegEx`: <https://docs.godotengine.org/en/4.3/classes/class_regex.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- NIST — AI Risk Management Framework: <https://www.nist.gov/itl/ai-risk-management-framework> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

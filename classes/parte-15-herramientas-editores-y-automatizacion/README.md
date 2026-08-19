@@ -6,7 +6,7 @@
 
 **Fuentes de referencia de esta parte:**
 
-- Documentación de [plugins de editor de Godot 4](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/index.html).
+- Documentación de [plugins de editor de Godot 4](https://docs.godotengine.org/en/4.3/tutorials/plugins/editor/index.html).
 - Bryan Bycroft & varios, charlas de GDC sobre *tools programming*.
 - Documentación de [GUT (Godot Unit Test)](https://github.com/bitwes/Gut).
 - Documentación de [GitHub Actions](https://docs.github.com/actions) para CI de juegos.

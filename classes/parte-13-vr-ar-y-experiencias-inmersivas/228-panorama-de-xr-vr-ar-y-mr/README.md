@@ -54,7 +54,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Esta clase es conceptual, así que no necesitas escribir código todavía, pero sí tener el marco correcto. Ten a mano la documentación de **XR en Godot 4** (<https://docs.godotengine.org/en/stable/tutorials/xr/index.html>) y la **OpenXR Overview** de Khronos (<https://www.khronos.org/openxr/>). Si dispones de un visor (Meta Quest, por ejemplo) o un móvil con soporte AR, tenerlo cerca ayuda a intuir las diferencias.
+Esta clase es conceptual, así que no necesitas escribir código todavía, pero sí tener el marco correcto. Ten a mano la documentación de **XR en Godot 4** (<https://docs.godotengine.org/en/4.3/tutorials/xr/index.html>) y la **OpenXR Overview** de Khronos (<https://www.khronos.org/openxr/>). Si dispones de un visor (Meta Quest, por ejemplo) o un móvil con soporte AR, tenerlo cerca ayuda a intuir las diferencias.
 
 Prepara una plantilla de decisión sencilla (una tabla) donde para cada idea anotes: nivel de inmersión deseado, movilidad del usuario, necesidad de ver el entorno real, precisión de tracking requerida y presupuesto de hardware. Esa tabla será tu entregable del laboratorio.
 
@@ -128,12 +128,12 @@ Toma una idea de experiencia inmersiva (propia o asignada) y produce un document
 
 ## 🔗 Referencias
 
-- Khronos — OpenXR Overview: <https://www.khronos.org/openxr/>
-- Godot Docs — XR: <https://docs.godotengine.org/en/stable/tutorials/xr/index.html>
-- Meta — VR comfort y best practices: <https://developers.meta.com/horizon/resources/>
-- Godot Docs — Introducing XR: <https://docs.godotengine.org/en/stable/tutorials/xr/introducing_xr_tools.html>
-- Khronos — What is OpenXR (whitepaper): <https://www.khronos.org/files/openxr-10-reference-guide.pdf>
-- Godot Docs — XR tools y simulador: <https://github.com/GodotVR/godot-xr-tools>
+- Khronos — OpenXR Overview: <https://www.khronos.org/openxr/> · uso: se instala o se consulta en la preparación
+- Godot Docs — XR: <https://docs.godotengine.org/en/4.3/tutorials/xr/index.html> · uso: se instala o se consulta en la preparación
+- Meta — VR comfort y best practices: <https://developers.meta.com/horizon/resources/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Introducing XR: <https://docs.godotengine.org/en/4.3/tutorials/xr/introducing_xr_tools.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Khronos — What is OpenXR (whitepaper): <https://www.khronos.org/files/openxr-10-reference-guide.pdf> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — XR tools y simulador: <https://github.com/GodotVR/godot-xr-tools> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

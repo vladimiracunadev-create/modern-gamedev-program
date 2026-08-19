@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usa **Godot 4.x** con una escena que tenga suelo y varios objetos con relieve (esferas, cajas, una rampa) para apreciar las sombras. Conviene tener un `WorldEnvironment` con luz ambiental baja para que las sombras sean visibles. Consulta la guía de luces y sombras en <https://docs.godotengine.org/en/stable/tutorials/3d/lights_and_shadows.html> y la API de `Light3D` en <https://docs.godotengine.org/en/stable/classes/class_light3d.html>. Motor: <https://godotengine.org/download>.
+Usa **Godot 4.x** con una escena que tenga suelo y varios objetos con relieve (esferas, cajas, una rampa) para apreciar las sombras. Conviene tener un `WorldEnvironment` con luz ambiental baja para que las sombras sean visibles. Consulta la guía de luces y sombras en <https://docs.godotengine.org/en/4.3/tutorials/3d/lights_and_shadows.html> y la API de `Light3D` en <https://docs.godotengine.org/en/4.3/classes/class_light3d.html>. Motor: <https://godotengine.org/download>.
 
 ## 🧪 Laboratorio guiado
 
@@ -132,9 +132,9 @@ Ilumina una habitación cerrada (cuatro paredes y suelo) usando un `OmniLight3D`
 
 ## 🔗 Referencias
 
-- Lights and shadows: <https://docs.godotengine.org/en/stable/tutorials/3d/lights_and_shadows.html>
-- Light3D — API oficial: <https://docs.godotengine.org/en/stable/classes/class_light3d.html>
-- DirectionalLight3D: <https://docs.godotengine.org/en/stable/classes/class_directionallight3d.html>
+- Lights and shadows: <https://docs.godotengine.org/en/4.3/tutorials/3d/lights_and_shadows.html> · uso: se instala o se consulta en la preparación
+- Light3D — API oficial: <https://docs.godotengine.org/en/4.3/classes/class_light3d.html> · uso: se instala o se consulta en la preparación
+- DirectionalLight3D: <https://docs.godotengine.org/en/4.3/classes/class_directionallight3d.html> · uso: respalda el Tema 1 «DirectionalLight3D»
 
 ## ⬅️ Clase anterior
 

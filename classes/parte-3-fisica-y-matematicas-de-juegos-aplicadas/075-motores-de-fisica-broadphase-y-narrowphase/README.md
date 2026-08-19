@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Este laboratorio es de **matemática pura en Python** (no requiere Godot): así aíslas el algoritmo del motor y ves los números. Necesitas Python 3.10+ y, opcionalmente, `matplotlib` para graficar. La idea trasladada a Godot es que su motor (Godot Physics / Jolt) hace esto por ti; conocerlo te ayuda a diagnosticar caídas de rendimiento cuando hay demasiados cuerpos. Lee el capítulo de broadphase de Ericson y el resumen de Godot sobre rendimiento físico. Consulta: <https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html>.
+Este laboratorio es de **matemática pura en Python** (no requiere Godot): así aíslas el algoritmo del motor y ves los números. Necesitas Python 3.10+ y, opcionalmente, `matplotlib` para graficar. La idea trasladada a Godot es que su motor (Godot Physics / Jolt) hace esto por ti; conocerlo te ayuda a diagnosticar caídas de rendimiento cuando hay demasiados cuerpos. Lee el capítulo de broadphase de Ericson y el resumen de Godot sobre rendimiento físico. Consulta: <https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -159,10 +159,10 @@ Extiende el laboratorio para que, además de contar pares, ejecute la narrowphas
 
 ## 🔗 Referencias
 
-- Christer Ericson, *Real-Time Collision Detection*, cap. 7 (broadphase, grids, sweep-and-prune).
-- Ian Millington, *Game Physics Engine Development*, parte de detección de colisiones.
-- Godot Docs — Physics introduction: <https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html>
-- Erin Catto, *Box2D* (documentación técnica sobre solvers e islas): <https://box2d.org/documentation/>
+- Christer Ericson, *Real-Time Collision Detection*, cap. 7 (broadphase, grids, sweep-and-prune). · uso: respalda el Tema 4 «Sweep-and-prune»
+- Ian Millington, *Game Physics Engine Development*, parte de detección de colisiones. · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Physics introduction: <https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html> · uso: se instala o se consulta en la preparación
+- Erin Catto, *Box2D* (documentación técnica sobre solvers e islas): <https://box2d.org/documentation/> · uso: respalda el Tema 7 «Solver e islas»
 
 ## ⬅️ Clase anterior
 

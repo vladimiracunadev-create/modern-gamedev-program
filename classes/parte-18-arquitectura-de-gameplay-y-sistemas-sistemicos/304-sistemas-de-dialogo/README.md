@@ -59,7 +59,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas el inventario (295) para condiciones de objetos y, opcionalmente, la progresión (302). Trabajaremos en `res://dominio/dialogo/` y `res://datos/dialogos/*.json`. Para la localización, revisa la [documentación de internacionalización de Godot](https://docs.godotengine.org/en/stable/tutorials/i18n/internationalizing_games.html) y el lab de UI accesible de la Parte 10, que ya usa CSV de traducciones.
+Necesitas el inventario (295) para condiciones de objetos y, opcionalmente, la progresión (302). Trabajaremos en `res://dominio/dialogo/` y `res://datos/dialogos/*.json`. Para la localización, revisa la [documentación de internacionalización de Godot](https://docs.godotengine.org/en/4.3/tutorials/i18n/internationalizing_games.html) y el lab de UI accesible de la Parte 10, que ya usa CSV de traducciones.
 
 ## 🧪 Laboratorio guiado
 
@@ -433,11 +433,11 @@ Implementa el sistema completo y escribe una conversación de **al menos 15 nodo
 
 ## 🔗 Referencias
 
-- Godot Docs — Internacionalización de juegos: <https://docs.godotengine.org/en/stable/tutorials/i18n/internationalizing_games.html>
-- Godot Docs — `JSON` y `Callable`: <https://docs.godotengine.org/en/stable/classes/class_callable.html>
-- Yarn Spinner — herramienta de diálogo de referencia en la industria: <https://www.yarnspinner.dev/>
-- Inkle — Ink, lenguaje de narrativa ramificada: <https://www.inklestudios.com/ink/>
-- GDC Vault — charlas sobre herramientas narrativas y diálogo ramificado: <https://www.gdcvault.com/>
+- Godot Docs — Internacionalización de juegos: <https://docs.godotengine.org/en/4.3/tutorials/i18n/internationalizing_games.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `JSON` y `Callable`: <https://docs.godotengine.org/en/4.3/classes/class_callable.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Yarn Spinner — herramienta de diálogo de referencia en la industria: <https://www.yarnspinner.dev/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Inkle — Ink, lenguaje de narrativa ramificada: <https://www.inklestudios.com/ink/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas sobre herramientas narrativas y diálogo ramificado: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

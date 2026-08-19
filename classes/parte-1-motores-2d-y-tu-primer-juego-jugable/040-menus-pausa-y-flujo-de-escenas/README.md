@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Trabaja en `PlataformasCurso` con tu nivel jugable (`escenas/nivel.tscn`) y el `GameState` de la clase 039. Define una acción `pausa` en **Project Settings > Input Map** (por ejemplo la tecla `Esc`). Repasa la guía de UI de Godot (<https://docs.godotengine.org/en/stable/tutorials/ui/index.html>), el manejo de pausa (<https://docs.godotengine.org/en/stable/tutorials/scripting/pausing_games.html>) y `change_scene_to_file` en `SceneTree` (<https://docs.godotengine.org/en/stable/classes/class_scenetree.html>).
+Trabaja en `PlataformasCurso` con tu nivel jugable (`escenas/nivel.tscn`) y el `GameState` de la clase 039. Define una acción `pausa` en **Project Settings > Input Map** (por ejemplo la tecla `Esc`). Repasa la guía de UI de Godot (<https://docs.godotengine.org/en/4.3/tutorials/ui/index.html>), el manejo de pausa (<https://docs.godotengine.org/en/4.3/tutorials/scripting/pausing_games.html>) y `change_scene_to_file` en `SceneTree` (<https://docs.godotengine.org/en/4.3/classes/class_scenetree.html>).
 
 Ten a mano las rutas exactas de tus escenas (`res://escenas/menu.tscn`, `res://escenas/nivel.tscn`, etc.); un error de ruta es el fallo más frecuente al cambiar de escena.
 
@@ -170,10 +170,10 @@ Implementa un menú de opciones accesible desde el menú principal y desde la pa
 
 ## 🔗 Referencias
 
-- Godot — Pausing games: <https://docs.godotengine.org/en/stable/tutorials/scripting/pausing_games.html>
-- Godot — SceneTree (change_scene_to_file): <https://docs.godotengine.org/en/stable/classes/class_scenetree.html>
-- Godot — UI building blocks: <https://docs.godotengine.org/en/stable/tutorials/ui/index.html>
-- Godot — Button: <https://docs.godotengine.org/en/stable/classes/class_button.html>
+- Godot — Pausing games: <https://docs.godotengine.org/en/4.3/tutorials/scripting/pausing_games.html> · uso: se instala o se consulta en la preparación
+- Godot — SceneTree (change_scene_to_file): <https://docs.godotengine.org/en/4.3/classes/class_scenetree.html> · uso: se instala o se consulta en la preparación
+- Godot — UI building blocks: <https://docs.godotengine.org/en/4.3/tutorials/ui/index.html> · uso: se instala o se consulta en la preparación
+- Godot — Button: <https://docs.godotengine.org/en/4.3/classes/class_button.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

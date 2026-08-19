@@ -377,11 +377,11 @@ Implementa el sistema de comandos con simulación de paso fijo, grabación, repr
 
 ## 🔗 Referencias
 
-- Robert Nystrom — *Game Programming Patterns*, Command: <https://gameprogrammingpatterns.com/command.html>
-- Robert Nystrom — *Game Programming Patterns*, Game Loop y paso fijo: <https://gameprogrammingpatterns.com/game-loop.html>
-- Godot Docs — `RandomNumberGenerator`: <https://docs.godotengine.org/en/stable/classes/class_randomnumbergenerator.html>
-- Godot Docs — `_physics_process` y paso fijo: <https://docs.godotengine.org/en/stable/tutorials/scripting/idle_and_physics_processing.html>
-- GDC Vault — charlas sobre replays deterministas, rollback y testing automatizado: <https://www.gdcvault.com/>
+- Robert Nystrom — *Game Programming Patterns*, Command: <https://gameprogrammingpatterns.com/command.html> · uso: respalda el Tema 1 «Patrón Command»
+- Robert Nystrom — *Game Programming Patterns*, Game Loop y paso fijo: <https://gameprogrammingpatterns.com/game-loop.html> · uso: respalda el Tema 2 «Tick fijo»
+- Godot Docs — `RandomNumberGenerator`: <https://docs.godotengine.org/en/4.3/classes/class_randomnumbergenerator.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `_physics_process` y paso fijo: <https://docs.godotengine.org/en/4.3/tutorials/scripting/idle_and_physics_processing.html> · uso: respalda el Tema 2 «Tick fijo»
+- GDC Vault — charlas sobre replays deterministas, rollback y testing automatizado: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

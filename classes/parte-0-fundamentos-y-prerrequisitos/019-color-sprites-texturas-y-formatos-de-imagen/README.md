@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usarás **Godot 4** (<https://godotengine.org/>) y una imagen PNG de prueba (puede ser una spritesheet de pixel art de dominio público, por ejemplo de <https://kenney.nl/assets> o <https://opengameart.org/>). Para crear o editar sprites puedes usar Krita (<https://krita.org/>) o Aseprite (<https://www.aseprite.org/>). La referencia sobre formatos son las especificaciones oficiales de PNG (<https://www.w3.org/TR/png/>) y WebP (<https://developers.google.com/speed/webp>). Para el pipeline de importación consulta la documentación de Godot sobre importación de imágenes (<https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>) y sobre `AtlasTexture` (<https://docs.godotengine.org/en/stable/classes/class_atlastexture.html>).
+Usarás **Godot 4** (<https://godotengine.org/>) y una imagen PNG de prueba (puede ser una spritesheet de pixel art de dominio público, por ejemplo de <https://kenney.nl/assets> o <https://opengameart.org/>). Para crear o editar sprites puedes usar Krita (<https://krita.org/>) o Aseprite (<https://www.aseprite.org/>). La referencia sobre formatos son las especificaciones oficiales de PNG (<https://www.w3.org/TR/png/>) y WebP (<https://developers.google.com/speed/webp>). Para el pipeline de importación consulta la documentación de Godot sobre importación de imágenes (<https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_images.html>) y sobre `AtlasTexture` (<https://docs.godotengine.org/en/4.3/classes/class_atlastexture.html>).
 
 ## 🧪 Laboratorio guiado
 
@@ -137,11 +137,11 @@ A partir de una spritesheet de pixel art, muestra en pantalla al menos cuatro fo
 
 ## 🔗 Referencias
 
-- Especificación PNG (W3C): <https://www.w3.org/TR/png/>
-- WebP (Google Developers): <https://developers.google.com/speed/webp>
-- Godot — Importing images: <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>
-- Godot — AtlasTexture (clase): <https://docs.godotengine.org/en/stable/classes/class_atlastexture.html>
-- Kenney — Assets libres: <https://kenney.nl/assets>
+- Especificación PNG (W3C): <https://www.w3.org/TR/png/> · uso: se instala o se consulta en la preparación
+- WebP (Google Developers): <https://developers.google.com/speed/webp> · uso: se instala o se consulta en la preparación
+- Godot — Importing images: <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_images.html> · uso: se instala o se consulta en la preparación
+- Godot — AtlasTexture (clase): <https://docs.godotengine.org/en/4.3/classes/class_atlastexture.html> · uso: se instala o se consulta en la preparación
+- Kenney — Assets libres: <https://kenney.nl/assets> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

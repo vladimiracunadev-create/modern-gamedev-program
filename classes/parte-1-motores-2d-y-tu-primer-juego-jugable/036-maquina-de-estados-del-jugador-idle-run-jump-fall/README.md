@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Continúa con el proyecto `PlataformasCurso` de clases anteriores. Necesitas la escena `Jugador` (un `CharacterBody2D` con `AnimatedSprite2D` y `CollisionShape2D`) y las acciones de input `mover_izquierda`, `mover_derecha` y `saltar` definidas en **Project Settings > Input Map**. Ten a mano la referencia de `CharacterBody2D` (<https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html>) y la guía sobre `match` en GDScript (<https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html#match>).
+Continúa con el proyecto `PlataformasCurso` de clases anteriores. Necesitas la escena `Jugador` (un `CharacterBody2D` con `AnimatedSprite2D` y `CollisionShape2D`) y las acciones de input `mover_izquierda`, `mover_derecha` y `saltar` definidas en **Project Settings > Input Map**. Ten a mano la referencia de `CharacterBody2D` (<https://docs.godotengine.org/en/4.3/classes/class_characterbody2d.html>) y la guía sobre `match` en GDScript (<https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_basics.html#match>).
 
 Si tu `AnimatedSprite2D` aún no tiene las animaciones `idle`, `run`, `jump` y `fall`, créalas en el editor de **SpriteFrames**; pueden ser de un solo cuadro por ahora.
 
@@ -191,10 +191,10 @@ Amplía la FSM con un estado `DASH` que impulse al jugador horizontalmente a alt
 
 ## 🔗 Referencias
 
-- Godot — CharacterBody2D: <https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html>
-- Godot — GDScript `match` y `enum`: <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html>
-- Godot — Finite State Machine (comunidad): <https://docs.godotengine.org/en/stable/tutorials/scripting/index.html>
-- Godot — AnimatedSprite2D: <https://docs.godotengine.org/en/stable/classes/class_animatedsprite2d.html>
+- Godot — CharacterBody2D: <https://docs.godotengine.org/en/4.3/classes/class_characterbody2d.html> · uso: se instala o se consulta en la preparación
+- Godot — GDScript `match` y `enum`: <https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_basics.html> · uso: se instala o se consulta en la preparación
+- Godot — Finite State Machine (comunidad): <https://docs.godotengine.org/en/4.3/tutorials/scripting/index.html> · uso: respalda el Tema 2 «Patrón State aplicado al jugador»
+- Godot — AnimatedSprite2D: <https://docs.godotengine.org/en/4.3/classes/class_animatedsprite2d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -434,11 +434,11 @@ Implementa el arnés de evaluación completo: suite de **al menos 25 escenarios*
 
 ## 🔗 Referencias
 
-- Google — *Site Reliability Engineering*, métricas, SLI y SLO: <https://sre.google/books/>
-- NIST — AI Risk Management Framework (evaluación y medición): <https://www.nist.gov/itl/ai-risk-management-framework>
-- OWASP — Top 10 for LLM Applications (qué evaluar en seguridad): <https://owasp.org/www-project-top-10-for-large-language-model-applications/>
-- Godot Docs — Command line tutorial (`--script` con argumentos): <https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html>
-- Wikipedia — Kappa de Cohen (medida de acuerdo entre evaluadores): <https://en.wikipedia.org/wiki/Cohen%27s_kappa>
+- Google — *Site Reliability Engineering*, métricas, SLI y SLO: <https://sre.google/books/> · uso: respalda el Tema 3 «Métricas automatizables»
+- NIST — AI Risk Management Framework (evaluación y medición): <https://www.nist.gov/itl/ai-risk-management-framework> · uso: respalda el Tema 8 «Evaluación humana»
+- OWASP — Top 10 for LLM Applications (qué evaluar en seguridad): <https://owasp.org/www-project-top-10-for-large-language-model-applications/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Command line tutorial (`--script` con argumentos): <https://docs.godotengine.org/en/4.3/tutorials/editor/command_line_tutorial.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Wikipedia — Kappa de Cohen (medida de acuerdo entre evaluadores): <https://en.wikipedia.org/wiki/Cohen%27s_kappa> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

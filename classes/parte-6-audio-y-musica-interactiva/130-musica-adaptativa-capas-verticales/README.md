@@ -43,7 +43,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas tres stems del mismo tema, **exactamente igual de largos y al mismo tempo**, exportados como OGG en bucle: por ejemplo `base.ogg` (colchón/armonía), `perc.ogg` (percusión) y `tension.ogg` (cuerdas o sintetizador agudo). Si no compones, muchos packs de música de juego incluyen stems por separado; búscalos en [OpenGameArt](https://opengameart.org/) o genera versiones sencillas quitando pistas en un editor. Colócalos en `audio/musica/`. Repasa la [referencia de AudioStreamPlayer](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html) y la API de [Tween](https://docs.godotengine.org/en/stable/classes/class_tween.html). Este sistema conviene ponerlo en un **autoload** para que la música persista entre escenas.
+Necesitas tres stems del mismo tema, **exactamente igual de largos y al mismo tempo**, exportados como OGG en bucle: por ejemplo `base.ogg` (colchón/armonía), `perc.ogg` (percusión) y `tension.ogg` (cuerdas o sintetizador agudo). Si no compones, muchos packs de música de juego incluyen stems por separado; búscalos en [OpenGameArt](https://opengameart.org/) o genera versiones sencillas quitando pistas en un editor. Colócalos en `audio/musica/`. Repasa la [referencia de AudioStreamPlayer](https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer.html) y la API de [Tween](https://docs.godotengine.org/en/4.3/classes/class_tween.html). Este sistema conviene ponerlo en un **autoload** para que la música persista entre escenas.
 
 ## 🧪 Laboratorio guiado
 
@@ -152,10 +152,10 @@ Suele ir mejor suavizada. Interpolar la propia variable de tensión (además del
 
 ## 🔗 Referencias
 
-- [AudioStreamPlayer — referencia de clase](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html)
-- [AudioStreamSynchronized — referencia de clase](https://docs.godotengine.org/en/stable/classes/class_audiostreamsynchronized.html)
-- [Tween — referencia de clase](https://docs.godotengine.org/en/stable/classes/class_tween.html)
-- [GDC — Vertical layering en música de juegos](https://www.gdcvault.com/)
+- [AudioStreamPlayer — referencia de clase](https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer.html) · uso: se instala o se consulta en la preparación
+- [AudioStreamSynchronized — referencia de clase](https://docs.godotengine.org/en/4.3/classes/class_audiostreamsynchronized.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Tween — referencia de clase](https://docs.godotengine.org/en/4.3/classes/class_tween.html) · uso: se instala o se consulta en la preparación
+- [GDC — Vertical layering en música de juegos](https://www.gdcvault.com/) — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 3 «Layering vertical»
 
 ## ⬅️ Clase anterior
 

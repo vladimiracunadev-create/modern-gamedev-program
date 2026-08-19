@@ -461,11 +461,11 @@ Implementa el sistema con **al menos seis quests** formando dos cadenas, que cub
 
 ## 🔗 Referencias
 
-- Robert Nystrom — *Game Programming Patterns*, Observer: <https://gameprogrammingpatterns.com/observer.html>
-- Godot Docs — Señales personalizadas y `Callable`: <https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html>
-- Godot Docs — `JSON`: <https://docs.godotengine.org/en/stable/classes/class_json.html>
-- GDC Vault — charlas sobre herramientas de misiones y diseño de contenido: <https://www.gdcvault.com/>
-- Jason Gregory — *Game Engine Architecture*: <https://www.gameenginebook.com/>
+- Robert Nystrom — *Game Programming Patterns*, Observer: <https://gameprogrammingpatterns.com/observer.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Señales personalizadas y `Callable`: <https://docs.godotengine.org/en/4.3/getting_started/step_by_step/signals.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `JSON`: <https://docs.godotengine.org/en/4.3/classes/class_json.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas sobre herramientas de misiones y diseño de contenido: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 9 «Fallo de misiones»
+- Jason Gregory — *Game Engine Architecture*: <https://www.gameenginebook.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

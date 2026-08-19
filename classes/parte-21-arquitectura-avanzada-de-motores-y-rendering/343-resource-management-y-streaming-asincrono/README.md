@@ -62,7 +62,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Godot 4.x con [`ResourceLoader.load_threaded_request`](https://docs.godotengine.org/en/stable/classes/class_resourceloader.html) y `load_threaded_get_status`, que es la API de carga asíncrona del motor. Trabajaremos en `res://recursos/`. Ten a mano la clase [251](../../parte-14-optimizacion-profiling-y-rendimiento/251-tiempos-de-carga-y-arranque/README.md) sobre tiempos de carga y la [248](../../parte-14-optimizacion-profiling-y-rendimiento/248-culling-lod-y-streaming-de-mundo/README.md) sobre streaming de mundo.
+Godot 4.x con [`ResourceLoader.load_threaded_request`](https://docs.godotengine.org/en/4.3/classes/class_resourceloader.html) y `load_threaded_get_status`, que es la API de carga asíncrona del motor. Trabajaremos en `res://recursos/`. Ten a mano la clase [251](../../parte-14-optimizacion-profiling-y-rendimiento/251-tiempos-de-carga-y-arranque/README.md) sobre tiempos de carga y la [248](../../parte-14-optimizacion-profiling-y-rendimiento/248-culling-lod-y-streaming-de-mundo/README.md) sobre streaming de mundo.
 
 ## 🧪 Laboratorio guiado
 
@@ -457,11 +457,11 @@ Implementa el gestor de recursos completo: handles con contado de referencias, g
 
 ## 🔗 Referencias
 
-- Godot Docs — `ResourceLoader` y carga en hilo: <https://docs.godotengine.org/en/stable/classes/class_resourceloader.html>
-- Godot Docs — Carga en segundo plano: <https://docs.godotengine.org/en/stable/tutorials/io/background_loading.html>
-- Jason Gregory — *Game Engine Architecture*, capítulo de gestión de recursos: <https://www.gameenginebook.com/>
-- Godot Docs — `Resource` y contado de referencias: <https://docs.godotengine.org/en/stable/classes/class_resource.html>
-- Akenine-Möller et al. — *Real-Time Rendering*, capítulo de LOD y streaming: <https://www.realtimerendering.com/>
+- Godot Docs — `ResourceLoader` y carga en hilo: <https://docs.godotengine.org/en/4.3/classes/class_resourceloader.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Carga en segundo plano: <https://docs.godotengine.org/en/4.3/tutorials/io/background_loading.html> · uso: respalda el Tema 4 «Carga asíncrona»
+- Jason Gregory — *Game Engine Architecture*, capítulo de gestión de recursos: <https://www.gameenginebook.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `Resource` y contado de referencias: <https://docs.godotengine.org/en/4.3/classes/class_resource.html> · uso: respalda el Tema 2 «Contado de referencias»
+- Akenine-Möller et al. — *Real-Time Rendering*, capítulo de LOD y streaming: <https://www.realtimerendering.com/> · uso: respalda el Tema 6 «Streaming por proximidad»
 
 ## ⬅️ Clase anterior
 

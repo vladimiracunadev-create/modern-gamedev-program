@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.2 o superior. Crea una escena 3D con un `CharacterBody3D` (el personaje), un piso de `StaticBody3D` con huecos y algunas paredes. Activa **Debug → Visible Collision Shapes** para ver los rayos dibujados en tiempo de ejecución; es la herramienta más útil de esta clase porque los rayos mal orientados se detectan a simple vista. Repasa la documentación oficial de *Ray-casting* y la de `ShapeCast3D`. Consulta: <https://docs.godotengine.org/en/stable/tutorials/physics/ray-casting.html> y <https://docs.godotengine.org/en/stable/classes/class_shapecast3d.html>.
+Necesitas Godot 4.2 o superior. Crea una escena 3D con un `CharacterBody3D` (el personaje), un piso de `StaticBody3D` con huecos y algunas paredes. Activa **Debug → Visible Collision Shapes** para ver los rayos dibujados en tiempo de ejecución; es la herramienta más útil de esta clase porque los rayos mal orientados se detectan a simple vista. Repasa la documentación oficial de *Ray-casting* y la de `ShapeCast3D`. Consulta: <https://docs.godotengine.org/en/4.3/tutorials/physics/ray-casting.html> y <https://docs.godotengine.org/en/4.3/classes/class_shapecast3d.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -150,10 +150,10 @@ Construye un enemigo patrullero que (a) recorra una plataforma sin caerse gracia
 
 ## 🔗 Referencias
 
-- Godot Docs — Ray-casting: <https://docs.godotengine.org/en/stable/tutorials/physics/ray-casting.html>
-- Godot Docs — ShapeCast3D: <https://docs.godotengine.org/en/stable/classes/class_shapecast3d.html>
-- Godot Docs — PhysicsDirectSpaceState3D: <https://docs.godotengine.org/en/stable/classes/class_physicsdirectspacestate3d.html>
-- Christer Ericson, *Real-Time Collision Detection*, cap. 5 (pruebas de intersección de rayos).
+- Godot Docs — Ray-casting: <https://docs.godotengine.org/en/4.3/tutorials/physics/ray-casting.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — ShapeCast3D: <https://docs.godotengine.org/en/4.3/classes/class_shapecast3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — PhysicsDirectSpaceState3D: <https://docs.godotengine.org/en/4.3/classes/class_physicsdirectspacestate3d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Christer Ericson, *Real-Time Collision Detection*, cap. 5 (pruebas de intersección de rayos). · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

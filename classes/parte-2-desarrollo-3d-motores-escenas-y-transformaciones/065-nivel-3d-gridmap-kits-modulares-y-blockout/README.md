@@ -46,7 +46,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x desde <https://godotengine.org/download>. Las guías clave son "Using GridMaps" en <https://docs.godotengine.org/en/stable/tutorials/3d/using_gridmaps.html> y "Prototyping levels with CSG" en <https://docs.godotengine.org/en/stable/tutorials/3d/csg_tools.html>. Para exportar la librería revisa la sección de creación de `MeshLibrary` en la misma guía de GridMaps. Trabajaremos con cajas y mallas primitivas: el objetivo es el flujo, no el modelado.
+Necesitas Godot 4.x desde <https://godotengine.org/download>. Las guías clave son "Using GridMaps" en <https://docs.godotengine.org/en/4.3/tutorials/3d/using_gridmaps.html> y "Prototyping levels with CSG" en <https://docs.godotengine.org/en/4.3/tutorials/3d/csg_tools.html>. Para exportar la librería revisa la sección de creación de `MeshLibrary` en la misma guía de GridMaps. Trabajaremos con cajas y mallas primitivas: el objetivo es el flujo, no el modelado.
 
 ## 🧪 Laboratorio guiado
 
@@ -143,10 +143,10 @@ Diseña una sala jugable en **dos pasadas**: primero un blockout completo con CS
 
 ## 🔗 Referencias
 
-- Godot Docs — Using GridMaps: <https://docs.godotengine.org/en/stable/tutorials/3d/using_gridmaps.html>
-- Godot Docs — Prototyping levels with CSG: <https://docs.godotengine.org/en/stable/tutorials/3d/csg_tools.html>
-- Godot Docs — Clase GridMap: <https://docs.godotengine.org/en/stable/classes/class_gridmap.html>
-- Godot Docs — Clase MeshLibrary: <https://docs.godotengine.org/en/stable/classes/class_meshlibrary.html>
+- Godot Docs — Using GridMaps: <https://docs.godotengine.org/en/4.3/tutorials/3d/using_gridmaps.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Prototyping levels with CSG: <https://docs.godotengine.org/en/4.3/tutorials/3d/csg_tools.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Clase GridMap: <https://docs.godotengine.org/en/4.3/classes/class_gridmap.html> · uso: respalda el Tema 5 «GridMap»
+- Godot Docs — Clase MeshLibrary: <https://docs.godotengine.org/en/4.3/classes/class_meshlibrary.html> · uso: respalda el Tema 4 «MeshLibrary»
 
 ## ⬅️ Clase anterior
 

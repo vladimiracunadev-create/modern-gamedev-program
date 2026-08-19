@@ -139,10 +139,10 @@ La hoja de cálculo es donde se balancea; el juego es donde se comprueba. La Par
 
 ## 🔗 Referencias
 
-- Ian Schreiber — Game Balance Concepts (curso completo): <https://gamebalanceconcepts.wordpress.com>
-- Jesse Schell — The Art of Game Design (capítulo de balanceo): <https://www.schellgames.com/art-of-game-design>
-- GDC Vault — spreadsheets y balancing: <https://www.gdcvault.com>
-- Google Sheets — funciones y fórmulas: <https://support.google.com/docs/table/25273>
+- Ian Schreiber — Game Balance Concepts (curso completo): <https://gamebalanceconcepts.wordpress.com> · uso: se instala o se consulta en la preparación
+- Jesse Schell — The Art of Game Design (capítulo de balanceo): <https://www.schellgames.com/art-of-game-design> · uso: respalda el Tema 1 «Balanceo como problema numérico»
+- GDC Vault — spreadsheets y balancing: <https://www.gdcvault.com> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Google Sheets — funciones y fórmulas: <https://support.google.com/docs/table/25273> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

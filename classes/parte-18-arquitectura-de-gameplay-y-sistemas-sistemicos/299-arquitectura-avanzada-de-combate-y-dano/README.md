@@ -60,7 +60,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas `Salud` (clase 293), `Stats` (clase 296) y `Efectos` (clase 298). Trabajaremos en `res://dominio/combate/` para el cálculo y en `res://gameplay/combate/` para las áreas de colisión. Configura tres capas de física: `Hurtbox jugador`, `Hurtbox enemigo`, `Hitbox`, de forma que una hitbox de jugador solo detecte hurtboxes de enemigo. Documentación: [`Area2D`](https://docs.godotengine.org/en/stable/classes/class_area2d.html) y [capas y máscaras de colisión](https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html).
+Necesitas `Salud` (clase 293), `Stats` (clase 296) y `Efectos` (clase 298). Trabajaremos en `res://dominio/combate/` para el cálculo y en `res://gameplay/combate/` para las áreas de colisión. Configura tres capas de física: `Hurtbox jugador`, `Hurtbox enemigo`, `Hitbox`, de forma que una hitbox de jugador solo detecte hurtboxes de enemigo. Documentación: [`Area2D`](https://docs.godotengine.org/en/4.3/classes/class_area2d.html) y [capas y máscaras de colisión](https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -367,11 +367,11 @@ Implementa el pipeline completo con **hitbox y hurtbox separadas**, tipos de da�
 
 ## 🔗 Referencias
 
-- Godot Docs — `Area2D`: <https://docs.godotengine.org/en/stable/classes/class_area2d.html>
-- Godot Docs — Introducción a la física y capas de colisión: <https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html>
-- Godot Docs — `RandomNumberGenerator` (semillas y determinismo): <https://docs.godotengine.org/en/stable/classes/class_randomnumbergenerator.html>
-- Jason Gregory — *Game Engine Architecture*: <https://www.gameenginebook.com/>
-- GDC Vault — charlas sobre game feel, hit detection y diseño de combate: <https://www.gdcvault.com/>
+- Godot Docs — `Area2D`: <https://docs.godotengine.org/en/4.3/classes/class_area2d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Introducción a la física y capas de colisión: <https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `RandomNumberGenerator` (semillas y determinismo): <https://docs.godotengine.org/en/4.3/classes/class_randomnumbergenerator.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Jason Gregory — *Game Engine Architecture*: <https://www.gameenginebook.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas sobre game feel, hit detection y diseño de combate: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

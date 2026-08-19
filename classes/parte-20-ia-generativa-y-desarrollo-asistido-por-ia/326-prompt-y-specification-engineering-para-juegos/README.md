@@ -304,11 +304,11 @@ Entrega una biblioteca de prompts en `docs/prompts/` con **al menos cinco prompt
 
 ## 🔗 Referencias
 
-- OWASP — Top 10 for LLM Applications (riesgos al procesar salidas): <https://owasp.org/www-project-top-10-for-large-language-model-applications/>
-- JSON Schema — especificación de esquemas para validar salidas: <https://json-schema.org/>
-- Godot Docs — `JSON` (parseo y validación en el motor): <https://docs.godotengine.org/en/stable/classes/class_json.html>
-- IEEE — prácticas de especificación de requisitos de software (fundamento de la plantilla): <https://standards.ieee.org/>
-- GDC Vault — charlas sobre flujos de trabajo asistidos en producción: <https://www.gdcvault.com/>
+- OWASP — Top 10 for LLM Applications (riesgos al procesar salidas): <https://owasp.org/www-project-top-10-for-large-language-model-applications/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- JSON Schema — especificación de esquemas para validar salidas: <https://json-schema.org/> · uso: respalda el Tema 1 «Especificación vs prompt»
+- Godot Docs — `JSON` (parseo y validación en el motor): <https://docs.godotengine.org/en/4.3/classes/class_json.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- IEEE — prácticas de especificación de requisitos de software (fundamento de la plantilla): <https://standards.ieee.org/> · uso: respalda el Tema 1 «Especificación vs prompt»
+- GDC Vault — charlas sobre flujos de trabajo asistidos en producción: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

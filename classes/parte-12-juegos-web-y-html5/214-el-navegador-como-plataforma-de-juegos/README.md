@@ -148,10 +148,10 @@ Crea una página que dibuje una "bandera" compuesta por al menos tres rectángul
 
 ## 🔗 Referencias
 
-- MDN — Canvas API: <https://developer.mozilla.org/es/docs/Web/API/Canvas_API>
-- MDN — WebAssembly: <https://developer.mozilla.org/es/docs/WebAssembly>
-- MDN — Anatomía de un videojuego (bucle): <https://developer.mozilla.org/es/docs/Games/Anatomy>
-- itch.io — Publicar juegos HTML5: <https://itch.io/docs/creators/html5>
+- MDN — Canvas API: <https://developer.mozilla.org/es/docs/Web/API/Canvas_API> · uso: se instala o se consulta en la preparación
+- MDN — WebAssembly: <https://developer.mozilla.org/es/docs/WebAssembly> · uso: respalda el Tema 6 «WebAssembly»
+- MDN — Anatomía de un videojuego (bucle): <https://developer.mozilla.org/es/docs/Games/Anatomy> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- itch.io — Publicar juegos HTML5: <https://itch.io/docs/creators/html5> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -129,11 +129,11 @@ Produce un asset orgánico completo: un modelo **alto** esculpido, una malla **b
 
 ## 🔗 Referencias
 
-- Blender Manual — Sculpting: <https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/index.html>
-- Blender Manual — Retopology tools: <https://docs.blender.org/manual/en/latest/modeling/meshes/retopology.html>
-- Blender Manual — Bake (Cycles): <https://docs.blender.org/manual/en/latest/render/cycles/baking.html>
-- Blender Manual — Normal Map node: <https://docs.blender.org/manual/en/latest/render/shader_nodes/vector/normal_map.html>
-- Blender Manual — Dynamic Topology: <https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/dyntopo.html>
+- Blender Manual — Sculpting: <https://docs.blender.org/manual/en/4.2/sculpt_paint/sculpting/index.html> · uso: respalda el Tema 1 «Modo Sculpt y pinceles»
+- Blender Manual — Retopology tools: <https://docs.blender.org/manual/en/4.2/modeling/meshes/retopology.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Blender Manual — Bake (Cycles): <https://docs.blender.org/manual/en/4.2/render/cycles/baking.html> · uso: respalda el Tema 7 «Baking de normales (cage/ray distance)»
+- Blender Manual — Normal Map node: <https://docs.blender.org/manual/en/4.2/render/shader_nodes/vector/normal_map.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Blender Manual — Dynamic Topology: <https://docs.blender.org/manual/en/4.2/sculpt_paint/sculpting/tool_settings/dyntopo.html> · uso: respalda el Tema 2 «Dynamic Topology (Dyntopo)»
 
 ## ⬅️ Clase anterior
 

@@ -62,7 +62,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Godot 4.x con [`WorkerThreadPool`](https://docs.godotengine.org/en/stable/classes/class_workerthreadpool.html), que es exactamente un job system: pool de workers, `add_task`, `add_group_task` y esperas por identificador. Trabajaremos en `res://jobs/`. Ten a mano la clase [250](../../parte-14-optimizacion-profiling-y-rendimiento/250-multithreading-y-trabajos-en-paralelo/README.md) y, sobre todo, la [308](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/308-commands-input-recording-y-replays/README.md): el determinismo que allí se exigía es lo que aquí hay que preservar.
+Godot 4.x con [`WorkerThreadPool`](https://docs.godotengine.org/en/4.3/classes/class_workerthreadpool.html), que es exactamente un job system: pool de workers, `add_task`, `add_group_task` y esperas por identificador. Trabajaremos en `res://jobs/`. Ten a mano la clase [250](../../parte-14-optimizacion-profiling-y-rendimiento/250-multithreading-y-trabajos-en-paralelo/README.md) y, sobre todo, la [308](../../parte-18-arquitectura-de-gameplay-y-sistemas-sistemicos/308-commands-input-recording-y-replays/README.md): el determinismo que allí se exigía es lo que aquí hay que preservar.
 
 ## 🧪 Laboratorio guiado
 
@@ -436,11 +436,11 @@ Implementa un job system sobre `WorkerThreadPool` con: paralelismo de datos con 
 
 ## 🔗 Referencias
 
-- Godot Docs — `WorkerThreadPool`: <https://docs.godotengine.org/en/stable/classes/class_workerthreadpool.html>
-- Godot Docs — Uso de hilos: <https://docs.godotengine.org/en/stable/tutorials/performance/using_multiple_threads.html>
-- Jason Gregory — *Game Engine Architecture*, capítulo de concurrencia: <https://www.gameenginebook.com/>
-- Intel — Guía sobre falso compartido: <https://www.intel.com/content/www/us/en/developer/articles/technical/avoiding-and-identifying-false-sharing-among-threads.html>
-- Blumofe & Leiserson — *Scheduling Multithreaded Computations by Work Stealing*: <https://dl.acm.org/doi/10.1145/324133.324234>
+- Godot Docs — `WorkerThreadPool`: <https://docs.godotengine.org/en/4.3/classes/class_workerthreadpool.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Uso de hilos: <https://docs.godotengine.org/en/4.3/tutorials/performance/using_multiple_threads.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Jason Gregory — *Game Engine Architecture*, capítulo de concurrencia: <https://www.gameenginebook.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Intel — Guía sobre falso compartido: <https://www.intel.com/content/www/us/en/developer/articles/technical/avoiding-and-identifying-false-sharing-among-threads.html> · uso: respalda el Tema 8 «Falso compartido»
+- Blumofe & Leiserson — *Scheduling Multithreaded Computations by Work Stealing*: <https://dl.acm.org/doi/10.1145/324133.324234> · uso: respalda el Tema 9 «Work stealing»
 
 ## ⬅️ Clase anterior
 

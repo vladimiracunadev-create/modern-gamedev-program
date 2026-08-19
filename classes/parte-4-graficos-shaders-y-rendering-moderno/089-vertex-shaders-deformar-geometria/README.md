@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x con renderer **Forward+**. Usaremos un `PlaneMesh` **subdividido** (muchos vértices) porque un plano de 4 esquinas no puede curvarse. Ten a mano el Inspector para ajustar **Subdivide Width/Depth** de la malla y los uniforms del material. Como referencia, revisa los built-ins de vertex en la [documentación del shader spatial](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/spatial_shader.html) y la lógica de ondas en [The Book of Shaders](https://thebookofshaders.com/05/).
+Necesitas Godot 4.x con renderer **Forward+**. Usaremos un `PlaneMesh` **subdividido** (muchos vértices) porque un plano de 4 esquinas no puede curvarse. Ten a mano el Inspector para ajustar **Subdivide Width/Depth** de la malla y los uniforms del material. Como referencia, revisa los built-ins de vertex en la [documentación del shader spatial](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/spatial_shader.html) y la lógica de ondas en [The Book of Shaders](https://thebookofshaders.com/05/).
 
 ## 🧪 Laboratorio guiado
 
@@ -135,10 +135,10 @@ Exactamente. El patrón de desplazar más los vértices altos (las hojas) que lo
 
 ## 🔗 Referencias
 
-- [Shader spatial: built-ins de vertex — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/spatial_shader.html)
-- [Tutorial de shaders de Godot: vertex processing](https://docs.godotengine.org/en/stable/tutorials/shaders/your_first_shader/your_first_3d_shader.html)
-- [The Book of Shaders — funciones de forma y ondas](https://thebookofshaders.com/05/)
-- [The Book of Shaders — algoritmos de patrones](https://thebookofshaders.com/09/)
+- [Shader spatial: built-ins de vertex — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/spatial_shader.html) · uso: se instala o se consulta en la preparación
+- [Tutorial de shaders de Godot: vertex processing](https://docs.godotengine.org/en/4.3/tutorials/shaders/your_first_shader/your_first_3d_shader.html) · uso: respalda el Tema 1 «La función `vertex()`»
+- [The Book of Shaders — funciones de forma y ondas](https://thebookofshaders.com/05/) · uso: se instala o se consulta en la preparación
+- [The Book of Shaders — algoritmos de patrones](https://thebookofshaders.com/09/) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

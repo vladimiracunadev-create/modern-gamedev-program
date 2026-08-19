@@ -130,11 +130,11 @@ Las dudas más habituales al llegar a la meta giran en torno a dónde publicar y
 
 Apóyate en estas plataformas y guías para publicar y dar a conocer tu juego:
 
-- itch.io — publicar juegos y builds: <https://itch.io/>
-- Steamworks — publicación en Steam: <https://partner.steamgames.com/>
-- GDC Vault, charlas sobre lanzamiento y marketing: <https://www.gdcvault.com/>
-- Jason Schreier, Blood, Sweat, and Pixels: <https://www.jasonschreier.com/>
-- Guía de lanzamiento indie (Game Developer): <https://www.gamedeveloper.com/>
+- itch.io — publicar juegos y builds: <https://itch.io/> · uso: se instala o se consulta en la preparación
+- Steamworks — publicación en Steam: <https://partner.steamgames.com/> · uso: se instala o se consulta en la preparación
+- GDC Vault, charlas sobre lanzamiento y marketing: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 6 «Anunciar el lanzamiento»
+- Jason Schreier, Blood, Sweat, and Pixels: <https://www.jasonschreier.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Guía de lanzamiento indie (Game Developer): <https://www.gamedeveloper.com/> · uso: respalda el Tema 6 «Anunciar el lanzamiento»
 
 ## ⬅️ Clase anterior
 

@@ -60,7 +60,7 @@ El vocabulario de esta clase es el de una decisión de inversión. Interiorízal
 
 Esta clase es **analítica**: no escribimos GDScript todavía, sino que preparamos el terreno para las cinco clases siguientes, en las que sí construiremos herramientas reales con `@tool` y `EditorPlugin`. Necesitas un proyecto propio (o uno de prácticas de partes anteriores) sobre el que puedas observar tu flujo de trabajo real durante una sesión.
 
-Ten a mano una hoja de cálculo o un archivo de texto para registrar tiempos. Revisa la introducción oficial a los plugins para dimensionar lo que Godot permite automatizar: <https://docs.godotengine.org/en/stable/tutorials/plugins/editor/making_plugins.html>. La visión general del sistema de plugins está en <https://docs.godotengine.org/en/stable/tutorials/plugins/index.html>.
+Ten a mano una hoja de cálculo o un archivo de texto para registrar tiempos. Revisa la introducción oficial a los plugins para dimensionar lo que Godot permite automatizar: <https://docs.godotengine.org/en/4.3/tutorials/plugins/editor/making_plugins.html>. La visión general del sistema de plugins está en <https://docs.godotengine.org/en/4.3/tutorials/plugins/index.html>.
 
 Conviene también echar un vistazo al **Asset Library** integrado en Godot (pestaña *AssetLib* del editor), porque muchas herramientas que crees necesitar ya existen mantenidas por la comunidad. Parte del ejercicio de esta clase es aprender a mirar ahí **antes** de decidir construir: comprar (o instalar gratis) suele ganar a construir cuando la herramienta no es específica de tu juego.
 
@@ -129,11 +129,11 @@ Entrega una tabla de ROI de tooling para tu proyecto con al menos cuatro tareas 
 
 ## 🔗 Referencias
 
-- Godot Docs — Making plugins: <https://docs.godotengine.org/en/stable/tutorials/plugins/editor/making_plugins.html>
-- Godot Docs — Plugins (índice): <https://docs.godotengine.org/en/stable/tutorials/plugins/index.html>
-- Godot Docs — Running code in the editor (`@tool`): <https://docs.godotengine.org/en/stable/tutorials/plugins/running_code_in_the_editor.html>
-- Godot Asset Library: <https://godotengine.org/asset-library/asset>
-- Godot Docs — EditorPlugin (referencia para dimensionar lo construible): <https://docs.godotengine.org/en/stable/classes/class_editorplugin.html>
+- Godot Docs — Making plugins: <https://docs.godotengine.org/en/4.3/tutorials/plugins/editor/making_plugins.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Plugins (índice): <https://docs.godotengine.org/en/4.3/tutorials/plugins/index.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Running code in the editor (`@tool`): <https://docs.godotengine.org/en/4.3/tutorials/plugins/running_code_in_the_editor.html> · uso: respalda el Tema 4 «Construir vs comprar (asset store, plugins)»
+- Godot Asset Library: <https://godotengine.org/asset-library/asset> · uso: respalda el Tema 4 «Construir vs comprar (asset store, plugins)»
+- Godot Docs — EditorPlugin (referencia para dimensionar lo construible): <https://docs.godotengine.org/en/4.3/classes/class_editorplugin.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

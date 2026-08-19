@@ -371,11 +371,11 @@ Implementa un sistema de presupuestos de rendimiento con **al menos cinco métri
 
 ## 🔗 Referencias
 
-- Godot Docs — Optimización y profiling: <https://docs.godotengine.org/en/stable/tutorials/performance/index.html>
-- Godot Docs — `Performance` (monitores del motor): <https://docs.godotengine.org/en/stable/classes/class_performance.html>
-- Godot Docs — `Time` (medición de alta resolución): <https://docs.godotengine.org/en/stable/classes/class_time.html>
-- Google — *Site Reliability Engineering*, SLO y presupuestos de error: <https://sre.google/books/>
-- GitHub Docs — Actions y jobs de CI: <https://docs.github.com/actions>
+- Godot Docs — Optimización y profiling: <https://docs.godotengine.org/en/4.3/tutorials/performance/index.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `Performance` (monitores del motor): <https://docs.godotengine.org/en/4.3/classes/class_performance.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `Time` (medición de alta resolución): <https://docs.godotengine.org/en/4.3/classes/class_time.html> · uso: respalda el Tema 3 «Medición reproducible»
+- Google — *Site Reliability Engineering*, SLO y presupuestos de error: <https://sre.google/books/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GitHub Docs — Actions y jobs de CI: <https://docs.github.com/actions> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas **Godot 4.x** y una escena con un `DirectionalLight3D` (sol) y algunos objetos, para que el cielo y la niebla tengan contexto. Ten a mano una superficie brillante (material con emisión) para apreciar el glow. Consulta la guía de entorno en <https://docs.godotengine.org/en/stable/tutorials/3d/environment_and_post_processing.html> y la API de `Environment` en <https://docs.godotengine.org/en/stable/classes/class_environment.html>. Descarga: <https://godotengine.org/download>.
+Necesitas **Godot 4.x** y una escena con un `DirectionalLight3D` (sol) y algunos objetos, para que el cielo y la niebla tengan contexto. Ten a mano una superficie brillante (material con emisión) para apreciar el glow. Consulta la guía de entorno en <https://docs.godotengine.org/en/4.3/tutorials/3d/environment_and_post_processing.html> y la API de `Environment` en <https://docs.godotengine.org/en/4.3/classes/class_environment.html>. Descarga: <https://godotengine.org/download>.
 
 ## 🧪 Laboratorio guiado
 
@@ -140,9 +140,9 @@ Configura un `WorldEnvironment` con cielo procedural que ilumine la escena como 
 
 ## 🔗 Referencias
 
-- Environment and post-processing: <https://docs.godotengine.org/en/stable/tutorials/3d/environment_and_post_processing.html>
-- Environment — API oficial: <https://docs.godotengine.org/en/stable/classes/class_environment.html>
-- ProceduralSkyMaterial: <https://docs.godotengine.org/en/stable/classes/class_proceduralskymaterial.html>
+- Environment and post-processing: <https://docs.godotengine.org/en/4.3/tutorials/3d/environment_and_post_processing.html> · uso: se instala o se consulta en la preparación
+- Environment — API oficial: <https://docs.godotengine.org/en/4.3/classes/class_environment.html> · uso: se instala o se consulta en la preparación
+- ProceduralSkyMaterial: <https://docs.godotengine.org/en/4.3/classes/class_proceduralskymaterial.html> · uso: respalda el Tema 2 «ProceduralSkyMaterial»
 
 ## ⬅️ Clase anterior
 

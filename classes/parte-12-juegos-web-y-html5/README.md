@@ -8,7 +8,7 @@
 
 - Documentación de [Phaser](https://phaser.io/learn), [PixiJS](https://pixijs.com/) y [Three.js](https://threejs.org/docs/).
 - [MDN Web Docs — WebGL / WebGPU / Canvas](https://developer.mozilla.org/).
-- Documentación de [exportación web de Godot](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html).
+- Documentación de [exportación web de Godot](https://docs.godotengine.org/en/4.3/tutorials/export/exporting_for_web.html).
 - Documentación de [itch.io](https://itch.io/docs/) y portales HTML5.
 
 ---

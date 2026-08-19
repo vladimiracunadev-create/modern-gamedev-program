@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Parte del proyecto con OpenXR habilitado de la clase 230. Necesitas **Godot 4.x** y, para ver el resultado inmersivo, un visor con runtime OpenXR o el simulador que incluye el addon **godot-xr-tools** (<https://github.com/GodotVR/godot-xr-tools>). El addon es opcional para esta clase (montaremos todo con nodos nativos), pero su simulador es cómodo para probar sin hardware.
 
-Consulta la referencia de nodos XR de Godot (<https://docs.godotengine.org/en/stable/classes/class_xrorigin3d.html> y los nodos relacionados). Ten preparadas dos mallas simples para las manos: sirven `BoxMesh` o `SphereMesh` pequeñas mientras no tengas modelos de manos. Trabaja siempre pensando en metros: una mesa está a ~0,75 m del suelo.
+Consulta la referencia de nodos XR de Godot (<https://docs.godotengine.org/en/4.3/classes/class_xrorigin3d.html> y los nodos relacionados). Ten preparadas dos mallas simples para las manos: sirven `BoxMesh` o `SphereMesh` pequeñas mientras no tengas modelos de manos. Trabaja siempre pensando en metros: una mesa está a ~0,75 m del suelo.
 
 ## 🧪 Laboratorio guiado
 
@@ -143,10 +143,10 @@ Construye una escena VR con XROrigin3D, XRCamera3D y dos XRController3D correcta
 
 ## 🔗 Referencias
 
-- Godot Docs — Setting up XR: <https://docs.godotengine.org/en/stable/tutorials/xr/setting_up_xr.html>
-- Godot Docs — XROrigin3D: <https://docs.godotengine.org/en/stable/classes/class_xrorigin3d.html>
-- Godot Docs — XRController3D: <https://docs.godotengine.org/en/stable/classes/class_xrcontroller3d.html>
-- godot-xr-tools: <https://github.com/GodotVR/godot-xr-tools>
+- Godot Docs — Setting up XR: <https://docs.godotengine.org/en/4.3/tutorials/xr/setting_up_xr.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — XROrigin3D: <https://docs.godotengine.org/en/4.3/classes/class_xrorigin3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — XRController3D: <https://docs.godotengine.org/en/4.3/classes/class_xrcontroller3d.html> · uso: respalda el Tema 3 «XRController3D»
+- godot-xr-tools: <https://github.com/GodotVR/godot-xr-tools> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

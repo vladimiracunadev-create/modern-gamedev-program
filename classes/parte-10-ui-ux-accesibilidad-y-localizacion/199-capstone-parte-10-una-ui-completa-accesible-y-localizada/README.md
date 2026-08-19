@@ -63,7 +63,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usaremos **Godot 4.x**. Reutiliza lo construido en 194–198: la HUD responsive, el menú navegable, el panel de accesibilidad, el CSV de traducciones y la fuente con fallback. Organiza el proyecto en `res://ui/` (escenas), `res://locale/` (CSV) y `res://fonts/`. Crea un autoload `Ajustes` en *Project Settings > Autoload*. Referencias base: [UI de Godot](https://docs.godotengine.org/en/stable/tutorials/ui/index.html), [i18n](https://docs.godotengine.org/en/stable/tutorials/i18n/internationalizing_games.html) y la checklist de <https://gameaccessibilityguidelines.com/>. Ten definido un `Theme` de proyecto como pieza que unifica todo.
+Usaremos **Godot 4.x**. Reutiliza lo construido en 194–198: la HUD responsive, el menú navegable, el panel de accesibilidad, el CSV de traducciones y la fuente con fallback. Organiza el proyecto en `res://ui/` (escenas), `res://locale/` (CSV) y `res://fonts/`. Crea un autoload `Ajustes` en *Project Settings > Autoload*. Referencias base: [UI de Godot](https://docs.godotengine.org/en/4.3/tutorials/ui/index.html), [i18n](https://docs.godotengine.org/en/4.3/tutorials/i18n/internationalizing_games.html) y la checklist de <https://gameaccessibilityguidelines.com/>. Ten definido un `Theme` de proyecto como pieza que unifica todo.
 
 ## 🧪 Laboratorio guiado
 
@@ -188,13 +188,13 @@ Entrega un proyecto Godot con una UI completa (menú + HUD + opciones), theming 
 
 ## 🔗 Referencias
 
-- Godot — UI (índice general): <https://docs.godotengine.org/en/stable/tutorials/ui/index.html>
+- Godot — UI (índice general): <https://docs.godotengine.org/en/4.3/tutorials/ui/index.html> · uso: se instala o se consulta en la preparación
 
-- Godot — Internationalizing games: <https://docs.godotengine.org/en/stable/tutorials/i18n/internationalizing_games.html>
+- Godot — Internationalizing games: <https://docs.godotengine.org/en/4.3/tutorials/i18n/internationalizing_games.html> · uso: se instala o se consulta en la preparación
 
-- Godot — ConfigFile (persistencia): <https://docs.godotengine.org/en/stable/classes/class_configfile.html>
+- Godot — ConfigFile (persistencia): <https://docs.godotengine.org/en/4.3/classes/class_configfile.html> · uso: respalda el Tema 8 «Persistencia con ConfigFile»
 
-- Game Accessibility Guidelines: <https://gameaccessibilityguidelines.com/>
+- Game Accessibility Guidelines: <https://gameaccessibilityguidelines.com/> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

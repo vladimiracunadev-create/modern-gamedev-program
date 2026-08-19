@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usarás **Godot 4.x** con **CSG** (`CSGBox3D`, `CSGCombiner3D`) o **GridMap** para el blockout, un `CharacterBody3D` (template de Godot) para recorrerlo, y `Marker3D`/luces para el lenguaje visual y los checkpoints. La documentación va en **Markdown** junto al proyecto, reutilizando la plantilla de one-pager de la Clase 170. Referencias: CSG (<https://docs.godotengine.org/en/stable/tutorials/3d/csg_tools.html>), GridMap (<https://docs.godotengine.org/en/stable/tutorials/3d/using_gridmaps.html>) y CharacterBody3D (<https://docs.godotengine.org/en/stable/tutorials/physics/using_character_body_3d.html>). Ten a la mano el one-pager, la matriz de sistemas y el blockout base de las clases previas.
+Usarás **Godot 4.x** con **CSG** (`CSGBox3D`, `CSGCombiner3D`) o **GridMap** para el blockout, un `CharacterBody3D` (template de Godot) para recorrerlo, y `Marker3D`/luces para el lenguaje visual y los checkpoints. La documentación va en **Markdown** junto al proyecto, reutilizando la plantilla de one-pager de la Clase 170. Referencias: CSG (<https://docs.godotengine.org/en/4.3/tutorials/3d/csg_tools.html>), GridMap (<https://docs.godotengine.org/en/4.3/tutorials/3d/using_gridmaps.html>) y CharacterBody3D (<https://docs.godotengine.org/en/4.3/classes/class_characterbody3d.html>). Ten a la mano el one-pager, la matriz de sistemas y el blockout base de las clases previas.
 
 ## 🧪 Laboratorio guiado
 
@@ -166,10 +166,10 @@ Entrega el **nivel completo**: one-pager (objetivo, pilares, core loop), mapa de
 
 ## 🔗 Referencias
 
-- Godot Docs — CSG tools: <https://docs.godotengine.org/en/stable/tutorials/3d/csg_tools.html>
-- Godot Docs — Using GridMaps: <https://docs.godotengine.org/en/stable/tutorials/3d/using_gridmaps.html>
-- Godot Docs — CharacterBody3D: <https://docs.godotengine.org/en/stable/tutorials/physics/using_character_body_3d.html>
-- Level Design Book — Process: <https://book.leveldesignbook.com/process>
+- Godot Docs — CSG tools: <https://docs.godotengine.org/en/4.3/tutorials/3d/csg_tools.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Using GridMaps: <https://docs.godotengine.org/en/4.3/tutorials/3d/using_gridmaps.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — CharacterBody3D: <https://docs.godotengine.org/en/4.3/classes/class_characterbody3d.html> · uso: se instala o se consulta en la preparación
+- Level Design Book — Process: <https://book.leveldesignbook.com/process> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

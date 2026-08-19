@@ -42,7 +42,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x (idealmente 4.2+). Vamos a crear una escena de jugador con un `CharacterBody2D`, y una escena principal que arranque como servidor o cliente. Para probar de verdad el multijugador, ejecuta **dos instancias** del proyecto: en Godot ve a *Debug → Run Multiple Instances → Run 2 Instances*. Repasa la [guía de high-level multiplayer de Godot](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html) y el nodo [`MultiplayerSynchronizer`](https://docs.godotengine.org/en/stable/classes/class_multiplayersynchronizer.html). Ten a mano un puerto libre (usaremos `9999`).
+Necesitas Godot 4.x (idealmente 4.2+). Vamos a crear una escena de jugador con un `CharacterBody2D`, y una escena principal que arranque como servidor o cliente. Para probar de verdad el multijugador, ejecuta **dos instancias** del proyecto: en Godot ve a *Debug → Run Multiple Instances → Run 2 Instances*. Repasa la [guía de high-level multiplayer de Godot](https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html) y el nodo [`MultiplayerSynchronizer`](https://docs.godotengine.org/en/4.3/classes/class_multiplayersynchronizer.html). Ten a mano un puerto libre (usaremos `9999`).
 
 ## 🧪 Laboratorio guiado
 
@@ -160,10 +160,10 @@ Construye una sala donde 3 avatares (servidor + 2 clientes) se muevan simultáne
 
 ## 🔗 Referencias
 
-- Godot Docs — High-level multiplayer: <https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html>
-- Godot Docs — MultiplayerSynchronizer: <https://docs.godotengine.org/en/stable/classes/class_multiplayersynchronizer.html>
-- Godot Docs — ENetMultiplayerPeer: <https://docs.godotengine.org/en/stable/classes/class_enetmultiplayerpeer.html>
-- Gaffer On Games — Networked Physics: <https://gafferongames.com/post/networked_physics_2004/>
+- Godot Docs — High-level multiplayer: <https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — MultiplayerSynchronizer: <https://docs.godotengine.org/en/4.3/classes/class_multiplayersynchronizer.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — ENetMultiplayerPeer: <https://docs.godotengine.org/en/4.3/classes/class_enetmultiplayerpeer.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Gaffer On Games — Networked Physics: <https://gafferongames.com/post/networked_physics_2004/> · uso: respalda el Tema 5 «Tick fijo en `_physics_process`»
 
 ## ⬅️ Clase anterior
 

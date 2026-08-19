@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Seguimos en **Blender 4.x** (<https://www.blender.org/download/>). Necesitas una malla de personaje sencilla: puede ser un humanoide low-poly propio, un muñeco de bloques, o incluso puedes activar el add-on integrado **Add Mesh: Extra Objects** para partir de formas básicas. Asegúrate de que la malla esté con **escala aplicada** (`Ctrl+A` → Scale) y con el origen en los pies, mirando hacia `-Y`.
 
-Trabajaremos con los tres modos del armature: **Edit Mode** (colocar huesos), **Pose Mode** (posar) y el **Weight Paint** de la malla. Ten a mano la documentación de armatures (<https://docs.blender.org/manual/en/latest/animation/armatures/index.html>) y de skinning (<https://docs.blender.org/manual/en/latest/animation/armatures/skinning/index.html>). Activa **X-Axis Mirror** en Edit Mode del armature para construir simétricamente.
+Trabajaremos con los tres modos del armature: **Edit Mode** (colocar huesos), **Pose Mode** (posar) y el **Weight Paint** de la malla. Ten a mano la documentación de armatures (<https://docs.blender.org/manual/en/4.2/animation/armatures/index.html>) y de skinning (<https://docs.blender.org/manual/en/4.2/animation/armatures/skinning/index.html>). Activa **X-Axis Mirror** en Edit Mode del armature para construir simétricamente.
 
 Activa además **In Front** en las opciones de visualización del armature (Object Data Properties → Viewport Display) para ver los huesos a través de la malla mientras los colocas. Sin esta opción, los huesos quedan ocultos dentro del personaje y trabajar a ciegas hace muy difícil posicionarlos bien.
 
@@ -131,10 +131,10 @@ Riggea tu personaje con un armature de al menos 12 huesos nombrados y simétrico
 
 ## 🔗 Referencias
 
-- Blender Manual — Armatures: <https://docs.blender.org/manual/en/latest/animation/armatures/index.html>
-- Blender Manual — Skinning / Weight Paint: <https://docs.blender.org/manual/en/latest/animation/armatures/skinning/index.html>
-- Blender Manual — Inverse Kinematics: <https://docs.blender.org/manual/en/latest/animation/armatures/posing/bone_constraints/inverse_kinematics/index.html>
-- Blender Manual — Vertex Groups: <https://docs.blender.org/manual/en/latest/modeling/meshes/properties/vertex_groups/index.html>
+- Blender Manual — Armatures: <https://docs.blender.org/manual/en/4.2/animation/armatures/index.html> · uso: se instala o se consulta en la preparación
+- Blender Manual — Skinning / Weight Paint: <https://docs.blender.org/manual/en/4.2/animation/armatures/skinning/index.html> · uso: se instala o se consulta en la preparación
+- Blender Manual — Inverse Kinematics: <https://docs.blender.org/manual/en/4.2/animation/constraints/tracking/ik_solver.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Blender Manual — Vertex Groups: <https://docs.blender.org/manual/en/4.2/modeling/meshes/properties/vertex_groups/index.html> · uso: respalda el Tema 5 «Vertex groups»
 
 ## ⬅️ Clase anterior
 

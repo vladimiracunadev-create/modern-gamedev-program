@@ -172,10 +172,10 @@ Programa una torreta que gire suavemente (lerp de ángulo con wrap, `t = 0.2`) h
 
 ## 🔗 Referencias
 
-- Eric Lengyel, *Mathematics for 3D Game Programming and Computer Graphics*, 3ª ed., cap. de trigonometría y transformaciones.
-- Documentación del módulo `math` de Python: <https://docs.python.org/3/library/math.html>
-- "atan2" explicación y cuadrantes: <https://en.wikipedia.org/wiki/Atan2>
-- Red Blob Games, artículos de matemáticas 2D: <https://www.redblobgames.com/>
+- Eric Lengyel, *Mathematics for 3D Game Programming and Computer Graphics*, 3ª ed., cap. de trigonometría y transformaciones. · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Documentación del módulo `math` de Python: <https://docs.python.org/3/library/math.html> · uso: se instala o se consulta en la preparación
+- "atan2" explicación y cuadrantes: <https://en.wikipedia.org/wiki/Atan2> · uso: respalda el Tema 3 «`atan2(dy, dx)`»
+- Red Blob Games, artículos de matemáticas 2D: <https://www.redblobgames.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -46,7 +46,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usarás **Godot 4** (<https://godotengine.org/download>), que trae un importador integrado y visible en el panel *Importación*. Ten a mano un puñado de assets de prueba: dos o tres imágenes `.png` (por ejemplo un sprite de 32×32 y un fondo grande), un sonido corto `.wav` u `.ogg` y una fuente `.ttf` libre (por ejemplo de <https://fonts.google.com>). Para inspeccionar tamaños te basta el explorador de archivos del sistema o la terminal. La referencia conceptual es *Game Engine Architecture* de Jason Gregory (capítulo sobre el asset conditioning pipeline) y la documentación de importación de Godot: <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/import_process.html>.
+Usarás **Godot 4** (<https://godotengine.org/download>), que trae un importador integrado y visible en el panel *Importación*. Ten a mano un puñado de assets de prueba: dos o tres imágenes `.png` (por ejemplo un sprite de 32×32 y un fondo grande), un sonido corto `.wav` u `.ogg` y una fuente `.ttf` libre (por ejemplo de <https://fonts.google.com>). Para inspeccionar tamaños te basta el explorador de archivos del sistema o la terminal. La referencia conceptual es *Game Engine Architecture* de Jason Gregory (capítulo sobre el asset conditioning pipeline) y la documentación de importación de Godot: <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/import_process.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -135,10 +135,10 @@ Organiza un mini-proyecto en Godot con la estructura `assets/sprites`, `assets/a
 
 ## 🔗 Referencias
 
-- Jason Gregory, *Game Engine Architecture*, "The Asset Conditioning Pipeline": <https://www.gameenginebook.com/>
-- Godot Docs, "Import process": <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/import_process.html>
-- Godot Docs, "Importing images": <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>
-- Godot Docs, "Importing audio samples": <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_audio_samples.html>
+- Jason Gregory, *Game Engine Architecture*, "The Asset Conditioning Pipeline": <https://www.gameenginebook.com/> · uso: respalda el Tema 1 «Qué es un asset»
+- Godot Docs, "Import process": <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/import_process.html> · uso: se instala o se consulta en la preparación
+- Godot Docs, "Importing images": <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_images.html> · uso: respalda el Tema 2 «Pipeline de importación»
+- Godot Docs, "Importing audio samples": <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_audio_samples.html> · uso: respalda el Tema 2 «Pipeline de importación»
 
 ## ⬅️ Clase anterior
 

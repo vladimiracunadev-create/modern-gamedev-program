@@ -201,10 +201,10 @@ Dibuja un cuadrado (dos triángulos) de colores en las cuatro esquinas que rote 
 
 ## 🔗 Referencias
 
-- MDN — WebGL API: <https://developer.mozilla.org/es/docs/Web/API/WebGL_API>
-- MDN — Tutorial de WebGL: <https://developer.mozilla.org/es/docs/Web/API/WebGL_API/Tutorial>
-- WebGL2 Fundamentals: <https://webgl2fundamentals.org/>
-- Khronos — WebGL 2.0 Specification: <https://registry.khronos.org/webgl/specs/latest/2.0/>
+- MDN — WebGL API: <https://developer.mozilla.org/es/docs/Web/API/WebGL_API> · uso: se instala o se consulta en la preparación
+- MDN — Tutorial de WebGL: <https://developer.mozilla.org/es/docs/Web/API/WebGL_API/Tutorial> · uso: se instala o se consulta en la preparación
+- WebGL2 Fundamentals: <https://webgl2fundamentals.org/> · uso: respalda el Tema 1 «Contexto WebGL2»
+- Khronos — WebGL 2.0 Specification: <https://registry.khronos.org/webgl/specs/latest/2.0/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

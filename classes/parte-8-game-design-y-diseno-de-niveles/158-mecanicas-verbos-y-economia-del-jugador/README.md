@@ -137,10 +137,10 @@ En esta clase **diseñas** la economía del jugador: qué recursos hay, de dónd
 
 ## 🔗 Referencias
 
-- Anna Anthropy & Naomi Clark — A Game Design Vocabulary: <https://www.penguinrandomhouse.com/books/313337/a-game-design-vocabulary/>
-- Tracy Fullerton — Game Design Workshop: <https://www.gamedesignworkshop.com>
-- GDC Vault — economy design y "Ratchets, Clickers and Grinders": <https://www.gdcvault.com>
-- Game Balance Concepts (Ian Schreiber): <https://gamebalanceconcepts.wordpress.com>
+- Anna Anthropy & Naomi Clark — A Game Design Vocabulary: <https://www.penguinrandomhouse.com/books/313337/a-game-design-vocabulary/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Tracy Fullerton — Game Design Workshop: <https://www.gamedesignworkshop.com> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — economy design y "Ratchets, Clickers and Grinders": <https://www.gdcvault.com> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: se instala o se consulta en la preparación
+- Game Balance Concepts (Ian Schreiber): <https://gamebalanceconcepts.wordpress.com> · uso: respalda el Tema 8 «Balance de flujo»
 
 ## ⬅️ Clase anterior
 

@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Con Godot 4.x usaremos el recurso **`FastNoiseLite`**, que ofrece Perlin, Simplex, Value y celular en una sola clase. Para pintar necesitamos un **`TileMapLayer`** (nodo de Godot 4.3+ que reemplaza al antiguo `TileMap`) con un `TileSet` que tenga cuatro tiles (agua, arena, hierba, roca) en la *source* 0. Para muestreos aleatorios controlados usaremos `RandomNumberGenerator` con `seed`. Consulta la clase [FastNoiseLite](https://docs.godotengine.org/en/stable/classes/class_fastnoiselite.html) y [TileMapLayer](https://docs.godotengine.org/en/stable/classes/class_tilemaplayer.html).
+Con Godot 4.x usaremos el recurso **`FastNoiseLite`**, que ofrece Perlin, Simplex, Value y celular en una sola clase. Para pintar necesitamos un **`TileMapLayer`** (nodo de Godot 4.3+ que reemplaza al antiguo `TileMap`) con un `TileSet` que tenga cuatro tiles (agua, arena, hierba, roca) en la *source* 0. Para muestreos aleatorios controlados usaremos `RandomNumberGenerator` con `seed`. Consulta la clase [FastNoiseLite](https://docs.godotengine.org/en/4.3/classes/class_fastnoiselite.html) y [TileMapLayer](https://docs.godotengine.org/en/4.3/classes/class_tilemaplayer.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -173,10 +173,10 @@ Combina varios ruidos (altura, humedad, temperatura) y añade ruido celular para
 
 ## 🔗 Referencias
 
-- [Clase FastNoiseLite — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_fastnoiselite.html)
-- [Clase TileMapLayer — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_tilemaplayer.html)
-- [Clase RandomNumberGenerator — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_randomnumbergenerator.html)
-- [Ken Perlin — Improving Noise (SIGGRAPH 2002)](https://mrl.cs.nyu.edu/~perlin/paper445.pdf)
+- [Clase FastNoiseLite — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_fastnoiselite.html) · uso: se instala o se consulta en la preparación
+- [Clase TileMapLayer — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_tilemaplayer.html) · uso: se instala o se consulta en la preparación
+- [Clase RandomNumberGenerator — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_randomnumbergenerator.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Ken Perlin — Improving Noise (SIGGRAPH 2002)](https://mrl.cs.nyu.edu/~perlin/paper445.pdf) · uso: respalda el Tema 2 «Perlin y Simplex»
 
 ## ⬅️ Clase anterior
 

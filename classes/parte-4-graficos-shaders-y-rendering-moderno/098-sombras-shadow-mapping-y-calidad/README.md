@@ -47,8 +47,8 @@ Al finalizar, el alumno podrá:
 
 Necesitas Godot 4.x con el renderizador **Forward+** o **Mobile** (el shadow mapping de alta calidad y las cascadas están más completos en Forward+). Crea una escena con un `WorldEnvironment`, un plano grande como suelo, varias cajas y una `DirectionalLight3D`. Activa las sombras en la luz (`Shadow > Enabled`). Ten a mano el inspector de la luz y del `Project Settings > Rendering > Lights and Shadows`, donde se define el tamaño del atlas.
 
-- Documentación de sombras: <https://docs.godotengine.org/en/stable/tutorials/3d/lights_and_shadows.html>
-- Ajustes de calidad de sombra: <https://docs.godotengine.org/en/stable/tutorials/3d/using_transform_feedback.html> (referencia general de rendering)
+- Documentación de sombras: <https://docs.godotengine.org/en/4.3/tutorials/3d/lights_and_shadows.html>
+- Ajustes de calidad de sombra: <https://docs.godotengine.org/en/4.3/tutorials/3d/lights_and_shadows.html> (referencia general de rendering)
 
 ## 🧪 Laboratorio guiado
 
@@ -128,9 +128,9 @@ Crea una escena con suelo, al menos cinco objetos y una `DirectionalLight3D` con
 
 ## 🔗 Referencias
 
-- Godot — Lights and shadows: <https://docs.godotengine.org/en/stable/tutorials/3d/lights_and_shadows.html>
-- Godot — DirectionalLight3D (clase): <https://docs.godotengine.org/en/stable/classes/class_directionallight3d.html>
-- Godot — Rendering settings (Lights and Shadows): <https://docs.godotengine.org/en/stable/classes/class_projectsettings.html>
+- Godot — Lights and shadows: <https://docs.godotengine.org/en/4.3/tutorials/3d/lights_and_shadows.html> · uso: se instala o se consulta en la preparación
+- Godot — DirectionalLight3D (clase): <https://docs.godotengine.org/en/4.3/classes/class_directionallight3d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot — Rendering settings (Lights and Shadows): <https://docs.godotengine.org/en/4.3/classes/class_projectsettings.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

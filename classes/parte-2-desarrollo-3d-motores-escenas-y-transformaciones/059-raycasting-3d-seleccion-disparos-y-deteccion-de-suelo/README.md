@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Godot 4.x con una escena 3D que tenga cámara, suelo y algunos objetos seleccionables (`StaticBody3D` con `BoxShape3D`). Ten activo `Debug > Visible Collision Shapes`. Consulta [Ray-casting](https://docs.godotengine.org/en/stable/tutorials/physics/ray-casting.html) y la clase [PhysicsRayQueryParameters3D](https://docs.godotengine.org/en/stable/classes/class_physicsrayqueryparameters3d.html).
+Godot 4.x con una escena 3D que tenga cámara, suelo y algunos objetos seleccionables (`StaticBody3D` con `BoxShape3D`). Ten activo `Debug > Visible Collision Shapes`. Consulta [Ray-casting](https://docs.godotengine.org/en/4.3/tutorials/physics/ray-casting.html) y la clase [PhysicsRayQueryParameters3D](https://docs.godotengine.org/en/4.3/classes/class_physicsrayqueryparameters3d.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -153,9 +153,9 @@ Implementa una "linterna de inspección": un rayo desde la cámara que, cada fra
 
 ## 🔗 Referencias
 
-- [Ray-casting — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/physics/ray-casting.html)
-- [RayCast3D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_raycast3d.html)
-- [PhysicsDirectSpaceState3D](https://docs.godotengine.org/en/stable/classes/class_physicsdirectspacestate3d.html)
+- [Ray-casting — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/physics/ray-casting.html) · uso: se instala o se consulta en la preparación
+- [RayCast3D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_raycast3d.html) · uso: respalda el Tema 1 «RayCast3D (nodo)»
+- [PhysicsDirectSpaceState3D](https://docs.godotengine.org/en/4.3/classes/class_physicsdirectspacestate3d.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas Godot 4.x y un proyecto pesado de partida (puedes construir uno: una escena con 800-1500 `MeshInstance3D`, varias `OmniLight3D` con sombra, decenas de `RigidBody3D` colisionando y un spawner que instancia proyectiles cada frame). Trabajarás con el **profiler** (Depurar → Profiler), el panel de **Monitores** (FPS, tiempo de frame, draw calls, memoria) y, para el análisis de GPU, **RenderDoc** (<https://renderdoc.org/>) visto en la clase anterior. Ten una hoja o tabla para registrar las mediciones antes/después de cada cambio.
 
-Documentación de apoyo: guía general de optimización en <https://docs.godotengine.org/en/stable/tutorials/performance/index.html>, uso de servidores y multithreading en <https://docs.godotengine.org/en/stable/tutorials/performance/using_servers.html> y la clase `Performance` en <https://docs.godotengine.org/en/stable/classes/class_performance.html>.
+Documentación de apoyo: guía general de optimización en <https://docs.godotengine.org/en/4.3/tutorials/performance/index.html>, uso de servidores y multithreading en <https://docs.godotengine.org/en/4.3/tutorials/performance/using_servers.html> y la clase `Performance` en <https://docs.godotengine.org/en/4.3/classes/class_performance.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -193,10 +193,10 @@ Entrega el proyecto optimizado junto con un informe que incluya: la línea base 
 
 ## 🔗 Referencias
 
-- Godot Docs — Performance (índice de optimización): <https://docs.godotengine.org/en/stable/tutorials/performance/index.html>
-- Godot Docs — Using servers y multithreading: <https://docs.godotengine.org/en/stable/tutorials/performance/using_servers.html>
-- Godot Docs — MultiMeshInstance3D: <https://docs.godotengine.org/en/stable/classes/class_multimeshinstance3d.html>
-- Godot Docs — clase Performance (monitores): <https://docs.godotengine.org/en/stable/classes/class_performance.html>
+- Godot Docs — Performance (índice de optimización): <https://docs.godotengine.org/en/4.3/tutorials/performance/index.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Using servers y multithreading: <https://docs.godotengine.org/en/4.3/tutorials/performance/using_servers.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — MultiMeshInstance3D: <https://docs.godotengine.org/en/4.3/classes/class_multimeshinstance3d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — clase Performance (monitores): <https://docs.godotengine.org/en/4.3/classes/class_performance.html> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

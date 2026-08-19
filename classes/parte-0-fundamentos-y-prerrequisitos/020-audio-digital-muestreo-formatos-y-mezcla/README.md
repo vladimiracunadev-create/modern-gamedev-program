@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usarás **Godot 4** (<https://godotengine.org/>) con dos archivos de audio: un **WAV** corto para un efecto (SFX) y un **OGG** para música con bucle. Puedes conseguir sonidos libres en <https://freesound.org/> o <https://opengameart.org/>. Para editar y convertir audio usa **Audacity** (<https://www.audacityteam.org/>), que exporta a WAV y OGG. La referencia es la documentación de audio de Godot (<https://docs.godotengine.org/en/stable/tutorials/audio/index.html>), en concreto los buses (<https://docs.godotengine.org/en/stable/tutorials/audio/audio_buses.html>) y la reproducción de streams (<https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html>).
+Usarás **Godot 4** (<https://godotengine.org/>) con dos archivos de audio: un **WAV** corto para un efecto (SFX) y un **OGG** para música con bucle. Puedes conseguir sonidos libres en <https://freesound.org/> o <https://opengameart.org/>. Para editar y convertir audio usa **Audacity** (<https://www.audacityteam.org/>), que exporta a WAV y OGG. La referencia es la documentación de audio de Godot (<https://docs.godotengine.org/en/4.3/tutorials/audio/index.html>), en concreto los buses (<https://docs.godotengine.org/en/4.3/tutorials/audio/audio_buses.html>) y la reproducción de streams (<https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer.html>).
 
 ## 🧪 Laboratorio guiado
 
@@ -136,11 +136,11 @@ Crea una escena con música en bucle enrutada al bus **Music** y al menos un efe
 
 ## 🔗 Referencias
 
-- Godot — Audio (índice de tutoriales): <https://docs.godotengine.org/en/stable/tutorials/audio/index.html>
-- Godot — Audio buses: <https://docs.godotengine.org/en/stable/tutorials/audio/audio_buses.html>
-- Godot — AudioStreamPlayer (clase): <https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html>
-- Audacity (editor de audio): <https://www.audacityteam.org/>
-- Freesound (sonidos libres): <https://freesound.org/>
+- Godot — Audio (índice de tutoriales): <https://docs.godotengine.org/en/4.3/tutorials/audio/index.html> · uso: se instala o se consulta en la preparación
+- Godot — Audio buses: <https://docs.godotengine.org/en/4.3/tutorials/audio/audio_buses.html> · uso: se instala o se consulta en la preparación
+- Godot — AudioStreamPlayer (clase): <https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer.html> · uso: se instala o se consulta en la preparación
+- Audacity (editor de audio): <https://www.audacityteam.org/> · uso: se instala o se consulta en la preparación
+- Freesound (sonidos libres): <https://freesound.org/> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Reúne lo construido en las clases 231–238: el proyecto VR con OpenXR (o el proyecto AR con plugin de la clase 236), el renderer Mobile para standalone, los scripts de locomoción, agarre, audio 3D y háptica. Necesitas el hardware real: un visor VR (Quest u otro) para la ruta VR, o un móvil con ARCore/ARKit para la ruta AR. Prepara un lector de framerate en pantalla (clase 237) para verificar el rendimiento durante las pruebas.
 
-Referencias: XR en Godot en <https://docs.godotengine.org/en/stable/tutorials/xr/index.html> y el resto del material de las clases 231–238.
+Referencias: XR en Godot en <https://docs.godotengine.org/en/4.3/tutorials/xr/index.html> y el resto del material de las clases 231–238.
 
 ## 🧪 Laboratorio guiado
 
@@ -150,10 +150,10 @@ Entrega una de las dos experiencias completa según su especificación mínima, 
 
 ## 🔗 Referencias
 
-- Godot Docs — XR: <https://docs.godotengine.org/en/stable/tutorials/xr/index.html>
-- Godot Docs — Deploying XR / OpenXR: <https://docs.godotengine.org/en/stable/tutorials/xr/openxr_settings.html>
-- Meta — Locomotion Best Practices: <https://developer.oculus.com/resources/bp-locomotion/>
-- Google — ARCore anchors: <https://developers.google.com/ar/develop/anchors>
+- Godot Docs — XR: <https://docs.godotengine.org/en/4.3/tutorials/xr/index.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Deploying XR / OpenXR: <https://docs.godotengine.org/en/4.3/tutorials/xr/openxr_settings.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Meta — Locomotion Best Practices: <https://developer.oculus.com/resources/bp-locomotion/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Google — ARCore anchors: <https://developers.google.com/ar/develop/anchors> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x (estable) y un proyecto 2D nuevo. Trabajarás con `PackedScene`, `Array`, el monitor de rendimiento y el temporizador de alta resolución. Ten abierta la pestaña **Depurador → Monitores** para ver FPS y memoria en tiempo real, y consulta la guía oficial de optimización en tiempo de ejecución (<https://docs.godotengine.org/en/stable/tutorials/performance/index.html>).
+Necesitas Godot 4.x (estable) y un proyecto 2D nuevo. Trabajarás con `PackedScene`, `Array`, el monitor de rendimiento y el temporizador de alta resolución. Ten abierta la pestaña **Depurador → Monitores** para ver FPS y memoria en tiempo real, y consulta la guía oficial de optimización en tiempo de ejecución (<https://docs.godotengine.org/en/4.3/tutorials/performance/index.html>).
 
 Crea una escena `Bullet.tscn` mínima: un `Area2D` con un `Sprite2D` y un `CollisionShape2D` (un círculo pequeño basta). El script de la bala expondrá métodos para activarse y desactivarse. La escena principal será un `Node2D` con un nodo "cañón" que dispara. Guarda la referencia a la escena de la bala con `@export var bullet_scene: PackedScene` para asignarla desde el inspector.
 
@@ -193,10 +193,10 @@ Construye una escena de tipo *bullet hell* con al menos 200 balas simultáneas d
 
 ## 🔗 Referencias
 
-- Godot Docs — Performance/Optimization: <https://docs.godotengine.org/en/stable/tutorials/performance/index.html>
-- Godot Docs — Using the Performance monitors: <https://docs.godotengine.org/en/stable/tutorials/scripting/debug/the_profiler.html>
-- Godot Docs — PackedScene: <https://docs.godotengine.org/en/stable/classes/class_packedscene.html>
-- Godot Docs — Idle and physics processing: <https://docs.godotengine.org/en/stable/tutorials/scripting/idle_and_physics_processing.html>
+- Godot Docs — Performance/Optimization: <https://docs.godotengine.org/en/4.3/tutorials/performance/index.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Using the Performance monitors: <https://docs.godotengine.org/en/4.3/tutorials/scripting/debug/the_profiler.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — PackedScene: <https://docs.godotengine.org/en/4.3/classes/class_packedscene.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Idle and physics processing: <https://docs.godotengine.org/en/4.3/tutorials/scripting/idle_and_physics_processing.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

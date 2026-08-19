@@ -50,7 +50,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Blender 4.x**, gratuito y multiplataforma, desde <https://www.blender.org/download/>. Al abrirlo verás el cubo por defecto: es tu punto de partida. Configura las unidades en **Scene Properties → Units** para trabajar en metros (1 unidad = 1 metro), lo que evita problemas de escala al exportar. Activa **Statistics** en el overlay del viewport para vigilar el conteo de vértices y caras.
 
-Ten a mano la documentación oficial de modelado (<https://docs.blender.org/manual/en/latest/modeling/index.html>) y la de modificadores (<https://docs.blender.org/manual/en/latest/modeling/modifiers/index.html>). Recomendado: un ratón de tres botones; el botón central orbita, `Shift`+central hace paneo y la rueda hace zoom.
+Ten a mano la documentación oficial de modelado (<https://docs.blender.org/manual/en/4.2/modeling/index.html>) y la de modificadores (<https://docs.blender.org/manual/en/4.2/modeling/modifiers/index.html>). Recomendado: un ratón de tres botones; el botón central orbita, `Shift`+central hace paneo y la rueda hace zoom.
 
 Memoriza cinco atajos que usarás sin parar: `Tab` (Objeto/Edición), `G`/`R`/`S` (mover, rotar, escalar), `E` (extrude), `Ctrl+R` (loop cut) y `Ctrl+B` (bevel). Con solo estos cinco resuelves la mayor parte del modelado low-poly de props. Activa también el panel lateral con `N` para vigilar dimensiones y transformaciones en todo momento.
 
@@ -130,10 +130,10 @@ Modela un prop low-poly propio (barril, caja o arma) por debajo de **800 triáng
 
 ## 🔗 Referencias
 
-- Blender Manual — Modeling: <https://docs.blender.org/manual/en/latest/modeling/index.html>
-- Blender Manual — Modifiers: <https://docs.blender.org/manual/en/latest/modeling/modifiers/index.html>
-- Blender Manual — glTF 2.0 export: <https://docs.blender.org/manual/en/latest/addons/import_export/scene_gltf2.html>
-- Blender Manual — Normals: <https://docs.blender.org/manual/en/latest/modeling/meshes/normals.html>
+- Blender Manual — Modeling: <https://docs.blender.org/manual/en/4.2/modeling/index.html> · uso: se instala o se consulta en la preparación
+- Blender Manual — Modifiers: <https://docs.blender.org/manual/en/4.2/modeling/modifiers/index.html> · uso: se instala o se consulta en la preparación
+- Blender Manual — glTF 2.0 export: <https://docs.blender.org/manual/en/4.2/addons/import_export/scene_gltf2.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Blender Manual — Normals: <https://docs.blender.org/manual/en/4.2/modeling/meshes/editing/mesh/normals.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

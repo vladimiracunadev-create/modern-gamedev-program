@@ -197,10 +197,10 @@ GUT cubre los tests unitarios, que son la base. La Parte 19 amplía la batería 
 
 ## 🔗 Referencias
 
-- GUT — documentación oficial: <https://gut.readthedocs.io/>
-- GUT — repositorio (bitwes/Gut): <https://github.com/bitwes/Gut>
-- Godot Docs — Unit testing con GUT: <https://docs.godotengine.org/en/stable/tutorials/scripting/unit_testing.html>
-- Godot Docs — Command line tutorial (`-s`): <https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html>
+- GUT — documentación oficial: <https://gut.readthedocs.io/> · uso: se instala o se consulta en la preparación
+- GUT — repositorio (bitwes/Gut): <https://github.com/bitwes/Gut> · uso: se instala o se consulta en la preparación
+- GUT — asserts y métodos de test: <https://gut.readthedocs.io/en/latest/Asserts-and-Methods.html> · uso: respalda el Tema 3 «GUT como addon»
+- Godot Docs — Command line tutorial (`-s`): <https://docs.godotengine.org/en/4.3/tutorials/editor/command_line_tutorial.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

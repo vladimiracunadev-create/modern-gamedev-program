@@ -47,8 +47,8 @@ Al finalizar, el alumno podrá:
 
 Godot 4.x, renderizador Forward+. Prepara una escena con dos `MeshInstance3D` (dos quads o dos planos) que se solapen desde la cámara, para poder ver artefactos de orden. Crearás dos `ShaderMaterial`: uno para humo (`blend_mix`) y otro para fuego (`blend_add`). Ten abierto el editor de shaders de Godot.
 
-- Shading language: <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html>
-- Spatial shader (render modes): <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/spatial_shader.html>
+- Shading language: <https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/shading_language.html>
+- Spatial shader (render modes): <https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/spatial_shader.html>
 
 ## 🧪 Laboratorio guiado
 
@@ -161,9 +161,9 @@ Crea una fogata: un plano de **fuego** con `blend_add` y, detrás, un plano de *
 
 ## 🔗 Referencias
 
-- Godot — Shading language: <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html>
-- Godot — Spatial shader (render modes): <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/spatial_shader.html>
-- Godot — StandardMaterial3D (transparencia): <https://docs.godotengine.org/en/stable/tutorials/3d/standard_material_3d.html>
+- Godot — Shading language: <https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/shading_language.html> · uso: se instala o se consulta en la preparación
+- Godot — Spatial shader (render modes): <https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/spatial_shader.html> · uso: se instala o se consulta en la preparación
+- Godot — StandardMaterial3D (transparencia): <https://docs.godotengine.org/en/4.3/tutorials/3d/standard_material_3d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

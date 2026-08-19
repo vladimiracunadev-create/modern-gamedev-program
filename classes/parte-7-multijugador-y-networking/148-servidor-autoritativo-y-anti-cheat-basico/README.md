@@ -179,10 +179,10 @@ Lo de esta clase es la base: el servidor manda y el cliente pide. El tramo avanz
 
 ## 🔗 Referencias
 
-- Gaffer On Games — What every programmer needs to know about game networking: <https://gafferongames.com/post/what_every_programmer_needs_to_know_about_game_networking/>
-- Valve — Source Multiplayer Networking (server authority): <https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking>
-- Godot Docs — RPC y MultiplayerAPI: <https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html>
-- Gabriel Gambetta — Client-Server Game Architecture: <https://www.gabrielgambetta.com/client-server-game-architecture.html>
+- Gaffer On Games — What every programmer needs to know about game networking: <https://gafferongames.com/post/what_every_programmer_needs_to_know_about_game_networking/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Valve — Source Multiplayer Networking (server authority): <https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — RPC y MultiplayerAPI: <https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Gabriel Gambetta — Client-Server Game Architecture: <https://www.gabrielgambetta.com/client-server-game-architecture.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

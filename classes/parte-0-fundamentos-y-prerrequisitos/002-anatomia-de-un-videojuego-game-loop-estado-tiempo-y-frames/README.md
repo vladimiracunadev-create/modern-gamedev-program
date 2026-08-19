@@ -184,9 +184,9 @@ Entrega `pelota.py` con un game loop que: (a) mueva una pelota usando delta time
 
 ## 🔗 Referencias
 
-- Robert Nystrom, *Game Programming Patterns* — capítulo "Game Loop" <https://gameprogrammingpatterns.com/game-loop.html>
-- Documentación de Python `time` — <https://docs.python.org/3/library/time.html>
-- Godot: método `_process(delta)` — <https://docs.godotengine.org/en/stable/tutorials/scripting/idle_and_physics_processing.html>
+- Robert Nystrom, *Game Programming Patterns* — capítulo "Game Loop" <https://gameprogrammingpatterns.com/game-loop.html> · uso: se instala o se consulta en la preparación
+- Documentación de Python `time` — <https://docs.python.org/3/library/time.html> · uso: respalda el Tema 4 «Delta time (Δt)»
+- Godot: método `_process(delta)` — <https://docs.godotengine.org/en/4.3/tutorials/scripting/idle_and_physics_processing.html> · uso: respalda el Tema 4 «Delta time (Δt)»
 
 ## ⬅️ Clase anterior
 

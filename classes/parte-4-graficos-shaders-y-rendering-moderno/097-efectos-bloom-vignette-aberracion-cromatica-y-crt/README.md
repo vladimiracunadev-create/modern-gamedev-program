@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usa **Godot 4.x**. Reutiliza el setup de la clase 096: un `CanvasLayer` con un `ColorRect` en Full Rect y un `ShaderMaterial`. Para el bloom, añade un `WorldEnvironment` con un `Environment`; activa **Glow** y sube el umbral. Ten a mano una escena con algún objeto brillante (emisivo) para que el bloom tenga qué hacer florecer. Consulta [Glow del Environment](https://docs.godotengine.org/en/stable/tutorials/3d/environment_and_post_processing.html) y [Screen-reading shaders](https://docs.godotengine.org/en/stable/tutorials/shaders/screen-reading_shaders.html). Lo observable: la escena con resplandor, bordes oscurecidos, franjas de color y líneas de monitor antiguo.
+Usa **Godot 4.x**. Reutiliza el setup de la clase 096: un `CanvasLayer` con un `ColorRect` en Full Rect y un `ShaderMaterial`. Para el bloom, añade un `WorldEnvironment` con un `Environment`; activa **Glow** y sube el umbral. Ten a mano una escena con algún objeto brillante (emisivo) para que el bloom tenga qué hacer florecer. Consulta [Glow del Environment](https://docs.godotengine.org/en/4.3/tutorials/3d/environment_and_post_processing.html) y [Screen-reading shaders](https://docs.godotengine.org/en/4.3/tutorials/shaders/screen-reading_shaders.html). Lo observable: la escena con resplandor, bordes oscurecidos, franjas de color y líneas de monitor antiguo.
 
 ## 🧪 Laboratorio guiado
 
@@ -157,9 +157,9 @@ Crea un "modo arcade" que combine bloom (por Environment), vignette, aberración
 
 ## 🔗 Referencias
 
-1. Godot Engine — Environment y post-processing (Glow): <https://docs.godotengine.org/en/stable/tutorials/3d/environment_and_post_processing.html>
-2. Godot Engine — Screen-reading shaders: <https://docs.godotengine.org/en/stable/tutorials/shaders/screen-reading_shaders.html>
-3. Godot Engine — Custom post-processing: <https://docs.godotengine.org/en/stable/tutorials/shaders/custom_postprocessing.html>
+1. Godot Engine — Environment y post-processing (Glow): <https://docs.godotengine.org/en/4.3/tutorials/3d/environment_and_post_processing.html> · uso: se instala o se consulta en la preparación
+2. Godot Engine — Screen-reading shaders: <https://docs.godotengine.org/en/4.3/tutorials/shaders/screen-reading_shaders.html> · uso: se instala o se consulta en la preparación
+3. Godot Engine — Custom post-processing: <https://docs.godotengine.org/en/4.3/tutorials/shaders/custom_postprocessing.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

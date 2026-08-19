@@ -130,10 +130,10 @@ Entrega el mapa de bucles de un juego con al menos dos bucles identificados (uno
 
 ## 🔗 Referencias
 
-- Donella Meadows — Thinking in Systems (recursos): <https://donellameadows.org/systems-thinking-resources/>
-- Salen & Zimmerman — Rules of Play: <https://mitpress.mit.edu/9780262240451/rules-of-play/>
-- GDC Vault — feedback loops y system design: <https://www.gdcvault.com>
-- Game Balance Concepts (Ian Schreiber): <https://gamebalanceconcepts.wordpress.com>
+- Donella Meadows — Thinking in Systems (recursos): <https://donellameadows.org/systems-thinking-resources/> · uso: se instala o se consulta en la preparación
+- Salen & Zimmerman — Rules of Play: <https://mitpress.mit.edu/9780262240451/rules-of-play/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — feedback loops y system design: <https://www.gdcvault.com> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 3 «Bucle de feedback positivo»
+- Game Balance Concepts (Ian Schreiber): <https://gamebalanceconcepts.wordpress.com> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

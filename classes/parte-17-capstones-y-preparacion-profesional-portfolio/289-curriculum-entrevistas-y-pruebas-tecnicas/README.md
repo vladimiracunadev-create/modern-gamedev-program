@@ -129,11 +129,11 @@ Los procesos se pierden más por presentación que por falta de talento: un CV i
 
 Consulta ofertas reales y guías de entrevista para calibrar requisitos y practicar:
 
-- Hitmarker — ofertas de empleo en videojuegos: <https://hitmarker.net/>
-- GDC Vault, charlas sobre carrera y entrevistas: <https://www.gdcvault.com/>
-- Método STAR (guía de entrevistas): <https://www.themuse.com/advice/star-interview-method>
-- Jason Schreier, Blood, Sweat, and Pixels: <https://www.jasonschreier.com/>
-- Guía de CV para desarrolladores (freeCodeCamp): <https://www.freecodecamp.org/news/tag/resume/>
+- Hitmarker — ofertas de empleo en videojuegos: <https://hitmarker.net/> · uso: se instala o se consulta en la preparación
+- GDC Vault, charlas sobre carrera y entrevistas: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Método STAR (guía de entrevistas): <https://www.themuse.com/advice/star-interview-method> · uso: respalda el Tema 7 «Método STAR»
+- Jason Schreier, Blood, Sweat, and Pixels: <https://www.jasonschreier.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Guía de CV para desarrolladores (freeCodeCamp): <https://www.freecodecamp.org/news/tag/resume/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

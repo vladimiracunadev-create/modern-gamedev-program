@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Godot 4.x**. No hace falta ningún plugin: los recursos personalizados son parte del núcleo. Trabajaremos casi todo desde el Inspector y una pequeña escena de consumo. Ten a mano una carpeta `res://datos/armas/` para los `.tres`.
 
-Lee la guía oficial de creación de recursos propios, que muestra el flujo completo: <https://docs.godotengine.org/en/stable/tutorials/scripting/resources.html>. La referencia de la clase base está en `Resource`: <https://docs.godotengine.org/en/stable/classes/class_resource.html>. Para las anotaciones de exportación y grupos: <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_exports.html>.
+Lee la guía oficial de creación de recursos propios, que muestra el flujo completo: <https://docs.godotengine.org/en/4.3/tutorials/scripting/resources.html>. La referencia de la clase base está en `Resource`: <https://docs.godotengine.org/en/4.3/classes/class_resource.html>. Para las anotaciones de exportación y grupos: <https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_exports.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -169,10 +169,10 @@ Ahí también se responde a la pregunta que esta clase deja abierta: *¿`Resourc
 
 ## 🔗 Referencias
 
-- Godot Docs — Resources: <https://docs.godotengine.org/en/stable/tutorials/scripting/resources.html>
-- Godot Docs — `Resource`: <https://docs.godotengine.org/en/stable/classes/class_resource.html>
-- Godot Docs — GDScript exports (`@export_group`, `@export_range`): <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_exports.html>
-- Godot Docs — `ResourceLoader`: <https://docs.godotengine.org/en/stable/classes/class_resourceloader.html>
+- Godot Docs — Resources: <https://docs.godotengine.org/en/4.3/tutorials/scripting/resources.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `Resource`: <https://docs.godotengine.org/en/4.3/classes/class_resource.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — GDScript exports (`@export_group`, `@export_range`): <https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_exports.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `ResourceLoader`: <https://docs.godotengine.org/en/4.3/classes/class_resourceloader.html> · uso: respalda el Tema 6 «Cargar con `ResourceLoader`»
 
 ## ⬅️ Clase anterior
 

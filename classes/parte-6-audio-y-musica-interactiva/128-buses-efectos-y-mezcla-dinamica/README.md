@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Abre el panel **Audio** en la parte inferior de Godot (pestaña junto a *Output* y *Debugger*). Ahí crearás los buses. Ten preparada una música en bucle (OGG) y un par de SFX (WAV): uno cotidiano (moneda) y otro "importante" (explosión o alarma) para el ducking. Revisa la [documentación de buses de audio](https://docs.godotengine.org/en/stable/tutorials/audio/audio_buses.html) y la [referencia de AudioServer](https://docs.godotengine.org/en/stable/classes/class_audioserver.html). Consejo: puedes guardar la disposición de buses en un archivo `.tres` con el botón *Save As* del panel Audio para reutilizarla entre escenas.
+Abre el panel **Audio** en la parte inferior de Godot (pestaña junto a *Output* y *Debugger*). Ahí crearás los buses. Ten preparada una música en bucle (OGG) y un par de SFX (WAV): uno cotidiano (moneda) y otro "importante" (explosión o alarma) para el ducking. Revisa la [documentación de buses de audio](https://docs.godotengine.org/en/4.3/tutorials/audio/audio_buses.html) y la [referencia de AudioServer](https://docs.godotengine.org/en/4.3/classes/class_audioserver.html). Consejo: puedes guardar la disposición de buses en un archivo `.tres` con el botón *Save As* del panel Audio para reutilizarla entre escenas.
 
 ## 🧪 Laboratorio guiado
 
@@ -133,10 +133,10 @@ Sí, `set_bus_volume_db(0, db)` afecta a toda la salida. Es la base de un contro
 
 ## 🔗 Referencias
 
-- [Buses de audio — documentación de Godot](https://docs.godotengine.org/en/stable/tutorials/audio/audio_buses.html)
-- [AudioServer — referencia de clase](https://docs.godotengine.org/en/stable/classes/class_audioserver.html)
-- [Efectos de audio — AudioEffect](https://docs.godotengine.org/en/stable/classes/class_audioeffect.html)
-- [Guía de mezcla dinámica y ducking (GDC)](https://www.gdcvault.com/)
+- [Buses de audio — documentación de Godot](https://docs.godotengine.org/en/4.3/tutorials/audio/audio_buses.html) · uso: se instala o se consulta en la preparación
+- [AudioServer — referencia de clase](https://docs.godotengine.org/en/4.3/classes/class_audioserver.html) · uso: se instala o se consulta en la preparación
+- [Efectos de audio — AudioEffect](https://docs.godotengine.org/en/4.3/classes/class_audioeffect.html) · uso: respalda el Tema 1 «Buses de audio»
+- [Guía de mezcla dinámica y ducking (GDC)](https://www.gdcvault.com/) — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 7 «Ducking»
 
 ## ⬅️ Clase anterior
 

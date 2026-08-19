@@ -424,11 +424,11 @@ Implementa un sistema completo contra el stutter de compilación: analizador de 
 
 ## 🔗 Referencias
 
-- Godot Docs — Compilación de shaders y precarga: <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shader_preprocessor.html>
-- Vulkan Docs — Pipeline cache: <https://docs.vulkan.org/spec/latest/chapters/pipelines.html>
-- Microsoft — Pipeline state objects en DirectX 12: <https://learn.microsoft.com/windows/win32/direct3d12/managing-graphics-pipeline-state-in-direct3d-12>
-- RenderDoc — captura y análisis de frames: <https://renderdoc.org/>
-- Akenine-Möller et al. — *Real-Time Rendering*, capítulo de pipeline: <https://www.realtimerendering.com/>
+- Godot Docs — Compilación de shaders y precarga: <https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/shader_preprocessor.html> · uso: respalda el Tema 1 «La cadena de compilación»
+- Vulkan Docs — Pipeline cache: <https://docs.vulkan.org/spec/latest/chapters/pipelines.html> · uso: respalda el Tema 5 «Caché del driver»
+- Microsoft — Pipeline state objects en DirectX 12: <https://learn.microsoft.com/windows/win32/direct3d12/managing-graphics-pipeline-state-in-direct3d-12> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- RenderDoc — captura y análisis de frames: <https://renderdoc.org/> · uso: se instala o se consulta en la preparación
+- Akenine-Möller et al. — *Real-Time Rendering*, capítulo de pipeline: <https://www.realtimerendering.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

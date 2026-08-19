@@ -171,10 +171,10 @@ Simula un salto en 2D con Euler semi-implícito: impulso vertical de 12 m/s, vel
 
 ## 🔗 Referencias
 
-- Ian Millington, *Game Physics Engine Development*, 2ª ed., capítulos de partículas e integración.
-- Glenn Fiedler, "Integration Basics": <https://gafferongames.com/post/integration_basics/>
-- Documentación de Python: <https://docs.python.org/3/>
-- Second law of Newton (F = ma): <https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion>
+- Ian Millington, *Game Physics Engine Development*, 2ª ed., capítulos de partículas e integración. · uso: respalda el Tema 4 «Integración de Euler explícita»
+- Glenn Fiedler, "Integration Basics": <https://gafferongames.com/post/integration_basics/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Documentación de Python: <https://docs.python.org/3/> · uso: se instala o se consulta en la preparación
+- Second law of Newton (F = ma): <https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

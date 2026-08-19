@@ -181,10 +181,10 @@ La Parte 19 no duplica lo de aquí: **no vuelve a explicar Nakama ni Steam**. Ex
 
 ## 🔗 Referencias
 
-- Heroic Labs — Documentación de Nakama: <https://heroiclabs.com/docs/>
-- Nakama Godot client (GitHub): <https://github.com/heroiclabs/nakama-godot>
-- GodotSteam — Documentación: <https://godotsteam.com/>
-- Steamworks — Lobbies y matchmaking: <https://partner.steamgames.com/doc/features/multiplayer/matchmaking>
+- Heroic Labs — Documentación de Nakama: <https://heroiclabs.com/docs/> · uso: se instala o se consulta en la preparación
+- Nakama Godot client (GitHub): <https://github.com/heroiclabs/nakama-godot> · uso: se instala o se consulta en la preparación
+- GodotSteam — Documentación: <https://godotsteam.com/> · uso: se instala o se consulta en la preparación
+- Steamworks — Lobbies y matchmaking: <https://partner.steamgames.com/doc/features/multiplayer/matchmaking> · uso: respalda el Tema 3 «Matchmaking gestionado»
 
 ## ⬅️ Clase anterior
 

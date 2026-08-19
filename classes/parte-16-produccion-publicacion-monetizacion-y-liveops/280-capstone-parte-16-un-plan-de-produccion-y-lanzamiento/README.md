@@ -128,10 +128,10 @@ Produce el plan de producción y lanzamiento completo de tu juego, integrando la
 
 ## 🔗 Referencias
 
-- Steamworks — Store assets y página de tienda: <https://partner.steamgames.com/doc/store/assets>
-- Steamworks — Marketing y visibilidad: <https://partner.steamgames.com/doc/marketing>
-- GDC Vault — charlas de producción y lanzamiento: <https://www.gdcvault.com/>
-- Chris Zukowski — How to Market a Game: <https://howtomarketagame.com/>
+- Steamworks — Store assets y página de tienda: <https://partner.steamgames.com/doc/store/assets> · uso: se instala o se consulta en la preparación
+- Steamworks — Marketing y visibilidad: <https://partner.steamgames.com/doc/marketing> · uso: se instala o se consulta en la preparación
+- GDC Vault — charlas de producción y lanzamiento: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 2 «Hitos de producción»
+- Chris Zukowski — How to Market a Game: <https://howtomarketagame.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

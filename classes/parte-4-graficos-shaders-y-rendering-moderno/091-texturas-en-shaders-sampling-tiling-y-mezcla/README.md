@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas **dos texturas**: una base (por ejemplo, un patrón de lava/roca) y otra que sirva de máscara o segunda capa (por ejemplo, grietas o nubes). Cualquier par de PNG te sirve para practicar. Trabajaremos con un shader `canvas_item` sobre un `Sprite2D` o `ColorRect`. Abre Godot 4.x y ten a mano el Inspector para arrastrar las texturas a los uniforms. Consulta cómo se declaran los uniforms de textura en la [referencia del lenguaje de Godot](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html#uniforms) y el capítulo de texturas en [The Book of Shaders](https://thebookofshaders.com/09/).
+Necesitas **dos texturas**: una base (por ejemplo, un patrón de lava/roca) y otra que sirva de máscara o segunda capa (por ejemplo, grietas o nubes). Cualquier par de PNG te sirve para practicar. Trabajaremos con un shader `canvas_item` sobre un `Sprite2D` o `ColorRect`. Abre Godot 4.x y ten a mano el Inspector para arrastrar las texturas a los uniforms. Consulta cómo se declaran los uniforms de textura en la [referencia del lenguaje de Godot](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/shading_language.html#uniforms) y el capítulo de texturas en [The Book of Shaders](https://thebookofshaders.com/09/).
 
 ## 🧪 Laboratorio guiado
 
@@ -157,10 +157,10 @@ Sí: encadena `mix` o usa varias máscaras. Es la base de los materiales de terr
 
 ## 🔗 Referencias
 
-- [Uniforms y sampler2D en el lenguaje de Godot](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html)
-- [Shaders canvas_item — built-ins de textura](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/canvas_item_shader.html)
-- [The Book of Shaders — texturas](https://thebookofshaders.com/09/)
-- [The Book of Shaders — ruido para máscaras](https://thebookofshaders.com/11/)
+- [Uniforms y sampler2D en el lenguaje de Godot](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/shading_language.html) · uso: se instala o se consulta en la preparación
+- [Shaders canvas_item — built-ins de textura](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/canvas_item_shader.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [The Book of Shaders — texturas](https://thebookofshaders.com/09/) · uso: se instala o se consulta en la preparación
+- [The Book of Shaders — ruido para máscaras](https://thebookofshaders.com/11/) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

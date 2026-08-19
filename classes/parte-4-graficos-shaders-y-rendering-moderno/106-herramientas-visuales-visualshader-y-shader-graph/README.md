@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Trabajarás dentro del editor de Godot 4, sin salir a un archivo `.gdshader`. Crea un `ShaderMaterial` y, en su propiedad **Shader**, elige **New VisualShader**. Se abre el panel de grafo en la parte inferior; con clic derecho o el botón **Add Node** insertas nodos. Ten a mano la lista de nodos disponibles en la [documentación de VisualShader de Godot](https://docs.godotengine.org/en/stable/tutorials/shaders/visual_shaders.html). Para el paralelo conceptual, es útil ojear la [documentación de Shader Graph de Unity](https://docs.unity3d.com/Packages/com.unity.shadergraph@latest). No necesitas escribir código salvo para leer el que Godot genera automáticamente.
+Trabajarás dentro del editor de Godot 4, sin salir a un archivo `.gdshader`. Crea un `ShaderMaterial` y, en su propiedad **Shader**, elige **New VisualShader**. Se abre el panel de grafo en la parte inferior; con clic derecho o el botón **Add Node** insertas nodos. Ten a mano la lista de nodos disponibles en la [documentación de VisualShader de Godot](https://docs.godotengine.org/en/4.3/tutorials/shaders/visual_shaders.html). Para el paralelo conceptual, es útil ojear la [documentación de Shader Graph de Unity](https://docs.unity3d.com/Packages/com.unity.shadergraph@latest). No necesitas escribir código salvo para leer el que Godot genera automáticamente.
 
 ## 🧪 Laboratorio guiado
 
@@ -148,10 +148,10 @@ Conceptualmente sí: nodos de entrada, operaciones y una salida de material. Cam
 
 ## 🔗 Referencias
 
-- [VisualShaders — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/shaders/visual_shaders.html)
-- [Lenguaje de shaders de Godot (código equivalente)](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html)
-- [Shader Graph — Unity Docs](https://docs.unity3d.com/Packages/com.unity.shadergraph@latest)
-- [Material Editor — Unreal Engine Docs](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-material-editor-user-guide)
+- [VisualShaders — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/shaders/visual_shaders.html) · uso: se instala o se consulta en la preparación
+- [Lenguaje de shaders de Godot (código equivalente)](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/shading_language.html) · uso: respalda el Tema 2 «Grafo vs código»
+- [Shader Graph — Unity Docs](https://docs.unity3d.com/Packages/com.unity.shadergraph@latest) · uso: se instala o se consulta en la preparación
+- [Material Editor — Unreal Engine Docs](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-material-editor-user-guide) · uso: respalda el Tema 8 «Paralelo con Unity/Unreal»
 
 ## ⬅️ Clase anterior
 

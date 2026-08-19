@@ -364,11 +364,11 @@ Implementa el sistema con **al menos cuatro facciones**, matriz de relaciones, c
 
 ## 🔗 Referencias
 
-- Ian Millington & John Funge — *Artificial Intelligence for Games*: <https://www.routledge.com/Artificial-Intelligence-for-Games/Millington/p/book/9780367670566>
-- GDC Vault — charlas sobre sistemas de facciones, reputación y simulación social: <https://www.gdcvault.com/>
-- Godot Docs — Señales y diccionarios: <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>
-- Godot Docs — `@GlobalScope.move_toward` y funciones matemáticas: <https://docs.godotengine.org/en/stable/classes/class_@globalscope.html>
-- Robert Nystrom — *Game Programming Patterns*, Observer: <https://gameprogrammingpatterns.com/observer.html>
+- Ian Millington & John Funge — *Artificial Intelligence for Games*: <https://www.routledge.com/Artificial-Intelligence-for-Games/Millington/p/book/9780367670566> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas sobre sistemas de facciones, reputación y simulación social: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 3 «Reputación del jugador»
+- Godot Docs — Señales y diccionarios: <https://docs.godotengine.org/en/4.3/classes/class_dictionary.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `@GlobalScope.move_toward` y funciones matemáticas: <https://docs.godotengine.org/en/4.3/classes/class_@globalscope.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Robert Nystrom — *Game Programming Patterns*, Observer: <https://gameprogrammingpatterns.com/observer.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

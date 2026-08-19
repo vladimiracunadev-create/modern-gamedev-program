@@ -61,7 +61,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Godot 4.x con `Viewport.scaling_3d_scale` y `scaling_3d_mode` (que incluye FSR), y `Engine.get_frames_per_second()` / `Performance.TIME_PROCESS` para medir. Trabajaremos en `res://escalado/`. La [documentación de escalado 3D de Godot](https://docs.godotengine.org/en/stable/tutorials/3d/resolution_scaling.html) cubre lo que el motor ya ofrece; el controlador de resolución dinámica lo construimos nosotros.
+Godot 4.x con `Viewport.scaling_3d_scale` y `scaling_3d_mode` (que incluye FSR), y `Engine.get_frames_per_second()` / `Performance.TIME_PROCESS` para medir. Trabajaremos en `res://escalado/`. La [documentación de escalado 3D de Godot](https://docs.godotengine.org/en/4.3/tutorials/3d/resolution_scaling.html) cubre lo que el motor ya ofrece; el controlador de resolución dinámica lo construimos nosotros.
 
 ## 🧪 Laboratorio guiado
 
@@ -395,12 +395,12 @@ Implementa un sistema de escalado con: resolución dinámica con umbrales separa
 
 ## 🔗 Referencias
 
-- Godot Docs — Escalado de resolución 3D: <https://docs.godotengine.org/en/stable/tutorials/3d/resolution_scaling.html>
-- Godot Docs — `Viewport` (`scaling_3d_scale`, `scaling_3d_mode`): <https://docs.godotengine.org/en/stable/classes/class_viewport.html>
-- AMD — FidelityFX Super Resolution (documentación abierta): <https://gpuopen.com/fidelityfx-superresolution/>
-- NVIDIA — DLSS para desarrolladores: <https://developer.nvidia.com/rtx/dlss>
-- Intel — XeSS: <https://www.intel.com/content/www/us/en/developer/topic-technology/gamedev/xess.html>
-- Akenine-Möller et al. — *Real-Time Rendering*, capítulo de muestreo y reconstrucción: <https://www.realtimerendering.com/>
+- Godot Docs — Escalado de resolución 3D: <https://docs.godotengine.org/en/4.3/tutorials/3d/resolution_scaling.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `Viewport` (`scaling_3d_scale`, `scaling_3d_mode`): <https://docs.godotengine.org/en/4.3/classes/class_viewport.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- AMD — FidelityFX Super Resolution (documentación abierta): <https://gpuopen.com/fidelityfx-superresolution/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- NVIDIA — DLSS para desarrolladores: <https://developer.nvidia.com/rtx/dlss> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Intel — XeSS: <https://www.intel.com/content/www/us/en/developer/topic-technology/gamedev/xess.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Akenine-Möller et al. — *Real-Time Rendering*, capítulo de muestreo y reconstrucción: <https://www.realtimerendering.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

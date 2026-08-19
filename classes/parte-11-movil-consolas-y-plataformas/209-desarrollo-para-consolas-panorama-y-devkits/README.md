@@ -129,11 +129,11 @@ Elabora un **informe de viabilidad de porteo** de un juego propio (o de ejemplo)
 
 ## 🔗 Referencias
 
-- W4 Games (porteo de Godot a consolas): <https://www.w4games.com>
-- Lone Wolf Technology (porting house third party): <https://www.lonewolftechnology.com>
-- Nintendo Developer Portal: <https://developer.nintendo.com>
-- ID@Xbox: <https://www.xbox.com/developers/id>
-- PlayStation Partners: <https://partners.playstation.net>
+- W4 Games (porteo de Godot a consolas): <https://www.w4games.com> · uso: se instala o se consulta en la preparación
+- Lone Wolf Technology (porting house third party): <https://www.lonewolftechnology.com> · uso: respalda el Tema 6 «Porteadores (W4, third parties)»
+- Nintendo Developer Portal: <https://developer.nintendo.com> · uso: se instala o se consulta en la preparación
+- ID@Xbox: <https://www.xbox.com/developers/id> · uso: se instala o se consulta en la preparación
+- PlayStation Partners: <https://partners.playstation.net> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

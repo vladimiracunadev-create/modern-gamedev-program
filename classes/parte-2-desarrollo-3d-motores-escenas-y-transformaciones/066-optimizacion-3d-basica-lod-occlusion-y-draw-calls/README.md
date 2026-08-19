@@ -46,7 +46,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x desde <https://godotengine.org/download>. Las guías clave son "Optimization using MultiMesh" en <https://docs.godotengine.org/en/stable/tutorials/performance/using_multimesh.html>, "Occlusion culling" en <https://docs.godotengine.org/en/stable/tutorials/3d/occlusion_culling.html> y "Visibility ranges (HLOD)" en <https://docs.godotengine.org/en/stable/tutorials/3d/visibility_ranges.html>. El monitor de rendimiento está en el editor bajo la pestaña **Depurador → Monitores** al ejecutar el juego.
+Necesitas Godot 4.x desde <https://godotengine.org/download>. Las guías clave son "Optimization using MultiMesh" en <https://docs.godotengine.org/en/4.3/tutorials/performance/using_multimesh.html>, "Occlusion culling" en <https://docs.godotengine.org/en/4.3/tutorials/3d/occlusion_culling.html> y "Visibility ranges (HLOD)" en <https://docs.godotengine.org/en/4.3/tutorials/3d/visibility_ranges.html>. El monitor de rendimiento está en el editor bajo la pestaña **Depurador → Monitores** al ejecutar el juego.
 
 ## 🧪 Laboratorio guiado
 
@@ -153,10 +153,10 @@ Crea una demo comparativa con un botón o tecla que alterne entre dibujar **3000
 
 ## 🔗 Referencias
 
-- Godot Docs — Optimization using MultiMesh: <https://docs.godotengine.org/en/stable/tutorials/performance/using_multimesh.html>
-- Godot Docs — Occlusion culling: <https://docs.godotengine.org/en/stable/tutorials/3d/occlusion_culling.html>
-- Godot Docs — Visibility ranges (HLOD): <https://docs.godotengine.org/en/stable/tutorials/3d/visibility_ranges.html>
-- Godot Docs — Clase MultiMeshInstance3D: <https://docs.godotengine.org/en/stable/classes/class_multimeshinstance3d.html>
+- Godot Docs — Optimization using MultiMesh: <https://docs.godotengine.org/en/4.3/tutorials/performance/using_multimesh.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Occlusion culling: <https://docs.godotengine.org/en/4.3/tutorials/3d/occlusion_culling.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Visibility ranges (HLOD): <https://docs.godotengine.org/en/4.3/tutorials/3d/visibility_ranges.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Clase MultiMeshInstance3D: <https://docs.godotengine.org/en/4.3/classes/class_multimeshinstance3d.html> · uso: respalda el Tema 3 «MultiMeshInstance3D»
 
 ## ⬅️ Clase anterior
 

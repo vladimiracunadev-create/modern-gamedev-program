@@ -46,7 +46,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Parte de la escena `Player` de la clase 031, con su `AnimatedSprite2D`. Necesitas un nivel con algo de extensión horizontal para notar los límites (basta con un suelo largo `StaticBody2D`). Documentación de referencia: [Camera2D](https://docs.godotengine.org/en/stable/classes/class_camera2d.html) y la guía de [cámaras 2D](https://docs.godotengine.org/en/stable/tutorials/2d/2d_transforms.html).
+Parte de la escena `Player` de la clase 031, con su `AnimatedSprite2D`. Necesitas un nivel con algo de extensión horizontal para notar los límites (basta con un suelo largo `StaticBody2D`). Documentación de referencia: [Camera2D](https://docs.godotengine.org/en/4.3/classes/class_camera2d.html) y la guía de [cámaras 2D](https://docs.godotengine.org/en/4.3/tutorials/2d/2d_transforms.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -180,10 +180,10 @@ Crea una cámara reutilizable con suavizado, límites de nivel, look-ahead y una
 
 ## 🔗 Referencias
 
-- [Camera2D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_camera2d.html)
-- [Transformaciones 2D y cámaras — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/2d/2d_transforms.html)
-- [Tween — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_tween.html)
-- [Métodos de aleatoriedad (RandomNumberGenerator) — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/math/random_number_generation.html)
+- [Camera2D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_camera2d.html) · uso: se instala o se consulta en la preparación
+- [Transformaciones 2D y cámaras — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/2d/2d_transforms.html) · uso: se instala o se consulta en la preparación
+- [Tween — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_tween.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Métodos de aleatoriedad (RandomNumberGenerator) — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/math/random_number_generation.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas **Godot 4.x** ([godotengine.org](https://godotengine.org)). Crea un proyecto 3D y una escena con un `Node3D` raíz. Vas a usar dos rutas: la del motor (`Path3D` con `PathFollow3D`) y la manual (una Bézier cúbica evaluada por código). Para ver el objeto añade un `MeshInstance3D` con una `BoxMesh` o `SphereMesh` y una `Camera3D` que mire la escena. Ten a mano la documentación de [Curve3D](https://docs.godotengine.org/en/stable/classes/class_curve3d.html) y [PathFollow3D](https://docs.godotengine.org/en/stable/classes/class_pathfollow3d.html). El editor permite dibujar la curva con el mouse desde el `Path3D`, pero también la crearemos por código para que el laboratorio sea reproducible.
+Necesitas **Godot 4.x** ([godotengine.org](https://godotengine.org)). Crea un proyecto 3D y una escena con un `Node3D` raíz. Vas a usar dos rutas: la del motor (`Path3D` con `PathFollow3D`) y la manual (una Bézier cúbica evaluada por código). Para ver el objeto añade un `MeshInstance3D` con una `BoxMesh` o `SphereMesh` y una `Camera3D` que mire la escena. Ten a mano la documentación de [Curve3D](https://docs.godotengine.org/en/4.3/classes/class_curve3d.html) y [PathFollow3D](https://docs.godotengine.org/en/4.3/classes/class_pathfollow3d.html). El editor permite dibujar la curva con el mouse desde el `Path3D`, pero también la crearemos por código para que el laboratorio sea reproducible.
 
 ## 🧪 Laboratorio guiado
 
@@ -164,10 +164,10 @@ Crea una plataforma móvil (`AnimatableBody3D` o `MeshInstance3D`) que recorra u
 
 ## 🔗 Referencias
 
-- Godot Docs — Curve3D: <https://docs.godotengine.org/en/stable/classes/class_curve3d.html>
-- Godot Docs — PathFollow3D: <https://docs.godotengine.org/en/stable/classes/class_pathfollow3d.html>
-- Godot Docs — Path2D / PathFollow2D: <https://docs.godotengine.org/en/stable/classes/class_path2d.html>
-- Freya Holmér — The Beauty of Bézier Curves: <https://www.youtube.com/watch?v=aVwxzDHniEw>
+- Godot Docs — Curve3D: <https://docs.godotengine.org/en/4.3/classes/class_curve3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — PathFollow3D: <https://docs.godotengine.org/en/4.3/classes/class_pathfollow3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Path2D / PathFollow2D: <https://docs.godotengine.org/en/4.3/classes/class_path2d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Freya Holmér — The Beauty of Bézier Curves: <https://www.youtube.com/watch?v=aVwxzDHniEw> · uso: respalda el Tema 2 «Bézier cuadrática (3 puntos)»
 
 ## ⬅️ Clase anterior
 

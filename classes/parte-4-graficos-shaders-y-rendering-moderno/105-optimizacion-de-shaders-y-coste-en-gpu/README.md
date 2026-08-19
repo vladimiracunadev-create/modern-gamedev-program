@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Trabajarás sobre una escena 3D con un plano o quad grande a pantalla completa para amplificar el coste de fragment. Usarás el monitor **Depurar → Monitores** de Godot 4 y, en concreto, la métrica de tiempo de render. Para lecturas más precisas del tiempo de GPU, activa **Project Settings → Debug → Settings → Frame Profiler** o consulta `Performance.get_monitor(Performance.TIME_PROCESS)` y los monitores de render. Ten a mano la [guía de optimización de shaders de Godot](https://docs.godotengine.org/en/stable/tutorials/performance/index.html). Idealmente ejecuta a resolución alta (por ejemplo ventana grande) para que las diferencias sean visibles.
+Trabajarás sobre una escena 3D con un plano o quad grande a pantalla completa para amplificar el coste de fragment. Usarás el monitor **Depurar → Monitores** de Godot 4 y, en concreto, la métrica de tiempo de render. Para lecturas más precisas del tiempo de GPU, activa **Project Settings → Debug → Settings → Frame Profiler** o consulta `Performance.get_monitor(Performance.TIME_PROCESS)` y los monitores de render. Ten a mano la [guía de optimización de shaders de Godot](https://docs.godotengine.org/en/4.3/tutorials/performance/index.html). Idealmente ejecuta a resolución alta (por ejemplo ventana grande) para que las diferencias sean visibles.
 
 ## 🧪 Laboratorio guiado
 
@@ -176,10 +176,10 @@ Sube el tiempo cuando hay capas transparentes o partículas apiladas. Reduce el 
 
 ## 🔗 Referencias
 
-- [Optimización de rendimiento — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/performance/index.html)
-- [Depuración y monitores de rendimiento — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/scripting/debug/the_profiler.html)
-- [Lenguaje de shaders de Godot: precisión y funciones](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html)
-- [Real-Time Rendering — sitio oficial del libro](https://www.realtimerendering.com/)
+- [Optimización de rendimiento — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/performance/index.html) · uso: se instala o se consulta en la preparación
+- [Depuración y monitores de rendimiento — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/scripting/debug/the_profiler.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Lenguaje de shaders de Godot: precisión y funciones](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/shading_language.html) · uso: respalda el Tema 5 «Precisión (`mediump`)»
+- [Real-Time Rendering — sitio oficial del libro](https://www.realtimerendering.com/) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -131,10 +131,10 @@ Publica tu capstone (o su vertical slice) en **itch.io** con página completa y 
 
 ## 🔗 Referencias
 
-- itch.io — cómo subir y publicar un juego: <https://itch.io/docs/creators/getting-started>
-- Butler — CLI para publicar builds: <https://itch.io/docs/butler/>
-- Game Accessibility Guidelines — accesibilidad mínima: <https://gameaccessibilityguidelines.com/>
-- Godot Docs — exportar proyectos: <https://docs.godotengine.org/en/stable/tutorials/export/index.html>
+- itch.io — cómo subir y publicar un juego: <https://itch.io/docs/creators/getting-started> · uso: respalda el Tema 8 «Publicar en itch.io»
+- Butler — CLI para publicar builds: <https://itch.io/docs/butler/> · uso: se instala o se consulta en la preparación
+- Game Accessibility Guidelines — accesibilidad mínima: <https://gameaccessibilityguidelines.com/> · uso: respalda el Tema 3 «Accesibilidad mínima»
+- Godot Docs — exportar proyectos: <https://docs.godotengine.org/en/4.3/tutorials/export/index.html> · uso: respalda el Tema 6 «Empaquetado / export»
 
 ## ⬅️ Clase anterior
 

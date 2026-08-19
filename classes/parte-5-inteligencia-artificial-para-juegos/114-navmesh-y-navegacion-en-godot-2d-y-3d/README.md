@@ -43,7 +43,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas **Godot 4.x** (estable). Trabajaremos con dos escenas separadas: una 2D y una 3D. Ten a mano la documentación de [NavigationServer2D](https://docs.godotengine.org/en/stable/classes/class_navigationserver2d.html), [NavigationAgent2D](https://docs.godotengine.org/en/stable/classes/class_navigationagent2d.html) y la guía [Using NavigationAgents](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html). Crea una carpeta `res://ia/navegacion/` para los scripts. En **Project Settings → Navigation** puedes activar la visualización de depuración para ver los polígonos horneados.
+Necesitas **Godot 4.x** (estable). Trabajaremos con dos escenas separadas: una 2D y una 3D. Ten a mano la documentación de [NavigationServer2D](https://docs.godotengine.org/en/4.3/classes/class_navigationserver2d.html), [NavigationAgent2D](https://docs.godotengine.org/en/4.3/classes/class_navigationagent2d.html) y la guía [Using NavigationAgents](https://docs.godotengine.org/en/4.3/tutorials/navigation/navigation_using_navigationagents.html). Crea una carpeta `res://ia/navegacion/` para los scripts. En **Project Settings → Navigation** puedes activar la visualización de depuración para ver los polígonos horneados.
 
 ## 🧪 Laboratorio guiado
 
@@ -189,10 +189,10 @@ Crea un nivel 2D con **tres salas** conectadas por pasillos y un `NavigationLink
 
 ## 🔗 Referencias
 
-- Godot Docs — Navigation overview: <https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_introduction_2d.html>
-- Godot Docs — Using NavigationAgents: <https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html>
-- Godot Docs — Using NavigationObstacles: <https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationobstacles.html>
-- Godot Docs — Using NavigationLinks: <https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationlinks.html>
+- Godot Docs — Navigation overview: <https://docs.godotengine.org/en/4.3/tutorials/navigation/navigation_introduction_2d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Using NavigationAgents: <https://docs.godotengine.org/en/4.3/tutorials/navigation/navigation_using_navigationagents.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Using NavigationObstacles: <https://docs.godotengine.org/en/4.3/tutorials/navigation/navigation_using_navigationobstacles.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Using NavigationLinks: <https://docs.godotengine.org/en/4.3/tutorials/navigation/navigation_using_navigationlinks.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Seguimos en **Blender 4.x** (<https://www.blender.org/download/>). Cambia el layout superior a la pestaña **UV Editing**, que divide la pantalla en el editor UV (izquierda) y el viewport 3D (derecha). Necesitarás el prop modelado en la clase 178; si no lo tienes, un cubo o cilindro sirven para practicar.
 
-Para verificar densidad y distorsión usaremos una **textura de comprobación** (checker) generada dentro de Blender, sin descargas. Ten a mano la documentación de UV mapping: <https://docs.blender.org/manual/en/latest/modeling/meshes/uv/index.html>. Opcional pero útil: el add-on **Magic UV** o el propio **UVPackmaster** para packing avanzado, aunque el packing nativo basta para este laboratorio.
+Para verificar densidad y distorsión usaremos una **textura de comprobación** (checker) generada dentro de Blender, sin descargas. Ten a mano la documentación de UV mapping: <https://docs.blender.org/manual/en/4.2/modeling/meshes/uv/index.html>. Opcional pero útil: el add-on **Magic UV** o el propio **UVPackmaster** para packing avanzado, aunque el packing nativo basta para este laboratorio.
 
 Antes de empezar, activa en el editor UV el overlay **Display Stretching** (menú de overlays), que colorea las caras según cuánto se deforman: azul es sano, rojo es estiramiento severo. Es el termómetro visual que usarás para decidir dónde reforzar seams o rehacer el unwrap.
 
@@ -131,10 +131,10 @@ Despliega por completo tu prop de la clase 178 con seams bien escondidas, iguala
 
 ## 🔗 Referencias
 
-- Blender Manual — UV Mapping: <https://docs.blender.org/manual/en/latest/modeling/meshes/uv/index.html>
-- Blender Manual — Unwrapping: <https://docs.blender.org/manual/en/latest/modeling/meshes/uv/unwrapping/index.html>
-- Blender Manual — Packing Islands: <https://docs.blender.org/manual/en/latest/modeling/meshes/uv/editing.html>
-- glTF texture coordinates (spec): <https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html>
+- Blender Manual — UV Mapping: <https://docs.blender.org/manual/en/4.2/modeling/meshes/uv/index.html> · uso: se instala o se consulta en la preparación
+- Blender Manual — Unwrapping: <https://docs.blender.org/manual/en/4.2/modeling/meshes/uv/unwrapping/index.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Blender Manual — Packing Islands: <https://docs.blender.org/manual/en/4.2/modeling/meshes/uv/editing.html> · uso: respalda el Tema 4 «Islas UV y packing»
+- glTF texture coordinates (spec): <https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html> · uso: respalda el Tema 6 «Texture atlas»
 
 ## ⬅️ Clase anterior
 

@@ -401,11 +401,11 @@ Implementa observabilidad completa: logs estructurados con niveles, contexto glo
 
 ## 🔗 Referencias
 
-- OpenTelemetry — qué es y modelo de logs, métricas y trazas: <https://opentelemetry.io/docs/what-is-opentelemetry/>
-- Google — *Site Reliability Engineering*, capítulos de monitorización y alerting: <https://sre.google/books/>
-- Godot Docs — `OS` (información de sistema y memoria): <https://docs.godotengine.org/en/stable/classes/class_os.html>
-- Godot Docs — `Engine` y `RenderingServer` (versión y adaptador de vídeo): <https://docs.godotengine.org/en/stable/classes/class_renderingserver.html>
-- Godot Docs — Depuración y `get_stack`: <https://docs.godotengine.org/en/stable/tutorials/scripting/debug/index.html>
+- OpenTelemetry — qué es y modelo de logs, métricas y trazas: <https://opentelemetry.io/docs/what-is-opentelemetry/> · uso: se instala o se consulta en la preparación
+- Google — *Site Reliability Engineering*, capítulos de monitorización y alerting: <https://sre.google/books/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `OS` (información de sistema y memoria): <https://docs.godotengine.org/en/4.3/classes/class_os.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `Engine` y `RenderingServer` (versión y adaptador de vídeo): <https://docs.godotengine.org/en/4.3/classes/class_renderingserver.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Depuración y `get_stack`: <https://docs.godotengine.org/en/4.3/tutorials/scripting/debug/index.html> · uso: respalda el Tema 9 «Debug vs producción»
 
 ## ⬅️ Clase anterior
 

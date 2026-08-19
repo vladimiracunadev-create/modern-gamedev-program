@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Trabajaremos con **Godot 4.x** midiendo desde código con `Time.get_ticks_usec()` y leyendo `Performance.get_monitor()`, apoyándonos en los **Monitors** del Debugger para ver la estabilidad del frame time en el tiempo. La configuración de vsync está en **Project Settings → Display → Window → V-Sync Mode**, y también se puede tocar por código con `DisplayServer`.
 
-La guía relevante es "General optimization tips": <https://docs.godotengine.org/en/stable/tutorials/performance/general_optimization.html>. Para los ajustes del motor consulta la clase `Engine`: <https://docs.godotengine.org/en/stable/classes/class_engine.html>.
+La guía relevante es "General optimization tips": <https://docs.godotengine.org/en/4.3/tutorials/performance/general_optimization.html>. Para los ajustes del motor consulta la clase `Engine`: <https://docs.godotengine.org/en/4.3/classes/class_engine.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -158,10 +158,10 @@ Diseña el presupuesto de frame de un juego objetivo 60 FPS: reparte los 16.6 ms
 
 ## 🔗 Referencias
 
-- Godot Docs — General optimization tips: <https://docs.godotengine.org/en/stable/tutorials/performance/general_optimization.html>
-- Godot Docs — Engine (clase): <https://docs.godotengine.org/en/stable/classes/class_engine.html>
-- Godot Docs — Fixing jitter, stutter and physics interpolation: <https://docs.godotengine.org/en/stable/tutorials/physics/interpolation/physics_interpolation_introduction.html>
-- Jason Gregory, "Game Engine Architecture", 3.ª ed., sección sobre el bucle de juego y frame timing.
+- Godot Docs — General optimization tips: <https://docs.godotengine.org/en/4.3/tutorials/performance/general_optimization.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Engine (clase): <https://docs.godotengine.org/en/4.3/classes/class_engine.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Fixing jitter, stutter and physics interpolation: <https://docs.godotengine.org/en/4.3/tutorials/rendering/jitter_stutter.html> · uso: respalda el Tema 7 «`Engine.physics_ticks_per_second`»
+- Jason Gregory, "Game Engine Architecture", 3.ª ed., sección sobre el bucle de juego y frame timing. · uso: respalda el Tema 1 «El presupuesto de frame en ms»
 
 ## ⬅️ Clase anterior
 

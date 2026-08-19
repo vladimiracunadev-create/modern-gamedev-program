@@ -43,7 +43,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x. Trabajaremos en 2D con una grilla lógica: define un tamaño de celda (por ejemplo 32 px) y un tamaño de grilla (por ejemplo 20×15). El agente será un `CharacterBody2D`. Para visualizar, usaremos `_draw()` en un `Node2D` que pinte los muros y la ruta. Repasa la clase [AStarGrid2D](https://docs.godotengine.org/en/stable/classes/class_astargrid2d.html) y, para la teoría, la excelente guía interactiva de [Red Blob Games sobre A*](https://www.redblobgames.com/pathfinding/a-star/introduction.html). No necesitas navmesh para este laboratorio: la grilla es toda tu representación del mundo.
+Necesitas Godot 4.x. Trabajaremos en 2D con una grilla lógica: define un tamaño de celda (por ejemplo 32 px) y un tamaño de grilla (por ejemplo 20×15). El agente será un `CharacterBody2D`. Para visualizar, usaremos `_draw()` en un `Node2D` que pinte los muros y la ruta. Repasa la clase [AStarGrid2D](https://docs.godotengine.org/en/4.3/classes/class_astargrid2d.html) y, para la teoría, la excelente guía interactiva de [Red Blob Games sobre A*](https://www.redblobgames.com/pathfinding/a-star/introduction.html). No necesitas navmesh para este laboratorio: la grilla es toda tu representación del mundo.
 
 ## 🧪 Laboratorio guiado
 
@@ -180,10 +180,10 @@ En su forma básica sí. Para objetivos móviles se recalcula periódicamente o 
 
 ## 🔗 Referencias
 
-- [AStarGrid2D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_astargrid2d.html)
-- [AStar2D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_astar2d.html)
-- [Red Blob Games — Introduction to A*](https://www.redblobgames.com/pathfinding/a-star/introduction.html)
-- [Amit's A* Pages (Stanford)](http://theory.stanford.edu/~amitp/GameProgramming/)
+- [AStarGrid2D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_astargrid2d.html) · uso: se instala o se consulta en la preparación
+- [AStar2D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_astar2d.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Red Blob Games — Introduction to A*](https://www.redblobgames.com/pathfinding/a-star/introduction.html) · uso: se instala o se consulta en la preparación
+- [Amit's A* Pages (Stanford)](https://theory.stanford.edu/~amitp/GameProgramming/) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

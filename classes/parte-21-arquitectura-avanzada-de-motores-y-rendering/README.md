@@ -10,7 +10,7 @@
 - Akenine-Möller, Haines & Hoffman — *Real-Time Rendering* (4.ª ed.): <https://www.realtimerendering.com/>
 - Documentación de [Vulkan](https://docs.vulkan.org/), [DirectX 12](https://learn.microsoft.com/windows/win32/direct3d12/), [Metal](https://developer.apple.com/metal/) y [WebGPU](https://www.w3.org/TR/webgpu/).
 - [Khronos Group](https://www.khronos.org/) — estándares abiertos de gráficos y cómputo.
-- Documentación del [rendering de Godot 4](https://docs.godotengine.org/en/stable/tutorials/rendering/index.html) y de sus servidores.
+- Documentación del [rendering de Godot 4](https://docs.godotengine.org/en/4.3/tutorials/rendering/index.html) y de sus servidores.
 - Charlas técnicas de GDC y SIGGRAPH sobre arquitectura de motores y rendering: <https://www.gdcvault.com/>
 
 ---

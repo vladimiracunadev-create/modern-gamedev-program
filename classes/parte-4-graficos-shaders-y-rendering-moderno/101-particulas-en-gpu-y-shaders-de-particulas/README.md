@@ -47,8 +47,8 @@ Al finalizar, el alumno podrá:
 
 Godot 4.x, Forward+ (los `GPUParticles` requieren GPU con compute; en Compatibility hay limitaciones). Añade un `GPUParticles3D` a la escena. Necesitas un `QuadMesh` como *Draw Pass Mesh* y un `StandardMaterial3D` o `ShaderMaterial` para dibujar cada partícula. Para el flipbook, ten una textura de atlas (por ejemplo 4×4 fotogramas de humo).
 
-- GPUParticles3D: <https://docs.godotengine.org/en/stable/tutorials/3d/particles/index.html>
-- Particle shaders: <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/particle_shader.html>
+- GPUParticles3D: <https://docs.godotengine.org/en/4.3/tutorials/3d/particles/index.html>
+- Particle shaders: <https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/particle_shader.html>
 
 ## 🧪 Laboratorio guiado
 
@@ -189,9 +189,9 @@ Construye un efecto de **fuego de campamento**: un `GPUParticles3D` con al menos
 
 ## 🔗 Referencias
 
-- Godot — Particle systems (3D): <https://docs.godotengine.org/en/stable/tutorials/3d/particles/index.html>
-- Godot — Particle shader: <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/particle_shader.html>
-- Godot — ParticleProcessMaterial (clase): <https://docs.godotengine.org/en/stable/classes/class_particleprocessmaterial.html>
+- Godot — Particle systems (3D): <https://docs.godotengine.org/en/4.3/tutorials/3d/particles/index.html> · uso: se instala o se consulta en la preparación
+- Godot — Particle shader: <https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/particle_shader.html> · uso: se instala o se consulta en la preparación
+- Godot — ParticleProcessMaterial (clase): <https://docs.godotengine.org/en/4.3/classes/class_particleprocessmaterial.html> · uso: respalda el Tema 2 «ParticleProcessMaterial»
 
 ## ⬅️ Clase anterior
 

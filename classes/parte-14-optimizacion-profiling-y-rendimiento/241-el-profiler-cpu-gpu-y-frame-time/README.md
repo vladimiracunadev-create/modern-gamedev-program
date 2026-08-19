@@ -51,7 +51,7 @@ Al finalizar, el alumno podrá:
 
 Trabajaremos íntegramente dentro de **Godot 4.x**. El **Debugger** aparece automáticamente al ejecutar (**F5**); si no lo ves, ábrelo en el menú inferior **Debugger**. Necesitas un proyecto con carga suficiente para que el desglose sea legible: reutiliza el banco de pruebas de la clase anterior o cualquier escena con muchos nodos activos.
 
-La documentación oficial del flujo está en "The Profiler" y "Overview of debugging tools": <https://docs.godotengine.org/en/stable/tutorials/scripting/debug/the_profiler.html> y <https://docs.godotengine.org/en/stable/tutorials/scripting/debug/overview_of_debugging_tools.html>. Ten a mano también la lista de monitores para correlacionar cifras: <https://docs.godotengine.org/en/stable/classes/class_performance.html>.
+La documentación oficial del flujo está en "The Profiler" y "Overview of debugging tools": <https://docs.godotengine.org/en/4.3/tutorials/scripting/debug/the_profiler.html> y <https://docs.godotengine.org/en/4.3/tutorials/scripting/debug/overview_of_debugging_tools.html>. Ten a mano también la lista de monitores para correlacionar cifras: <https://docs.godotengine.org/en/4.3/classes/class_performance.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -130,10 +130,10 @@ Toma un proyecto con al menos cuatro funciones llamadas por frame de costes dist
 
 ## 🔗 Referencias
 
-- Godot Docs — The Profiler: <https://docs.godotengine.org/en/stable/tutorials/scripting/debug/the_profiler.html>
-- Godot Docs — Overview of debugging tools: <https://docs.godotengine.org/en/stable/tutorials/scripting/debug/overview_of_debugging_tools.html>
-- Godot Docs — Performance (monitores): <https://docs.godotengine.org/en/stable/classes/class_performance.html>
-- Godot Docs — Optimization index: <https://docs.godotengine.org/en/stable/tutorials/performance/index.html>
+- Godot Docs — The Profiler: <https://docs.godotengine.org/en/4.3/tutorials/scripting/debug/the_profiler.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Overview of debugging tools: <https://docs.godotengine.org/en/4.3/tutorials/scripting/debug/overview_of_debugging_tools.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Performance (monitores): <https://docs.godotengine.org/en/4.3/classes/class_performance.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Optimization index: <https://docs.godotengine.org/en/4.3/tutorials/performance/index.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

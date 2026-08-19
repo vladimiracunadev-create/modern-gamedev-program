@@ -46,7 +46,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Trabajaremos dentro de Godot 4.x. Consulta la guía oficial de transformaciones en <https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html> y la referencia de `Node3D` en <https://docs.godotengine.org/en/stable/classes/class_node3d.html>. Para la navegación del viewport y el snapping, revisa la introducción al editor 3D en <https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html>. Reutiliza el proyecto de la clase anterior o crea uno nuevo con renderizador Forward+.
+Trabajaremos dentro de Godot 4.x. Consulta la guía oficial de transformaciones en <https://docs.godotengine.org/en/4.3/tutorials/3d/using_transforms.html> y la referencia de `Node3D` en <https://docs.godotengine.org/en/4.3/classes/class_node3d.html>. Para la navegación del viewport y el snapping, revisa la introducción al editor 3D en <https://docs.godotengine.org/en/4.3/tutorials/3d/introduction_to_3d.html>. Reutiliza el proyecto de la clase anterior o crea uno nuevo con renderizador Forward+.
 
 ## 🧪 Laboratorio guiado
 
@@ -134,10 +134,10 @@ Crea un brazo articulado de al menos tres segmentos que realice un ciclo de "sal
 
 ## 🔗 Referencias
 
-- Godot Docs — Using 3D transforms: <https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html>
-- Godot Docs — Clase Node3D: <https://docs.godotengine.org/en/stable/classes/class_node3d.html>
-- Godot Docs — Introduction to 3D (viewport y gizmo): <https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html>
-- Godot Docs — Nodes and scene instances: <https://docs.godotengine.org/en/stable/tutorials/scripting/nodes_and_scene_instances.html>
+- Godot Docs — Using 3D transforms: <https://docs.godotengine.org/en/4.3/tutorials/3d/using_transforms.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Clase Node3D: <https://docs.godotengine.org/en/4.3/classes/class_node3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Introduction to 3D (viewport y gizmo): <https://docs.godotengine.org/en/4.3/tutorials/3d/introduction_to_3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Nodes and scene instances: <https://docs.godotengine.org/en/4.3/tutorials/scripting/nodes_and_scene_instances.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

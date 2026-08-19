@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas **Godot 4.x** (estable) y la posibilidad de lanzar **dos instancias** del proyecto para simular servidor y cliente en la misma máquina (`localhost` / `127.0.0.1`). En el editor puedes activar *Debug → Run Multiple Instances → 2* para abrir dos ventanas de un golpe. Ten a mano la [documentación de alto nivel de multijugador de Godot 4](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html) y los artículos [UDP vs TCP](https://gafferongames.com/post/udp_vs_tcp/) de Gaffer On Games. No hace falta abrir puertos en el router: todo el laboratorio corre en local.
+Necesitas **Godot 4.x** (estable) y la posibilidad de lanzar **dos instancias** del proyecto para simular servidor y cliente en la misma máquina (`localhost` / `127.0.0.1`). En el editor puedes activar *Debug → Run Multiple Instances → 2* para abrir dos ventanas de un golpe. Ten a mano la [documentación de alto nivel de multijugador de Godot 4](https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html) y los artículos [UDP vs TCP](https://gafferongames.com/post/udp_vs_tcp/) de Gaffer On Games. No hace falta abrir puertos en el router: todo el laboratorio corre en local.
 
 ## 🧪 Laboratorio guiado
 
@@ -164,10 +164,10 @@ Construye una pequeña "sala de espera de red": un servidor que acepte hasta 4 c
 
 ## 🔗 Referencias
 
-- Documentación oficial: [High-level multiplayer (Godot 4)](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html)
-- Glenn Fiedler: [UDP vs. TCP](https://gafferongames.com/post/udp_vs_tcp/)
-- Valve Developer Wiki: [Source Multiplayer Networking](https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking)
-- Documentación de [ENetMultiplayerPeer](https://docs.godotengine.org/en/stable/classes/class_enetmultiplayerpeer.html)
+- Documentación oficial: [High-level multiplayer (Godot 4)](https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html) · uso: se instala o se consulta en la preparación
+- Glenn Fiedler: [UDP vs. TCP](https://gafferongames.com/post/udp_vs_tcp/) · uso: se instala o se consulta en la preparación
+- Valve Developer Wiki: [Source Multiplayer Networking](https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Documentación de [ENetMultiplayerPeer](https://docs.godotengine.org/en/4.3/classes/class_enetmultiplayerpeer.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

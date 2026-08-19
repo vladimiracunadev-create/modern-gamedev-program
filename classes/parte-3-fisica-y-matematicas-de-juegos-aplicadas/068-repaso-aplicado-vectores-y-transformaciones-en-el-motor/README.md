@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas **Godot 4.x** (descarga en [godotengine.org](https://godotengine.org)). Crea un proyecto 2D vacío y una escena con un `Node2D` raíz. Trabajaremos con un script de prueba que imprime resultados en la consola de salida, así que no hace falta arte: los números son lo observable. Ten a mano la referencia de [Vector2](https://docs.godotengine.org/en/stable/classes/class_vector2.html). Recuerda que en Godot 2D el eje **Y crece hacia abajo**, algo que afecta el signo de los ángulos.
+Necesitas **Godot 4.x** (descarga en [godotengine.org](https://godotengine.org)). Crea un proyecto 2D vacío y una escena con un `Node2D` raíz. Trabajaremos con un script de prueba que imprime resultados en la consola de salida, así que no hace falta arte: los números son lo observable. Ten a mano la referencia de [Vector2](https://docs.godotengine.org/en/4.3/classes/class_vector2.html). Recuerda que en Godot 2D el eje **Y crece hacia abajo**, algo que afecta el signo de los ángulos.
 
 ## 🧪 Laboratorio guiado
 
@@ -132,10 +132,10 @@ Crea un script que reciba la posición del jugador, la del enemigo y la direcci�
 
 ## 🔗 Referencias
 
-1. Godot Engine — Vector math: <https://docs.godotengine.org/en/stable/tutorials/math/vector_math.html>
-2. Godot Engine — Clase Vector2: <https://docs.godotengine.org/en/stable/classes/class_vector2.html>
-3. Godot Engine — Clase Vector3: <https://docs.godotengine.org/en/stable/classes/class_vector3.html>
-4. Godot Engine — Using transforms: <https://docs.godotengine.org/en/stable/tutorials/math/matrices_and_transforms.html>
+1. Godot Engine — Vector math: <https://docs.godotengine.org/en/4.3/tutorials/math/vector_math.html> · uso: respalda el Tema 1 «Vector como punto y como flecha»
+2. Godot Engine — Clase Vector2: <https://docs.godotengine.org/en/4.3/classes/class_vector2.html> · uso: se instala o se consulta en la preparación
+3. Godot Engine — Clase Vector3: <https://docs.godotengine.org/en/4.3/classes/class_vector3.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+4. Godot Engine — Using transforms: <https://docs.godotengine.org/en/4.3/tutorials/math/matrices_and_transforms.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

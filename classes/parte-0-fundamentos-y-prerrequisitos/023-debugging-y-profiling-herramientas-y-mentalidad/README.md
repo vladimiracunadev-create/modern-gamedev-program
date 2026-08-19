@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usarás **Godot 4** y sus paneles integrados: el **Depurador** (panel inferior *Depurador*, con pestañas *Pila de variables*, *Errores* y *Puntos de interrupción*) y el **Monitor/Profiler** (pestañas *Monitores* y *Profiler* del mismo panel). No necesitas instalar nada extra. Ten un proyecto 2D con un par de nodos para experimentar. Como lecturas de apoyo están la documentación oficial de depuración de Godot (<https://docs.godotengine.org/en/stable/tutorials/scripting/debug/overview_of_debugging_tools.html>) y la del profiler (<https://docs.godotengine.org/en/stable/tutorials/scripting/debug/the_profiler.html>). El método general de depuración es transversal a cualquier depurador (GDB, el de VS Code, etc.).
+Usarás **Godot 4** y sus paneles integrados: el **Depurador** (panel inferior *Depurador*, con pestañas *Pila de variables*, *Errores* y *Puntos de interrupción*) y el **Monitor/Profiler** (pestañas *Monitores* y *Profiler* del mismo panel). No necesitas instalar nada extra. Ten un proyecto 2D con un par de nodos para experimentar. Como lecturas de apoyo están la documentación oficial de depuración de Godot (<https://docs.godotengine.org/en/4.3/tutorials/scripting/debug/overview_of_debugging_tools.html>) y la del profiler (<https://docs.godotengine.org/en/4.3/tutorials/scripting/debug/the_profiler.html>). El método general de depuración es transversal a cualquier depurador (GDB, el de VS Code, etc.).
 
 ## 🧪 Laboratorio guiado
 
@@ -144,10 +144,10 @@ Toma un proyecto con un bug de tu elección (índice fuera de rango o nodo nulo)
 
 ## 🔗 Referencias
 
-- Godot Docs, "Overview of debugging tools": <https://docs.godotengine.org/en/stable/tutorials/scripting/debug/overview_of_debugging_tools.html>
-- Godot Docs, "The Profiler": <https://docs.godotengine.org/en/stable/tutorials/scripting/debug/the_profiler.html>
-- Godot Docs, "Debugger panel": <https://docs.godotengine.org/en/stable/tutorials/scripting/debug/debugger_panel.html>
-- Godot Docs, "Performance monitors": <https://docs.godotengine.org/en/stable/classes/class_performance.html>
+- Godot Docs, "Overview of debugging tools": <https://docs.godotengine.org/en/4.3/tutorials/scripting/debug/overview_of_debugging_tools.html> · uso: se instala o se consulta en la preparación
+- Godot Docs, "The Profiler": <https://docs.godotengine.org/en/4.3/tutorials/scripting/debug/the_profiler.html> · uso: se instala o se consulta en la preparación
+- Godot Docs, "Debugger panel": <https://docs.godotengine.org/en/4.3/tutorials/scripting/debug/debugger_panel.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs, "Performance monitors": <https://docs.godotengine.org/en/4.3/classes/class_performance.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

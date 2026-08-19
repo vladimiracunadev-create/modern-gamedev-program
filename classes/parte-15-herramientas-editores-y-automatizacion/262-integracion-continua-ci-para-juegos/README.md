@@ -157,10 +157,10 @@ Escribe un workflow completo `.github/workflows/build.yml` que, en cada push a `
 
 ## 🔗 Referencias
 
-- GitHub Docs — Workflow syntax: <https://docs.github.com/actions/using-workflows/workflow-syntax-for-github-actions>
-- GitHub — `actions/upload-artifact`: <https://github.com/actions/upload-artifact>
-- Godot Docs — Exporting projects: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html>
-- chickensoft-games/setup-godot (acción para instalar Godot en CI): <https://github.com/chickensoft-games/setup-godot>
+- GitHub Docs — Workflow syntax: <https://docs.github.com/actions/using-workflows/workflow-syntax-for-github-actions> · uso: se instala o se consulta en la preparación
+- GitHub — `actions/upload-artifact`: <https://github.com/actions/upload-artifact> · uso: se instala o se consulta en la preparación
+- Godot Docs — Exporting projects: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_projects.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- chickensoft-games/setup-godot (acción para instalar Godot en CI): <https://github.com/chickensoft-games/setup-godot> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

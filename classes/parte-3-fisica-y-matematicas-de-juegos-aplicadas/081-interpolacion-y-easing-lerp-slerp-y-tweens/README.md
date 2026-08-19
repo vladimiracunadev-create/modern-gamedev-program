@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas **Godot 4.x** ([godotengine.org](https://godotengine.org)). Crea un proyecto 2D con un `Node2D` raíz y añade un `Sprite2D` (sirve el ícono por defecto) y un `Button`. Trabajaremos casi todo con **Tween**, que en Godot 4 se crea desde código con `create_tween()` (ya no es un nodo como en Godot 3). Ten a mano la documentación de [Tween](https://docs.godotengine.org/en/stable/classes/class_tween.html) y la lista de constantes `TRANS_*` y `EASE_*`. Recuerda que un `Tween` empieza a correr automáticamente en el siguiente frame y muere al terminar; guarda su referencia solo si necesitas pausarlo o detenerlo.
+Necesitas **Godot 4.x** ([godotengine.org](https://godotengine.org)). Crea un proyecto 2D con un `Node2D` raíz y añade un `Sprite2D` (sirve el ícono por defecto) y un `Button`. Trabajaremos casi todo con **Tween**, que en Godot 4 se crea desde código con `create_tween()` (ya no es un nodo como en Godot 3). Ten a mano la documentación de [Tween](https://docs.godotengine.org/en/4.3/classes/class_tween.html) y la lista de constantes `TRANS_*` y `EASE_*`. Recuerda que un `Tween` empieza a correr automáticamente en el siguiente frame y muere al terminar; guarda su referencia solo si necesitas pausarlo o detenerlo.
 
 ## 🧪 Laboratorio guiado
 
@@ -142,10 +142,10 @@ Construye un "toast" de notificación: un panel que entra deslizándose desde fu
 
 ## 🔗 Referencias
 
-- Godot Docs — Tween: <https://docs.godotengine.org/en/stable/classes/class_tween.html>
-- Godot Docs — @GlobalScope (lerp, ease, smoothstep, lerp_angle): <https://docs.godotengine.org/en/stable/classes/class_@globalscope.html>
-- Godot Docs — Quaternion: <https://docs.godotengine.org/en/stable/classes/class_quaternion.html>
-- Easings.net — catálogo visual de curvas de easing: <https://easings.net/>
+- Godot Docs — Tween: <https://docs.godotengine.org/en/4.3/classes/class_tween.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — @GlobalScope (lerp, ease, smoothstep, lerp_angle): <https://docs.godotengine.org/en/4.3/classes/class_@globalscope.html> · uso: respalda el Tema 2 «`lerp_angle` y el problema del ±180°»
+- Godot Docs — Quaternion: <https://docs.godotengine.org/en/4.3/classes/class_quaternion.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Easings.net — catálogo visual de curvas de easing: <https://easings.net/> · uso: respalda el Tema 4 «Curvas de easing (in/out/in-out)»
 
 ## ⬅️ Clase anterior
 

@@ -360,12 +360,12 @@ Entrega un proyecto Godot ejecutable con el runtime completo: cliente con timeou
 
 ## 🔗 Referencias
 
-- Laboratorio de esta parte — [`labs/production-runtime/`](../../../labs/production-runtime/README.md)
-- Google — *Site Reliability Engineering*: <https://sre.google/books/>
-- OpenTelemetry — modelo de observabilidad: <https://opentelemetry.io/docs/>
-- Godot Docs — Command line tutorial: <https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html>
-- Martin Fowler — Circuit Breaker: <https://martinfowler.com/bliki/CircuitBreaker.html>
-- GitHub Docs — Actions: <https://docs.github.com/actions>
+- Laboratorio de esta parte — [`labs/production-runtime/`](../../../labs/production-runtime/README.md) · uso: respalda el Tema 1 «Composition root del runtime»
+- Google — *Site Reliability Engineering*: <https://sre.google/books/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- OpenTelemetry — modelo de observabilidad: <https://opentelemetry.io/docs/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Command line tutorial: <https://docs.godotengine.org/en/4.3/tutorials/editor/command_line_tutorial.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Martin Fowler — Circuit Breaker: <https://martinfowler.com/bliki/CircuitBreaker.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GitHub Docs — Actions: <https://docs.github.com/actions> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

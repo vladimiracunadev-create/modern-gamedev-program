@@ -11,7 +11,7 @@
 - Joshua Glazer & Sanjay Madhav, *Multiplayer Game Programming* (Addison-Wesley).
 - Glenn Fiedler, *Gaffer On Games* — [artículos sobre networking](https://gafferongames.com/).
 - Valve — *Source Multiplayer Networking* y charlas de GDC sobre netcode.
-- Documentación de [networking de Godot 4](https://docs.godotengine.org/en/stable/tutorials/networking/index.html) y [Nakama](https://heroiclabs.com/docs/).
+- Documentación de [networking de Godot 4](https://docs.godotengine.org/en/4.3/tutorials/networking/index.html) y [Nakama](https://heroiclabs.com/docs/).
 
 ---
 

@@ -229,11 +229,11 @@ Entrega un documento `docs/estrategia-ia.md` que analice el uso de IA generativa
 
 ## 🔗 Referencias
 
-- OWASP — Top 10 for Large Language Model Applications: <https://owasp.org/www-project-top-10-for-large-language-model-applications/>
-- ONNX Runtime — inferencia local multiplataforma: <https://onnxruntime.ai/>
-- GDC Vault — charlas sobre IA generativa en producción de juegos: <https://www.gdcvault.com/>
-- Godot Docs — `HTTPRequest` (base de cualquier proveedor remoto): <https://docs.godotengine.org/en/stable/classes/class_httprequest.html>
-- Millington & Funge — *Artificial Intelligence for Games* (la IA clásica que esto complementa): <https://www.routledge.com/Artificial-Intelligence-for-Games/Millington/p/book/9780367670566>
+- OWASP — Top 10 for Large Language Model Applications: <https://owasp.org/www-project-top-10-for-large-language-model-applications/> · uso: se instala o se consulta en la preparación
+- ONNX Runtime — inferencia local multiplataforma: <https://onnxruntime.ai/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas sobre IA generativa en producción de juegos: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `HTTPRequest` (base de cualquier proveedor remoto): <https://docs.godotengine.org/en/4.3/classes/class_httprequest.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Millington & Funge — *Artificial Intelligence for Games* (la IA clásica que esto complementa): <https://www.routledge.com/Artificial-Intelligence-for-Games/Millington/p/book/9780367670566> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

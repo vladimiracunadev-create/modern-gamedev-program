@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.2+ y un personaje con `Skeleton3D` (los modelos de Mixamo importados en formato glTF funcionan bien). En el inspector del `Skeleton3D`, el menú **"Create physical skeleton"** genera automáticamente un `PhysicalBone3D` por hueso con formas de cápsula y juntas; luego ajustas tamaños y límites. Activa **Debug → Visible Collision Shapes** para ver las cápsulas. Asegúrate de tener un suelo con colisión. Consulta la guía oficial: <https://docs.godotengine.org/en/stable/tutorials/physics/ragdoll_system.html>.
+Necesitas Godot 4.2+ y un personaje con `Skeleton3D` (los modelos de Mixamo importados en formato glTF funcionan bien). En el inspector del `Skeleton3D`, el menú **"Create physical skeleton"** genera automáticamente un `PhysicalBone3D` por hueso con formas de cápsula y juntas; luego ajustas tamaños y límites. Activa **Debug → Visible Collision Shapes** para ver las cápsulas. Asegúrate de tener un suelo con colisión. Consulta la guía oficial: <https://docs.godotengine.org/en/4.3/tutorials/physics/ragdoll_system.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -143,10 +143,10 @@ Implementa un enemigo que camina con animación y, al llegar su vida a cero por 
 
 ## 🔗 Referencias
 
-- Godot Docs — Ragdoll system: <https://docs.godotengine.org/en/stable/tutorials/physics/ragdoll_system.html>
-- Godot Docs — PhysicalBone3D: <https://docs.godotengine.org/en/stable/classes/class_physicalbone3d.html>
-- Godot Docs — Skeleton3D: <https://docs.godotengine.org/en/stable/classes/class_skeleton3d.html>
-- Ian Millington, *Game Physics Engine Development*, capítulos sobre cuerpos rígidos articulados.
+- Godot Docs — Ragdoll system: <https://docs.godotengine.org/en/4.3/tutorials/physics/ragdoll_system.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — PhysicalBone3D: <https://docs.godotengine.org/en/4.3/classes/class_physicalbone3d.html> · uso: respalda el Tema 2 «PhysicalBone3D»
+- Godot Docs — Skeleton3D: <https://docs.godotengine.org/en/4.3/classes/class_skeleton3d.html> · uso: respalda el Tema 1 «Skeleton3D y huesos»
+- Ian Millington, *Game Physics Engine Development*, capítulos sobre cuerpos rígidos articulados. · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usarás **Godot 4** (<https://godotengine.org/>) con GDScript. Trabajarás con nodos **Node2D**, **Sprite2D** y **Camera2D**. La referencia teórica es *Mathematics for 3D Game Programming and Computer Graphics* de Eric Lengyel (<https://foundationsofgameenginedev.com/>). Consulta también la documentación de Godot sobre `Node2D` y transformaciones 2D (<https://docs.godotengine.org/en/stable/tutorials/2d/2d_transforms.html>) y sobre el sistema de coordenadas (<https://docs.godotengine.org/en/stable/tutorials/2d/2d_movement.html>). No necesitas assets externos: basta el `icon.svg` que trae cada proyecto.
+Usarás **Godot 4** (<https://godotengine.org/>) con GDScript. Trabajarás con nodos **Node2D**, **Sprite2D** y **Camera2D**. La referencia teórica es *Mathematics for 3D Game Programming and Computer Graphics* de Eric Lengyel (<https://foundationsofgameenginedev.com/>). Consulta también la documentación de Godot sobre `Node2D` y transformaciones 2D (<https://docs.godotengine.org/en/4.3/tutorials/2d/2d_transforms.html>) y sobre el sistema de coordenadas (<https://docs.godotengine.org/en/4.3/tutorials/2d/2d_movement.html>). No necesitas assets externos: basta el `icon.svg` que trae cada proyecto.
 
 ## 🧪 Laboratorio guiado
 
@@ -134,10 +134,10 @@ Construye una escena con una `Camera2D` desplazable (por ejemplo, con las flecha
 
 ## 🔗 Referencias
 
-- Foundations of Game Engine Development (Eric Lengyel): <https://foundationsofgameenginedev.com/>
-- Godot — Transforms 2D: <https://docs.godotengine.org/en/stable/tutorials/2d/2d_transforms.html>
-- Godot — Node2D (clase): <https://docs.godotengine.org/en/stable/classes/class_node2d.html>
-- Godot — CanvasItem get_global_mouse_position: <https://docs.godotengine.org/en/stable/classes/class_canvasitem.html>
+- Foundations of Game Engine Development (Eric Lengyel): <https://foundationsofgameenginedev.com/> · uso: se instala o se consulta en la preparación
+- Godot — Transforms 2D: <https://docs.godotengine.org/en/4.3/tutorials/2d/2d_transforms.html> · uso: se instala o se consulta en la preparación
+- Godot — Node2D (clase): <https://docs.godotengine.org/en/4.3/classes/class_node2d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot — CanvasItem get_global_mouse_position: <https://docs.godotengine.org/en/4.3/classes/class_canvasitem.html> · uso: respalda el Tema 8 «`to_local`/`to_global`»
 
 ## ⬅️ Clase anterior
 

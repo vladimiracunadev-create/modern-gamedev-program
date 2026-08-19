@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas **Godot 4.x** instalado y accesible como `godot` en tu PATH (en Windows puede ser `Godot_v4.x-stable_win64.exe`). El laboratorio no requiere nube: desplegarás "localmente" ejecutando el servidor como proceso de terminal. Para producción real, la referencia canónica es la guía de Godot sobre servidores dedicados (<https://docs.godotengine.org/en/stable/tutorials/networking/dedicated_servers.html>) y la de línea de comandos (<https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html>). Si más adelante externalizas la infraestructura, backends como **Nakama** (<https://heroiclabs.com/docs/>) o **GodotSteam** (<https://godotsteam.com/>) gestionan el ciclo de vida del servidor por ti. Prepara un `main.gd` como Autoload que decida el rol al arrancar.
+Necesitas **Godot 4.x** instalado y accesible como `godot` en tu PATH (en Windows puede ser `Godot_v4.x-stable_win64.exe`). El laboratorio no requiere nube: desplegarás "localmente" ejecutando el servidor como proceso de terminal. Para producción real, la referencia canónica es la guía de Godot sobre servidores dedicados (<https://docs.godotengine.org/en/4.3/tutorials/export/exporting_for_dedicated_servers.html>) y la de línea de comandos (<https://docs.godotengine.org/en/4.3/tutorials/editor/command_line_tutorial.html>). Si más adelante externalizas la infraestructura, backends como **Nakama** (<https://heroiclabs.com/docs/>) o **GodotSteam** (<https://godotsteam.com/>) gestionan el ciclo de vida del servidor por ti. Prepara un `main.gd` como Autoload que decida el rol al arrancar.
 
 ## 🧪 Laboratorio guiado
 
@@ -166,10 +166,10 @@ Entrega un proyecto que, con **un único código base**, arranque como servidor 
 
 ## 🔗 Referencias
 
-- Godot Docs — Exporting for dedicated servers: <https://docs.godotengine.org/en/stable/tutorials/networking/dedicated_servers.html>
-- Godot Docs — Command line tutorial: <https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html>
-- Godot Docs — Feature tags (headless/server): <https://docs.godotengine.org/en/stable/tutorials/export/feature_tags.html>
-- Heroic Labs — Servidores y despliegue: <https://heroiclabs.com/docs/nakama/getting-started/install/docker/>
+- Godot Docs — Exporting for dedicated servers: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_for_dedicated_servers.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Command line tutorial: <https://docs.godotengine.org/en/4.3/tutorials/editor/command_line_tutorial.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Feature tags (headless/server): <https://docs.godotengine.org/en/4.3/tutorials/export/feature_tags.html> · uso: respalda el Tema 1 «Dedicado vs listen server»
+- Heroic Labs — Servidores y despliegue: <https://heroiclabs.com/docs/nakama/getting-started/install/docker/> · uso: respalda el Tema 6 «Despliegue en VPS/contenedor»
 
 ## ⬅️ Clase anterior
 

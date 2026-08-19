@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 No necesitas motor todavía: necesitas **decidir bien**. Ten a mano un documento de texto o una hoja de cálculo para la ficha, y opcionalmente una herramienta de notas como [Notion](https://www.notion.so/), [Obsidian](https://obsidian.md/) o un simple Markdown en tu repositorio. Reúne tus prototipos y aprendizajes de partes anteriores: tu capstone debería apoyarse en técnicas que ya dominas, no en un stack nuevo por estrenar.
 
-Como lectura de fondo, la idea de esta clase se inspira en las historias reales de producción recogidas en *Blood, Sweat, and Pixels* y en charlas de GDC sobre *scoping*: busca "GDC scope" o "cutting features" en <https://www.youtube.com/user/gdconf>.
+Como lectura de fondo, la idea de esta clase se inspira en las historias reales de producción recogidas en *Blood, Sweat, and Pixels* y en charlas de GDC sobre *scoping*: busca "GDC scope" o "cutting features" en <https://www.youtube.com/@GDC>.
 
 ## 🧪 Laboratorio guiado
 
@@ -131,10 +131,10 @@ Entrega tu `capstone-ficha.md` completo y somételo a la **prueba del semáforo*
 
 ## 🔗 Referencias
 
-- GDC — charlas sobre *scoping* y recorte de features: <https://www.youtube.com/user/gdconf>
-- Extra Credits — "Scope: How to Design Your First Game": <https://www.youtube.com/c/extracredits>
-- itch.io — catálogo para estudiar juegos pequeños de una mecánica: <https://itch.io/games>
-- The Game Design Round Table — sobre pilares de diseño: <https://thegamedesignroundtable.com/>
+- GDC — charlas sobre *scoping* y recorte de features: <https://www.youtube.com/@GDC> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: se instala o se consulta en la preparación
+- Extra Credits — "Scope: How to Design Your First Game": <https://www.youtube.com/@ExtraCredits> · uso: respalda el Tema 1 «El error del scope»
+- itch.io — catálogo para estudiar juegos pequeños de una mecánica: <https://itch.io/games> · uso: respalda el Tema 3 «Una mecánica fuerte»
+- The Game Design Round Table — sobre pilares de diseño: <https://thegamedesignroundtable.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas una escena 3D con un suelo, una `Camera3D` (que hará de oyente) y algún modo de moverla (un `CharacterBody3D` sencillo o mover la cámara con teclas). Consigue un sonido **mono** en bucle para la fuente (una fogata, un generador, agua goteando). Importa el WAV/OGG en mono con *Loop* activado. Ten a mano la [referencia de AudioStreamPlayer3D](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer3d.html) y la [guía de reverb areas](https://docs.godotengine.org/en/stable/tutorials/audio/index.html). Comprueba que en *Project Settings → Audio* no tengas forzado un canal mono en la salida.
+Necesitas una escena 3D con un suelo, una `Camera3D` (que hará de oyente) y algún modo de moverla (un `CharacterBody3D` sencillo o mover la cámara con teclas). Consigue un sonido **mono** en bucle para la fuente (una fogata, un generador, agua goteando). Importa el WAV/OGG en mono con *Loop* activado. Ten a mano la [referencia de AudioStreamPlayer3D](https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer3d.html) y la [guía de reverb areas](https://docs.godotengine.org/en/4.3/tutorials/audio/index.html). Comprueba que en *Project Settings → Audio* no tengas forzado un canal mono en la salida.
 
 ## 🧪 Laboratorio guiado
 
@@ -138,10 +138,10 @@ Godot no la trae automática; se aproxima bajando el volumen o aplicando un low-
 
 ## 🔗 Referencias
 
-- [AudioStreamPlayer3D — referencia de clase](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer3d.html)
-- [AudioListener3D — referencia de clase](https://docs.godotengine.org/en/stable/classes/class_audiolistener3d.html)
-- [Audio en Godot 4 — documentación oficial](https://docs.godotengine.org/en/stable/tutorials/audio/index.html)
-- [AudioEffectReverb — referencia de clase](https://docs.godotengine.org/en/stable/classes/class_audioeffectreverb.html)
+- [AudioStreamPlayer3D — referencia de clase](https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer3d.html) · uso: se instala o se consulta en la preparación
+- [AudioListener3D — referencia de clase](https://docs.godotengine.org/en/4.3/classes/class_audiolistener3d.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Audio en Godot 4 — documentación oficial](https://docs.godotengine.org/en/4.3/tutorials/audio/index.html) · uso: se instala o se consulta en la preparación
+- [AudioEffectReverb — referencia de clase](https://docs.godotengine.org/en/4.3/classes/class_audioeffectreverb.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

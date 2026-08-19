@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usa Godot 4.x en un proyecto 3D (las técnicas de LOD y oclusión son 3D; `VisibleOnScreenEnabler2D` cubre el caso 2D). Crea una escena amplia: un terreno con cientos de objetos (árboles, rocas, edificios) repartidos. Ten a la vista el **Depurador → Monitores** para leer draw calls y primitivas, y consulta las guías de rendimiento 3D (<https://docs.godotengine.org/en/stable/tutorials/performance/optimizing_3d_performance.html>) y occlusion culling (<https://docs.godotengine.org/en/stable/tutorials/3d/occlusion_culling.html>).
+Usa Godot 4.x en un proyecto 3D (las técnicas de LOD y oclusión son 3D; `VisibleOnScreenEnabler2D` cubre el caso 2D). Crea una escena amplia: un terreno con cientos de objetos (árboles, rocas, edificios) repartidos. Ten a la vista el **Depurador → Monitores** para leer draw calls y primitivas, y consulta las guías de rendimiento 3D (<https://docs.godotengine.org/en/4.3/tutorials/performance/optimizing_3d_performance.html>) y occlusion culling (<https://docs.godotengine.org/en/4.3/tutorials/3d/occlusion_culling.html>).
 
 Prepara un `Label` que lea las métricas de render en tiempo real. Estas son tus cifras de referencia para comparar cada técnica:
 
@@ -166,10 +166,10 @@ Construye un mundo 3D con al menos 800 objetos (vegetación, props y edificios) 
 
 ## 🔗 Referencias
 
-- Godot Docs — Optimizing 3D performance: <https://docs.godotengine.org/en/stable/tutorials/performance/optimizing_3d_performance.html>
-- Godot Docs — Occlusion culling: <https://docs.godotengine.org/en/stable/tutorials/3d/occlusion_culling.html>
-- Godot Docs — Using MultiMeshInstance: <https://docs.godotengine.org/en/stable/tutorials/3d/using_multi_mesh_instance.html>
-- Godot Docs — VisibleOnScreenEnabler3D: <https://docs.godotengine.org/en/stable/classes/class_visibleonscreenenabler3d.html>
+- Godot Docs — Optimizing 3D performance: <https://docs.godotengine.org/en/4.3/tutorials/performance/optimizing_3d_performance.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Occlusion culling: <https://docs.godotengine.org/en/4.3/tutorials/3d/occlusion_culling.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Using MultiMeshInstance: <https://docs.godotengine.org/en/4.3/tutorials/3d/using_multi_mesh_instance.html> · uso: respalda el Tema 5 «MultiMeshInstance»
+- Godot Docs — VisibleOnScreenEnabler3D: <https://docs.godotengine.org/en/4.3/classes/class_visibleonscreenenabler3d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

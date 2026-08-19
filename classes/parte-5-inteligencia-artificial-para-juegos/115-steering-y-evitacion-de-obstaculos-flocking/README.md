@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas **Godot 4.x**. Usaremos `CharacterBody2D` para cada boid y `RayCast2D` para los bigotes. Crea `res://ia/steering/`. Repasa la [documentación de CharacterBody2D](https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html), [RayCast2D](https://docs.godotengine.org/en/stable/classes/class_raycast2d.html) y la [charla original de Reynolds](https://www.red3d.com/cwr/steer/). No usaremos navmesh: aquí el movimiento es puramente por fuerzas, ideal para bandadas grandes y baratas.
+Necesitas **Godot 4.x**. Usaremos `CharacterBody2D` para cada boid y `RayCast2D` para los bigotes. Crea `res://ia/steering/`. Repasa la [documentación de CharacterBody2D](https://docs.godotengine.org/en/4.3/classes/class_characterbody2d.html), [RayCast2D](https://docs.godotengine.org/en/4.3/classes/class_raycast2d.html) y la [charla original de Reynolds](https://www.red3d.com/cwr/steer/). No usaremos navmesh: aquí el movimiento es puramente por fuerzas, ideal para bandadas grandes y baratas.
 
 ## 🧪 Laboratorio guiado
 
@@ -219,10 +219,10 @@ Implementa una bandada de **al menos 30 boids** que persiga al ratón por un map
 
 ## 🔗 Referencias
 
-- Reynolds — Steering Behaviors For Autonomous Characters: <https://www.red3d.com/cwr/steer/>
-- Reynolds — Boids: <https://www.red3d.com/cwr/boids/>
-- Godot Docs — CharacterBody2D: <https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html>
-- Godot Docs — RayCast2D: <https://docs.godotengine.org/en/stable/classes/class_raycast2d.html>
+- Reynolds — Steering Behaviors For Autonomous Characters: <https://www.red3d.com/cwr/steer/> · uso: se instala o se consulta en la preparación
+- Reynolds — Boids: <https://www.red3d.com/cwr/boids/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — CharacterBody2D: <https://docs.godotengine.org/en/4.3/classes/class_characterbody2d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — RayCast2D: <https://docs.godotengine.org/en/4.3/classes/class_raycast2d.html> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

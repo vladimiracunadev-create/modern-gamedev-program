@@ -51,7 +51,7 @@ Al finalizar, el alumno podrá:
 
 Recupera tu `capstone-ficha.md` de la clase anterior: será la entrada de esta planificación. Trabaja en tu editor de notas habitual y, si te ayuda, abre el motor para inventariar qué prototipos y assets ya tienes reutilizables. No escribas código nuevo todavía: esta clase es de diseño de producción.
 
-Para calibrar el nivel de calidad, juega dos o tres *vertical slices* públicos o demos de itch.io (<https://itch.io/games/demos>) y anota qué te hace pensar "esto está terminado". Referencias sobre el concepto abundan en GDC: busca "vertical slice" en <https://www.youtube.com/user/gdconf>.
+Para calibrar el nivel de calidad, juega dos o tres *vertical slices* públicos o demos de itch.io (<https://itch.io/games/tag-demo>) y anota qué te hace pensar "esto está terminado". Referencias sobre el concepto abundan en GDC: busca "vertical slice" en <https://www.youtube.com/@GDC>.
 
 ## 🧪 Laboratorio guiado
 
@@ -143,10 +143,10 @@ No es alcance "extra": es lo que diferencia un vertical slice de una demo que so
 
 ## 🔗 Referencias
 
-- GDC — charlas sobre vertical slice y producción: <https://www.youtube.com/user/gdconf>
-- itch.io — demos para calibrar calidad: <https://itch.io/games/demos>
-- Game Maker's Toolkit — sobre core loops y game feel: <https://www.youtube.com/c/MarkBrownGMT>
-- Godot Docs — best practices de organización de proyecto: <https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html>
+- GDC — charlas sobre vertical slice y producción: <https://www.youtube.com/@GDC> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: se instala o se consulta en la preparación
+- itch.io — demos para calibrar calidad: <https://itch.io/games/tag-demo> · uso: se instala o se consulta en la preparación
+- Game Maker's Toolkit — sobre core loops y game feel: <https://www.youtube.com/c/MarkBrownGMT> · uso: respalda el Tema 4 «El core loop a demostrar»
+- Godot Docs — best practices de organización de proyecto: <https://docs.godotengine.org/en/4.3/tutorials/best_practices/index.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

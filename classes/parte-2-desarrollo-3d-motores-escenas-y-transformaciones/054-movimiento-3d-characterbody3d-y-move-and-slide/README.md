@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usa **Godot 4.x** con un suelo (`StaticBody3D` con `CollisionShape3D` de caja o plano) y una cámara que mire al personaje. Define en el **Input Map** cuatro acciones: `mover_izquierda`, `mover_derecha`, `mover_adelante`, `mover_atras`, y una acción `saltar`. Revisa la guía en <https://docs.godotengine.org/en/stable/tutorials/physics/using_character_body_2d.html> (aplica igual a 3D) y la API en <https://docs.godotengine.org/en/stable/classes/class_characterbody3d.html>. Motor: <https://godotengine.org/download>.
+Usa **Godot 4.x** con un suelo (`StaticBody3D` con `CollisionShape3D` de caja o plano) y una cámara que mire al personaje. Define en el **Input Map** cuatro acciones: `mover_izquierda`, `mover_derecha`, `mover_adelante`, `mover_atras`, y una acción `saltar`. Revisa la guía en <https://docs.godotengine.org/en/4.3/tutorials/physics/using_character_body_2d.html> (aplica igual a 3D) y la API en <https://docs.godotengine.org/en/4.3/classes/class_characterbody3d.html>. Motor: <https://godotengine.org/download>.
 
 ## 🧪 Laboratorio guiado
 
@@ -142,9 +142,9 @@ Crea un nivel con suelo, una rampa y un escalón bajo. El personaje debe moverse
 
 ## 🔗 Referencias
 
-- CharacterBody3D — API oficial: <https://docs.godotengine.org/en/stable/classes/class_characterbody3d.html>
-- Using CharacterBody: <https://docs.godotengine.org/en/stable/tutorials/physics/using_character_body_2d.html>
-- Input examples: <https://docs.godotengine.org/en/stable/tutorials/inputs/input_examples.html>
+- CharacterBody3D — API oficial: <https://docs.godotengine.org/en/4.3/classes/class_characterbody3d.html> · uso: se instala o se consulta en la preparación
+- Using CharacterBody: <https://docs.godotengine.org/en/4.3/tutorials/physics/using_character_body_2d.html> · uso: se instala o se consulta en la preparación
+- Input examples: <https://docs.godotengine.org/en/4.3/tutorials/inputs/input_examples.html> · uso: respalda el Tema 4 «Input.get_vector»
 
 ## ⬅️ Clase anterior
 

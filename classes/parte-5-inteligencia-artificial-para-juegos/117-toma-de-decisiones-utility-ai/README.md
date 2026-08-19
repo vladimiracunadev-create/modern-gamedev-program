@@ -43,7 +43,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas **Godot 4.x**. Modelaremos las acciones con `class_name` extendiendo `RefCounted`, sin nodos pesados. Crea `res://ia/utility/`. Revisa [RefCounted](https://docs.godotengine.org/en/stable/classes/class_refcounted.html), el uso de `clampf`, `lerpf` y `Callable`. El agente será un `CharacterBody2D` que actúa según la decisión, pero el motor de utilidad es puro GDScript reutilizable.
+Necesitas **Godot 4.x**. Modelaremos las acciones con `class_name` extendiendo `RefCounted`, sin nodos pesados. Crea `res://ia/utility/`. Revisa [RefCounted](https://docs.godotengine.org/en/4.3/classes/class_refcounted.html), el uso de `clampf`, `lerpf` y `Callable`. El agente será un `CharacterBody2D` que actúa según la decisión, pero el motor de utilidad es puro GDScript reutilizable.
 
 ## 🧪 Laboratorio guiado
 
@@ -230,10 +230,10 @@ Implementa un agente con **al menos cinco acciones** cuyo comportamiento sea coh
 
 ## 🔗 Referencias
 
-- Game AI Pro — Utility Theory: <http://www.gameaipro.com/>
-- Dave Mark — Behavioral Mathematics for Game AI (charlas GDC): <https://www.gdcvault.com/>
-- Godot Docs — RefCounted: <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>
-- Godot Docs — GDScript exports y clases: <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html>
+- Game AI Pro — Utility Theory: <http://www.gameaipro.com/> · uso: respalda el Tema 7 «Utility vs reglas fijas»
+- Dave Mark — Behavioral Mathematics for Game AI (charlas GDC): <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — RefCounted: <https://docs.godotengine.org/en/4.3/classes/class_refcounted.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — GDScript exports y clases: <https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_basics.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

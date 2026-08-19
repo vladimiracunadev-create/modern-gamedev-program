@@ -193,10 +193,10 @@ Amplía el mini-ECS con un componente `Bounds(min_x, max_x)` y un sistema `bounc
 
 ## 🔗 Referencias
 
-- Jason Gregory, *Game Engine Architecture*, 3ª ed., sección de modelos de objetos de juego y arquitecturas orientadas a datos.
-- Bevy, "ECS" (Bevy Book): <https://bevyengine.org/learn/book/getting-started/ecs/>
-- flecs, documentación y manual: <https://www.flecs.dev/flecs/md_docs_2Quickstart.html>
-- Unity, "Entities (DOTS)": <https://docs.unity3d.com/Packages/com.unity.entities@latest>
+- Jason Gregory, *Game Engine Architecture*, 3ª ed., sección de modelos de objetos de juego y arquitecturas orientadas a datos. · uso: respalda el Tema 2 «Component = datos»
+- Bevy, "ECS" (Bevy Book): <https://bevyengine.org/learn/book/getting-started/ecs/> · uso: respalda el Tema 5 «ECS vs POO/herencia»
+- flecs, documentación y manual: <https://www.flecs.dev/flecs/md_docs_2Quickstart.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Unity, "Entities (DOTS)": <https://docs.unity3d.com/Packages/com.unity.entities@latest> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

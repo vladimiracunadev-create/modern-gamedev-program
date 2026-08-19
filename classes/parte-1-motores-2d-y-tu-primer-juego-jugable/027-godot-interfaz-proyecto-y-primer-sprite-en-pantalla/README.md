@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Continúa en el proyecto `PlataformasCurso` de la clase anterior. Ten **Godot 4.x** abierto. Si quieres un sprite propio, descarga un PNG pequeño (por ejemplo 32×32 o 64×64 px) o reutiliza el `icon.svg` del proyecto. Para practicar con arte libre puedes visitar <https://kenney.nl/assets> (assets gratuitos y sin restricciones).
 
-Consulta como apoyo la introducción al editor: <https://docs.godotengine.org/en/stable/getting_started/introduction/first_look_at_the_editor.html>. Todo lo de esta clase se hace con el editor gráfico y un script mínimo.
+Consulta como apoyo la introducción al editor: <https://docs.godotengine.org/en/4.3/getting_started/introduction/first_look_at_the_editor.html>. Todo lo de esta clase se hace con el editor gráfico y un script mínimo.
 
 ## 🧪 Laboratorio guiado
 
@@ -128,10 +128,10 @@ Configura el proyecto a 1280×720 con estiramiento `canvas_items`/`keep`, coloca
 
 ## 🔗 Referencias
 
-- Godot Docs — First look at the editor: <https://docs.godotengine.org/en/stable/getting_started/introduction/first_look_at_the_editor.html>
-- Godot Docs — Multiple resolutions: <https://docs.godotengine.org/en/stable/tutorials/rendering/multiple_resolutions.html>
-- Godot Docs — Importing images: <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>
-- Godot Docs — Sprite2D: <https://docs.godotengine.org/en/stable/classes/class_sprite2d.html>
+- Godot Docs — First look at the editor: <https://docs.godotengine.org/en/4.3/getting_started/introduction/first_look_at_the_editor.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Multiple resolutions: <https://docs.godotengine.org/en/4.3/tutorials/rendering/multiple_resolutions.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Importing images: <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_images.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Sprite2D: <https://docs.godotengine.org/en/4.3/classes/class_sprite2d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

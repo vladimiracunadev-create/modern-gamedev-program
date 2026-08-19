@@ -6,7 +6,7 @@
 
 **Fuentes de referencia de esta parte:**
 
-- Documentación de [exportación de Godot 4](https://docs.godotengine.org/en/stable/tutorials/export/index.html).
+- Documentación de [exportación de Godot 4](https://docs.godotengine.org/en/4.3/tutorials/export/index.html).
 - Guías oficiales de [Google Play](https://developer.android.com/games) y [App Store](https://developer.apple.com/games/).
 - [Steam Deck — guía para desarrolladores](https://partner.steamgames.com/doc/steamdeck).
 - Documentación de programas de consola (Nintendo, PlayStation, Xbox — bajo NDA).

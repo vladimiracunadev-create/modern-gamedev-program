@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Trabajaremos en un proyecto Godot 4.x con dos escenas: una `pantalla_carga.tscn` (con un `ProgressBar` y un `Label`) y una escena "pesada" de destino, por ejemplo `nivel_grande.tscn` con muchos nodos, luces o texturas grandes para que la carga sea observable. Configura la pantalla de carga como escena principal en **Proyecto → Ajustes del proyecto → Application → Run → Main Scene**. Ten abierto el panel **Depurar → Monitores** para observar el uso de memoria mientras cargas.
 
-Documentación de apoyo: carga en segundo plano en <https://docs.godotengine.org/en/stable/tutorials/io/background_loading.html> y la clase `ResourceLoader` en <https://docs.godotengine.org/en/stable/classes/class_resourceloader.html>.
+Documentación de apoyo: carga en segundo plano en <https://docs.godotengine.org/en/4.3/tutorials/io/background_loading.html> y la clase `ResourceLoader` en <https://docs.godotengine.org/en/4.3/classes/class_resourceloader.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -170,10 +170,10 @@ Crea un flujo Menú → Pantalla de carga → Nivel donde la pantalla de carga r
 
 ## 🔗 Referencias
 
-- Godot Docs — Background loading: <https://docs.godotengine.org/en/stable/tutorials/io/background_loading.html>
-- Godot Docs — ResourceLoader: <https://docs.godotengine.org/en/stable/classes/class_resourceloader.html>
-- Godot Docs — SceneTree (change_scene_to_packed): <https://docs.godotengine.org/en/stable/classes/class_scenetree.html>
-- Godot Docs — PackedScene: <https://docs.godotengine.org/en/stable/classes/class_packedscene.html>
+- Godot Docs — Background loading: <https://docs.godotengine.org/en/4.3/tutorials/io/background_loading.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — ResourceLoader: <https://docs.godotengine.org/en/4.3/classes/class_resourceloader.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — SceneTree (change_scene_to_packed): <https://docs.godotengine.org/en/4.3/classes/class_scenetree.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — PackedScene: <https://docs.godotengine.org/en/4.3/classes/class_packedscene.html> · uso: respalda el Tema 7 «Escenas empaquetadas (`PackedScene`)»
 
 ## ⬅️ Clase anterior
 

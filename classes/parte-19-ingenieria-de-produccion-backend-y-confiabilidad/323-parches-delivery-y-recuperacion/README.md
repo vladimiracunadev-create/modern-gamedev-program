@@ -409,11 +409,11 @@ Implementa la cadena de entrega y recuperación: catálogo versionado por hash c
 
 ## 🔗 Referencias
 
-- Google — *Site Reliability Engineering*, gestión de incidentes: <https://sre.google/sre-book/managing-incidents/>
-- Google — *SRE*, cultura de postmortem sin culpables: <https://sre.google/sre-book/postmortem-culture/>
-- Godot Docs — `ProjectSettings.load_resource_pack` (contenido descargable): <https://docs.godotengine.org/en/stable/classes/class_projectsettings.html>
-- Godot Docs — `HTTPRequest` (descargas con verificación): <https://docs.godotengine.org/en/stable/classes/class_httprequest.html>
-- Steamworks — actualizaciones y depots: <https://partner.steamgames.com/doc/store/application/depots>
+- Google — *Site Reliability Engineering*, gestión de incidentes: <https://sre.google/sre-book/managing-incidents/> · uso: se instala o se consulta en la preparación
+- Google — *SRE*, cultura de postmortem sin culpables: <https://sre.google/sre-book/postmortem-culture/> · uso: respalda el Tema 10 «Postmortem sin culpables»
+- Godot Docs — `ProjectSettings.load_resource_pack` (contenido descargable): <https://docs.godotengine.org/en/4.3/classes/class_projectsettings.html> · uso: respalda el Tema 1 «Catálogo de contenido»
+- Godot Docs — `HTTPRequest` (descargas con verificación): <https://docs.godotengine.org/en/4.3/classes/class_httprequest.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Steamworks — actualizaciones y depots: <https://partner.steamgames.com/doc/store/application/depots> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

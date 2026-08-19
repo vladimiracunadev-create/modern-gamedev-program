@@ -131,10 +131,10 @@ Entrega `onboarding.md` con: la mecánica elegida, la secuencia de 3-4 pasos (in
 
 ## 🔗 Referencias
 
-- Scott Rogers, *Level Up! The Guide to Great Video Game Design* — <https://www.wiley.com>
-- Game Maker's Toolkit (análisis de enseñanza por diseño) — <https://www.youtube.com/c/MarkBrownGMT>
-- Jesse Schell, *The Art of Game Design: A Book of Lenses* (3ª ed.) — <https://www.schellgames.com>
-- The Design of Super Mario Bros. World 1-1 (referencia de análisis) — <https://en.wikipedia.org/wiki/Super_Mario_Bros.>
+- Scott Rogers, *Level Up! The Guide to Great Video Game Design* — <https://www.wiley.com> · uso: se instala o se consulta en la preparación
+- Game Maker's Toolkit (análisis de enseñanza por diseño) — <https://www.youtube.com/c/MarkBrownGMT> · uso: se instala o se consulta en la preparación
+- Jesse Schell, *The Art of Game Design: A Book of Lenses* (3ª ed.) — <https://www.schellgames.com> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- The Design of Super Mario Bros. World 1-1 (referencia de análisis) — <https://en.wikipedia.org/wiki/Super_Mario_Bros.> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

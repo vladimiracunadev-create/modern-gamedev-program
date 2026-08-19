@@ -463,11 +463,11 @@ Implementa la base de lore con **al menos 25 entradas** y tres niveles de visibi
 
 ## 🔗 Referencias
 
-- Godot Docs — `RegEx` (extracción de nombres propios): <https://docs.godotengine.org/en/stable/classes/class_regex.html>
-- Godot Docs — `JSON` y diccionarios: <https://docs.godotengine.org/en/stable/classes/class_json.html>
-- OWASP — Top 10 for LLM Applications (fuga de información sensible): <https://owasp.org/www-project-top-10-for-large-language-model-applications/>
-- Lewis et al. — *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks* (artículo original de RAG): <https://arxiv.org/abs/2005.11401>
-- GDC Vault — charlas sobre bases de conocimiento narrativo y coherencia de mundo: <https://www.gdcvault.com/>
+- Godot Docs — `RegEx` (extracción de nombres propios): <https://docs.godotengine.org/en/4.3/classes/class_regex.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `JSON` y diccionarios: <https://docs.godotengine.org/en/4.3/classes/class_json.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- OWASP — Top 10 for LLM Applications (fuga de información sensible): <https://owasp.org/www-project-top-10-for-large-language-model-applications/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Lewis et al. — *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks* (artículo original de RAG): <https://arxiv.org/abs/2005.11401> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas sobre bases de conocimiento narrativo y coherencia de mundo: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 1 «Alucinación en un mundo ficticio»
 
 ## ⬅️ Clase anterior
 

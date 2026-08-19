@@ -137,10 +137,10 @@ El post-lanzamiento de esta clase se ve desde producción y comunidad. La Parte 
 
 ## 🔗 Referencias
 
-- Steamworks — Community Hub: <https://partner.steamgames.com/doc/store/communityhub>
-- GDC Vault — post-mortems y community management: <https://www.gdcvault.com/>
-- Steamworks — Updating your game: <https://partner.steamgames.com/doc/store/updates>
-- CMX / guías de gestión de comunidad: <https://cmxhub.com/>
+- Steamworks — Community Hub: <https://partner.steamgames.com/doc/store/communityhub> · uso: se instala o se consulta en la preparación
+- GDC Vault — post-mortems y community management: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 1 «Soporte post-lanzamiento»
+- Steamworks — Updating your game: <https://partner.steamgames.com/doc/store/updates> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- CMX / guías de gestión de comunidad: <https://cmxhub.com/> · uso: respalda el Tema 4 «Gestión de comunidad»
 
 ## ⬅️ Clase anterior
 

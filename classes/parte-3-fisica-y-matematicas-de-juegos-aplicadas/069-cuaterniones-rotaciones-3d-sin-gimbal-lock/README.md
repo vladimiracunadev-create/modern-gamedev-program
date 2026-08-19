@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usa **Godot 4.x** con un proyecto 3D. Crea una escena con un `Node3D` raíz, un `MeshInstance3D` (una caja o cápsula sirve para ver la orientación) y una cámara. Consulta la referencia de [Quaternion](https://docs.godotengine.org/en/stable/classes/class_quaternion.html) y el tutorial [Using 3D transforms](https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html). El giro será lo observable: verás la malla interpolar suavemente entre dos poses.
+Usa **Godot 4.x** con un proyecto 3D. Crea una escena con un `Node3D` raíz, un `MeshInstance3D` (una caja o cápsula sirve para ver la orientación) y una cámara. Consulta la referencia de [Quaternion](https://docs.godotengine.org/en/4.3/classes/class_quaternion.html) y el tutorial [Using 3D transforms](https://docs.godotengine.org/en/4.3/tutorials/3d/using_transforms.html). El giro será lo observable: verás la malla interpolar suavemente entre dos poses.
 
 ## 🧪 Laboratorio guiado
 
@@ -137,9 +137,9 @@ Programa una torreta 3D que apunte suavemente a un objetivo: cada frame calcula 
 
 ## 🔗 Referencias
 
-1. Godot Engine — Clase Quaternion: <https://docs.godotengine.org/en/stable/classes/class_quaternion.html>
-2. Godot Engine — Using 3D transforms: <https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html>
-3. Godot Engine — Clase Basis: <https://docs.godotengine.org/en/stable/classes/class_basis.html>
+1. Godot Engine — Clase Quaternion: <https://docs.godotengine.org/en/4.3/classes/class_quaternion.html> · uso: se instala o se consulta en la preparación
+2. Godot Engine — Using 3D transforms: <https://docs.godotengine.org/en/4.3/tutorials/3d/using_transforms.html> · uso: se instala o se consulta en la preparación
+3. Godot Engine — Clase Basis: <https://docs.godotengine.org/en/4.3/classes/class_basis.html> · uso: respalda el Tema 7 «Quaternion ↔ Basis en Godot»
 
 ## ⬅️ Clase anterior
 

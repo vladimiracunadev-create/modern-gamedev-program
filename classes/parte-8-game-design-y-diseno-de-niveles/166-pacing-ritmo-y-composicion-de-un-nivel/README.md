@@ -137,10 +137,10 @@ Entrega `pacing-nivel.md` con: el nivel dividido en 6-10 tramos, la intensidad a
 
 ## 🔗 Referencias
 
-- Scott Rogers, *Level Up! The Guide to Great Video Game Design* — <https://www.wiley.com>
-- Game Maker's Toolkit (pacing y curvas de intensidad) — <https://www.youtube.com/c/MarkBrownGMT>
-- Jesse Schell, *The Art of Game Design: A Book of Lenses* (3ª ed.) — <https://www.schellgames.com>
-- Tracy Fullerton, *Game Design Workshop* (4ª ed.) — CRC Press
+- Scott Rogers, *Level Up! The Guide to Great Video Game Design* — <https://www.wiley.com> · uso: se instala o se consulta en la preparación
+- Game Maker's Toolkit (pacing y curvas de intensidad) — <https://www.youtube.com/c/MarkBrownGMT> · uso: se instala o se consulta en la preparación
+- Jesse Schell, *The Art of Game Design: A Book of Lenses* (3ª ed.) — <https://www.schellgames.com> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Tracy Fullerton, *Game Design Workshop* (4ª ed.) — CRC Press · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

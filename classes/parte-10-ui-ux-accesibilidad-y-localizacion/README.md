@@ -9,9 +9,9 @@
 **Fuentes de referencia de esta parte:**
 
 - Celia Hodent, *The Gamer's Brain: How Neuroscience and UX Can Impact Video Game Design*.
-- Documentación de [UI de Godot 4](https://docs.godotengine.org/en/stable/tutorials/ui/index.html).
+- Documentación de [UI de Godot 4](https://docs.godotengine.org/en/4.3/tutorials/ui/index.html).
 - [Game Accessibility Guidelines](https://gameaccessibilityguidelines.com/).
-- Documentación de [internacionalización de Godot](https://docs.godotengine.org/en/stable/tutorials/i18n/index.html).
+- Documentación de [internacionalización de Godot](https://docs.godotengine.org/en/4.3/tutorials/i18n/index.html).
 
 ---
 

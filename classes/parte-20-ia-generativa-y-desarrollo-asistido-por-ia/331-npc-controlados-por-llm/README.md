@@ -514,11 +514,11 @@ Implementa un NPC conversacional completo con identidad versionada, constructor 
 
 ## 🔗 Referencias
 
-- OWASP — Top 10 for LLM Applications (manejo inseguro de salidas, agencia excesiva): <https://owasp.org/www-project-top-10-for-large-language-model-applications/>
-- Godot Docs — `JSON` (parseo y validación de la respuesta): <https://docs.godotengine.org/en/stable/classes/class_json.html>
-- Godot Docs — `HTTPRequest` (base del proveedor remoto): <https://docs.godotengine.org/en/stable/classes/class_httprequest.html>
-- JSON Schema — definición de esquemas de salida: <https://json-schema.org/>
-- GDC Vault — charlas sobre NPC conversacionales y sus límites de diseño: <https://www.gdcvault.com/>
+- OWASP — Top 10 for LLM Applications (manejo inseguro de salidas, agencia excesiva): <https://owasp.org/www-project-top-10-for-large-language-model-applications/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `JSON` (parseo y validación de la respuesta): <https://docs.godotengine.org/en/4.3/classes/class_json.html> · uso: respalda el Tema 7 «Validación contra el juego»
+- Godot Docs — `HTTPRequest` (base del proveedor remoto): <https://docs.godotengine.org/en/4.3/classes/class_httprequest.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- JSON Schema — definición de esquemas de salida: <https://json-schema.org/> · uso: respalda el Tema 5 «Salida estructurada»
+- GDC Vault — charlas sobre NPC conversacionales y sus límites de diseño: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -126,13 +126,13 @@ Anima un ciclo en Aseprite (bola que rebota de al menos 6 frames o idle de perso
 
 ## 🔗 Referencias
 
-- Aseprite — Documentación (animación y export): <https://www.aseprite.org/docs/>
+- Aseprite — Documentación (animación y export): <https://www.aseprite.org/docs/> · uso: se instala o se consulta en la preparación
 
-- Aseprite — Tutorial de Onion Skin: <https://www.aseprite.org/docs/onion-skin/>
+- Aseprite — Tutorial de Onion Skin: <https://www.aseprite.org/docs/onion-skinning/> · uso: respalda el Tema 8 «Onion skin»
 
-- Williams, "The Animator's Survival Kit" (referencia clásica): <https://theanimatorssurvivalkit.com/>
+- Williams, "The Animator's Survival Kit" (referencia clásica): <https://theanimatorssurvivalkit.com/> ⚠️ (sitio caído; la obra se localiza por ISBN en el registro) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
-- 12 principios de la animación (resumen): <https://en.wikipedia.org/wiki/Twelve_basic_principles_of_animation>
+- 12 principios de la animación (resumen): <https://en.wikipedia.org/wiki/Twelve_basic_principles_of_animation> · uso: respalda el Tema 1 «Los 12 principios (visión general)»
 
 ## ⬅️ Clase anterior
 

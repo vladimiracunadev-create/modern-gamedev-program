@@ -162,9 +162,9 @@ Implementa una función `colision(forma_a, forma_b)` que reciba formas etiquetad
 
 ## 🔗 Referencias
 
-1. Godot Engine — Physics introduction (áreas y formas): <https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html>
-2. Wikipedia — Hyperplane separation theorem (SAT): <https://en.wikipedia.org/wiki/Hyperplane_separation_theorem>
-3. MDN — 2D collision detection: <https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection>
+1. Godot Engine — Physics introduction (áreas y formas): <https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+2. Wikipedia — Hyperplane separation theorem (SAT): <https://en.wikipedia.org/wiki/Hyperplane_separation_theorem> · uso: respalda el Tema 4 «Idea del SAT»
+3. MDN — 2D collision detection: <https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

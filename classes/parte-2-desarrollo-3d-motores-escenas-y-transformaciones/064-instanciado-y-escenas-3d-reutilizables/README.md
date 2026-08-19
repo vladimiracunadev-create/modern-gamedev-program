@@ -46,7 +46,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x desde <https://godotengine.org/download>. La guía base es "Instancing" en <https://docs.godotengine.org/en/stable/getting_started/step_by_step/instancing.html> y la referencia de `PackedScene` en <https://docs.godotengine.org/en/stable/classes/class_packedscene.html>. Para señales revisa <https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html>. Trabajaremos con mallas primitivas para que puedas centrarte en el patrón de instanciado y no en el arte.
+Necesitas Godot 4.x desde <https://godotengine.org/download>. La guía base es "Instancing" en <https://docs.godotengine.org/en/4.3/getting_started/step_by_step/instancing.html> y la referencia de `PackedScene` en <https://docs.godotengine.org/en/4.3/classes/class_packedscene.html>. Para señales revisa <https://docs.godotengine.org/en/4.3/getting_started/step_by_step/signals.html>. Trabajaremos con mallas primitivas para que puedas centrarte en el patrón de instanciado y no en el arte.
 
 ## 🧪 Laboratorio guiado
 
@@ -174,10 +174,10 @@ Crea un "recolector": instancia por código **al menos 8** coleccionables en pos
 
 ## 🔗 Referencias
 
-- Godot Docs — Instancing: <https://docs.godotengine.org/en/stable/getting_started/step_by_step/instancing.html>
-- Godot Docs — Signals: <https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html>
-- Godot Docs — Clase PackedScene: <https://docs.godotengine.org/en/stable/classes/class_packedscene.html>
-- Godot Docs — Using signals (código): <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html#signals>
+- Godot Docs — Instancing: <https://docs.godotengine.org/en/4.3/getting_started/step_by_step/instancing.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Signals: <https://docs.godotengine.org/en/4.3/getting_started/step_by_step/signals.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Clase PackedScene: <https://docs.godotengine.org/en/4.3/classes/class_packedscene.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Using signals (código): <https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_basics.html#signals> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

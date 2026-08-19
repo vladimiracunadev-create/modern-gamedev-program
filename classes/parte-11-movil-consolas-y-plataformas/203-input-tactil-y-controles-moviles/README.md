@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Trabaja en tu proyecto del curso. Activa **Project → Project Settings → Input Devices → Pointing → Emulate Touch From Mouse** para probar los controles táctiles con el ratón en el editor. Prepara dos `TextureRect` o `Sprite2D` para la base y el pomo del joystick (basta con dos círculos), y un `CanvasLayer` para que los controles queden fijos sobre el juego.
 
-Consulta `InputEventScreenTouch` y `InputEventScreenDrag` en <https://docs.godotengine.org/en/stable/tutorials/inputs/inputevent.html#touch-events> y `TouchScreenButton` en <https://docs.godotengine.org/en/stable/classes/class_touchscreenbutton.html>. La guía de exportación a Android (clase 201) te permite probarlo luego en un teléfono real.
+Consulta `InputEventScreenTouch` y `InputEventScreenDrag` en <https://docs.godotengine.org/en/4.3/tutorials/inputs/inputevent.html#touch-events> y `TouchScreenButton` en <https://docs.godotengine.org/en/4.3/classes/class_touchscreenbutton.html>. La guía de exportación a Android (clase 201) te permite probarlo luego en un teléfono real.
 
 ## 🧪 Laboratorio guiado
 
@@ -171,10 +171,10 @@ Implementa un control táctil completo con **joystick virtual analógico** que m
 
 ## 🔗 Referencias
 
-- Godot Docs — InputEvent, eventos táctiles: <https://docs.godotengine.org/en/stable/tutorials/inputs/inputevent.html>
-- Godot Docs — Clase InputEventScreenTouch: <https://docs.godotengine.org/en/stable/classes/class_inputeventscreentouch.html>
-- Godot Docs — Clase InputEventScreenDrag: <https://docs.godotengine.org/en/stable/classes/class_inputeventscreendrag.html>
-- Godot Docs — Clase TouchScreenButton: <https://docs.godotengine.org/en/stable/classes/class_touchscreenbutton.html>
+- Godot Docs — InputEvent, eventos táctiles: <https://docs.godotengine.org/en/4.3/tutorials/inputs/inputevent.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Clase InputEventScreenTouch: <https://docs.godotengine.org/en/4.3/classes/class_inputeventscreentouch.html> · uso: respalda el Tema 1 «`InputEventScreenTouch`»
+- Godot Docs — Clase InputEventScreenDrag: <https://docs.godotengine.org/en/4.3/classes/class_inputeventscreendrag.html> · uso: respalda el Tema 2 «`InputEventScreenDrag`»
+- Godot Docs — Clase TouchScreenButton: <https://docs.godotengine.org/en/4.3/classes/class_touchscreenbutton.html> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

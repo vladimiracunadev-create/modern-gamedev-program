@@ -448,12 +448,12 @@ Implementa las cinco estructuras (fuerza bruta, rejilla uniforme, hashing espaci
 
 ## 🔗 Referencias
 
-- Akenine-Möller, Haines & Hoffman — *Real-Time Rendering*, capítulo de estructuras espaciales: <https://www.realtimerendering.com/>
-- Christer Ericson — *Real-Time Collision Detection*: <https://realtimecollisiondetection.net/>
-- Teschner et al. — *Optimized Spatial Hashing for Collision Detection of Deformable Objects*: <https://matthias-research.github.io/pages/publications/tetraederCollision.pdf>
-- Godot Docs — `AABB` y `Rect2`: <https://docs.godotengine.org/en/stable/classes/class_aabb.html>
-- Godot Docs — Física y detección de colisiones: <https://docs.godotengine.org/en/stable/tutorials/physics/index.html>
-- Robert Nystrom — *Game Programming Patterns*, Spatial Partition: <https://gameprogrammingpatterns.com/spatial-partition.html>
+- Akenine-Möller, Haines & Hoffman — *Real-Time Rendering*, capítulo de estructuras espaciales: <https://www.realtimerendering.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Christer Ericson — *Real-Time Collision Detection*: <https://realtimecollisiondetection.net/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Teschner et al. — *Optimized Spatial Hashing for Collision Detection of Deformable Objects*: <https://matthias-research.github.io/pages/publications/tetraederCollision.pdf> · uso: respalda el Tema 3 «Hashing espacial»
+- Godot Docs — `AABB` y `Rect2`: <https://docs.godotengine.org/en/4.3/classes/class_aabb.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Física y detección de colisiones: <https://docs.godotengine.org/en/4.3/tutorials/physics/index.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Robert Nystrom — *Game Programming Patterns*, Spatial Partition: <https://gameprogrammingpatterns.com/spatial-partition.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

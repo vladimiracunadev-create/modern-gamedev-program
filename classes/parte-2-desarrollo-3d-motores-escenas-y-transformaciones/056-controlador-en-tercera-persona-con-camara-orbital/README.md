@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas **Godot 4.x**, un nivel con suelo, paredes y algún obstáculo para probar la retracción del `SpringArm3D`, y un `MeshInstance3D` con forma reconocible (una flecha o cápsula con "frente") para ver hacia dónde mira el personaje. Define las acciones de movimiento y `saltar` en el Input Map. Consulta la API de `SpringArm3D` en <https://docs.godotengine.org/en/stable/classes/class_springarm3d.html> y la guía 3D en <https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html>. Motor: <https://godotengine.org/download>.
+Necesitas **Godot 4.x**, un nivel con suelo, paredes y algún obstáculo para probar la retracción del `SpringArm3D`, y un `MeshInstance3D` con forma reconocible (una flecha o cápsula con "frente") para ver hacia dónde mira el personaje. Define las acciones de movimiento y `saltar` en el Input Map. Consulta la API de `SpringArm3D` en <https://docs.godotengine.org/en/4.3/classes/class_springarm3d.html> y la guía 3D en <https://docs.godotengine.org/en/4.3/tutorials/3d/introduction_to_3d.html>. Motor: <https://godotengine.org/download>.
 
 ## 🧪 Laboratorio guiado
 
@@ -151,9 +151,9 @@ Entrega un controlador en tercera persona: cámara orbital con `SpringArm3D` que
 
 ## 🔗 Referencias
 
-- SpringArm3D — API oficial: <https://docs.godotengine.org/en/stable/classes/class_springarm3d.html>
-- Introduction to 3D: <https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html>
-- CharacterBody3D: <https://docs.godotengine.org/en/stable/classes/class_characterbody3d.html>
+- SpringArm3D — API oficial: <https://docs.godotengine.org/en/4.3/classes/class_springarm3d.html> · uso: se instala o se consulta en la preparación
+- Introduction to 3D: <https://docs.godotengine.org/en/4.3/tutorials/3d/introduction_to_3d.html> · uso: se instala o se consulta en la preparación
+- CharacterBody3D: <https://docs.godotengine.org/en/4.3/classes/class_characterbody3d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

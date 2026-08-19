@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas **Godot 4.x** ([godotengine.org](https://godotengine.org)). Crea un proyecto 2D con un `Node2D` raíz. Trabajaremos con la lógica en `_physics_process` (paso fijo) y compararemos contra hacerlo en `_process`. Para la aleatoriedad usaremos una instancia propia de [RandomNumberGenerator](https://docs.godotengine.org/en/stable/classes/class_randomnumbergenerator.html) con `seed` explícita, en vez de las funciones globales, para controlar el estado. Ten a mano la doc de [_physics_process](https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html). El tick de física por defecto es 60 Hz (Project Settings → Physics → Common → Physics Ticks per Second).
+Necesitas **Godot 4.x** ([godotengine.org](https://godotengine.org)). Crea un proyecto 2D con un `Node2D` raíz. Trabajaremos con la lógica en `_physics_process` (paso fijo) y compararemos contra hacerlo en `_process`. Para la aleatoriedad usaremos una instancia propia de [RandomNumberGenerator](https://docs.godotengine.org/en/4.3/classes/class_randomnumbergenerator.html) con `seed` explícita, en vez de las funciones globales, para controlar el estado. Ten a mano la doc de [_physics_process](https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html). El tick de física por defecto es 60 Hz (Project Settings → Physics → Common → Physics Ticks per Second).
 
 ## 🧪 Laboratorio guiado
 
@@ -165,10 +165,10 @@ Implementa un mini-sistema lockstep local: dos entidades que reciben la **misma*
 
 ## 🔗 Referencias
 
-- Gaffer On Games — Deterministic Lockstep: <https://gafferongames.com/post/deterministic_lockstep/>
-- Godot Docs — Physics introduction (`_physics_process`): <https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html>
-- Godot Docs — RandomNumberGenerator: <https://docs.godotengine.org/en/stable/classes/class_randomnumbergenerator.html>
-- Gaffer On Games — Floating Point Determinism: <https://gafferongames.com/post/floating_point_determinism/>
+- Gaffer On Games — Deterministic Lockstep: <https://gafferongames.com/post/deterministic_lockstep/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Physics introduction (`_physics_process`): <https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — RandomNumberGenerator: <https://docs.godotengine.org/en/4.3/classes/class_randomnumbergenerator.html> · uso: se instala o se consulta en la preparación
+- Gaffer On Games — Floating Point Determinism: <https://gafferongames.com/post/floating_point_determinism/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

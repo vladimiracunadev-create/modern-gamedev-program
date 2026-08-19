@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Godot 4.x**, el addon **GUT** de la clase 264 y un repositorio con **GitHub Actions** como en la 262. Reutilizarás lo construido: el comando de tests por CLI, el workflow de CI y, si aplica, la serialización de la clase 265. Trabaja en `addons/mi_herramienta/` con su `plugin.cfg` y su script `EditorPlugin`.
 
-Elige el problema antes de programar: revisa un proyecto real y localiza una tarea repetitiva (renombrar en lote, generar un TileSet, validar un catálogo de ítems). La guía de plugins de editor está en <https://docs.godotengine.org/en/stable/tutorials/plugins/editor/making_plugins.html> y la de scripts `@tool` en <https://docs.godotengine.org/en/stable/tutorials/plugins/running_code_in_the_editor.html>.
+Elige el problema antes de programar: revisa un proyecto real y localiza una tarea repetitiva (renombrar en lote, generar un TileSet, validar un catálogo de ítems). La guía de plugins de editor está en <https://docs.godotengine.org/en/4.3/tutorials/plugins/editor/making_plugins.html> y la de scripts `@tool` en <https://docs.godotengine.org/en/4.3/tutorials/plugins/running_code_in_the_editor.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -188,10 +188,10 @@ Construye y documenta una herramienta útil real por una de las tres vías (plug
 
 ## 🔗 Referencias
 
-- Godot Docs — Making plugins (`EditorPlugin`): <https://docs.godotengine.org/en/stable/tutorials/plugins/editor/making_plugins.html>
-- Godot Docs — Running code in the editor (`@tool`): <https://docs.godotengine.org/en/stable/tutorials/plugins/running_code_in_the_editor.html>
-- GUT — documentación oficial: <https://gut.readthedocs.io/>
-- GitHub Docs — Workflow syntax: <https://docs.github.com/actions/using-workflows/workflow-syntax-for-github-actions>
+- Godot Docs — Making plugins (`EditorPlugin`): <https://docs.godotengine.org/en/4.3/tutorials/plugins/editor/making_plugins.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Running code in the editor (`@tool`): <https://docs.godotengine.org/en/4.3/tutorials/plugins/running_code_in_the_editor.html> · uso: se instala o se consulta en la preparación
+- GUT — documentación oficial: <https://gut.readthedocs.io/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GitHub Docs — Workflow syntax: <https://docs.github.com/actions/using-workflows/workflow-syntax-for-github-actions> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

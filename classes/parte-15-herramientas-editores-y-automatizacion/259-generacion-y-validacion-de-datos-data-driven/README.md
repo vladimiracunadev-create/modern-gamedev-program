@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Godot 4.x**. Prepara un archivo de datos de ejemplo; usaremos JSON por su claridad, pero el CSV se menciona en paralelo. Crea `res://datos/enemigos.json` con varios registros, incluyendo **al menos uno inválido a propósito** (un campo faltante o un valor fuera de rango) para ver la validación en acción.
 
-Consulta la referencia de `FileAccess` para los modos de apertura: <https://docs.godotengine.org/en/stable/classes/class_fileaccess.html>. Para el parseo, la clase `JSON`: <https://docs.godotengine.org/en/stable/classes/class_json.html>. Y para guardar recursos, `ResourceSaver`: <https://docs.godotengine.org/en/stable/classes/class_resourcesaver.html>.
+Consulta la referencia de `FileAccess` para los modos de apertura: <https://docs.godotengine.org/en/4.3/classes/class_fileaccess.html>. Para el parseo, la clase `JSON`: <https://docs.godotengine.org/en/4.3/classes/class_json.html>. Y para guardar recursos, `ResourceSaver`: <https://docs.godotengine.org/en/4.3/classes/class_resourcesaver.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -226,10 +226,10 @@ En todos ellos se repite la misma idea que aquí: **el contenido es código y se
 
 ## 🔗 Referencias
 
-- Godot Docs — `FileAccess`: <https://docs.godotengine.org/en/stable/classes/class_fileaccess.html>
-- Godot Docs — `JSON`: <https://docs.godotengine.org/en/stable/classes/class_json.html>
-- Godot Docs — `ResourceSaver`: <https://docs.godotengine.org/en/stable/classes/class_resourcesaver.html>
-- Godot Docs — Saving games / serialización: <https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html>
+- Godot Docs — `FileAccess`: <https://docs.godotengine.org/en/4.3/classes/class_fileaccess.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `JSON`: <https://docs.godotengine.org/en/4.3/classes/class_json.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `ResourceSaver`: <https://docs.godotengine.org/en/4.3/classes/class_resourcesaver.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Saving games / serialización: <https://docs.godotengine.org/en/4.3/tutorials/io/saving_games.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

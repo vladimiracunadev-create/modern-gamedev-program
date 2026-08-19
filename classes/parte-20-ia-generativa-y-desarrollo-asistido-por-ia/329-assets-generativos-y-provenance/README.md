@@ -340,12 +340,12 @@ Implementa un sistema de procedencia completo: registro `PROCEDENCIA.json` con *
 
 ## 🔗 Referencias
 
-- C2PA — estándar abierto de credenciales de procedencia de contenido: <https://c2pa.org/>
-- Content Authenticity Initiative — implementaciones y herramientas: <https://contentauthenticity.org/>
-- U.S. Copyright Office — orientación sobre obras con material generado por IA: <https://www.copyright.gov/ai/>
-- Oficina de Propiedad Intelectual de la UE (EUIPO) — recursos sobre PI: <https://www.euipo.europa.eu/>
-- Steamworks — políticas de contenido y divulgación: <https://partner.steamgames.com/doc/gettingstarted>
-- Creative Commons — tipos de licencia y su alcance: <https://creativecommons.org/licenses/>
+- C2PA — estándar abierto de credenciales de procedencia de contenido: <https://c2pa.org/> · uso: se instala o se consulta en la preparación
+- Content Authenticity Initiative — implementaciones y herramientas: <https://contentauthenticity.org/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- U.S. Copyright Office — orientación sobre obras con material generado por IA: <https://www.copyright.gov/ai/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Oficina de Propiedad Intelectual de la UE (EUIPO) — recursos sobre PI: <https://www.euipo.europa.eu/> · uso: respalda el Tema 4 «Propiedad intelectual»
+- Steamworks — políticas de contenido y divulgación: <https://partner.steamgames.com/doc/gettingstarted> · uso: respalda el Tema 7 «Divulgación en tiendas»
+- Creative Commons — tipos de licencia y su alcance: <https://creativecommons.org/licenses/> · uso: respalda el Tema 5 «Licencia de la herramienta»
 
 ## ⬅️ Clase anterior
 

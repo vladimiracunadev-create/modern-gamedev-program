@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas Godot 4 (versión estándar; para builds con plugins nativos también sirve), el **Android SDK** con las command-line tools, un **JDK 17** (OpenJDK) y un dispositivo Android con **Depuración USB** activada en Opciones de desarrollador. La forma más simple de obtener el SDK es instalar Android Studio, que trae SDK, plataformas y `adb`. Godot necesita las rutas del SDK y del `keytool`/JDK en Editor → Editor Settings → Export → Android.
 
-Sigue la guía oficial de Godot para Android en <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_android.html> y la referencia de `adb` en <https://developer.android.com/tools/adb>. Ten a mano una terminal donde `adb` y `keytool` estén en el PATH.
+Sigue la guía oficial de Godot para Android en <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_for_android.html> y la referencia de `adb` en <https://developer.android.com/tools/adb>. Ten a mano una terminal donde `adb` y `keytool` estén en el PATH.
 
 ## 🧪 Laboratorio guiado
 
@@ -132,10 +132,10 @@ Exporta tu juego a un **APK de release firmado con tu propia keystore** (no la d
 
 ## 🔗 Referencias
 
-- Godot Docs — Exporting for Android: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_android.html>
-- Godot Docs — Android custom build and Gradle: <https://docs.godotengine.org/en/stable/tutorials/export/android_gradle_build.html>
-- Android — adb (Android Debug Bridge): <https://developer.android.com/tools/adb>
-- Android — Sign your app (apksigner, keystore): <https://developer.android.com/studio/publish/app-signing>
+- Godot Docs — Exporting for Android: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_for_android.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Android custom build and Gradle: <https://docs.godotengine.org/en/4.3/tutorials/export/android_gradle_build.html> · uso: respalda el Tema 7 «Gradle build»
+- Android — adb (Android Debug Bridge): <https://developer.android.com/tools/adb> · uso: se instala o se consulta en la preparación
+- Android — Sign your app (apksigner, keystore): <https://developer.android.com/studio/publish/app-signing> · uso: respalda el Tema 2 «Android SDK y JDK»
 
 ## ⬅️ Clase anterior
 

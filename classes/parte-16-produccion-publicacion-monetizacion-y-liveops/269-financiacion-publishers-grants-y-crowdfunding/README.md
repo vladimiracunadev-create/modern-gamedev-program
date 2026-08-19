@@ -129,11 +129,11 @@ Las dudas más habituales al buscar financiación giran en torno al equilibrio e
 
 Empieza por Chandler para el marco de presupuesto y producción; la guía de Kickstarter y los recursos de pitch de publishers aportan los formatos concretos que esperan quienes financian.
 
-- Heather Chandler — The Game Production Toolbox: <https://www.routledge.com/>
-- Kickstarter, guía para creadores: <https://www.kickstarter.com/learn>
-- GDC Vault, charlas de financiación: <https://www.gdcvault.com/>
-- Guía de pitch para publishers (Raw Fury/Devolver, blogs públicos): <https://www.gamesindustry.biz/>
-- Creative Europe MEDIA (grants de videojuegos, UE): <https://culture.ec.europa.eu/creative-europe>
+- Heather Chandler — The Game Production Toolbox: <https://www.routledge.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Kickstarter, guía para creadores: <https://www.kickstarter.com/learn> · uso: se instala o se consulta en la preparación
+- GDC Vault, charlas de financiación: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: se instala o se consulta en la preparación
+- Guía de pitch para publishers (Raw Fury/Devolver, blogs públicos): <https://www.gamesindustry.biz/> · uso: respalda el Tema 6 «Pitch a inversores y publishers»
+- Creative Europe MEDIA (grants de videojuegos, UE): <https://culture.ec.europa.eu/creative-europe> · uso: respalda el Tema 4 «Grants públicos y privados»
 
 ## ⬅️ Clase anterior
 

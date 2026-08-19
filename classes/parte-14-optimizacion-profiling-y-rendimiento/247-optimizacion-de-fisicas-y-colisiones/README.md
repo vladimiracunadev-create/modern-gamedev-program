@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Trabaja en Godot 4.x. Crea una escena con muchos `RigidBody2D` (o 3D) cayendo sobre un `StaticBody` — por ejemplo 300 cajas apiladas. Ten a mano la tabla de capas de física en **Proyecto → Ajustes del proyecto → Capas → 2D Física**, donde puedes nombrar cada capa (p. ej. "jugador", "enemigos", "balas_jugador", "escenario"). Consulta la guía de capas y máscaras (<https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html#collision-layers-and-masks>).
+Trabaja en Godot 4.x. Crea una escena con muchos `RigidBody2D` (o 3D) cayendo sobre un `StaticBody` — por ejemplo 300 cajas apiladas. Ten a mano la tabla de capas de física en **Proyecto → Ajustes del proyecto → Capas → 2D Física**, donde puedes nombrar cada capa (p. ej. "jugador", "enemigos", "balas_jugador", "escenario"). Consulta la guía de capas y máscaras (<https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html#collision-layers-and-masks>).
 
 Añade un `Label` que muestre en pantalla el tiempo de física leído con `Performance.get_monitor(Performance.TIME_PHYSICS_PROCESS)` multiplicado por 1000 para verlo en milisegundos. Esa cifra es tu métrica principal en todo el laboratorio.
 
@@ -149,10 +149,10 @@ Toma una escena con al menos 300 cuerpos físicos mal configurada (una sola capa
 
 ## 🔗 Referencias
 
-- Godot Docs — Physics introduction: <https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html>
-- Godot Docs — Collision layers and masks: <https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html#collision-layers-and-masks>
-- Godot Docs — RigidBody2D (sleeping): <https://docs.godotengine.org/en/stable/classes/class_rigidbody2d.html>
-- Godot Docs — Performance monitors: <https://docs.godotengine.org/en/stable/classes/class_performance.html>
+- Godot Docs — Physics introduction: <https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Collision layers and masks: <https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html#collision-layers-and-masks> · uso: se instala o se consulta en la preparación
+- Godot Docs — RigidBody2D (sleeping): <https://docs.godotengine.org/en/4.3/classes/class_rigidbody2d.html> · uso: respalda el Tema 5 «Sleeping bodies»
+- Godot Docs — Performance monitors: <https://docs.godotengine.org/en/4.3/classes/class_performance.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

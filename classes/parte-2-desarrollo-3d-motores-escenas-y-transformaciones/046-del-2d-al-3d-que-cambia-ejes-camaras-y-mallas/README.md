@@ -46,7 +46,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x instalado desde <https://godotengine.org/download>. Trabajaremos con la documentación oficial de introducción al 3D en <https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html> y la referencia de nodos 3D en <https://docs.godotengine.org/en/stable/classes/class_node3d.html>. Ten a mano también la guía del viewport 3D en <https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html>. No necesitas ningún modelo externo todavía: usaremos mallas primitivas que el propio editor genera.
+Necesitas Godot 4.x instalado desde <https://godotengine.org/download>. Trabajaremos con la documentación oficial de introducción al 3D en <https://docs.godotengine.org/en/4.3/tutorials/3d/introduction_to_3d.html> y la referencia de nodos 3D en <https://docs.godotengine.org/en/4.3/classes/class_node3d.html>. Ten a mano también la guía del viewport 3D en <https://docs.godotengine.org/en/4.3/tutorials/3d/using_transforms.html>. No necesitas ningún modelo externo todavía: usaremos mallas primitivas que el propio editor genera.
 
 ## 🧪 Laboratorio guiado
 
@@ -134,10 +134,10 @@ Construye una escena donde **dos** cubos de distinto tamaño orbiten a distinta 
 
 ## 🔗 Referencias
 
-- Godot Docs — Introduction to 3D: <https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html>
-- Godot Docs — Using 3D transforms: <https://docs.godotengine.org/en/stable/tutorials/3d/using_transforms.html>
-- Godot Docs — Clase Camera3D: <https://docs.godotengine.org/en/stable/classes/class_camera3d.html>
-- Godot Docs — Clase DirectionalLight3D: <https://docs.godotengine.org/en/stable/classes/class_directionallight3d.html>
+- Godot Docs — Introduction to 3D: <https://docs.godotengine.org/en/4.3/tutorials/3d/introduction_to_3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Using 3D transforms: <https://docs.godotengine.org/en/4.3/tutorials/3d/using_transforms.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Clase Camera3D: <https://docs.godotengine.org/en/4.3/classes/class_camera3d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Clase DirectionalLight3D: <https://docs.godotengine.org/en/4.3/classes/class_directionallight3d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

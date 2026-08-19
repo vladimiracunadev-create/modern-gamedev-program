@@ -180,10 +180,10 @@ Implementa lag compensation para un disparo: el servidor guarda el historial de 
 
 ## 🔗 Referencias
 
-- Valve — Latency Compensating Methods (Yahn Bernier): <https://developer.valvesoftware.com/wiki/Latency_Compensating_Methods_in_Client/Server_In-game_Protocol_Design_and_Optimization>
-- GGPO — Rollback networking (concepto): <https://www.ggpo.net/>
-- Gaffer On Games — Deterministic Lockstep: <https://gafferongames.com/post/deterministic_lockstep/>
-- Godot Docs — High-level multiplayer: <https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html>
+- Valve — Latency Compensating Methods (Yahn Bernier): <https://developer.valvesoftware.com/wiki/Latency_Compensating_Methods_in_Client/Server_In-game_Protocol_Design_and_Optimization> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GGPO — Rollback networking (concepto): <https://www.ggpo.net/> · uso: respalda el Tema 5 «Rollback netcode»
+- Gaffer On Games — Deterministic Lockstep: <https://gafferongames.com/post/deterministic_lockstep/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — High-level multiplayer: <https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

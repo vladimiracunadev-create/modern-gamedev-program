@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas **Godot 4.x** ([godotengine.org](https://godotengine.org)) para la parte visual; la lógica de Verlet es matemática pura y también la incluimos en **Python** para estudiarla aislada. En Godot crea un proyecto 2D con un `Node2D` raíz: dibujaremos la cuerda con `_draw()` (líneas y círculos), sin sprites. Ten a mano la documentación de [SoftBody3D](https://docs.godotengine.org/en/stable/classes/class_softbody3d.html) y el clásico artículo de Jakobsen. La cuerda será una lista de puntos unidos por constraints; el anclaje será el primero.
+Necesitas **Godot 4.x** ([godotengine.org](https://godotengine.org)) para la parte visual; la lógica de Verlet es matemática pura y también la incluimos en **Python** para estudiarla aislada. En Godot crea un proyecto 2D con un `Node2D` raíz: dibujaremos la cuerda con `_draw()` (líneas y círculos), sin sprites. Ten a mano la documentación de [SoftBody3D](https://docs.godotengine.org/en/4.3/classes/class_softbody3d.html) y el clásico artículo de Jakobsen. La cuerda será una lista de puntos unidos por constraints; el anclaje será el primero.
 
 ## 🧪 Laboratorio guiado
 
@@ -194,10 +194,10 @@ Simula una **bandera** con Verlet: una rejilla de al menos 10×6 puntos anclada 
 
 ## 🔗 Referencias
 
-- Thomas Jakobsen — Advanced Character Physics (Verlet): <https://www.cs.cmu.edu/afs/cs/academic/class/15462-s13/www/lec_slides/Jakobsen.pdf>
-- Godot Docs — SoftBody3D: <https://docs.godotengine.org/en/stable/classes/class_softbody3d.html>
-- The Nature of Code — Physics Libraries / particle systems: <https://natureofcode.com/>
-- Godot Docs — Custom drawing in 2D (`_draw`): <https://docs.godotengine.org/en/stable/tutorials/2d/custom_drawing_in_2d.html>
+- Thomas Jakobsen — Advanced Character Physics (Verlet): <https://www.cs.cmu.edu/afs/cs/academic/class/15462-s13/www/lec_slides/Jakobsen.pdf> · uso: respalda el Tema 2 «Integración de Verlet»
+- Godot Docs — SoftBody3D: <https://docs.godotengine.org/en/4.3/classes/class_softbody3d.html> · uso: se instala o se consulta en la preparación
+- The Nature of Code — Physics Libraries / particle systems: <https://natureofcode.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Custom drawing in 2D (`_draw`): <https://docs.godotengine.org/en/4.3/tutorials/2d/custom_drawing_in_2d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

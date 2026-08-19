@@ -43,7 +43,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x. Este laboratorio es de arquitectura pura: crearemos varias clases `RefCounted` con `class_name`, sin depender de nodos de escena, y un `Node` raíz que haga el tick cada frame. Ten claro el concepto de herencia en GDScript y el uso de `Array` tipados. Como lectura de apoyo, el artículo clásico "Behavior Trees for AI: How They Work" y los capítulos de BT en [Game AI Pro](http://www.gameaipro.com/) explican la teoría; aquí la implementamos. Repasa [RefCounted](https://docs.godotengine.org/en/stable/classes/class_refcounted.html) y la herencia con `extends` en la documentación de GDScript.
+Necesitas Godot 4.x. Este laboratorio es de arquitectura pura: crearemos varias clases `RefCounted` con `class_name`, sin depender de nodos de escena, y un `Node` raíz que haga el tick cada frame. Ten claro el concepto de herencia en GDScript y el uso de `Array` tipados. Como lectura de apoyo, el artículo clásico "Behavior Trees for AI: How They Work" y los capítulos de BT en [Game AI Pro](http://www.gameaipro.com/) explican la teoría; aquí la implementamos. Repasa [RefCounted](https://docs.godotengine.org/en/4.3/classes/class_refcounted.html) y la herencia con `extends` en la documentación de GDScript.
 
 ## 🧪 Laboratorio guiado
 
@@ -229,10 +229,10 @@ Conceptualmente parecidos, pero el Selector es un dato componible: puedes reorde
 
 ## 🔗 Referencias
 
-- [Game AI Pro — behavior trees](http://www.gameaipro.com/)
-- [RefCounted — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_refcounted.html)
-- [Callable — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_callable.html)
-- [Behavior Trees in Robotics and AI (libro abierto)](https://arxiv.org/abs/1709.00084)
+- [Game AI Pro — behavior trees](http://www.gameaipro.com/) · uso: se instala o se consulta en la preparación
+- [RefCounted — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_refcounted.html) · uso: se instala o se consulta en la preparación
+- [Callable — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_callable.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Behavior Trees in Robotics and AI (libro abierto)](https://arxiv.org/abs/1709.00084) · uso: respalda el Tema 1 «Qué es un behavior tree»
 
 ## ⬅️ Clase anterior
 

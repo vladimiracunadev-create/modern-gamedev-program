@@ -151,10 +151,10 @@ Implementa predicción + reconciliación para un avatar con latencia simulada de
 
 ## 🔗 Referencias
 
-- Gabriel Gambetta — Client-Side Prediction and Server Reconciliation: <https://www.gabrielgambetta.com/client-side-prediction-server-reconciliation.html>
-- Valve Developer — Source Multiplayer Networking: <https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking>
-- Gaffer On Games — Networked Physics: <https://gafferongames.com/post/networked_physics_2004/>
-- Godot Docs — High-level multiplayer: <https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html>
+- Gabriel Gambetta — Client-Side Prediction and Server Reconciliation: <https://www.gabrielgambetta.com/client-side-prediction-server-reconciliation.html> · uso: se instala o se consulta en la preparación
+- Valve Developer — Source Multiplayer Networking: <https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Gaffer On Games — Networked Physics: <https://gafferongames.com/post/networked_physics_2004/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — High-level multiplayer: <https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Godot 4.x con un nivel base (suelo `StaticBody3D` de la clase anterior sirve). Prepara una escena reutilizable `Caja.tscn` con `RigidBody3D` + `MeshInstance3D` (`BoxMesh`) + `CollisionShape3D` (`BoxShape3D`). Crea un `PhysicsMaterial` en el sistema de archivos. Revisa la [referencia de RigidBody3D](https://docs.godotengine.org/en/stable/classes/class_rigidbody3d.html) y [Physics materials](https://docs.godotengine.org/en/stable/classes/class_physicsmaterial.html).
+Godot 4.x con un nivel base (suelo `StaticBody3D` de la clase anterior sirve). Prepara una escena reutilizable `Caja.tscn` con `RigidBody3D` + `MeshInstance3D` (`BoxMesh`) + `CollisionShape3D` (`BoxShape3D`). Crea un `PhysicsMaterial` en el sistema de archivos. Revisa la [referencia de RigidBody3D](https://docs.godotengine.org/en/4.3/classes/class_rigidbody3d.html) y [Physics materials](https://docs.godotengine.org/en/4.3/classes/class_physicsmaterial.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -157,9 +157,9 @@ Crea una escena de "bolos": diez cajas apiladas en pirámide y una bola pesada q
 
 ## 🔗 Referencias
 
-- [RigidBody3D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_rigidbody3d.html)
-- [PhysicsMaterial — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_physicsmaterial.html)
-- [Rigid body physics tutorial](https://docs.godotengine.org/en/stable/tutorials/physics/rigid_body.html)
+- [RigidBody3D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_rigidbody3d.html) · uso: se instala o se consulta en la preparación
+- [PhysicsMaterial — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_physicsmaterial.html) · uso: se instala o se consulta en la preparación
+- [Rigid body physics tutorial](https://docs.godotengine.org/en/4.3/tutorials/physics/rigid_body.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

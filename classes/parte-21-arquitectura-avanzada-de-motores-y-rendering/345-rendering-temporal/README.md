@@ -62,7 +62,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Godot 4.x, que trae TAA en el renderizador Forward+ (`Project Settings → Rendering → Anti Aliasing → Use TAA`). Trabajaremos en `res://temporal/` con shaders de pantalla completa para ver el mecanismo. Necesitas GPU para la parte visual; los cálculos de jitter y reproyección se pueden verificar en CPU sin ella. Ten a mano la [documentación de antialiasing de Godot](https://docs.godotengine.org/en/stable/tutorials/3d/3d_antialiasing.html) y la Parte 4 sobre shaders y post-procesado.
+Godot 4.x, que trae TAA en el renderizador Forward+ (`Project Settings → Rendering → Anti Aliasing → Use TAA`). Trabajaremos en `res://temporal/` con shaders de pantalla completa para ver el mecanismo. Necesitas GPU para la parte visual; los cálculos de jitter y reproyección se pueden verificar en CPU sin ella. Ten a mano la [documentación de antialiasing de Godot](https://docs.godotengine.org/en/4.3/tutorials/3d/3d_antialiasing.html) y la Parte 4 sobre shaders y post-procesado.
 
 ## 🧪 Laboratorio guiado
 
@@ -386,11 +386,11 @@ Implementa una demostración de acumulación temporal con jitter de Halton, búf
 
 ## 🔗 Referencias
 
-- Akenine-Möller, Haines & Hoffman — *Real-Time Rendering*, capítulo de antialiasing y métodos temporales: <https://www.realtimerendering.com/>
-- Godot Docs — Antialiasing 3D (TAA, FXAA, MSAA): <https://docs.godotengine.org/en/stable/tutorials/3d/3d_antialiasing.html>
-- Godot Docs — Shaders de pantalla y post-procesado: <https://docs.godotengine.org/en/stable/tutorials/shaders/advanced_postprocessing.html>
-- Karis (Epic Games) — *High Quality Temporal Supersampling*, SIGGRAPH: <https://advances.realtimerendering.com/s2014/>
-- Wikipedia — Secuencia de Halton: <https://en.wikipedia.org/wiki/Halton_sequence>
+- Akenine-Möller, Haines & Hoffman — *Real-Time Rendering*, capítulo de antialiasing y métodos temporales: <https://www.realtimerendering.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Antialiasing 3D (TAA, FXAA, MSAA): <https://docs.godotengine.org/en/4.3/tutorials/3d/3d_antialiasing.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Shaders de pantalla y post-procesado: <https://docs.godotengine.org/en/4.3/tutorials/shaders/advanced_postprocessing.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Karis (Epic Games) — *High Quality Temporal Supersampling*, SIGGRAPH: <https://advances.realtimerendering.com/s2014/> · uso: respalda el Tema 1 «Coherencia temporal»
+- Wikipedia — Secuencia de Halton: <https://en.wikipedia.org/wiki/Halton_sequence> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

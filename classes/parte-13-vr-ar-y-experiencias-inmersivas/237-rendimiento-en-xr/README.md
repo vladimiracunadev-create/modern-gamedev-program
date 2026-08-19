@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Trabaja sobre un proyecto VR con OpenXR activado (clase 231). Para Quest necesitas los **export templates de Android** y el visor en modo desarrollador (por Link para iterar rápido, o exportando el APK). Cambia el backend de render en **Project → Project Settings → Rendering → Renderer** a **Mobile**. Ten a mano el **monitor de rendimiento** (Debug → Monitors) y la clase `Performance` para leer fps y draw calls por código.
 
-Referencias: renderers de Godot en <https://docs.godotengine.org/en/stable/tutorials/rendering/index.html>, optimización en <https://docs.godotengine.org/en/stable/tutorials/performance/index.html> y guías de Quest de Meta en <https://developer.oculus.com/documentation/>.
+Referencias: renderers de Godot en <https://docs.godotengine.org/en/4.3/tutorials/rendering/index.html>, optimización en <https://docs.godotengine.org/en/4.3/tutorials/performance/index.html> y guías de Quest de Meta en <https://developer.oculus.com/documentation/>.
 
 ## 🧪 Laboratorio guiado
 
@@ -132,10 +132,10 @@ Toma una escena VR que caiga por debajo del framerate objetivo y optimízala has
 
 ## 🔗 Referencias
 
-- Godot Docs — Optimización: <https://docs.godotengine.org/en/stable/tutorials/performance/index.html>
-- Godot Docs — Renderers: <https://docs.godotengine.org/en/stable/tutorials/rendering/index.html>
-- Godot Docs — VRS y foveation: <https://docs.godotengine.org/en/stable/tutorials/3d/variable_rate_shading.html>
-- Meta — Documentación para desarrolladores de Quest: <https://developer.oculus.com/documentation/>
+- Godot Docs — Optimización: <https://docs.godotengine.org/en/4.3/tutorials/performance/index.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Renderers: <https://docs.godotengine.org/en/4.3/tutorials/rendering/index.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — VRS y foveation: <https://docs.godotengine.org/en/4.3/tutorials/3d/variable_rate_shading.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Meta — Documentación para desarrolladores de Quest: <https://developer.oculus.com/documentation/> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

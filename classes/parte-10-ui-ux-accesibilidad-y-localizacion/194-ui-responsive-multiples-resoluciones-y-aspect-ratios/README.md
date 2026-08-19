@@ -58,7 +58,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Trabajaremos con **Godot 4.x** (descárgalo desde <https://godotengine.org/download>). Todo ocurre en el editor y en Project Settings; no necesitas assets externos. Abre **Project > Project Settings** y activa *Advanced Settings* (interruptor arriba a la derecha) para ver todas las opciones de *Display > Window*. Ten a mano la documentación oficial de [Multiple resolutions](https://docs.godotengine.org/en/stable/tutorials/rendering/multiple_resolutions.html) y de [anclas y contenedores de UI](https://docs.godotengine.org/en/stable/tutorials/ui/index.html). Como referencia de buenas prácticas de interfaz accesible, consulta también <https://gameaccessibilityguidelines.com/>.
+Trabajaremos con **Godot 4.x** (descárgalo desde <https://godotengine.org/download>). Todo ocurre en el editor y en Project Settings; no necesitas assets externos. Abre **Project > Project Settings** y activa *Advanced Settings* (interruptor arriba a la derecha) para ver todas las opciones de *Display > Window*. Ten a mano la documentación oficial de [Multiple resolutions](https://docs.godotengine.org/en/4.3/tutorials/rendering/multiple_resolutions.html) y de [anclas y contenedores de UI](https://docs.godotengine.org/en/4.3/tutorials/ui/index.html). Como referencia de buenas prácticas de interfaz accesible, consulta también <https://gameaccessibilityguidelines.com/>.
 
 Crea un proyecto nuevo vacío. Necesitarás una escena principal con un nodo `Control` que hará de raíz de la HUD.
 
@@ -147,13 +147,13 @@ Construye una HUD de juego con al menos cinco elementos (vida, puntuación, mini
 
 ## 🔗 Referencias
 
-- Godot — Multiple resolutions: <https://docs.godotengine.org/en/stable/tutorials/rendering/multiple_resolutions.html>
+- Godot — Multiple resolutions: <https://docs.godotengine.org/en/4.3/tutorials/rendering/multiple_resolutions.html> · uso: se instala o se consulta en la preparación
 
-- Godot — Size and anchors: <https://docs.godotengine.org/en/stable/tutorials/ui/size_and_anchors.html>
+- Godot — Size and anchors: <https://docs.godotengine.org/en/4.3/tutorials/ui/size_and_anchors.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
-- Godot — Design a HUD: <https://docs.godotengine.org/en/stable/getting_started/first_2d_game/06.heads_up_display.html>
+- Godot — Design a HUD: <https://docs.godotengine.org/en/4.3/getting_started/first_2d_game/06.heads_up_display.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
-- Game Accessibility Guidelines: <https://gameaccessibilityguidelines.com/>
+- Game Accessibility Guidelines: <https://gameaccessibilityguidelines.com/> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

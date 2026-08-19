@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Trabajarás con **Godot 4.x** y su API de alto nivel de multijugador (`ENetMultiplayerPeer`, `multiplayer`, `@rpc`). Para el laboratorio no necesitas infraestructura externa: montaremos un **servidor de salas** propio en Godot que hace de matchmaker y de punto de encuentro. En producción esta pieza suele delegarse a un backend gestionado —lo verás en la Clase 152— como **Nakama** de Heroic Labs (<https://heroiclabs.com/docs/>) o los lobbies de **Steam** vía **GodotSteam** (<https://godotsteam.com/>). Para entender la teoría de NAT traversal, consulta la guía de red de alto nivel de Godot (<https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html>). Crea una carpeta `sala/` con dos escenas: `Servidor.tscn` (nodo raíz con `servidor_salas.gd`) y `Cliente.tscn` (con `cliente_salas.gd`).
+Trabajarás con **Godot 4.x** y su API de alto nivel de multijugador (`ENetMultiplayerPeer`, `multiplayer`, `@rpc`). Para el laboratorio no necesitas infraestructura externa: montaremos un **servidor de salas** propio en Godot que hace de matchmaker y de punto de encuentro. En producción esta pieza suele delegarse a un backend gestionado —lo verás en la Clase 152— como **Nakama** de Heroic Labs (<https://heroiclabs.com/docs/>) o los lobbies de **Steam** vía **GodotSteam** (<https://godotsteam.com/>). Para entender la teoría de NAT traversal, consulta la guía de red de alto nivel de Godot (<https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html>). Crea una carpeta `sala/` con dos escenas: `Servidor.tscn` (nodo raíz con `servidor_salas.gd`) y `Cliente.tscn` (con `cliente_salas.gd`).
 
 ## 🧪 Laboratorio guiado
 
@@ -199,10 +199,10 @@ Construye un **lobby con códigos de sala funcional** donde un anfitrión crea u
 
 ## 🔗 Referencias
 
-- Godot Docs — High-level multiplayer: <https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html>
-- Godot Docs — ENetMultiplayerPeer: <https://docs.godotengine.org/en/stable/classes/class_enetmultiplayerpeer.html>
-- Heroic Labs Nakama — Matchmaker: <https://heroiclabs.com/docs/nakama/concepts/matches/>
-- RFC 8445 — ICE (NAT traversal): <https://datatracker.ietf.org/doc/html/rfc8445>
+- Godot Docs — High-level multiplayer: <https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — ENetMultiplayerPeer: <https://docs.godotengine.org/en/4.3/classes/class_enetmultiplayerpeer.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Heroic Labs Nakama — Matchmaker: <https://heroiclabs.com/docs/nakama/concepts/matches/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- RFC 8445 — ICE (NAT traversal): <https://datatracker.ietf.org/doc/html/rfc8445> · uso: respalda el Tema 1 «Qué es NAT y por qué existe»
 
 ## ⬅️ Clase anterior
 

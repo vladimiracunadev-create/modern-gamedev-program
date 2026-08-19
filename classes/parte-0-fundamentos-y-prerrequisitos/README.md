@@ -10,7 +10,7 @@
 - Robert Nystrom, *Game Programming Patterns* (Genever Benning) — [gratis online](https://gameprogrammingpatterns.com/).
 - Eric Lengyel, *Mathematics for 3D Game Programming and Computer Graphics* (3ª ed., Cengage).
 - Ian Millington, *Game Physics Engine Development* (2ª ed., CRC Press).
-- Documentación oficial de [Godot 4](https://docs.godotengine.org/), [Unity](https://docs.unity3d.com/) y [Microsoft C#](https://learn.microsoft.com/dotnet/csharp/).
+- Documentación oficial de [Godot 4](https://docs.godotengine.org/en/4.3/), [Unity](https://docs.unity3d.com/) y [Microsoft C#](https://learn.microsoft.com/dotnet/csharp/).
 
 ---
 

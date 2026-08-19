@@ -367,12 +367,12 @@ Implementa un sistema de gestión de memoria con: pool de objetos con precreaci�
 
 ## 🔗 Referencias
 
-- Jason Gregory — *Game Engine Architecture*, capítulo de gestión de memoria: <https://www.gameenginebook.com/>
-- Godot Docs — `Performance` (monitores de memoria y objetos): <https://docs.godotengine.org/en/stable/classes/class_performance.html>
-- Godot Docs — `RefCounted` y `WeakRef`: <https://docs.godotengine.org/en/stable/classes/class_weakref.html>
-- Microsoft — Fundamentos de la recolección de basura en .NET: <https://learn.microsoft.com/dotnet/standard/garbage-collection/fundamentals>
-- The Rust Book — Ownership y gestión de memoria: <https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html>
-- Richard Fabian — *Data-Oriented Design*, capítulo de memoria: <https://www.dataorienteddesign.com/dodbook/>
+- Jason Gregory — *Game Engine Architecture*, capítulo de gestión de memoria: <https://www.gameenginebook.com/> · uso: respalda el Tema 7 «Memoria de frame»
+- Godot Docs — `Performance` (monitores de memoria y objetos): <https://docs.godotengine.org/en/4.3/classes/class_performance.html> · uso: respalda el Tema 7 «Memoria de frame»
+- Godot Docs — `RefCounted` y `WeakRef`: <https://docs.godotengine.org/en/4.3/classes/class_weakref.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Microsoft — Fundamentos de la recolección de basura en .NET: <https://learn.microsoft.com/dotnet/standard/garbage-collection/fundamentals> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- The Rust Book — Ownership y gestión de memoria: <https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html> · uso: respalda el Tema 7 «Memoria de frame»
+- Richard Fabian — *Data-Oriented Design*, capítulo de memoria: <https://www.dataorienteddesign.com/dodbook/> · uso: respalda el Tema 7 «Memoria de frame»
 
 ## ⬅️ Clase anterior
 

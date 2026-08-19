@@ -43,7 +43,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Reutiliza el mini-framework de BT (`bt.gd`, `secuencia.gd`, `selector.gd`, `hojas.gd`, `accion.gd`) de la clase 111. Necesitas Godot 4.x, una escena 2D con muros con colisión y una `NavigationRegion2D` con su polígono horneado (bake) para que la navegación funcione. El enemigo será un `CharacterBody2D` con `RayCast2D`, `NavigationAgent2D` y el jugador en el grupo `player`. Repasa [NavigationAgent2D](https://docs.godotengine.org/en/stable/classes/class_navigationagent2d.html) y la guía de [navegación 2D de Godot](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_introduction_2d.html). Si aún no horneaste el navmesh, la siguiente clase lo cubre en detalle; aquí basta un polígono simple sobre el suelo transitable.
+Reutiliza el mini-framework de BT (`bt.gd`, `secuencia.gd`, `selector.gd`, `hojas.gd`, `accion.gd`) de la clase 111. Necesitas Godot 4.x, una escena 2D con muros con colisión y una `NavigationRegion2D` con su polígono horneado (bake) para que la navegación funcione. El enemigo será un `CharacterBody2D` con `RayCast2D`, `NavigationAgent2D` y el jugador en el grupo `player`. Repasa [NavigationAgent2D](https://docs.godotengine.org/en/4.3/classes/class_navigationagent2d.html) y la guía de [navegación 2D de Godot](https://docs.godotengine.org/en/4.3/tutorials/navigation/navigation_introduction_2d.html). Si aún no horneaste el navmesh, la siguiente clase lo cubre en detalle; aquí basta un polígono simple sobre el suelo transitable.
 
 ## 🧪 Laboratorio guiado
 
@@ -207,10 +207,10 @@ Fijar `target_position` con el mismo valor es barato; el `NavigationAgent2D` rec
 
 ## 🔗 Referencias
 
-- [NavigationAgent2D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_navigationagent2d.html)
-- [Introducción a la navegación 2D — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_introduction_2d.html)
-- [Game AI Pro — behavior trees y blackboards](http://www.gameaipro.com/)
-- [Behavior Trees in Robotics and AI (libro abierto)](https://arxiv.org/abs/1709.00084)
+- [NavigationAgent2D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_navigationagent2d.html) · uso: se instala o se consulta en la preparación
+- [Introducción a la navegación 2D — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/navigation/navigation_introduction_2d.html) · uso: se instala o se consulta en la preparación
+- [Game AI Pro — behavior trees y blackboards](http://www.gameaipro.com/) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Behavior Trees in Robotics and AI (libro abierto)](https://arxiv.org/abs/1709.00084) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

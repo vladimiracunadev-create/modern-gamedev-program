@@ -216,10 +216,10 @@ Completa el lobby: unión por IP, nombres únicos, chat funcional, estado listo 
 
 ## 🔗 Referencias
 
-- [High-level multiplayer (Godot 4)](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html)
-- [Godot demo projects — networking](https://github.com/godotengine/godot-demo-projects/tree/master/networking)
-- [Clase SceneTree (change_scene_to_file)](https://docs.godotengine.org/en/stable/classes/class_scenetree.html)
-- [Clase MultiplayerAPI](https://docs.godotengine.org/en/stable/classes/class_multiplayerapi.html)
+- [High-level multiplayer (Godot 4)](https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Godot demo projects — networking](https://github.com/godotengine/godot-demo-projects/tree/master/networking) · uso: se instala o se consulta en la preparación
+- [Clase SceneTree (change_scene_to_file)](https://docs.godotengine.org/en/4.3/classes/class_scenetree.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Clase MultiplayerAPI](https://docs.godotengine.org/en/4.3/classes/class_multiplayerapi.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

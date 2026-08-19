@@ -288,11 +288,11 @@ Entrega el flujo de trabajo completo para agentes en tu repositorio: `CONVENCION
 
 ## 🔗 Referencias
 
-- Godot Docs — Command line tutorial (lo que un agente ejecuta para verificar): <https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html>
-- Git — `git worktree` (aislamiento sin clonar): <https://git-scm.com/docs/git-worktree>
-- GitHub Docs — Actions y verificación en CI: <https://docs.github.com/actions>
-- OWASP — Top 10 for LLM Applications (riesgos de sistemas que actúan): <https://owasp.org/www-project-top-10-for-large-language-model-applications/>
-- Google — *Site Reliability Engineering*, automatización con supervisión: <https://sre.google/books/>
+- Godot Docs — Command line tutorial (lo que un agente ejecuta para verificar): <https://docs.godotengine.org/en/4.3/tutorials/editor/command_line_tutorial.html> · uso: respalda el Tema 1 «El bucle del agente»
+- Git — `git worktree` (aislamiento sin clonar): <https://git-scm.com/docs/git-worktree> · uso: respalda el Tema 5 «Aislamiento»
+- GitHub Docs — Actions y verificación en CI: <https://docs.github.com/actions> · uso: respalda el Tema 6 «Verificación automática»
+- OWASP — Top 10 for LLM Applications (riesgos de sistemas que actúan): <https://owasp.org/www-project-top-10-for-large-language-model-applications/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Google — *Site Reliability Engineering*, automatización con supervisión: <https://sre.google/books/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -43,7 +43,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas **Godot 4.x**. Los enemigos son `CharacterBody2D` con `NavigationAgent2D` (de la clase 114) para moverse a la cobertura, y un `RayCast2D` para validar protección y línea de tiro. El gestor de escuadrón será un `Node` (o autoload). Crea `res://ia/combate/`. Coloca `Marker2D` como puntos de cobertura junto a los muros. Repasa [Marker2D](https://docs.godotengine.org/en/stable/classes/class_marker2d.html) y las señales entre nodos.
+Necesitas **Godot 4.x**. Los enemigos son `CharacterBody2D` con `NavigationAgent2D` (de la clase 114) para moverse a la cobertura, y un `RayCast2D` para validar protección y línea de tiro. El gestor de escuadrón será un `Node` (o autoload). Crea `res://ia/combate/`. Coloca `Marker2D` como puntos de cobertura junto a los muros. Repasa [Marker2D](https://docs.godotengine.org/en/4.3/classes/class_marker2d.html) y las señales entre nodos.
 
 ## 🧪 Laboratorio guiado
 
@@ -221,10 +221,10 @@ Diseña un escenario con **cuatro enemigos**, varios muros con puntos de cobertu
 
 ## 🔗 Referencias
 
-- Game AI Pro — Tactical Position Selection: <http://www.gameaipro.com/>
-- Godot Docs — PhysicsRayQueryParameters2D: <https://docs.godotengine.org/en/stable/classes/class_physicsrayqueryparameters2d.html>
-- Godot Docs — NavigationAgent2D: <https://docs.godotengine.org/en/stable/classes/class_navigationagent2d.html>
-- Godot Docs — Marker2D: <https://docs.godotengine.org/en/stable/classes/class_marker2d.html>
+- Game AI Pro — Tactical Position Selection: <http://www.gameaipro.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — PhysicsRayQueryParameters2D: <https://docs.godotengine.org/en/4.3/classes/class_physicsrayqueryparameters2d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — NavigationAgent2D: <https://docs.godotengine.org/en/4.3/classes/class_navigationagent2d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Marker2D: <https://docs.godotengine.org/en/4.3/classes/class_marker2d.html> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

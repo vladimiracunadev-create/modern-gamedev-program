@@ -43,7 +43,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Reutiliza la escena del enemigo `CharacterBody2D` de la clase 109 (con su `RayCast2D` y el jugador en el grupo `player`). Necesitas Godot 4.x. No hace falta ningún nodo nuevo: el cambio es de arquitectura del script. Ten a mano el diagrama de estados que dibujaste antes, porque lo vas a reorganizar en dos bloques. Como apoyo conceptual, revisa el capítulo de *hierarchical state machines* en *Artificial Intelligence for Games* y los artículos de FSM/HFSM en [Game AI Pro](http://www.gameaipro.com/). Repasa `class_name` y `RefCounted` en la [documentación de GDScript](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html).
+Reutiliza la escena del enemigo `CharacterBody2D` de la clase 109 (con su `RayCast2D` y el jugador en el grupo `player`). Necesitas Godot 4.x. No hace falta ningún nodo nuevo: el cambio es de arquitectura del script. Ten a mano el diagrama de estados que dibujaste antes, porque lo vas a reorganizar en dos bloques. Como apoyo conceptual, revisa el capítulo de *hierarchical state machines* en *Artificial Intelligence for Games* y los artículos de FSM/HFSM en [Game AI Pro](http://www.gameaipro.com/). Repasa `class_name` y `RefCounted` en la [documentación de GDScript](https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_basics.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -191,10 +191,10 @@ Sí, pero es señal de que quizá la agrupación no es la ideal. Lo natural es t
 
 ## 🔗 Referencias
 
-- [Artificial Intelligence for Games — HFSM (CRC Press)](https://www.routledge.com/Artificial-Intelligence-for-Games/Millington/p/book/9780367670566)
-- [Game AI Pro — artículos de máquinas de estado](http://www.gameaipro.com/)
-- [GDScript básico — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html)
-- [CharacterBody2D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html)
+- [Artificial Intelligence for Games — HFSM (CRC Press)](https://www.routledge.com/Artificial-Intelligence-for-Games/Millington/p/book/9780367670566) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Game AI Pro — artículos de máquinas de estado](http://www.gameaipro.com/) · uso: se instala o se consulta en la preparación
+- [GDScript básico — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_basics.html) · uso: se instala o se consulta en la preparación
+- [CharacterBody2D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_characterbody2d.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Godot 4.x**. Mediremos con el monitor **RENDER_TOTAL_DRAW_CALLS_IN_FRAME** vía `Performance.get_monitor()` y con **Monitors → Draw Calls** en el Debugger, además del FPS. El MSAA está en **Project Settings → Rendering → Anti Aliasing**. Para el laboratorio 2D usaremos un `QuadMesh` como malla de las instancias.
 
-Consulta la guía "Optimizing 3D performance" y la referencia de MultiMesh: <https://docs.godotengine.org/en/stable/tutorials/performance/using_multimesh.html> y <https://docs.godotengine.org/en/stable/classes/class_multimesh.html>. Para 2D y renderizado en general: <https://docs.godotengine.org/en/stable/tutorials/performance/general_optimization.html>.
+Consulta la guía "Optimizing 3D performance" y la referencia de MultiMesh: <https://docs.godotengine.org/en/4.3/tutorials/performance/using_multimesh.html> y <https://docs.godotengine.org/en/4.3/classes/class_multimesh.html>. Para 2D y renderizado en general: <https://docs.godotengine.org/en/4.3/tutorials/performance/general_optimization.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -154,10 +154,10 @@ Toma una escena con al menos 1000 objetos visuales idénticos dibujados como nod
 
 ## 🔗 Referencias
 
-- Godot Docs — Using MultiMesh: <https://docs.godotengine.org/en/stable/tutorials/performance/using_multimesh.html>
-- Godot Docs — MultiMesh (clase): <https://docs.godotengine.org/en/stable/classes/class_multimesh.html>
-- Godot Docs — General optimization tips: <https://docs.godotengine.org/en/stable/tutorials/performance/general_optimization.html>
-- Godot Docs — 3D rendering limitations / anti-aliasing: <https://docs.godotengine.org/en/stable/tutorials/3d/3d_antialiasing.html>
+- Godot Docs — Using MultiMesh: <https://docs.godotengine.org/en/4.3/tutorials/performance/using_multimesh.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — MultiMesh (clase): <https://docs.godotengine.org/en/4.3/classes/class_multimesh.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — General optimization tips: <https://docs.godotengine.org/en/4.3/tutorials/performance/general_optimization.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — 3D rendering limitations / anti-aliasing: <https://docs.godotengine.org/en/4.3/tutorials/3d/3d_antialiasing.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

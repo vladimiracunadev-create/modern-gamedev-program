@@ -133,10 +133,10 @@ Toma un build web (propio o de ejemplo) y **redúcele el peso transferido al men
 
 ## 🔗 Referencias
 
-- web.dev — Fast load times: <https://web.dev/explore/fast>
-- MDN — HTTP Compression: <https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Compression>
-- web.dev — Lazy loading: <https://web.dev/articles/lazy-loading>
-- MDN — HTTP caching: <https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching>
+- web.dev — Fast load times: <https://web.dev/explore/fast> · uso: se instala o se consulta en la preparación
+- MDN — HTTP Compression: <https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Compression> · uso: se instala o se consulta en la preparación
+- web.dev — Lazy loading: <https://web.dev/articles/lazy-loading> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- MDN — HTTP caching: <https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

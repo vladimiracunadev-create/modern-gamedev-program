@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas **Godot 4.x** (recomendado 4.2 o superior) con una escena 3D básica: un `Node3D` raíz, un suelo (`StaticBody3D` con `MeshInstance3D`) y algunos cubos para tener referencia de profundidad. Revisa la documentación oficial del nodo cámara en <https://docs.godotengine.org/en/stable/classes/class_camera3d.html> y la guía de uso en <https://docs.godotengine.org/en/stable/tutorials/3d/using_cameras.html>. Descarga el motor desde <https://godotengine.org/download>.
+Necesitas **Godot 4.x** (recomendado 4.2 o superior) con una escena 3D básica: un `Node3D` raíz, un suelo (`StaticBody3D` con `MeshInstance3D`) y algunos cubos para tener referencia de profundidad. Revisa la documentación oficial del nodo cámara en <https://docs.godotengine.org/en/4.3/classes/class_camera3d.html> y la guía de uso en <https://docs.godotengine.org/en/4.3/classes/class_camera3d.html>. Descarga el motor desde <https://godotengine.org/download>.
 
 ## 🧪 Laboratorio guiado
 
@@ -137,9 +137,9 @@ Construye una escena con dos cámaras (perspectiva y ortográfica) y un menú po
 
 ## 🔗 Referencias
 
-- Camera3D — API oficial: <https://docs.godotengine.org/en/stable/classes/class_camera3d.html>
-- Using cameras (tutorial 3D): <https://docs.godotengine.org/en/stable/tutorials/3d/using_cameras.html>
-- Introduction to 3D: <https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html>
+- Camera3D — API oficial: <https://docs.godotengine.org/en/4.3/classes/class_camera3d.html> · uso: se instala o se consulta en la preparación
+- Using cameras (tutorial 3D): <https://docs.godotengine.org/en/4.3/classes/class_camera3d.html> · uso: se instala o se consulta en la preparación
+- Introduction to 3D: <https://docs.godotengine.org/en/4.3/tutorials/3d/introduction_to_3d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.2+. Crea un `VehicleBody3D` con un `CollisionShape3D` (caja) como chasis, una malla visual, y cuatro `VehicleWheel3D` posicionadas en las esquinas inferiores del chasis (la posición **Y** de la rueda marca dónde nace la suspensión). Añade un `MeshInstance3D` a cada rueda. Necesitas un terreno con colisión: un `StaticBody3D` amplio o un `GridMap`/malla de pista. Activa **Debug → Visible Collision Shapes** para ver los rayos de suspensión de cada rueda. Consulta: <https://docs.godotengine.org/en/stable/classes/class_vehiclebody3d.html> y <https://docs.godotengine.org/en/stable/classes/class_vehiclewheel3d.html>.
+Necesitas Godot 4.2+. Crea un `VehicleBody3D` con un `CollisionShape3D` (caja) como chasis, una malla visual, y cuatro `VehicleWheel3D` posicionadas en las esquinas inferiores del chasis (la posición **Y** de la rueda marca dónde nace la suspensión). Añade un `MeshInstance3D` a cada rueda. Necesitas un terreno con colisión: un `StaticBody3D` amplio o un `GridMap`/malla de pista. Activa **Debug → Visible Collision Shapes** para ver los rayos de suspensión de cada rueda. Consulta: <https://docs.godotengine.org/en/4.3/classes/class_vehiclebody3d.html> y <https://docs.godotengine.org/en/4.3/classes/class_vehiclewheel3d.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -143,10 +143,10 @@ Construye un circuito con al menos una curva cerrada y una rampa, y un coche jug
 
 ## 🔗 Referencias
 
-- Godot Docs — VehicleBody3D: <https://docs.godotengine.org/en/stable/classes/class_vehiclebody3d.html>
-- Godot Docs — VehicleWheel3D: <https://docs.godotengine.org/en/stable/classes/class_vehiclewheel3d.html>
-- Godot Docs — RigidBody3D (centro de masa): <https://docs.godotengine.org/en/stable/classes/class_rigidbody3d.html>
-- Ian Millington, *Game Physics Engine Development*, sección de vehículos y fuerzas.
+- Godot Docs — VehicleBody3D: <https://docs.godotengine.org/en/4.3/classes/class_vehiclebody3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — VehicleWheel3D: <https://docs.godotengine.org/en/4.3/classes/class_vehiclewheel3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — RigidBody3D (centro de masa): <https://docs.godotengine.org/en/4.3/classes/class_rigidbody3d.html> · uso: respalda el Tema 7 «Centro de masa»
+- Ian Millington, *Game Physics Engine Development*, sección de vehículos y fuerzas. · uso: respalda el Tema 3 «engine_force»
 
 ## ⬅️ Clase anterior
 

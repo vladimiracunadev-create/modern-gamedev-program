@@ -420,11 +420,11 @@ Implementa telemetría gobernada: taxonomía con esquema y versión por evento, 
 
 ## 🔗 Referencias
 
-- Reglamento General de Protección de Datos (texto oficial): <https://eur-lex.europa.eu/eli/reg/2016/679/oj>
-- FTC — Children's Privacy (COPPA): <https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy>
-- Agencia Española de Protección de Datos — guías para responsables: <https://www.aepd.es/guias-y-herramientas>
-- OWASP — Privacy Risks: <https://owasp.org/www-project-top-10-privacy-risks/>
-- Godot Docs — `FileAccess` y `DirAccess` (almacenamiento local del seudónimo): <https://docs.godotengine.org/en/stable/classes/class_diraccess.html>
+- Reglamento General de Protección de Datos (texto oficial): <https://eur-lex.europa.eu/eli/reg/2016/679/oj> · uso: se instala o se consulta en la preparación
+- FTC — Children's Privacy (COPPA): <https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy> · uso: se instala o se consulta en la preparación
+- Agencia Española de Protección de Datos — guías para responsables: <https://www.aepd.es/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- OWASP — Privacy Risks: <https://owasp.org/www-project-top-10-privacy-risks/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `FileAccess` y `DirAccess` (almacenamiento local del seudónimo): <https://docs.godotengine.org/en/4.3/classes/class_diraccess.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

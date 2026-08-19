@@ -127,10 +127,10 @@ Diseña un calendario de contenido de 3 meses (12 semanas) para un juego live co
 
 ## 🔗 Referencias
 
-- Deconstructor of Fun — análisis de LiveOps y economías: <https://www.deconstructoroffun.com/>
-- GameAnalytics — LiveOps guides: <https://gameanalytics.com/blog/>
-- Steamworks — Seasonal/event best practices: <https://partner.steamgames.com/doc/features/events>
-- GDC Vault — charlas de LiveOps: <https://www.gdcvault.com/>
+- Deconstructor of Fun — análisis de LiveOps y economías: <https://www.deconstructoroffun.com/> · uso: se instala o se consulta en la preparación
+- GameAnalytics — LiveOps guides: <https://gameanalytics.com/blog/> · uso: respalda el Tema 8 «Métricas de LiveOps»
+- Steamworks — Seasonal/event best practices: <https://partner.steamgames.com/doc/features/events> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas de LiveOps: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 8 «Métricas de LiveOps»
 
 ## ⬅️ Clase anterior
 

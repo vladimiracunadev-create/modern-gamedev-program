@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Godot 4.x** y una escena 2D sencilla: un `Node2D` raíz que hará de lienzo, y un puñado de sprites o `PackedScene` que representen los tipos de objeto a colocar (por ejemplo, "caja", "enemigo", "moneda"). Guardaremos en `user://`, la carpeta de datos del usuario, para que funcione también en builds exportadas.
 
-Trabajaremos con `_unhandled_input` para el ratón, con `FileAccess` y `JSON` para el formato de texto, y mencionaremos `ResourceSaver` como alternativa. La documentación de `FileAccess` está en <https://docs.godotengine.org/en/stable/classes/class_fileaccess.html>, la de JSON en <https://docs.godotengine.org/en/stable/classes/class_json.html> y la guía de guardado de juegos en <https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html>.
+Trabajaremos con `_unhandled_input` para el ratón, con `FileAccess` y `JSON` para el formato de texto, y mencionaremos `ResourceSaver` como alternativa. La documentación de `FileAccess` está en <https://docs.godotengine.org/en/4.3/classes/class_fileaccess.html>, la de JSON en <https://docs.godotengine.org/en/4.3/classes/class_json.html> y la guía de guardado de juegos en <https://docs.godotengine.org/en/4.3/tutorials/io/saving_games.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -191,10 +191,10 @@ Y el patrón de deshacer/rehacer que un editor necesita está en la [clase 308](
 
 ## 🔗 Referencias
 
-- Godot Docs — `FileAccess`: <https://docs.godotengine.org/en/stable/classes/class_fileaccess.html>
-- Godot Docs — `JSON`: <https://docs.godotengine.org/en/stable/classes/class_json.html>
-- Godot Docs — Saving games: <https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html>
-- Godot Docs — `ResourceSaver`: <https://docs.godotengine.org/en/stable/classes/class_resourcesaver.html>
+- Godot Docs — `FileAccess`: <https://docs.godotengine.org/en/4.3/classes/class_fileaccess.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `JSON`: <https://docs.godotengine.org/en/4.3/classes/class_json.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Saving games: <https://docs.godotengine.org/en/4.3/tutorials/io/saving_games.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `ResourceSaver`: <https://docs.godotengine.org/en/4.3/classes/class_resourcesaver.html> · uso: respalda el Tema 6 «`ResourceSaver`/`ResourceLoader`»
 
 ## ⬅️ Clase anterior
 

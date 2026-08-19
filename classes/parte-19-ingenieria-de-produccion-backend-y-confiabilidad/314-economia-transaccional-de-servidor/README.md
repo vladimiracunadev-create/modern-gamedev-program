@@ -378,11 +378,11 @@ Implementa un servicio de economía autoritativo con claves de idempotencia, led
 
 ## 🔗 Referencias
 
-- Stripe — Idempotent requests (la explicación de referencia del patrón): <https://docs.stripe.com/api/idempotent_requests>
-- Martin Kleppmann — *Designing Data-Intensive Applications*, capítulos de transacciones y concurrencia: <https://dataintensive.net/>
-- OWASP — Business Logic Vulnerabilities: <https://owasp.org/www-community/vulnerabilities/Business_logic_vulnerability>
-- GDC Vault — charlas sobre economías online, duplicación y respuesta a exploits: <https://www.gdcvault.com/>
-- Godot Docs — `RandomNumberGenerator` (semillas de servidor): <https://docs.godotengine.org/en/stable/classes/class_randomnumbergenerator.html>
+- Stripe — Idempotent requests (la explicación de referencia del patrón): <https://docs.stripe.com/api/idempotent_requests> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Martin Kleppmann — *Designing Data-Intensive Applications*, capítulos de transacciones y concurrencia: <https://dataintensive.net/> · uso: respalda el Tema 5 «Concurrencia»
+- OWASP — Business Logic Vulnerabilities: <https://owasp.org/www-community/vulnerabilities/Business_logic_vulnerability> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas sobre economías online, duplicación y respuesta a exploits: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 8 «Ataques de duplicación»
+- Godot Docs — `RandomNumberGenerator` (semillas de servidor): <https://docs.godotengine.org/en/4.3/classes/class_randomnumbergenerator.html> · uso: respalda el Tema 1 «Autoridad de servidor»
 
 ## ⬅️ Clase anterior
 

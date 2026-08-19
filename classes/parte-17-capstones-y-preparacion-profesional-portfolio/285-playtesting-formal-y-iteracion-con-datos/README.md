@@ -130,10 +130,10 @@ Realiza al menos **3 sesiones de playtest con personas nuevas**, registra los ha
 
 ## 🔗 Referencias
 
-- GDC — playtesting y user research: <https://www.youtube.com/user/gdconf>
-- Google Forms — encuestas rápidas: <https://forms.google.com/>
-- OBS Studio — grabar sesiones de prueba: <https://obsproject.com/>
-- Nielsen Norman Group — sobre think-aloud y usabilidad: <https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/>
+- GDC — playtesting y user research: <https://www.youtube.com/@GDC> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Google Forms — encuestas rápidas: <https://forms.google.com/> · uso: se instala o se consulta en la preparación
+- OBS Studio — grabar sesiones de prueba: <https://obsproject.com/> · uso: se instala o se consulta en la preparación
+- Nielsen Norman Group — sobre think-aloud y usabilidad: <https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -137,10 +137,10 @@ Las curvas que diseñas aquí se implementan en la Parte 18, parametrizadas para
 
 ## 🔗 Referencias
 
-- Mihály Csíkszentmihályi — modelo de Flow: <https://en.wikipedia.org/wiki/Flow_(psychology)>
-- Jesse Schell — The Art of Game Design: <https://www.schellgames.com/art-of-game-design>
-- GDC Vault — difficulty y pacing: <https://www.gdcvault.com>
-- Game Maker's Toolkit — dificultad y flow: <https://www.youtube.com/c/MarkBrownGMT>
+- Mihály Csíkszentmihályi — modelo de Flow: <https://en.wikipedia.org/wiki/Flow_(psychology)> · uso: se instala o se consulta en la preparación
+- Jesse Schell — The Art of Game Design: <https://www.schellgames.com/art-of-game-design> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — difficulty y pacing: <https://www.gdcvault.com> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Game Maker's Toolkit — dificultad y flow: <https://www.youtube.com/c/MarkBrownGMT> · uso: respalda el Tema 1 «El estado de flow»
 
 ## ⬅️ Clase anterior
 

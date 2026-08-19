@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Godot 4.x** y estar cómodo con `EditorPlugin` de la clase anterior, porque el gizmo se registra desde un plugin. Trabajaremos en 3D: crea un tipo de nodo propio (un `Node3D` con un script `@tool` que exponga `radio`).
 
-Estudia la guía oficial de gizmos, que detalla materiales y handles: <https://docs.godotengine.org/en/stable/tutorials/plugins/editor/3d_gizmos.html>. Para inspectores a medida, la referencia es la guía de inspector plugins: <https://docs.godotengine.org/en/stable/tutorials/plugins/editor/inspector_plugins.html>.
+Estudia la guía oficial de gizmos, que detalla materiales y handles: <https://docs.godotengine.org/en/4.3/tutorials/plugins/editor/3d_gizmos.html>. Para inspectores a medida, la referencia es la guía de inspector plugins: <https://docs.godotengine.org/en/4.3/tutorials/plugins/editor/inspector_plugins.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -185,10 +185,10 @@ Construye un gizmo 3D propio que edite visualmente una propiedad de un nodo `@to
 
 ## 🔗 Referencias
 
-- Godot Docs — Node3D gizmo plugins: <https://docs.godotengine.org/en/stable/tutorials/plugins/editor/3d_gizmos.html>
-- Godot Docs — Inspector plugins: <https://docs.godotengine.org/en/stable/tutorials/plugins/editor/inspector_plugins.html>
-- Godot Docs — `EditorNode3DGizmoPlugin`: <https://docs.godotengine.org/en/stable/classes/class_editornode3dgizmoplugin.html>
-- Godot Docs — `EditorProperty`: <https://docs.godotengine.org/en/stable/classes/class_editorproperty.html>
+- Godot Docs — Node3D gizmo plugins: <https://docs.godotengine.org/en/4.3/tutorials/plugins/editor/3d_gizmos.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Inspector plugins: <https://docs.godotengine.org/en/4.3/tutorials/plugins/editor/inspector_plugins.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `EditorNode3DGizmoPlugin`: <https://docs.godotengine.org/en/4.3/classes/class_editornode3dgizmoplugin.html> · uso: respalda el Tema 2 «`EditorNode3DGizmoPlugin`»
+- Godot Docs — `EditorProperty`: <https://docs.godotengine.org/en/4.3/classes/class_editorproperty.html> · uso: respalda el Tema 7 «`EditorProperty`»
 
 ## ⬅️ Clase anterior
 

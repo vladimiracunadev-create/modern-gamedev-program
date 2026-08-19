@@ -231,10 +231,10 @@ Construye un pequeño escenario con al menos cuatro `GameObject` distintos (juga
 
 ## 🔗 Referencias
 
-- Robert Nystrom, *Game Programming Patterns*, capítulo "Component": <https://gameprogrammingpatterns.com/component.html>
-- Microsoft, "Object-Oriented programming (C#)": <https://learn.microsoft.com/dotnet/csharp/fundamentals/object-oriented/>
-- Unity, "Introduction to components": <https://docs.unity3d.com/Manual/Components.html>
-- "Composition over inheritance": <https://en.wikipedia.org/wiki/Composition_over_inheritance>
+- Robert Nystrom, *Game Programming Patterns*, capítulo "Component": <https://gameprogrammingpatterns.com/component.html> · uso: se instala o se consulta en la preparación
+- Microsoft, "Object-Oriented programming (C#)": <https://learn.microsoft.com/dotnet/csharp/fundamentals/object-oriented/> · uso: se instala o se consulta en la preparación
+- Unity, "Introduction to components": <https://docs.unity3d.com/Manual/Components.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- "Composition over inheritance": <https://en.wikipedia.org/wiki/Composition_over_inheritance> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

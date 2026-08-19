@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas tu proyecto `PlataformasCurso` de las clases anteriores y **Godot 4.x**. Consigue algunos efectos cortos en formato WAV (salto, moneda, daño) y una pista de música en OGG; puedes generar SFX libres de derechos con herramientas como **jsfxr** (<https://sfxr.me>) y encontrar música con licencia libre. Coloca los archivos en una carpeta `res://audio/`. Ten a mano la documentación oficial de audio: <https://docs.godotengine.org/en/stable/tutorials/audio/audio_streams.html> y la de buses: <https://docs.godotengine.org/en/stable/tutorials/audio/audio_buses.html>.
+Necesitas tu proyecto `PlataformasCurso` de las clases anteriores y **Godot 4.x**. Consigue algunos efectos cortos en formato WAV (salto, moneda, daño) y una pista de música en OGG; puedes generar SFX libres de derechos con herramientas como **jsfxr** (<https://sfxr.me>) y encontrar música con licencia libre. Coloca los archivos en una carpeta `res://audio/`. Ten a mano la documentación oficial de audio: <https://docs.godotengine.org/en/4.3/tutorials/audio/audio_streams.html> y la de buses: <https://docs.godotengine.org/en/4.3/tutorials/audio/audio_buses.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -180,11 +180,11 @@ Implementa un control de volumen por bus. Crea en el Autoload `Sfx` (o uno nuevo
 
 ## 🔗 Referencias
 
-- Godot Docs — Audio streams: <https://docs.godotengine.org/en/stable/tutorials/audio/audio_streams.html>
-- Godot Docs — Audio buses: <https://docs.godotengine.org/en/stable/tutorials/audio/audio_buses.html>
-- Godot Docs — AudioStreamPlayer2D: <https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer2d.html>
-- Godot Docs — Singletons (Autoload): <https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html>
-- Godot Docs — AudioServer: <https://docs.godotengine.org/en/stable/classes/class_audioserver.html>
+- Godot Docs — Audio streams: <https://docs.godotengine.org/en/4.3/tutorials/audio/audio_streams.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Audio buses: <https://docs.godotengine.org/en/4.3/tutorials/audio/audio_buses.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — AudioStreamPlayer2D: <https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer2d.html> · uso: respalda el Tema 3 «AudioStreamPlayer2D posicional»
+- Godot Docs — Singletons (Autoload): <https://docs.godotengine.org/en/4.3/tutorials/scripting/singletons_autoload.html> · uso: respalda el Tema 7 «Autoload de música»
+- Godot Docs — AudioServer: <https://docs.godotengine.org/en/4.3/classes/class_audioserver.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

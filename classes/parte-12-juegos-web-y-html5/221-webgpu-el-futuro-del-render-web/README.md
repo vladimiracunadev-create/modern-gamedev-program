@@ -188,10 +188,10 @@ Construye una página que, al cargar, detecte WebGPU y muestre en pantalla **un 
 
 ## 🔗 Referencias
 
-- MDN — WebGPU API: <https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API>
-- W3C — WebGPU Specification: <https://www.w3.org/TR/webgpu/>
-- WebGPU Fundamentals: <https://webgpufundamentals.org/>
-- Can I use — WebGPU: <https://caniuse.com/webgpu>
+- MDN — WebGPU API: <https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API> · uso: se instala o se consulta en la preparación
+- W3C — WebGPU Specification: <https://www.w3.org/TR/webgpu/> · uso: respalda el Tema 1 «WebGL vs WebGPU»
+- WebGPU Fundamentals: <https://webgpufundamentals.org/> · uso: se instala o se consulta en la preparación
+- Can I use — WebGPU: <https://caniuse.com/webgpu> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

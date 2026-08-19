@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Trabaja en **Godot 4.x** con la pantalla de botones de clases anteriores. Consigue dos sonidos cortos de UI (un "tick" para hover/click y un "pop" para recompensa); sirven `.wav` u `.ogg` libres, por ejemplo de <https://kenney.nl/assets> (packs de UI Audio). Impórtalos a `res://audio/`.
 
-Referencia clave: la clase **Tween** (<https://docs.godotengine.org/en/stable/classes/class_tween.html>) y el tutorial de tweens (<https://docs.godotengine.org/en/stable/tutorials/animation/using_the_tween_class.html>). El concepto de "juice" viene de charlas clásicas de diseño de sensación de juego.
+Referencia clave: la clase **Tween** (<https://docs.godotengine.org/en/4.3/classes/class_tween.html>) y el tutorial de tweens (<https://docs.godotengine.org/en/4.3/classes/class_tween.html>). El concepto de "juice" viene de charlas clásicas de diseño de sensación de juego.
 
 ## 🧪 Laboratorio guiado
 
@@ -170,10 +170,10 @@ Crea un botón "Reclamar" con feedback completo: hover (crece + sonido), press (
 
 ## 🔗 Referencias
 
-- Godot Docs — Tween: <https://docs.godotengine.org/en/stable/classes/class_tween.html>
-- Godot Docs — Using the Tween class: <https://docs.godotengine.org/en/stable/tutorials/animation/using_the_tween_class.html>
-- Godot Docs — AudioStreamPlayer: <https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html>
-- Kenney — UI Audio (assets libres): <https://kenney.nl/assets/interface-sounds>
+- Godot Docs — Tween: <https://docs.godotengine.org/en/4.3/classes/class_tween.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Using the Tween class: <https://docs.godotengine.org/en/4.3/classes/class_tween.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — AudioStreamPlayer: <https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Kenney — UI Audio (assets libres): <https://kenney.nl/assets/interface-sounds> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

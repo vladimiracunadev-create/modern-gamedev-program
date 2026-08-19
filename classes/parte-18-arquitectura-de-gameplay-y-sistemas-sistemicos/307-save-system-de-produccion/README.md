@@ -59,7 +59,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Trabajaremos en `res://infraestructura/guardado/`. Necesitas los `a_dict()` / `de_dict()` de todos los sistemas de esta parte: inventario (295), equipo (296), progresión (302), monedero (303), blackboard (304), diario (305) y social (306). Documentación: [`FileAccess`](https://docs.godotengine.org/en/stable/classes/class_fileaccess.html), [`DirAccess`](https://docs.godotengine.org/en/stable/classes/class_diraccess.html) y [rutas de datos](https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html).
+Trabajaremos en `res://infraestructura/guardado/`. Necesitas los `a_dict()` / `de_dict()` de todos los sistemas de esta parte: inventario (295), equipo (296), progresión (302), monedero (303), blackboard (304), diario (305) y social (306). Documentación: [`FileAccess`](https://docs.godotengine.org/en/4.3/classes/class_fileaccess.html), [`DirAccess`](https://docs.godotengine.org/en/4.3/classes/class_diraccess.html) y [rutas de datos](https://docs.godotengine.org/en/4.3/tutorials/io/data_paths.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -434,11 +434,11 @@ Implementa el sistema con `SAVE_VERSION`, **al menos tres migraciones encadenada
 
 ## 🔗 Referencias
 
-- Godot Docs — `FileAccess`: <https://docs.godotengine.org/en/stable/classes/class_fileaccess.html>
-- Godot Docs — `DirAccess`: <https://docs.godotengine.org/en/stable/classes/class_diraccess.html>
-- Godot Docs — Rutas de datos (`user://`): <https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html>
-- Godot Docs — `WorkerThreadPool` (guardado asíncrono): <https://docs.godotengine.org/en/stable/classes/class_workerthreadpool.html>
-- Jason Gregory — *Game Engine Architecture*, capítulo de serialización y persistencia: <https://www.gameenginebook.com/>
+- Godot Docs — `FileAccess`: <https://docs.godotengine.org/en/4.3/classes/class_fileaccess.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `DirAccess`: <https://docs.godotengine.org/en/4.3/classes/class_diraccess.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Rutas de datos (`user://`): <https://docs.godotengine.org/en/4.3/tutorials/io/data_paths.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `WorkerThreadPool` (guardado asíncrono): <https://docs.godotengine.org/en/4.3/classes/class_workerthreadpool.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Jason Gregory — *Game Engine Architecture*, capítulo de serialización y persistencia: <https://www.gameenginebook.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

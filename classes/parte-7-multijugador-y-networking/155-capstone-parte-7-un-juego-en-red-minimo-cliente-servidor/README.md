@@ -50,7 +50,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usarás **Godot 4.x** con la API de alto nivel: `ENetMultiplayerPeer`, `@rpc`, `MultiplayerSpawner`, `MultiplayerSynchronizer` y las técnicas de las clases previas. La referencia central es la guía de multijugador de Godot (<https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html>) y los nodos de replicación (<https://docs.godotengine.org/en/stable/classes/class_multiplayerspawner.html>, <https://docs.godotengine.org/en/stable/classes/class_multiplayersynchronizer.html>). Para externalizar matchmaking o persistencia, integra Nakama (<https://heroiclabs.com/docs/>) o los lobbies de Steam con GodotSteam (<https://godotsteam.com/>). Estructura el proyecto con `NetworkManager.gd` (Autoload), `Lobby.tscn`, `Arena.tscn` (con `MultiplayerSpawner`) y `Jugador.tscn` (con `MultiplayerSynchronizer`).
+Usarás **Godot 4.x** con la API de alto nivel: `ENetMultiplayerPeer`, `@rpc`, `MultiplayerSpawner`, `MultiplayerSynchronizer` y las técnicas de las clases previas. La referencia central es la guía de multijugador de Godot (<https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html>) y los nodos de replicación (<https://docs.godotengine.org/en/4.3/classes/class_multiplayerspawner.html>, <https://docs.godotengine.org/en/4.3/classes/class_multiplayersynchronizer.html>). Para externalizar matchmaking o persistencia, integra Nakama (<https://heroiclabs.com/docs/>) o los lobbies de Steam con GodotSteam (<https://godotsteam.com/>). Estructura el proyecto con `NetworkManager.gd` (Autoload), `Lobby.tscn`, `Arena.tscn` (con `MultiplayerSpawner`) y `Jugador.tscn` (con `MultiplayerSynchronizer`).
 
 ## 🧩 Tabla de features
 
@@ -252,11 +252,11 @@ Entrega la **arena en red jugable** con: lobby y conexión, spawn por peer, movi
 
 ## 🔗 Referencias
 
-- Godot Docs — High-level multiplayer: <https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html>
-- Godot Docs — MultiplayerSpawner: <https://docs.godotengine.org/en/stable/classes/class_multiplayerspawner.html>
-- Godot Docs — MultiplayerSynchronizer: <https://docs.godotengine.org/en/stable/classes/class_multiplayersynchronizer.html>
-- Heroic Labs — Documentación de Nakama: <https://heroiclabs.com/docs/>
-- GodotSteam — Documentación: <https://godotsteam.com/>
+- Godot Docs — High-level multiplayer: <https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — MultiplayerSpawner: <https://docs.godotengine.org/en/4.3/classes/class_multiplayerspawner.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — MultiplayerSynchronizer: <https://docs.godotengine.org/en/4.3/classes/class_multiplayersynchronizer.html> · uso: se instala o se consulta en la preparación
+- Heroic Labs — Documentación de Nakama: <https://heroiclabs.com/docs/> · uso: se instala o se consulta en la preparación
+- GodotSteam — Documentación: <https://godotsteam.com/> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

@@ -237,11 +237,11 @@ Entrega un documento de modelo de amenazas de un juego (el tuyo o el del capston
 
 ## 🔗 Referencias
 
-- OWASP — Threat Modeling: <https://owasp.org/www-community/Threat_Modeling>
-- OWASP — Threat Modeling Cheat Sheet: <https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html>
-- Microsoft — STRIDE y el proceso de modelado de amenazas: <https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats>
-- OWASP — Top Ten (referencia de categorías de riesgo en aplicaciones): <https://owasp.org/www-project-top-ten/>
-- Adam Shostack — *Threat Modeling: Designing for Security*: <https://shostack.org/books/threat-modeling-book>
+- OWASP — Threat Modeling: <https://owasp.org/www-community/Threat_Modeling> · uso: se instala o se consulta en la preparación
+- OWASP — Threat Modeling Cheat Sheet: <https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html> · uso: se instala o se consulta en la preparación
+- Microsoft — STRIDE y el proceso de modelado de amenazas: <https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats> · uso: respalda el Tema 5 «STRIDE»
+- OWASP — Top Ten (referencia de categorías de riesgo en aplicaciones): <https://owasp.org/www-project-top-ten/> · uso: respalda el Tema 8 «Riesgo aceptado»
+- Adam Shostack — *Threat Modeling: Designing for Security*: <https://shostack.org/books/threat-modeling-book> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -46,7 +46,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usaremos Godot 4.x. La lectura de referencia es la guía de matrices y transformaciones en <https://docs.godotengine.org/en/stable/tutorials/math/matrices_and_transforms.html>, junto con las clases <https://docs.godotengine.org/en/stable/classes/class_transform3d.html> y <https://docs.godotengine.org/en/stable/classes/class_basis.html>. Ten a mano también la referencia de `Vector3` en <https://docs.godotengine.org/en/stable/classes/class_vector3.html>. Crea una escena 3D nueva con dos objetos separados para el laboratorio.
+Usaremos Godot 4.x. La lectura de referencia es la guía de matrices y transformaciones en <https://docs.godotengine.org/en/4.3/tutorials/math/matrices_and_transforms.html>, junto con las clases <https://docs.godotengine.org/en/4.3/classes/class_transform3d.html> y <https://docs.godotengine.org/en/4.3/classes/class_basis.html>. Ten a mano también la referencia de `Vector3` en <https://docs.godotengine.org/en/4.3/classes/class_vector3.html>. Crea una escena 3D nueva con dos objetos separados para el laboratorio.
 
 ## 🧪 Laboratorio guiado
 
@@ -133,10 +133,10 @@ Programa una "torreta" (un `Node3D` con un cañón alargado como hijo) que apunt
 
 ## 🔗 Referencias
 
-- Godot Docs — Matrices and transforms: <https://docs.godotengine.org/en/stable/tutorials/math/matrices_and_transforms.html>
-- Godot Docs — Clase Transform3D: <https://docs.godotengine.org/en/stable/classes/class_transform3d.html>
-- Godot Docs — Clase Basis: <https://docs.godotengine.org/en/stable/classes/class_basis.html>
-- Godot Docs — Clase Vector3: <https://docs.godotengine.org/en/stable/classes/class_vector3.html>
+- Godot Docs — Matrices and transforms: <https://docs.godotengine.org/en/4.3/tutorials/math/matrices_and_transforms.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Clase Transform3D: <https://docs.godotengine.org/en/4.3/classes/class_transform3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Clase Basis: <https://docs.godotengine.org/en/4.3/classes/class_basis.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Clase Vector3: <https://docs.godotengine.org/en/4.3/classes/class_vector3.html> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

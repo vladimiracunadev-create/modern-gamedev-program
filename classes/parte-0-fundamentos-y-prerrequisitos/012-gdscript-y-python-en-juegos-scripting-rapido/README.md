@@ -46,7 +46,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Para GDScript instala Godot 4.x (<https://godotengine.org/download>), que incluye su propio editor de scripts; no necesitas nada más. Para el prototipo de Python necesitas Python 3.10+ (<https://www.python.org/downloads/>) y la librería pygame, que se instala con `pip install pygame`. Editor recomendado para Python: Visual Studio Code (<https://code.visualstudio.com/>). La referencia principal es la documentación oficial de GDScript (<https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/>) y la de pygame (<https://www.pygame.org/docs/>).
+Para GDScript instala Godot 4.x (<https://godotengine.org/download>), que incluye su propio editor de scripts; no necesitas nada más. Para el prototipo de Python necesitas Python 3.10+ (<https://www.python.org/downloads/>) y la librería pygame, que se instala con `pip install pygame`. Editor recomendado para Python: Visual Studio Code (<https://code.visualstudio.com/>). La referencia principal es la documentación oficial de GDScript (<https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/>) y la de pygame (<https://www.pygame.org/docs/>).
 
 ## 🧪 Laboratorio guiado
 
@@ -178,10 +178,10 @@ Amplía `prototipo.py` para que el cuadrado, además de moverse con las flechas,
 
 ## 🔗 Referencias
 
-- Godot Docs, "GDScript basics": <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html>
-- Godot Docs, "Your first script": <https://docs.godotengine.org/en/stable/getting_started/step_by_step/scripting_first_script.html>
-- pygame, documentación oficial: <https://www.pygame.org/docs/>
-- pygame, "A Newbie Guide": <https://www.pygame.org/docs/tut/newbieguide.html>
+- Godot Docs, "GDScript basics": <https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_basics.html> · uso: respalda el Tema 2 «GDScript: sintaxis pythónica»
+- Godot Docs, "Your first script": <https://docs.godotengine.org/en/4.3/getting_started/step_by_step/scripting_first_script.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- pygame, documentación oficial: <https://www.pygame.org/docs/> · uso: se instala o se consulta en la preparación
+- pygame, "A Newbie Guide": <https://www.pygame.org/docs/tut/newbieguide.html> · uso: respalda el Tema 6 «Python + pygame»
 
 ## ⬅️ Clase anterior
 

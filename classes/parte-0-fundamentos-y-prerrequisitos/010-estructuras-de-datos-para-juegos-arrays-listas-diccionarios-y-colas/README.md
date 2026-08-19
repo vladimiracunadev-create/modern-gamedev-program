@@ -212,10 +212,10 @@ Simula 60 frames de un juego que dispara hasta 20 balas por frame usando el `Poo
 
 ## 🔗 Referencias
 
-- Jason Gregory, *Game Engine Architecture*, 3ª ed., capítulo de estructuras de datos y gestión de memoria.
-- Robert Nystrom, "Object Pool": <https://gameprogrammingpatterns.com/object-pool.html>
-- Microsoft, `System.Collections.Generic`: <https://learn.microsoft.com/dotnet/api/system.collections.generic>
-- Microsoft, `Dictionary<TKey,TValue>`: <https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2>
+- Jason Gregory, *Game Engine Architecture*, 3ª ed., capítulo de estructuras de datos y gestión de memoria. · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Robert Nystrom, "Object Pool": <https://gameprogrammingpatterns.com/object-pool.html> · uso: respalda el Tema 6 «Object pooling»
+- Microsoft, `System.Collections.Generic`: <https://learn.microsoft.com/dotnet/api/system.collections.generic> · uso: se instala o se consulta en la preparación
+- Microsoft, `Dictionary<TKey,TValue>`: <https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

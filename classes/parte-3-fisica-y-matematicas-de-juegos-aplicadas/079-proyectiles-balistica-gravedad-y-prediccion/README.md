@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.2+. Prepara una escena 3D con un cañón (un `Node3D` de origen), un proyectil como `RigidBody3D` con `CollisionShape3D`, y un objetivo. Verifica el valor de gravedad en *Project Settings → Physics → 3D → Default Gravity* (por defecto 9.8) porque las fórmulas deben usar ese mismo valor. Para depurar, dibuja la trayectoria prevista con puntos. Recuerda que la gravedad de Godot apunta hacia `-Y`. Consulta: <https://docs.godotengine.org/en/stable/classes/class_rigidbody3d.html> y el capítulo de cinemática de Lengyel.
+Necesitas Godot 4.2+. Prepara una escena 3D con un cañón (un `Node3D` de origen), un proyectil como `RigidBody3D` con `CollisionShape3D`, y un objetivo. Verifica el valor de gravedad en *Project Settings → Physics → 3D → Default Gravity* (por defecto 9.8) porque las fórmulas deben usar ese mismo valor. Para depurar, dibuja la trayectoria prevista con puntos. Recuerda que la gravedad de Godot apunta hacia `-Y`. Consulta: <https://docs.godotengine.org/en/4.3/classes/class_rigidbody3d.html> y el capítulo de cinemática de Lengyel.
 
 ## 🧪 Laboratorio guiado
 
@@ -156,10 +156,10 @@ Implementa una torreta que dispare proyectiles con gravedad a un objetivo móvil
 
 ## 🔗 Referencias
 
-- Godot Docs — RigidBody3D: <https://docs.godotengine.org/en/stable/classes/class_rigidbody3d.html>
-- Godot Docs — Vector3 (math): <https://docs.godotengine.org/en/stable/classes/class_vector3.html>
-- Eric Lengyel, *Mathematics for 3D Game Programming and Computer Graphics*, cinemática de proyectiles.
-- Fiedler, *Gaffer On Games* — integración de movimiento: <https://gafferongames.com/post/integration_basics/>
+- Godot Docs — RigidBody3D: <https://docs.godotengine.org/en/4.3/classes/class_rigidbody3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Vector3 (math): <https://docs.godotengine.org/en/4.3/classes/class_vector3.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Eric Lengyel, *Mathematics for 3D Game Programming and Computer Graphics*, cinemática de proyectiles. · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Fiedler, *Gaffer On Games* — integración de movimiento: <https://gafferongames.com/post/integration_basics/> · uso: respalda el Tema 1 «Movimiento parabólico»
 
 ## ⬅️ Clase anterior
 

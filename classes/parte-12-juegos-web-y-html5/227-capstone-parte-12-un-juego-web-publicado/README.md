@@ -130,10 +130,10 @@ Publica tu juego web en una URL pública (itch.io u otro portal HTML5) que cualq
 
 ## 🔗 Referencias
 
-- itch.io — HTML5 games: <https://itch.io/docs/creators/html5>
-- web.dev — Fast load times: <https://web.dev/explore/fast>
-- MDN — Autoplay guide: <https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide>
-- MDN — Progressive web apps: <https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps>
+- itch.io — HTML5 games: <https://itch.io/docs/creators/html5> · uso: respalda el Tema 2 «Export/build a HTML5»
+- web.dev — Fast load times: <https://web.dev/explore/fast> · uso: respalda el Tema 3 «Audio e input web correctos»
+- MDN — Autoplay guide: <https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- MDN — Progressive web apps: <https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps> · uso: respalda el Tema 3 «Audio e input web correctos»
 
 ## ⬅️ Clase anterior
 

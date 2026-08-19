@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x. Vamos a registrar un script como **Autoload** en `Proyecto → Configuración del proyecto → Autoload`, con el nombre `Director`. El Director usará un `Timer` interno para su ciclo de decisión y `signal` para pedir spawns; una escena de prueba escuchará esas señales e imprimirá los eventos. No hace falta arte: basta un `Node2D` raíz que simule al jugador con variables. Ten a mano la referencia de [Singletons (Autoload)](https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html) y de la clase [Timer](https://docs.godotengine.org/en/stable/classes/class_timer.html).
+Necesitas Godot 4.x. Vamos a registrar un script como **Autoload** en `Proyecto → Configuración del proyecto → Autoload`, con el nombre `Director`. El Director usará un `Timer` interno para su ciclo de decisión y `signal` para pedir spawns; una escena de prueba escuchará esas señales e imprimirá los eventos. No hace falta arte: basta un `Node2D` raíz que simule al jugador con variables. Ten a mano la referencia de [Singletons (Autoload)](https://docs.godotengine.org/en/4.3/tutorials/scripting/singletons_autoload.html) y de la clase [Timer](https://docs.godotengine.org/en/4.3/classes/class_timer.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -212,10 +212,10 @@ Depende de tu juego. Vida y recencia de combate son un buen inicio; puedes sumar
 
 ## 🔗 Referencias
 
-- [Singletons (Autoload) — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html)
-- [Clase Timer — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_timer.html)
-- [Señales — Godot Docs](https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html)
-- [The AI Systems of Left 4 Dead (Valve, AIIDE 2009)](https://steamcdn-a.akamaihd.net/apps/valve/2009/ai_systems_of_l4d_mike_booth.pdf)
+- [Singletons (Autoload) — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/scripting/singletons_autoload.html) · uso: se instala o se consulta en la preparación
+- [Clase Timer — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_timer.html) · uso: se instala o se consulta en la preparación
+- [Señales — Godot Docs](https://docs.godotengine.org/en/4.3/getting_started/step_by_step/signals.html) · uso: respalda el Tema 7 «Señales de spawn»
+- [The AI Systems of Left 4 Dead (Valve, AIIDE 2009)](https://steamcdn-a.akamaihd.net/apps/valve/2009/ai_systems_of_l4d_mike_booth.pdf) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -128,10 +128,10 @@ Elabora un plan de beta o Early Access completo para tu juego: tipo de fase just
 
 ## 🔗 Referencias
 
-- Steamworks — Early Access: <https://partner.steamgames.com/doc/store/earlyaccess>
-- Steam Playtest: <https://partner.steamgames.com/doc/store/playtesting>
-- Google Forms: <https://forms.google.com>
-- GDC Vault (charlas sobre playtesting): <https://www.gdcvault.com/>
+- Steamworks — Early Access: <https://partner.steamgames.com/doc/store/earlyaccess> · uso: se instala o se consulta en la preparación
+- Steam Playtest: <https://partner.steamgames.com/doc/store/playtesting> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Google Forms: <https://forms.google.com> · uso: se instala o se consulta en la preparación
+- GDC Vault (charlas sobre playtesting): <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Git** y el binario de **Git LFS** instalado (`git lfs version` debe responder). En Windows viene con Git for Windows; en Linux/macOS se instala aparte. Trabaja sobre un repositorio de Godot con una carpeta `assets/` que contenga imágenes y audio de prueba.
 
-Godot guarda escenas (`.tscn`) y recursos (`.tres`) como texto por defecto, lo que ayuda al diff; conviene mantenerlo así en `Project Settings` en vez de usar formato binario. La guía oficial de Git LFS está en <https://git-lfs.com/> y las recomendaciones de Godot sobre control de versiones en <https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html>.
+Godot guarda escenas (`.tscn`) y recursos (`.tres`) como texto por defecto, lo que ayuda al diff; conviene mantenerlo así en `Project Settings` en vez de usar formato binario. La guía oficial de Git LFS está en <https://git-lfs.com/> y las recomendaciones de Godot sobre control de versiones en <https://docs.godotengine.org/en/4.3/tutorials/best_practices/version_control_systems.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -155,10 +155,10 @@ Configura un repositorio de juego con Git LFS rastreando al menos tres tipos de 
 
 ## 🔗 Referencias
 
-- Git LFS — sitio oficial y guía: <https://git-lfs.com/>
-- GitHub Docs — Managing large files: <https://docs.github.com/repositories/working-with-files/managing-large-files>
-- Godot Docs — Version control systems: <https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html>
-- Pro Git (libro) — Git Attributes: <https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes>
+- Git LFS — sitio oficial y guía: <https://git-lfs.com/> · uso: se instala o se consulta en la preparación
+- GitHub Docs — Managing large files: <https://docs.github.com/repositories/working-with-files/managing-large-files> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Version control systems: <https://docs.godotengine.org/en/4.3/tutorials/best_practices/version_control_systems.html> · uso: se instala o se consulta en la preparación
+- Pro Git (libro) — Git Attributes: <https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes> · uso: respalda el Tema 1 «Git y los binarios»
 
 ## ⬅️ Clase anterior
 

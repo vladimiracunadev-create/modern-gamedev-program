@@ -130,11 +130,11 @@ Diseña un efecto de impacto completo formado por al menos **tres capas** (flash
 
 ## 🔗 Referencias
 
-- Godot Docs — Particle systems (3D): <https://docs.godotengine.org/en/stable/tutorials/3d/particles/index.html>
-- Godot Docs — Process material: <https://docs.godotengine.org/en/stable/tutorials/3d/particles/process_material_properties.html>
-- Godot Docs — GPUParticles3D: <https://docs.godotengine.org/en/stable/classes/class_gpuparticles3d.html>
-- Kenney — Assets CC0 (partículas y texturas): <https://kenney.nl/assets>
-- Godot Docs — StandardMaterial3D (blend modes): <https://docs.godotengine.org/en/stable/classes/class_standardmaterial3d.html>
+- Godot Docs — Particle systems (3D): <https://docs.godotengine.org/en/4.3/tutorials/3d/particles/index.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Process material: <https://docs.godotengine.org/en/4.3/tutorials/3d/particles/process_material_properties.html> · uso: respalda el Tema 3 «GPUParticles y su material de proceso»
+- Godot Docs — GPUParticles3D: <https://docs.godotengine.org/en/4.3/classes/class_gpuparticles3d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Kenney — Assets CC0 (partículas y texturas): <https://kenney.nl/assets> · uso: se instala o se consulta en la preparación
+- Godot Docs — StandardMaterial3D (blend modes): <https://docs.godotengine.org/en/4.3/classes/class_standardmaterial3d.html> · uso: respalda el Tema 8 «Blend modes (Add vs Mix)»
 
 ## ⬅️ Clase anterior
 

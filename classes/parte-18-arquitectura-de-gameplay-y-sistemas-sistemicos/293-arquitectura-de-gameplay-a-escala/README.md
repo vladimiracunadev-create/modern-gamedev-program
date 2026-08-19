@@ -57,7 +57,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Trabajarás sobre un proyecto Godot 4.x nuevo o sobre cualquiera de tus labs anteriores. No hace falta ningún plugin. Conviene tener a mano la documentación de [señales](https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html), de [`RefCounted`](https://docs.godotengine.org/en/stable/classes/class_refcounted.html) —la clase base de los objetos de dominio, que no son nodos y se liberan solos— y de [Autoloads](https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html), para saber exactamente de qué nos estamos apartando y por qué.
+Trabajarás sobre un proyecto Godot 4.x nuevo o sobre cualquiera de tus labs anteriores. No hace falta ningún plugin. Conviene tener a mano la documentación de [señales](https://docs.godotengine.org/en/4.3/getting_started/step_by_step/signals.html), de [`RefCounted`](https://docs.godotengine.org/en/4.3/classes/class_refcounted.html) —la clase base de los objetos de dominio, que no son nodos y se liberan solos— y de [Autoloads](https://docs.godotengine.org/en/4.3/tutorials/scripting/singletons_autoload.html), para saber exactamente de qué nos estamos apartando y por qué.
 
 El laboratorio de esta parte, [`labs/gameplay-systems/`](../../../labs/gameplay-systems/README.md), está montado con esta estructura de carpetas: úsalo como referencia mientras lees.
 
@@ -267,12 +267,12 @@ Refactoriza un mini-juego monolítico —puedes partir de `labs/gameplay-systems
 
 ## 🔗 Referencias
 
-- Robert Nystrom — *Game Programming Patterns*, Component y Service Locator: <https://gameprogrammingpatterns.com/component.html>
-- Robert Nystrom — Decoupling Patterns (Event Queue, Observer): <https://gameprogrammingpatterns.com/observer.html>
-- Godot Docs — Señales: <https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html>
-- Godot Docs — `RefCounted`: <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>
-- Godot Docs — Singletons (Autoload) y sus advertencias: <https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html>
-- Jason Gregory — *Game Engine Architecture*, cap. «Runtime Gameplay Foundation Systems»: <https://www.gameenginebook.com/>
+- Robert Nystrom — *Game Programming Patterns*, Component y Service Locator: <https://gameprogrammingpatterns.com/component.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Robert Nystrom — Decoupling Patterns (Event Queue, Observer): <https://gameprogrammingpatterns.com/observer.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Señales: <https://docs.godotengine.org/en/4.3/getting_started/step_by_step/signals.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `RefCounted`: <https://docs.godotengine.org/en/4.3/classes/class_refcounted.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Singletons (Autoload) y sus advertencias: <https://docs.godotengine.org/en/4.3/tutorials/scripting/singletons_autoload.html> · uso: se instala o se consulta en la preparación
+- Jason Gregory — *Game Engine Architecture*, cap. «Runtime Gameplay Foundation Systems»: <https://www.gameenginebook.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

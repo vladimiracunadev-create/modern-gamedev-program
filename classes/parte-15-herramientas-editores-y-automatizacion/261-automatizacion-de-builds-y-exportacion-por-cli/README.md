@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Godot 4.x** accesible desde la terminal. En Windows el ejecutable suele llamarse `Godot_v4.x-stable_win64.exe`; conviene crear un alias o añadirlo al `PATH` como `godot`. Debes tener instaladas las **export templates** de tu versión exacta: desde el editor, `Editor → Manage Export Templates → Download and Install`, o por CLI con `godot --headless --install-android-build-template` para Android. Sin plantillas, la exportación aborta.
 
-Define al menos un preset desde `Project → Export` (por ejemplo "Windows Desktop" y "Linux/X11"), guárdalo y verás aparecer `export_presets.cfg` en la raíz del proyecto. La documentación de referencia está en <https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html> y el tutorial de línea de comandos en <https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html>.
+Define al menos un preset desde `Project → Export` (por ejemplo "Windows Desktop" y "Linux/X11"), guárdalo y verás aparecer `export_presets.cfg` en la raíz del proyecto. La documentación de referencia está en <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_projects.html> y el tutorial de línea de comandos en <https://docs.godotengine.org/en/4.3/tutorials/editor/command_line_tutorial.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -152,10 +152,10 @@ Crea un script `build.sh` que, a partir de un proyecto con al menos dos presets,
 
 ## 🔗 Referencias
 
-- Godot Docs — Exporting projects: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html>
-- Godot Docs — Command line tutorial: <https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html>
-- Godot Docs — Exporting for dedicated servers / headless: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_dedicated_servers.html>
-- GNU Bash Manual — Set builtin (`set -euo pipefail`): <https://www.gnu.org/software/bash/manual/bash.html#The-Set-Builtin>
+- Godot Docs — Exporting projects: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_projects.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Command line tutorial: <https://docs.godotengine.org/en/4.3/tutorials/editor/command_line_tutorial.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Exporting for dedicated servers / headless: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_for_dedicated_servers.html> · uso: respalda el Tema 1 «El modo `--headless`»
+- GNU Bash Manual — Set builtin (`set -euo pipefail`): <https://www.gnu.org/software/bash/manual/bash.html#The-Set-Builtin> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

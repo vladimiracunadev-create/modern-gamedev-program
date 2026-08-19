@@ -59,7 +59,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas el catálogo (clase 294) y el inventario (clase 295). Trabajaremos en `res://dominio/loot/` y las tablas en `res://datos/loot.json`. Lee la documentación de [`RandomNumberGenerator`](https://docs.godotengine.org/en/stable/classes/class_randomnumbergenerator.html): a diferencia de `randi()` global, permite tener un generador por sistema con su propia semilla, que es la base de todo lo determinista de esta clase.
+Necesitas el catálogo (clase 294) y el inventario (clase 295). Trabajaremos en `res://dominio/loot/` y las tablas en `res://datos/loot.json`. Lee la documentación de [`RandomNumberGenerator`](https://docs.godotengine.org/en/4.3/classes/class_randomnumbergenerator.html): a diferencia de `randi()` global, permite tener un generador por sistema con su propia semilla, que es la base de todo lo determinista de esta clase.
 
 ## 🧪 Laboratorio guiado
 
@@ -331,11 +331,11 @@ Implementa el sistema de loot completo con tablas ponderadas, anidamiento, garan
 
 ## 🔗 Referencias
 
-- Godot Docs — `RandomNumberGenerator`: <https://docs.godotengine.org/en/stable/classes/class_randomnumbergenerator.html>
-- Godot Docs — Números aleatorios y semillas: <https://docs.godotengine.org/en/stable/tutorials/math/random_number_generation.html>
-- GDC Vault — charlas sobre sistemas de recompensa, drop rates y psicología del loot: <https://www.gdcvault.com/>
-- Wikipedia — Distribución geométrica (base matemática del "cuántos intentos hasta"): <https://en.wikipedia.org/wiki/Geometric_distribution>
-- Robert Nystrom — *Game Programming Patterns*: <https://gameprogrammingpatterns.com/>
+- Godot Docs — `RandomNumberGenerator`: <https://docs.godotengine.org/en/4.3/classes/class_randomnumbergenerator.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Números aleatorios y semillas: <https://docs.godotengine.org/en/4.3/tutorials/math/random_number_generation.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas sobre sistemas de recompensa, drop rates y psicología del loot: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Wikipedia — Distribución geométrica (base matemática del "cuántos intentos hasta"): <https://en.wikipedia.org/wiki/Geometric_distribution> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Robert Nystrom — *Game Programming Patterns*: <https://gameprogrammingpatterns.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas descargar e instalar **FMOD Studio** desde [fmod.com](https://www.fmod.com/) (requiere crear una cuenta gratuita; la licencia indie es gratuita bajo cierto umbral de ingresos). Para el puente con el motor usarás una integración de la comunidad basada en GDExtension, por ejemplo [fmod-gdextension de Utopia-rise](https://github.com/utopia-rise/fmod-gdextension), que expone la API de FMOD como nodos y singletons de Godot 4. Ten a mano la [documentación de FMOD Studio](https://www.fmod.com/docs/2.02/studio/welcome-to-fmod-studio.html) y, como contraste, la [referencia de AudioStreamPlayer de Godot](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html). Importante: **Godot 4 no incluye una API nativa de FMOD**; todo pasa por el plugin, así que primero confirma que la versión de la integración coincide con tu versión de Godot.
+Necesitas descargar e instalar **FMOD Studio** desde [fmod.com](https://www.fmod.com/) (requiere crear una cuenta gratuita; la licencia indie es gratuita bajo cierto umbral de ingresos). Para el puente con el motor usarás una integración de la comunidad basada en GDExtension, por ejemplo [fmod-gdextension de Utopia-rise](https://github.com/utopia-rise/fmod-gdextension), que expone la API de FMOD como nodos y singletons de Godot 4. Ten a mano la [documentación de FMOD Studio](https://www.fmod.com/docs/2.02/studio/welcome-to-fmod-studio.html) y, como contraste, la [referencia de AudioStreamPlayer de Godot](https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer.html). Importante: **Godot 4 no incluye una API nativa de FMOD**; todo pasa por el plugin, así que primero confirma que la versión de la integración coincide con tu versión de Godot.
 
 ## 🧪 Laboratorio guiado
 
@@ -133,10 +133,10 @@ Tiene una licencia indie gratuita bajo un umbral de ingresos por título. Consul
 
 ## 🔗 Referencias
 
-- [FMOD — sitio oficial y descargas](https://www.fmod.com/)
-- [FMOD Studio — documentación 2.02](https://www.fmod.com/docs/2.02/studio/welcome-to-fmod-studio.html)
-- [fmod-gdextension (integración Godot 4)](https://github.com/utopia-rise/fmod-gdextension)
-- [AudioStreamPlayer — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html)
+- [FMOD — sitio oficial y descargas](https://www.fmod.com/) · uso: se instala o se consulta en la preparación
+- [FMOD Studio — documentación 2.02](https://www.fmod.com/docs/2.02/studio/welcome-to-fmod-studio.html) · uso: se instala o se consulta en la preparación
+- [fmod-gdextension (integración Godot 4)](https://github.com/utopia-rise/fmod-gdextension) · uso: se instala o se consulta en la preparación
+- [AudioStreamPlayer — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_audiostreamplayer.html) · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

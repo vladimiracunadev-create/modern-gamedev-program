@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Continúa con `PlataformasCurso`. No necesitas assets nuevos; sí conviene tener un Autoload `GameState` (créalo si no existe, similar a los Autoloads de audio de la Clase 041) y una escena de **menú** con botones. Para inspeccionar dónde se guarda tu archivo, en el editor ve a **Project → Open User Data Folder**. Documentación de referencia: guardado de juegos <https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html> y `FileAccess` <https://docs.godotengine.org/en/stable/classes/class_fileaccess.html>.
+Continúa con `PlataformasCurso`. No necesitas assets nuevos; sí conviene tener un Autoload `GameState` (créalo si no existe, similar a los Autoloads de audio de la Clase 041) y una escena de **menú** con botones. Para inspeccionar dónde se guarda tu archivo, en el editor ve a **Project → Open User Data Folder**. Documentación de referencia: guardado de juegos <https://docs.godotengine.org/en/4.3/tutorials/io/saving_games.html> y `FileAccess` <https://docs.godotengine.org/en/4.3/classes/class_fileaccess.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -226,11 +226,11 @@ Y si algún día tu juego guarda en la nube o se juega en dos dispositivos, el p
 
 ## 🔗 Referencias
 
-- Godot Docs — Saving games: <https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html>
-- Godot Docs — File paths (user://): <https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html>
-- Godot Docs — FileAccess: <https://docs.godotengine.org/en/stable/classes/class_fileaccess.html>
-- Godot Docs — JSON: <https://docs.godotengine.org/en/stable/classes/class_json.html>
-- Godot Docs — Background loading / IO: <https://docs.godotengine.org/en/stable/tutorials/io/index.html>
+- Godot Docs — Saving games: <https://docs.godotengine.org/en/4.3/tutorials/io/saving_games.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — File paths (user://): <https://docs.godotengine.org/en/4.3/tutorials/io/data_paths.html> · uso: respalda el Tema 1 «Ruta `user://`»
+- Godot Docs — FileAccess: <https://docs.godotengine.org/en/4.3/classes/class_fileaccess.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — JSON: <https://docs.godotengine.org/en/4.3/classes/class_json.html> · uso: respalda el Tema 3 «JSON.stringify / parse_string»
+- Godot Docs — Background loading / IO: <https://docs.godotengine.org/en/4.3/tutorials/io/index.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

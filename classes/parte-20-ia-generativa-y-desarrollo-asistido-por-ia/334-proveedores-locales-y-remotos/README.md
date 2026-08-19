@@ -508,11 +508,11 @@ Implementa la abstracción completa con `AIProvider`, `MockProvider` determinist
 
 ## 🔗 Referencias
 
-- ONNX Runtime — inferencia local multiplataforma: <https://onnxruntime.ai/docs/>
-- Godot Docs — GDExtension (integrar un runtime nativo): <https://docs.godotengine.org/en/stable/tutorials/scripting/gdextension/index.html>
-- Godot Docs — `OS` (memoria, plataforma, variables de entorno): <https://docs.godotengine.org/en/stable/classes/class_os.html>
-- Godot Docs — `WorkerThreadPool` (inferencia fuera del hilo principal): <https://docs.godotengine.org/en/stable/classes/class_workerthreadpool.html>
-- OWASP — Top 10 for LLM Applications (cadena de suministro y secretos): <https://owasp.org/www-project-top-10-for-large-language-model-applications/>
+- ONNX Runtime — inferencia local multiplataforma: <https://onnxruntime.ai/docs/> · uso: se instala o se consulta en la preparación
+- Godot Docs — GDExtension (integrar un runtime nativo): <https://docs.godotengine.org/en/4.3/tutorials/scripting/gdextension/index.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `OS` (memoria, plataforma, variables de entorno): <https://docs.godotengine.org/en/4.3/classes/class_os.html> · uso: respalda el Tema 8 «Configuración por entorno»
+- Godot Docs — `WorkerThreadPool` (inferencia fuera del hilo principal): <https://docs.godotengine.org/en/4.3/classes/class_workerthreadpool.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- OWASP — Top 10 for LLM Applications (cadena de suministro y secretos): <https://owasp.org/www-project-top-10-for-large-language-model-applications/> · uso: respalda el Tema 5 «Secretos en el cliente»
 
 ## ⬅️ Clase anterior
 

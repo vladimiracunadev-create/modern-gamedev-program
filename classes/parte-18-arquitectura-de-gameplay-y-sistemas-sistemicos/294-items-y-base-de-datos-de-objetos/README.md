@@ -56,7 +56,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Godot 4.x y un editor de texto. Trabajaremos en `res://datos/` (el catálogo) y `res://dominio/items/` (el código). Documentación de apoyo: [Resources](https://docs.godotengine.org/en/stable/tutorials/scripting/resources.html), [`@export`](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_exports.html), [`ResourceLoader`](https://docs.godotengine.org/en/stable/classes/class_resourceloader.html) y [`JSON`](https://docs.godotengine.org/en/stable/classes/class_json.html). Si vienes de la [clase 260](../../parte-15-herramientas-editores-y-automatizacion/260-recursos-personalizados-y-bases-de-datos-de-juego/README.md) esto es su continuación natural: allí se aprendió el mecanismo, aquí se construye el sistema completo con validación.
+Godot 4.x y un editor de texto. Trabajaremos en `res://datos/` (el catálogo) y `res://dominio/items/` (el código). Documentación de apoyo: [Resources](https://docs.godotengine.org/en/4.3/tutorials/scripting/resources.html), [`@export`](https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_exports.html), [`ResourceLoader`](https://docs.godotengine.org/en/4.3/classes/class_resourceloader.html) y [`JSON`](https://docs.godotengine.org/en/4.3/classes/class_json.html). Si vienes de la [clase 260](../../parte-15-herramientas-editores-y-automatizacion/260-recursos-personalizados-y-bases-de-datos-de-juego/README.md) esto es su continuación natural: allí se aprendió el mecanismo, aquí se construye el sistema completo con validación.
 
 ## 🧪 Laboratorio guiado
 
@@ -317,12 +317,12 @@ Construye un catálogo con **al menos 20 items** que cubra los seis tipos y las 
 
 ## 🔗 Referencias
 
-- Robert Nystrom — *Game Programming Patterns*, Type Object: <https://gameprogrammingpatterns.com/type-object.html>
-- Godot Docs — Resources: <https://docs.godotengine.org/en/stable/tutorials/scripting/resources.html>
-- Godot Docs — GDScript exports: <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_exports.html>
-- Godot Docs — `JSON`: <https://docs.godotengine.org/en/stable/classes/class_json.html>
-- Godot Docs — `ResourceLoader`: <https://docs.godotengine.org/en/stable/classes/class_resourceloader.html>
-- JSON Schema — especificación de esquemas de datos: <https://json-schema.org/>
+- Robert Nystrom — *Game Programming Patterns*, Type Object: <https://gameprogrammingpatterns.com/type-object.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Resources: <https://docs.godotengine.org/en/4.3/tutorials/scripting/resources.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — GDScript exports: <https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_exports.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `JSON`: <https://docs.godotengine.org/en/4.3/classes/class_json.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `ResourceLoader`: <https://docs.godotengine.org/en/4.3/classes/class_resourceloader.html> · uso: se instala o se consulta en la preparación
+- JSON Schema — especificación de esquemas de datos: <https://json-schema.org/> · uso: respalda el Tema 7 «Efectos como datos»
 
 ## ⬅️ Clase anterior
 

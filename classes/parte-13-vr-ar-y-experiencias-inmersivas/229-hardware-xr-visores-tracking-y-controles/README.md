@@ -52,7 +52,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-No necesitas escribir código en esta clase, pero sí datos reales. Consulta las especificaciones del visor que te interese (por ejemplo, la ficha técnica de Meta Quest o de un visor SteamVR) y la documentación de **OpenXR** para entender qué capacidades expone de forma estándar (<https://www.khronos.org/openxr/>). La página de **XR en Godot** lista qué dispositivos están soportados (<https://docs.godotengine.org/en/stable/tutorials/xr/index.html>).
+No necesitas escribir código en esta clase, pero sí datos reales. Consulta las especificaciones del visor que te interese (por ejemplo, la ficha técnica de Meta Quest o de un visor SteamVR) y la documentación de **OpenXR** para entender qué capacidades expone de forma estándar (<https://www.khronos.org/openxr/>). La página de **XR en Godot** lista qué dispositivos están soportados (<https://docs.godotengine.org/en/4.3/tutorials/xr/index.html>).
 
 Prepara una hoja de cálculo o tabla con columnas: *característica de hardware*, *valor mínimo requerido*, *implicación de diseño* y *riesgo si no se cumple*. La llenarás en el laboratorio. Ten también claro tu dispositivo objetivo: no es lo mismo diseñar para un standalone de gama media que para PCVR de gama alta.
 
@@ -128,12 +128,12 @@ Entrega una tabla de requisitos de hardware para tu experiencia con al menos sei
 
 ## 🔗 Referencias
 
-- Khronos — OpenXR: <https://www.khronos.org/openxr/>
-- Godot Docs — XR: <https://docs.godotengine.org/en/stable/tutorials/xr/index.html>
-- Meta — Developer resources: <https://developers.meta.com/horizon/>
-- Valve — SteamVR: <https://partner.steamgames.com/doc/features/steamvr/openxr>
-- Godot Docs — XR performance y optimización: <https://docs.godotengine.org/en/stable/tutorials/xr/index.html>
-- godot-xr-tools (simulador para probar sin visor): <https://github.com/GodotVR/godot-xr-tools>
+- Khronos — OpenXR: <https://www.khronos.org/openxr/> · uso: se instala o se consulta en la preparación
+- Godot Docs — XR: <https://docs.godotengine.org/en/4.3/tutorials/xr/index.html> · uso: se instala o se consulta en la preparación
+- Meta — Developer resources: <https://developers.meta.com/horizon/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Valve — SteamVR: <https://partner.steamgames.com/doc/features/steamvr/openxr> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — XR performance y optimización: <https://docs.godotengine.org/en/4.3/tutorials/xr/index.html> · uso: se instala o se consulta en la preparación
+- godot-xr-tools (simulador para probar sin visor): <https://github.com/GodotVR/godot-xr-tools> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

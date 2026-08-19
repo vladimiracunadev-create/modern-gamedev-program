@@ -47,8 +47,8 @@ Al finalizar, el alumno podrá:
 
 Godot 4.x, Forward+. Usa una malla con volumen (una esfera, un `torus` o un personaje simple) y una `DirectionalLight3D`. Necesitarás **dos** materiales: el toon principal y el material del outline (inverted hull). Se pueden aplicar como dos `Surface Material Override` si la malla tiene dos slots, o con un `MeshInstance3D` hijo que solo dibuje el contorno.
 
-- Custom light function: <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/spatial_shader.html>
-- Your first shader in 3D: <https://docs.godotengine.org/en/stable/tutorials/shaders/your_first_shader/your_first_shader_in_3d.html>
+- Custom light function: <https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/spatial_shader.html>
+- Your first shader in 3D: <https://docs.godotengine.org/en/4.3/tutorials/shaders/your_first_shader/your_first_3d_shader.html>
 
 ## 🧪 Laboratorio guiado
 
@@ -168,9 +168,9 @@ Aplica un estilo cel shading completo a un modelo: iluminación en **3 o más ba
 
 ## 🔗 Referencias
 
-- Godot — Spatial shader (light function): <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/spatial_shader.html>
-- Godot — Shading language: <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html>
-- Godot — Your first shader in 3D: <https://docs.godotengine.org/en/stable/tutorials/shaders/your_first_shader/your_first_shader_in_3d.html>
+- Godot — Spatial shader (light function): <https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/spatial_shader.html> · uso: se instala o se consulta en la preparación
+- Godot — Shading language: <https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/shading_language.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot — Your first shader in 3D: <https://docs.godotengine.org/en/4.3/tutorials/shaders/your_first_shader/your_first_3d_shader.html> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

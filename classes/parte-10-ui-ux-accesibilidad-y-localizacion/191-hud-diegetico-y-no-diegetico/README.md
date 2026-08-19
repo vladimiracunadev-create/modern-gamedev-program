@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Godot 4.x** y una escena de juego 2D sencilla (un jugador y un enemigo bastan; sirve un `Sprite2D` cada uno). No hace falta arte fino: `TextureProgressBar` funciona con un color plano si no asignas texturas, y para la barra flotante usaremos un `ProgressBar` estándar.
 
-Referencia clave: **Canvas layers** (<https://docs.godotengine.org/en/stable/tutorials/2d/canvas_layers.html>) y la clase **CanvasLayer** (<https://docs.godotengine.org/en/stable/classes/class_canvaslayer.html>). El marco de los cuatro tipos de UI proviene del análisis clásico de HUDs en juegos.
+Referencia clave: **Canvas layers** (<https://docs.godotengine.org/en/4.3/tutorials/2d/canvas_layers.html>) y la clase **CanvasLayer** (<https://docs.godotengine.org/en/4.3/classes/class_canvaslayer.html>). El marco de los cuatro tipos de UI proviene del análisis clásico de HUDs en juegos.
 
 ## 🧪 Laboratorio guiado
 
@@ -162,10 +162,10 @@ Crea un HUD no diegético con vida (TextureProgressBar), munición (Label) y un 
 
 ## 🔗 Referencias
 
-- Godot Docs — Canvas layers: <https://docs.godotengine.org/en/stable/tutorials/2d/canvas_layers.html>
-- Godot Docs — CanvasLayer: <https://docs.godotengine.org/en/stable/classes/class_canvaslayer.html>
-- Godot Docs — TextureProgressBar: <https://docs.godotengine.org/en/stable/classes/class_textureprogressbar.html>
-- Game UI Database (referencias de HUD): <https://www.gameuidatabase.com/>
+- Godot Docs — Canvas layers: <https://docs.godotengine.org/en/4.3/tutorials/2d/canvas_layers.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — CanvasLayer: <https://docs.godotengine.org/en/4.3/classes/class_canvaslayer.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — TextureProgressBar: <https://docs.godotengine.org/en/4.3/classes/class_textureprogressbar.html> · uso: respalda el Tema 4 «TextureProgressBar»
+- Game UI Database (referencias de HUD): <https://www.gameuidatabase.com/> · uso: respalda el Tema 1 «HUD no diegético»
 
 ## ⬅️ Clase anterior
 

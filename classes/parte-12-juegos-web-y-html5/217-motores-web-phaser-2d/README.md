@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas un navegador y un editor. Cargaremos Phaser 3 desde un CDN (<https://cdn.jsdelivr.net/npm/phaser@3/dist/phaser.min.js>) para no instalar nada. Como servir por HTTP evita problemas de carga, usa `python -m http.server`. La documentación y ejemplos están en <https://phaser.io/> y <https://newdocs.phaser.io/>.
+Necesitas un navegador y un editor. Cargaremos Phaser 3 desde un CDN (<https://cdn.jsdelivr.net/npm/phaser@3/dist/phaser.min.js>) para no instalar nada. Como servir por HTTP evita problemas de carga, usa `python -m http.server`. La documentación y ejemplos están en <https://phaser.io/> y <https://docs.phaser.io/>.
 
 Crea una carpeta `phaser-mini/` con `index.html` y `juego.js`. Generaremos las texturas por código (rectángulos de colores) para no depender de archivos de imagen.
 
@@ -177,10 +177,10 @@ Construye un nivel donde el jugador debe recoger 5 ítems dispersos evitando un 
 
 ## 🔗 Referencias
 
-- Phaser — Sitio oficial y ejemplos: <https://phaser.io/>
-- Phaser — Nueva documentación (API): <https://newdocs.phaser.io/>
-- Phaser — Making your first game: <https://phaser.io/tutorials/making-your-first-phaser-3-game>
-- MDN — 2D breakout game con Phaser: <https://developer.mozilla.org/es/docs/Games/Tutorials/2D_breakout_game_Phaser>
+- Phaser — Sitio oficial y ejemplos: <https://phaser.io/> · uso: se instala o se consulta en la preparación
+- Phaser — Nueva documentación (API): <https://docs.phaser.io/> · uso: se instala o se consulta en la preparación
+- Phaser — Making your first game: <https://phaser.io/tutorials/making-your-first-phaser-3-game> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- MDN — 2D breakout game con Phaser: <https://developer.mozilla.org/es/docs/Games/Tutorials/2D_breakout_game_Phaser> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

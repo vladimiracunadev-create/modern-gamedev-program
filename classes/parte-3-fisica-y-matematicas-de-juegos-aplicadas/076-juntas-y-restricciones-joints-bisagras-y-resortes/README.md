@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.2+. Trabaja en 3D con `RigidBody3D` para la puerta y la cadena, y en 2D con `RigidBody2D` para el resorte. Activa **Debug → Visible Collision Shapes** y considera bajar la gravedad temporalmente en *Project Settings* para observar el reposo con calma. Un marco de referencia (el poste de la puerta) debe ser un `StaticBody3D` o un `RigidBody3D` en modo estático para servir de anclaje fijo. Consulta la documentación de juntas: <https://docs.godotengine.org/en/stable/classes/class_hingejoint3d.html> y <https://docs.godotengine.org/en/stable/classes/class_dampedspringjoint2d.html>.
+Necesitas Godot 4.2+. Trabaja en 3D con `RigidBody3D` para la puerta y la cadena, y en 2D con `RigidBody2D` para el resorte. Activa **Debug → Visible Collision Shapes** y considera bajar la gravedad temporalmente en *Project Settings* para observar el reposo con calma. Un marco de referencia (el poste de la puerta) debe ser un `StaticBody3D` o un `RigidBody3D` en modo estático para servir de anclaje fijo. Consulta la documentación de juntas: <https://docs.godotengine.org/en/4.3/classes/class_hingejoint3d.html> y <https://docs.godotengine.org/en/4.3/classes/class_dampedspringjoint2d.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -156,10 +156,10 @@ Construye un puente colgante jugable: una serie de tablones (`RigidBody3D`) unid
 
 ## 🔗 Referencias
 
-- Godot Docs — HingeJoint3D: <https://docs.godotengine.org/en/stable/classes/class_hingejoint3d.html>
-- Godot Docs — DampedSpringJoint2D: <https://docs.godotengine.org/en/stable/classes/class_dampedspringjoint2d.html>
-- Godot Docs — Generic6DOFJoint3D: <https://docs.godotengine.org/en/stable/classes/class_generic6dofjoint3d.html>
-- Ian Millington, *Game Physics Engine Development*, capítulos sobre restricciones y contactos.
+- Godot Docs — HingeJoint3D: <https://docs.godotengine.org/en/4.3/classes/class_hingejoint3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — DampedSpringJoint2D: <https://docs.godotengine.org/en/4.3/classes/class_dampedspringjoint2d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Generic6DOFJoint3D: <https://docs.godotengine.org/en/4.3/classes/class_generic6dofjoint3d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Ian Millington, *Game Physics Engine Development*, capítulos sobre restricciones y contactos. · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

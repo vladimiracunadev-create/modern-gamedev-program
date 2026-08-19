@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Godot 4.x y un personaje glTF con animaciones (por ejemplo, modelos de [Mixamo](https://www.mixamo.com/) exportados a glTF, o los de [Kenney](https://kenney.nl/assets)). Coloca el `.glb`/`.gltf` en el proyecto; Godot generará un nodo raíz con `Skeleton3D`, la malla y un `AnimationPlayer`. Consulta la [introducción a animación](https://docs.godotengine.org/en/stable/tutorials/animation/introduction.html) e [importar animaciones](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/available_formats.html).
+Godot 4.x y un personaje glTF con animaciones (por ejemplo, modelos de [Mixamo](https://www.mixamo.com/) exportados a glTF, o los de [Kenney](https://kenney.nl/assets)). Coloca el `.glb`/`.gltf` en el proyecto; Godot generará un nodo raíz con `Skeleton3D`, la malla y un `AnimationPlayer`. Consulta la [introducción a animación](https://docs.godotengine.org/en/4.3/tutorials/animation/introduction.html) e [importar animaciones](https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_3d_scenes/available_formats.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -145,9 +145,9 @@ Crea un personaje que se anime coherentemente en tres estados —quieto, caminar
 
 ## 🔗 Referencias
 
-- [Introduction to the animation features — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/animation/introduction.html)
-- [Importing 3D scenes — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/index.html)
-- [Skeleton3D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_skeleton3d.html)
+- [Introduction to the animation features — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/animation/introduction.html) · uso: se instala o se consulta en la preparación
+- [Importing 3D scenes — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_3d_scenes/index.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Skeleton3D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_skeleton3d.html) · uso: respalda el Tema 1 «Skeleton3D y huesos»
 
 ## ⬅️ Clase anterior
 

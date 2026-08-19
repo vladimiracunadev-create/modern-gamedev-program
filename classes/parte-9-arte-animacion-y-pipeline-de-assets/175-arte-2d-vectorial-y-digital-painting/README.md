@@ -136,13 +136,13 @@ Produce un asset 2D original terminado, ya sea raster por capas en Krita (linear
 
 ## 🔗 Referencias
 
-- Krita — Manual (capas y blending): <https://docs.krita.org/en/user_manual/layers_and_masks.html>
+- Krita — Manual (capas y blending): <https://docs.krita.org/en/user_manual/layers_and_masks.html> · uso: respalda el Tema 2 «Capas y su orden»
 
-- Krita — Pinceles: <https://docs.krita.org/en/user_manual/loading_saving_brushes.html>
+- Krita — Pinceles: <https://docs.krita.org/en/user_manual/loading_saving_brushes.html> · uso: respalda el Tema 3 «Pinceles en Krita»
 
-- Inkscape — Tutoriales oficiales: <https://inkscape.org/learn/tutorials/>
+- Inkscape — Tutoriales oficiales: <https://inkscape.org/learn/tutorials/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
-- Inkscape — Manual (herramienta Bézier): <https://inkscape-manuals.readthedocs.io/>
+- Inkscape — Manual (herramienta Bézier): <https://inkscape-manuals.readthedocs.io/> · uso: respalda el Tema 6 «Nodos y curvas Bézier»
 
 ## ⬅️ Clase anterior
 

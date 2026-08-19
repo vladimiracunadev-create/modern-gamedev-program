@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x y un proyecto 3D. Abre **Project > Project Settings > General > Layer Names > 3D Physics** para renombrar las capas 1, 2 y 3 como `World`, `Player` y `Enemy`. Ten a mano un `MeshInstance3D` con un plano o un modelo de suelo. Activa **Debug > Visible Collision Shapes** para ver las formas mientras pruebas. Consulta la [introducción a física](https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html) y [collision layers and masks](https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html#collision-layers-and-masks).
+Necesitas Godot 4.x y un proyecto 3D. Abre **Project > Project Settings > General > Layer Names > 3D Physics** para renombrar las capas 1, 2 y 3 como `World`, `Player` y `Enemy`. Ten a mano un `MeshInstance3D` con un plano o un modelo de suelo. Activa **Debug > Visible Collision Shapes** para ver las formas mientras pruebas. Consulta la [introducción a física](https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html) y [collision layers and masks](https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html#collision-layers-and-masks).
 
 Regla mental para elegir cuerpo: si el objeto **nunca se mueve**, `StaticBody3D`; si lo mueves tú con lógica de juego (el personaje jugable, plataformas controladas), `CharacterBody3D`; si quieres que el motor lo simule con gravedad, choques y rebotes (barriles, escombros, proyectiles físicos), `RigidBody3D`. Esta decisión condiciona qué forma de colisión puedes usar después.
 
@@ -141,9 +141,9 @@ Construye un pequeño patio cerrado: suelo trimesh, cuatro muros `StaticBody3D` 
 
 ## 🔗 Referencias
 
-- [Physics introduction — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html)
-- [Using CharacterBody2D/3D](https://docs.godotengine.org/en/stable/tutorials/physics/using_character_body_2d.html)
-- [Collision shapes (3D)](https://docs.godotengine.org/en/stable/tutorials/physics/collision_shapes_3d.html)
+- [Physics introduction — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html) · uso: se instala o se consulta en la preparación
+- [Using CharacterBody2D/3D](https://docs.godotengine.org/en/4.3/tutorials/physics/using_character_body_2d.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Collision shapes (3D)](https://docs.godotengine.org/en/4.3/tutorials/physics/collision_shapes_3d.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

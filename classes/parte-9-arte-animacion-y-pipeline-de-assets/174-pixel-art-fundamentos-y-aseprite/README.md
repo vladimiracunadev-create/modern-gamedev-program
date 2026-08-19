@@ -126,13 +126,13 @@ Crea un sprite original de 32×32 px en Aseprite (o LibreSprite) usando una pale
 
 ## 🔗 Referencias
 
-- Aseprite — Documentación oficial: <https://www.aseprite.org/docs/>
+- Aseprite — Documentación oficial: <https://www.aseprite.org/docs/> · uso: se instala o se consulta en la preparación
 
-- Aseprite — Sitio oficial y descarga: <https://www.aseprite.org/>
+- Aseprite — Sitio oficial y descarga: <https://www.aseprite.org/> · uso: se instala o se consulta en la preparación
 
-- LibreSprite — fork libre: <https://libresprite.github.io/>
+- LibreSprite — fork libre: <https://libresprite.github.io/> · uso: se instala o se consulta en la preparación
 
-- Aseprite — Tutoriales (grid, paletas, pixel-perfect): <https://www.aseprite.org/docs/tutorial/>
+- Aseprite — Tutoriales (grid, paletas, pixel-perfect): <https://www.aseprite.org/docs/tutorial/> · uso: respalda el Tema 2 «Grid y pixel-perfect»
 
 ## ⬅️ Clase anterior
 

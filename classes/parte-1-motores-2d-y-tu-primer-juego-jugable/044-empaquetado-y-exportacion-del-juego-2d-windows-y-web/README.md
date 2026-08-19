@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas tu proyecto `PlataformasCurso` terminado hasta aquí, **Godot 4.x** y conexión a internet para descargar las plantillas. Para el build web conviene tener **Python 3** instalado (trae un servidor HTTP integrado). Opcionalmente, crea una cuenta gratuita en **itch.io** (<https://itch.io>) para la parte de publicación. Documentación de referencia: exportación general <https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html> y exportación web <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html>.
+Necesitas tu proyecto `PlataformasCurso` terminado hasta aquí, **Godot 4.x** y conexión a internet para descargar las plantillas. Para el build web conviene tener **Python 3** instalado (trae un servidor HTTP integrado). Opcionalmente, crea una cuenta gratuita en **itch.io** (<https://itch.io>) para la parte de publicación. Documentación de referencia: exportación general <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_projects.html> y exportación web <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_for_web.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -124,11 +124,11 @@ Deja tu juego publicable en las dos plataformas. Exporta un `.exe` de Windows si
 
 ## 🔗 Referencias
 
-- Godot Docs — Exporting projects: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html>
-- Godot Docs — Export templates: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html#export-templates>
-- Godot Docs — Exporting for the Web: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html>
-- Godot Docs — Exporting for Windows: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_windows.html>
-- itch.io — Uploading HTML5 games: <https://itch.io/docs/creators/html5>
+- Godot Docs — Exporting projects: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_projects.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Export templates: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_projects.html#export-templates> · uso: respalda el Tema 3 «Export Windows Desktop»
+- Godot Docs — Exporting for the Web: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_for_web.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Exporting for Windows: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_for_windows.html> · uso: respalda el Tema 3 «Export Windows Desktop»
+- itch.io — Uploading HTML5 games: <https://itch.io/docs/creators/html5> · uso: respalda el Tema 5 «Export Web (HTML5)»
 
 ## ⬅️ Clase anterior
 

@@ -46,7 +46,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Trabaja en Godot 4.x. Las referencias clave son la clase `StandardMaterial3D` en <https://docs.godotengine.org/en/stable/classes/class_standardmaterial3d.html>, la clase `MeshInstance3D` en <https://docs.godotengine.org/en/stable/classes/class_meshinstance3d.html> y la guía de materiales espaciales en <https://docs.godotengine.org/en/stable/tutorials/3d/standard_material_3d.html>. Para entender mallas primitivas revisa <https://docs.godotengine.org/en/stable/classes/class_primitivemesh.html>. Crea un proyecto 3D nuevo con iluminación básica.
+Trabaja en Godot 4.x. Las referencias clave son la clase `StandardMaterial3D` en <https://docs.godotengine.org/en/4.3/classes/class_standardmaterial3d.html>, la clase `MeshInstance3D` en <https://docs.godotengine.org/en/4.3/classes/class_meshinstance3d.html> y la guía de materiales espaciales en <https://docs.godotengine.org/en/4.3/tutorials/3d/standard_material_3d.html>. Para entender mallas primitivas revisa <https://docs.godotengine.org/en/4.3/classes/class_primitivemesh.html>. Crea un proyecto 3D nuevo con iluminación básica.
 
 ## 🧪 Laboratorio guiado
 
@@ -145,10 +145,10 @@ Construye una "vitrina de materiales" con al menos cinco esferas idénticas en f
 
 ## 🔗 Referencias
 
-- Godot Docs — Standard Material 3D: <https://docs.godotengine.org/en/stable/tutorials/3d/standard_material_3d.html>
-- Godot Docs — Clase MeshInstance3D: <https://docs.godotengine.org/en/stable/classes/class_meshinstance3d.html>
-- Godot Docs — Clase StandardMaterial3D: <https://docs.godotengine.org/en/stable/classes/class_standardmaterial3d.html>
-- Godot Docs — Clase PrimitiveMesh: <https://docs.godotengine.org/en/stable/classes/class_primitivemesh.html>
+- Godot Docs — Standard Material 3D: <https://docs.godotengine.org/en/4.3/tutorials/3d/standard_material_3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Clase MeshInstance3D: <https://docs.godotengine.org/en/4.3/classes/class_meshinstance3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Clase StandardMaterial3D: <https://docs.godotengine.org/en/4.3/classes/class_standardmaterial3d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Clase PrimitiveMesh: <https://docs.godotengine.org/en/4.3/classes/class_primitivemesh.html> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

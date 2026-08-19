@@ -130,11 +130,11 @@ Los errores de carrera más caros no son técnicos: pedir sin aportar, aislarse 
 
 Empieza por estas comunidades y recursos para tejer tu red y cuidar tu carrera:
 
-- Reddit r/gamedev — comunidad de desarrollo: <https://www.reddit.com/r/gamedev/>
-- GDC — conferencia y recursos de la industria: <https://gdconf.com/>
-- Meetup — encuentros locales de gamedev: <https://www.meetup.com/>
-- Discord — servidores de motores y comunidades: <https://discord.com/>
-- Jason Schreier, Blood, Sweat, and Pixels (crunch y realidad): <https://www.jasonschreier.com/>
+- Reddit r/gamedev — comunidad de desarrollo: <https://www.reddit.com/r/gamedev/> · uso: se instala o se consulta en la preparación
+- GDC — conferencia y recursos de la industria: <https://gdconf.com/> · uso: se instala o se consulta en la preparación
+- Meetup — encuentros locales de gamedev: <https://www.meetup.com/> · uso: se instala o se consulta en la preparación
+- Discord — servidores de motores y comunidades: <https://discord.com/> · uso: se instala o se consulta en la preparación
+- Jason Schreier, Blood, Sweat, and Pixels (crunch y realidad): <https://www.jasonschreier.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

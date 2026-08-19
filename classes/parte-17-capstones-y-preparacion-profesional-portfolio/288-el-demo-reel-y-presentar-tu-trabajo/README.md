@@ -130,11 +130,11 @@ Casi todos los reels flojos comparten los mismos defectos: son demasiado largos,
 
 Estudia reels de referencia y guías de montaje antes de grabar el tuyo:
 
-- DaVinci Resolve — edición de vídeo gratuita: <https://www.blackmagicdesign.com/products/davinciresolve>
-- Vimeo — alojar reels con buena calidad: <https://vimeo.com/>
-- ArtStation — reels y portfolios de arte: <https://www.artstation.com/>
-- GDC Vault, charlas de demo reel y presentación: <https://www.gdcvault.com/>
-- YouTube — subir y compartir reels: <https://www.youtube.com/>
+- DaVinci Resolve — edición de vídeo gratuita: <https://www.blackmagicdesign.com/products/davinciresolve> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Vimeo — alojar reels con buena calidad: <https://vimeo.com/> · uso: se instala o se consulta en la preparación
+- ArtStation — reels y portfolios de arte: <https://www.artstation.com/> · uso: se instala o se consulta en la preparación
+- GDC Vault, charlas de demo reel y presentación: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: se instala o se consulta en la preparación
+- YouTube — subir y compartir reels: <https://www.youtube.com/> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

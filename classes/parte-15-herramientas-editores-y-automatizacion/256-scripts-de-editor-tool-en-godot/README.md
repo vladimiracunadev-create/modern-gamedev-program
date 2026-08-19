@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Godot 4.x**. Trabajaremos con un único script `@tool` adjunto a un nodo `Node3D` (o `Node2D` si prefieres 2D). No hace falta ningún plugin: `@tool` es una anotación del lenguaje, disponible en cualquier script.
 
-Lee la guía oficial de código en el editor antes de empezar, porque documenta los matices de ciclo de vida: <https://docs.godotengine.org/en/stable/tutorials/plugins/running_code_in_the_editor.html>. Para los avisos, consulta `Node._get_configuration_warnings`: <https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-private-method-get-configuration-warnings>.
+Lee la guía oficial de código en el editor antes de empezar, porque documenta los matices de ciclo de vida: <https://docs.godotengine.org/en/4.3/tutorials/plugins/running_code_in_the_editor.html>. Para los avisos, consulta `Node._get_configuration_warnings`: <https://docs.godotengine.org/en/4.3/classes/class_node.html#class-node-private-method-get-configuration-warnings>.
 
 ## 🧪 Laboratorio guiado
 
@@ -167,10 +167,10 @@ Crea un generador `@tool` de una estructura repetitiva a tu elección (una escal
 
 ## 🔗 Referencias
 
-- Godot Docs — Running code in the editor: <https://docs.godotengine.org/en/stable/tutorials/plugins/running_code_in_the_editor.html>
-- Godot Docs — `Engine.is_editor_hint`: <https://docs.godotengine.org/en/stable/classes/class_engine.html#class-engine-method-is-editor-hint>
-- Godot Docs — `Node._get_configuration_warnings`: <https://docs.godotengine.org/en/stable/classes/class_node.html>
-- Godot Docs — GDScript exports: <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_exports.html>
+- Godot Docs — Running code in the editor: <https://docs.godotengine.org/en/4.3/tutorials/plugins/running_code_in_the_editor.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `Engine.is_editor_hint`: <https://docs.godotengine.org/en/4.3/classes/class_engine.html#class-engine-method-is-editor-hint> · uso: respalda el Tema 2 «`Engine.is_editor_hint()`»
+- Godot Docs — `Node._get_configuration_warnings`: <https://docs.godotengine.org/en/4.3/classes/class_node.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — GDScript exports: <https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_exports.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

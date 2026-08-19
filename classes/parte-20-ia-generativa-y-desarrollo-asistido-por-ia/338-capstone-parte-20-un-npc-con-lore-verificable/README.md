@@ -342,12 +342,12 @@ Entrega un proyecto Godot ejecutable con el sistema completo: abstracción de pr
 
 ## 🔗 Referencias
 
-- Laboratorio de esta parte — [`labs/ai-game-system/`](../../../labs/ai-game-system/README.md)
-- OWASP — Top 10 for Large Language Model Applications: <https://owasp.org/www-project-top-10-for-large-language-model-applications/>
-- ONNX Runtime — inferencia local: <https://onnxruntime.ai/docs/>
-- Godot Docs — Command line tutorial: <https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html>
-- NIST — AI Risk Management Framework: <https://www.nist.gov/itl/ai-risk-management-framework>
-- GDC Vault — charlas sobre IA generativa en producción de juegos: <https://www.gdcvault.com/>
+- Laboratorio de esta parte — [`labs/ai-game-system/`](../../../labs/ai-game-system/README.md) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- OWASP — Top 10 for Large Language Model Applications: <https://owasp.org/www-project-top-10-for-large-language-model-applications/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- ONNX Runtime — inferencia local: <https://onnxruntime.ai/docs/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Command line tutorial: <https://docs.godotengine.org/en/4.3/tutorials/editor/command_line_tutorial.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- NIST — AI Risk Management Framework: <https://www.nist.gov/itl/ai-risk-management-framework> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas sobre IA generativa en producción de juegos: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

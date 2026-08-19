@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Trabaja en `PlataformasCurso`. Necesitas la escena `Jugador` en el grupo `"jugador"` o en una capa de colisión propia (por ejemplo la capa 2, "Player"). Configura en **Project Settings > Layer Names > 2D Physics** nombres claros: capa 1 `World`, capa 2 `Player`, capa 3 `Enemy`. Consulta la documentación de `RayCast2D` (<https://docs.godotengine.org/en/stable/classes/class_raycast2d.html>) y de `Area2D` (<https://docs.godotengine.org/en/stable/classes/class_area2d.html>).
+Trabaja en `PlataformasCurso`. Necesitas la escena `Jugador` en el grupo `"jugador"` o en una capa de colisión propia (por ejemplo la capa 2, "Player"). Configura en **Project Settings > Layer Names > 2D Physics** nombres claros: capa 1 `World`, capa 2 `Player`, capa 3 `Enemy`. Consulta la documentación de `RayCast2D` (<https://docs.godotengine.org/en/4.3/classes/class_raycast2d.html>) y de `Area2D` (<https://docs.godotengine.org/en/4.3/classes/class_area2d.html>).
 
 Añade al `Jugador` al grupo `jugador` desde la pestaña **Node > Groups** para identificarlo con facilidad desde el enemigo.
 
@@ -182,10 +182,10 @@ Crea un segundo tipo de enemigo "volador" que ignore la gravedad y los `RayCast2
 
 ## 🔗 Referencias
 
-- Godot — RayCast2D: <https://docs.godotengine.org/en/stable/classes/class_raycast2d.html>
-- Godot — Area2D: <https://docs.godotengine.org/en/stable/classes/class_area2d.html>
-- Godot — Physics introduction (capas y máscaras): <https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html>
-- Godot — CharacterBody2D: <https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html>
+- Godot — RayCast2D: <https://docs.godotengine.org/en/4.3/classes/class_raycast2d.html> · uso: se instala o se consulta en la preparación
+- Godot — Area2D: <https://docs.godotengine.org/en/4.3/classes/class_area2d.html> · uso: se instala o se consulta en la preparación
+- Godot — Physics introduction (capas y máscaras): <https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html> · uso: respalda el Tema 8 «Capas y máscaras de colisión»
+- Godot — CharacterBody2D: <https://docs.godotengine.org/en/4.3/classes/class_characterbody2d.html> · uso: respalda el Tema 1 «Enemigo como CharacterBody2D»
 
 ## ⬅️ Clase anterior
 

@@ -383,11 +383,11 @@ Implementa cloud save con contador de versión, subida condicional con precondic
 
 ## 🔗 Referencias
 
-- Steamworks — Steam Cloud, cuotas y conflictos: <https://partner.steamgames.com/doc/features/cloud>
-- MDN — HTTP conditional requests (ETag y precondiciones): <https://developer.mozilla.org/en-US/docs/Web/HTTP/Conditional_requests>
-- Godot Docs — `FileAccess` y compresión: <https://docs.godotengine.org/en/stable/classes/class_fileaccess.html>
-- Martin Kleppmann — *Designing Data-Intensive Applications*, capítulo sobre replicación y conflictos: <https://dataintensive.net/>
-- Wikipedia — Version vector: <https://en.wikipedia.org/wiki/Version_vector>
+- Steamworks — Steam Cloud, cuotas y conflictos: <https://partner.steamgames.com/doc/features/cloud> · uso: se instala o se consulta en la preparación
+- MDN — HTTP conditional requests (ETag y precondiciones): <https://developer.mozilla.org/en-US/docs/Web/HTTP/Conditional_requests> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — `FileAccess` y compresión: <https://docs.godotengine.org/en/4.3/classes/class_fileaccess.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Martin Kleppmann — *Designing Data-Intensive Applications*, capítulo sobre replicación y conflictos: <https://dataintensive.net/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Wikipedia — Version vector: <https://en.wikipedia.org/wiki/Version_vector> · uso: respalda el Tema 3 «Contador de versión»
 
 ## ⬅️ Clase anterior
 

@@ -46,7 +46,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x y, opcionalmente, Blender desde <https://www.blender.org/download/>. Consulta la guía oficial de importación de escenas 3D en <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/index.html> y las especificaciones de glTF en <https://www.khronos.org/gltf/>. Para exportar desde Blender revisa <https://docs.blender.org/manual/en/latest/addons/import_export/scene_gltf2.html>. Puedes descargar un modelo glTF libre desde una biblioteca como <https://market.pmnd.rs/> o los ejemplos de Khronos en <https://github.com/KhronosGroup/glTF-Sample-Assets>. Crea un proyecto 3D nuevo.
+Necesitas Godot 4.x y, opcionalmente, Blender desde <https://www.blender.org/download/>. Consulta la guía oficial de importación de escenas 3D en <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_3d_scenes/index.html> y las especificaciones de glTF en <https://www.khronos.org/gltf/>. Para exportar desde Blender revisa <https://docs.blender.org/manual/en/4.2/addons/import_export/scene_gltf2.html>. Puedes descargar un modelo glTF libre desde una biblioteca como <https://market.pmnd.rs/> o los ejemplos de Khronos en <https://github.com/KhronosGroup/glTF-Sample-Assets>. Crea un proyecto 3D nuevo.
 
 ## 🧪 Laboratorio guiado
 
@@ -130,10 +130,10 @@ Importa un modelo glTF externo, corrige su escala y orientación para que quede 
 
 ## 🔗 Referencias
 
-- Godot Docs — Importing 3D scenes: <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/index.html>
-- Khronos — glTF Overview: <https://www.khronos.org/gltf/>
-- Blender Manual — glTF 2.0 exporter: <https://docs.blender.org/manual/en/latest/addons/import_export/scene_gltf2.html>
-- Khronos glTF Sample Assets (modelos de prueba): <https://github.com/KhronosGroup/glTF-Sample-Assets>
+- Godot Docs — Importing 3D scenes: <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_3d_scenes/index.html> · uso: se instala o se consulta en la preparación
+- Khronos — glTF Overview: <https://www.khronos.org/gltf/> · uso: se instala o se consulta en la preparación
+- Blender Manual — glTF 2.0 exporter: <https://docs.blender.org/manual/en/4.2/addons/import_export/scene_gltf2.html> · uso: se instala o se consulta en la preparación
+- Khronos glTF Sample Assets (modelos de prueba): <https://github.com/KhronosGroup/glTF-Sample-Assets> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

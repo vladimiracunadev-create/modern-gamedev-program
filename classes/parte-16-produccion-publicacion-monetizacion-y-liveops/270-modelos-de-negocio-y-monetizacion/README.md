@@ -129,11 +129,11 @@ Los errores de monetización se dividen en dos familias: los de cálculo (estima
 
 Chandler da el marco de negocio; GameAnalytics y Deconstructor of Fun aportan datos y análisis reales de monetización, sobre todo para F2P.
 
-- Heather Chandler — The Game Production Toolbox: <https://www.routledge.com/>
-- GameAnalytics, blog de monetización: <https://gameanalytics.com/blog>
-- GDC Vault, charlas de negocio y F2P: <https://www.gdcvault.com/>
-- Deconstructor of Fun (análisis F2P): <https://www.deconstructoroffun.com/>
-- Steamworks, precios y regiones: <https://partner.steamgames.com/doc/store/pricing>
+- Heather Chandler — The Game Production Toolbox: <https://www.routledge.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GameAnalytics, blog de monetización: <https://gameanalytics.com/blog> · uso: se instala o se consulta en la preparación
+- GDC Vault, charlas de negocio y F2P: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: se instala o se consulta en la preparación
+- Deconstructor of Fun (análisis F2P): <https://www.deconstructoroffun.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Steamworks, precios y regiones: <https://partner.steamgames.com/doc/store/pricing> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

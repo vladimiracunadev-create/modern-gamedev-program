@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas tu proyecto y, para medir de verdad, un dispositivo Android exportado (clase 201): el rendimiento en PC no representa al móvil. En el editor usarás **Debugger → Monitors** para ver FPS, memoria de vídeo y draw calls, y el **Project Settings → Rendering** para renderer y calidad. La compresión de texturas se ajusta por textura en el **Import dock** o globalmente en Project Settings.
 
-Consulta la guía de optimización de Godot en <https://docs.godotengine.org/en/stable/tutorials/performance/index.html> y la comparación de renderers en <https://docs.godotengine.org/en/stable/tutorials/rendering/renderers.html>. Para importación de texturas, revisa el Import dock en <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>.
+Consulta la guía de optimización de Godot en <https://docs.godotengine.org/en/4.3/tutorials/performance/index.html> y la comparación de renderers en <https://docs.godotengine.org/en/4.3/about/list_of_features.html#rendering>. Para importación de texturas, revisa el Import dock en <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_images.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -133,10 +133,10 @@ Configura tu juego para móvil (renderer Mobile o Compatibility, compresión de 
 
 ## 🔗 Referencias
 
-- Godot Docs — Performance and optimization: <https://docs.godotengine.org/en/stable/tutorials/performance/index.html>
-- Godot Docs — Renderers (Forward+, Mobile, Compatibility): <https://docs.godotengine.org/en/stable/tutorials/rendering/renderers.html>
-- Godot Docs — Importing images y compresión: <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>
-- Godot Docs — The Performance class y monitores: <https://docs.godotengine.org/en/stable/classes/class_performance.html>
+- Godot Docs — Performance and optimization: <https://docs.godotengine.org/en/4.3/tutorials/performance/index.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Renderers (Forward+, Mobile, Compatibility): <https://docs.godotengine.org/en/4.3/about/list_of_features.html#rendering> · uso: se instala o se consulta en la preparación
+- Godot Docs — Importing images y compresión: <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_images.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — The Performance class y monitores: <https://docs.godotengine.org/en/4.3/classes/class_performance.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

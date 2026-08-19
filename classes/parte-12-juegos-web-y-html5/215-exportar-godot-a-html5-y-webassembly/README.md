@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas **Godot 4.x** (versión estándar) y **Python 3** para servir localmente. En Godot ve a **Editor → Manage Export Templates** y pulsa **Download and Install** para bajar las plantillas de tu versión exacta (deben coincidir con el editor). La documentación oficial está en <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html>.
+Necesitas **Godot 4.x** (versión estándar) y **Python 3** para servir localmente. En Godot ve a **Editor → Manage Export Templates** y pulsa **Download and Install** para bajar las plantillas de tu versión exacta (deben coincidir con el editor). La documentación oficial está en <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_for_web.html>.
 
 Como el servidor `python -m http.server` no envía COOP/COEP, usaremos un pequeño script de servidor propio para el modo con hilos. Ten un proyecto Godot simple listo (por ejemplo el plataformas del curso o una escena con un sprite que se mueva).
 
@@ -141,10 +141,10 @@ Exporta un proyecto Godot con al menos un objeto que se mueva por input del juga
 
 ## 🔗 Referencias
 
-- Godot Docs — Exporting for the Web: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html>
-- Godot Docs — Export templates: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html>
-- MDN — Cross-Origin-Embedder-Policy: <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy>
-- MDN — SharedArrayBuffer: <https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer>
+- Godot Docs — Exporting for the Web: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_for_web.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Export templates: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_projects.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- MDN — Cross-Origin-Embedder-Policy: <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- MDN — SharedArrayBuffer: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

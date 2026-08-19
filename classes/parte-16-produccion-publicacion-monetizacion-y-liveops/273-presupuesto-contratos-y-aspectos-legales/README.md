@@ -139,11 +139,11 @@ Ninguna de las dos sustituye a un profesional, y las dos lo dicen. Lo que aporta
 
 ## 🔗 Referencias
 
-- Heather Chandler — The Game Production Toolbox: <https://www.routledge.com/>
-- Creative Commons, tipos de licencia: <https://creativecommons.org/share-your-work/cclicenses/>
-- Unity Asset Store, términos de licencia: <https://unity.com/legal/as-terms>
-- Steamworks, requisitos legales y fiscales: <https://partner.steamgames.com/doc/finance>
-- WIPO, información sobre marcas: <https://www.wipo.int/trademarks/en/>
+- Heather Chandler — The Game Production Toolbox: <https://www.routledge.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Creative Commons, tipos de licencia: <https://creativecommons.org/share-your-work/cclicenses/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Unity Asset Store, términos de licencia: <https://unity.com/legal/as-terms> · uso: respalda el Tema 8 «Checklist legal de lanzamiento»
+- Steamworks, requisitos legales y fiscales: <https://partner.steamgames.com/doc/finance> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- WIPO, información sobre marcas: <https://www.wipo.int/trademarks/en/> · uso: respalda el Tema 6 «Marcas y copyright»
 
 ## ⬅️ Clase anterior
 

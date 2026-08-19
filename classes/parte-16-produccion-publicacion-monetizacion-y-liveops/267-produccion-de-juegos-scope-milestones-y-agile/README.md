@@ -129,11 +129,11 @@ Casi todos los fallos de producción son variantes de dos errores: comprometer m
 
 Empieza por Keith para la teoría de agile aplicada a juegos y por la Scrum Guide para el marco base; el resto sirve para profundizar en casos y plantillas concretas.
 
-- Clinton Keith — Agile Game Development: <https://www.agilegamedevelopment.com/>
-- Scrum Guide (oficial): <https://scrumguides.org/>
-- Heather Chandler — The Game Production Toolbox: <https://www.routledge.com/>
-- GDC Vault, charlas de producción: <https://www.gdcvault.com/>
-- Atlassian, guía de agile: <https://www.atlassian.com/agile>
+- Clinton Keith — Agile Game Development: <https://www.agilegamedevelopment.com/> ⚠️ (sitio caído; la obra se localiza por ISBN en el registro) · uso: se instala o se consulta en la preparación
+- Scrum Guide (oficial): <https://scrumguides.org/> · uso: se instala o se consulta en la preparación
+- Heather Chandler — The Game Production Toolbox: <https://www.routledge.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault, charlas de producción: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Atlassian, guía de agile: <https://www.atlassian.com/agile> · uso: respalda el Tema 4 «Agile vs cascada en juegos»
 
 ## ⬅️ Clase anterior
 

@@ -408,11 +408,11 @@ Implementa un `AbilitySystem` con **al menos cuatro habilidades** definidas en J
 
 ## 🔗 Referencias
 
-- Unreal Engine Docs — Gameplay Ability System (referencia conceptual): <https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-ability-system-for-unreal-engine>
-- Unreal Engine Docs — Gameplay Tags: <https://dev.epicgames.com/documentation/en-us/unreal-engine/using-gameplay-tags-in-unreal-engine>
-- Robert Nystrom — *Game Programming Patterns*, State: <https://gameprogrammingpatterns.com/state.html>
-- Godot Docs — Señales personalizadas: <https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html>
-- GDC Vault — charlas sobre diseño de sistemas de habilidades y combate: <https://www.gdcvault.com/>
+- Unreal Engine Docs — Gameplay Ability System (referencia conceptual): <https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-ability-system-for-unreal-engine> · uso: se instala o se consulta en la preparación
+- Unreal Engine Docs — Gameplay Tags: <https://dev.epicgames.com/documentation/en-us/unreal-engine/using-gameplay-tags-in-unreal-engine> · uso: respalda el Tema 6 «Tags y requisitos»
+- Robert Nystrom — *Game Programming Patterns*, State: <https://gameprogrammingpatterns.com/state.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Señales personalizadas: <https://docs.godotengine.org/en/4.3/getting_started/step_by_step/signals.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas sobre diseño de sistemas de habilidades y combate: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

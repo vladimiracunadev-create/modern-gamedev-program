@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas **Godot 4.x** ([godotengine.org](https://godotengine.org)). Crea un proyecto 2D. Escenas: `Proyectil` (`RigidBody2D` + `CollisionShape2D` circular + `Sprite2D`), `Bloque` (`RigidBody2D` rectangular) y `Main` (`Node2D` con el suelo `StaticBody2D`, la estructura y un `CanvasLayer` de UI). Asigna un `PhysicsMaterial` a proyectil y bloques para controlar rebote/fricción. Ten a mano [RigidBody2D](https://docs.godotengine.org/en/stable/classes/class_rigidbody2d.html) y [PinJoint2D](https://docs.godotengine.org/en/stable/classes/class_pinjoint2d.html). La gravedad global está en Project Settings → Physics → 2D → Default Gravity (usa su valor para predecir la trayectoria).
+Necesitas **Godot 4.x** ([godotengine.org](https://godotengine.org)). Crea un proyecto 2D. Escenas: `Proyectil` (`RigidBody2D` + `CollisionShape2D` circular + `Sprite2D`), `Bloque` (`RigidBody2D` rectangular) y `Main` (`Node2D` con el suelo `StaticBody2D`, la estructura y un `CanvasLayer` de UI). Asigna un `PhysicsMaterial` a proyectil y bloques para controlar rebote/fricción. Ten a mano [RigidBody2D](https://docs.godotengine.org/en/4.3/classes/class_rigidbody2d.html) y [PinJoint2D](https://docs.godotengine.org/en/4.3/classes/class_pinjoint2d.html). La gravedad global está en Project Settings → Physics → 2D → Default Gravity (usa su valor para predecir la trayectoria).
 
 ## 🧪 Laboratorio guiado
 
@@ -201,10 +201,10 @@ Entrega un nivel jugable completo: apuntar con arrastre, línea de predicción, 
 
 ## 🔗 Referencias
 
-- Godot Docs — RigidBody2D: <https://docs.godotengine.org/en/stable/classes/class_rigidbody2d.html>
-- Godot Docs — PinJoint2D: <https://docs.godotengine.org/en/stable/classes/class_pinjoint2d.html>
-- Godot Docs — Physics materials y RigidBody: <https://docs.godotengine.org/en/stable/tutorials/physics/using_area_2d.html>
-- Godot Docs — Tween (UI easing): <https://docs.godotengine.org/en/stable/classes/class_tween.html>
+- Godot Docs — RigidBody2D: <https://docs.godotengine.org/en/4.3/classes/class_rigidbody2d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — PinJoint2D: <https://docs.godotengine.org/en/4.3/classes/class_pinjoint2d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Physics materials y RigidBody: <https://docs.godotengine.org/en/4.3/tutorials/physics/using_area_2d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Tween (UI easing): <https://docs.godotengine.org/en/4.3/classes/class_tween.html> · uso: respalda el Tema 7 «Easing en UI y checklist DoD»
 
 ## ⬅️ Clase anterior
 

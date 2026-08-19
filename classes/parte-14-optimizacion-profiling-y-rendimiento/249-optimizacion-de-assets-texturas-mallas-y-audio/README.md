@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Trabaja en Godot 4.x con una escena que mezcle assets pesados: varias texturas grandes (2K o 4K), un par de modelos 3D con muchos polígonos y clips de audio (un efecto corto y una pista de música larga). El diálogo de **Importar** (pestaña junto al inspector, o doble clic sobre el archivo en el sistema de archivos) es tu herramienta central: ahí eliges compresión, mipmaps, tamaño y opciones de malla y audio. Tras cambiar opciones, pulsa **Reimportar**.
 
-Consulta las guías de importación de imágenes (<https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>) y de audio (<https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_audio_samples.html>). Prepara un `Label` que muestre la VRAM en uso; será tu métrica principal:
+Consulta las guías de importación de imágenes (<https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_images.html>) y de audio (<https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_audio_samples.html>). Prepara un `Label` que muestre la VRAM en uso; será tu métrica principal:
 
 ```gdscript
 extends Label
@@ -132,10 +132,10 @@ Toma una escena con assets sin optimizar (texturas grandes en Lossless, modelos 
 
 ## 🔗 Referencias
 
-- Godot Docs — Importing images: <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>
-- Godot Docs — Importing audio samples: <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_audio_samples.html>
-- Godot Docs — Optimizing 3D performance (LOD): <https://docs.godotengine.org/en/stable/tutorials/performance/optimizing_3d_performance.html>
-- Godot Docs — Performance (video memory monitors): <https://docs.godotengine.org/en/stable/classes/class_performance.html>
+- Godot Docs — Importing images: <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_images.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Importing audio samples: <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_audio_samples.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Optimizing 3D performance (LOD): <https://docs.godotengine.org/en/4.3/tutorials/performance/optimizing_3d_performance.html> · uso: respalda el Tema 5 «Polígonos y LOD de malla»
+- Godot Docs — Performance (video memory monitors): <https://docs.godotengine.org/en/4.3/classes/class_performance.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

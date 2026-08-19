@@ -126,11 +126,11 @@ Monta el entorno completo y deja evidencia: un proyecto de Godot que renderice u
 
 ## 🔗 Referencias
 
-- Godot — Descargas oficiales: <https://godotengine.org/download/windows/>
-- Godot — Documentación de introducción: <https://docs.godotengine.org/en/stable/getting_started/introduction/index.html>
-- Unity — Descargar Unity Hub: <https://unity.com/download>
-- Unreal Engine — Descargas: <https://www.unrealengine.com/download>
-- Visual Studio Code: <https://code.visualstudio.com/>
+- Godot — Descargas oficiales: <https://godotengine.org/download/windows/> · uso: se instala o se consulta en la preparación
+- Godot — Documentación de introducción: <https://docs.godotengine.org/en/4.3/getting_started/introduction/index.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Unity — Descargar Unity Hub: <https://unity.com/download> · uso: se instala o se consulta en la preparación
+- Unreal Engine — Descargas: <https://www.unrealengine.com/download> · uso: se instala o se consulta en la preparación
+- Visual Studio Code: <https://code.visualstudio.com/> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

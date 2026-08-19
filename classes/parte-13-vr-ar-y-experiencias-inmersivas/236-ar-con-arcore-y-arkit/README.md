@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas: un móvil Android con ARCore o un iPhone con ARKit, los **export templates** de Godot para esa plataforma, y un **plugin AR** para Godot 4 (busca addons de ARCore/ARKit en el Asset Library o repositorios de la comunidad). Instala el plugin en `res://addons/` y actívalo en **Project → Project Settings → Plugins**. Ten el SDK de Android (o Xcode en Mac) configurado para exportar. En el editor de escritorio el AR no funciona: se prueba exportando al dispositivo.
 
-Referencias: ARCore en <https://developers.google.com/ar>, ARKit en <https://developer.apple.com/augmented-reality/> y exportación en <https://docs.godotengine.org/en/stable/tutorials/export/index.html>.
+Referencias: ARCore en <https://developers.google.com/ar>, ARKit en <https://developer.apple.com/augmented-reality/> y exportación en <https://docs.godotengine.org/en/4.3/tutorials/export/index.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -150,10 +150,10 @@ Construye una app AR que detecte planos horizontales y, al tocar la pantalla sob
 
 ## 🔗 Referencias
 
-- Google — ARCore hit-test y anchors: <https://developers.google.com/ar/develop/anchors>
-- Apple — ARKit overview: <https://developer.apple.com/documentation/arkit>
-- Godot Docs — XRAnchor3D: <https://docs.godotengine.org/en/stable/classes/class_xranchor3d.html>
-- Godot Docs — Exportar a Android: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_android.html>
+- Google — ARCore hit-test y anchors: <https://developers.google.com/ar/develop/anchors> · uso: respalda el Tema 4 «Hit-test desde el toque»
+- Apple — ARKit overview: <https://developer.apple.com/documentation/arkit> · uso: respalda el Tema 1 «Plugins ARCore/ARKit en Godot»
+- Godot Docs — XRAnchor3D: <https://docs.godotengine.org/en/4.3/classes/class_xranchor3d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Exportar a Android: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_for_android.html> · uso: respalda el Tema 7 «Export a Android/iOS»
 
 ## ⬅️ Clase anterior
 

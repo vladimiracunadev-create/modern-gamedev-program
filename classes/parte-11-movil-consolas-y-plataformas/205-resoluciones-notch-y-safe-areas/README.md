@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Trabaja con un `CanvasLayer` de HUD y controles basados en `Control`. En **Project → Project Settings → Display → Window → Stretch** define **Mode: canvas_items** y **Aspect: expand**, y una resolución base (por ejemplo 1080×1920 portrait o 1920×1080 landscape). Para probar el notch necesitas un dispositivo con recorte o el simulador; en el editor puedes simular la safe area aplicando un margen manual mientras desarrollas.
 
-Consulta la guía de múltiples resoluciones en <https://docs.godotengine.org/en/stable/tutorials/rendering/multiple_resolutions.html> y `DisplayServer.get_display_safe_area()` en <https://docs.godotengine.org/en/stable/classes/class_displayserver.html>. La orientación se ajusta en Project Settings → Display → Window → Handheld → Orientation.
+Consulta la guía de múltiples resoluciones en <https://docs.godotengine.org/en/4.3/tutorials/rendering/multiple_resolutions.html> y `DisplayServer.get_display_safe_area()` en <https://docs.godotengine.org/en/4.3/classes/class_displayserver.html>. La orientación se ajusta en Project Settings → Display → Window → Handheld → Orientation.
 
 ## 🧪 Laboratorio guiado
 
@@ -137,10 +137,10 @@ Adapta el HUD de tu juego a la **safe area** usando `DisplayServer.get_display_s
 
 ## 🔗 Referencias
 
-- Godot Docs — Multiple resolutions: <https://docs.godotengine.org/en/stable/tutorials/rendering/multiple_resolutions.html>
-- Godot Docs — Clase DisplayServer (get_display_safe_area): <https://docs.godotengine.org/en/stable/classes/class_displayserver.html>
-- Godot Docs — Size and anchors (Control): <https://docs.godotengine.org/en/stable/tutorials/ui/size_and_anchors.html>
-- Godot Docs — Handheld / orientación: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_android.html>
+- Godot Docs — Multiple resolutions: <https://docs.godotengine.org/en/4.3/tutorials/rendering/multiple_resolutions.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Clase DisplayServer (get_display_safe_area): <https://docs.godotengine.org/en/4.3/classes/class_displayserver.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Size and anchors (Control): <https://docs.godotengine.org/en/4.3/tutorials/ui/size_and_anchors.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Handheld / orientación: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_for_android.html> · uso: respalda el Tema 7 «Orientación»
 
 ## ⬅️ Clase anterior
 

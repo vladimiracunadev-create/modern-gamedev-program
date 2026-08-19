@@ -129,11 +129,11 @@ Las dudas sobre Steam suelen concentrarse en las wishlists, el timing y qué hac
 
 ## 🔗 Referencias
 
-- Steamworks, editar página de tienda: <https://partner.steamgames.com/doc/store/editstorepage>
-- Steamworks, assets gráficos: <https://partner.steamgames.com/doc/store/assets>
-- Steamworks, Next Fest: <https://partner.steamgames.com/doc/marketing/steamnextfest>
-- Chris Zukowski — wishlists y Steam: <https://howtomarketagame.com/>
-- Steamworks, lanzamiento (launch checklist): <https://partner.steamgames.com/doc/store/application/launchchecklist>
+- Steamworks, editar página de tienda: <https://partner.steamgames.com/doc/store/editstorepage> · uso: se instala o se consulta en la preparación
+- Steamworks, assets gráficos: <https://partner.steamgames.com/doc/store/assets> · uso: se instala o se consulta en la preparación
+- Steamworks, Next Fest: <https://partner.steamgames.com/doc/marketing/steamnextfest> · uso: se instala o se consulta en la preparación
+- Chris Zukowski — wishlists y Steam: <https://howtomarketagame.com/> · uso: respalda el Tema 4 «Wishlists»
+- Steamworks, lanzamiento (launch checklist): <https://partner.steamgames.com/doc/store/application/launchchecklist> · uso: respalda el Tema 1 «Steamworks y el proceso de publicación»
 
 ## ⬅️ Clase anterior
 

@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Trabajaremos con un **shader `canvas_item`** aplicado a un `Sprite2D`, así que necesitas una imagen cualquiera (un PNG con transparencia va perfecto para notar el tinte). Abre Godot 4.x, crea una escena 2D y ten a mano el editor de shaders integrado. Como referencia permanente usa la [guía del lenguaje de shading de Godot](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html) y la lista de built-ins de [canvas_item](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/canvas_item_shader.html). No necesitas nada más que el editor.
+Trabajaremos con un **shader `canvas_item`** aplicado a un `Sprite2D`, así que necesitas una imagen cualquiera (un PNG con transparencia va perfecto para notar el tinte). Abre Godot 4.x, crea una escena 2D y ten a mano el editor de shaders integrado. Como referencia permanente usa la [guía del lenguaje de shading de Godot](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/shading_language.html) y la lista de built-ins de [canvas_item](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/canvas_item_shader.html). No necesitas nada más que el editor.
 
 ## 🧪 Laboratorio guiado
 
@@ -141,10 +141,10 @@ Sí, puedes definir funciones auxiliares propias y llamarlas desde las de etapa,
 
 ## 🔗 Referencias
 
-- [Lenguaje de shading de Godot 4](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html)
-- [Shaders canvas_item — built-ins](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/canvas_item_shader.html)
-- [Uniforms y su uso desde código](https://docs.godotengine.org/en/stable/tutorials/shaders/shaders_style_guide.html)
-- [The Book of Shaders — uniforms](https://thebookofshaders.com/03/)
+- [Lenguaje de shading de Godot 4](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/shading_language.html) · uso: se instala o se consulta en la preparación
+- [Shaders canvas_item — built-ins](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/canvas_item_shader.html) · uso: se instala o se consulta en la preparación
+- [Uniforms y su uso desde código](https://docs.godotengine.org/en/4.3/tutorials/shaders/shaders_style_guide.html) · uso: respalda el Tema 5 «Uniforms y hints»
+- [The Book of Shaders — uniforms](https://thebookofshaders.com/03/) · uso: respalda el Tema 5 «Uniforms y hints»
 
 ## ⬅️ Clase anterior
 

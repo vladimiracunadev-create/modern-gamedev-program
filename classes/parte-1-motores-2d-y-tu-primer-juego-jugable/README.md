@@ -8,7 +8,7 @@
 
 **Fuentes de referencia de esta parte:**
 
-- Documentación oficial de [Godot Engine 4.x](https://docs.godotengine.org/en/stable/).
+- Documentación oficial de [Godot Engine 4.x](https://docs.godotengine.org/en/4.3/).
 - Robert Nystrom, *Game Programming Patterns* — máquina de estados, componentes y game loop.
 - Steve Rabin (ed.), *Introduction to Game Development* (2ª ed.) — sistemas 2D.
 - GDC talks sobre *game feel* y *juice* (Jan Willem Nijman, *The Art of Screenshake*).

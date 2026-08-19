@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Godot 4.x** (idealmente 4.2 o superior) y, para probar en hardware, un **runtime OpenXR** instalado: SteamVR en PC o el runtime de Meta en Quest vía Link/streaming. Sin visor, puedes activar OpenXR igualmente y verificar la lógica; el render estéreo solo se verá con un dispositivo o el simulador de XR de godot-xr-tools.
 
-La documentación clave es **Setting up XR** de Godot (<https://docs.godotengine.org/en/stable/tutorials/xr/setting_up_xr.html>) y la especificación de **OpenXR** (<https://registry.khronos.org/OpenXR/>). En Godot, la configuración vive en **Project Settings → XR → OpenXR**, y el Action Map se edita desde esa misma pantalla con el botón de acciones OpenXR.
+La documentación clave es **Setting up XR** de Godot (<https://docs.godotengine.org/en/4.3/tutorials/xr/setting_up_xr.html>) y la especificación de **OpenXR** (<https://registry.khronos.org/OpenXR/>). En Godot, la configuración vive en **Project Settings → XR → OpenXR**, y el Action Map se edita desde esa misma pantalla con el botón de acciones OpenXR.
 
 ## 🧪 Laboratorio guiado
 
@@ -134,10 +134,10 @@ Configura un proyecto Godot con OpenXR habilitado, un Action Map con al menos tr
 
 ## 🔗 Referencias
 
-- Godot Docs — Setting up XR: <https://docs.godotengine.org/en/stable/tutorials/xr/setting_up_xr.html>
-- Khronos — OpenXR Registry y spec: <https://registry.khronos.org/OpenXR/>
-- Khronos — OpenXR Overview: <https://www.khronos.org/openxr/>
-- Godot Docs — XR action map: <https://docs.godotengine.org/en/stable/tutorials/xr/xr_action_map.html>
+- Godot Docs — Setting up XR: <https://docs.godotengine.org/en/4.3/tutorials/xr/setting_up_xr.html> · uso: se instala o se consulta en la preparación
+- Khronos — OpenXR Registry y spec: <https://registry.khronos.org/OpenXR/> · uso: se instala o se consulta en la preparación
+- Khronos — OpenXR Overview: <https://www.khronos.org/openxr/> · uso: respalda el Tema 1 «Fragmentación pre-OpenXR»
+- Godot Docs — XR action map: <https://docs.godotengine.org/en/4.3/tutorials/xr/xr_action_map.html> · uso: respalda el Tema 6 «Action Map»
 
 ## ⬅️ Clase anterior
 

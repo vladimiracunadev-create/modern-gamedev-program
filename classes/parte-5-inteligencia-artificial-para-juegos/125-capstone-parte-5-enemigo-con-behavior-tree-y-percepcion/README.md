@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Con Godot 4.x montaremos el enemigo como `CharacterBody2D` con estos hijos: un `Area2D` con forma de cono (el sentido de visión), un `RayCast2D` para la línea de visión, un `NavigationAgent2D` para las rutas y varios `Marker2D` como ruta de patrulla. El BT se implementa en scripts con `class_name` heredando de `RefCounted`; el blackboard es un `Dictionary`. Necesitas una `NavigationRegion2D` con su malla horneada. Consulta [NavigationAgent2D](https://docs.godotengine.org/en/stable/classes/class_navigationagent2d.html) y [RayCast2D](https://docs.godotengine.org/en/stable/classes/class_raycast2d.html).
+Con Godot 4.x montaremos el enemigo como `CharacterBody2D` con estos hijos: un `Area2D` con forma de cono (el sentido de visión), un `RayCast2D` para la línea de visión, un `NavigationAgent2D` para las rutas y varios `Marker2D` como ruta de patrulla. El BT se implementa en scripts con `class_name` heredando de `RefCounted`; el blackboard es un `Dictionary`. Necesitas una `NavigationRegion2D` con su malla horneada. Consulta [NavigationAgent2D](https://docs.godotengine.org/en/4.3/classes/class_navigationagent2d.html) y [RayCast2D](https://docs.godotengine.org/en/4.3/classes/class_raycast2d.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -262,10 +262,10 @@ El Director decide *cuántos* enemigos y *cuándo* aparecen; cada enemigo, con s
 
 ## 🔗 Referencias
 
-- [Clase NavigationAgent2D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_navigationagent2d.html)
-- [Clase RayCast2D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_raycast2d.html)
-- [Behavior trees for AI: How they work (Chris Simpson)](https://www.gamedeveloper.com/programming/behavior-trees-for-ai-how-they-work)
-- [Navegación 2D — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_introduction_2d.html)
+- [Clase NavigationAgent2D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_navigationagent2d.html) · uso: se instala o se consulta en la preparación
+- [Clase RayCast2D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_raycast2d.html) · uso: se instala o se consulta en la preparación
+- [Behavior trees for AI: How they work (Chris Simpson)](https://www.gamedeveloper.com/programming/behavior-trees-for-ai-how-they-work) · uso: respalda el Tema 1 «Behavior tree»
+- [Navegación 2D — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/navigation/navigation_introduction_2d.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

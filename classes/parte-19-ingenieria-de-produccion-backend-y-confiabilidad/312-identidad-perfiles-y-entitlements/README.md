@@ -370,11 +370,11 @@ Implementa identidad con invitados y promoción, vinculación de al menos dos pr
 
 ## 🔗 Referencias
 
-- OWASP — Authentication Cheat Sheet: <https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html>
-- OWASP — Session Management Cheat Sheet: <https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html>
-- IETF — RFC 6749, OAuth 2.0: <https://datatracker.ietf.org/doc/html/rfc6749>
-- Steamworks — autenticación de usuarios y ownership: <https://partner.steamgames.com/doc/features/auth>
-- Godot Docs — `Marshalls` y utilidades de codificación: <https://docs.godotengine.org/en/stable/classes/class_marshalls.html>
+- OWASP — Authentication Cheat Sheet: <https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html> · uso: se instala o se consulta en la preparación
+- OWASP — Session Management Cheat Sheet: <https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- IETF — RFC 6749, OAuth 2.0: <https://datatracker.ietf.org/doc/html/rfc6749> · uso: se instala o se consulta en la preparación
+- Steamworks — autenticación de usuarios y ownership: <https://partner.steamgames.com/doc/features/auth> · uso: se instala o se consulta en la preparación
+- Godot Docs — `Marshalls` y utilidades de codificación: <https://docs.godotengine.org/en/4.3/classes/class_marshalls.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -7,7 +7,7 @@
 **Fuentes de referencia de esta parte:**
 
 - [Especificación OpenXR (Khronos)](https://www.khronos.org/openxr/).
-- Documentación de [XR en Godot 4](https://docs.godotengine.org/en/stable/tutorials/xr/index.html).
+- Documentación de [XR en Godot 4](https://docs.godotengine.org/en/4.3/tutorials/xr/index.html).
 - Oculus/Meta *VR Best Practices* y guías de confort.
 - Documentación de [ARCore](https://developers.google.com/ar) y [ARKit](https://developer.apple.com/augmented-reality/).
 

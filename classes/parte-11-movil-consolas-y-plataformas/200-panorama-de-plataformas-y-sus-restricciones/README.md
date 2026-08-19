@@ -53,7 +53,7 @@ Al finalizar, el alumno podrá:
 
 No necesitas exportar nada todavía: esta clase es de análisis y decisión. Ten a mano tu proyecto del curso y una hoja de cálculo o un documento donde armar la tabla comparativa. Conviene revisar la matriz de features de Godot para ver qué soporta cada plataforma y qué renderer aplica.
 
-Consulta la guía de exportación en <https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html> y la lista de plataformas soportadas en <https://docs.godotengine.org/en/stable/about/list_of_features.html>. Para requisitos de tiendas, ten abiertas las páginas oficiales de Google Play y App Store como referencia.
+Consulta la guía de exportación en <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_projects.html> y la lista de plataformas soportadas en <https://docs.godotengine.org/en/4.3/about/list_of_features.html>. Para requisitos de tiendas, ten abiertas las páginas oficiales de Google Play y App Store como referencia.
 
 No hace falta que decidas hoy todas las plataformas de forma definitiva, pero sí que dejes por escrito tus candidatas y sus riesgos. Ese documento vivo se irá refinando en las clases siguientes: la 201 y 202 aterrizan el export a Android e iOS, la 203 y 205 resuelven input y pantallas, y la 204 y 206 cubren rendimiento y monetización. La tabla de esta clase es el índice que conecta todas ellas.
 
@@ -129,10 +129,10 @@ Entrega una tabla comparativa completa de al menos **cuatro plataformas** (PC, A
 
 ## 🔗 Referencias
 
-- Godot Docs — Exporting projects: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html>
-- Godot Docs — List of features (plataformas y renderers): <https://docs.godotengine.org/en/stable/about/list_of_features.html>
-- Google Play — Políticas para desarrolladores: <https://play.google.com/about/developer-content-policy/>
-- Apple — App Store Review Guidelines: <https://developer.apple.com/app-store/review/guidelines/>
+- Godot Docs — Exporting projects: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_projects.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — List of features (plataformas y renderers): <https://docs.godotengine.org/en/4.3/about/list_of_features.html> · uso: se instala o se consulta en la preparación
+- Google Play — Políticas para desarrolladores: <https://play.google.com/about/developer-content-policy/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Apple — App Store Review Guidelines: <https://developer.apple.com/app-store/review/guidelines/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

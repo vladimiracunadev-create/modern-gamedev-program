@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Necesitas **Godot 4.x** y, si es posible, un **mando físico** (Xbox, PlayStation o Switch Pro) para probar la detección real. Prepara un pequeño set de iconos de botones por familia (Xbox y PlayStation como mínimo); para el laboratorio bastan marcadores de texto ("A", "✕") si no tienes arte.
 
-Configura primero el **Input Map** en **Project → Project Settings → Input Map** con acciones como `saltar`, `disparar`, `pausa`, y asígnales tanto teclas como botones de mando. Documentación: Input de Godot <https://docs.godotengine.org/en/stable/tutorials/inputs/index.html> y mandos <https://docs.godotengine.org/en/stable/tutorials/inputs/controllers_gamepads_joysticks.html>.
+Configura primero el **Input Map** en **Project → Project Settings → Input Map** con acciones como `saltar`, `disparar`, `pausa`, y asígnales tanto teclas como botones de mando. Documentación: Input de Godot <https://docs.godotengine.org/en/4.3/tutorials/inputs/index.html> y mandos <https://docs.godotengine.org/en/4.3/tutorials/inputs/controllers_gamepads_joysticks.html>.
 
 ## 🧪 Laboratorio guiado
 
@@ -205,10 +205,10 @@ Implementa un sistema que (a) muestre el **glifo de confirmar correcto** según 
 
 ## 🔗 Referencias
 
-- Godot Docs — Controllers, gamepads and joysticks: <https://docs.godotengine.org/en/stable/tutorials/inputs/controllers_gamepads_joysticks.html>
-- Godot Docs — InputEvent / Input Map: <https://docs.godotengine.org/en/stable/tutorials/inputs/inputevent.html>
-- Godot Docs — Saving games: <https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html>
-- Godot Docs — FileAccess: <https://docs.godotengine.org/en/stable/classes/class_fileaccess.html>
+- Godot Docs — Controllers, gamepads and joysticks: <https://docs.godotengine.org/en/4.3/tutorials/inputs/controllers_gamepads_joysticks.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — InputEvent / Input Map: <https://docs.godotengine.org/en/4.3/tutorials/inputs/inputevent.html> · uso: respalda el Tema 4 «Input Map por acciones»
+- Godot Docs — Saving games: <https://docs.godotengine.org/en/4.3/tutorials/io/saving_games.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — FileAccess: <https://docs.godotengine.org/en/4.3/classes/class_fileaccess.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

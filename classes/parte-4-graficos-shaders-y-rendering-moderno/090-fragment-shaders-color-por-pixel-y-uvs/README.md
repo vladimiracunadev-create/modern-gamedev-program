@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Trabajaremos con un shader `canvas_item` sobre un `ColorRect` (un rectángulo de UI que ocupa área y tiene UV de 0 a 1), ideal porque no necesita textura. Abre Godot 4.x, crea una escena con un nodo `Control` o `Node2D` y añade un `ColorRect` grande. Ten a mano la sección de funciones GLSL de la [referencia del lenguaje de Godot](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html#built-in-functions) y los capítulos de formas de [The Book of Shaders](https://thebookofshaders.com/07/).
+Trabajaremos con un shader `canvas_item` sobre un `ColorRect` (un rectángulo de UI que ocupa área y tiene UV de 0 a 1), ideal porque no necesita textura. Abre Godot 4.x, crea una escena con un nodo `Control` o `Node2D` y añade un `ColorRect` grande. Ten a mano la sección de funciones GLSL de la [referencia del lenguaje de Godot](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/shading_language.html#built-in-functions) y los capítulos de formas de [The Book of Shaders](https://thebookofshaders.com/07/).
 
 ## 🧪 Laboratorio guiado
 
@@ -151,10 +151,10 @@ El mismo razonamiento sobre UV aplica en shaders `spatial`; aquí usamos `canvas
 
 ## 🔗 Referencias
 
-- [Funciones integradas del lenguaje de shaders de Godot](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html)
-- [The Book of Shaders — dibujar formas](https://thebookofshaders.com/07/)
-- [The Book of Shaders — patrones](https://thebookofshaders.com/09/)
-- [Tu primer shader canvas_item — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/shaders/your_first_shader/your_first_canvasitem_shader.html)
+- [Funciones integradas del lenguaje de shaders de Godot](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/shading_language.html) · uso: se instala o se consulta en la preparación
+- [The Book of Shaders — dibujar formas](https://thebookofshaders.com/07/) · uso: se instala o se consulta en la preparación
+- [The Book of Shaders — patrones](https://thebookofshaders.com/09/) · uso: respalda el Tema 6 «Patrones con `fract`/`floor`»
+- [Tu primer shader canvas_item — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/shaders/your_first_shader/your_first_2d_shader.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

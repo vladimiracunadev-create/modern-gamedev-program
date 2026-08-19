@@ -389,12 +389,12 @@ Entrega un proyecto Godot que integre **al menos seis** técnicas de la parte co
 
 ## 🔗 Referencias
 
-- Laboratorio de esta parte — [`labs/advanced-engineering/`](../../../labs/advanced-engineering/README.md)
-- Jason Gregory — *Game Engine Architecture*: <https://www.gameenginebook.com/>
-- Akenine-Möller, Haines & Hoffman — *Real-Time Rendering*: <https://www.realtimerendering.com/>
-- Richard Fabian — *Data-Oriented Design*: <https://www.dataorienteddesign.com/dodbook/>
-- Godot Docs — Command line tutorial y `--headless`: <https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html>
-- Godot Docs — Optimización y profiling: <https://docs.godotengine.org/en/stable/tutorials/performance/index.html>
+- Laboratorio de esta parte — [`labs/advanced-engineering/`](../../../labs/advanced-engineering/README.md) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Jason Gregory — *Game Engine Architecture*: <https://www.gameenginebook.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Akenine-Möller, Haines & Hoffman — *Real-Time Rendering*: <https://www.realtimerendering.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Richard Fabian — *Data-Oriented Design*: <https://www.dataorienteddesign.com/dodbook/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Command line tutorial y `--headless`: <https://docs.godotengine.org/en/4.3/tutorials/editor/command_line_tutorial.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Optimización y profiling: <https://docs.godotengine.org/en/4.3/tutorials/performance/index.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

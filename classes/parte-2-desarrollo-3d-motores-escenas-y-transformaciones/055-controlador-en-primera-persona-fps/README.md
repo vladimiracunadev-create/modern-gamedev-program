@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usa **Godot 4.x** con un nivel simple (suelo con colisión, algunas paredes y cajas como referencia visual). Define en el **Input Map** las acciones `mover_izquierda`, `mover_derecha`, `mover_adelante`, `mover_atras` y `saltar`. Consulta la captura del ratón en <https://docs.godotengine.org/en/stable/tutorials/inputs/mouse_and_input_coordinates.html> y la API de `Input` en <https://docs.godotengine.org/en/stable/classes/class_input.html>. Descarga el motor: <https://godotengine.org/download>.
+Usa **Godot 4.x** con un nivel simple (suelo con colisión, algunas paredes y cajas como referencia visual). Define en el **Input Map** las acciones `mover_izquierda`, `mover_derecha`, `mover_adelante`, `mover_atras` y `saltar`. Consulta la captura del ratón en <https://docs.godotengine.org/en/4.3/tutorials/inputs/mouse_and_input_coordinates.html> y la API de `Input` en <https://docs.godotengine.org/en/4.3/classes/class_input.html>. Descarga el motor: <https://godotengine.org/download>.
 
 ## 🧪 Laboratorio guiado
 
@@ -147,9 +147,9 @@ Entrega un controlador FPS jugable en un nivel con paredes: mouse look con pitch
 
 ## 🔗 Referencias
 
-- Mouse and input coordinates: <https://docs.godotengine.org/en/stable/tutorials/inputs/mouse_and_input_coordinates.html>
-- Input — API oficial: <https://docs.godotengine.org/en/stable/classes/class_input.html>
-- CharacterBody3D: <https://docs.godotengine.org/en/stable/classes/class_characterbody3d.html>
+- Mouse and input coordinates: <https://docs.godotengine.org/en/4.3/tutorials/inputs/mouse_and_input_coordinates.html> · uso: se instala o se consulta en la preparación
+- Input — API oficial: <https://docs.godotengine.org/en/4.3/classes/class_input.html> · uso: se instala o se consulta en la preparación
+- CharacterBody3D: <https://docs.godotengine.org/en/4.3/classes/class_characterbody3d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

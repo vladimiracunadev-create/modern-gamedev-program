@@ -59,7 +59,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas los catálogos y validadores de las clases 294, 300, 301, 304 y 305. Trabajaremos en `res://infraestructura/mods/` y los mods en `user://mods/`. Documentación: [`ProjectSettings.load_resource_pack`](https://docs.godotengine.org/en/stable/classes/class_projectsettings.html), [exportación de PCK](https://docs.godotengine.org/en/stable/tutorials/export/exporting_pcks.html) y [`DirAccess`](https://docs.godotengine.org/en/stable/classes/class_diraccess.html).
+Necesitas los catálogos y validadores de las clases 294, 300, 301, 304 y 305. Trabajaremos en `res://infraestructura/mods/` y los mods en `user://mods/`. Documentación: [`ProjectSettings.load_resource_pack`](https://docs.godotengine.org/en/4.3/classes/class_projectsettings.html), [exportación de PCK](https://docs.godotengine.org/en/4.3/tutorials/export/exporting_pcks.html) y [`DirAccess`](https://docs.godotengine.org/en/4.3/classes/class_diraccess.html).
 
 La [clase 265](../../parte-15-herramientas-editores-y-automatizacion/265-editores-de-niveles-y-contenido-in-game/README.md) construyó un editor de contenido in-game: es la puerta natural para que la comunidad **cree** mods, y esta clase es la que los **carga**.
 
@@ -382,12 +382,12 @@ Implementa el gestor de mods con manifiesto, validación, versión de API, depen
 
 ## 🔗 Referencias
 
-- Godot Docs — Exportar PCK y contenido adicional: <https://docs.godotengine.org/en/stable/tutorials/export/exporting_pcks.html>
-- Godot Docs — `ProjectSettings.load_resource_pack`: <https://docs.godotengine.org/en/stable/classes/class_projectsettings.html>
-- Godot Docs — Sistema de archivos virtual (`res://`, `user://`): <https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html>
-- mod.io — plataforma de distribución de mods multiplataforma: <https://mod.io/>
-- Steam Workshop — documentación para desarrolladores: <https://partner.steamgames.com/doc/features/workshop>
-- GDC Vault — charlas sobre soporte a mods y comunidades de creadores: <https://www.gdcvault.com/>
+- Godot Docs — Exportar PCK y contenido adicional: <https://docs.godotengine.org/en/4.3/tutorials/export/exporting_pcks.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — `ProjectSettings.load_resource_pack`: <https://docs.godotengine.org/en/4.3/classes/class_projectsettings.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — Sistema de archivos virtual (`res://`, `user://`): <https://docs.godotengine.org/en/4.3/tutorials/io/data_paths.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- mod.io — plataforma de distribución de mods multiplataforma: <https://mod.io/> · uso: respalda el Tema 2 «Mods de datos vs de código»
+- Steam Workshop — documentación para desarrolladores: <https://partner.steamgames.com/doc/features/workshop> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas sobre soporte a mods y comunidades de creadores: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 2 «Mods de datos vs de código»
 
 ## ⬅️ Clase anterior
 

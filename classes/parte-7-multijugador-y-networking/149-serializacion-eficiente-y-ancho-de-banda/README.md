@@ -43,7 +43,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Godot 4.x, dos instancias. En vez de replicar propiedades sueltas con `MultiplayerSynchronizer`, construiremos un paquete binario propio con `PackedByteArray` y lo enviaremos por un RPC no fiable a una frecuencia controlada. Mediremos bytes con un contador propio (sumando `paquete.size()`) y con el *Network Profiler* de Godot (*Debug → Network Profiler*). Repasa [`PackedByteArray`](https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html) y sus métodos `encode_u16`/`decode_u16`.
+Godot 4.x, dos instancias. En vez de replicar propiedades sueltas con `MultiplayerSynchronizer`, construiremos un paquete binario propio con `PackedByteArray` y lo enviaremos por un RPC no fiable a una frecuencia controlada. Mediremos bytes con un contador propio (sumando `paquete.size()`) y con el *Network Profiler* de Godot (*Debug → Network Profiler*). Repasa [`PackedByteArray`](https://docs.godotengine.org/en/4.3/classes/class_packedbytearray.html) y sus métodos `encode_u16`/`decode_u16`.
 
 ## 🧪 Laboratorio guiado
 
@@ -182,10 +182,10 @@ Reduce el tráfico de un sincronizador de jugadores: baja el tick rate de envío
 
 ## 🔗 Referencias
 
-- Gaffer On Games — Serialization Strategies: <https://gafferongames.com/post/serialization_strategies/>
-- Gaffer On Games — Reading and Writing Packets: <https://gafferongames.com/post/reading_and_writing_packets/>
-- Godot Docs — PackedByteArray: <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>
-- Godot Docs — High-level multiplayer y Network Profiler: <https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html>
+- Gaffer On Games — Serialization Strategies: <https://gafferongames.com/post/serialization_strategies/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Gaffer On Games — Reading and Writing Packets: <https://gafferongames.com/post/reading_and_writing_packets/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — PackedByteArray: <https://docs.godotengine.org/en/4.3/classes/class_packedbytearray.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — High-level multiplayer y Network Profiler: <https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

@@ -131,10 +131,10 @@ Toma una funcionalidad de tu juego, escribe un plan de pruebas de mínimo 8 caso
 
 ## 🔗 Referencias
 
-- Atlassian — Bug tracking best practices: <https://www.atlassian.com/software/jira/guides/getting-started/best-practices>
-- Google Testing Blog: <https://testing.googleblog.com/>
-- GitHub Issues docs: <https://docs.github.com/issues>
-- Ministry of Testing — Exploratory testing: <https://www.ministryoftesting.com/>
+- Atlassian — Bug tracking best practices: <https://www.atlassian.com/software/jira/guides/getting-started/best-practices> · uso: se instala o se consulta en la preparación
+- Google Testing Blog: <https://testing.googleblog.com/> · uso: respalda el Tema 1 «QA vs. testing automatizado»
+- GitHub Issues docs: <https://docs.github.com/issues> · uso: se instala o se consulta en la preparación
+- Ministry of Testing — Exploratory testing: <https://www.ministryoftesting.com/> · uso: respalda el Tema 1 «QA vs. testing automatizado»
 
 ## ⬅️ Clase anterior
 

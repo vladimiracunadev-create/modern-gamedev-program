@@ -49,7 +49,7 @@ Al finalizar, el alumno podrá:
 
 Sigue en `PlataformasCurso` con las acciones de input de la clase 029 ya creadas (`move_left`, `move_right`, `jump`). Necesitarás un suelo para probar: crearemos un `StaticBody2D` simple. Reutiliza el sprite del jugador como marcador.
 
-Apóyate en la guía de movimiento 2D de Godot: <https://docs.godotengine.org/en/stable/tutorials/physics/using_character_body_2d.html>. La gravedad la tomaremos de `ProjectSettings` (`physics/2d/default_gravity`, por defecto 980).
+Apóyate en la guía de movimiento 2D de Godot: <https://docs.godotengine.org/en/4.3/tutorials/physics/using_character_body_2d.html>. La gravedad la tomaremos de `ProjectSettings` (`physics/2d/default_gravity`, por defecto 980).
 
 ## 🧪 Laboratorio guiado
 
@@ -178,10 +178,10 @@ Ajusta el controlador para que se sienta bien: define valores de aceleración, f
 
 ## 🔗 Referencias
 
-- Godot Docs — Using CharacterBody2D: <https://docs.godotengine.org/en/stable/tutorials/physics/using_character_body_2d.html>
-- Godot Docs — CharacterBody2D (clase): <https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html>
-- Godot Docs — 2D movement overview: <https://docs.godotengine.org/en/stable/tutorials/2d/2d_movement.html>
-- Steve Swink, *Game Feel*: <https://www.gamefeelbook.com/>
+- Godot Docs — Using CharacterBody2D: <https://docs.godotengine.org/en/4.3/tutorials/physics/using_character_body_2d.html> · uso: se instala o se consulta en la preparación
+- Godot Docs — CharacterBody2D (clase): <https://docs.godotengine.org/en/4.3/classes/class_characterbody2d.html> · uso: respalda el Tema 1 «CharacterBody2D»
+- Godot Docs — 2D movement overview: <https://docs.godotengine.org/en/4.3/tutorials/2d/2d_movement.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Steve Swink, *Game Feel*: <https://www.gamefeelbook.com/> ⚠️ (sitio caído; la obra se localiza por ISBN en el registro) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

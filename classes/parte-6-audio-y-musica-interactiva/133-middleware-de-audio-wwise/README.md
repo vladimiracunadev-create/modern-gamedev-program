@@ -138,10 +138,10 @@ No. Como con FMOD, la integración vive en un plugin externo; Godot no incluye W
 
 ## 🔗 Referencias
 
-- [Audiokinetic — sitio oficial y Launcher](https://www.audiokinetic.com/)
-- [Wwise — documentación de bienvenida](https://www.audiokinetic.com/library/edge/?source=Help&id=welcome_to_wwise)
-- [Wwise — trabajar con Game Parameters (RTPC)](https://www.audiokinetic.com/library/edge/?source=Help&id=working_with_game_parameters)
-- [FMOD — para comparar middlewares](https://www.fmod.com/)
+- [Audiokinetic — sitio oficial y Launcher](https://www.audiokinetic.com/) · uso: se instala o se consulta en la preparación
+- [Wwise — documentación de bienvenida](https://www.audiokinetic.com/library/edge/?source=Help&id=welcome_to_wwise) · uso: se instala o se consulta en la preparación
+- [Wwise — trabajar con Game Parameters (RTPC)](https://www.audiokinetic.com/library/edge/?source=Help&id=working_with_game_parameters) · uso: se instala o se consulta en la preparación
+- [FMOD — para comparar middlewares](https://www.fmod.com/) · uso: respalda el Tema 8 «Comparación con FMOD»
 
 ## ⬅️ Clase anterior
 

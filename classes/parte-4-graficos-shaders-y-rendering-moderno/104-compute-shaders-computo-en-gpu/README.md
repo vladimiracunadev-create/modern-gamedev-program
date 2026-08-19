@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Necesitas Godot 4.x con el renderer **Forward+** o **Mobile** (ambos exponen `RenderingDevice`; el backend Compatibility/OpenGL **no** soporta compute). Trabajaremos con dos archivos: un `.glsl` para el shader de cómputo y un `.gd` de setup. El shader GLSL de compute se guarda como recurso de texto y se carga con `load()` como `RDShaderFile`. Ten a mano la [guía oficial de compute shaders](https://docs.godotengine.org/en/stable/tutorials/shaders/compute_shaders.html) y la referencia de la clase [RenderingDevice](https://docs.godotengine.org/en/stable/classes/class_renderingdevice.html). No necesitas escena visual: bastará con un `Node` y su `_ready()`.
+Necesitas Godot 4.x con el renderer **Forward+** o **Mobile** (ambos exponen `RenderingDevice`; el backend Compatibility/OpenGL **no** soporta compute). Trabajaremos con dos archivos: un `.glsl` para el shader de cómputo y un `.gd` de setup. El shader GLSL de compute se guarda como recurso de texto y se carga con `load()` como `RDShaderFile`. Ten a mano la [guía oficial de compute shaders](https://docs.godotengine.org/en/4.3/tutorials/shaders/compute_shaders.html) y la referencia de la clase [RenderingDevice](https://docs.godotengine.org/en/4.3/classes/class_renderingdevice.html). No necesitas escena visual: bastará con un `Node` y su `_ready()`.
 
 ## 🧪 Laboratorio guiado
 
@@ -196,10 +196,10 @@ Con pocos datos, el coste de subir y bajar buffers supera al cálculo. Brilla cu
 
 ## 🔗 Referencias
 
-- [Compute shaders — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/shaders/compute_shaders.html)
-- [Using compute shaders (ejemplo paso a paso) — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/shaders/your_first_shader/your_first_compute_shader.html)
-- [Clase RenderingDevice — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_renderingdevice.html)
-- [Compute Shader — Khronos OpenGL Wiki](https://www.khronos.org/opengl/wiki/Compute_Shader)
+- [Compute shaders — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/shaders/compute_shaders.html) · uso: se instala o se consulta en la preparación
+- [Using compute shaders (ejemplo paso a paso) — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/shaders/compute_shaders.html) · uso: se instala o se consulta en la preparación
+- [Clase RenderingDevice — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_renderingdevice.html) · uso: se instala o se consulta en la preparación
+- [Compute Shader — Khronos OpenGL Wiki](https://www.khronos.org/opengl/wiki/Compute_Shader) · uso: respalda el Tema 1 «Qué es un compute shader»
 
 ## ⬅️ Clase anterior
 

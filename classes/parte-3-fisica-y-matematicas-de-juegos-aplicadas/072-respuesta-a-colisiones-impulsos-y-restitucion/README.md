@@ -157,9 +157,9 @@ Implementa una mini-simulación de **N círculos** en una caja: en cada paso, in
 
 ## 🔗 Referencias
 
-1. Godot Engine — RigidBody2D: <https://docs.godotengine.org/en/stable/classes/class_rigidbody2d.html>
-2. Godot Engine — PhysicsMaterial (bounce): <https://docs.godotengine.org/en/stable/classes/class_physicsmaterial.html>
-3. Wikipedia — Coefficient of restitution: <https://en.wikipedia.org/wiki/Coefficient_of_restitution>
+1. Godot Engine — RigidBody2D: <https://docs.godotengine.org/en/4.3/classes/class_rigidbody2d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+2. Godot Engine — PhysicsMaterial (bounce): <https://docs.godotengine.org/en/4.3/classes/class_physicsmaterial.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+3. Wikipedia — Coefficient of restitution: <https://en.wikipedia.org/wiki/Coefficient_of_restitution> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

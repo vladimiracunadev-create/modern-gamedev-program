@@ -230,10 +230,10 @@ Amplía el mini-GOAP a **al menos cinco acciones** (incluye recoger munición y 
 
 ## 🔗 Referencias
 
-- Orkin — GOAP y la IA de F.E.A.R.: <https://alumni.media.mit.edu/~jorkin/goap.html>
-- Game AI Pro — capítulos sobre GOAP: <http://www.gameaipro.com/>
-- Godot Docs — Dictionary: <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>
-- Godot Docs — RefCounted: <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>
+- Orkin — GOAP y la IA de F.E.A.R.: <https://alumni.media.mit.edu/~jorkin/goap.html> ⚠️ (enlace caído; obra registrada como pendiente) · uso: se instala o se consulta en la preparación
+- Game AI Pro — capítulos sobre GOAP: <http://www.gameaipro.com/> · uso: respalda el Tema 7 «GOAP vs Behavior Tree»
+- Godot Docs — Dictionary: <https://docs.godotengine.org/en/4.3/classes/class_dictionary.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — RefCounted: <https://docs.godotengine.org/en/4.3/classes/class_refcounted.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

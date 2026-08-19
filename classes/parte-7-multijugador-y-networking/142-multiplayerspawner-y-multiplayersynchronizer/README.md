@@ -45,7 +45,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-**Godot 4.x** y **dos instancias**. Crearás dos escenas: `Jugador.tscn` (un `CharacterBody2D` o `Node2D` con `Sprite2D` y un `MultiplayerSynchronizer`) y `Mundo.tscn` (con un `Node2D` contenedor `Jugadores` y un `MultiplayerSpawner`). Configura el `spawn_path` del spawner apuntando a `Jugadores` y añade `Jugador.tscn` a *Auto Spawn List*. En el `MultiplayerSynchronizer` del jugador, crea un `SceneReplicationConfig` y añade la propiedad `position`. Guía: [Scene replication de Godot 4](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html#replication).
+**Godot 4.x** y **dos instancias**. Crearás dos escenas: `Jugador.tscn` (un `CharacterBody2D` o `Node2D` con `Sprite2D` y un `MultiplayerSynchronizer`) y `Mundo.tscn` (con un `Node2D` contenedor `Jugadores` y un `MultiplayerSpawner`). Configura el `spawn_path` del spawner apuntando a `Jugadores` y añade `Jugador.tscn` a *Auto Spawn List*. En el `MultiplayerSynchronizer` del jugador, crea un `SceneReplicationConfig` y añade la propiedad `position`. Guía: [Scene replication de Godot 4](https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html#replication).
 
 ## 🧪 Laboratorio guiado
 
@@ -147,10 +147,10 @@ Monta una arena donde cada peer tiene su cuadrado controlable, todos spawneados 
 
 ## 🔗 Referencias
 
-- [Scene replication (Godot 4)](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html#replication)
-- [Clase MultiplayerSpawner](https://docs.godotengine.org/en/stable/classes/class_multiplayerspawner.html)
-- [Clase MultiplayerSynchronizer](https://docs.godotengine.org/en/stable/classes/class_multiplayersynchronizer.html)
-- [Clase SceneReplicationConfig](https://docs.godotengine.org/en/stable/classes/class_scenereplicationconfig.html)
+- [Scene replication (Godot 4)](https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html#replication) · uso: se instala o se consulta en la preparación
+- [Clase MultiplayerSpawner](https://docs.godotengine.org/en/4.3/classes/class_multiplayerspawner.html) · uso: respalda el Tema 2 «MultiplayerSpawner y spawn_path»
+- [Clase MultiplayerSynchronizer](https://docs.godotengine.org/en/4.3/classes/class_multiplayersynchronizer.html) · uso: respalda el Tema 5 «MultiplayerSynchronizer»
+- [Clase SceneReplicationConfig](https://docs.godotengine.org/en/4.3/classes/class_scenereplicationconfig.html) · uso: respalda el Tema 6 «SceneReplicationConfig»
 
 ## ⬅️ Clase anterior
 

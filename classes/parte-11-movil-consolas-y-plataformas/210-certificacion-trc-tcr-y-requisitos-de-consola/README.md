@@ -157,10 +157,10 @@ Elabora una **checklist de certificación** de al menos 10 requisitos comunes y 
 
 ## 🔗 Referencias
 
-- Godot Docs — Handling quit/notifications: <https://docs.godotengine.org/en/stable/tutorials/inputs/handling_quit_requests.html>
-- Godot Docs — Controllers, gamepads and joysticks: <https://docs.godotengine.org/en/stable/tutorials/inputs/controllers_gamepads_joysticks.html>
-- Godot Docs — Saving games: <https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html>
-- W4 Games (soporte de consola): <https://www.w4games.com>
+- Godot Docs — Handling quit/notifications: <https://docs.godotengine.org/en/4.3/tutorials/inputs/handling_quit_requests.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Controllers, gamepads and joysticks: <https://docs.godotengine.org/en/4.3/tutorials/inputs/controllers_gamepads_joysticks.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Saving games: <https://docs.godotengine.org/en/4.3/tutorials/io/saving_games.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- W4 Games (soporte de consola): <https://www.w4games.com> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

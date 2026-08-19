@@ -46,7 +46,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Continúa con la escena `Player` (`CharacterBody2D`) de clases anteriores. Abre *Proyecto → Ajustes del proyecto → Nombres de capas → 2D Physics* para nombrar las capas antes de configurarlas. Referencias: guía de [física e introducción a colisiones](https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html) y [Area2D](https://docs.godotengine.org/en/stable/classes/class_area2d.html).
+Continúa con la escena `Player` (`CharacterBody2D`) de clases anteriores. Abre *Proyecto → Ajustes del proyecto → Nombres de capas → 2D Physics* para nombrar las capas antes de configurarlas. Referencias: guía de [física e introducción a colisiones](https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html) y [Area2D](https://docs.godotengine.org/en/4.3/classes/class_area2d.html).
 
 ## 🧪 Laboratorio guiado
 
@@ -163,10 +163,10 @@ Monta un mini-nivel con: suelo `StaticBody2D` (capa `World`), jugador `Character
 
 ## 🔗 Referencias
 
-- [Introducción a la física y colisiones — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html)
-- [Area2D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_area2d.html)
-- [CharacterBody2D — Godot Docs](https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html)
-- [Capas y máscaras de colisión — Godot Docs](https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html#collision-layers-and-masks)
+- [Introducción a la física y colisiones — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html) · uso: se instala o se consulta en la preparación
+- [Area2D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_area2d.html) · uso: se instala o se consulta en la preparación
+- [CharacterBody2D — Godot Docs](https://docs.godotengine.org/en/4.3/classes/class_characterbody2d.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Capas y máscaras de colisión — Godot Docs](https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html#collision-layers-and-masks) · uso: respalda el Tema 3 «`collision_layer` (en qué capa estoy)»
 
 ## ⬅️ Clase anterior
 

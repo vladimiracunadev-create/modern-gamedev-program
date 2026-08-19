@@ -182,10 +182,10 @@ Construye un **chat en tiempo real** por WebSocket donde varios clientes (varias
 
 ## 🔗 Referencias
 
-- MDN — WebSockets API: <https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API>
-- MDN — WebRTC API: <https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API>
-- Godot Docs — High-level multiplayer: <https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html>
-- ws (librería Node): <https://github.com/websockets/ws>
+- MDN — WebSockets API: <https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API> · uso: se instala o se consulta en la preparación
+- MDN — WebRTC API: <https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API> · uso: se instala o se consulta en la preparación
+- Godot Docs — High-level multiplayer: <https://docs.godotengine.org/en/4.3/tutorials/networking/high_level_multiplayer.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- ws (librería Node): <https://github.com/websockets/ws> · uso: respalda el Tema 4 «Servidor WebSocket (Node)»
 
 ## ⬅️ Clase anterior
 

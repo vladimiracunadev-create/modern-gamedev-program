@@ -359,11 +359,11 @@ Implementa `Estadistica`, `Stats` y `Equipo` con al menos **cuatro slots**, rest
 
 ## 🔗 Referencias
 
-- Unreal Engine Docs — Gameplay Attributes and Modifiers (referencia conceptual): <https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-attributes-and-gameplay-effects-for-the-gameplay-ability-system-in-unreal-engine>
-- Jason Gregory — *Game Engine Architecture*: <https://www.gameenginebook.com/>
-- Robert Nystrom — *Game Programming Patterns*, Component: <https://gameprogrammingpatterns.com/component.html>
-- Godot Docs — Señales y `Callable`: <https://docs.godotengine.org/en/stable/classes/class_callable.html>
-- GDC Vault — charlas sobre sistemas de progresión y balance de stats: <https://www.gdcvault.com/>
+- Unreal Engine Docs — Gameplay Attributes and Modifiers (referencia conceptual): <https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-attributes-and-gameplay-effects-for-the-gameplay-ability-system-in-unreal-engine> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Jason Gregory — *Game Engine Architecture*: <https://www.gameenginebook.com/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Robert Nystrom — *Game Programming Patterns*, Component: <https://gameprogrammingpatterns.com/component.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Godot Docs — Señales y `Callable`: <https://docs.godotengine.org/en/4.3/classes/class_callable.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas sobre sistemas de progresión y balance de stats: <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

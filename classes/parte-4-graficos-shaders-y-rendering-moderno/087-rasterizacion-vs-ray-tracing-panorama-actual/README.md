@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Trabajaremos en Godot 4.x con el renderer **Forward+**. No hay soporte de ray tracing por hardware nativo en el flujo estándar de shaders de Godot 4, así que el objetivo práctico es **medir el coste de la iluminación rasterizada** (sombras, número de luces) y razonar sobre él; el ray tracing lo abordaremos de forma conceptual y con pseudocódigo GLSL. Ten abierto el panel **Depurar → Monitores** para leer los tiempos. Referencias vivas: la [documentación de iluminación de Godot](https://docs.godotengine.org/en/stable/tutorials/3d/lights_and_shadows.html) y el resumen conceptual de trazado en [Real-Time Rendering](https://www.realtimerendering.com/).
+Trabajaremos en Godot 4.x con el renderer **Forward+**. No hay soporte de ray tracing por hardware nativo en el flujo estándar de shaders de Godot 4, así que el objetivo práctico es **medir el coste de la iluminación rasterizada** (sombras, número de luces) y razonar sobre él; el ray tracing lo abordaremos de forma conceptual y con pseudocódigo GLSL. Ten abierto el panel **Depurar → Monitores** para leer los tiempos. Referencias vivas: la [documentación de iluminación de Godot](https://docs.godotengine.org/en/4.3/tutorials/3d/lights_and_shadows.html) y el resumen conceptual de trazado en [Real-Time Rendering](https://www.realtimerendering.com/).
 
 ## 🧪 Laboratorio guiado
 
@@ -133,10 +133,10 @@ La misma matemática aparece en detección de colisiones y raycasts de gameplay,
 
 ## 🔗 Referencias
 
-- [Luces y sombras en Godot 4](https://docs.godotengine.org/en/stable/tutorials/3d/lights_and_shadows.html)
-- [SDFGI: iluminación global en Godot](https://docs.godotengine.org/en/stable/tutorials/3d/global_illumination/using_sdfgi.html)
-- [Real-Time Rendering — recursos](https://www.realtimerendering.com/)
-- [The Book of Shaders — formas y distancias](https://thebookofshaders.com/07/)
+- [Luces y sombras en Godot 4](https://docs.godotengine.org/en/4.3/tutorials/3d/lights_and_shadows.html) · uso: se instala o se consulta en la preparación
+- [SDFGI: iluminación global en Godot](https://docs.godotengine.org/en/4.3/tutorials/3d/global_illumination/using_sdfgi.html) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- [Real-Time Rendering — recursos](https://www.realtimerendering.com/) · uso: se instala o se consulta en la preparación
+- [The Book of Shaders — formas y distancias](https://thebookofshaders.com/07/) · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

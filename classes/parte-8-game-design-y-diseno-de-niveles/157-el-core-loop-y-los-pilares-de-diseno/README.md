@@ -133,10 +133,10 @@ Entrega el diagrama de core loop en tres escalas anidadas de un juego (propio o 
 
 ## 🔗 Referencias
 
-- Jesse Schell — The Art of Game Design (lentes de la experiencia): <https://www.schellgames.com/art-of-game-design>
-- Tracy Fullerton — Game Design Workshop: <https://www.gamedesignworkshop.com>
-- GDC Vault — charlas sobre design pillars y core loops: <https://www.gdcvault.com>
-- Excalidraw — herramienta de diagramas: <https://excalidraw.com>
+- Jesse Schell — The Art of Game Design (lentes de la experiencia): <https://www.schellgames.com/art-of-game-design> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- Tracy Fullerton — Game Design Workshop: <https://www.gamedesignworkshop.com> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
+- GDC Vault — charlas sobre design pillars y core loops: <https://www.gdcvault.com> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: se instala o se consulta en la preparación
+- Excalidraw — herramienta de diagramas: <https://excalidraw.com> · uso: se instala o se consulta en la preparación
 
 ## ⬅️ Clase anterior
 

@@ -142,10 +142,10 @@ Y si te interesa el diálogo generado dinámicamente, la [clase 333](../../parte
 
 ## 🔗 Referencias
 
-- Godot Dialogue Manager: <https://github.com/nathanhoad/godot_dialogue_manager>
-- Dialogic (Godot): <https://docs.dialogic.pro/>
-- Level Design Book — Storytelling: <https://book.leveldesignbook.com/process/layout/storytelling>
-- GDC — Environmental Storytelling (charlas): <https://www.gdcvault.com/>
+- Godot Dialogue Manager: <https://github.com/nathanhoad/godot_dialogue_manager> · uso: se instala o se consulta en la preparación
+- Dialogic (Godot): <https://docs.dialogic.pro/> · uso: se instala o se consulta en la preparación
+- Level Design Book — Storytelling: <https://book.leveldesignbook.com/process/layout> · uso: respalda el Tema 2 «Environmental storytelling»
+- GDC — Environmental Storytelling (charlas): <https://www.gdcvault.com/> — catálogo por tema, no una charla identificada (ponente y año pendientes) · uso: respalda el Tema 2 «Environmental storytelling»
 
 ## ⬅️ Clase anterior
 

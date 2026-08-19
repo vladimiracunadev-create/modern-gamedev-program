@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usa **Godot 4.x**, proyecto 2D. Ten un `Sprite2D` con una textura con transparencia (un personaje o icono recortado). Crea un `NoiseTexture2D` (con un `FastNoiseLite` dentro) para la disolución. Añade al `Sprite2D` un `ShaderMaterial`. Consulta [Canvas item shaders](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/canvas_item_shader.html) y el tutorial [Your first 2D shader](https://docs.godotengine.org/en/stable/tutorials/shaders/your_first_shader/your_first_2d_shader.html). Lo observable: el sprite se desintegra con un borde brillante y muestra un contorno de color.
+Usa **Godot 4.x**, proyecto 2D. Ten un `Sprite2D` con una textura con transparencia (un personaje o icono recortado). Crea un `NoiseTexture2D` (con un `FastNoiseLite` dentro) para la disolución. Añade al `Sprite2D` un `ShaderMaterial`. Consulta [Canvas item shaders](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/canvas_item_shader.html) y el tutorial [Your first 2D shader](https://docs.godotengine.org/en/4.3/tutorials/shaders/your_first_shader/your_first_2d_shader.html). Lo observable: el sprite se desintegra con un borde brillante y muestra un contorno de color.
 
 ## 🧪 Laboratorio guiado
 
@@ -169,9 +169,9 @@ Programa un enemigo 2D que, al morir, se disuelva en 0.6 s con borde emisivo y q
 
 ## 🔗 Referencias
 
-1. Godot Engine — Canvas item shaders: <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/canvas_item_shader.html>
-2. Godot Engine — Your first 2D shader: <https://docs.godotengine.org/en/stable/tutorials/shaders/your_first_shader/your_first_2d_shader.html>
-3. Godot Engine — Clase NoiseTexture2D: <https://docs.godotengine.org/en/stable/classes/class_noisetexture2d.html>
+1. Godot Engine — Canvas item shaders: <https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/canvas_item_shader.html> · uso: se instala o se consulta en la preparación
+2. Godot Engine — Your first 2D shader: <https://docs.godotengine.org/en/4.3/tutorials/shaders/your_first_shader/your_first_2d_shader.html> · uso: se instala o se consulta en la preparación
+3. Godot Engine — Clase NoiseTexture2D: <https://docs.godotengine.org/en/4.3/classes/class_noisetexture2d.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

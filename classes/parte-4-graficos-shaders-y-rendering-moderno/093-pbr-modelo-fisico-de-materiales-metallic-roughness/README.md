@@ -44,7 +44,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usa **Godot 4.x**, proyecto 3D. Prepara una escena con un `Node3D`, dos `MeshInstance3D` con esferas (una para metal, otra para dieléctrico), un `DirectionalLight3D` y una `WorldEnvironment` con un cielo procedural: el reflejo del entorno es lo que hace lucir al metal. Puedes usar texturas PBR propias o colores planos. Consulta el [Standard Material 3D](https://docs.godotengine.org/en/stable/tutorials/3d/standard_material_3d.html) y la sección de PBR de los [Spatial shaders](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/spatial_shader.html). Lo observable: dos esferas idénticas de forma pero con comportamiento de luz radicalmente distinto.
+Usa **Godot 4.x**, proyecto 3D. Prepara una escena con un `Node3D`, dos `MeshInstance3D` con esferas (una para metal, otra para dieléctrico), un `DirectionalLight3D` y una `WorldEnvironment` con un cielo procedural: el reflejo del entorno es lo que hace lucir al metal. Puedes usar texturas PBR propias o colores planos. Consulta el [Standard Material 3D](https://docs.godotengine.org/en/4.3/tutorials/3d/standard_material_3d.html) y la sección de PBR de los [Spatial shaders](https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/spatial_shader.html). Lo observable: dos esferas idénticas de forma pero con comportamiento de luz radicalmente distinto.
 
 ## 🧪 Laboratorio guiado
 
@@ -142,9 +142,9 @@ Construye una fila de cinco esferas con el mismo shader, variando `roughness_par
 
 ## 🔗 Referencias
 
-1. Godot Engine — Standard Material 3D: <https://docs.godotengine.org/en/stable/tutorials/3d/standard_material_3d.html>
-2. Godot Engine — Spatial shaders (canales PBR): <https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/spatial_shader.html>
-3. Godot Engine — Importing images (normal maps): <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html>
+1. Godot Engine — Standard Material 3D: <https://docs.godotengine.org/en/4.3/tutorials/3d/standard_material_3d.html> · uso: se instala o se consulta en la preparación
+2. Godot Engine — Spatial shaders (canales PBR): <https://docs.godotengine.org/en/4.3/tutorials/shaders/shader_reference/spatial_shader.html> · uso: se instala o se consulta en la preparación
+3. Godot Engine — Importing images (normal maps): <https://docs.godotengine.org/en/4.3/tutorials/assets_pipeline/importing_images.html> · uso: respalda el Tema 6 «Normal y AO»
 
 ## ⬅️ Clase anterior
 

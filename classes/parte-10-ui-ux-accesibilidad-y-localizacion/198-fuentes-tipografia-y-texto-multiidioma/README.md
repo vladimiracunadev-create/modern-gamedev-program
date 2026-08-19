@@ -58,7 +58,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usaremos **Godot 4.x** y necesitarás algunos archivos de fuente libres. Buenas opciones con licencia abierta: **Noto Sans** (latino/cirílico) y **Noto Sans CJK** para chino/japonés/coreano, ambas bajo SIL Open Font License, descargables desde <https://fonts.google.com/noto>. Coloca los `.ttf/.otf` en `res://fonts/`. Godot los importa como `FontFile`. Ten a mano la guía oficial de [Using fonts](https://docs.godotengine.org/en/stable/tutorials/ui/gui_using_fonts.html) y la de [Text rendering / control de dirección](https://docs.godotengine.org/en/stable/classes/class_textserver.html). Para criterios de legibilidad accesible, apóyate en <https://gameaccessibilityguidelines.com/>.
+Usaremos **Godot 4.x** y necesitarás algunos archivos de fuente libres. Buenas opciones con licencia abierta: **Noto Sans** (latino/cirílico) y **Noto Sans CJK** para chino/japonés/coreano, ambas bajo SIL Open Font License, descargables desde <https://fonts.google.com/noto>. Coloca los `.ttf/.otf` en `res://fonts/`. Godot los importa como `FontFile`. Ten a mano la guía oficial de [Using fonts](https://docs.godotengine.org/en/4.3/tutorials/ui/gui_using_fonts.html) y la de [Text rendering / control de dirección](https://docs.godotengine.org/en/4.3/classes/class_textserver.html). Para criterios de legibilidad accesible, apóyate en <https://gameaccessibilityguidelines.com/>.
 
 **Aviso de peso:** las fuentes CJK completas pesan varios MB; para prototipos puedes usar una subversión regional (p. ej. solo japonés) y así reducir tamaño.
 
@@ -147,13 +147,13 @@ Configura una fuente única con fallback que renderice sin cuadraditos al menos 
 
 ## 🔗 Referencias
 
-- Godot — Using fonts: <https://docs.godotengine.org/en/stable/tutorials/ui/gui_using_fonts.html>
+- Godot — Using fonts: <https://docs.godotengine.org/en/4.3/tutorials/ui/gui_using_fonts.html> · uso: se instala o se consulta en la preparación
 
-- Godot — TextServer y dirección de texto: <https://docs.godotengine.org/en/stable/classes/class_textserver.html>
+- Godot — TextServer y dirección de texto: <https://docs.godotengine.org/en/4.3/classes/class_textserver.html> · uso: se instala o se consulta en la preparación
 
-- Google Noto Fonts (cobertura multi-idioma, OFL): <https://fonts.google.com/noto>
+- Google Noto Fonts (cobertura multi-idioma, OFL): <https://fonts.google.com/noto> · uso: se instala o se consulta en la preparación
 
-- SIL Open Font License: <https://openfontlicense.org/>
+- SIL Open Font License: <https://openfontlicense.org/> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 

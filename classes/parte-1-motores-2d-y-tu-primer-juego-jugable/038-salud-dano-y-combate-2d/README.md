@@ -47,7 +47,7 @@ Al finalizar, el alumno podrá:
 
 ## 🧰 Herramientas y preparación
 
-Usa `PlataformasCurso` con el `Jugador` (clase 036) y el `Enemigo` (clase 037). Define en **Layer Names > 2D Physics** capas de combate, por ejemplo: capa 4 `HurtboxJugador`, capa 5 `HitboxEnemigo`, capa 6 `HitboxJugador`, capa 7 `HurtboxEnemigo`. Repasa `Area2D` y sus señales `area_entered` (<https://docs.godotengine.org/en/stable/classes/class_area2d.html>) y el uso de `create_tween` (<https://docs.godotengine.org/en/stable/classes/class_tween.html>).
+Usa `PlataformasCurso` con el `Jugador` (clase 036) y el `Enemigo` (clase 037). Define en **Layer Names > 2D Physics** capas de combate, por ejemplo: capa 4 `HurtboxJugador`, capa 5 `HitboxEnemigo`, capa 6 `HitboxJugador`, capa 7 `HurtboxEnemigo`. Repasa `Area2D` y sus señales `area_entered` (<https://docs.godotengine.org/en/4.3/classes/class_area2d.html>) y el uso de `create_tween` (<https://docs.godotengine.org/en/4.3/classes/class_tween.html>).
 
 Ten claro el principio: una **hitbox** solo tiene su **máscara** activada en la capa de la **hurtbox** que quiere golpear; la hurtbox vive en su propia capa y no necesita máscara.
 
@@ -205,10 +205,10 @@ Crea una escena `Proyectil` (Area2D con hitbox) que el jugador dispare en la dir
 
 ## 🔗 Referencias
 
-- Godot — Area2D: <https://docs.godotengine.org/en/stable/classes/class_area2d.html>
-- Godot — Tween: <https://docs.godotengine.org/en/stable/classes/class_tween.html>
-- Godot — Señales: <https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html#signals>
-- Godot — Physics layers and masks: <https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html>
+- Godot — Area2D: <https://docs.godotengine.org/en/4.3/classes/class_area2d.html> · uso: se instala o se consulta en la preparación
+- Godot — Tween: <https://docs.godotengine.org/en/4.3/classes/class_tween.html> · uso: se instala o se consulta en la preparación
+- Godot — Señales: <https://docs.godotengine.org/en/4.3/tutorials/scripting/gdscript/gdscript_basics.html#signals> · uso: respalda el Tema 2 «Señales damaged/died»
+- Godot — Physics layers and masks: <https://docs.godotengine.org/en/4.3/tutorials/physics/physics_introduction.html> · uso: lectura de respaldo del objetivo; no se usa en el procedimiento
 
 ## ⬅️ Clase anterior
 
