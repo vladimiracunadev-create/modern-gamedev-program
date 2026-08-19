@@ -40,6 +40,46 @@ Un currículo modular y **secuencial** que cubre **todo el espectro del desarrol
 - ❓ **Preguntas frecuentes** auténticas.
 - 🔗 **Referencias** a los libros y fuentes del área.
 
+## 📚 Fuentes y trazabilidad
+
+Cada clase cierra con sus fuentes, y cada fuente citada existe en un registro único con localizador resoluble. Lo que no se pudo resolver está declarado como hueco, no rellenado a ojo.
+
+<!-- fuentes:inicio -->
+![Fuentes](https://img.shields.io/badge/fuentes-207%20obras%20%C2%B7%20204%20verificadas%20%C2%B7%203%20pendientes-yellow)
+
+**Registro de fuentes:** [`sources/bibliography.json`](sources/bibliography.json) ·
+verificado el **2026-08-19** · comprobado por
+[`scripts/verify-sources`](scripts/verify-sources).
+
+| | |
+|---|---:|
+| Obras registradas | **207** |
+| Con localizador resuelto (`verificada`) | **204** (98.6 %) |
+| Con hueco declarado (`pendiente`) | **3** |
+| Fuentes primarias / secundarias | **140** / **67** |
+| Libros (ISBN-13) / artículos (DOI) / normas / documentación | **31** / **5** / **18** / **153** |
+| Citas de clase cubiertas | **1490** en **352** clases |
+
+**Política de versión del motor.** La documentación del motor y de la suite de
+arte va anclada a versión, nunca a un alias móvil: **Godot 4.3** —la que
+compila y ejecuta la CI de laboratorios— y **Blender 4.2 LTS**. Los alias
+`/en/stable` y `/latest` se mueven solos y dejan al programa citando una versión
+que nunca enseñó; `verify-sources` falla si reaparecen.
+
+**Obras rectoras** (las primarias más usadas; la lista completa está en el registro):
+
+| Obra | Autoría | Tipo | Clases | Localizador |
+|---|---|---|---:|---|
+| Godot Engine 4.3 documentation | Godot Engine (colaboradores del proyecto) | `reference` | 275 | [localizador](https://docs.godotengine.org/en/4.3/) |
+| Game Engine Architecture | Gregory, Jason | `book` | 21 | [localizador](https://openlibrary.org/isbn/9781138035454) |
+| Steamworks Documentation | Valve Corporation | `reference` | 19 | [localizador](https://partner.steamgames.com/) |
+| Game Programming Patterns | Nystrom, Robert | `book` | 18 | [localizador](https://openlibrary.org/isbn/9780990582908) |
+| OWASP — Top Ten y proyectos asociados | OWASP Foundation | `reference` | 16 | [localizador](https://owasp.org/) |
+| Real-Time Rendering | Akenine-Möller, Tomas · Haines, Eric | `book` | 15 | [localizador](https://openlibrary.org/isbn/9781138627000) |
+| MDN Web Docs | Mozilla y colaboradores de MDN | `reference` | 15 | [localizador](https://developer.mozilla.org/) |
+| The Art of Game Design: A Book of Lenses | Schell, Jesse | `book` | 13 | [localizador](https://openlibrary.org/isbn/9781138632059) |
+<!-- fuentes:fin -->
+
 ## 🧪 Laboratorios ejecutables
 
 No solo se lee: se juega. El programa incluye **proyectos Godot reales** que se abren y se ejecutan, en versión `inicio/` (con `TODO` para que los completes) y `solucion/` (referencia jugable).

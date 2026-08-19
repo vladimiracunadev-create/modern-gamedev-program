@@ -23,7 +23,7 @@ Toda clase debe incluir estas secciones, en este orden:
 9. `## 📝 Reto verificable` (con **Criterio de aceptación**)
 10. `## ⚠️ Errores comunes` (tabla síntoma → causa)
 11. `## ❓ Preguntas frecuentes`
-12. `## 🔗 Referencias`
+12. `## 🔗 Referencias` — cada fuente termina en `· uso: <etiqueta>`, declarando qué hace esa clase con ella.
 13. `## ⬅️ Clase anterior` (enlace a la anterior; la 001 enlaza al índice)
 14. `## ➡️ Siguiente clase` (enlace a la siguiente)
 
@@ -36,6 +36,8 @@ Toda clase debe incluir estas secciones, en este orden:
 - **Español neutro y técnico.** Explica el *porqué*, no solo el *cómo*.
 - **Código real y correcto.** En la Parte 1 usa la API de **Godot 4** (`CharacterBody2D`, `velocity`, `move_and_slide()` sin argumentos, `is_on_floor()`). Nunca API de Godot 3 (`KinematicBody2D`, `move_and_slide(velocity)`).
 - **Contenido original.** No copies texto de libros ni de la documentación; cítalos como referencia.
+- **Toda fuente citada va en el registro.** Nada entra en un bloque `## 🔗 Referencias` sin su entrada en [`sources/bibliography.json`](sources/bibliography.json), con localizador resoluble: ISBN-13 para libros, DOI para artículos, URL https de la fuente primaria para normas y documentación. Lo que no resuelvas se marca `"status": "pendiente"` con su motivo — **nunca se inventa un ISBN, un DOI o una fecha, y nunca se borra una fuente que no resuelve**. Cómo hacerlo: [`sources/README.md`](sources/README.md).
+- **La documentación del motor va anclada a versión.** Godot **4.3** y Blender **4.2 LTS**, nunca `/en/stable` ni `/latest`: esos alias se mueven solos y dejan al programa citando una versión que nunca enseñó. `verify-sources` falla si reaparecen.
 - **Sin binarios pesados en Git.** Usa Git LFS para arte, audio y modelos (ver [`.gitattributes`](.gitattributes) y la Clase 015).
 
 ## 🔧 Comprobaciones locales antes de subir
@@ -49,7 +51,7 @@ python scripts/verificar_todo.py --godot /ruta/godot # + los 6 labs: ~4 min
 ```
 
 Comprueba estructura y enlaces, índice y manifest sincronizados, assets deterministas,
-markdownlint, el build del sitio, los workflows, y —si le pasas Godot 4.3— los laboratorios
+markdownlint, el build del sitio, los workflows, el registro de fuentes, y —si le pasas Godot 4.3— los laboratorios
 enteros: cada uno en sus dos versiones más las pruebas de comportamiento (que la red replica,
 que la IA decide, que la UI no se recorta).
 
@@ -63,6 +65,7 @@ python scripts/validar_estructura.py       # estructura, secciones y enlaces int
 npx --yes markdownlint-cli2 "**/*.md"      # lint de Markdown (requiere Node)
 python scripts/verificar_assets.py         # los assets coinciden con el generador
 python scripts/generar_sitio.py            # el sitio compila
+python scripts/verify-sources              # el registro de fuentes cuadra
 ```
 
 Todas deben pasar en verde. La CI las ejecuta en cada push.
