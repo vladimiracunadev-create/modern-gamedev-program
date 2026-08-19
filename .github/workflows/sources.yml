@@ -1,0 +1,51 @@
+name: Fuentes (refresco en red)
+
+# Capa en red del registro de fuentes. Deliberadamente separada de la CI que
+# bloquea: comprueba que cada ISBN, DOI y URL del registro sigue resolviendo,
+# y publica un informe. Nunca falla el workflow por un servidor caído — un
+# tercero que se cae no es un defecto de este repositorio.
+
+on:
+  workflow_dispatch:
+  schedule:
+    # El día 1 de cada mes, a las 06:00 UTC.
+    - cron: "0 6 1 * *"
+
+permissions:
+  contents: read
+
+jobs:
+  refrescar:
+    name: Resolver localizadores
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refrescar el registro (openlibrary, crossref, doi.org, HTTP)
+        continue-on-error: true
+        run: python scripts/refresh-sources
+
+      - name: Publicar el informe en el resumen
+        if: always()
+        run: |
+          if [ -f sources/refresh-report.md ]; then
+            cat sources/refresh-report.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "El refresco no llegó a generar informe." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Guardar el registro refrescado como artefacto
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: registro-de-fuentes-refrescado
+          path: |
+            sources/bibliography.json
+            sources/refresh-report.md
+          if-no-files-found: warn

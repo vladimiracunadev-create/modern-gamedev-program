@@ -1,0 +1,403 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Verificador OFFLINE del registro de fuentes. Corre en CI y bloquea.
+
+No hace ni una petición de red: es determinista y no se cae porque un servidor
+esté lento. La capa que sí sale a la red es `scripts/refresh-sources`, que se
+lanza a mano o por calendario y NO bloquea.
+
+Comprueba:
+  1.  sources/bibliography.json parsea y cumple el esquema declarado.
+  2.  Todo `book` lleva ISBN-13 con dígito de control válido; todo `paper`, DOI.
+  3.  El `locator` coincide con la forma canónica de su tipo.
+  4.  Toda fuente citada en una clase existe en el registro.
+  5.  Ninguna entrada del registro queda sin usar, y su `used_in` coincide
+      exactamente con el recuento real sobre las clases.
+  6.  Ningún bloque de fuentes se repite entre clases.
+  7.  Las versiones de motor y suite citadas son las ancladas en el registro.
+  8.  Cada cita declara el uso que la clase hace de ella, con una etiqueta del
+      vocabulario declarado.
+  9.  Las cifras que muestra el README coinciden con el recuento del registro.
+
+Uso:
+    python scripts/verify-sources             # verifica; sale 1 si algo falla
+    python scripts/verify-sources --write     # regenera el bloque del README
+"""
+from __future__ import annotations
+
+import json
+import re
+import sys
+import unicodedata
+from collections import Counter, defaultdict
+from pathlib import Path
+
+if hasattr(sys.stdout, 'reconfigure'):      # consolas Windows en cp1252
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+
+RAIZ = Path(__file__).resolve().parent.parent
+REGISTRO = RAIZ / 'sources' / 'bibliography.json'
+README = RAIZ / 'README.md'
+INICIO = '<!-- fuentes:inicio -->'
+FIN = '<!-- fuentes:fin -->'
+
+URL = re.compile(r'https?://[^\s)>\]]+')
+CITA = re.compile(r'^\s*(?:-|\d+\.)\s+(.*\S)\s*$')
+USO = ' · uso: '
+ID_OK = re.compile(r'^[a-z0-9]+(-[a-z0-9]+)*$')
+TIPOS = {'book', 'paper', 'standard', 'reference', 'dataset'}
+ESTADOS = {'verificada', 'pendiente'}
+TIERS = {'primaria', 'secundaria'}
+FECHA = re.compile(r'^\d{4}-\d{2}-\d{2}$')
+OBLIGATORIOS = ('id', 'type', 'authors', 'title', 'published', 'locator',
+                'authority', 'tier', 'accessed', 'match', 'used_in', 'status')
+
+# Etiquetas de uso admitidas. Las de tema son paramétricas.
+USOS_FIJOS = {
+    'se instala o se consulta en la preparación',
+    'se sigue paso a paso en el laboratorio',
+    'sostiene el criterio de aceptación del reto',
+    'define los términos de la clase',
+    'explica el diagnóstico de los errores comunes',
+    'responde a las preguntas frecuentes',
+    'lectura de respaldo del objetivo; no se usa en el procedimiento',
+}
+USO_TEMA = re.compile(r'^respalda el Tema \d+ «.+»$')
+
+
+class Errores:
+    def __init__(self) -> None:
+        self.items: list[str] = []
+
+    def __call__(self, msg: str) -> None:
+        self.items.append(msg)
+
+    def __bool__(self) -> bool:
+        return bool(self.items)
+
+
+def isbn13_valido(s: str) -> bool:
+    if not re.fullmatch(r'\d{13}', s or ''):
+        return False
+    suma = sum(int(d) * (1 if i % 2 == 0 else 3) for i, d in enumerate(s[:12]))
+    return (10 - suma % 10) % 10 == int(s[12])
+
+
+def clave_url(u: str) -> str:
+    u = u.rstrip('.,;⚠️ ')
+    s = re.sub(r'^https?://', '', u)
+    return s[4:].lower() if s.lower().startswith('www.') else s.lower()
+
+
+def clases() -> list[Path]:
+    return sorted((RAIZ / 'classes').glob('*/*/README.md'))
+
+
+def bloque_referencias(texto: str) -> str | None:
+    m = re.search(r'^## \U0001f517 Referencias\s*$(.*?)(?=^## |\Z)',
+                  texto, re.M | re.S)
+    return m.group(1) if m else None
+
+
+def normaliza(s: str) -> str:
+    s = unicodedata.normalize('NFKC', s.lower())
+    return re.sub(r'\s+', ' ', s).strip()
+
+
+# ─────────────────────────── carga y esquema ────────────────────────────────
+
+def cargar(err: Errores) -> dict | None:
+    if not REGISTRO.exists():
+        err(f'no existe el registro: {REGISTRO.relative_to(RAIZ)}')
+        return None
+    try:
+        doc = json.loads(REGISTRO.read_text(encoding='utf-8'))
+    except json.JSONDecodeError as e:
+        err(f'el registro no es JSON válido: {e}')
+        return None
+    if doc.get('schema_version') != 1:
+        err(f'schema_version debe ser 1, es {doc.get("schema_version")!r}')
+    for campo in ('verified_on', 'policy', 'entries', 'pinned_versions',
+                  'usage_vocabulary'):
+        if campo not in doc:
+            err(f'falta el campo de cabecera «{campo}»')
+    if not FECHA.match(str(doc.get('verified_on', ''))):
+        err('verified_on no tiene forma AAAA-MM-DD')
+    return doc
+
+
+def revisar_entradas(doc: dict, err: Errores) -> None:
+    vistos: set[str] = set()
+    for e in doc.get('entries', []):
+        eid = e.get('id', '<sin id>')
+        for campo in OBLIGATORIOS:
+            if campo not in e:
+                err(f'[{eid}] falta el campo obligatorio «{campo}»')
+        if not ID_OK.match(str(eid)):
+            err(f'[{eid}] el id no es kebab-case')
+        if eid in vistos:
+            err(f'[{eid}] id duplicado')
+        vistos.add(eid)
+        tipo = e.get('type')
+        if tipo not in TIPOS:
+            err(f'[{eid}] type «{tipo}» fuera de {sorted(TIPOS)}')
+        if e.get('status') not in ESTADOS:
+            err(f'[{eid}] status «{e.get("status")}» fuera de {sorted(ESTADOS)}')
+        if e.get('tier') not in TIERS:
+            err(f'[{eid}] tier «{e.get("tier")}» fuera de {sorted(TIERS)}')
+        if not isinstance(e.get('authors'), list) or not e.get('authors'):
+            err(f'[{eid}] authors debe ser una lista no vacía')
+        if not str(e.get('title', '')).strip():
+            err(f'[{eid}] title vacío')
+        if not FECHA.match(str(e.get('accessed', ''))):
+            err(f'[{eid}] accessed no tiene forma AAAA-MM-DD')
+        if e.get('status') == 'pendiente' and not e.get('pending_reason'):
+            err(f'[{eid}] está «pendiente» y no declara pending_reason')
+        if e.get('status') == 'verificada' and e.get('pending_reason'):
+            err(f'[{eid}] está «verificada» pero arrastra un pending_reason')
+
+        loc = str(e.get('locator', ''))
+        if tipo == 'book':
+            isbn = str(e.get('isbn13', ''))
+            if not isbn13_valido(isbn):
+                err(f'[{eid}] ISBN-13 inválido o ausente: {isbn!r}')
+            elif loc != f'https://openlibrary.org/isbn/{isbn}':
+                err(f'[{eid}] el locator de un libro debe ser '
+                    f'https://openlibrary.org/isbn/{isbn}; es {loc!r}')
+        elif tipo == 'paper':
+            doi = str(e.get('doi', ''))
+            if not doi.startswith('10.'):
+                err(f'[{eid}] DOI inválido o ausente: {doi!r}')
+            elif loc != f'https://doi.org/{doi}':
+                err(f'[{eid}] el locator de un artículo debe ser '
+                    f'https://doi.org/{doi}; es {loc!r}')
+        else:
+            if not loc.startswith('https://'):
+                err(f'[{eid}] el locator de una fuente {tipo} debe ser una URL '
+                    f'https; es {loc!r}')
+            if 'isbn13' in e or 'doi' in e:
+                err(f'[{eid}] type {tipo} no puede llevar isbn13 ni doi')
+        m = e.get('match')
+        if not isinstance(m, dict) or 'urls' not in m or 'works' not in m:
+            err(f'[{eid}] match debe ser un objeto con «urls» y «works»')
+        elif not m['urls'] and not m['works']:
+            err(f'[{eid}] match no declara ni urls ni works: nada puede '
+                f'asociarse a esta entrada')
+
+
+# ─────────────────────────── cotejo con las clases ──────────────────────────
+
+def indexar(doc: dict):
+    por_url: list[tuple[str, str]] = []
+    por_obra: list[tuple[str, str]] = []
+    for e in doc.get('entries', []):
+        m = e.get('match') or {}
+        for u in m.get('urls', []):
+            por_url.append((clave_url(u), e['id']))
+        for k in m.get('works', []):
+            por_obra.append((k, e['id']))
+    por_url.sort(key=lambda x: -len(x[0]))
+    return por_url, por_obra
+
+
+def resolver(cita: str, por_url, por_obra) -> set[str]:
+    ids: set[str] = set()
+    for u in URL.findall(cita):
+        if u.startswith('http://localhost') or u.startswith('http://127.0.0.1'):
+            continue
+        k = clave_url(u)
+        for pref, eid in por_url:
+            if k.startswith(pref) or k == pref.rstrip('/'):
+                ids.add(eid)
+    for sub, eid in por_obra:
+        if sub in cita:
+            ids.add(eid)
+    return ids
+
+
+def cotejar(doc: dict, err: Errores) -> dict:
+    por_url, por_obra = indexar(doc)
+    obras = {e['id']: e for e in doc.get('entries', [])}
+    usos: dict[str, set[str]] = defaultdict(set)
+    bloques: dict[str, str] = {}
+    n_citas = 0
+    pin = doc.get('pinned_versions', {})
+    for f in clases():
+        rel = f.relative_to(RAIZ).as_posix()
+        t = f.read_text(encoding='utf-8')
+        bloque = bloque_referencias(t)
+        if bloque is None:
+            err(f'{rel}: no tiene sección «## 🔗 Referencias»')
+            continue
+        citas = [m.group(1) for m in (CITA.match(l) for l in bloque.splitlines()) if m]
+        if not citas:
+            err(f'{rel}: la sección de referencias está vacía')
+        bloques[rel] = normaliza('\n'.join(citas))
+        for cita in citas:
+            n_citas += 1
+            if USO not in cita:
+                err(f'{rel}: la cita no declara su uso ({USO.strip()}): '
+                    f'{cita[:70]}…')
+            else:
+                etiqueta = cita.split(USO, 1)[1].strip()
+                if etiqueta not in USOS_FIJOS and not USO_TEMA.match(etiqueta):
+                    err(f'{rel}: etiqueta de uso fuera del vocabulario: '
+                        f'«{etiqueta}»')
+            ids = resolver(cita, por_url, por_obra)
+            if not ids:
+                err(f'{rel}: fuente citada que no está en el registro: '
+                    f'{cita[:80]}…')
+            for i in ids:
+                usos[i].add(rel)
+        # versiones ancladas
+        for u in URL.findall(t):
+            if 'docs.godotengine.org/en/' in u:
+                v = u.split('docs.godotengine.org/en/')[1].split('/')[0]
+                if v != pin.get('godot'):
+                    err(f'{rel}: enlaza Godot Docs en «{v}»; el registro fija '
+                        f'«{pin.get("godot")}»')
+            if 'docs.blender.org/manual/en/' in u:
+                v = u.split('docs.blender.org/manual/en/')[1].split('/')[0]
+                if v != pin.get('blender'):
+                    err(f'{rel}: enlaza el manual de Blender en «{v}»; el '
+                        f'registro fija «{pin.get("blender")}»')
+
+    # bloques repetidos
+    rep = Counter(bloques.values())
+    for texto, n in rep.items():
+        if n > 1:
+            iguales = [r for r, b in bloques.items() if b == texto]
+            err('bloque de fuentes repetido en ' + str(n) + ' clases: ' +
+                ', '.join(iguales[:4]))
+
+    # entradas sin uso y used_in desincronizado
+    for eid, e in obras.items():
+        real = sorted(usos.get(eid, ()))
+        if not real:
+            err(f'[{eid}] entrada del registro que ninguna clase usa')
+        if list(e.get('used_in', [])) != real:
+            err(f'[{eid}] used_in no coincide con el recuento real '
+                f'({len(e.get("used_in", []))} declarado vs {len(real)} real)')
+    return {'citas': n_citas, 'clases': len(bloques), 'usos': usos}
+
+
+# ─────────────────────────── cifras del README ──────────────────────────────
+
+def cifras(doc: dict, datos: dict) -> dict:
+    e = doc['entries']
+    return {
+        'entradas': len(e),
+        'primarias': sum(1 for x in e if x['tier'] == 'primaria'),
+        'secundarias': sum(1 for x in e if x['tier'] == 'secundaria'),
+        'libros': sum(1 for x in e if x['type'] == 'book'),
+        'articulos': sum(1 for x in e if x['type'] == 'paper'),
+        'normas': sum(1 for x in e if x['type'] == 'standard'),
+        'referencias': sum(1 for x in e if x['type'] == 'reference'),
+        'verificadas': sum(1 for x in e if x['status'] == 'verificada'),
+        'pendientes': sum(1 for x in e if x['status'] == 'pendiente'),
+        'citas': datos['citas'],
+        'clases': datos['clases'],
+        'verified_on': doc['verified_on'],
+        'godot': doc['pinned_versions']['godot'],
+        'blender': doc['pinned_versions']['blender'],
+    }
+
+
+def rectoras(doc: dict, n: int = 8) -> list[dict]:
+    e = [x for x in doc['entries'] if x['tier'] == 'primaria']
+    e.sort(key=lambda x: (-len(x['used_in']), x['id']))
+    return e[:n]
+
+
+def render(doc: dict, c: dict) -> str:
+    pct = 100.0 * c['verificadas'] / c['entradas'] if c['entradas'] else 0.0
+    color = 'brightgreen' if c['pendientes'] == 0 else 'yellow'
+    ins = (f'![Fuentes](https://img.shields.io/badge/fuentes-'
+           f'{c["entradas"]}%20obras%20%C2%B7%20{c["verificadas"]}%20verificadas'
+           f'%20%C2%B7%20{c["pendientes"]}%20pendientes-{color})')
+    filas = '\n'.join(
+        f'| {x["title"]} | {" · ".join(x["authors"][:2])} | `{x["type"]}` | '
+        f'{len(x["used_in"])} | [localizador]({x["locator"]}) |'
+        for x in rectoras(doc))
+    return f"""{INICIO}
+{ins}
+
+**Registro de fuentes:** [`sources/bibliography.json`](sources/bibliography.json) ·
+verificado el **{c['verified_on']}** · comprobado por
+[`scripts/verify-sources`](scripts/verify-sources).
+
+| | |
+|---|---:|
+| Obras registradas | **{c['entradas']}** |
+| Con localizador resuelto (`verificada`) | **{c['verificadas']}** ({pct:.1f} %) |
+| Con hueco declarado (`pendiente`) | **{c['pendientes']}** |
+| Fuentes primarias / secundarias | **{c['primarias']}** / **{c['secundarias']}** |
+| Libros (ISBN-13) / artículos (DOI) / normas / documentación | **{c['libros']}** / **{c['articulos']}** / **{c['normas']}** / **{c['referencias']}** |
+| Citas de clase cubiertas | **{c['citas']}** en **{c['clases']}** clases |
+
+**Política de versión del motor.** La documentación del motor y de la suite de
+arte va anclada a versión, nunca a un alias móvil: **Godot {c['godot']}** —la que
+compila y ejecuta la CI de laboratorios— y **Blender {c['blender']} LTS**. Los alias
+`/en/stable` y `/latest` se mueven solos y dejan al programa citando una versión
+que nunca enseñó; `verify-sources` falla si reaparecen.
+
+**Obras rectoras** (las primarias más usadas; la lista completa está en el registro):
+
+| Obra | Autoría | Tipo | Clases | Localizador |
+|---|---|---|---:|---|
+{filas}
+{FIN}"""
+
+
+def readme(doc: dict, c: dict, escribir: bool, err: Errores) -> None:
+    texto = README.read_text(encoding='utf-8')
+    nuevo = render(doc, c)
+    if INICIO not in texto or FIN not in texto:
+        if escribir:
+            err('el README no tiene los marcadores del bloque de fuentes; '
+                'añade ' + INICIO + ' … ' + FIN)
+        else:
+            err('el README no declara el registro de fuentes: faltan los '
+                'marcadores ' + INICIO + ' … ' + FIN)
+        return
+    actual = texto[texto.index(INICIO):texto.index(FIN) + len(FIN)]
+    if actual == nuevo:
+        return
+    if escribir:
+        README.write_text(texto.replace(actual, nuevo), encoding='utf-8',
+                          newline='\n')
+        print('README: bloque de fuentes regenerado.')
+    else:
+        err('las cifras del README no coinciden con el registro. '
+            'Regenéralas: python scripts/verify-sources --write')
+
+
+def main() -> int:
+    escribir = '--write' in sys.argv
+    err = Errores()
+    doc = cargar(err)
+    if doc is None:
+        print('\n'.join('✗ ' + x for x in err.items))
+        return 1
+    revisar_entradas(doc, err)
+    datos = cotejar(doc, err)
+    c = cifras(doc, datos)
+    readme(doc, c, escribir, err)
+
+    print(f'Registro: {c["entradas"]} obras '
+          f'({c["verificadas"]} verificadas, {c["pendientes"]} pendientes) · '
+          f'{c["citas"]} citas en {c["clases"]} clases · '
+          f'Godot {c["godot"]} · Blender {c["blender"]}')
+    if err:
+        print(f'\n{len(err.items)} problema(s):')
+        for x in err.items[:60]:
+            print('  ✗ ' + x)
+        if len(err.items) > 60:
+            print(f'  … y {len(err.items) - 60} más')
+        return 1
+    print('verify-sources ✔  el registro, las citas y el README concuerdan.')
+    return 0
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())

@@ -15,7 +15,8 @@ Qué corre
 4. Markdown  (markdownlint-cli2, si hay npx)
 5. Build del sitio  (generar_sitio.py)
 6. YAML de los workflows
-7. Los laboratorios con Godot headless: la matriz entera (cada lab × inicio y
+7. Registro de fuentes  (verify-sources, offline)
+8. Los laboratorios con Godot headless: la matriz entera (cada lab × inicio y
    solución), las pruebas de comportamiento (red, IA y UI) y las suites de los
    labs de las Partes 18-21 (sistemas, runtime, IA generativa e ingeniería).
 
@@ -108,14 +109,14 @@ def hay_errores(log: str) -> str:
 # 1-6: lo que no necesita Godot
 # --------------------------------------------------------------------------
 def verificar_repo(r: Resultado) -> None:
-    print("\n[1/7] Estructura, enlaces y codificación")
+    print("\n[1/8] Estructura, enlaces y codificación")
     cod, out = correr([sys.executable, "scripts/validar_estructura.py"])
     r.check(cod == 0, "estructura y enlaces íntegros", out)
 
     cod, out = correr([sys.executable, "scripts/validar_encoding.py"])
     r.check(cod == 0, "todo UTF-8 y sin mojibake", out)
 
-    print("\n[2/7] Índice y navegación sincronizados")
+    print("\n[2/8] Índice y navegación sincronizados")
     correr([sys.executable, "scripts/generar_indice.py"])
     cod, out = correr(["git", "status", "--porcelain",
                        "classes/_manifest.json", "classes/README.md"])
@@ -125,11 +126,11 @@ def verificar_repo(r: Resultado) -> None:
     cod, out = correr([sys.executable, "scripts/generar_navegacion.py", "--check"])
     r.check(cod == 0, "la navegación entre clases está al día", out)
 
-    print("\n[3/7] Assets")
+    print("\n[3/8] Assets")
     cod, out = correr([sys.executable, "scripts/verificar_assets.py"])
     r.check(cod == 0, "los assets coinciden con el generador", out)
 
-    print("\n[4/7] Markdown")
+    print("\n[4/8] Markdown")
     npx = shutil.which("npx") or shutil.which("npx.cmd")
     if npx is None:
         print("  ....  markdownlint omitido (no hay npx)")
@@ -137,11 +138,11 @@ def verificar_repo(r: Resultado) -> None:
         cod, out = correr([npx, "markdownlint-cli2", "**/*.md", "#node_modules"])
         r.check(cod == 0, "markdownlint sin errores", out)
 
-    print("\n[5/7] Sitio")
+    print("\n[5/8] Sitio")
     cod, out = correr([sys.executable, "scripts/generar_sitio.py"])
     r.check(cod == 0, "el sitio se genera", out)
 
-    print("\n[6/7] YAML de los workflows")
+    print("\n[6/8] YAML de los workflows")
     try:
         import yaml  # noqa: F401
     except ImportError:
@@ -155,6 +156,18 @@ def verificar_repo(r: Resultado) -> None:
             malos.append(f"{os.path.basename(f)}: {out.strip().splitlines()[-1] if out.strip() else 'error'}")
     r.check(not malos, f"los {len(glob.glob(os.path.join(ROOT, '.github', 'workflows', '*.yml')))} workflows parsean",
             "\n".join(malos))
+
+
+def verificar_fuentes(r: Resultado) -> None:
+    print("\n[7/8] Registro de fuentes")
+    # Offline a proposito: lo que sale a la red es scripts/refresh-sources,
+    # que no bloquea. Aqui se comprueba que cada cita de clase esta
+    # registrada, que los ISBN y DOI tienen forma valida, que los enlaces al
+    # motor apuntan a la version anclada y que las cifras del README las
+    # produjo el verificador.
+    cod, out = correr([sys.executable, "scripts/verify-sources"])
+    r.check(cod == 0,
+            "el registro de fuentes cuadra con las clases y el README", out)
 
 
 # --------------------------------------------------------------------------
@@ -176,7 +189,7 @@ def leer_matriz() -> list[tuple[str, str, str]]:
 
 
 def verificar_labs(r: Resultado, godot: str) -> None:
-    print("\n[7/7] Laboratorios (Godot headless)")
+    print("\n[8/8] Laboratorios (Godot headless)")
     for lab, proy, marcador in leer_matriz():
         etiqueta = f"{lab}/{proy}"
         if not marcador:
@@ -362,16 +375,17 @@ def main() -> int:
     r = Resultado()
 
     verificar_repo(r)
+    verificar_fuentes(r)
 
     if args.rapido:
-        print("\n[7/7] Laboratorios: OMITIDOS (--rapido)")
+        print("\n[8/8] Laboratorios: OMITIDOS (--rapido)")
     elif not args.godot:
-        print("\n[7/7] Laboratorios: OMITIDOS (falta --godot RUTA)")
+        print("\n[8/8] Laboratorios: OMITIDOS (falta --godot RUTA)")
         print("      Sin esto NO sabes si los labs siguen verdes: la mitad de la CI")
         print("      son ellos. Baja Godot 4.3 y pásaselo, o usa --rapido a sabiendas.")
         r.fallos.append("labs sin verificar (no se indicó --godot)")
     elif not os.path.isfile(args.godot) and shutil.which(args.godot) is None:
-        print(f"\n[7/7] Laboratorios: no encuentro Godot en '{args.godot}'")
+        print(f"\n[8/8] Laboratorios: no encuentro Godot en '{args.godot}'")
         r.fallos.append("labs sin verificar (Godot no encontrado)")
     else:
         verificar_labs(r, args.godot)

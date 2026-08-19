@@ -1,0 +1,369 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Capa EN RED del registro de fuentes. Manual o programada. NO bloquea.
+
+Está deliberadamente fuera de la CI que bloquea: en cuanto la red entra en un
+gate obligatorio, el gate empieza a fallar por causas ajenas al repositorio y
+se acaba ignorando. Lo que bloquea es `scripts/verify-sources`, que es offline
+y determinista.
+
+Qué hace:
+  · resuelve cada ISBN-13 contra openlibrary.org y compara título y autoría;
+  · resuelve cada DOI contra api.crossref.org (y, si el DOI no está en
+    Crossref —los de arXiv son DataCite—, comprueba que doi.org lo resuelva);
+  · hace una petición GET a cada URL de norma o documentación y anota el estado;
+  · actualiza `accessed` de lo que resolvió y `verified_on` del registro;
+  · escribe sources/refresh-report.md con lo que dejó de resolver.
+
+Lo que NO hace nunca: borrar una entrada. Lo que deja de resolver se marca
+`pendiente` con su motivo y ahí se queda, a la vista.
+
+Uso:
+    python scripts/refresh-sources                # informa y actualiza
+    python scripts/refresh-sources --dry-run      # informa sin tocar nada
+    python scripts/refresh-sources --only libros  # libros | articulos | urls
+"""
+from __future__ import annotations
+
+import concurrent.futures as cf
+import json
+import re
+import ssl
+import sys
+import threading
+import time
+import unicodedata
+import urllib.error
+import urllib.parse
+import urllib.request
+from datetime import date
+from pathlib import Path
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+
+RAIZ = Path(__file__).resolve().parent.parent
+REGISTRO = RAIZ / 'sources' / 'bibliography.json'
+INFORME = RAIZ / 'sources' / 'refresh-report.md'
+UA = {'User-Agent': 'modern-gamedev-program/refresh-sources '
+                    '(+https://github.com/vladimiracunadev-create/modern-gamedev-program)'}
+CTX = ssl.create_default_context()
+HILOS = 12
+TIMEOUT = 15
+INTENTOS = 2
+# 401 y 403 no significan «fuente rota»: significan «este servidor no atiende a
+# clientes automáticos». Se anotan aparte para no degradar una fuente sana.
+CORTAFUEGOS = {401, 403}
+# Estos sí son transitorios: se reintenta con espera creciente antes de dar
+# nada por caído. Un 429 de openlibrary.org marcando 30 libros como
+# «pendientes» sería ruido, no información.
+TRANSITORIOS = {0, 429, 500, 502, 503, 504}
+# Códigos que, viniendo de una API que limita por ritmo y por IP,
+# significan «hoy no te atiendo», no «ese identificador no existe».
+RITMO = {0, 429}
+# openlibrary.org y api.crossref.org limitan por ritmo, no por concurrencia:
+# se les habla de uno en uno, con pausa y con menos paciencia por petición.
+_TURNO = threading.Semaphore(1)
+_SERIALIZAR = ('openlibrary.org', 'api.crossref.org')
+TIMEOUT_API = 8
+# Cortacircuitos: openlibrary.org limita por IP de forma intermitente — unas
+# peticiones pasan y otras se quedan colgadas. Contar solo fallos *seguidos* no
+# lo detecta, porque cualquier acierto reinicia la cuenta; se cuentan
+# acumulados. Al llegar al límite se deja de llamar a ese host y se declara en
+# el informe qué quedó sin comprobar. Insistir no averigua nada y multiplica
+# por diez lo que tarda la pasada.
+LIMITE_RITMO = 6
+_FALLOS: dict[str, int] = {}
+_CANDADO = threading.Lock()
+
+
+def norm(s: str) -> str:
+    s = unicodedata.normalize('NFKD', (s or '').lower())
+    s = ''.join(c for c in s if not unicodedata.combining(c))
+    return re.sub(r'[^a-z0-9]+', ' ', s).strip()
+
+
+def _host(url: str) -> str:
+    return urllib.parse.urlsplit(url).netloc.lower()
+
+
+def _quemado(host: str) -> bool:
+    with _CANDADO:
+        return _FALLOS.get(host, 0) >= LIMITE_RITMO
+
+
+def _anotar(host: str, code: int) -> None:
+    with _CANDADO:
+        if code in RITMO:
+            _FALLOS[host] = _FALLOS.get(host, 0) + 1
+
+
+def _una(url: str, timeout: int):
+    req = urllib.request.Request(url, headers=UA)
+    try:
+        with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
+            return r.status, r.read(400000)
+    except urllib.error.HTTPError as e:
+        return e.code, b''
+    except Exception as e:
+        return 0, f'{type(e).__name__}: {e}'.encode('utf-8', 'replace')
+
+
+def pedir(url: str, timeout: int = TIMEOUT):
+    lento = any(h in url for h in _SERIALIZAR)
+    host = _host(url)
+    if lento:
+        timeout = min(timeout, TIMEOUT_API)
+        if _quemado(host):
+            return 0, b''            # cortacircuitos abierto: no se llama
+    code, body = 0, b''
+    for intento in range(INTENTOS):
+        if lento:
+            with _TURNO:
+                code, body = _una(url, timeout)
+                time.sleep(0.6)
+        else:
+            code, body = _una(url, timeout)
+        if code not in TRANSITORIOS:
+            break
+        if intento < INTENTOS - 1:
+            time.sleep(1.0 * (intento + 1))
+    if lento:
+        _anotar(host, code)
+    return code, body
+
+
+def json_de(url: str):
+    code, body = pedir(url)
+    if code != 200:
+        return code, None
+    try:
+        return code, json.loads(body.decode('utf-8', 'replace'))
+    except Exception:
+        return code, None
+
+
+# ─────────────────────────── resolución por tipo ────────────────────────────
+
+def resolver_libro(e: dict) -> dict:
+    isbn = e['isbn13']
+    code, d = json_de(f'https://openlibrary.org/isbn/{isbn}.json')
+    if d is None:
+        if code in RITMO:
+            # Open Library limita por ritmo y por IP. Que corte la conexión
+            # tras varios intentos no dice nada del ISBN: degradar por eso 30
+            # libros ya comprobados sería ruido, no información.
+            return {'ok': True, 'code': code, 'cortafuegos': True,
+                    'motivo': None,
+                    'nota': f'HTTP {code} tras {INTENTOS} intentos: Open '
+                            f'Library está limitando el ritmo desde esta IP. '
+                            f'El ISBN no se pudo comprobar en esta pasada; '
+                            f'reintenta más tarde o con --only libros.'}
+        return {'ok': False, 'code': code,
+                'motivo': f'Open Library no devolvió ficha para el ISBN {isbn} '
+                          f'(HTTP {code}).'}
+    titulo = d.get('title', '')
+    esperado, obtenido = norm(e['title']), norm(titulo)
+    corto = min(len(esperado), len(obtenido))
+    coincide = bool(corto) and (esperado[:corto] == obtenido[:corto]
+                                or esperado in obtenido or obtenido in esperado)
+    return {'ok': True, 'code': code, 'titulo_remoto': titulo,
+            'edicion_remota': d.get('edition_name'),
+            'editorial_remota': d.get('publishers'),
+            'fecha_remota': d.get('publish_date'),
+            'titulo_coincide': coincide,
+            'motivo': None if coincide else
+                      f'El título del registro («{e["title"]}») no coincide con '
+                      f'el de Open Library («{titulo}»).'}
+
+
+def resolver_articulo(e: dict) -> dict:
+    doi = e['doi']
+    code, d = json_de('https://api.crossref.org/works/' + urllib.parse.quote(doi))
+    if d and d.get('message'):
+        m = d['message']
+        titulo = (m.get('title') or [''])[0]
+        autores = [f"{a.get('family', '')}" for a in m.get('author', [])]
+        esperado, obtenido = norm(e['title']), norm(titulo)
+        coincide = bool(obtenido) and (esperado in obtenido or obtenido in esperado)
+        apellidos = {norm(a.split(',')[0]) for a in e['authors']}
+        autoria = not apellidos or any(norm(a) in apellidos for a in autores)
+        return {'ok': True, 'code': code, 'fuente': 'crossref',
+                'titulo_remoto': titulo, 'autores_remotos': autores,
+                'titulo_coincide': coincide and autoria,
+                'motivo': None if (coincide and autoria) else
+                          f'Crossref devuelve «{titulo}» / {autores}, que no '
+                          f'casa con el registro.'}
+    # los DOI de arXiv están en DataCite, no en Crossref: basta con que resuelvan
+    code2, _ = pedir('https://doi.org/' + urllib.parse.quote(doi))
+    if code2 == 200:
+        return {'ok': True, 'code': code2, 'fuente': 'doi.org',
+                'titulo_coincide': True,
+                'motivo': None,
+                'nota': 'DOI fuera de Crossref (DataCite); se comprobó que '
+                        'doi.org lo resuelve.'}
+    if code2 in RITMO:
+        return {'ok': True, 'code': code2, 'cortafuegos': True, 'motivo': None,
+                'nota': f'HTTP {code2} tras {INTENTOS} intentos: la API está '
+                        f'limitando el ritmo desde esta IP. El DOI no se pudo '
+                        f'comprobar en esta pasada.'}
+    return {'ok': False, 'code': code2,
+            'motivo': f'El DOI {doi} no resuelve ni en Crossref ni en doi.org '
+                      f'(HTTP {code2}).'}
+
+
+# Un host que ya no existe falla rapido y de forma definitiva; uno que existe
+# pero va lento agota el temporizador. No son lo mismo y no se informan igual.
+DEFINITIVOS = ('getaddrinfo', 'NameResolution', 'ConnectionRefused',
+               'ConnectionReset', 'CertificateError')
+
+
+def _conexion_definitiva(detalle: bytes) -> bool:
+    s = detalle.decode('utf-8', 'replace')
+    return any(k in s for k in DEFINITIVOS)
+
+
+def resolver_url(e: dict) -> dict:
+    code, detalle = pedir(e['locator'])
+    if code == 200:
+        return {'ok': True, 'code': code, 'motivo': None}
+    if code in CORTAFUEGOS:
+        return {'ok': True, 'code': code, 'cortafuegos': True,
+                'motivo': None,
+                'nota': f'HTTP {code} tras {INTENTOS} intentos: el servidor '
+                        f'rechaza clientes automáticos. No es prueba de que la '
+                        f'fuente esté rota, pero tampoco de que siga viva.'}
+    if code == 0 and not _conexion_definitiva(detalle):
+        # Agotó el tiempo o falló el TLS: no se sabe. No se degrada la entrada.
+        return {'ok': True, 'code': code, 'cortafuegos': True, 'motivo': None,
+                'nota': f'Sin respuesta en {TIMEOUT} s tras {INTENTOS} '
+                        f'intentos. No dice nada sobre la fuente: puede ser la '
+                        f'red de quien ejecuta el script. Compruébalo a mano.'}
+    if code == 0:
+        return {'ok': False, 'code': code,
+                'motivo': 'El host no resuelve o rechaza la conexión: '
+                          + detalle.decode('utf-8', 'replace')[:120]}
+    return {'ok': False, 'code': code,
+            'motivo': f'El localizador no resuelve (HTTP {code}).'}
+
+
+def resolver(e: dict) -> tuple[str, dict]:
+    if e['type'] == 'book':
+        return e['id'], resolver_libro(e)
+    if e['type'] == 'paper':
+        return e['id'], resolver_articulo(e)
+    return e['id'], resolver_url(e)
+
+
+# ─────────────────────────── informe y escritura ────────────────────────────
+
+def informe(doc: dict, res: dict, hoy: str) -> str:
+    e = {x['id']: x for x in doc['entries']}
+    rotas = [i for i, r in res.items() if not r['ok']]
+    dudosas = [i for i, r in res.items()
+               if r['ok'] and r.get('titulo_coincide') is False]
+    cortafuegos = [i for i, r in res.items() if r.get('cortafuegos')]
+    pendientes = [x['id'] for x in doc['entries'] if x['status'] == 'pendiente']
+    L = [f'# Informe de refresco de fuentes',
+         '',
+         f'Generado por `scripts/refresh-sources` el **{hoy}**. '
+         f'Este informe **no bloquea la CI**: el gate obligatorio es '
+         f'`scripts/verify-sources`, que es offline.',
+         '',
+         f'- Entradas comprobadas: **{len(res)}** de {len(doc["entries"])}',
+         f'- Resolvieron: **{len(res) - len(rotas)}**',
+         f'- Dejaron de resolver: **{len(rotas)}**',
+         f'- Resolvieron pero el servidor rechaza clientes automáticos: '
+         f'**{len(cortafuegos)}**',
+         f'- Metadatos que no casan con el registro: **{len(dudosas)}**',
+         f'- Huecos ya declarados en el registro (`pendiente`): '
+         f'**{len(pendientes)}**',
+         '']
+    if rotas:
+        L += ['## Dejaron de resolver', '',
+              'No se borran. Quedan marcadas `pendiente` con su motivo.', '',
+              '| Obra | Tipo | Localizador | Motivo |', '|---|---|---|---|']
+        for i in sorted(rotas):
+            L.append(f'| `{i}` | {e[i]["type"]} | <{e[i]["locator"]}> | '
+                     f'{res[i]["motivo"]} |')
+        L.append('')
+    if dudosas:
+        L += ['## Metadatos que no casan', '',
+              'El localizador resuelve, pero lo que devuelve la autoridad no '
+              'coincide con lo que dice el registro. Revisar a mano.', '',
+              '| Obra | Motivo |', '|---|---|']
+        for i in sorted(dudosas):
+            L.append(f'| `{i}` | {res[i]["motivo"]} |')
+        L.append('')
+    if cortafuegos:
+        L += ['## Sin verificación automática posible', '',
+              'Estos servidores rechazan al cliente (401/403) o limitan el '
+              'ritmo por IP (429, o la conexión cortada tras varios '
+              'intentos). No es prueba de que la fuente esté rota; tampoco de '
+              'que siga viva. Se dejan como estaban y se listan aquí para que '
+              'quien las mire sepa qué no se pudo comprobar.', '',
+              '| Obra | Estado HTTP | Localizador |', '|---|---:|---|']
+        for i in sorted(cortafuegos):
+            L.append(f'| `{i}` | {res[i]["code"]} | <{e[i]["locator"]}> |')
+        L.append('')
+    if pendientes:
+        L += ['## Huecos declarados en el registro', '',
+              '| Obra | Motivo declarado |', '|---|---|']
+        for i in sorted(pendientes):
+            L.append(f'| `{i}` | {e[i].get("pending_reason", "")} |')
+        L.append('')
+    return '\n'.join(L) + '\n'
+
+
+def main() -> int:
+    seco = '--dry-run' in sys.argv
+    solo = None
+    if '--only' in sys.argv:
+        solo = sys.argv[sys.argv.index('--only') + 1]
+    doc = json.loads(REGISTRO.read_text(encoding='utf-8'))
+    filtro = {'libros': {'book'}, 'articulos': {'paper'},
+              'urls': {'reference', 'standard', 'dataset'}}.get(solo)
+    objetivo = [e for e in doc['entries'] if not filtro or e['type'] in filtro]
+    hoy = date.today().isoformat()
+    t0 = time.time()
+    res: dict[str, dict] = {}
+    with cf.ThreadPoolExecutor(max_workers=HILOS) as ex:
+        for eid, r in ex.map(resolver, objetivo):
+            res[eid] = r
+            marca = '·' if r['ok'] else '✗'
+            print(f'{marca} {r.get("code", 0):4d}  {eid}')
+    print(f'\n{len(res)} comprobadas en {time.time() - t0:.0f} s')
+
+    for e in doc['entries']:
+        r = res.get(e['id'])
+        if not r:
+            continue
+        if r['ok'] and not r.get('cortafuegos'):
+            e['accessed'] = hoy
+            if e['status'] == 'pendiente' and e.get('_auto_pendiente'):
+                e.pop('_auto_pendiente')
+                e.pop('pending_reason', None)
+                e['status'] = 'verificada'
+        elif not r['ok'] and e['status'] == 'verificada':
+            e['status'] = 'pendiente'
+            e['pending_reason'] = (r['motivo'] + ' Detectado por '
+                                   'scripts/refresh-sources el ' + hoy +
+                                   '. La cita se conserva: se marca, no se borra.')
+            e['_auto_pendiente'] = True
+    doc['verified_on'] = hoy
+    texto = informe(doc, res, hoy)
+    if seco:
+        print('\n--dry-run: no se ha escrito nada.\n')
+        print(texto)
+        return 0
+    REGISTRO.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + '\n',
+                        encoding='utf-8', newline='\n')
+    INFORME.write_text(texto, encoding='utf-8', newline='\n')
+    print(f'Escritos {REGISTRO.relative_to(RAIZ)} y {INFORME.relative_to(RAIZ)}.')
+    print('Recuerda regenerar el bloque del README: '
+          'python scripts/verify-sources --write')
+    return 0
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())

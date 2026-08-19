@@ -62,6 +62,29 @@ jobs:
             echo "- Clases construidas: **$(find classes -mindepth 3 -name README.md | wc -l)**"
           } >> "$GITHUB_STEP_SUMMARY"
 
+  fuentes:
+    name: Registro de fuentes
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verificar el registro de fuentes (offline)
+        # Sin red a propósito: si la red entra en un gate que bloquea, el gate
+        # falla por causas ajenas al repositorio y se acaba ignorando. Lo que
+        # sale a la red es scripts/refresh-sources, en su propio workflow y sin
+        # bloquear. Aquí se comprueba que el registro parsea, que cada libro
+        # lleva un ISBN-13 con dígito de control válido, que cada artículo
+        # lleva DOI, que toda fuente citada en una clase está registrada, que
+        # ninguna entrada sobra, que los enlaces al motor apuntan a la versión
+        # anclada y que las cifras del README las produjo este script.
+        run: python scripts/verify-sources
+
   markdown:
     name: Markdown lint
     runs-on: ubuntu-latest
