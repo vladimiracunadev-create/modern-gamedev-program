@@ -15,7 +15,8 @@
 [![Nivel](https://img.shields.io/badge/nivel-fundamentos%20→%20profesional-2e8b57?style=for-the-badge)](classes/README.md)
 [![Idioma](https://img.shields.io/badge/idioma-español-blue?style=for-the-badge)](README.md)
 [![Motores](https://img.shields.io/badge/motores-Godot%20·%20Unity%20·%20Unreal-orange?style=for-the-badge)](classes/README.md)
-[![License](https://img.shields.io/badge/license-MIT-3fb950?style=for-the-badge)](LICENSE)
+[![Código: MIT](https://img.shields.io/badge/c%C3%B3digo-MIT-3fb950?style=for-the-badge)](LICENSE)
+[![Contenido: CC BY--NC--SA 4.0](https://img.shields.io/badge/contenido-CC%20BY--NC--SA%204.0-8b5cf6?style=for-the-badge)](LICENSE-CONTENT.md)
 
 [🌐 Sitio del curso](https://vladimiracunadev-create.github.io/modern-gamedev-program/) · [📚 Clases](classes/README.md) · [🧪 Laboratorios](labs/README.md) · [🧭 Rutas](rutas/README.md) · [📝 Autoevaluación](autoevaluaciones/README.md) · [📖 Glosario](glosario/README.md) · [🗺️ Roadmap](ROADMAP.md)
 
@@ -342,7 +343,28 @@ npx markdownlint-cli2 "**/*.md"
 
 ## 📄 Licencia
 
-[MIT](LICENSE) — úsalo, modifícalo y compártelo. El conocimiento debe ser accesible.
+Este repositorio usa licencias separadas según el tipo de material. Estar dentro
+del repositorio **no convierte automáticamente** un archivo en MIT ni permite
+su uso comercial.
+
+| Material | Puedes copiar y modificar | Uso comercial | Condiciones principales |
+|---|---|---|---|
+| [Código y configuración propios](LICENSE) | Sí | **Sí** | MIT: conserva el aviso de copyright y la licencia |
+| [Currículo, clases, explicaciones, retos y metodología](LICENSE-CONTENT.md) | Sí | **No** bajo la licencia pública | CC BY-NC-SA 4.0: atribuye, indica cambios y comparte adaptaciones igual |
+| Fragmentos de código dentro de las clases | Sí | **Sí** | MIT para el código; la prosa explicativa sigue bajo CC BY-NC-SA 4.0 |
+| [Gráficos y efectos de audio propios](ASSET_LICENSES.md) | Sí | **Sí** | CC0 por las familias registradas; no se presume licencia para assets nuevos |
+| [Dependencias, motores y material de terceros](THIRD_PARTY_NOTICES.md) | Depende del tercero | Depende del tercero | Conservan sus licencias y derechos; este proyecto no los relicencia |
+| [Nombres y marcas](TRADEMARKS.md) | No se conceden derechos de marca | No se conceden | Uso nominativo, sin afiliación ni respaldo |
+
+No se distribuyen música, fuentes ni modelos 3D. El registro de assets lo deja
+expreso para evitar que su ausencia o presencia futura se interprete como una
+licencia. Para permisos comerciales sobre el contenido educativo, contacta al
+titular.
+
+**Derechos anteriores:** las copias y versiones ya publicadas bajo MIT conservan
+la licencia y los permisos ya concedidos. La cronología y el límite verificable están en
+[docs/LICENSING_HISTORY.md](docs/LICENSING_HISTORY.md). Consulta también la
+[auditoría completa](LICENSING_AUDIT.md).
 
 ---
 

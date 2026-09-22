@@ -85,7 +85,8 @@ PLANTILLA = """<!doctype html>
 <style>{css}</style></head><body>
 {body}
 <div class="pie">Programa de Desarrollo de Videojuegos Moderno · {title}<br>
-github.com/vladimiracunadev-create/modern-gamedev-program · Licencia MIT</div>
+Contenido CC BY-NC-SA 4.0 · fragmentos de código MIT ·
+github.com/vladimiracunadev-create/modern-gamedev-program</div>
 </body></html>
 """
 

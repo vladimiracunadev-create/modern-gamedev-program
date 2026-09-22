@@ -5,7 +5,7 @@
   "description": "El Programa de Desarrollo de Videojuegos Moderno, completo y sin conexión: 352 clases en 22 partes.",
   "main": "main.js",
   "license": "MIT",
-  "author": "Vladimir Acuña",
+  "author": "Vladimir Acuña (vladimiracunadev-create)",
   "private": true,
   "scripts": {
     "start": "electron ."

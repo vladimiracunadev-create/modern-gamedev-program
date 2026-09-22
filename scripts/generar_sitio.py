@@ -28,6 +28,8 @@ OUT = os.path.join(ROOT, "site")
 # queda corta el día que alguien añade un lab o una ruta, y el sitio publica un
 # enlace roto sin que nada falle.
 FIJOS_TOP = ["README.md", "ROADMAP.md", "CONTRIBUTING.md", "SECURITY.md",
+             "LICENSE-CONTENT.md", "ASSET_LICENSES.md",
+             "THIRD_PARTY_NOTICES.md", "TRADEMARKS.md", "LICENSING_AUDIT.md",
              "rutas/README.md", "autoevaluaciones/README.md",
              "glosario/README.md", "app/README.md"]
 PATRONES_TOP = ["labs/README.md", "labs/*/README.md", "rutas/*.md", "docs/*.md"]
@@ -314,7 +316,7 @@ def escribir_landing() -> None:
     <a class="btn btn-2" href="buscar.html">🔎 Buscar</a>
   </div>
 </header>
-<div class="aviso"><div class="wrap">🕹️ Curso abierto (MIT) · <b>{total_hechas} clases en {len(PLAN)} partes</b> · con <a href="labs/README.html">laboratorios Godot ejecutables</a> verificados en CI.</div></div>
+<div class="aviso"><div class="wrap">🕹️ Contenido CC BY-NC-SA 4.0 · código MIT · <b>{total_hechas} clases en {len(PLAN)} partes</b> · con <a href="labs/README.html">laboratorios Godot ejecutables</a> verificados en CI.</div></div>
 <main class="wrap">
   <div class="stats">{stats_html}</div>
   <h2 class="sec">Qué incluye</h2>
@@ -323,8 +325,9 @@ def escribir_landing() -> None:
   <div class="parts">{parts_html}</div>
 </main>
 <footer><div class="wrap">
-  Programa de Desarrollo de Videojuegos Moderno · {total_hechas} clases listas · licencia
-  <a href="https://github.com/vladimiracunadev-create/modern-gamedev-program">MIT en GitHub</a><br>
+  Programa de Desarrollo de Videojuegos Moderno · {total_hechas} clases listas ·
+  <a href="LICENSE-CONTENT.html">contenido CC BY-NC-SA 4.0</a> ·
+  <a href="LICENSE">código MIT</a><br>
   <a href="classes/README.html">Índice de clases</a> · <a href="ROADMAP.html">Roadmap</a>
 </div></footer>
 """
@@ -511,6 +514,12 @@ def main() -> int:
         os.makedirs(destino_manual, exist_ok=True)
         shutil.copyfile(manual_pdf, os.path.join(destino_manual, "MANUAL.pdf"))
         generados += 1
+
+    # El código MIT enlaza al archivo LICENSE sin extensión Markdown. Se copia
+    # literalmente para que el mismo enlace funcione también en GitHub Pages.
+    license_code = os.path.join(ROOT, "LICENSE")
+    if os.path.isfile(license_code):
+        shutil.copyfile(license_code, os.path.join(OUT, "LICENSE"))
 
     # Todo el árbol de classes/.
     for cur, _, files in os.walk(os.path.join(ROOT, "classes")):

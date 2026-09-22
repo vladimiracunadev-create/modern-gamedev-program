@@ -1,6 +1,6 @@
 # 🤝 Guía de contribución
 
-¡Gracias por tu interés en mejorar el **Programa de Desarrollo de Videojuegos Moderno**! Este es un currículo abierto (MIT) y las contribuciones son bienvenidas: correcciones, mejoras a las clases, nuevos laboratorios o avance del roadmap.
+¡Gracias por tu interés en mejorar el **Programa de Desarrollo de Videojuegos Moderno**! Las contribuciones son bienvenidas: correcciones, mejoras a las clases, nuevos laboratorios o avance del roadmap. El código se publica bajo MIT, el contenido educativo bajo CC BY-NC-SA 4.0 y cada asset bajo la licencia registrada en [`ASSET_LICENSES.md`](ASSET_LICENSES.md). Al contribuir, confirmas que tienes derecho a aportar el material bajo la licencia aplicable.
 
 ## 🧭 Antes de empezar
 
@@ -36,6 +36,7 @@ Toda clase debe incluir estas secciones, en este orden:
 - **Español neutro y técnico.** Explica el *porqué*, no solo el *cómo*.
 - **Código real y correcto.** En la Parte 1 usa la API de **Godot 4** (`CharacterBody2D`, `velocity`, `move_and_slide()` sin argumentos, `is_on_floor()`). Nunca API de Godot 3 (`KinematicBody2D`, `move_and_slide(velocity)`).
 - **Contenido original.** No copies texto de libros ni de la documentación; cítalos como referencia.
+- **Licencia y procedencia.** Todo asset nuevo necesita una fila en [`ASSET_LICENSES.md`](ASSET_LICENSES.md) con autoría, fuente, licencia y evidencia. La presencia del archivo o que sea gratuito no bastan. Las dependencias nuevas deben registrarse en [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 - **Toda fuente citada va en el registro.** Nada entra en un bloque `## 🔗 Referencias` sin su entrada en [`sources/bibliography.json`](sources/bibliography.json), con localizador resoluble: ISBN-13 para libros, DOI para artículos, URL https de la fuente primaria para normas y documentación. Lo que no resuelvas se marca `"status": "pendiente"` con su motivo — **nunca se inventa un ISBN, un DOI o una fecha, y nunca se borra una fuente que no resuelve**. Cómo hacerlo: [`sources/README.md`](sources/README.md).
 - **La documentación del motor va anclada a versión.** Godot **4.3** y Blender **4.2 LTS**, nunca `/en/stable` ni `/latest`: esos alias se mueven solos y dejan al programa citando una versión que nunca enseñó. `verify-sources` falla si reaparecen.
 - **Sin binarios pesados en Git.** Usa Git LFS para arte, audio y modelos (ver [`.gitattributes`](.gitattributes) y la Clase 015).

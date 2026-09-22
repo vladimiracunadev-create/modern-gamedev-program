@@ -1,6 +1,12 @@
-MIT License
+MIT License — código propio
 
-Copyright (c) 2026 Vladimir Acuña
+Esta licencia se aplica únicamente al código fuente y a la configuración propia
+del repositorio. El contenido educativo, los assets y el material de terceros
+tienen términos distintos; consulte LICENSE-CONTENT.md, ASSET_LICENSES.md y
+THIRD_PARTY_NOTICES.md. Las concesiones MIT históricas se conservan según
+docs/LICENSING_HISTORY.md.
+
+Copyright (c) 2026 Vladimir Acuña (vladimiracunadev-create)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

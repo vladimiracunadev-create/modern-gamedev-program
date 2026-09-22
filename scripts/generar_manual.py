@@ -89,7 +89,10 @@ def construir_markdown() -> str:
         "# Manual completo — Desarrollo de Videojuegos Moderno",
         "",
         f"*{total} clases · {len(lista)} partes · de fundamentos a nivel profesional*  ",
-        "*github.com/vladimiracunadev-create/modern-gamedev-program · Licencia MIT*",
+        "*github.com/vladimiracunadev-create/modern-gamedev-program*  ",
+        "*© 2026 Vladimir Acuña / vladimiracunadev-create*  ",
+        "*Contenido: CC BY-NC-SA 4.0 · fragmentos de código: MIT · "
+        "creativecommons.org/licenses/by-nc-sa/4.0/*",
         "",
         "[TOC]",
         "",
